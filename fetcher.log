@@ -774,3 +774,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 00:54:36] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-10 00:54:40] INFO root fetch - main [MainThread]: End processing [canvas-workflow-kit]: success
 [2023-05-10 00:54:40] INFO root fetch - main [MainThread]: Store serial: [18038416]
+[2023-05-10 00:59:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038416]
+[2023-05-10 00:59:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Hunabku-siiu
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: k1lib
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pythonbible
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-dsv-sdk
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huma-signals
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aws-flask-lambda-swagger-ui
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: galois
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nsdotpy
+[2023-05-10 00:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pysparkler
+[2023-05-10 00:59:49] INFO root fetch - processPackages [Hunabku-siiu]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [python-dsv-sdk]: New version: [1.0.4] Old Version: [1.0.1]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pythonbible]: New version: [0.9.1] Old Version: [0.9]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1683673164] Old Version: [0.7.dev1683593394]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [huma-signals]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 00:59:49] WARNING root fetch - processPackages [aws-flask-lambda-swagger-ui]: Skipping, unable to determine old version
+[2023-05-10 00:59:49] INFO root fetch - main [MainThread]: End processing [aws-flask-lambda-swagger-ui] error
+[2023-05-10 00:59:49] INFO root fetch - processPackages [k1lib]: New version: [1.3.7] Old Version: [1.3.6.5]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [nsdotpy]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [galois]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pythonbible]: Downloading https://files.pythonhosted.org/packages/9d/fd/29ca981f6b5a098a525905fba6c6537e24cfc09f81753f7c526fd3b9d6d5/pythonbible-0.9.tar.gz
+[2023-05-10 00:59:49] WARNING root fetch - processPackages [pythonbible]: Skipping package: exceeds size limit 19656452>=10485760
+[2023-05-10 00:59:49] INFO root fetch - main [MainThread]: End processing [pythonbible] error
+[2023-05-10 00:59:49] INFO root fetch - processPackages [python-dsv-sdk]: Downloading https://files.pythonhosted.org/packages/d2/0a/67df24b2216a0e1a1119df3a0ae8789c26af80a1dc03d0768f1ef9a3aafb/python-dsv-sdk-1.0.1.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [galois]: Downloading https://files.pythonhosted.org/packages/33/0e/7bfc3c34d0eecf8cab1388d3a3695fcd0e0aa0315bd68cad0df660e18aa7/galois-0.3.4.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/dc/e1/e8f72a4a1a84baf14d85106d26d58a5cdf918f67ecfd7de326ff84cd69d4/pysparkler-0.7.dev1683673164.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/45/1f/fd18a53f75cfb3c15ee5742fdea18b564a68fa9c53a206ccb530e03432f9/nsdotpy-1.2.4.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [Hunabku-siiu]: Downloading https://files.pythonhosted.org/packages/f4/a3/44e212677f67d3b9c042ebd97b7ef71478586fec874f2e3bf6926d89b5e6/Hunabku_siiu-0.0.4.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-05-10 00:59:49] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.7.dev1683593394.tar.gz tmp/pysparkler-0.7.dev1683673164.tar.gz --markdown 20230510/p/pysparkler/0.7.dev1683593394-0.7.dev1683673164/diff.md --exclude *.pyd
+[2023-05-10 00:59:49] INFO root fetch - processPackages [k1lib]: Downloading https://files.pythonhosted.org/packages/0e/9c/9c015f51a1a299842a5088a30737e723f1a29608260b2a4134aa6f8a19d9/k1lib-1.3.7-py3-none-any.whl
+[2023-05-10 00:59:49] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/fc/39/c600cc855e67d65edb69864804e36699174e495935a1d225d1b258a69703/huma_signals-0.1.3.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [python-dsv-sdk]: Downloading https://files.pythonhosted.org/packages/32/ce/7dac17008d380d1a8ad5f55cb905eb63677d426c1c8904f981d39061b417/python-dsv-sdk-1.0.4.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/98/23/a119a58cb8fa3b96f1dcc068aa1ac2e78f812f856bf73a1b99503b8e7455/nsdotpy-1.2.5.tar.gz
+[2023-05-10 00:59:49] INFO root fetch - processPackages [Hunabku-siiu]: executing diffoscope
+[2023-05-10 00:59:49] INFO root fetch - processPackages [Hunabku-siiu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Hunabku_siiu-0.0.3.tar.gz tmp/Hunabku_siiu-0.0.4.tar.gz --markdown 20230510/H/Hunabku-siiu/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 00:59:49] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-05-10 00:59:49] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.1.2.tar.gz tmp/huma_signals-0.1.3.tar.gz --markdown 20230510/h/huma-signals/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 00:59:50] INFO root fetch - processPackages [python-dsv-sdk]: executing diffoscope
+[2023-05-10 00:59:50] INFO root fetch - processPackages [python-dsv-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-dsv-sdk-1.0.1.tar.gz tmp/python-dsv-sdk-1.0.4.tar.gz --markdown 20230510/p/python-dsv-sdk/1.0.1-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 00:59:50] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-05-10 00:59:50] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.2.4.tar.gz tmp/nsdotpy-1.2.5.tar.gz --markdown 20230510/n/nsdotpy/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-10 00:59:50] INFO root fetch - processPackages [k1lib]: executing diffoscope
+[2023-05-10 00:59:50] INFO root fetch - processPackages [k1lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/k1lib-1.3.6.5-py3-none-any.whl.zip tmp/k1lib-1.3.7-py3-none-any.whl.zip --markdown 20230510/k/k1lib/1.3.6.5-1.3.7/diff.md --exclude *.pyd
+[2023-05-10 00:59:50] INFO root fetch - processPackages [galois]: Downloading https://files.pythonhosted.org/packages/1e/3b/ff0d7327176dc2e5c8562c057fc9fb75f2af568faaf4fe3efc06cf8728ad/galois-0.3.5.tar.gz
+[2023-05-10 00:59:50] INFO root fetch - main [MainThread]: End processing [Hunabku-siiu]: success
+[2023-05-10 00:59:50] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-05-10 00:59:51] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-05-10 00:59:51] INFO root fetch - main [MainThread]: End processing [python-dsv-sdk]: success
+[2023-05-10 00:59:51] INFO root fetch - processPackages [galois]: executing diffoscope
+[2023-05-10 00:59:51] INFO root fetch - processPackages [galois]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/galois-0.3.4.tar.gz tmp/galois-0.3.5.tar.gz --markdown 20230510/g/galois/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-05-10 00:59:51] INFO root fetch - main [MainThread]: End processing [k1lib]: success
+[2023-05-10 00:59:51] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-05-10 01:00:13] INFO root fetch - main [MainThread]: End processing [galois]: success
+[2023-05-10 01:00:13] INFO root fetch - main [MainThread]: Store serial: [18038448]
