@@ -921,3 +921,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:05:25] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
 [2023-05-10 01:05:34] INFO root fetch - main [MainThread]: End processing [amazon-textract-idp-cdk-constructs]: success
 [2023-05-10 01:05:34] INFO root fetch - main [MainThread]: Store serial: [18038501]
+[2023-05-10 01:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038501]
+[2023-05-10 01:10:43] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discovery-transition-ds
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-review
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aistac-foundation
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-roborock
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huma-signals
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petals
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torch-utilities
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LTB-Symm
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iambic-core
+[2023-05-10 01:10:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: volttron-lib-sql-historian
+[2023-05-10 01:10:43] INFO root fetch - processPackages [huma-signals]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [aistac-foundation]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-10 01:10:43] WARNING root fetch - processPackages [LTB-Symm]: Skipping, unable to determine old version
+[2023-05-10 01:10:43] INFO root fetch - processPackages [LTB-Symm]: Start processing: aws-flask-lambda-swagger-ui
+[2023-05-10 01:10:43] INFO root fetch - processPackages [gpt-review]: New version: [0.8.0rc597.post1] Old Version: [0.8.0rc591.post1]
+[2023-05-10 01:10:43] INFO root fetch - main [MainThread]: End processing [LTB-Symm] error
+[2023-05-10 01:10:43] INFO root fetch - processPackages [discovery-transition-ds]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [torch-utilities]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [petals]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-05-10 01:10:43] WARNING root fetch - processPackages [aws-flask-lambda-swagger-ui]: Skipping, unable to determine old version
+[2023-05-10 01:10:43] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-05-10 01:10:43] INFO root fetch - main [MainThread]: End processing [aws-flask-lambda-swagger-ui] error
+[2023-05-10 01:10:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.311] Old Version: [0.3.310]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-10 01:10:43] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230510/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-10 01:10:43] INFO root fetch - processPackages [volttron-lib-sql-historian]: New version: [0.2.0rc0] Old Version: [0.1.1a8]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [iambic-core]: New version: [0.7.1] Old Version: [0.6.3]
+[2023-05-10 01:10:43] INFO root fetch - processPackages [aistac-foundation]: Downloading https://files.pythonhosted.org/packages/e9/ad/d0d844b4f35250063b74d3b41f9f043c0ff8d4dd55f91e7331fbfb4a31e6/aistac-foundation-2.9.6.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [torch-utilities]: Downloading https://files.pythonhosted.org/packages/3f/a6/f9f9d40273a6e7b782ff758a88087bcfb11e11c8ec398d15ae6afb59d249/torch_utilities-1.0.3.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [huma-signals]: Downloading https://files.pythonhosted.org/packages/8b/71/e9ab945503ed1342a15d10b6b08b882d7fbfb4278e6a49c3d675d3e9d3bf/huma_signals-0.1.4.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [volttron-lib-sql-historian]: Downloading https://files.pythonhosted.org/packages/3f/59/a8756369bbbf2ebdd0f27a4c4de061b553ba6f2ad49144a12a3f77d7f4de/volttron_lib_sql_historian-0.1.1a8.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/68/bc/7d5e712b019c53e5c6b6dbe16323b288f3c8c3ec825be2820635bf80cc65/petals-1.1.4.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/9a/1e/e760db1622594446b1eebf8f750db1945792e85fd2a2deca0329b48e630c/gpt-review-0.8.0rc591.post1.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-05-10 01:10:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.310.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.311.tar.gz --markdown 20230510/p/pepperize.cdk-ses-smtp-credentials/0.3.310-0.3.311/diff.md --exclude *.pyd
+[2023-05-10 01:10:43] INFO root fetch - processPackages [discovery-transition-ds]: executing diffoscope
+[2023-05-10 01:10:43] INFO root fetch - processPackages [discovery-transition-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discovery-transition-ds-4.9.8.tar.gz tmp/discovery-transition-ds-4.9.9.tar.gz --markdown 20230510/d/discovery-transition-ds/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-05-10 01:10:43] INFO root fetch - processPackages [huma-signals]: executing diffoscope
+[2023-05-10 01:10:43] INFO root fetch - processPackages [huma-signals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huma_signals-0.1.3.tar.gz tmp/huma_signals-0.1.4.tar.gz --markdown 20230510/h/huma-signals/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 01:10:43] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/92/70/f61a675a07ddc7ede2abe9464e36a8300a9e4eb9d0221376889e3f36e163/iambic_core-0.7.1.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [volttron-lib-sql-historian]: Downloading https://files.pythonhosted.org/packages/d4/06/e34822a34bcacd0cdfe831e4316aa30b55207fcefe99803977d46380e7a4/volttron_lib_sql_historian-0.2.0rc0.tar.gz
+[2023-05-10 01:10:43] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-05-10 01:10:43] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.6.3.tar.gz tmp/iambic_core-0.7.1.tar.gz --markdown 20230510/i/iambic-core/0.6.3-0.7.1/diff.md --exclude *.pyd
+[2023-05-10 01:10:44] INFO root fetch - processPackages [gpt-review]: Downloading https://files.pythonhosted.org/packages/8f/be/5d75c8e4fc0e6b4c84ffd2c459fa3333a0a2f68c164e178c3a92e64feb44/gpt-review-0.8.0rc597.post1.tar.gz
+[2023-05-10 01:10:44] INFO root fetch - processPackages [petals]: Downloading https://files.pythonhosted.org/packages/3b/3e/47fa59bf2a40221fd9993b3c11e770f3d84c98c0015046c92531f07a3d9b/petals-1.1.5.tar.gz
+[2023-05-10 01:10:44] INFO root fetch - processPackages [torch-utilities]: Downloading https://files.pythonhosted.org/packages/15/82/8ad5b74bf71b9a72f90ebef3443ae52d10f22329df3abdec2bb00825d927/torch_utilities-1.0.4.tar.gz
+[2023-05-10 01:10:44] INFO root fetch - processPackages [volttron-lib-sql-historian]: executing diffoscope
+[2023-05-10 01:10:44] INFO root fetch - processPackages [volttron-lib-sql-historian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_lib_sql_historian-0.1.1a8.tar.gz tmp/volttron_lib_sql_historian-0.2.0rc0.tar.gz --markdown 20230510/v/volttron-lib-sql-historian/0.1.1a8-0.2.0rc0/diff.md --exclude *.pyd
+[2023-05-10 01:10:44] INFO root fetch - processPackages [petals]: executing diffoscope
+[2023-05-10 01:10:44] INFO root fetch - processPackages [petals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petals-1.1.4.tar.gz tmp/petals-1.1.5.tar.gz --markdown 20230510/p/petals/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-05-10 01:10:44] INFO root fetch - processPackages [torch-utilities]: executing diffoscope
+[2023-05-10 01:10:44] INFO root fetch - processPackages [torch-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_utilities-1.0.3.tar.gz tmp/torch_utilities-1.0.4.tar.gz --markdown 20230510/t/torch-utilities/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 01:10:44] INFO root fetch - processPackages [gpt-review]: executing diffoscope
+[2023-05-10 01:10:44] INFO root fetch - processPackages [gpt-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-review-0.8.0rc591.post1.tar.gz tmp/gpt-review-0.8.0rc597.post1.tar.gz --markdown 20230510/g/gpt-review/0.8.0rc591.post1-0.8.0rc597.post1/diff.md --exclude *.pyd
+[2023-05-10 01:10:44] INFO root fetch - processPackages [aistac-foundation]: Downloading https://files.pythonhosted.org/packages/57/f1/970e08b6986af04d413b219e4f62ffbd2e6fd9cf42a0690aca7de90bd4be/aistac-foundation-2.9.7.tar.gz
+[2023-05-10 01:10:44] INFO root fetch - processPackages [aistac-foundation]: executing diffoscope
+[2023-05-10 01:10:44] INFO root fetch - processPackages [aistac-foundation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aistac-foundation-2.9.6.tar.gz tmp/aistac-foundation-2.9.7.tar.gz --markdown 20230510/a/aistac-foundation/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-05-10 01:10:45] INFO root fetch - processPackages [python-roborock]: Start processing: fsst
+[2023-05-10 01:10:45] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-10 01:10:45] INFO root fetch - processPackages [fsst]: New version: [0.8.5] Old Version: [0.8.4]
+[2023-05-10 01:10:45] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-05-10 01:10:45] INFO root fetch - main [MainThread]: End processing [volttron-lib-sql-historian]: success
+[2023-05-10 01:10:45] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/6d/99/6ffd17e4982013a0889e5e0ebaf495efa3e625bd2efba2e05b428cc6762e/fsst-0.8.5.tar.gz
+[2023-05-10 01:10:45] INFO root fetch - processPackages [fsst]: executing diffoscope
+[2023-05-10 01:10:45] INFO root fetch - processPackages [fsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsst-0.8.4.tar.gz tmp/fsst-0.8.5.tar.gz --markdown 20230510/f/fsst/0.8.4-0.8.5/diff.md --exclude *.pyd
+[2023-05-10 01:10:45] INFO root fetch - main [MainThread]: End processing [aistac-foundation]: success
+[2023-05-10 01:10:46] INFO root fetch - main [MainThread]: End processing [huma-signals]: success
+[2023-05-10 01:10:46] INFO root fetch - main [MainThread]: End processing [petals]: success
+[2023-05-10 01:10:46] INFO root fetch - main [MainThread]: End processing [gpt-review]: success
+[2023-05-10 01:10:46] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-05-10 01:10:46] INFO root fetch - main [MainThread]: End processing [torch-utilities]: success
+[2023-05-10 01:10:47] INFO root fetch - main [MainThread]: End processing [fsst]: success
+[2023-05-10 01:10:47] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
+[2023-05-10 01:10:47] INFO root fetch - main [MainThread]: Store serial: [18038542]
