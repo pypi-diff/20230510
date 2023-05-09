@@ -115,3 +115,102 @@
 [2023-05-10 00:06:09] INFO root fetch - main [MainThread]: End processing [pandera]: success
 [2023-05-10 00:06:10] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
 [2023-05-10 00:06:10] INFO root fetch - main [MainThread]: Store serial: [18038006]
+[2023-05-10 00:11:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038006]
+[2023-05-10 00:11:19] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anastasia-logging
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: couchbase
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openstudio
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotPython
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indiek-mockdb
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aphos-openapi
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rgb-colorizer
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rcsb.db
+[2023-05-10 00:11:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faker-file
+[2023-05-10 00:11:19] INFO root fetch - processPackages [spotPython]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [aphos-openapi]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [rgb-colorizer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [anastasia-logging]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [openstudio]: New version: [3.6.0] Old Version: [3.5.1]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-05-10 00:11:19] INFO root fetch - processPackages [indiek-mockdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.0.8.tar.gz tmp/spotPython-0.0.9.tar.gz --markdown 20230510/s/spotPython/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 00:11:19] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-05-10 00:11:19] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230510/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 00:11:19] INFO root fetch - processPackages [rcsb.db]: New version: [1.710] Old Version: [1.709]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [couchbase]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 00:11:19] ERROR root fetch - processPackages [rgb-colorizer]: Unable to fetch info: No such project/version 'rgb-colorizer' 0.0.4
+[2023-05-10 00:11:19] INFO root fetch - processPackages [rgb-colorizer]: Start processing: vellum-ai
+[2023-05-10 00:11:19] INFO root fetch - main [MainThread]: End processing [rgb-colorizer] error
+[2023-05-10 00:11:19] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/27/9f/bc96c796eaa52ebaafc58e5abd3fdb1fded87525762dfb05a079d8055307/anastasia_logging-1.0.0.tar.gz
+[2023-05-10 00:11:19] INFO root fetch - processPackages [aphos-openapi]: Downloading https://files.pythonhosted.org/packages/3c/5a/2fa5a89b27fd93a1600b5c53c225ae68b16da8ef9824b291a22f7670619b/aphos_openapi-2.5.1.tar.gz
+[2023-05-10 00:11:19] INFO root fetch - processPackages [vellum-ai]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-05-10 00:11:19] INFO root fetch - processPackages [openstudio]: Downloading https://files.pythonhosted.org/packages/d1/b9/24dcde89d3dcb7c332f7b094fc7819302ce3dfd928403b6491c98b70a903/openstudio-3.5.1-py3-none-manylinux1_x86_64.whl
+[2023-05-10 00:11:20] INFO root fetch - processPackages [couchbase]: Downloading https://files.pythonhosted.org/packages/65/16/07a5cc49c60a32c5477bbb1c440856aa02205083aa8961f263eaf2c9f4ad/couchbase-4.1.3.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [rcsb.db]: Downloading https://files.pythonhosted.org/packages/fe/d1/79bfb9b2a3c3578d96d3690ea020dadb8d7469b6e526c1b22c5e6b4b427d/rcsb.db-1.709.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [aphos-openapi]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [aphos-openapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aphos_openapi-2.5.0.tar.gz tmp/aphos_openapi-2.5.1.tar.gz --markdown 20230510/a/aphos-openapi/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] WARNING root fetch - processPackages [openstudio]: Skipping package: exceeds size limit 72925384>=10485760
+[2023-05-10 00:11:20] INFO root fetch - processPackages [openstudio]: Start processing: onefuzz
+[2023-05-10 00:11:20] INFO root fetch - main [MainThread]: End processing [openstudio] error
+[2023-05-10 00:11:20] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/02/ad/259b1a1f50a4552fdd7093173b5928eb984730c82722119b4ba3dd454faf/vellum_ai-0.0.6.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [indiek-mockdb]: Downloading https://files.pythonhosted.org/packages/c0/e6/9a72eacc06beb7716ceca8ed52877fda4886fd95709e34d8b589be6e75ea/indiek-mockdb-0.1.3.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [onefuzz]: New version: [8.1.0] Old Version: [8.0.0]
+[2023-05-10 00:11:20] INFO root fetch - processPackages [anastasia-logging]: Downloading https://files.pythonhosted.org/packages/25/85/18004f58976866ccf55b18092b332b6f8956c5e44bea6b570a5b5772df26/anastasia_logging-1.1.0.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230510/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] INFO root fetch - processPackages [couchbase]: Downloading https://files.pythonhosted.org/packages/33/34/2b7b85e84033e14f3f414f0f31071330369356beea948ab81775d8496b48/couchbase-4.1.4-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl
+[2023-05-10 00:11:20] INFO root fetch - processPackages [indiek-mockdb]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [indiek-mockdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indiek-mockdb-0.1.2.tar.gz tmp/indiek-mockdb-0.1.3.tar.gz --markdown 20230510/i/indiek-mockdb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] INFO root fetch - processPackages [vellum-ai]: Downloading https://files.pythonhosted.org/packages/bf/dd/32c7032684f9a5a1f674df7ecde3a8233288ceabb0a92b3725c41308240c/vellum_ai-0.0.8.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [rcsb.db]: Downloading https://files.pythonhosted.org/packages/f6/b3/696a47b404d77759b96c98b8cca44ff8af543ad038be897eeca86af0f642/rcsb.db-1.710.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [onefuzz]: Downloading https://files.pythonhosted.org/packages/de/b7/e8cc2e386e11f422aa369ccf143bf983d44827ce030fc7b6e0d11539c5f8/onefuzz-8.0.0.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [anastasia-logging]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [anastasia-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anastasia_logging-1.0.0.tar.gz tmp/anastasia_logging-1.1.0.tar.gz --markdown 20230510/a/anastasia-logging/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] WARNING root fetch - processPackages [couchbase]: Skipping package: exceeds size limit 75546538>=10485760
+[2023-05-10 00:11:20] INFO root fetch - processPackages [couchbase]: Start processing: neon-mana-utils
+[2023-05-10 00:11:20] INFO root fetch - main [MainThread]: End processing [couchbase] error
+[2023-05-10 00:11:20] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.0.5a6] Old Version: [0.0.5a5]
+[2023-05-10 00:11:20] INFO root fetch - processPackages [vellum-ai]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [vellum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vellum_ai-0.0.6.tar.gz tmp/vellum_ai-0.0.8.tar.gz --markdown 20230510/v/vellum-ai/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] INFO root fetch - processPackages [rcsb.db]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [rcsb.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rcsb.db-1.709.tar.gz tmp/rcsb.db-1.710.tar.gz --markdown 20230510/r/rcsb.db/1.709-1.710/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mana_utils-0.0.5a5-py3-none-any.whl.zip tmp/neon_mana_utils-0.0.5a6-py3-none-any.whl.zip --markdown 20230510/n/neon-mana-utils/0.0.5a5-0.0.5a6/diff.md --exclude *.pyd
+[2023-05-10 00:11:20] INFO root fetch - processPackages [onefuzz]: Downloading https://files.pythonhosted.org/packages/83/b2/0507d7c04c179a0da1ca7d97bf5a78a3c32d364f8441a9752a20aa4c5db6/onefuzz-8.1.0.tar.gz
+[2023-05-10 00:11:20] INFO root fetch - processPackages [onefuzz]: executing diffoscope
+[2023-05-10 00:11:20] INFO root fetch - processPackages [onefuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onefuzz-8.0.0.tar.gz tmp/onefuzz-8.1.0.tar.gz --markdown 20230510/o/onefuzz/8.0.0-8.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:11:21] INFO root fetch - processPackages [indiek-mockdb]: Start processing: onefuzztypes
+[2023-05-10 00:11:21] INFO root fetch - main [MainThread]: End processing [indiek-mockdb]: success
+[2023-05-10 00:11:21] INFO root fetch - processPackages [onefuzztypes]: New version: [8.1.0] Old Version: [8.0.0]
+[2023-05-10 00:11:21] INFO root fetch - processPackages [anastasia-logging]: Start processing: kolibri-ml
+[2023-05-10 00:11:21] INFO root fetch - main [MainThread]: End processing [anastasia-logging]: success
+[2023-05-10 00:11:21] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-05-10 00:11:21] INFO root fetch - processPackages [spotPython]: Start processing: GnuChanGUI
+[2023-05-10 00:11:21] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-05-10 00:11:21] INFO root fetch - processPackages [onefuzztypes]: Downloading https://files.pythonhosted.org/packages/b7/73/637af6f20e5ca0ceeafc2729975202481c67ed3bab817c79b36666960849/onefuzztypes-8.0.0.tar.gz
+[2023-05-10 00:11:21] WARNING root fetch - processPackages [GnuChanGUI]: Skipping, unable to determine old version
+[2023-05-10 00:11:21] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-05-10 00:11:21] INFO root fetch - processPackages [GnuChanGUI]: Start processing: pycolouringsV1
+[2023-05-10 00:11:21] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.7-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230510/k/kolibri-ml/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-05-10 00:11:21] INFO root fetch - main [MainThread]: End processing [GnuChanGUI] error
+[2023-05-10 00:11:22] INFO root fetch - processPackages [neon-mana-utils]: Start processing: rdkit-stubs
+[2023-05-10 00:11:22] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2023-05-10 00:11:22] ERROR root fetch - processPackages [pycolouringsV1]: Unable to get metadata: No such project 'pycolouringsV1'
+[2023-05-10 00:11:22] INFO root fetch - main [MainThread]: End processing [pycolouringsV1] error
+[2023-05-10 00:11:22] WARNING root fetch - processPackages [rdkit-stubs]: Skipping, unable to determine old version
+[2023-05-10 00:11:22] INFO root fetch - main [MainThread]: End processing [rdkit-stubs] error
+[2023-05-10 00:11:22] INFO root fetch - processPackages [onefuzztypes]: Downloading https://files.pythonhosted.org/packages/0c/7e/ae09bd0739c45692bf6d3fbd2e0139c8f36024d77173c8d443c359d848c5/onefuzztypes-8.1.0.tar.gz
+[2023-05-10 00:11:22] INFO root fetch - processPackages [onefuzztypes]: executing diffoscope
+[2023-05-10 00:11:22] INFO root fetch - processPackages [onefuzztypes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onefuzztypes-8.0.0.tar.gz tmp/onefuzztypes-8.1.0.tar.gz --markdown 20230510/o/onefuzztypes/8.0.0-8.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:11:22] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-05-10 00:11:22] INFO root fetch - main [MainThread]: End processing [vellum-ai]: success
+[2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [onefuzztypes]: success
+[2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [onefuzz]: success
+[2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [aphos-openapi]: success
+[2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [rcsb.db]: success
+[2023-05-10 00:11:29] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-05-10 00:11:29] INFO root fetch - main [MainThread]: Store serial: [18038081]
