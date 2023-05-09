@@ -214,3 +214,83 @@
 [2023-05-10 00:11:23] INFO root fetch - main [MainThread]: End processing [rcsb.db]: success
 [2023-05-10 00:11:29] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-05-10 00:11:29] INFO root fetch - main [MainThread]: Store serial: [18038081]
+[2023-05-10 00:16:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038081]
+[2023-05-10 00:16:38] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: virtru-sdk
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pib
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: strictdoc
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aug-pd-cdk
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pycolouringsV1
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: syscolourkitsV2
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hledger-args
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-core-tracing-opencensus
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hnxwidget
+[2023-05-10 00:16:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: syscolourkitsV2
+[2023-05-10 00:16:39] INFO root fetch - processPackages [virtru-sdk]: New version: [2.7.0b2137] Old Version: [2.7.0a1326]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [azure-core-tracing-opencensus]: New version: [1.0.0b9] Old Version: [1.0.0b8]
+[2023-05-10 00:16:39] WARNING root fetch - processPackages [pib]: Skipping, unable to determine old version
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pib]: Start processing: spotON_sdk
+[2023-05-10 00:16:39] INFO root fetch - main [MainThread]: End processing [pib] error
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [strictdoc]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pycolouringsV1]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [hnxwidget]: New version: [0.1.1b3] Old Version: [0.1.1b1]
+[2023-05-10 00:16:39] WARNING root fetch - processPackages [hledger-args]: Skipping, unable to determine old version
+[2023-05-10 00:16:39] INFO root fetch - processPackages [aug-pd-cdk]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [hledger-args]: Start processing: tsuchinoko
+[2023-05-10 00:16:39] INFO root fetch - main [MainThread]: End processing [hledger-args] error
+[2023-05-10 00:16:39] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.3.4] Old Version: [0.0.3.3]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [virtru-sdk]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [virtru-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtru_sdk-2.7.0a1326-cp39-cp39-win_amd64.whl.zip tmp/virtru_sdk-2.7.0b2137-cp39-cp39-win_amd64.whl.zip --markdown 20230510/v/virtru-sdk/2.7.0a1326-2.7.0b2137/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: Downloading https://files.pythonhosted.org/packages/7c/f4/4609b270271d14b0930e75506c6955ceae7ac15a640dc7c88d221c0ee320/syscolourkitsV2-1.0.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: Downloading https://files.pythonhosted.org/packages/7c/f4/4609b270271d14b0930e75506c6955ceae7ac15a640dc7c88d221c0ee320/syscolourkitsV2-1.0.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [strictdoc]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [strictdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strictdoc-0.0.8.tar.gz tmp/strictdoc-0.0.9.tar.gz --markdown 20230510/s/strictdoc/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [azure-core-tracing-opencensus]: Downloading https://files.pythonhosted.org/packages/64/9d/c910fecf8ef52cc335b27b12b8a17b999ce1ca5dd18376d5351510f1fc98/azure-core-tracing-opencensus-1.0.0b8.zip
+[2023-05-10 00:16:39] INFO root fetch - processPackages [tsuchinoko]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pycolouringsV1]: Downloading https://files.pythonhosted.org/packages/7b/4c/63d5974619aa4a480a3db18634a2eb225a53c78fad3c211f73f089221f0a/pycolouringsV1-1.0.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [aug-pd-cdk]: Downloading https://files.pythonhosted.org/packages/c0/a8/dbf86cc1d24919681363889816c53863628306e62b4d4d1f473c6c06a0c2/aug_pd_cdk-0.0.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/8f/c9/20c5d6a019b92e48169605acc058f6eaef7fc6953784dc3847765fa6021e/spotON_sdk-0.0.3.4.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [hnxwidget]: Downloading https://files.pythonhosted.org/packages/44/32/b625a37a625368742f33f4415f8646c9b8704a14c88dac8d48824d721191/hnxwidget-0.1.1b1.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.3.3.tar.gz tmp/spotON_sdk-0.0.3.4.tar.gz --markdown 20230510/s/spotON_sdk/0.0.3.3-0.0.3.4/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: Downloading https://files.pythonhosted.org/packages/46/d3/525fe466ddd31edffd85055ba529ad1b9e1f7d110bc1127b60a703d986a4/syscolourkitsV2-1.1.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: Downloading https://files.pythonhosted.org/packages/46/d3/525fe466ddd31edffd85055ba529ad1b9e1f7d110bc1127b60a703d986a4/syscolourkitsV2-1.1.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [azure-core-tracing-opencensus]: Downloading https://files.pythonhosted.org/packages/ae/49/c03c53d63a36531372df3d8ecc7b1fd580cc1a3be448f8ef2a2c676fba7e/azure-core-tracing-opencensus-1.0.0b9.zip
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pycolouringsV1]: Downloading https://files.pythonhosted.org/packages/6c/19/1e3fa33e52bbaaf81fdd1f097452b901be5331b69199f0d71ecfd025b51a/pycolouringsV1-1.1.0.tar.gz
+[2023-05-10 00:16:39] INFO root fetch - processPackages [azure-core-tracing-opencensus]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [azure-core-tracing-opencensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-core-tracing-opencensus-1.0.0b8.zip tmp/azure-core-tracing-opencensus-1.0.0b9.zip --markdown 20230510/a/azure-core-tracing-opencensus/1.0.0b8-1.0.0b9/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [aug-pd-cdk]: Downloading https://files.pythonhosted.org/packages/f6/30/d0e6deabe1de5ddca16434fcd58c3c8c6bfab15e29fc96c6fff8e573d8fa/aug_pd_cdk-0.0.1-py3-none-any.whl
+[2023-05-10 00:16:39] INFO root fetch - processPackages [tsuchinoko]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [tsuchinoko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsuchinoko-1.0.8.tar.gz tmp/tsuchinoko-1.0.9.tar.gz --markdown 20230510/t/tsuchinoko/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolourkitsV2-1.0.0.tar.gz tmp/syscolourkitsV2-1.1.0.tar.gz --markdown 20230510/s/syscolourkitsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [syscolourkitsV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syscolourkitsV2-1.0.0.tar.gz tmp/syscolourkitsV2-1.1.0.tar.gz --markdown 20230510/s/syscolourkitsV2/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pycolouringsV1]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [pycolouringsV1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycolouringsV1-1.0.0.tar.gz tmp/pycolouringsV1-1.1.0.tar.gz --markdown 20230510/p/pycolouringsV1/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 00:16:39] INFO root fetch - processPackages [aug-pd-cdk]: executing diffoscope
+[2023-05-10 00:16:39] INFO root fetch - processPackages [aug-pd-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aug_pd_cdk-0.0.0.tar.gz tmp/aug_pd_cdk-0.0.1-py3-none-any.whl.zip --markdown 20230510/a/aug-pd-cdk/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-10 00:16:40] INFO root fetch - processPackages [virtru-sdk]: Start processing: rdkit-stubs
+[2023-05-10 00:16:40] INFO root fetch - main [MainThread]: End processing [virtru-sdk]: success
+[2023-05-10 00:16:40] WARNING root fetch - processPackages [rdkit-stubs]: Skipping, unable to determine old version
+[2023-05-10 00:16:40] INFO root fetch - processPackages [rdkit-stubs]: Start processing: aug-pd-cdk
+[2023-05-10 00:16:40] INFO root fetch - main [MainThread]: End processing [rdkit-stubs] error
+[2023-05-10 00:16:40] INFO root fetch - processPackages [aug-pd-cdk]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-10 00:16:40] INFO root fetch - processPackages [hnxwidget]: Downloading https://files.pythonhosted.org/packages/0c/a8/61e8bd3546bae3b92ceccb9c5d0893d9c0c6b10c218d56c5d9872df1c766/hnxwidget-0.1.1b3.tar.gz
+[2023-05-10 00:16:40] INFO root fetch - processPackages [aug-pd-cdk]: executing diffoscope
+[2023-05-10 00:16:40] INFO root fetch - processPackages [aug-pd-cdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aug_pd_cdk-0.0.0.tar.gz tmp/aug_pd_cdk-0.0.1-py3-none-any.whl.zip --markdown 20230510/a/aug-pd-cdk/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-10 00:16:40] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-10 00:16:40] INFO root fetch - main [MainThread]: End processing [strictdoc]: success
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [syscolourkitsV2]: success
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [syscolourkitsV2]: success
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [aug-pd-cdk]: success
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [pycolouringsV1]: success
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [azure-core-tracing-opencensus]: success
+[2023-05-10 00:16:41] INFO root fetch - processPackages [hnxwidget]: executing diffoscope
+[2023-05-10 00:16:41] INFO root fetch - processPackages [hnxwidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hnxwidget-0.1.1b1.tar.gz tmp/hnxwidget-0.1.1b3.tar.gz --markdown 20230510/h/hnxwidget/0.1.1b1-0.1.1b3/diff.md --exclude *.pyd
+[2023-05-10 00:16:41] INFO root fetch - main [MainThread]: End processing [aug-pd-cdk]: success
+[2023-05-10 00:16:42] INFO root fetch - main [MainThread]: End processing [tsuchinoko]: success
+[2023-05-10 00:17:36] INFO root fetch - main [MainThread]: End processing [hnxwidget]: success
+[2023-05-10 00:17:36] INFO root fetch - main [MainThread]: Store serial: [18038158]
