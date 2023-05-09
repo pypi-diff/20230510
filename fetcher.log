@@ -998,3 +998,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:10:47] INFO root fetch - main [MainThread]: End processing [fsst]: success
 [2023-05-10 01:10:47] INFO root fetch - main [MainThread]: End processing [discovery-transition-ds]: success
 [2023-05-10 01:10:47] INFO root fetch - main [MainThread]: Store serial: [18038542]
+[2023-05-10 01:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038542]
+[2023-05-10 01:15:56] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cpggen
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recipie
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-flask-lambda
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fakemap
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-serializer-100523
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastlmi
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mosaicml-cli
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pseudopeople
+[2023-05-10 01:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lucupy
+[2023-05-10 01:15:57] WARNING root fetch - processPackages [recipie]: Skipping, unable to determine old version
+[2023-05-10 01:15:57] INFO root fetch - main [MainThread]: End processing [recipie] error
+[2023-05-10 01:15:57] INFO root fetch - processPackages [cpggen]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [pseudopeople]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [aws-flask-lambda]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fakemap]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 01:15:57] WARNING root fetch - processPackages [py-serializer-100523]: Skipping, unable to determine old version
+[2023-05-10 01:15:57] INFO root fetch - main [MainThread]: End processing [py-serializer-100523] error
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fastlmi]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [lucupy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [mosaicml-cli]: New version: [0.4.0a6] Old Version: [0.4.0a5]
+[2023-05-10 01:15:57] INFO root fetch - processPackages [aws-flask-lambda]: Downloading https://files.pythonhosted.org/packages/a7/aa/d59784b5ca660ba7daab215de55e605724328e498b39004a16294e69cf76/aws_flask_lambda-0.1.0.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [pseudopeople]: Downloading https://files.pythonhosted.org/packages/0c/cd/6505abd2a5c39a3a1e3c82e5dde06f39809a6af492534b0b4a8100b5f0d0/pseudopeople-0.6.4.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fastlmi]: Downloading https://files.pythonhosted.org/packages/11/f2/7c64ba4a19edab38042224dc09081a6893cb2105faec36d7c0a170950bc8/fastlmi-0.0.1.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fakemap]: Downloading https://files.pythonhosted.org/packages/17/7e/175bd75c0194691ef3184b6ace1102c93afaac35b845ade0c5dede29c08c/fakemap-0.0.5.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [mosaicml-cli]: Downloading https://files.pythonhosted.org/packages/5e/f6/75cbcbbe71cfb485d656b7d56f913cf53a647fb099617497c320fcf6d381/mosaicml-cli-0.4.0a6.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/21/ba/c5eb7f204c2f5e9416e341aedb67a10e533a4380ad312dbd2feb4b894b2c/cpggen-1.0.9.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/48/24/564fb7fc12915db3e559e4a44c2c2ea56620d4da2174d3da93586a4d9af4/lucupy-0.1.8.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.8.tar.gz tmp/cpggen-1.0.9.tar.gz --markdown 20230510/c/cpggen/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 01:15:57] WARNING root fetch - processPackages [pseudopeople]: Skipping package: exceeds size limit 11909976>=10485760
+[2023-05-10 01:15:57] INFO root fetch - main [MainThread]: End processing [pseudopeople] error
+[2023-05-10 01:15:57] INFO root fetch - processPackages [mosaicml-cli]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [mosaicml-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosaicml-cli-0.4.0a5.tar.gz tmp/mosaicml-cli-0.4.0a6.tar.gz --markdown 20230510/m/mosaicml-cli/0.4.0a5-0.4.0a6/diff.md --exclude *.pyd
+[2023-05-10 01:15:57] INFO root fetch - processPackages [aws-flask-lambda]: Downloading https://files.pythonhosted.org/packages/e1/88/e2eeb19cc541d5f250f135ea8e7ef549d3ec01816514496dee9221010140/aws_flask_lambda-0.1.1.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fastlmi]: Downloading https://files.pythonhosted.org/packages/ab/98/0dc0df225b79afabc0edc4396342f09577055500471a56d8a878dfe3f752/fastlmi-0.1.0.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [aws-flask-lambda]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [aws-flask-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_flask_lambda-0.1.0.tar.gz tmp/aws_flask_lambda-0.1.1.tar.gz --markdown 20230510/a/aws-flask-lambda/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 01:15:57] INFO root fetch - processPackages [lucupy]: Downloading https://files.pythonhosted.org/packages/8e/71/90824741abbd5f41e02cef3f27573135ac7ee3e561efa91dfd0394c03374/lucupy-0.1.9.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fastlmi]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fastlmi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastlmi-0.0.1.tar.gz tmp/fastlmi-0.1.0.tar.gz --markdown 20230510/f/fastlmi/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fakemap]: Downloading https://files.pythonhosted.org/packages/9f/5e/2bd2b8d4d12d7bea2744ff93c457c0fecd7f36d38b9cebf180bdfa462040/fakemap-0.0.6.tar.gz
+[2023-05-10 01:15:57] INFO root fetch - processPackages [lucupy]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [lucupy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lucupy-0.1.8.tar.gz tmp/lucupy-0.1.9.tar.gz --markdown 20230510/l/lucupy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fakemap]: executing diffoscope
+[2023-05-10 01:15:57] INFO root fetch - processPackages [fakemap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakemap-0.0.5.tar.gz tmp/fakemap-0.0.6.tar.gz --markdown 20230510/f/fakemap/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 01:15:58] INFO root fetch - main [MainThread]: End processing [aws-flask-lambda]: success
+[2023-05-10 01:15:58] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-10 01:15:58] INFO root fetch - main [MainThread]: End processing [fastlmi]: success
+[2023-05-10 01:15:59] INFO root fetch - main [MainThread]: End processing [fakemap]: success
+[2023-05-10 01:15:59] INFO root fetch - main [MainThread]: End processing [lucupy]: success
+[2023-05-10 01:15:59] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
+[2023-05-10 01:15:59] INFO root fetch - main [MainThread]: Store serial: [18038573]
