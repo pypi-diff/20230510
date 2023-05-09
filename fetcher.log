@@ -1052,3 +1052,59 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:15:59] INFO root fetch - main [MainThread]: End processing [lucupy]: success
 [2023-05-10 01:15:59] INFO root fetch - main [MainThread]: End processing [mosaicml-cli]: success
 [2023-05-10 01:15:59] INFO root fetch - main [MainThread]: Store serial: [18038573]
+[2023-05-10 01:21:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038573]
+[2023-05-10 01:21:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdkit-stubs
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytc2
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: formic-opcua
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forevd
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ratelimitx
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rocm-docs-core
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: circuitpython-stts22h
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: procurement-bytetheory
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-hmac-authentication
+[2023-05-10 01:21:08] WARNING root fetch - processPackages [django-hmac-authentication]: Skipping, unable to determine old version
+[2023-05-10 01:21:08] INFO root fetch - main [MainThread]: End processing [django-hmac-authentication] error
+[2023-05-10 01:21:08] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rdkit-stubs]: New version: [0.3] Old Version: [0.2]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [pytc2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [formic-opcua]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [circuitpython-stts22h]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rocm-docs-core]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ratelimitx]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-10 01:21:08] WARNING root fetch - processPackages [forevd]: Skipping, unable to determine old version
+[2023-05-10 01:21:08] INFO root fetch - main [MainThread]: End processing [forevd] error
+[2023-05-10 01:21:08] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-10 01:21:08] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.0.tar.gz tmp/procurement_bytetheory-1.0.1.tar.gz --markdown 20230510/p/procurement-bytetheory/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rdkit-stubs]: Downloading https://files.pythonhosted.org/packages/e6/ce/e3719e8adf67110e35f21f8681035ca445ed18e6a7059ff9da9d4ccdd8c0/rdkit-stubs-0.2.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [pytc2]: Downloading https://files.pythonhosted.org/packages/1e/a0/7d3d695d6bd87f655c3432986bda044eeca7370985c7813c60f6eda8a5f2/pytc2-0.0.1.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [formic-opcua]: Downloading https://files.pythonhosted.org/packages/17/e4/ff2489e4840dbce63cdda233045ff561e873e82bb4b73e7cdd99de603dee/formic_opcua-1.3.3.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/f9/19/0159088f20edfe3151203150b7200a110b31f38e54a6970440c78832b50b/rocm-docs-core-0.9.1.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ratelimitx]: Downloading https://files.pythonhosted.org/packages/25/e4/8138c637d80c410b4b5c20b35b3fde65a94d7f71423953429f47283eddeb/ratelimitx-0.0.1.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [circuitpython-stts22h]: Downloading https://files.pythonhosted.org/packages/ba/79/30c52f368d0a843f6c1bcc185a87138c2d01bdc9b935582f019b2996c2b1/circuitpython-stts22h-0.1.0.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rdkit-stubs]: Downloading https://files.pythonhosted.org/packages/e0/e9/eb4b12757ff49d4244e0fde9cbe91be14a34145ae7147dce3af4e3307d9b/rdkit-stubs-0.3.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [ratelimitx]: Downloading https://files.pythonhosted.org/packages/d2/4b/a17a8c05a4a60e241cc634875cf4adc549938da67c6885fae8b353b45bb5/ratelimitx-0.1.0.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [circuitpython-stts22h]: Downloading https://files.pythonhosted.org/packages/d8/0e/6660c5c4ca7b0ff82b1860e446e149d7062506d2622197536c666080022c/circuitpython-stts22h-0.1.1.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [formic-opcua]: Downloading https://files.pythonhosted.org/packages/a9/b1/d18b6818f2eb0580ef9bb82679541bff43e2d881f2d92fe909087d284122/formic_opcua-1.3.4.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [pytc2]: Downloading https://files.pythonhosted.org/packages/4b/89/e7f32a78b394ec01b2cb6612af60df94999fbdd1b4b1292e07336485a8f3/pytc2-0.0.2.tar.gz
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rdkit-stubs]: executing diffoscope
+[2023-05-10 01:21:08] INFO root fetch - processPackages [rdkit-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdkit-stubs-0.2.tar.gz tmp/rdkit-stubs-0.3.tar.gz --markdown 20230510/r/rdkit-stubs/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - processPackages [ratelimitx]: executing diffoscope
+[2023-05-10 01:21:09] INFO root fetch - processPackages [circuitpython-stts22h]: executing diffoscope
+[2023-05-10 01:21:09] INFO root fetch - processPackages [ratelimitx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ratelimitx-0.0.1.tar.gz tmp/ratelimitx-0.1.0.tar.gz --markdown 20230510/r/ratelimitx/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - processPackages [circuitpython-stts22h]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-stts22h-0.1.0.tar.gz tmp/circuitpython-stts22h-0.1.1.tar.gz --markdown 20230510/c/circuitpython-stts22h/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - processPackages [rocm-docs-core]: Downloading https://files.pythonhosted.org/packages/10/67/d954e3cefa6dc2afd82d2fc11f424737a09b28d389ba8c96edaaad0b6172/rocm-docs-core-0.9.2.tar.gz
+[2023-05-10 01:21:09] INFO root fetch - processPackages [formic-opcua]: executing diffoscope
+[2023-05-10 01:21:09] INFO root fetch - processPackages [formic-opcua]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/formic_opcua-1.3.3.tar.gz tmp/formic_opcua-1.3.4.tar.gz --markdown 20230510/f/formic-opcua/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - processPackages [pytc2]: executing diffoscope
+[2023-05-10 01:21:09] INFO root fetch - processPackages [pytc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytc2-0.0.1.tar.gz tmp/pytc2-0.0.2.tar.gz --markdown 20230510/p/pytc2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - processPackages [rocm-docs-core]: executing diffoscope
+[2023-05-10 01:21:09] INFO root fetch - processPackages [rocm-docs-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocm-docs-core-0.9.1.tar.gz tmp/rocm-docs-core-0.9.2.tar.gz --markdown 20230510/r/rocm-docs-core/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-10 01:21:09] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-10 01:21:10] INFO root fetch - main [MainThread]: End processing [ratelimitx]: success
+[2023-05-10 01:21:10] INFO root fetch - main [MainThread]: End processing [circuitpython-stts22h]: success
+[2023-05-10 01:21:10] INFO root fetch - main [MainThread]: End processing [pytc2]: success
+[2023-05-10 01:21:10] INFO root fetch - main [MainThread]: End processing [formic-opcua]: success
+[2023-05-10 01:21:10] INFO root fetch - main [MainThread]: End processing [rocm-docs-core]: success
+[2023-05-10 01:21:11] INFO root fetch - main [MainThread]: End processing [rdkit-stubs]: success
+[2023-05-10 01:21:11] INFO root fetch - main [MainThread]: Store serial: [18038602]
