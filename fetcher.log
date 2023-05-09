@@ -1343,3 +1343,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [multi-scale-expansion]: success
 [2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
 [2023-05-10 01:47:15] INFO root fetch - main [MainThread]: Store serial: [18038733]
+[2023-05-10 01:52:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038733]
+[2023-05-10 01:52:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurotechdevkit
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cc-py-commons
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nsdotpy
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: betby
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simple-git-versioning
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sftpretty
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fractaldna
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: relative-dose-1d
+[2023-05-10 01:52:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: relative-dose-1d
+[2023-05-10 01:52:24] INFO root fetch - processPackages [nsdotpy]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [betby]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [fractaldna]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [sftpretty]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [simple-git-versioning]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 01:52:24] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230510/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230510/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [simple-git-versioning]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [simple-git-versioning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-git-versioning-0.0.3.tar.gz tmp/simple-git-versioning-0.0.4.tar.gz --markdown 20230510/s/simple-git-versioning/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/b2/cc/3288b2d7756cc8848ccd467bf6d403b1d3eb6d6a8adcda216c57691fdd44/relative_dose_1d-0.1.2.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/b2/cc/3288b2d7756cc8848ccd467bf6d403b1d3eb6d6a8adcda216c57691fdd44/relative_dose_1d-0.1.2.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [fractaldna]: Downloading https://files.pythonhosted.org/packages/e4/65/a6dabf364e929047e7e1e9c19803e099af085748fdfb8187df99372aba2a/fractaldna-0.6.0.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [betby]: Downloading https://files.pythonhosted.org/packages/3a/6a/0eea939fee2e9621a5ea891e9910fe4481f4608151b06210ba2837019daa/betby-0.1.8.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [nsdotpy]: Downloading https://files.pythonhosted.org/packages/65/60/b3a9c48f3a13b7f52cf8785fb67485cc0e1ea6b680d1305cf34617e18c7a/nsdotpy-1.2.6.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [sftpretty]: Downloading https://files.pythonhosted.org/packages/b2/8b/dbb5bfbe3ad6085e1d6d1f3f5e0923cb0d991c72aabbc76b45e103a4108d/sftpretty-1.0.8.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [betby]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [betby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betby-0.1.7.tar.gz tmp/betby-0.1.8.tar.gz --markdown 20230510/b/betby/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [nsdotpy]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.2.5.tar.gz tmp/nsdotpy-1.2.6.tar.gz --markdown 20230510/n/nsdotpy/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [fractaldna]: Downloading https://files.pythonhosted.org/packages/9d/b5/d82b093539ef560d7853364ad2deebde58e9c25290989d46b75a4ef65760/fractaldna-0.6.1.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/3a/3e/b5e2c69cfcd51f197064d92cc13648c1ed3a10ccd863f25c023eff55ea3a/relative_dose_1d-0.1.3.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: Downloading https://files.pythonhosted.org/packages/3a/3e/b5e2c69cfcd51f197064d92cc13648c1ed3a10ccd863f25c023eff55ea3a/relative_dose_1d-0.1.3.tar.gz
+[2023-05-10 01:52:24] INFO root fetch - processPackages [fractaldna]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [fractaldna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fractaldna-0.6.0.tar.gz tmp/fractaldna-0.6.1.tar.gz --markdown 20230510/f/fractaldna/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: executing diffoscope
+[2023-05-10 01:52:24] INFO root fetch - processPackages [relative-dose-1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative_dose_1d-0.1.2.tar.gz tmp/relative_dose_1d-0.1.3.tar.gz --markdown 20230510/r/relative-dose-1d/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 01:52:25] INFO root fetch - processPackages [relative-dose-1d]: executing diffoscope
+[2023-05-10 01:52:25] INFO root fetch - processPackages [relative-dose-1d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/relative_dose_1d-0.1.2.tar.gz tmp/relative_dose_1d-0.1.3.tar.gz --markdown 20230510/r/relative-dose-1d/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 01:52:25] INFO root fetch - processPackages [sftpretty]: Downloading https://files.pythonhosted.org/packages/2f/37/7fb97174fec87238c519b27b57526fefc4432f10d7a05fe7ca4dfd38301b/sftpretty-1.0.9.tar.gz
+[2023-05-10 01:52:25] INFO root fetch - processPackages [sftpretty]: executing diffoscope
+[2023-05-10 01:52:25] INFO root fetch - processPackages [sftpretty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sftpretty-1.0.8.tar.gz tmp/sftpretty-1.0.9.tar.gz --markdown 20230510/s/sftpretty/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 01:52:25] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: tastytrade-sdk
+[2023-05-10 01:52:25] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 01:52:25] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 01:52:26] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 01:52:26] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 01:52:26] INFO root fetch - processPackages [simple-git-versioning]: Start processing: ewms-pilot
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [simple-git-versioning]: success
+[2023-05-10 01:52:26] INFO root fetch - processPackages [ewms-pilot]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-10 01:52:26] INFO root fetch - processPackages [betby]: Start processing: napari-seedseg
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [betby]: success
+[2023-05-10 01:52:26] WARNING root fetch - processPackages [napari-seedseg]: Skipping, unable to determine old version
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [napari-seedseg] error
+[2023-05-10 01:52:26] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/43/95/b05a87092ecdc0e1832fc3275ab296f596412029cb985059d2a2878c1fcd/ewms-pilot-0.9.0.tar.gz
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [fractaldna]: success
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [relative-dose-1d]: success
+[2023-05-10 01:52:26] INFO root fetch - processPackages [ewms-pilot]: Downloading https://files.pythonhosted.org/packages/31/5e/f3199ae6f49710308113c59388ea3659104f15bb19828479d90db8d40a7b/ewms-pilot-0.9.1.tar.gz
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-10 01:52:26] INFO root fetch - processPackages [ewms-pilot]: executing diffoscope
+[2023-05-10 01:52:26] INFO root fetch - processPackages [ewms-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewms-pilot-0.9.0.tar.gz tmp/ewms-pilot-0.9.1.tar.gz --markdown 20230510/e/ewms-pilot/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [relative-dose-1d]: success
+[2023-05-10 01:52:26] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 01:52:27] INFO root fetch - main [MainThread]: End processing [sftpretty]: success
+[2023-05-10 01:52:27] INFO root fetch - main [MainThread]: End processing [ewms-pilot]: success
+[2023-05-10 01:52:29] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-10 01:52:29] INFO root fetch - main [MainThread]: Store serial: [18038771]
