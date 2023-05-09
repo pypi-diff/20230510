@@ -618,3 +618,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2023-05-10 00:44:09] INFO root fetch - main [MainThread]: End processing [hccpy] error
 [2023-05-10 00:44:09] INFO root fetch - main [MainThread]: Store serial: [18038335]
+[2023-05-10 00:49:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038335]
+[2023-05-10 00:49:18] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrtma
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intake-dataframe-catalog
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi-poe
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mo-logs
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiohttp-poe
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: juts
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: media-management-scripts
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fsst
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: practica1-pandas-erika
+[2023-05-10 00:49:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: NetSuite-Connector
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fsst]: New version: [0.8.4] Old Version: [0.8.3]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [media-management-scripts]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [pyrtma]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-05-10 00:49:18] WARNING root fetch - processPackages [practica1-pandas-erika]: Skipping, unable to determine old version
+[2023-05-10 00:49:18] INFO root fetch - processPackages [practica1-pandas-erika]: Start processing: textbook_nvim
+[2023-05-10 00:49:18] INFO root fetch - processPackages [aiohttp-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [intake-dataframe-catalog]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fastapi-poe]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [juts]: New version: [2023.4.1] Old Version: [2023.3]
+[2023-05-10 00:49:18] INFO root fetch - main [MainThread]: End processing [practica1-pandas-erika] error
+[2023-05-10 00:49:18] INFO root fetch - processPackages [NetSuite-Connector]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [mo-logs]: New version: [7.4.21313] Old Version: [7.385.23129]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [textbook_nvim]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 00:49:18] INFO root fetch - processPackages [juts]: Downloading https://files.pythonhosted.org/packages/27/82/0f710a22d0bd10da15b572ac7f45df69c3230897fada9529e936387fdc72/juts-2023.3.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fsst]: Downloading https://files.pythonhosted.org/packages/ea/27/4e4963faef94c97e4aef84bb6218722d4885732c8ac82deaa17812a05e63/fsst-0.8.4.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/bf/82/5e1e110a6f71e856580c4ff0ae4119a3e1caea8c15175bf8ade024d6eb15/intake_dataframe_catalog-0.0.6.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/97/fd/d73cd87c42606fc268306b387b06e44ba350b8d7f92bcf289d79d6ce4886/mo_logs-7.385.23129-py2.py3-none-any.whl
+[2023-05-10 00:49:18] INFO root fetch - processPackages [NetSuite-Connector]: Downloading https://files.pythonhosted.org/packages/0e/a6/892c946da9009d94b91325a490cb7c4da9a7fe085dfe806ded5b0cb4e76e/NetSuite-Connector-0.2.1.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [media-management-scripts]: Downloading https://files.pythonhosted.org/packages/9b/36/48836189e4cc6e48e09ef7c81d6fff9f91e43aa79837d4fd9f21bd3bb6c5/media_management_scripts-0.4.4.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [pyrtma]: Downloading https://files.pythonhosted.org/packages/e8/76/e92cfc657366f51dabe4f3720c551775ff41cbac255c479739c9527479d8/pyrtma-1.2.2.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/f1/bd/d2e67352f4542bcf3a83d124174e5d261d1462f47ce42f0a854b03e35f7e/textbook_nvim-0.3.0.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fsst]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsst-0.8.3.tar.gz tmp/fsst-0.8.4.tar.gz --markdown 20230510/f/fsst/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [media-management-scripts]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [media-management-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/media_management_scripts-0.4.3.tar.gz tmp/media_management_scripts-0.4.4.tar.gz --markdown 20230510/m/media-management-scripts/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [aiohttp-poe]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [aiohttp-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiohttp_poe-0.0.7.tar.gz tmp/aiohttp_poe-0.0.9.tar.gz --markdown 20230510/a/aiohttp-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fastapi-poe]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [fastapi-poe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_poe-0.0.7.tar.gz tmp/fastapi_poe-0.0.9.tar.gz --markdown 20230510/f/fastapi-poe/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [juts]: Downloading https://files.pythonhosted.org/packages/31/28/3bfb40d718df9fbf11e9c1f6512ac80ed10cc3d0a604c65bfa813cc51289/juts-2023.4.1.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/b9/3b/65144012fd89759ec73452a526b88208ee56fb44c5c284f0d5243d5d00f3/intake_dataframe_catalog-0.0.7.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [NetSuite-Connector]: Downloading https://files.pythonhosted.org/packages/ba/17/8114b333cf53bf6829731335b86d5810ba3a2372d997b23c12adeaa5aae3/NetSuite-Connector-0.2.2.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [mo-logs]: Downloading https://files.pythonhosted.org/packages/0c/0a/90e0c43e163f6018467d4f5f3322697b7529b7eb8708da24aee5cee11d85/mo-logs-7.4.21313.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [juts]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [juts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/juts-2023.3.tar.gz tmp/juts-2023.4.1.tar.gz --markdown 20230510/j/juts/2023.3-2023.4.1/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [pyrtma]: Downloading https://files.pythonhosted.org/packages/c1/36/8a17c23b1111a3cccc69f8072ee277d4c7e7b9b6cdae996b6048c107be59/pyrtma-1.2.3.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [intake-dataframe-catalog]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [intake-dataframe-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_dataframe_catalog-0.0.6.tar.gz tmp/intake_dataframe_catalog-0.0.7.tar.gz --markdown 20230510/i/intake-dataframe-catalog/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 00:49:18] INFO root fetch - processPackages [textbook_nvim]: Downloading https://files.pythonhosted.org/packages/e8/1d/2a854680ec9635e14e5f19eb0e3c2e122269a8480b4e1668153713cbbacb/textbook_nvim-0.4.0.tar.gz
+[2023-05-10 00:49:18] INFO root fetch - processPackages [pyrtma]: executing diffoscope
+[2023-05-10 00:49:18] INFO root fetch - processPackages [pyrtma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtma-1.2.2.tar.gz tmp/pyrtma-1.2.3.tar.gz --markdown 20230510/p/pyrtma/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-05-10 00:49:19] INFO root fetch - processPackages [NetSuite-Connector]: executing diffoscope
+[2023-05-10 00:49:19] INFO root fetch - processPackages [NetSuite-Connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NetSuite-Connector-0.2.1.tar.gz tmp/NetSuite-Connector-0.2.2.tar.gz --markdown 20230510/N/NetSuite-Connector/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 00:49:19] INFO root fetch - processPackages [mo-logs]: executing diffoscope
+[2023-05-10 00:49:19] INFO root fetch - processPackages [mo-logs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_logs-7.385.23129-py2.py3-none-any.whl.zip tmp/mo-logs-7.4.21313.tar.gz --markdown 20230510/m/mo-logs/7.385.23129-7.4.21313/diff.md --exclude *.pyd
+[2023-05-10 00:49:19] INFO root fetch - processPackages [textbook_nvim]: executing diffoscope
+[2023-05-10 00:49:19] INFO root fetch - processPackages [textbook_nvim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/textbook_nvim-0.3.0.tar.gz tmp/textbook_nvim-0.4.0.tar.gz --markdown 20230510/t/textbook_nvim/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 00:49:20] INFO root fetch - processPackages [fastapi-poe]: Start processing: pandasai
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [fastapi-poe]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pandasai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 00:49:20] INFO root fetch - processPackages [aiohttp-poe]: Start processing: elasticityproject
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [aiohttp-poe]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [fsst]: Start processing: pyrc-python-utils
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [fsst]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.8.tar.gz tmp/pandasai-0.2.9.tar.gz --markdown 20230510/p/pandasai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 00:49:20] WARNING root fetch - processPackages [elasticityproject]: Skipping, unable to determine old version
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-10 00:49:20] INFO root fetch - processPackages [elasticityproject]: Start processing: dcarte
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [elasticityproject] error
+[2023-05-10 00:49:20] INFO root fetch - processPackages [dcarte]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [NetSuite-Connector]: success
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [juts]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [dcarte]: executing diffoscope
+[2023-05-10 00:49:20] INFO root fetch - processPackages [dcarte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcarte-0.4.8.tar.gz tmp/dcarte-0.4.9.tar.gz --markdown 20230510/d/dcarte/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [mo-logs]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pyrc-python-utils]: Downloading https://files.pythonhosted.org/packages/90/a4/3a1fb7aee4c4d030500c41d5128f116556c2eaf7f20359ddfe4d9b73cc94/pyrc-python-utils-1.0.1.tar.gz
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [media-management-scripts]: success
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [pyrtma]: success
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog]: success
+[2023-05-10 00:49:20] INFO root fetch - main [MainThread]: End processing [textbook_nvim]: success
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pyrc-python-utils]: Downloading https://files.pythonhosted.org/packages/0e/e8/c50cca810df58dbd318535b0d35717ebde7e3c8985bb44c47b74bf561b66/pyrc-python-utils-1.0.2.tar.gz
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-10 00:49:20] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.1.tar.gz tmp/pyrc-python-utils-1.0.2.tar.gz --markdown 20230510/p/pyrc-python-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-10 00:49:21] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-10 00:49:21] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-10 00:49:22] INFO root fetch - main [MainThread]: End processing [dcarte]: success
+[2023-05-10 00:49:22] INFO root fetch - main [MainThread]: Store serial: [18038383]
