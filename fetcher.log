@@ -490,3 +490,131 @@
 [2023-05-10 00:38:56] INFO root fetch - main [MainThread]: End processing [run-rx]: success
 [2023-05-10 00:38:56] INFO root fetch - main [MainThread]: End processing [mafic]: success
 [2023-05-10 00:38:56] INFO root fetch - main [MainThread]: Store serial: [18038281]
+[2023-05-10 00:43:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038281]
+[2023-05-10 00:44:04] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cc-py-commons
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: run-rx
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: locust-grasshopper
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oking
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hccpy
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: img2table
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reportbro-fpdf2
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-spreadsheet-oca
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cc-py-commons
+[2023-05-10 00:44:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zen-engine
+[2023-05-10 00:44:04] INFO root fetch - processPackages [hccpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [run-rx]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [oking]: New version: [4.1.99] Old Version: [4.1.98]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [reportbro-fpdf2]: New version: [2.7.0] Old Version: [0.9.1]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/10/e0/bc03eb0f51c985363e25571936de0258a0f3e5e43f8525986b708e4f2e81/oking-4.1.98.tar.gz
+[2023-05-10 00:44:04] INFO root fetch - processPackages [locust-grasshopper]: New version: [1.3.1] Old Version: [1.2.9]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [img2table]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 00:44:04] INFO root fetch - processPackages [zen-engine]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-10 00:44:04] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82479280>=10485760
+[2023-05-10 00:44:04] INFO root fetch - processPackages [oking]: Start processing: cpggen
+[2023-05-10 00:44:04] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-10 00:44:04] INFO root fetch - processPackages [run-rx]: executing diffoscope
+[2023-05-10 00:44:04] INFO root fetch - processPackages [run-rx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_rx-0.0.2.tar.gz tmp/run_rx-0.0.3.tar.gz --markdown 20230510/r/run-rx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 00:44:04] INFO root fetch - processPackages [cpggen]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/10/42/502f103d41e21d12b8b73b10aa1f6746d524e08bfb31ef9da54cd09baa4e/cc_py_commons-0.3.8.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [hccpy]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [hccpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hccpy-0.1.5.tar.gz tmp/hccpy-0.1.6.tar.gz --markdown 20230510/h/hccpy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [locust-grasshopper]: Downloading https://files.pythonhosted.org/packages/81/0b/fa9ebd062fd147765db8d2dc784ae7a00ba4b81c5941ba2916474003e982/locust-grasshopper-1.2.9.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.7.tar.gz tmp/cpggen-1.0.8.tar.gz --markdown 20230510/c/cpggen/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/1a/f4/b3b26dc68d2d5caaadd4b5086f41f7f644bd892d66daaa39ad705737de82/odoo_addon_spreadsheet_oca-16.0.1.1.0.2-py3-none-any.whl
+[2023-05-10 00:44:05] INFO root fetch - processPackages [reportbro-fpdf2]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [reportbro-fpdf2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reportbro-fpdf2-0.9.1.tar.gz tmp/reportbro_fpdf2-2.7.0-py2.py3-none-any.whl.zip --markdown 20230510/r/reportbro-fpdf2/0.9.1-2.7.0/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/44/61/39dae0a9e4a33dd6f5e012ff2580f2508f9268c328fbdad57e6898f82fe4/zen_engine-0.5.0.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/2f/ce/df0a1c2009f8994e4556fdadfef2d08b85a9b290e331c075ea4bd15e6fad/img2table-0.1.2.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: Downloading https://files.pythonhosted.org/packages/82/40/3f57e851a678f8ab892fc073e96dc9560b1895512dc09d14c8ab97cb6908/cc_py_commons-0.3.9.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [locust-grasshopper]: Downloading https://files.pythonhosted.org/packages/e4/24/ed1de1dc4684fc0b5aacc55425182c973b9f074f918d58d4993dd16412b1/locust-grasshopper-1.3.1.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230510/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230510/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [zen-engine]: Downloading https://files.pythonhosted.org/packages/98/14/b92de22d75e9a75d9f6c295ddb55177a2921159ba21e513465c36d274b8a/zen_engine-0.6.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 00:44:05] INFO root fetch - processPackages [img2table]: Downloading https://files.pythonhosted.org/packages/e2/07/cff8b78f8a6e5a079e1ccb4b28d731097a1afb16bba13502f26fb14057a1/img2table-0.1.3.tar.gz
+[2023-05-10 00:44:05] INFO root fetch - processPackages [locust-grasshopper]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [locust-grasshopper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-grasshopper-1.2.9.tar.gz tmp/locust-grasshopper-1.3.1.tar.gz --markdown 20230510/l/locust-grasshopper/1.2.9-1.3.1/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: Downloading https://files.pythonhosted.org/packages/e3/d7/f28cf5f30e9d925d1263e3c201e164d01a38ca0708ae02eb80c97a5d49d3/odoo_addon_spreadsheet_oca-16.0.1.1.1-py3-none-any.whl
+[2023-05-10 00:44:05] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2023-05-10 00:44:05] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-spreadsheet-oca/16.0.1.1.0.2-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-10 00:44:05] WARNING root fetch - processPackages [zen-engine]: Skipping package: exceeds size limit 14036745>=10485760
+[2023-05-10 00:44:05] INFO root fetch - processPackages [zen-engine]: Start processing: procurement-bytetheory
+[2023-05-10 00:44:05] INFO root fetch - main [MainThread]: End processing [zen-engine] error
+[2023-05-10 00:44:05] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 00:44:05] INFO root fetch - processPackages [procurement-bytetheory]: Downloading https://files.pythonhosted.org/packages/19/82/590ecb227fab8d1b26433dd9dabde254069df7b6208c9cd154dc86187e60/procurement_bytetheory-1.0.0.tar.gz
+[2023-05-10 00:44:06] INFO root fetch - processPackages [img2table]: executing diffoscope
+[2023-05-10 00:44:06] INFO root fetch - processPackages [img2table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2table-0.1.2.tar.gz tmp/img2table-0.1.3.tar.gz --markdown 20230510/i/img2table/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 00:44:06] INFO root fetch - processPackages [procurement-bytetheory]: Downloading https://files.pythonhosted.org/packages/61/15/fe06cf7cd0baa79beef15852bdec23d227dd4e55211cca46c10f12282ab0/procurement_bytetheory-1.0.1.tar.gz
+[2023-05-10 00:44:06] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-10 00:44:06] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-10 00:44:06] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.0.tar.gz tmp/procurement_bytetheory-1.0.1.tar.gz --markdown 20230510/p/procurement-bytetheory/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 00:44:06] INFO root fetch - main [MainThread]: End processing [run-rx]: success
+[2023-05-10 00:44:06] INFO root fetch - main [MainThread]: End processing [locust-grasshopper]: success
+[2023-05-10 00:44:07] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-10 00:44:07] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-10 00:44:07] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-10 00:44:07] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2023-05-10 00:44:07] INFO root fetch - main [MainThread]: End processing [reportbro-fpdf2]: success
+[2023-05-10 00:44:08] INFO root fetch - main [MainThread]: End processing [img2table]: success
+[2023-05-10 00:44:09] ERROR root fetch - processPackages [hccpy]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-10 00:44:09] INFO root fetch - main [MainThread]: End processing [hccpy] error
+[2023-05-10 00:44:09] INFO root fetch - main [MainThread]: Store serial: [18038335]
