@@ -1133,3 +1133,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:26:22] INFO root fetch - main [MainThread]: End processing [aws-flask-lambda]: success
 [2023-05-10 01:26:22] INFO root fetch - main [MainThread]: End processing [awsiotsdk]: success
 [2023-05-10 01:26:22] INFO root fetch - main [MainThread]: Store serial: [18038632]
+[2023-05-10 01:31:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038632]
+[2023-05-10 01:31:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyrc-python-utils
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: funclift
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: imgfileops
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oking
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: auth-lib-profcomff
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pokepastes-scraper
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mo-times
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aws-flask-lambda-swagger-ui
+[2023-05-10 01:31:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mo-json
+[2023-05-10 01:31:31] INFO root fetch - processPackages [auth-lib-profcomff]: New version: [2023.5.10] Old Version: [2023.4.23]
+[2023-05-10 01:31:31] WARNING root fetch - processPackages [funclift]: Skipping, unable to determine old version
+[2023-05-10 01:31:31] INFO root fetch - main [MainThread]: End processing [funclift] error
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-10 01:31:31] INFO root fetch - processPackages [oking]: New version: [4.1.89] Old Version: [4.1.88]
+[2023-05-10 01:31:31] WARNING root fetch - processPackages [imgfileops]: Skipping, unable to determine old version
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pokepastes-scraper]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 01:31:31] INFO root fetch - main [MainThread]: End processing [imgfileops] error
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-times]: New version: [5.53.21241] Old Version: [5.385.23129]
+[2023-05-10 01:31:31] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-json]: New version: [6.385.23129] Old Version: [6.384.23124]
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/08/e5/7131ecc3bcae7bf5b59cc2767dd5a87130170758bbf34956c835e3da6ddc/mo_times-5.385.23129-py2.py3-none-any.whl
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pyrc-python-utils]: Downloading https://files.pythonhosted.org/packages/84/8a/33b3b0ce6a37e58af4a81c0ae867cb05985277784d55611f9381351f768c/pyrc-python-utils-1.0.5.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [oking]: Downloading https://files.pythonhosted.org/packages/ae/30/1e6fff9e86b5e80317cab043f7c3baac37c9a05e3747796a28bfbcd55e4d/oking-4.1.88.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pokepastes-scraper]: Downloading https://files.pythonhosted.org/packages/34/80/be393ab78aaa1379fb04ea8560ca1e3cc8fd3eaf91d4ad2907f6f61e81e5/pokepastes-scraper-0.2.1.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/18/6f/cc81f9d4d50d253ef0d1aa92d51c7aec3a6df7bb84861390530b9cfe1a68/auth_lib_profcomff-2023.4.23.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: Downloading https://files.pythonhosted.org/packages/1c/2a/f30471d5692dd0979818e121d94ea89a1190d338fcb4d538c5a81253801f/aws_flask_lambda_swagger_ui-0.1.1.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/43/27/5534249a250a3d017b134cef938001d9379904fbd0bccf7325f85e7ac376/mo_json-6.384.23124-py2.py3-none-any.whl
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.4.tar.gz tmp/pyrc-python-utils-1.0.5.tar.gz --markdown 20230510/p/pyrc-python-utils/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 01:31:31] WARNING root fetch - processPackages [oking]: Skipping package: exceeds size limit 82454860>=10485760
+[2023-05-10 01:31:31] INFO root fetch - main [MainThread]: End processing [oking] error
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pokepastes-scraper]: Downloading https://files.pythonhosted.org/packages/29/60/4af712e79f4acc5827485e7a5d6412ff5d7f1ab5a2564e06453ba8486cdd/pokepastes-scraper-0.2.2.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: Downloading https://files.pythonhosted.org/packages/32/31/3c3dfb1cd6a3782dc709035fa9feb4d8ddd8c25ce85a84824d2ae99d16e6/aws_flask_lambda_swagger_ui-0.1.2.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [auth-lib-profcomff]: Downloading https://files.pythonhosted.org/packages/c9/23/9e74088eec496bf9aadb3adb1d8995ea19809581f88b339df2fd92973741/auth_lib_profcomff-2023.5.10.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-times]: Downloading https://files.pythonhosted.org/packages/03/e0/c83ec4a44a093d55ad4d2ccac4a0a0e96cd7f9ef6d58f0c10a06ce767009/mo-times-5.53.21241.tar.gz
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-json]: Downloading https://files.pythonhosted.org/packages/3b/f8/27f16152c67925d3da6be1a0487036f55004fa824649b1b8412fcbfdb7af/mo_json-6.385.23129-py2.py3-none-any.whl
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pokepastes-scraper]: executing diffoscope
+[2023-05-10 01:31:31] INFO root fetch - processPackages [pokepastes-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pokepastes-scraper-0.2.1.tar.gz tmp/pokepastes-scraper-0.2.2.tar.gz --markdown 20230510/p/pokepastes-scraper/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 01:31:31] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: executing diffoscope
+[2023-05-10 01:31:31] INFO root fetch - processPackages [aws-flask-lambda-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_flask_lambda_swagger_ui-0.1.1.tar.gz tmp/aws_flask_lambda_swagger_ui-0.1.2.tar.gz --markdown 20230510/a/aws-flask-lambda-swagger-ui/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 01:31:31] INFO root fetch - processPackages [auth-lib-profcomff]: executing diffoscope
+[2023-05-10 01:31:31] INFO root fetch - processPackages [auth-lib-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auth_lib_profcomff-2023.4.23.tar.gz tmp/auth_lib_profcomff-2023.5.10.tar.gz --markdown 20230510/a/auth-lib-profcomff/2023.4.23-2023.5.10/diff.md --exclude *.pyd
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-times]: executing diffoscope
+[2023-05-10 01:31:31] INFO root fetch - processPackages [mo-times]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_times-5.385.23129-py2.py3-none-any.whl.zip tmp/mo-times-5.53.21241.tar.gz --markdown 20230510/m/mo-times/5.385.23129-5.53.21241/diff.md --exclude *.pyd
+[2023-05-10 01:31:32] INFO root fetch - processPackages [mo-json]: executing diffoscope
+[2023-05-10 01:31:32] INFO root fetch - processPackages [mo-json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mo_json-6.384.23124-py2.py3-none-any.whl.zip tmp/mo_json-6.385.23129-py2.py3-none-any.whl.zip --markdown 20230510/m/mo-json/6.384.23124-6.385.23129/diff.md --exclude *.pyd
+[2023-05-10 01:31:32] INFO root fetch - main [MainThread]: End processing [aws-flask-lambda-swagger-ui]: success
+[2023-05-10 01:31:32] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-10 01:31:33] INFO root fetch - main [MainThread]: End processing [mo-times]: success
+[2023-05-10 01:31:33] INFO root fetch - main [MainThread]: End processing [auth-lib-profcomff]: success
+[2023-05-10 01:31:33] INFO root fetch - main [MainThread]: End processing [mo-json]: success
+[2023-05-10 01:31:33] INFO root fetch - main [MainThread]: End processing [pokepastes-scraper]: success
+[2023-05-10 01:31:33] INFO root fetch - main [MainThread]: Store serial: [18038661]
