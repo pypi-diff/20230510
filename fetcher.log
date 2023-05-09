@@ -1306,3 +1306,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:41:58] INFO root fetch - main [MainThread]: End processing [tomcru]: success
 [2023-05-10 01:42:05] INFO root fetch - main [MainThread]: End processing [openram]: success
 [2023-05-10 01:42:05] INFO root fetch - main [MainThread]: Store serial: [18038713]
+[2023-05-10 01:47:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038713]
+[2023-05-10 01:47:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapidpe-rift-pipe
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multi-scale-expansion
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrc-python-utils
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc-py-commons
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sublinear
+[2023-05-10 01:47:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: procurement-bytetheory
+[2023-05-10 01:47:14] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 01:47:14] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 01:47:14] WARNING root fetch - processPackages [sublinear]: Skipping, unable to determine old version
+[2023-05-10 01:47:14] INFO root fetch - main [MainThread]: End processing [sublinear] error
+[2023-05-10 01:47:14] INFO root fetch - processPackages [cc-py-commons]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 01:47:14] INFO root fetch - processPackages [multi-scale-expansion]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 01:47:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230509] Old Version: [0.2.2.dev20230508]
+[2023-05-10 01:47:14] INFO root fetch - processPackages [cc-py-commons]: executing diffoscope
+[2023-05-10 01:47:14] INFO root fetch - processPackages [cc-py-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc_py_commons-0.3.8.tar.gz tmp/cc_py_commons-0.3.9.tar.gz --markdown 20230510/c/cc-py-commons/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 01:47:14] INFO root fetch - processPackages [pyrc-python-utils]: Downloading https://files.pythonhosted.org/packages/e3/f4/1d837a4857283e304c3daf3a8235f78a557fec530a0102d33353937941fa/pyrc-python-utils-1.0.6.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [procurement-bytetheory]: Downloading https://files.pythonhosted.org/packages/93/36/f6fa62cf2617010c5bbcc53c781b41032636c1dc17ac91198a3d2d1fc02a/procurement_bytetheory-1.0.2.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [multi-scale-expansion]: Downloading https://files.pythonhosted.org/packages/52/b8/4a6a754b6c1426c02cc653fe952a327861fd494f4ff1665152007e9f19bc/multi-scale-expansion-0.1.1.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/17/5c/14bf112d154b91341f704acc79ea2230dfe012f48e4c2fb0371e7ef4f365/rapidpe_rift_pipe-0.2.2.dev20230509.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-10 01:47:14] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.5.tar.gz tmp/pyrc-python-utils-1.0.6.tar.gz --markdown 20230510/p/pyrc-python-utils/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 01:47:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-10 01:47:14] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230508.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230509.tar.gz --markdown 20230510/r/rapidpe-rift-pipe/0.2.2.dev20230508-0.2.2.dev20230509/diff.md --exclude *.pyd
+[2023-05-10 01:47:14] INFO root fetch - processPackages [multi-scale-expansion]: Downloading https://files.pythonhosted.org/packages/f7/4b/22f6e911cc3ea84bea40ae42871f6d7918cd98cf26cf5d8460665274cb07/multi-scale-expansion-0.1.2.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [procurement-bytetheory]: Downloading https://files.pythonhosted.org/packages/44/ee/7ed45aab48c345fa9f61c0b678ee572d2cfb38b310190053003475cbe264/procurement_bytetheory-1.0.3.tar.gz
+[2023-05-10 01:47:14] INFO root fetch - processPackages [multi-scale-expansion]: executing diffoscope
+[2023-05-10 01:47:14] INFO root fetch - processPackages [multi-scale-expansion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi-scale-expansion-0.1.1.tar.gz tmp/multi-scale-expansion-0.1.2.tar.gz --markdown 20230510/m/multi-scale-expansion/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 01:47:14] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-10 01:47:14] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.2.tar.gz tmp/procurement_bytetheory-1.0.3.tar.gz --markdown 20230510/p/procurement-bytetheory/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [cc-py-commons]: success
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [multi-scale-expansion]: success
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-10 01:47:15] INFO root fetch - main [MainThread]: Store serial: [18038733]
