@@ -50,3 +50,68 @@
 [2023-05-10 00:00:58] INFO root fetch - main [MainThread]: End processing [st-bnt-group]: success
 [2023-05-10 00:00:58] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
 [2023-05-10 00:00:58] INFO root fetch - main [MainThread]: Store serial: [18037972]
+[2023-05-10 00:06:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18037972]
+[2023-05-10 00:06:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GnuChanGUI
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ezneural
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotON_sdk
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nomnomdata-engine
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lion-pytorch
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dkist-processing-common
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gandai
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pandera
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rgb-colorizer
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: seeq-correlation
+[2023-05-10 00:06:06] INFO root fetch - processPackages [lion-pytorch]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ezneural]: New version: [0.1] Old Version: [0.0]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [rgb-colorizer]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.3.3] Old Version: [0.0.3.2]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [pandera]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [dkist-processing-common]: New version: [2.6.1rc2] Old Version: [2.6.1rc1]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [nomnomdata-engine]: New version: [1.1.9] Old Version: [1.1.8.post6.dev0]
+[2023-05-10 00:06:06] WARNING root fetch - processPackages [GnuChanGUI]: Skipping, unable to determine old version
+[2023-05-10 00:06:06] INFO root fetch - processPackages [GnuChanGUI]: Start processing: ia-sdk
+[2023-05-10 00:06:06] INFO root fetch - main [MainThread]: End processing [GnuChanGUI] error
+[2023-05-10 00:06:06] INFO root fetch - processPackages [lion-pytorch]: executing diffoscope
+[2023-05-10 00:06:06] INFO root fetch - processPackages [lion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lion-pytorch-0.0.7.tar.gz tmp/lion-pytorch-0.0.8.tar.gz --markdown 20230510/l/lion-pytorch/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 00:06:06] INFO root fetch - processPackages [gandai]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [dkist-processing-common]: executing diffoscope
+[2023-05-10 00:06:06] INFO root fetch - processPackages [dkist-processing-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist-processing-common-2.6.1rc1.tar.gz tmp/dkist-processing-common-2.6.1rc2.tar.gz --markdown 20230510/d/dkist-processing-common/2.6.1rc1-2.6.1rc2/diff.md --exclude *.pyd
+[2023-05-10 00:06:06] INFO root fetch - processPackages [seeq-correlation]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ia-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 00:06:06] INFO root fetch - processPackages [nomnomdata-engine]: executing diffoscope
+[2023-05-10 00:06:06] INFO root fetch - processPackages [nomnomdata-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nomnomdata-engine-1.1.8.post6.dev0.tar.gz tmp/nomnomdata-engine-1.1.9.tar.gz --markdown 20230510/n/nomnomdata-engine/1.1.8.post6.dev0-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 00:06:06] INFO root fetch - processPackages [rgb-colorizer]: Downloading https://files.pythonhosted.org/packages/dc/9c/6443b63d04e550c724d46e2a88a554a823c9ad25e749331b8cb339b40747/rgb-colorizer-0.0.2.tar.gz
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ezneural]: Downloading https://files.pythonhosted.org/packages/72/a4/1d7319f99c4cb3732666111ce470e090797de72a9e21c5ff8d7d8dbc6ea0/ezneural-0.0.tar.gz
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ia-sdk]: executing diffoscope
+[2023-05-10 00:06:06] INFO root fetch - processPackages [ia-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ia-sdk-0.3.8.tar.gz tmp/ia-sdk-0.3.9.tar.gz --markdown 20230510/i/ia-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 00:06:06] INFO root fetch - processPackages [pandera]: executing diffoscope
+[2023-05-10 00:06:06] INFO root fetch - processPackages [pandera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandera-0.8.1.tar.gz tmp/pandera-0.9.0.tar.gz --markdown 20230510/p/pandera/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 00:06:06] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/0b/18/8e23af7503db718a764779cbd0a73953493cfba38952c63b613ffcbc29a7/spotON_sdk-0.0.3.3.tar.gz
+[2023-05-10 00:06:06] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/4d/69/254f3f0f7ee2a3f3383e71aa518d806915d895aa35d6e5f640bcdc28a364/gandai-0.1.tar.gz
+[2023-05-10 00:06:06] INFO root fetch - processPackages [seeq-correlation]: Downloading https://files.pythonhosted.org/packages/9e/76/dcb2e1c0b94a25d88eaa97ee09f9c1765ed9150f1198866747c56b2f3571/seeq_correlation-0.1.7-py3-none-any.whl
+[2023-05-10 00:06:07] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-10 00:06:07] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.3.2.tar.gz tmp/spotON_sdk-0.0.3.3.tar.gz --markdown 20230510/s/spotON_sdk/0.0.3.2-0.0.3.3/diff.md --exclude *.pyd
+[2023-05-10 00:06:07] INFO root fetch - processPackages [ezneural]: Downloading https://files.pythonhosted.org/packages/f3/ab/946e533dc9600fcff98f1476a96abf3b8993ab88544d86330bd414f79d26/ezneural-0.1.tar.gz
+[2023-05-10 00:06:07] INFO root fetch - processPackages [rgb-colorizer]: Downloading https://files.pythonhosted.org/packages/0d/3b/4170ad37af56772153f83849a075efbfefc3332df041fcd41eaa6f986e21/rgb-colorizer-0.0.3.tar.gz
+[2023-05-10 00:06:07] INFO root fetch - processPackages [ezneural]: executing diffoscope
+[2023-05-10 00:06:07] INFO root fetch - processPackages [ezneural]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezneural-0.0.tar.gz tmp/ezneural-0.1.tar.gz --markdown 20230510/e/ezneural/0.0-0.1/diff.md --exclude *.pyd
+[2023-05-10 00:06:07] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/fe/9d/a0d5d6e908b11023b990d8de305601a06bd1708ed3bb21889c4fa8ed8886/gandai-0.1.1.tar.gz
+[2023-05-10 00:06:07] INFO root fetch - processPackages [seeq-correlation]: Downloading https://files.pythonhosted.org/packages/cb/d5/d8c1cdfa90820669a1ef0a87407f8c38390e28867ed629907c7c1767c964/seeq_correlation-0.1.8-py3-none-any.whl
+[2023-05-10 00:06:07] INFO root fetch - processPackages [rgb-colorizer]: executing diffoscope
+[2023-05-10 00:06:07] INFO root fetch - processPackages [rgb-colorizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rgb-colorizer-0.0.2.tar.gz tmp/rgb-colorizer-0.0.3.tar.gz --markdown 20230510/r/rgb-colorizer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 00:06:07] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-10 00:06:07] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-0.1.tar.gz tmp/gandai-0.1.1.tar.gz --markdown 20230510/g/gandai/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 00:06:07] INFO root fetch - processPackages [seeq-correlation]: executing diffoscope
+[2023-05-10 00:06:07] INFO root fetch - processPackages [seeq-correlation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq_correlation-0.1.7-py3-none-any.whl.zip tmp/seeq_correlation-0.1.8-py3-none-any.whl.zip --markdown 20230510/s/seeq-correlation/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [lion-pytorch]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [ia-sdk]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [nomnomdata-engine]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [ezneural]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [rgb-colorizer]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-10 00:06:08] INFO root fetch - main [MainThread]: End processing [seeq-correlation]: success
+[2023-05-10 00:06:09] INFO root fetch - main [MainThread]: End processing [pandera]: success
+[2023-05-10 00:06:10] INFO root fetch - main [MainThread]: End processing [dkist-processing-common]: success
+[2023-05-10 00:06:10] INFO root fetch - main [MainThread]: Store serial: [18038006]
