@@ -474,3 +474,19 @@
 [2023-05-10 00:33:44] INFO root fetch - main [MainThread]: End processing [media-management-scripts]: success
 [2023-05-10 00:33:45] INFO root fetch - main [MainThread]: End processing [doped]: success
 [2023-05-10 00:33:45] INFO root fetch - main [MainThread]: Store serial: [18038275]
+[2023-05-10 00:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038275]
+[2023-05-10 00:38:54] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-10 00:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: run-rx
+[2023-05-10 00:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mafic
+[2023-05-10 00:38:54] INFO root fetch - processPackages [run-rx]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 00:38:54] INFO root fetch - processPackages [mafic]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-10 00:38:54] INFO root fetch - processPackages [mafic]: Downloading https://files.pythonhosted.org/packages/62/dc/54b6332d787345e6f3da0fd521f21c18c7195b7ab8d5b8ab743b86a56744/mafic-2.3.0.tar.gz
+[2023-05-10 00:38:54] INFO root fetch - processPackages [run-rx]: Downloading https://files.pythonhosted.org/packages/75/68/a3b5193bce65f34f07114817d67da680c5dcf06aa42756ba79a2cef026cb/run_rx-0.0.3.tar.gz
+[2023-05-10 00:38:55] INFO root fetch - processPackages [mafic]: Downloading https://files.pythonhosted.org/packages/34/91/ca427ee8248fe20014c35e9773d7e9edf5fa7e1c7a4d56b944b9ba773747/mafic-2.3.1.tar.gz
+[2023-05-10 00:38:55] INFO root fetch - processPackages [run-rx]: executing diffoscope
+[2023-05-10 00:38:55] INFO root fetch - processPackages [run-rx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_rx-0.0.2.tar.gz tmp/run_rx-0.0.3.tar.gz --markdown 20230510/r/run-rx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 00:38:55] INFO root fetch - processPackages [mafic]: executing diffoscope
+[2023-05-10 00:38:55] INFO root fetch - processPackages [mafic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mafic-2.3.0.tar.gz tmp/mafic-2.3.1.tar.gz --markdown 20230510/m/mafic/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-10 00:38:56] INFO root fetch - main [MainThread]: End processing [run-rx]: success
+[2023-05-10 00:38:56] INFO root fetch - main [MainThread]: End processing [mafic]: success
+[2023-05-10 00:38:56] INFO root fetch - main [MainThread]: Store serial: [18038281]
