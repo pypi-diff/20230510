@@ -1,0 +1,52 @@
+[2023-05-10 00:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18037942]
+[2023-05-10 00:00:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: base
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rgb-colorizer
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmaps-utils
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-mana-utils
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kolena-client
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-bnt-group
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: intake-dataframe-catalog
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jaaql-middleware-python
+[2023-05-10 00:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: concordia-harmony
+[2023-05-10 00:00:55] WARNING root fetch - processPackages [rgb-colorizer]: Skipping, unable to determine old version
+[2023-05-10 00:00:55] INFO root fetch - main [MainThread]: End processing [rgb-colorizer] error
+[2023-05-10 00:00:55] INFO root fetch - processPackages [intake-dataframe-catalog]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-10 00:00:55] WARNING root fetch - processPackages [base]: Skipping, unable to determine old version
+[2023-05-10 00:00:55] INFO root fetch - main [MainThread]: End processing [base] error
+[2023-05-10 00:00:55] INFO root fetch - processPackages [kolena-client]: New version: [0.68.0] Old Version: [0.67.0]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [intake-dataframe-catalog]: executing diffoscope
+[2023-05-10 00:00:55] INFO root fetch - processPackages [intake-dataframe-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_dataframe_catalog-0.0.4.tar.gz tmp/intake_dataframe_catalog-0.0.5.tar.gz --markdown 20230510/i/intake-dataframe-catalog/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 00:00:55] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-10 00:00:55] INFO root fetch - processPackages [neon-mana-utils]: New version: [0.0.5a6] Old Version: [0.0.5a5]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230510/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-10 00:00:55] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [concordia-harmony]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/d7/c3/47c38dc451f5f47fe9b216de5d511c1b45eb27e883f507cf89a176ef1353/kolena_client-0.67.0.tar.gz
+[2023-05-10 00:00:55] INFO root fetch - processPackages [st-bnt-group]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 00:00:55] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/94/a9/b53c84f7284e36f85d4200cbaec793ae39bf4d63810e7db3ef1138ea0656/neon_mana_utils-0.0.5a5-py3-none-any.whl
+[2023-05-10 00:00:55] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/08/af/9329c8256bf982ad67ecabbde277b479ab13f800aac5c5d5a697d4ce4d79/cellmaps_utils-0.1.0a3.tar.gz
+[2023-05-10 00:00:55] INFO root fetch - processPackages [concordia-harmony]: Downloading https://files.pythonhosted.org/packages/00/1b/75413c82aaf956a50fb7d584ac372b626b8a6dbaaad5a217b2bc45c4fbaa/concordia-harmony-1.0.0.tar.gz
+[2023-05-10 00:00:55] INFO root fetch - processPackages [kolena-client]: Downloading https://files.pythonhosted.org/packages/a6/a9/3001c8596d87519634dd8a8ae1e90db7f216a739d34a229a86c1a4cd5401/kolena_client-0.68.0.tar.gz
+[2023-05-10 00:00:55] INFO root fetch - processPackages [neon-mana-utils]: Downloading https://files.pythonhosted.org/packages/53/3d/afab1a22864ebe8e30b6d54da2d6453bb0704731c794c3076a896eeeee44/neon_mana_utils-0.0.5a6-py3-none-any.whl
+[2023-05-10 00:00:55] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/b8/99/56650982e5bc22783962786a08697bfa7f15f7ea154facb47acb711ff3a4/cellmaps_utils-0.1.0a4.tar.gz
+[2023-05-10 00:00:55] INFO root fetch - processPackages [concordia-harmony]: executing diffoscope
+[2023-05-10 00:00:55] INFO root fetch - processPackages [concordia-harmony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/concordia-harmony-0.1.5.tar.gz tmp/concordia-harmony-1.0.0.tar.gz --markdown 20230510/c/concordia-harmony/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 00:00:55] INFO root fetch - processPackages [st-bnt-group]: Downloading https://files.pythonhosted.org/packages/9d/53/91a21017f55322509ad088f36290a00aa0066ce8a98047521c8de0099327/st_bnt_group-0.0.3-py3-none-any.whl
+[2023-05-10 00:00:56] INFO root fetch - processPackages [kolena-client]: executing diffoscope
+[2023-05-10 00:00:56] INFO root fetch - processPackages [kolena-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolena_client-0.67.0.tar.gz tmp/kolena_client-0.68.0.tar.gz --markdown 20230510/k/kolena-client/0.67.0-0.68.0/diff.md --exclude *.pyd
+[2023-05-10 00:00:56] INFO root fetch - processPackages [neon-mana-utils]: executing diffoscope
+[2023-05-10 00:00:56] INFO root fetch - processPackages [neon-mana-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_mana_utils-0.0.5a5-py3-none-any.whl.zip tmp/neon_mana_utils-0.0.5a6-py3-none-any.whl.zip --markdown 20230510/n/neon-mana-utils/0.0.5a5-0.0.5a6/diff.md --exclude *.pyd
+[2023-05-10 00:00:56] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-05-10 00:00:56] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a3.tar.gz tmp/cellmaps_utils-0.1.0a4.tar.gz --markdown 20230510/c/cellmaps-utils/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-05-10 00:00:56] INFO root fetch - processPackages [st-bnt-group]: executing diffoscope
+[2023-05-10 00:00:56] INFO root fetch - processPackages [st-bnt-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_bnt_group-0.0.2-py3-none-any.whl.zip tmp/st_bnt_group-0.0.3-py3-none-any.whl.zip --markdown 20230510/s/st-bnt-group/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 00:00:57] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog]: success
+[2023-05-10 00:00:57] INFO root fetch - main [MainThread]: End processing [concordia-harmony]: success
+[2023-05-10 00:00:57] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-10 00:00:57] INFO root fetch - main [MainThread]: End processing [neon-mana-utils]: success
+[2023-05-10 00:00:57] INFO root fetch - main [MainThread]: End processing [kolena-client]: success
+[2023-05-10 00:00:58] INFO root fetch - main [MainThread]: End processing [st-bnt-group]: success
+[2023-05-10 00:00:58] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-05-10 00:00:58] INFO root fetch - main [MainThread]: Store serial: [18037972]
