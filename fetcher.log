@@ -8497,3 +8497,18 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:30:57] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
 [2023-05-10 07:30:57] INFO root fetch - main [MainThread]: End processing [gandai]: success
 [2023-05-10 07:30:57] INFO root fetch - main [MainThread]: Store serial: [18042591]
+[2023-05-10 07:36:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042591]
+[2023-05-10 07:36:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-05-10 07:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dodo-is-api
+[2023-05-10 07:36:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: proteinTools
+[2023-05-10 07:36:06] INFO root fetch - processPackages [proteinTools]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-10 07:36:06] INFO root fetch - processPackages [dodo-is-api]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-10 07:36:06] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/d9/98/6b7ba4f01d1408e90ab8b8d97ae95c13c6df5d30bbb297b7e397386112f7/proteinTools-1.5.2.tar.gz
+[2023-05-10 07:36:06] INFO root fetch - processPackages [dodo-is-api]: Downloading https://files.pythonhosted.org/packages/af/49/adcbb68a5915188e19dad935dcb69309b855f573e50eb02c81224560b2e5/dodo_is_api-0.6.0.tar.gz
+[2023-05-10 07:36:06] INFO root fetch - processPackages [dodo-is-api]: executing diffoscope
+[2023-05-10 07:36:06] INFO root fetch - processPackages [dodo-is-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dodo_is_api-0.5.0.tar.gz tmp/dodo_is_api-0.6.0.tar.gz --markdown 20230510/d/dodo-is-api/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 07:36:07] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-05-10 07:36:07] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.5.1.tar.gz tmp/proteinTools-1.5.2.tar.gz --markdown 20230510/p/proteinTools/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-10 07:36:07] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
+[2023-05-10 07:36:07] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-05-10 07:36:07] INFO root fetch - main [MainThread]: Store serial: [18042597]
