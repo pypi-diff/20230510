@@ -22293,3 +22293,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:41:07] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
 [2023-05-10 19:41:53] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
 [2023-05-10 19:41:53] INFO root fetch - main [MainThread]: Store serial: [18050691]
+[2023-05-10 19:46:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050691]
+[2023-05-10 19:47:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: es7s
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lesscode-tool
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: inference-server
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cfscanner
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mitol-django-hubspot-api
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: case-utils
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lesscode-tool
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tgclients
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hexwatershed
+[2023-05-10 19:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autumn8
+[2023-05-10 19:47:02] INFO root fetch - processPackages [cfscanner]: New version: [1.3.16] Old Version: [1.3.15]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/9f/9f/c0693970cedc0a4b3ef55857cfc61d1035797ca18fbdaaa976dd6b6d714e/cfscanner-1.3.16.tar.gz
+[2023-05-10 19:47:02] INFO root fetch - processPackages [inference-server]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-10 19:47:02] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20230510/h/hexwatershed/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 19:47:02] INFO root fetch - processPackages [case-utils]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [tgclients]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [mitol-django-hubspot-api]: New version: [2023.5.10] Old Version: [1.1.0]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [autumn8]: New version: [1.0.5rc1] Old Version: [1.0.3rc4]
+[2023-05-10 19:47:02] INFO root fetch - processPackages [es7s]: New version: [3.6.0.dev0] Old Version: [3.5.0.dev0]
+[2023-05-10 19:47:02] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 25985586>=10485760
+[2023-05-10 19:47:02] INFO root fetch - processPackages [cfscanner]: Start processing: weighted-kdtree
+[2023-05-10 19:47:02] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-05-10 19:47:03] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/10/27/5091ee4dbafac6a70eb7e0da68049c0cdf6e0e02c340c7f46338530fa2e3/autumn8-1.0.3rc4.tar.gz
+[2023-05-10 19:47:03] WARNING root fetch - processPackages [weighted-kdtree]: Skipping, unable to determine old version
+[2023-05-10 19:47:03] INFO root fetch - processPackages [weighted-kdtree]: Start processing: jsii
+[2023-05-10 19:47:03] INFO root fetch - main [MainThread]: End processing [weighted-kdtree] error
+[2023-05-10 19:47:03] INFO root fetch - processPackages [case-utils]: Downloading https://files.pythonhosted.org/packages/eb/c3/10a28ff4151cd5adb9422cb9ff72c0870537eec14c1b706c3b1db0ebcc2f/case_utils-0.8.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [tgclients]: Downloading https://files.pythonhosted.org/packages/dd/db/ad7d5912b9e86a7594f2c99ed5ebd9adc4e1d1dad2ce529546130e7d2612/tgclients-0.8.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [mitol-django-hubspot-api]: Downloading https://files.pythonhosted.org/packages/8f/f4/f6f19a997522577816535cb437184424d0b4960304d5b9c86f3b2239c8a5/mitol-django-hubspot-api-1.1.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [jsii]: New version: [1.9.0] Old Version: [1.81.0]
+[2023-05-10 19:47:03] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230510/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230510/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [inference-server]: Downloading https://files.pythonhosted.org/packages/db/45/72e2b07add74bc5542758ba72d355b4a5aff35a25015aff008220b3e0c73/inference-server-1.0.3.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [autumn8]: Downloading https://files.pythonhosted.org/packages/68/51/2f0e0c21b19f074a84c710ab076464a1351ec4d1ec5a6f2481b644831686/autumn8-1.0.5rc1.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [es7s]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [mitol-django-hubspot-api]: Downloading https://files.pythonhosted.org/packages/09/bc/9d4ca2e54801840a6890254c103204b2132dd04a02f23d1176c0f44978fe/mitol-django-hubspot-api-2023.5.10.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [es7s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es7s-3.5.0.dev0.tar.gz tmp/es7s-3.6.0.dev0.tar.gz --markdown 20230510/e/es7s/3.5.0.dev0-3.6.0.dev0/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/64/b8/4bece2d546518afdc0fb6017b531e01a497858133a3c43312a93db00ff88/jsii-1.81.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [case-utils]: Downloading https://files.pythonhosted.org/packages/bd/b5/337dc70b3a34f5c14dcc0b4da1a5c120a2308556fc1c41bdbcca0c2d8476/case_utils-0.9.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [autumn8]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [autumn8]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autumn8-1.0.3rc4.tar.gz tmp/autumn8-1.0.5rc1.tar.gz --markdown 20230510/a/autumn8/1.0.3rc4-1.0.5rc1/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [inference-server]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [inference-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inference-server-1.0.2.tar.gz tmp/inference-server-1.0.3.tar.gz --markdown 20230510/i/inference-server/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [case-utils]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [case-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/case_utils-0.8.0.tar.gz tmp/case_utils-0.9.0.tar.gz --markdown 20230510/c/case-utils/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [mitol-django-hubspot-api]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [mitol-django-hubspot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitol-django-hubspot-api-1.1.0.tar.gz tmp/mitol-django-hubspot-api-2023.5.10.tar.gz --markdown 20230510/m/mitol-django-hubspot-api/1.1.0-2023.5.10/diff.md --exclude *.pyd
+[2023-05-10 19:47:03] INFO root fetch - processPackages [tgclients]: Downloading https://files.pythonhosted.org/packages/0b/08/71e695e8b0df375a870e314fed46fbca528c8696a36f06ba347f09c9d77d/tgclients-0.9.0.tar.gz
+[2023-05-10 19:47:03] INFO root fetch - processPackages [tgclients]: executing diffoscope
+[2023-05-10 19:47:03] INFO root fetch - processPackages [tgclients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tgclients-0.8.0.tar.gz tmp/tgclients-0.9.0.tar.gz --markdown 20230510/t/tgclients/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:47:04] INFO root fetch - processPackages [jsii]: Downloading https://files.pythonhosted.org/packages/78/20/6098655fcf481a83444339de8b2275a7c0eaf7b4b960911939b279a0b5e6/jsii-1.9.0.tar.gz
+[2023-05-10 19:47:04] INFO root fetch - processPackages [jsii]: executing diffoscope
+[2023-05-10 19:47:04] INFO root fetch - processPackages [jsii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsii-1.81.0.tar.gz tmp/jsii-1.9.0.tar.gz --markdown 20230510/j/jsii/1.81.0-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:47:04] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-10 19:47:04] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [autumn8]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [mitol-django-hubspot-api]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [case-utils]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [inference-server]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [es7s]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [jsii]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [tgclients]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-10 19:47:05] INFO root fetch - main [MainThread]: Store serial: [18050768]
