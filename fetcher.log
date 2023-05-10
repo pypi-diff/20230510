@@ -14139,3 +14139,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:46:20] INFO root fetch - main [MainThread]: End processing [texproject]: success
 [2023-05-10 12:46:39] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
 [2023-05-10 12:46:39] INFO root fetch - main [MainThread]: Store serial: [18045737]
+[2023-05-10 12:51:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045737]
+[2023-05-10 12:51:49] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: priceloop-api
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GridCal
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irails
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: codeoffer
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vgd-counterfactuals
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-assaf-TACBifAlias
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nodered.py
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: paradigm-client
+[2023-05-10 12:51:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hmms
+[2023-05-10 12:51:49] INFO root fetch - processPackages [codeoffer]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [vgd-counterfactuals]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [GridCal]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.38.587190] Old Version: [20230510.9.27.733025]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACBifAlias]: New version: [20230510.10.48.379062] Old Version: [20230509.10.22.938463]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [irails]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-10 12:51:49] WARNING root fetch - processPackages [paradigm-client]: Skipping, unable to determine old version
+[2023-05-10 12:51:49] INFO root fetch - main [MainThread]: End processing [paradigm-client] error
+[2023-05-10 12:51:49] INFO root fetch - processPackages [nodered.py]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [hmms]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 12:51:49] INFO root fetch - processPackages [certora-cli-alpha-assaf-TACBifAlias]: Downloading https://files.pythonhosted.org/packages/17/79/4022976eb0d455af807ae5d1744557c5fd2dd4b802ddd33eae72ac83bab3/certora-cli-alpha-assaf-TACBifAlias-20230509.10.22.938463.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [codeoffer]: Downloading https://files.pythonhosted.org/packages/20/63/9970e15b8819443b44aae83a5a2c1899eeb9b165d6f3acc8cd0e97f2f600/codeoffer-0.5.0.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/c5/45/6bc6d9e94e8a6f70caf49f68a8431c9eb819c1e2c40d2448bc9249ddb812/vgd_counterfactuals-0.1.0.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/2f/88/dd2001f9d5a88d8fe95f88aafc426165de36b07f51904361f2e938818f9f/certora-cli-alpha-niv-fix_check_results-20230510.9.27.733025.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-05-10 12:51:49] WARNING root fetch - processPackages [certora-cli-alpha-assaf-TACBifAlias]: Skipping package: exceeds size limit 38473341>=10485760
+[2023-05-10 12:51:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-assaf-TACBifAlias] error
+[2023-05-10 12:51:49] INFO root fetch - processPackages [GridCal]: Downloading https://files.pythonhosted.org/packages/e7/b6/04f1a175d50634f31aab705b0456ea6c568e8b5dfd7f0974386024a160c5/GridCal-4.7.1.tar.gz
+[2023-05-10 12:51:49] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213798>=10485760
+[2023-05-10 12:51:49] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 12:51:49] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/27/73/be3d6a8f86d74da759d3f05fa46015dd8968bdefef2402396ba89a5ce724/irails-1.2.5.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [hmms]: Downloading https://files.pythonhosted.org/packages/e0/7c/cd81e3d31d27d90c567a97a63708e71b41c3e3612d29988c30a498d39544/hmms-0.2.1.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [codeoffer]: executing diffoscope
+[2023-05-10 12:51:49] INFO root fetch - processPackages [codeoffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoffer-0.4.0.tar.gz tmp/codeoffer-0.5.0.tar.gz --markdown 20230510/c/codeoffer/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 12:51:49] WARNING root fetch - processPackages [GridCal]: Skipping package: exceeds size limit 28273301>=10485760
+[2023-05-10 12:51:49] INFO root fetch - main [MainThread]: End processing [GridCal] error
+[2023-05-10 12:51:49] INFO root fetch - processPackages [nodered.py]: Downloading https://files.pythonhosted.org/packages/96/07/8d1c4763f926aa62e35086c7de3c044c8e9f54706ba696df97327312c9bf/nodered.py-0.2.1.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-05-10 12:51:49] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-10 12:51:49] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.2.4.tar.gz tmp/irails-1.2.5.tar.gz --markdown 20230510/i/irails/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-10 12:51:49] INFO root fetch - processPackages [nodered.py]: executing diffoscope
+[2023-05-10 12:51:49] INFO root fetch - processPackages [nodered.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nodered.py-0.2.0.tar.gz tmp/nodered.py-0.2.1.tar.gz --markdown 20230510/n/nodered.py/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 12:51:49] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-05-10 12:51:49] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230510/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-05-10 12:51:49] INFO root fetch - processPackages [hmms]: Downloading https://files.pythonhosted.org/packages/6c/9e/496da3e2ed76d9003dcd9206ee1694437844be96a967fb5300f054f4d25f/hmms-0.2.2.tar.gz
+[2023-05-10 12:51:50] INFO root fetch - processPackages [vgd-counterfactuals]: Downloading https://files.pythonhosted.org/packages/40/62/85024c34c7f753c0aa0d0522efefbb872c28645382653aa4f8b331cc0a17/vgd_counterfactuals-0.1.1.tar.gz
+[2023-05-10 12:51:50] INFO root fetch - processPackages [hmms]: executing diffoscope
+[2023-05-10 12:51:50] INFO root fetch - processPackages [hmms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmms-0.2.1.tar.gz tmp/hmms-0.2.2.tar.gz --markdown 20230510/h/hmms/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 12:51:50] INFO root fetch - processPackages [vgd-counterfactuals]: executing diffoscope
+[2023-05-10 12:51:50] INFO root fetch - processPackages [vgd-counterfactuals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vgd_counterfactuals-0.1.0.tar.gz tmp/vgd_counterfactuals-0.1.1.tar.gz --markdown 20230510/v/vgd-counterfactuals/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 12:51:50] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: End processing [nodered.py]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: End processing [hmms]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: End processing [vgd-counterfactuals]: success
+[2023-05-10 12:51:51] INFO root fetch - main [MainThread]: Store serial: [18045817]
