@@ -22031,3 +22031,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:24:29] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
 [2023-05-10 19:25:04] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
 [2023-05-10 19:25:04] INFO root fetch - main [MainThread]: Store serial: [18050530]
+[2023-05-10 19:30:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050530]
+[2023-05-10 19:30:15] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlglot
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nkululeko
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sanic-mongodb-extension
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seaplane
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biotrade
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-alex-mapdefinition-tacvalue
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biotrade
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latch-postgres
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merqube-client-lib
+[2023-05-10 19:30:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: extract-msg
+[2023-05-10 19:30:15] INFO root fetch - processPackages [extract-msg]: New version: [0.41.0] Old Version: [0.40.0]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [sanic-mongodb-extension]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [nkululeko]: New version: [0.45.1] Old Version: [0.45.0]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [seaplane]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [latch-postgres]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 19:30:15] WARNING root fetch - processPackages [certora-cli-alpha-alex-mapdefinition-tacvalue]: Skipping, unable to determine old version
+[2023-05-10 19:30:15] INFO root fetch - processPackages [certora-cli-alpha-alex-mapdefinition-tacvalue]: Start processing: moddagudu
+[2023-05-10 19:30:15] INFO root fetch - processPackages [biotrade]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [biotrade]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [merqube-client-lib]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-10 19:30:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-mapdefinition-tacvalue] error
+[2023-05-10 19:30:15] INFO root fetch - processPackages [extract-msg]: executing diffoscope
+[2023-05-10 19:30:15] INFO root fetch - processPackages [extract-msg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extract_msg-0.40.0.tar.gz tmp/extract_msg-0.41.0.tar.gz --markdown 20230510/e/extract-msg/0.40.0-0.41.0/diff.md --exclude *.pyd
+[2023-05-10 19:30:15] INFO root fetch - processPackages [sqlglot]: New version: [9.0.6] Old Version: [9.0.5]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [moddagudu]: New version: [1.4] Old Version: [1.3]
+[2023-05-10 19:30:15] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/30/85/7ae21d04bd95604190cf09d5372aac592f365b4690e0e0eb02f6fa36bd5e/nkululeko-0.45.0.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/d6/e3/f09d22d91bc2af5fb53d5da51529dc8bffc9b1c96692dc572fe991ffafef/biotrade-0.1.2.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/d6/e3/f09d22d91bc2af5fb53d5da51529dc8bffc9b1c96692dc572fe991ffafef/biotrade-0.1.2.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/5d/f0/635f87760ca1c6426a2e48eee448729e9a5eddde5505f55e765e819d65b2/seaplane-0.2.8.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/a4/d7/52b55007d77d7c013811dd37e28d8935565c288dcd8bd68a4a98375cb4f4/latch_postgres-0.1.5.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [sanic-mongodb-extension]: Downloading https://files.pythonhosted.org/packages/82/d8/9adf57cce72a1df3857b5d8905ce1d113144e4740b0d3a414006423247e0/sanic-mongodb-extension-0.5.0.tar.gz
+[2023-05-10 19:30:15] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/d0/2c/8d7683ee87f4ecc614fd05ca368df08b68aa19dde90ba84571b989bf2d93/moddagudu-1.4.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [merqube-client-lib]: Downloading https://files.pythonhosted.org/packages/39/bd/d01391842ca8c98c85a9221480769f2aa609241708b2f350c1010c53c2c3/merqube_client_lib-0.5.4.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [sqlglot]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [sqlglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlglot-9.0.5.tar.gz tmp/sqlglot-9.0.6.tar.gz --markdown 20230510/s/sqlglot/9.0.5-9.0.6/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [latch-postgres]: Downloading https://files.pythonhosted.org/packages/14/23/51cec23553fd89151d9bf7e5134024394b45ffb2f8602c2d45aaf032b2cc/latch_postgres-0.1.6.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [nkululeko]: Downloading https://files.pythonhosted.org/packages/5b/5d/6cfeda14fde0aea31443c7a0dd786862d46d2d1a2df9acd193403633ac80/nkululeko-0.45.1.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [seaplane]: Downloading https://files.pythonhosted.org/packages/ab/82/8db7f75aa0f9ff960bc6975b7a0033a402145b2a590bc58daf098607815e/seaplane-0.2.9.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.3.tar.gz tmp/moddagudu-1.4.tar.gz --markdown 20230510/m/moddagudu/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [merqube-client-lib]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [merqube-client-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merqube_client_lib-0.5.3.tar.gz tmp/merqube_client_lib-0.5.4.tar.gz --markdown 20230510/m/merqube-client-lib/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [latch-postgres]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [latch-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_postgres-0.1.5.tar.gz tmp/latch_postgres-0.1.6.tar.gz --markdown 20230510/l/latch-postgres/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/06/1c/13110f71fb2c3071c61bb38c94928f2c0261ad80da48e9b712e8d82848f5/biotrade-0.1.3.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: Downloading https://files.pythonhosted.org/packages/06/1c/13110f71fb2c3071c61bb38c94928f2c0261ad80da48e9b712e8d82848f5/biotrade-0.1.3.tar.gz
+[2023-05-10 19:30:16] INFO root fetch - processPackages [sanic-mongodb-extension]: Downloading https://files.pythonhosted.org/packages/9f/34/e676bbb45488a4d215eddfb820d32a3c7be2811f12e8d9ffd85ed42b5ba0/sanic_mongodb_extension-0.6.0-py3-none-any.whl
+[2023-05-10 19:30:16] INFO root fetch - processPackages [nkululeko]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [nkululeko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nkululeko-0.45.0.tar.gz tmp/nkululeko-0.45.1.tar.gz --markdown 20230510/n/nkululeko/0.45.0-0.45.1/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [sanic-mongodb-extension]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [sanic-mongodb-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanic-mongodb-extension-0.5.0.tar.gz tmp/sanic_mongodb_extension-0.6.0-py3-none-any.whl.zip --markdown 20230510/s/sanic-mongodb-extension/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [seaplane]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [seaplane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaplane-0.2.8.tar.gz tmp/seaplane-0.2.9.tar.gz --markdown 20230510/s/seaplane/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.1.2.tar.gz tmp/biotrade-0.1.3.tar.gz --markdown 20230510/b/biotrade/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: executing diffoscope
+[2023-05-10 19:30:16] INFO root fetch - processPackages [biotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biotrade-0.1.2.tar.gz tmp/biotrade-0.1.3.tar.gz --markdown 20230510/b/biotrade/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 19:30:17] INFO root fetch - processPackages [moddagudu]: Start processing: jetha-ai
+[2023-05-10 19:30:17] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 19:30:17] INFO root fetch - processPackages [merqube-client-lib]: Start processing: plutous
+[2023-05-10 19:30:17] INFO root fetch - main [MainThread]: End processing [merqube-client-lib]: success
+[2023-05-10 19:30:17] INFO root fetch - processPackages [plutous]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 19:30:17] INFO root fetch - processPackages [jetha-ai]: New version: [1] Old Version: [0]
+[2023-05-10 19:30:17] INFO root fetch - processPackages [latch-postgres]: Start processing: tap-ga4
+[2023-05-10 19:30:17] INFO root fetch - main [MainThread]: End processing [latch-postgres]: success
+[2023-05-10 19:30:17] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/a2/2b/7a13580def60fc0f218e75066cd254118efb2f7616b57c1522c3085bce1f/plutous-0.0.1.tar.gz
+[2023-05-10 19:30:17] INFO root fetch - processPackages [tap-ga4]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:30:17] INFO root fetch - processPackages [sanic-mongodb-extension]: Start processing: matplotlips
+[2023-05-10 19:30:17] INFO root fetch - main [MainThread]: End processing [sanic-mongodb-extension]: success
+[2023-05-10 19:30:17] INFO root fetch - processPackages [jetha-ai]: Downloading https://files.pythonhosted.org/packages/80/a1/328623a68715c2924c426e1464781981bb92569d74ffdd053f5d6ceada96/jetha_ai-0.tar.gz
+[2023-05-10 19:30:18] WARNING root fetch - processPackages [matplotlips]: Skipping, unable to determine old version
+[2023-05-10 19:30:18] INFO root fetch - processPackages [matplotlips]: Start processing: solution-harsha
+[2023-05-10 19:30:18] INFO root fetch - main [MainThread]: End processing [matplotlips] error
+[2023-05-10 19:30:18] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/3e/69/2c1006bf9db954d6d69710328cffcfdcc5aa90465978c42bdb7e6aef8704/plutous-0.0.2.tar.gz
+[2023-05-10 19:30:18] INFO root fetch - processPackages [sqlglot]: Start processing: jetha-ai
+[2023-05-10 19:30:18] INFO root fetch - main [MainThread]: End processing [sqlglot]: success
+[2023-05-10 19:30:18] INFO root fetch - processPackages [tap-ga4]: Downloading https://files.pythonhosted.org/packages/e2/e1/e46b87ac16b9280859da5efd60422c7a7f11be598ba1eb5d14e73f192b35/tap-ga4-0.0.8.tar.gz
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: New version: [1] Old Version: [0]
+[2023-05-10 19:30:18] INFO root fetch - main [MainThread]: End processing [nkululeko]: success
+[2023-05-10 19:30:18] INFO root fetch - processPackages [solution-harsha]: New version: [0.9] Old Version: [0.8]
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: Downloading https://files.pythonhosted.org/packages/46/8b/1fc05ae7ce5052ece5992c17c65ebad11ffd2b97550ecddeafe05e82e213/jetha_ai-1.tar.gz
+[2023-05-10 19:30:18] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-05-10 19:30:18] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.1.tar.gz tmp/plutous-0.0.2.tar.gz --markdown 20230510/p/plutous/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: Downloading https://files.pythonhosted.org/packages/46/8b/1fc05ae7ce5052ece5992c17c65ebad11ffd2b97550ecddeafe05e82e213/jetha_ai-1.tar.gz
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: executing diffoscope
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetha_ai-0.tar.gz tmp/jetha_ai-1.tar.gz --markdown 20230510/j/jetha-ai/0-1/diff.md --exclude *.pyd
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: executing diffoscope
+[2023-05-10 19:30:18] INFO root fetch - processPackages [jetha-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jetha_ai-0.tar.gz tmp/jetha_ai-1.tar.gz --markdown 20230510/j/jetha-ai/0-1/diff.md --exclude *.pyd
+[2023-05-10 19:30:18] INFO root fetch - processPackages [solution-harsha]: executing diffoscope
+[2023-05-10 19:30:18] INFO root fetch - processPackages [solution-harsha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solution_harsha-0.8.tar.gz tmp/solution_harsha-0.9.tar.gz --markdown 20230510/s/solution-harsha/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-10 19:30:18] INFO root fetch - processPackages [tap-ga4]: Downloading https://files.pythonhosted.org/packages/11/58/59ed0ee4d5d60407d582b4541b315cdda768c5df9940d6ddde7503ccd88a/tap-ga4-0.0.9.tar.gz
+[2023-05-10 19:30:18] INFO root fetch - processPackages [tap-ga4]: executing diffoscope
+[2023-05-10 19:30:18] INFO root fetch - processPackages [tap-ga4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-ga4-0.0.8.tar.gz tmp/tap-ga4-0.0.9.tar.gz --markdown 20230510/t/tap-ga4/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [jetha-ai]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [jetha-ai]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [solution-harsha]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [seaplane]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [extract-msg]: success
+[2023-05-10 19:30:19] INFO root fetch - main [MainThread]: End processing [tap-ga4]: success
+[2023-05-10 19:30:20] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-05-10 19:30:20] INFO root fetch - main [MainThread]: End processing [biotrade]: success
+[2023-05-10 19:30:20] INFO root fetch - main [MainThread]: Store serial: [18050587]
