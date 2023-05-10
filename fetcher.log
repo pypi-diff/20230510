@@ -2306,3 +2306,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 
 [2023-05-10 02:48:55] INFO root fetch - main [MainThread]: End processing [libcbm] error
 [2023-05-10 02:48:55] INFO root fetch - main [MainThread]: Store serial: [18039225]
+[2023-05-10 02:53:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039225]
+[2023-05-10 02:54:04] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnx2tf
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-speech
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcpcio-board-spider
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-databrew-cicd
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: projen
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circuitpython-styles
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dreamai
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appsurifyci
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: causalRec
+[2023-05-10 02:54:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: apysc
+[2023-05-10 02:54:04] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:54:04] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 02:54:04] WARNING root fetch - processPackages [causalRec]: Skipping, unable to determine old version
+[2023-05-10 02:54:04] INFO root fetch - processPackages [causalRec]: Start processing: bioversions
+[2023-05-10 02:54:04] INFO root fetch - processPackages [circuitpython-styles]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-10 02:54:04] INFO root fetch - main [MainThread]: End processing [causalRec] error
+[2023-05-10 02:54:04] INFO root fetch - processPackages [dreamai]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [neon-speech]: New version: [3.3.1a3] Old Version: [3.3.1a2]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [apysc]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [projen]: New version: [0.71.9] Old Version: [0.71.8]
+[2023-05-10 02:54:05] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230510/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [dreamai]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [dreamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamai-0.8.0.tar.gz tmp/dreamai-0.9.0.tar.gz --markdown 20230510/d/dreamai/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/bb/d6/590102f8d261dc05909ebec94779bb22e4d3374818f344f2b1e6a5005470/neon_speech-3.3.1a2-py3-none-any.whl
+[2023-05-10 02:54:05] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2023-05-10 02:54:05] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230510/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-05-10 02:54:05] INFO root fetch - processPackages [circuitpython-styles]: Downloading https://files.pythonhosted.org/packages/1b/e6/8bbdf39a1540bf00d3f01c616c2ef2fb9c8e06f3894ba26a2fba6fba21a8/circuitpython-styles-0.7.1.tar.gz
+[2023-05-10 02:54:05] INFO root fetch - processPackages [projen]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.71.8.tar.gz tmp/projen-0.71.9.tar.gz --markdown 20230510/p/projen/0.71.8-0.71.9/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20230510/x/xcpcio-board-spider/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [circuitpython-styles]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [circuitpython-styles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circuitpython-styles-0.7.0.tar.gz tmp/circuitpython-styles-0.7.1.tar.gz --markdown 20230510/c/circuitpython-styles/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [neon-speech]: Downloading https://files.pythonhosted.org/packages/6e/75/36ea893c798da4dc0d84bb10d0cb8d248602b3888ea53ac5f0ccad95b4f5/neon_speech-3.3.1a3-py3-none-any.whl
+[2023-05-10 02:54:05] INFO root fetch - processPackages [apysc]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [apysc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apysc-2.7.8.tar.gz tmp/apysc-2.7.9.tar.gz --markdown 20230510/a/apysc/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2023-05-10 02:54:05] INFO root fetch - processPackages [neon-speech]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [neon-speech]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_speech-3.3.1a2-py3-none-any.whl.zip tmp/neon_speech-3.3.1a3-py3-none-any.whl.zip --markdown 20230510/n/neon-speech/3.3.1a2-3.3.1a3/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-05-10 02:54:05] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230510/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 02:54:05] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-05-10 02:54:05] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230510/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-10 02:54:06] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-05-10 02:54:06] INFO root fetch - main [MainThread]: End processing [dreamai]: success
+[2023-05-10 02:54:06] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-10 02:54:07] INFO root fetch - main [MainThread]: End processing [neon-speech]: success
+[2023-05-10 02:54:07] INFO root fetch - main [MainThread]: End processing [circuitpython-styles]: success
+[2023-05-10 02:54:07] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-10 02:54:07] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2023-05-10 02:54:08] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-05-10 02:54:14] INFO root fetch - main [MainThread]: End processing [apysc]: success
+[2023-05-10 02:54:27] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-05-10 02:54:27] INFO root fetch - main [MainThread]: Store serial: [18039257]
