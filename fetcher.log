@@ -12183,3 +12183,111 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:58:15] INFO root fetch - main [MainThread]: End processing [ImageD11]: success
 [2023-05-10 10:58:33] INFO root fetch - main [MainThread]: End processing [metaquantus]: success
 [2023-05-10 10:58:33] INFO root fetch - main [MainThread]: Store serial: [18044492]
+[2023-05-10 11:03:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044492]
+[2023-05-10 11:03:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotic
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alchql
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alchql
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: get-report-template
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prepipy
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytket
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csrfvalidators
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kqcircuits
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphkit-learn
+[2023-05-10 11:03:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jupytercards
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: New version: [3.3.0.22936884] Old Version: [3.3.0.22936877]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [csrfvalidators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [kqcircuits]: New version: [4.6.9rc1] Old Version: [4.6.18]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [get-report-template]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: New version: [3.3.0.22936884] Old Version: [3.3.0.22936877]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [graphkit-learn]: New version: [0.2b3] Old Version: [0.2b2]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [jupytercards]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [robotic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [prepipy]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [pytket]: New version: [1.9.1rc0] Old Version: [1.9.1]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [graphkit-learn]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [graphkit-learn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphkit-learn-0.2b2.tar.gz tmp/graphkit-learn-0.2b3.tar.gz --markdown 20230510/g/graphkit-learn/0.2b2-0.2b3/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/82/ab/d7ef1163176497678be0405d9ec0592b20e23b294b1f9ceb83b781d5f885/alchql-3.3.0.22936877.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/82/ab/d7ef1163176497678be0405d9ec0592b20e23b294b1f9ceb83b781d5f885/alchql-3.3.0.22936877.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [csrfvalidators]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [csrfvalidators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfvalidators-0.1.8.tar.gz tmp/csrfvalidators-0.1.9.tar.gz --markdown 20230510/c/csrfvalidators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/e1/22/ca52378e2c6ac3e0fef318e5025b49ed44e9e829ce74d186e03a80aed48f/kqcircuits-4.6.18.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/aa/83/9b4bc4f979257fd0aab645b72c15264fad6e0a8afa9ce132abc406cf78e7/prepipy-0.6.4.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [get-report-template]: Downloading https://files.pythonhosted.org/packages/8f/30/2a05d9328116627aade23b9a571df1ce66dd984a52463195b9c4a468fd03/get-report-template-0.0.3.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [pytket]: Downloading https://files.pythonhosted.org/packages/0b/0f/8db0fcfa7fde7115dd5863cd5b1f5533be347fbad99aaa158e2c9fa0a3a5/pytket-1.9.1-cp39-cp39-win_amd64.whl
+[2023-05-10 11:03:43] INFO root fetch - processPackages [get-report-template]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [get-report-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-report-template-0.0.2.tar.gz tmp/get-report-template-0.0.3.tar.gz --markdown 20230510/g/get-report-template/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/c3/f0/b0a41fba91857aabfeea5ccb83f6ae2796dff0c737dcdd42147791c542c7/jupytercards-2.2.0.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/34/a9/a4575e5556c65e745516c498a2bfe9aaaf1b460ff5faa412b064787999e8/robotic-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-10 11:03:43] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240177>=10485760
+[2023-05-10 11:03:43] INFO root fetch - processPackages [robotic]: Start processing: rero-invenio-base
+[2023-05-10 11:03:43] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/57/54/437717d440922beffb467eba9802871886624f5622d767b70a396ececb0f/alchql-3.3.0.22936884-py2.py3-none-any.whl
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/57/54/437717d440922beffb467eba9802871886624f5622d767b70a396ececb0f/alchql-3.3.0.22936884-py2.py3-none-any.whl
+[2023-05-10 11:03:43] INFO root fetch - processPackages [rero-invenio-base]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [prepipy]: Downloading https://files.pythonhosted.org/packages/01/01/ca54f95abea79dc6e9f766cd519bea1a132684941af1001f3d08b180462c/prepipy-0.6.5.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.3.0.22936877.tar.gz tmp/alchql-3.3.0.22936884-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.3.0.22936877-3.3.0.22936884/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.3.0.22936877.tar.gz tmp/alchql-3.3.0.22936884-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.3.0.22936877-3.3.0.22936884/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [kqcircuits]: Downloading https://files.pythonhosted.org/packages/28/fc/4a19bae7b5af757678d9dcca920c9357f97f9cee24781e5c76e70acacf4c/kqcircuits-4.6.9rc1.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [prepipy]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [prepipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prepipy-0.6.4.tar.gz tmp/prepipy-0.6.5.tar.gz --markdown 20230510/p/prepipy/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/ff/1d/9cdc7de87756794d2c00f0c0c216bd9d3afcbbafb5540ffa6704bd6e46ca/jupytercards-2.3.0.tar.gz
+[2023-05-10 11:03:43] INFO root fetch - processPackages [kqcircuits]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [kqcircuits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kqcircuits-4.6.18.tar.gz tmp/kqcircuits-4.6.9rc1.tar.gz --markdown 20230510/k/kqcircuits/4.6.18-4.6.9rc1/diff.md --exclude *.pyd
+[2023-05-10 11:03:43] INFO root fetch - processPackages [rero-invenio-base]: Downloading https://files.pythonhosted.org/packages/c4/aa/3b7896836f46969cdd328aceec8817aa623b349680092ac8cd8580ba648f/rero_invenio_base-0.2.0.tar.gz
+[2023-05-10 11:03:43] WARNING root fetch - processPackages [pytket]: Skipping package: exceeds size limit 10528667>=10485760
+[2023-05-10 11:03:43] INFO root fetch - processPackages [pytket]: Start processing: zepben.protobuf
+[2023-05-10 11:03:43] INFO root fetch - main [MainThread]: End processing [pytket] error
+[2023-05-10 11:03:43] INFO root fetch - processPackages [zepben.protobuf]: New version: [0.9.0b3] Old Version: [0.9.0b2]
+[2023-05-10 11:03:43] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-10 11:03:43] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.2.0.tar.gz tmp/jupytercards-2.3.0.tar.gz --markdown 20230510/j/jupytercards/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-05-10 11:03:44] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/e7/f9/98a738ec69d1cf6c1169c9e0e98d520ed5a5943e9911bce5201611265f81/zepben.protobuf-0.9.0b2-py3-none-any.whl
+[2023-05-10 11:03:44] INFO root fetch - processPackages [rero-invenio-base]: Downloading https://files.pythonhosted.org/packages/a2/60/8be65ed526c15cbaa5d7b247a08693c2898aade7ef830344c41788dbb010/rero_invenio_base-0.2.1.tar.gz
+[2023-05-10 11:03:44] INFO root fetch - processPackages [rero-invenio-base]: executing diffoscope
+[2023-05-10 11:03:44] INFO root fetch - processPackages [rero-invenio-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rero_invenio_base-0.2.0.tar.gz tmp/rero_invenio_base-0.2.1.tar.gz --markdown 20230510/r/rero-invenio-base/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 11:03:44] INFO root fetch - processPackages [zepben.protobuf]: Downloading https://files.pythonhosted.org/packages/ea/50/751033a2cb3fef1cb800a48f0d63bf756c6cdb739fe466ebcae674b82ea8/zepben.protobuf-0.9.0b3-py3-none-any.whl
+[2023-05-10 11:03:44] INFO root fetch - processPackages [zepben.protobuf]: executing diffoscope
+[2023-05-10 11:03:44] INFO root fetch - processPackages [zepben.protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.protobuf-0.9.0b2-py3-none-any.whl.zip tmp/zepben.protobuf-0.9.0b3-py3-none-any.whl.zip --markdown 20230510/z/zepben.protobuf/0.9.0b2-0.9.0b3/diff.md --exclude *.pyd
+[2023-05-10 11:03:44] INFO root fetch - processPackages [get-report-template]: Start processing: uhfReaderApi
+[2023-05-10 11:03:44] INFO root fetch - main [MainThread]: End processing [get-report-template]: success
+[2023-05-10 11:03:44] INFO root fetch - processPackages [csrfvalidators]: Start processing: biasondemand
+[2023-05-10 11:03:44] INFO root fetch - main [MainThread]: End processing [csrfvalidators]: success
+[2023-05-10 11:03:44] INFO root fetch - processPackages [uhfReaderApi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 11:03:44] WARNING root fetch - processPackages [biasondemand]: Skipping, unable to determine old version
+[2023-05-10 11:03:44] INFO root fetch - processPackages [biasondemand]: Start processing: abch-tree-sitter
+[2023-05-10 11:03:44] INFO root fetch - main [MainThread]: End processing [biasondemand] error
+[2023-05-10 11:03:44] INFO root fetch - processPackages [abch-tree-sitter]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 11:03:45] INFO root fetch - processPackages [uhfReaderApi]: Downloading https://files.pythonhosted.org/packages/09/85/ffbffb3d4dd3f9c3d5549b6bae1ef8596a597d39b555ca64e65985e8fb76/uhfReaderApi-0.0.8.tar.gz
+[2023-05-10 11:03:45] INFO root fetch - processPackages [abch-tree-sitter]: Downloading https://files.pythonhosted.org/packages/39/01/18879a79c05c4d29288160765475ba42fe78ad36fe67be347762894c58b7/abch_tree_sitter-1.1.0.tar.gz
+[2023-05-10 11:03:45] INFO root fetch - processPackages [uhfReaderApi]: executing diffoscope
+[2023-05-10 11:03:45] INFO root fetch - processPackages [uhfReaderApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhfReaderApi-0.0.7.tar.gz tmp/uhfReaderApi-0.0.8.tar.gz --markdown 20230510/u/uhfReaderApi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 11:03:45] INFO root fetch - processPackages [alchql]: Start processing: esper
+[2023-05-10 11:03:45] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 11:03:45] INFO root fetch - processPackages [esper]: New version: [2.5] Old Version: [2.4.1]
+[2023-05-10 11:03:45] INFO root fetch - processPackages [abch-tree-sitter]: Downloading https://files.pythonhosted.org/packages/42/5f/88413cd3aa68e791328a522abfd9dccb3d211457abd3b4a579ff015587ef/abch_tree_sitter-1.1.1.tar.gz
+[2023-05-10 11:03:45] INFO root fetch - processPackages [esper]: Downloading https://files.pythonhosted.org/packages/d5/55/90f92bd81bb38830fcfedde3b17a152c0f865a399faf647fffab49620896/esper-2.4.1.zip
+[2023-05-10 11:03:45] INFO root fetch - processPackages [abch-tree-sitter]: executing diffoscope
+[2023-05-10 11:03:45] INFO root fetch - processPackages [abch-tree-sitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abch_tree_sitter-1.1.0.tar.gz tmp/abch_tree_sitter-1.1.1.tar.gz --markdown 20230510/a/abch-tree-sitter/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 11:03:45] INFO root fetch - processPackages [prepipy]: Start processing: cognite-robotics-sdk
+[2023-05-10 11:03:45] INFO root fetch - main [MainThread]: End processing [prepipy]: success
+[2023-05-10 11:03:45] INFO root fetch - processPackages [cognite-robotics-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 11:03:45] INFO root fetch - processPackages [esper]: Downloading https://files.pythonhosted.org/packages/50/e8/2abe41591bab80ceddb179cdefe41ca53ae230a18ad6dfd21ce289f4aae5/esper-2.5.zip
+[2023-05-10 11:03:45] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/d5/ae/8c91887c27906da0a79a3213bfb775e2d4eab8a860f5e3f40f8704a70ac2/cognite_robotics_sdk-0.1.5.tar.gz
+[2023-05-10 11:03:45] INFO root fetch - main [MainThread]: End processing [rero-invenio-base]: success
+[2023-05-10 11:03:46] INFO root fetch - processPackages [esper]: executing diffoscope
+[2023-05-10 11:03:46] INFO root fetch - processPackages [esper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esper-2.4.1.zip tmp/esper-2.5.zip --markdown 20230510/e/esper/2.4.1-2.5/diff.md --exclude *.pyd
+[2023-05-10 11:03:46] INFO root fetch - processPackages [cognite-robotics-sdk]: Downloading https://files.pythonhosted.org/packages/78/be/393ec257d602bc5acd0c8f74b0cf1e8885addf8047d57116d0ea7021b27b/cognite_robotics_sdk-0.1.6.tar.gz
+[2023-05-10 11:03:46] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 11:03:46] INFO root fetch - processPackages [cognite-robotics-sdk]: executing diffoscope
+[2023-05-10 11:03:46] INFO root fetch - processPackages [cognite-robotics-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_robotics_sdk-0.1.5.tar.gz tmp/cognite_robotics_sdk-0.1.6.tar.gz --markdown 20230510/c/cognite-robotics-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 11:03:47] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-10 11:03:47] INFO root fetch - main [MainThread]: End processing [graphkit-learn]: success
+[2023-05-10 11:03:47] INFO root fetch - main [MainThread]: End processing [kqcircuits]: success
+[2023-05-10 11:03:47] INFO root fetch - main [MainThread]: End processing [esper]: success
+[2023-05-10 11:03:48] INFO root fetch - main [MainThread]: End processing [zepben.protobuf]: success
+[2023-05-10 11:03:49] INFO root fetch - main [MainThread]: End processing [abch-tree-sitter]: success
+[2023-05-10 11:03:49] INFO root fetch - main [MainThread]: End processing [cognite-robotics-sdk]: success
+[2023-05-10 11:03:49] INFO root fetch - main [MainThread]: End processing [uhfReaderApi]: success
+[2023-05-10 11:03:49] INFO root fetch - main [MainThread]: Store serial: [18044604]
