@@ -16897,3 +16897,121 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:50:21] INFO root fetch - main [MainThread]: End processing [myoquant]: success
 [2023-05-10 14:50:23] INFO root fetch - main [MainThread]: End processing [devapps]: success
 [2023-05-10 14:50:23] INFO root fetch - main [MainThread]: Store serial: [18047437]
+[2023-05-10 14:55:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047437]
+[2023-05-10 14:55:32] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bdating-common
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aps-common-libraries
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prodigy-teams
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywnp
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clarus
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scoringrules
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: architex
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: intnan
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: py-module-parser
+[2023-05-10 14:55:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: flaks-setup
+[2023-05-10 14:55:32] INFO root fetch - processPackages [prodigy-teams]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [clarus]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [scoringrules]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [aps-common-libraries]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [pywnp]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [intnan]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [architex]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [py-module-parser]: New version: [0.4.0b0] Old Version: [0.4.0]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [flaks-setup]: New version: [0.7] Old Version: [0.6]
+[2023-05-10 14:55:32] INFO root fetch - processPackages [prodigy-teams]: executing diffoscope
+[2023-05-10 14:55:32] INFO root fetch - processPackages [prodigy-teams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodigy-teams-0.1.8.tar.gz tmp/prodigy-teams-0.1.9.tar.gz --markdown 20230510/p/prodigy-teams/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 14:55:32] INFO root fetch - processPackages [py-module-parser]: Downloading https://files.pythonhosted.org/packages/00/0c/0023ed461f331f7f8abd29a0e9857800a0f6cffe5bb0481a75566d6d12ad/py_module_parser-0.4.0.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [architex]: Downloading https://files.pythonhosted.org/packages/53/02/8f8d5915f8bfd6b857997971d234c30d1480ea8f41d361021a85f279b83c/architex-0.1.6.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [scoringrules]: Downloading https://files.pythonhosted.org/packages/5a/d7/07478048d8ef754ff4a16190457544859ecd640c31a1a6f0d4f1ef850210/scoringrules-0.1.0.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [clarus]: Downloading https://files.pythonhosted.org/packages/6b/94/4d61a0f575ac3032986ae83755ea8c6d813da89d467199e8114db11d547a/clarus-0.1.98-py2.py3-none-any.whl
+[2023-05-10 14:55:33] INFO root fetch - processPackages [flaks-setup]: Downloading https://files.pythonhosted.org/packages/bb/5a/9603dc519451123a764d15f344dc6c62c8c65c172cb55a86af891b49cd53/flaks_setup-0.6.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [aps-common-libraries]: Downloading https://files.pythonhosted.org/packages/e9/bb/71c2f65234f04b54f94fad6008e42e6d4aa17c3e3a924d6cc96fefe598af/aps_common_libraries-1.0.6.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [pywnp]: Downloading https://files.pythonhosted.org/packages/2f/e7/f782a40ff2031959a9b88f3a45eef3e1fd105383da836314189c613322a3/pywnp-1.1.1.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [intnan]: Downloading https://files.pythonhosted.org/packages/c5/44/7df37a24bdc66819d6b2cb64db93abcae75225792cfc53c4714b1a33c2b1/intnan-0.1.3.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.5.tar.gz tmp/architex-0.1.6.tar.gz --markdown 20230510/a/architex/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [aps-common-libraries]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [aps-common-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps_common_libraries-1.0.5.tar.gz tmp/aps_common_libraries-1.0.6.tar.gz --markdown 20230510/a/aps-common-libraries/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230510/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [scoringrules]: Downloading https://files.pythonhosted.org/packages/c7/0e/ee4f5d133684f6ff21d95c13100182c023ab4188fd76f40db1fe420a2d75/scoringrules-0.1.1.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [intnan]: Downloading https://files.pythonhosted.org/packages/d4/a1/e7a85adae59ea944d47d1cf5e32c669cf40988afbd9d3cf326a6b4a3f6f7/intnan-0.1.4.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [pywnp]: Downloading https://files.pythonhosted.org/packages/5f/97/ce04b2472023c47e771cbd10c64e8567666a1e83229fd242dbb687660a0e/pywnp-2.0.0.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [py-module-parser]: Downloading https://files.pythonhosted.org/packages/1c/b8/0ca3e4e208f7248256320b06235fe5415be58711852033ae5118c170e3ee/py_module_parser-0.4.0b0.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [flaks-setup]: Downloading https://files.pythonhosted.org/packages/70/cb/f61c452371a1b32118ebafffc11fc736928fcdc315a5b74e379f5fea1c19/flaks_setup-0.7.tar.gz
+[2023-05-10 14:55:33] INFO root fetch - processPackages [scoringrules]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [scoringrules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoringrules-0.1.0.tar.gz tmp/scoringrules-0.1.1.tar.gz --markdown 20230510/s/scoringrules/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [flaks-setup]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [flaks-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks_setup-0.6.tar.gz tmp/flaks_setup-0.7.tar.gz --markdown 20230510/f/flaks-setup/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [pywnp]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [pywnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywnp-1.1.1.tar.gz tmp/pywnp-2.0.0.tar.gz --markdown 20230510/p/pywnp/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [clarus]: Downloading https://files.pythonhosted.org/packages/9b/64/c87c71f246e939c35162e9895ec993a443062df225781e082aac9d65ad80/clarus-0.1.99-py2.py3-none-any.whl
+[2023-05-10 14:55:33] INFO root fetch - processPackages [intnan]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [intnan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intnan-0.1.3.tar.gz tmp/intnan-0.1.4.tar.gz --markdown 20230510/i/intnan/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [py-module-parser]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [py-module-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_module_parser-0.4.0.tar.gz tmp/py_module_parser-0.4.0b0.tar.gz --markdown 20230510/p/py-module-parser/0.4.0-0.4.0b0/diff.md --exclude *.pyd
+[2023-05-10 14:55:33] INFO root fetch - processPackages [clarus]: executing diffoscope
+[2023-05-10 14:55:33] INFO root fetch - processPackages [clarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clarus-0.1.98-py2.py3-none-any.whl.zip tmp/clarus-0.1.99-py2.py3-none-any.whl.zip --markdown 20230510/c/clarus/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-10 14:55:34] INFO root fetch - processPackages [architex]: Start processing: utracto
+[2023-05-10 14:55:34] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 14:55:34] INFO root fetch - processPackages [utracto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 14:55:34] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/80/af/5292c7f7b2f74b789e87c74452a8ce16d09d81a26011fb256164b7924cf8/utracto-0.0.5.tar.gz
+[2023-05-10 14:55:34] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 14:55:34] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.4.tar.gz tmp/utracto-0.0.5.tar.gz --markdown 20230510/u/utracto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 14:55:34] INFO root fetch - processPackages [scoringrules]: Start processing: flaks
+[2023-05-10 14:55:34] INFO root fetch - main [MainThread]: End processing [scoringrules]: success
+[2023-05-10 14:55:34] INFO root fetch - processPackages [flaks-setup]: Start processing: jupyterlab-celltagsclasses
+[2023-05-10 14:55:34] INFO root fetch - main [MainThread]: End processing [flaks-setup]: success
+[2023-05-10 14:55:34] INFO root fetch - processPackages [flaks]: New version: [0.6] Old Version: [0.5]
+[2023-05-10 14:55:34] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-10 14:55:34] INFO root fetch - processPackages [bdating-common]: Start processing: ykenan-fragments
+[2023-05-10 14:55:34] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-05-10 14:55:34] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-10 14:55:35] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/ef/92/3ef910ce50353f5956d5c7da1e4efebdb53523267d6238dc67677ed11f39/flaks-0.6.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/84/44/9c5690367fb2b4a5a817286ac78f1dd27af8d01835cca0be1b7a1ed2c707/jupyterlab_celltagsclasses-0.1.2.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [intnan]: Start processing: sqlalchemy-orm
+[2023-05-10 14:55:35] INFO root fetch - main [MainThread]: End processing [intnan]: success
+[2023-05-10 14:55:35] INFO root fetch - processPackages [py-module-parser]: Start processing: bambooai
+[2023-05-10 14:55:35] INFO root fetch - main [MainThread]: End processing [py-module-parser]: success
+[2023-05-10 14:55:35] INFO root fetch - processPackages [aps-common-libraries]: Start processing: markdowntodocx
+[2023-05-10 14:55:35] INFO root fetch - processPackages [pywnp]: Start processing: eFatura
+[2023-05-10 14:55:35] INFO root fetch - main [MainThread]: End processing [aps-common-libraries]: success
+[2023-05-10 14:55:35] INFO root fetch - main [MainThread]: End processing [pywnp]: success
+[2023-05-10 14:55:35] INFO root fetch - processPackages [sqlalchemy-orm]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 14:55:35] INFO root fetch - processPackages [markdowntodocx]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-05-10 14:55:35] INFO root fetch - processPackages [ykenan-fragments]: Downloading https://files.pythonhosted.org/packages/94/e5/7d1ffd974b35749384df29e66e3e1022b699228f1dd8bc242e93dc310151/ykenan_fragments-1.2.2.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [bambooai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 14:55:35] INFO root fetch - processPackages [eFatura]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 14:55:35] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.5.tar.gz tmp/flaks-0.6.tar.gz --markdown 20230510/f/flaks/0.5-0.6/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - main [MainThread]: End processing [clarus]: success
+[2023-05-10 14:55:35] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: Downloading https://files.pythonhosted.org/packages/71/22/308e0b0a3f5f50beaa57b03d3c21f164325aabed58881f1660037d8a2bc5/jupyterlab_celltagsclasses-0.2.0.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.2.1.tar.gz tmp/ykenan_fragments-1.2.2.tar.gz --markdown 20230510/y/ykenan-fragments/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - processPackages [bambooai]: Downloading https://files.pythonhosted.org/packages/17/49/ccbf7d06ad3d0e3188aa7f4ab75c5b5c8a818cf7721be3a258ddc619dc34/bambooai-0.1.2.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [sqlalchemy-orm]: Downloading https://files.pythonhosted.org/packages/a4/3e/4b759693790147992a39df48ad84127a05883d048b0d682fe20bd5a8dc9e/sqlalchemy-orm-1.2.8.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/b8/b7/44b1da45b7d644d67828bbfa4076d679ade442e5c84fd3c75b02259774eb/eFatura-0.0.7.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [markdowntodocx]: Downloading https://files.pythonhosted.org/packages/2a/b0/05e5c218f0bb6dd41a8dad365f4fdc454f12ef9fbf4bafda0e2ed0d42a31/markdowntodocx-0.1.3.8.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [jupyterlab-celltagsclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyterlab_celltagsclasses-0.1.2.tar.gz tmp/jupyterlab_celltagsclasses-0.2.0.tar.gz --markdown 20230510/j/jupyterlab-celltagsclasses/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-0.0.6.tar.gz tmp/eFatura-0.0.7.tar.gz --markdown 20230510/e/eFatura/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - processPackages [bambooai]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [bambooai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bambooai-0.1.1.tar.gz tmp/bambooai-0.1.2.tar.gz --markdown 20230510/b/bambooai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - processPackages [sqlalchemy-orm]: Downloading https://files.pythonhosted.org/packages/f6/ff/31626858c75ef7b1529806f30381bd3a57d9878cbf2cda3b49dacdb0c83e/sqlalchemy-orm-1.2.9.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [markdowntodocx]: Downloading https://files.pythonhosted.org/packages/7d/e0/603d8a4b5e7ae8f2c2cfb1d173d9ae1b85f5a852e4c7ce5f470536e3400d/markdowntodocx-0.1.3.9.tar.gz
+[2023-05-10 14:55:35] INFO root fetch - processPackages [sqlalchemy-orm]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [sqlalchemy-orm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy-orm-1.2.8.tar.gz tmp/sqlalchemy-orm-1.2.9.tar.gz --markdown 20230510/s/sqlalchemy-orm/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 14:55:35] INFO root fetch - processPackages [markdowntodocx]: executing diffoscope
+[2023-05-10 14:55:35] INFO root fetch - processPackages [markdowntodocx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markdowntodocx-0.1.3.8.tar.gz tmp/markdowntodocx-0.1.3.9.tar.gz --markdown 20230510/m/markdowntodocx/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-05-10 14:55:36] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 14:55:36] INFO root fetch - main [MainThread]: End processing [prodigy-teams]: success
+[2023-05-10 14:55:36] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 14:55:36] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-10 14:55:36] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-10 14:55:37] INFO root fetch - main [MainThread]: End processing [bambooai]: success
+[2023-05-10 14:55:37] INFO root fetch - main [MainThread]: End processing [markdowntodocx]: success
+[2023-05-10 14:55:37] INFO root fetch - main [MainThread]: End processing [sqlalchemy-orm]: success
+[2023-05-10 14:55:38] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
+[2023-05-10 14:55:38] INFO root fetch - main [MainThread]: Store serial: [18047484]
