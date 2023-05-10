@@ -8573,3 +8573,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [devapps]: success
 [2023-05-10 07:41:21] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
 [2023-05-10 07:41:21] INFO root fetch - main [MainThread]: Store serial: [18042623]
+[2023-05-10 07:46:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042623]
+[2023-05-10 07:46:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: terrascope-sdk
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dis-inference
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vit-tf2
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ml-starter
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qoqo-quest
+[2023-05-10 07:46:30] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-10 07:46:30] INFO root fetch - processPackages [dis-inference]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 07:46:30] WARNING root fetch - processPackages [vit-tf2]: Skipping, unable to determine old version
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ml-starter]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-05-10 07:46:30] INFO root fetch - main [MainThread]: End processing [vit-tf2] error
+[2023-05-10 07:46:30] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2023-05-10 07:46:30] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.4.tar.gz tmp/terrascope-sdk-1.0.5.tar.gz --markdown 20230510/t/terrascope-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-05-10 07:46:30] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.33.tar.gz tmp/ml-starter-0.0.34.tar.gz --markdown 20230510/m/ml-starter/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-05-10 07:46:30] INFO root fetch - processPackages [qoqo-quest]: New version: [0.9.1] Old Version: [0.9.0a2]
+[2023-05-10 07:46:30] INFO root fetch - processPackages [dis-inference]: Downloading https://files.pythonhosted.org/packages/86/65/a3bee2f92d9679bb377468c0755e2e18dde80515b05cf3ea4019c6742f35/dis_inference-1.1.1.tar.gz
+[2023-05-10 07:46:30] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/b7/fb/aa5063f6366dc8c6c3d39350b423986abf45c2cf71cd3ae2281c765a126a/qoqo_quest-0.9.0a2.tar.gz
+[2023-05-10 07:46:30] INFO root fetch - processPackages [dis-inference]: executing diffoscope
+[2023-05-10 07:46:30] INFO root fetch - processPackages [dis-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dis_inference-1.1.0.tar.gz tmp/dis_inference-1.1.1.tar.gz --markdown 20230510/d/dis-inference/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 07:46:31] INFO root fetch - processPackages [qoqo-quest]: Downloading https://files.pythonhosted.org/packages/ad/89/c2c3b72abec9a727687852135d8dfff1143811314cf40458f2a4c5d08fb2/qoqo_quest-0.9.1.tar.gz
+[2023-05-10 07:46:31] INFO root fetch - processPackages [qoqo-quest]: executing diffoscope
+[2023-05-10 07:46:31] INFO root fetch - processPackages [qoqo-quest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoqo_quest-0.9.0a2.tar.gz tmp/qoqo_quest-0.9.1.tar.gz --markdown 20230510/q/qoqo-quest/0.9.0a2-0.9.1/diff.md --exclude *.pyd
+[2023-05-10 07:46:31] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2023-05-10 07:46:32] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-05-10 07:46:34] INFO root fetch - main [MainThread]: End processing [qoqo-quest]: success
+[2023-05-10 07:47:02] INFO root fetch - main [MainThread]: End processing [dis-inference]: success
+[2023-05-10 07:47:02] INFO root fetch - main [MainThread]: Store serial: [18042648]
