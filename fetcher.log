@@ -17763,3 +17763,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 15:34:06] INFO root fetch - main [MainThread]: End processing [alphaz]: success
 [2023-05-10 15:34:06] INFO root fetch - main [MainThread]: End processing [nzpyida]: success
 [2023-05-10 15:34:06] INFO root fetch - main [MainThread]: Store serial: [18047880]
+[2023-05-10 15:39:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047880]
+[2023-05-10 15:39:16] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flaks-setup
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flaks
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fusionsc
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: micromechanics-indentationGUI
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: raga-cli
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pqinput
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: eFatura
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlsam
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: steamcrawl
+[2023-05-10 15:39:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: garpix-page
+[2023-05-10 15:39:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks]: New version: [0.8] Old Version: [0.7]
+[2023-05-10 15:39:16] WARNING root fetch - processPackages [nlsam]: Skipping, unable to determine old version
+[2023-05-10 15:39:16] INFO root fetch - processPackages [nlsam]: Start processing: pyriksdagen
+[2023-05-10 15:39:16] INFO root fetch - main [MainThread]: End processing [nlsam] error
+[2023-05-10 15:39:16] INFO root fetch - processPackages [eFatura]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks-setup]: New version: [0.93] Old Version: [0.92]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pqinput]: New version: [0.0.400] Old Version: [0.0.4]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [garpix-page]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [steamcrawl]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pyriksdagen]: New version: [0.8.2rc4] Old Version: [0.8.2rc3]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230510/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-10 15:39:16] INFO root fetch - processPackages [fusionsc]: Start processing: PyGCPM
+[2023-05-10 15:39:16] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-10 15:39:16] INFO root fetch - processPackages [PyGCPM]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 15:39:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/ab/4f/40d9256a1076ff26959f1405e06679d7dd82d6decc0bc1b83c187b33907d/micromechanics_indentationGUI-0.0.8-py3-none-any.whl
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/91/13/5e1b66ba4631b7dcb899abc5e503c7226db8ed79a67053cded2a89fdbbd8/flaks-0.8.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks-setup]: Downloading https://files.pythonhosted.org/packages/ec/f9/ce5f45ac0e3cbec36303b0328941d2f99314bb091d6a25395b48057a7b0e/flaks_setup-0.93.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/75/a5/93fff28a16650ec14ca4a771391605c0728ce09f6962a96bbc0ed787c1d6/pqinput-0.0.400.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [garpix-page]: Downloading https://files.pythonhosted.org/packages/11/17/20c2a4cd79f6d4f1add00722e84ff9ae4f2d04fd3224f466af5c1b8de1ca/garpix_page-2.8.0.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pyriksdagen]: Downloading https://files.pythonhosted.org/packages/6f/35/cf1bb77787a5fe426f4807a58196c8ebfe96ae7ffd923c2e85a32f73f4cb/pyriksdagen-0.8.2rc4.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/39/96/b338bbd8fc71940dfce1e4368fd1a3bb3d5f44a5c5e0cb7394c5efddb7c4/eFatura-0.1.1.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [steamcrawl]: Downloading https://files.pythonhosted.org/packages/a6/64/56c4dc03b237589fe7c8312f166982171be65258bad3c47435565a8ad077/steamcrawl-0.1.9.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.4.tar.gz tmp/pqinput-0.0.400.tar.gz --markdown 20230510/p/pqinput/0.0.4-0.0.400/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-0.1.0.tar.gz tmp/eFatura-0.1.1.tar.gz --markdown 20230510/e/eFatura/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [PyGCPM]: Downloading https://files.pythonhosted.org/packages/aa/14/170b77109852fc87171f588c23f1c8fe6a9c592e18666cb116bcab4c8515/PyGCPM-0.0.1-py3-none-any.whl
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.7.tar.gz tmp/flaks-0.8.tar.gz --markdown 20230510/f/flaks/0.7-0.8/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks-setup]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [flaks-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks_setup-0.92.tar.gz tmp/flaks_setup-0.93.tar.gz --markdown 20230510/f/flaks-setup/0.92-0.93/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pyriksdagen]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [pyriksdagen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyriksdagen-0.8.2rc3.tar.gz tmp/pyriksdagen-0.8.2rc4.tar.gz --markdown 20230510/p/pyriksdagen/0.8.2rc3-0.8.2rc4/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: Downloading https://files.pythonhosted.org/packages/9a/91/9adf7c989a57f5f9818868a1f78f3046e4d716799c02e699c74d31c7eca7/micromechanics_indentationGUI-0.0.9-py3-none-any.whl
+[2023-05-10 15:39:16] INFO root fetch - processPackages [steamcrawl]: Downloading https://files.pythonhosted.org/packages/e5/ea/8dd943ec80805444732dadcd7714bab94425168cce0942503b7aa7aa5efb/steamcrawl-0.2.0.tar.gz
+[2023-05-10 15:39:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [micromechanics-indentationGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micromechanics_indentationGUI-0.0.8-py3-none-any.whl.zip tmp/micromechanics_indentationGUI-0.0.9-py3-none-any.whl.zip --markdown 20230510/m/micromechanics-indentationGUI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [steamcrawl]: executing diffoscope
+[2023-05-10 15:39:16] INFO root fetch - processPackages [steamcrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steamcrawl-0.1.9.tar.gz tmp/steamcrawl-0.2.0.tar.gz --markdown 20230510/s/steamcrawl/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 15:39:16] INFO root fetch - processPackages [garpix-page]: Downloading https://files.pythonhosted.org/packages/f0/ba/ed6a5c2b76619fa0ca3bc7cbf58fb1306b3bbdde7ba4d718e5bee021991a/garpix_page-2.9.0.tar.gz
+[2023-05-10 15:39:17] INFO root fetch - processPackages [garpix-page]: executing diffoscope
+[2023-05-10 15:39:17] INFO root fetch - processPackages [garpix-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_page-2.8.0.tar.gz tmp/garpix_page-2.9.0.tar.gz --markdown 20230510/g/garpix-page/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:39:17] INFO root fetch - processPackages [raga-cli]: Start processing: pg-bulk-ingest
+[2023-05-10 15:39:17] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-10 15:39:17] INFO root fetch - processPackages [pg-bulk-ingest]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 15:39:17] INFO root fetch - processPackages [pqinput]: Start processing: cg
+[2023-05-10 15:39:17] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-05-10 15:39:17] INFO root fetch - processPackages [cg]: New version: [30.1.0] Old Version: [30.0.0]
+[2023-05-10 15:39:17] INFO root fetch - processPackages [PyGCPM]: Downloading https://files.pythonhosted.org/packages/9c/e6/735d4a90ed3fabb7927cef088e39b8eeaa6e32aac795489ddf661fdb7586/PyGCPM-0.0.2-py3-none-any.whl
+[2023-05-10 15:39:18] INFO root fetch - processPackages [eFatura]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/7c/51/eeb8a2de13da083dabd412aed4b3c13ae7251dc1de260e030e0c447a5d06/pg_bulk_ingest-0.0.1.tar.gz
+[2023-05-10 15:39:18] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: New version: [20230510.8.43.321308] Old Version: [20230510.6.25.196118]
+[2023-05-10 15:39:18] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Downloading https://files.pythonhosted.org/packages/9c/82/8a37757c243fbda72190dfbc6e1906a5ae08b4315e47d6bc6ef76fb58ffa/certora-cli-alpha-naftali-CERT-1883_support_multiple_blocks_in_hook-20230510.6.25.196118.tar.gz
+[2023-05-10 15:39:18] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping package: exceeds size limit 39214430>=10485760
+[2023-05-10 15:39:18] INFO root fetch - processPackages [flaks]: Start processing: pyikarus
+[2023-05-10 15:39:18] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/f3/54/5b3b83d89ee8ee1bf82fea2a59970555e7d232d09178a62fbfe502913779/cg-30.1.0.tar.gz
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-10 15:39:18] INFO root fetch - processPackages [PyGCPM]: executing diffoscope
+[2023-05-10 15:39:18] INFO root fetch - processPackages [PyGCPM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGCPM-0.0.1-py3-none-any.whl.zip tmp/PyGCPM-0.0.2-py3-none-any.whl.zip --markdown 20230510/P/PyGCPM/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [flaks-setup]: success
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000058] Old Version: [0.3.0.dev202310000057]
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [pyriksdagen]: success
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [steamcrawl]: success
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/8b/90/b919e1e752b1d7326c4bc584921a62d334e8ba9c65bfac0a63518a60b0cb/pyikarus-0.3.0.dev202310000058.tar.gz
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pg-bulk-ingest]: Downloading https://files.pythonhosted.org/packages/cc/ff/f7a29391b8a4bcefc95ea1327ebbdc2c3169d58677660d0c0a47882cf293/pg_bulk_ingest-0.0.2.tar.gz
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pg-bulk-ingest]: executing diffoscope
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pg-bulk-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_bulk_ingest-0.0.1.tar.gz tmp/pg_bulk_ingest-0.0.2.tar.gz --markdown 20230510/p/pg-bulk-ingest/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [micromechanics-indentationGUI]: success
+[2023-05-10 15:39:18] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-10 15:39:18] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-30.0.0.tar.gz tmp/cg-30.1.0.tar.gz --markdown 20230510/c/cg/30.0.0-30.1.0/diff.md --exclude *.pyd
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-10 15:39:18] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000057.tar.gz tmp/pyikarus-0.3.0.dev202310000058.tar.gz --markdown 20230510/p/pyikarus/0.3.0.dev202310000057-0.3.0.dev202310000058/diff.md --exclude *.pyd
+[2023-05-10 15:39:18] INFO root fetch - main [MainThread]: End processing [garpix-page]: success
+[2023-05-10 15:39:19] INFO root fetch - main [MainThread]: End processing [pg-bulk-ingest]: success
+[2023-05-10 15:39:21] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-10 15:39:29] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-10 15:39:58] INFO root fetch - main [MainThread]: End processing [PyGCPM]: success
+[2023-05-10 15:39:58] INFO root fetch - main [MainThread]: Store serial: [18047927]
