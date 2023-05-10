@@ -22172,3 +22172,124 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [latch]: success
 [2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [diffgram]: success
 [2023-05-10 19:35:32] INFO root fetch - main [MainThread]: Store serial: [18050606]
+[2023-05-10 19:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050606]
+[2023-05-10 19:40:41] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wallaroo
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumaapi
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: balcony
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blinkpy
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-yoav-static-arrays-splitting
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lesscode-tool
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-service-client
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline-service-server
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-ui
+[2023-05-10 19:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-v4-service
+[2023-05-10 19:40:41] INFO root fetch - processPackages [lumaapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: New version: [20230510.17.37.208772] Old Version: [20230509.8.25.662734]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [blinkpy]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:41] INFO root fetch - processPackages [wallaroo]: New version: [2023.2.0rc2] Old Version: [2023.2.0rc1]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [lumaapi]: executing diffoscope
+[2023-05-10 19:40:41] INFO root fetch - processPackages [lumaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumaapi-0.0.1.tar.gz tmp/lumaapi-0.0.2.tar.gz --markdown 20230510/l/lumaapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:41] INFO root fetch - processPackages [balcony]: New version: [0.0.93] Old Version: [0.0.9]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-10 19:40:41] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:42] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-10 19:40:42] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:42] INFO root fetch - processPackages [blinkpy]: Downloading https://files.pythonhosted.org/packages/bb/94/dc46b3e492c611752ea56e20a7af21780205de3b88374873288c9d7750c0/blinkpy-0.8.3-py3-none-any.whl
+[2023-05-10 19:40:42] INFO root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: Downloading https://files.pythonhosted.org/packages/d3/60/e21914abff23edc6b6955a1e4e9cb186bab38a96422c6bb38fbfa85a826e/certora-cli-alpha-yoav-static_arrays_splitting-20230509.8.25.662734.tar.gz
+[2023-05-10 19:40:42] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/12/6e/1a03d61fc945caa3dc718bb4815932e4865637dc350375afc510f7998363/balcony-0.0.9.tar.gz
+[2023-05-10 19:40:42] WARNING root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: Skipping package: exceeds size limit 39213468>=10485760
+[2023-05-10 19:40:42] INFO root fetch - processPackages [certora-cli-alpha-yoav-static-arrays-splitting]: Start processing: iam-ape
+[2023-05-10 19:40:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yoav-static-arrays-splitting] error
+[2023-05-10 19:40:42] INFO root fetch - processPackages [wallaroo]: Downloading https://files.pythonhosted.org/packages/7e/48/a7ee738a776180ec02348fa7bc24fcdc6c873ca382a352a6dcbd9a5aa9f6/wallaroo-2023.2.0rc2.tar.gz
+[2023-05-10 19:40:42] INFO root fetch - processPackages [iam-ape]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 19:40:42] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-10 19:40:42] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230510/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:40:42] INFO root fetch - processPackages [blinkpy]: Downloading https://files.pythonhosted.org/packages/94/1c/9a12fec07a39b76b6cd265a781accfa81618524f334be0c4431adbf74a6c/blinkpy-0.9.0-py3-none-any.whl
+[2023-05-10 19:40:42] INFO root fetch - processPackages [balcony]: Downloading https://files.pythonhosted.org/packages/ab/d7/22c6ba5c69f15f618cccab6d24ce1655510ce03a34958874c4ef37fb0cae/balcony-0.0.93.tar.gz
+[2023-05-10 19:40:42] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/e1/77/dfd69fb7d1694a9cb52bf7d12a1458ea352d8530a4e41a85efbc8651e422/iam_ape-1.1.0.tar.gz
+[2023-05-10 19:40:42] INFO root fetch - processPackages [blinkpy]: executing diffoscope
+[2023-05-10 19:40:42] INFO root fetch - processPackages [blinkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blinkpy-0.8.3-py3-none-any.whl.zip tmp/blinkpy-0.9.0-py3-none-any.whl.zip --markdown 20230510/b/blinkpy/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:40:42] INFO root fetch - processPackages [balcony]: executing diffoscope
+[2023-05-10 19:40:42] INFO root fetch - processPackages [balcony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/balcony-0.0.9.tar.gz tmp/balcony-0.0.93.tar.gz --markdown 20230510/b/balcony/0.0.9-0.0.93/diff.md --exclude *.pyd
+[2023-05-10 19:40:42] INFO root fetch - processPackages [iam-ape]: Downloading https://files.pythonhosted.org/packages/92/82/fb9f562d1b4b4f7f64764eef0ca9b46abf3109da6c5cd54dc7f87ae5e129/iam_ape-1.1.1.tar.gz
+[2023-05-10 19:40:42] INFO root fetch - processPackages [iam-ape]: executing diffoscope
+[2023-05-10 19:40:42] INFO root fetch - processPackages [iam-ape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_ape-1.1.0.tar.gz tmp/iam_ape-1.1.1.tar.gz --markdown 20230510/i/iam-ape/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 19:40:43] INFO root fetch - processPackages [lumaapi]: Start processing: assemblyline
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [lumaapi]: success
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-core
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: thunder-toolkit
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 19:40:43] WARNING root fetch - processPackages [thunder-toolkit]: Skipping, unable to determine old version
+[2023-05-10 19:40:43] INFO root fetch - processPackages [thunder-toolkit]: Start processing: OpenNMT-py
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [thunder-toolkit] error
+[2023-05-10 19:40:43] INFO root fetch - processPackages [OpenNMT-py]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-05-10 19:40:43] INFO root fetch - processPackages [wallaroo]: executing diffoscope
+[2023-05-10 19:40:43] INFO root fetch - processPackages [wallaroo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wallaroo-2023.2.0rc1.tar.gz tmp/wallaroo-2023.2.0rc2.tar.gz --markdown 20230510/w/wallaroo/2023.2.0rc1-2023.2.0rc2/diff.md --exclude *.pyd
+[2023-05-10 19:40:43] INFO root fetch - processPackages [lesscode-tool]: Start processing: H5Gizmos
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-10 19:40:43] INFO root fetch - processPackages [H5Gizmos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 19:40:43] INFO root fetch - processPackages [assemblyline-ui]: Start processing: snaptrade-python-sdk
+[2023-05-10 19:40:43] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-10 19:40:44] INFO root fetch - processPackages [OpenNMT-py]: Downloading https://files.pythonhosted.org/packages/91/5b/daa281e38e31800f12ab36188865e0001e0a13d860594324b1442db6936f/OpenNMT-py-3.1.1.tar.gz
+[2023-05-10 19:40:44] INFO root fetch - processPackages [blinkpy]: Start processing: lesscode-tool
+[2023-05-10 19:40:44] INFO root fetch - main [MainThread]: End processing [blinkpy]: success
+[2023-05-10 19:40:44] INFO root fetch - processPackages [lesscode-tool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:40:44] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-05-10 19:40:44] INFO root fetch - processPackages [H5Gizmos]: Downloading https://files.pythonhosted.org/packages/09/1d/92a2223cf82054b4401e8d9b3ee5f328cecc4ab3dd4d7f80f1afd7532030/H5Gizmos-0.1.8.tar.gz
+[2023-05-10 19:40:44] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-05-10 19:40:44] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230510/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-10 19:40:44] INFO root fetch - processPackages [lesscode-tool]: executing diffoscope
+[2023-05-10 19:40:44] INFO root fetch - processPackages [lesscode-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lesscode_tool-0.0.8.tar.gz tmp/lesscode_tool-0.0.9.tar.gz --markdown 20230510/l/lesscode-tool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:40:44] INFO root fetch - processPackages [H5Gizmos]: Downloading https://files.pythonhosted.org/packages/b3/50/4a9db84f7b42a0d2d1bccb4b21abbde7d6e14c71eb7e5e1b16246351c6fe/H5Gizmos-0.1.9.tar.gz
+[2023-05-10 19:40:44] INFO root fetch - processPackages [balcony]: Start processing: ddtrace
+[2023-05-10 19:40:44] INFO root fetch - main [MainThread]: End processing [balcony]: success
+[2023-05-10 19:40:44] INFO root fetch - processPackages [ddtrace]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-05-10 19:40:45] INFO root fetch - processPackages [H5Gizmos]: executing diffoscope
+[2023-05-10 19:40:45] INFO root fetch - processPackages [H5Gizmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/H5Gizmos-0.1.8.tar.gz tmp/H5Gizmos-0.1.9.tar.gz --markdown 20230510/H/H5Gizmos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 19:40:45] INFO root fetch - processPackages [ddtrace]: executing diffoscope
+[2023-05-10 19:40:45] INFO root fetch - processPackages [ddtrace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddtrace-1.9.5.tar.gz tmp/ddtrace-1.9.6.tar.gz --markdown 20230510/d/ddtrace/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-05-10 19:40:45] INFO root fetch - processPackages [OpenNMT-py]: Downloading https://files.pythonhosted.org/packages/d5/aa/121c6b471966fbe8c1d31c7b2ddce54cd22fb5e43af2139769bec0886867/OpenNMT-py-3.1.2.tar.gz
+[2023-05-10 19:40:45] INFO root fetch - processPackages [OpenNMT-py]: executing diffoscope
+[2023-05-10 19:40:45] INFO root fetch - processPackages [OpenNMT-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenNMT-py-3.1.1.tar.gz tmp/OpenNMT-py-3.1.2.tar.gz --markdown 20230510/O/OpenNMT-py/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-05-10 19:40:45] INFO root fetch - processPackages [assemblyline-v4-service]: Start processing: metrics-layer
+[2023-05-10 19:40:45] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-10 19:40:45] INFO root fetch - processPackages [iam-ape]: Start processing: pollination-streamlit
+[2023-05-10 19:40:45] INFO root fetch - main [MainThread]: End processing [iam-ape]: success
+[2023-05-10 19:40:45] INFO root fetch - processPackages [metrics-layer]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 19:40:45] INFO root fetch - processPackages [pollination-streamlit]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-05-10 19:40:45] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-10 19:40:45] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/9c/13/00ea34acde8fa007f10b327cfe09c1558d08ccd7ebdaac72e463c72710b2/metrics_layer-0.9.8.tar.gz
+[2023-05-10 19:40:45] INFO root fetch - main [MainThread]: End processing [lesscode-tool]: success
+[2023-05-10 19:40:45] INFO root fetch - processPackages [pollination-streamlit]: Downloading https://files.pythonhosted.org/packages/e0/a3/4059febfb9b5df70a7a58b4544bd0941e8a03a4d95c42f5bb1a746ad1350/pollination-streamlit-0.5.3.tar.gz
+[2023-05-10 19:40:46] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-10 19:40:46] INFO root fetch - processPackages [pollination-streamlit]: Downloading https://files.pythonhosted.org/packages/59/ee/500ed22a14f27c0a7afd881a2fa79a63553348038c4c83bdf0a33b6f7fdd/pollination-streamlit-0.5.4.tar.gz
+[2023-05-10 19:40:46] INFO root fetch - processPackages [metrics-layer]: Downloading https://files.pythonhosted.org/packages/98/41/f98ac2ac2a5f241cfd8c7c920a4b7dcb17f9e906635e0c1130ca5ca3a416/metrics_layer-0.9.9.tar.gz
+[2023-05-10 19:40:46] INFO root fetch - processPackages [pollination-streamlit]: executing diffoscope
+[2023-05-10 19:40:46] INFO root fetch - processPackages [pollination-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pollination-streamlit-0.5.3.tar.gz tmp/pollination-streamlit-0.5.4.tar.gz --markdown 20230510/p/pollination-streamlit/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-05-10 19:40:46] INFO root fetch - processPackages [metrics-layer]: executing diffoscope
+[2023-05-10 19:40:46] INFO root fetch - processPackages [metrics-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metrics_layer-0.9.8.tar.gz tmp/metrics_layer-0.9.9.tar.gz --markdown 20230510/m/metrics-layer/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 19:40:47] INFO root fetch - main [MainThread]: End processing [pollination-streamlit]: success
+[2023-05-10 19:40:47] INFO root fetch - main [MainThread]: End processing [OpenNMT-py]: success
+[2023-05-10 19:40:47] INFO root fetch - main [MainThread]: End processing [metrics-layer]: success
+[2023-05-10 19:40:50] INFO root fetch - main [MainThread]: End processing [H5Gizmos]: success
+[2023-05-10 19:40:50] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-05-10 19:41:07] INFO root fetch - main [MainThread]: End processing [wallaroo]: success
+[2023-05-10 19:41:53] INFO root fetch - main [MainThread]: End processing [ddtrace]: success
+[2023-05-10 19:41:53] INFO root fetch - main [MainThread]: Store serial: [18050691]
