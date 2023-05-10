@@ -19189,3 +19189,100 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:50:44] INFO root fetch - main [MainThread]: End processing [pydantic-core]: success
 [2023-05-10 16:50:44] INFO root fetch - main [MainThread]: End processing [st-text-annotator]: success
 [2023-05-10 16:50:44] INFO root fetch - main [MainThread]: Store serial: [18048692]
+[2023-05-10 16:55:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048692]
+[2023-05-10 16:55:54] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytestifyx
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataquality
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySciMath
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-yuvalbd-sqs-non-empty-lists
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yins-music
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: demoparser2
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-beam
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: calcexptime
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: navalmartin-mir-vision-utils
+[2023-05-10 16:55:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: runningz
+[2023-05-10 16:55:54] INFO root fetch - processPackages [PySciMath]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-sqs-non-empty-lists]: New version: [20230510.14.51.660987] Old Version: [20230509.7.54.109022]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [runningz]: New version: [0.11.0] Old Version: [0.1.1.0]
+[2023-05-10 16:55:54] WARNING root fetch - processPackages [yins-music]: Skipping, unable to determine old version
+[2023-05-10 16:55:54] INFO root fetch - processPackages [yins-music]: Start processing: openshift-python-utilities
+[2023-05-10 16:55:54] INFO root fetch - main [MainThread]: End processing [yins-music] error
+[2023-05-10 16:55:54] INFO root fetch - processPackages [calcexptime]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [demoparser2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [dataquality]: New version: [0.9.1a3] Old Version: [0.9.1a2]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [apache-beam]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [PySciMath]: Downloading https://files.pythonhosted.org/packages/57/bf/586af434c2d79965eef7661aa27805e049960fad169eb5cbe7e58cd6a0fb/PySciMath-1.2.1.tar.gz
+[2023-05-10 16:55:54] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/e3/81/d3367d0358740ca02943c58a771b501031a0cb25556afeb1aa1d57ffb5fb/pytestifyx-0.4.4-py2.py3-none-any.whl
+[2023-05-10 16:55:54] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.13.9] Old Version: [4.13.8]
+[2023-05-10 16:55:54] INFO root fetch - processPackages [calcexptime]: Downloading https://files.pythonhosted.org/packages/43/d0/fa0727d6123647e37ca142b088829eb693e15e9b572b70245a7ffec74794/calcexptime-1.0.0-py3-none-any.whl
+[2023-05-10 16:55:54] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-sqs-non-empty-lists]: Downloading https://files.pythonhosted.org/packages/50/1f/2862a7be2b9dfff4e029e5838d5b98269592f840b18bf2d4c4ec53bf1a06/certora-cli-alpha-yuvalbd-sqs_non_empty_lists-20230509.7.54.109022.tar.gz
+[2023-05-10 16:55:54] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-10 16:55:54] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230510/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:55:54] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/3d/5a/bc042942442e604085207976ffda6ac5f5ac7df91412995a42eeaebe101b/demoparser2-0.0.7-cp39-none-win_amd64.whl
+[2023-05-10 16:55:54] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/ed/78/364f69571844f7202d94bec5fc4c8578c7769ce85a6b5883f20d62d9abb9/runningz-0.1.1.0-py39-none-any.whl
+[2023-05-10 16:55:54] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/81/ea/11cec69a659af024f7f37e928ff533ad5e30b7a519d9982e2bb5b81fcb52/apache-beam-2.8.0.zip
+[2023-05-10 16:55:54] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-05-10 16:55:54] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.13.8.tar.gz tmp/openshift-python-utilities-4.13.9.tar.gz --markdown 20230510/o/openshift-python-utilities/4.13.8-4.13.9/diff.md --exclude *.pyd
+[2023-05-10 16:55:55] INFO root fetch - processPackages [dataquality]: executing diffoscope
+[2023-05-10 16:55:55] INFO root fetch - processPackages [dataquality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataquality-0.9.1a2.tar.gz tmp/dataquality-0.9.1a3.tar.gz --markdown 20230510/d/dataquality/0.9.1a2-0.9.1a3/diff.md --exclude *.pyd
+[2023-05-10 16:55:55] INFO root fetch - processPackages [openshift-python-utilities]: Start processing: pyplanegeometry
+[2023-05-10 16:55:55] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-05-10 16:55:55] WARNING root fetch - processPackages [certora-cli-alpha-yuvalbd-sqs-non-empty-lists]: Skipping package: exceeds size limit 39213464>=10485760
+[2023-05-10 16:55:55] INFO root fetch - processPackages [certora-cli-alpha-yuvalbd-sqs-non-empty-lists]: Start processing: PyBerries
+[2023-05-10 16:55:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-yuvalbd-sqs-non-empty-lists] error
+[2023-05-10 16:55:55] INFO root fetch - processPackages [PyBerries]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 16:55:56] INFO root fetch - processPackages [PySciMath]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [PySciMath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySciMath-1.2.0.tar.gz tmp/PySciMath-1.2.1.tar.gz --markdown 20230510/P/PySciMath/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-10 16:55:56] WARNING root fetch - processPackages [pyplanegeometry]: Skipping, unable to determine old version
+[2023-05-10 16:55:56] INFO root fetch - processPackages [pyplanegeometry]: Start processing: vmware-aria-operations-integration-sdk-lib
+[2023-05-10 16:55:56] INFO root fetch - main [MainThread]: End processing [pyplanegeometry] error
+[2023-05-10 16:55:56] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.7.tar.gz tmp/PyBerries-0.2.8.tar.gz --markdown 20230510/P/PyBerries/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 16:55:56] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-10 16:55:56] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/a1/87/7b598ff5e47d1d95ec14e02756480de9921b3278f621ab3af3cd1ce34a5d/pytestifyx-0.4.5-py2.py3-none-any.whl
+[2023-05-10 16:55:56] INFO root fetch - processPackages [calcexptime]: Downloading https://files.pythonhosted.org/packages/0f/2f/37e064cfec1a6129d0c833c7a8569e495b81d6704b9a0b2566d185b7dccc/calcexptime-1.0.1-py3-none-any.whl
+[2023-05-10 16:55:56] INFO root fetch - processPackages [runningz]: Downloading https://files.pythonhosted.org/packages/a7/b6/aa197f2e5dafdc0a3c567d13ab058492e1b94b2a269a83bd6a60da0505eb/runningz-0.11.0-py39-none-any.whl
+[2023-05-10 16:55:56] INFO root fetch - processPackages [apache-beam]: Downloading https://files.pythonhosted.org/packages/02/8f/a9cd498e0e576c8537e65c4e3aacbffe4b3dc9a189287cd8a91c93784308/apache-beam-2.9.0.zip
+[2023-05-10 16:55:56] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.4-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.5-py2.py3-none-any.whl.zip --markdown 20230510/p/pytestifyx/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-10 16:55:56] INFO root fetch - processPackages [calcexptime]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [calcexptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcexptime-1.0.0-py3-none-any.whl.zip tmp/calcexptime-1.0.1-py3-none-any.whl.zip --markdown 20230510/c/calcexptime/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 16:55:56] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: Downloading https://files.pythonhosted.org/packages/a3/2b/7a4aadde5e1f98daf6183ba994c48cd06e6f56580a674d0308da80c18eb0/vmware-aria-operations-integration-sdk-lib-0.7.2.tar.gz
+[2023-05-10 16:55:56] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.1.1.0-py39-none-any.whl.zip tmp/runningz-0.11.0-py39-none-any.whl.zip --markdown 20230510/r/runningz/0.1.1.0-0.11.0/diff.md --exclude *.pyd
+[2023-05-10 16:55:56] INFO root fetch - processPackages [demoparser2]: Downloading https://files.pythonhosted.org/packages/b4/1b/36382808a4a1e66110b27041df91e61aab014ca24aec00dec9f3fc13c72e/demoparser2-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 16:55:56] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: Downloading https://files.pythonhosted.org/packages/5d/43/a07af0b9fcb6c9cd43e69961f0c79e17ba224e737e8994f148e529c7f787/vmware-aria-operations-integration-sdk-lib-0.7.3.tar.gz
+[2023-05-10 16:55:56] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: executing diffoscope
+[2023-05-10 16:55:56] INFO root fetch - processPackages [vmware-aria-operations-integration-sdk-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmware-aria-operations-integration-sdk-lib-0.7.2.tar.gz tmp/vmware-aria-operations-integration-sdk-lib-0.7.3.tar.gz --markdown 20230510/v/vmware-aria-operations-integration-sdk-lib/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-10 16:55:57] INFO root fetch - processPackages [demoparser2]: executing diffoscope
+[2023-05-10 16:55:57] INFO root fetch - processPackages [demoparser2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demoparser2-0.0.7-cp39-none-win_amd64.whl.zip tmp/demoparser2-0.0.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230510/d/demoparser2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 16:55:57] INFO root fetch - processPackages [PySciMath]: Start processing: pytorch3d
+[2023-05-10 16:55:57] INFO root fetch - main [MainThread]: End processing [PySciMath]: success
+[2023-05-10 16:55:57] INFO root fetch - processPackages [pytorch3d]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-10 16:55:57] INFO root fetch - processPackages [apache-beam]: executing diffoscope
+[2023-05-10 16:55:57] INFO root fetch - processPackages [apache-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-2.8.0.zip tmp/apache-beam-2.9.0.zip --markdown 20230510/a/apache-beam/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-10 16:55:57] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: Start processing: scoi-lab-serializer-package
+[2023-05-10 16:55:57] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-10 16:55:57] INFO root fetch - processPackages [pytorch3d]: Downloading https://files.pythonhosted.org/packages/67/81/116609320d9fd5390d4853817705295500d8ca056b9b2beae21593047e29/pytorch3d-0.7.3-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-10 16:55:57] WARNING root fetch - processPackages [scoi-lab-serializer-package]: Skipping, unable to determine old version
+[2023-05-10 16:55:57] INFO root fetch - processPackages [scoi-lab-serializer-package]: Start processing: calcexptime
+[2023-05-10 16:55:57] INFO root fetch - main [MainThread]: End processing [scoi-lab-serializer-package] error
+[2023-05-10 16:55:57] INFO root fetch - processPackages [calcexptime]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 16:55:57] INFO root fetch - processPackages [calcexptime]: executing diffoscope
+[2023-05-10 16:55:57] INFO root fetch - processPackages [calcexptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcexptime-1.0.0-py3-none-any.whl.zip tmp/calcexptime-1.0.1-py3-none-any.whl.zip --markdown 20230510/c/calcexptime/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 16:55:57] INFO root fetch - main [MainThread]: End processing [calcexptime]: success
+[2023-05-10 16:55:57] INFO root fetch - processPackages [pytorch3d]: Downloading https://files.pythonhosted.org/packages/35/2e/8e6bdea318dddbff38b8c96abc8ed2404dc5e243766977a0a962dc64dc4a/pytorch3d-0.7.4-cp39-cp39-macosx_10_9_x86_64.whl
+[2023-05-10 16:55:57] INFO root fetch - main [MainThread]: End processing [dataquality]: success
+[2023-05-10 16:55:57] INFO root fetch - processPackages [pytorch3d]: executing diffoscope
+[2023-05-10 16:55:57] INFO root fetch - processPackages [pytorch3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch3d-0.7.3-cp39-cp39-macosx_10_9_x86_64.whl.zip tmp/pytorch3d-0.7.4-cp39-cp39-macosx_10_9_x86_64.whl.zip --markdown 20230510/p/pytorch3d/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-10 16:55:58] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-10 16:55:58] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-10 16:55:58] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-05-10 16:55:58] INFO root fetch - main [MainThread]: End processing [vmware-aria-operations-integration-sdk-lib]: success
+[2023-05-10 16:55:58] INFO root fetch - main [MainThread]: End processing [calcexptime]: success
+[2023-05-10 16:56:00] INFO root fetch - main [MainThread]: End processing [demoparser2]: success
+[2023-05-10 16:56:01] INFO root fetch - main [MainThread]: End processing [pytorch3d]: success
+[2023-05-10 16:56:05] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
+[2023-05-10 16:56:05] INFO root fetch - main [MainThread]: Store serial: [18048799]
