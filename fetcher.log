@@ -9137,3 +9137,24 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:23:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-manual-rank]: success
 [2023-05-10 08:24:00] INFO root fetch - main [MainThread]: End processing [pretext]: success
 [2023-05-10 08:24:00] INFO root fetch - main [MainThread]: Store serial: [18042965]
+[2023-05-10 08:29:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042965]
+[2023-05-10 08:29:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-10 08:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-05-10 08:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-partner-manual-rank
+[2023-05-10 08:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-10 08:29:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-queuey
+[2023-05-10 08:29:09] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-05-10 08:29:09] INFO root fetch - processPackages [np-queuey]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 08:29:09] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping, unable to determine old version
+[2023-05-10 08:29:09] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-10 08:29:09] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230509] Old Version: [20230508]
+[2023-05-10 08:29:09] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: executing diffoscope
+[2023-05-10 08:29:09] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_manual_rank-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_manual_rank-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-partner-manual-rank/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-10 08:29:09] INFO root fetch - processPackages [np-queuey]: executing diffoscope
+[2023-05-10 08:29:09] INFO root fetch - processPackages [np-queuey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_queuey-0.2.8.tar.gz tmp/np_queuey-0.2.9.tar.gz --markdown 20230510/n/np-queuey/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 08:29:09] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-05-10 08:29:09] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230508.tar.gz tmp/fake-bpy-module-latest-20230509.tar.gz --markdown 20230510/f/fake-bpy-module-latest/20230508-20230509/diff.md --exclude *.pyd
+[2023-05-10 08:29:10] INFO root fetch - main [MainThread]: End processing [np-queuey]: success
+[2023-05-10 08:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-manual-rank]: success
+[2023-05-10 08:29:15] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-05-10 08:29:15] INFO root fetch - main [MainThread]: Store serial: [18042981]
