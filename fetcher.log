@@ -7720,3 +7720,55 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:09:30] INFO root fetch - main [MainThread]: End processing [not1mm]: success
 [2023-05-10 06:09:30] INFO root fetch - main [MainThread]: End processing [es7s]: success
 [2023-05-10 06:09:30] INFO root fetch - main [MainThread]: Store serial: [18042176]
+[2023-05-10 06:14:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042176]
+[2023-05-10 06:14:39] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nyckel
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getmonitorresolution
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nyckel
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spec-pilot
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyproc
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mangadex-dl
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ezq
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sampling-constraints
+[2023-05-10 06:14:39] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [getmonitorresolution]: New version: [0.12] Old Version: [0.11]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [spec-pilot]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [pyproc]: New version: [0.1b8] Old Version: [0.1b7]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [mangadex-dl]: New version: [3.0.0] Old Version: [2.1.0]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [sampling-constraints]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ezq]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-05-10 06:14:39] INFO root fetch - processPackages [spec-pilot]: Downloading https://files.pythonhosted.org/packages/9f/f1/250627562e09b1452080169b7f847813cb3c8085dfe474a5756f16936e96/spec-pilot-0.3.2.tar.gz
+[2023-05-10 06:14:39] INFO root fetch - processPackages [pyproc]: Downloading https://files.pythonhosted.org/packages/3b/7c/ff05833ceb376274352f21f6ca1e929d5cc66d8357db708c29b270bc3842/pyproc-0.1b7.tar.gz
+[2023-05-10 06:14:39] INFO root fetch - processPackages [mangadex-dl]: Downloading https://files.pythonhosted.org/packages/5d/1d/6732cc17ef8462c6bb73c08a0629104a1587a31b566f84f28ef43e85ec68/mangadex_dl-2.1.0-py3-none-any.whl
+[2023-05-10 06:14:39] INFO root fetch - processPackages [spec-pilot]: executing diffoscope
+[2023-05-10 06:14:39] INFO root fetch - processPackages [spec-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec-pilot-0.3.1.tar.gz tmp/spec-pilot-0.3.2.tar.gz --markdown 20230510/s/spec-pilot/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 06:14:39] INFO root fetch - processPackages [ezq]: Downloading https://files.pythonhosted.org/packages/f2/8a/48f9bc279e30df401287b19a70768786b04d50b981812f2825cfd10f1bec/ezq-2.0.2.tar.gz
+[2023-05-10 06:14:39] INFO root fetch - processPackages [getmonitorresolution]: Downloading https://files.pythonhosted.org/packages/48/b6/f66efa5716d2e61b2002eacbe81d9b0515b44c0cd8aa59e5c561385d04d8/getmonitorresolution-0.12.tar.gz
+[2023-05-10 06:14:40] INFO root fetch - processPackages [getmonitorresolution]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [getmonitorresolution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmonitorresolution-0.11.tar.gz tmp/getmonitorresolution-0.12.tar.gz --markdown 20230510/g/getmonitorresolution/0.11-0.12/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230510/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230510/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [sampling-constraints]: Downloading https://files.pythonhosted.org/packages/3d/71/6322a4a4c5485171b42f3488846b1313aa863968fce9a103d7d9c6142460/sampling-constraints-0.0.9.tar.gz
+[2023-05-10 06:14:40] INFO root fetch - processPackages [mangadex-dl]: Downloading https://files.pythonhosted.org/packages/a1/93/34289c9158c7188d9b0567325eef24acaaa6fc05d1b97dc13a6cc5145376/mangadex_dl-3.0.0-py3-none-any.whl
+[2023-05-10 06:14:40] INFO root fetch - processPackages [sampling-constraints]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [mangadex-dl]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [sampling-constraints]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sampling-constraints-0.0.8.tar.gz tmp/sampling-constraints-0.0.9.tar.gz --markdown 20230510/s/sampling-constraints/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [mangadex-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangadex_dl-2.1.0-py3-none-any.whl.zip tmp/mangadex_dl-3.0.0-py3-none-any.whl.zip --markdown 20230510/m/mangadex-dl/2.1.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [ezq]: Downloading https://files.pythonhosted.org/packages/54/84/5013faa1a5aca616f116dae55c18cca5ba8da13f8000d0d163b9c45ae703/ezq-2.0.3.tar.gz
+[2023-05-10 06:14:40] INFO root fetch - processPackages [ezq]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [ezq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezq-2.0.2.tar.gz tmp/ezq-2.0.3.tar.gz --markdown 20230510/e/ezq/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2023-05-10 06:14:40] INFO root fetch - processPackages [pyproc]: Downloading https://files.pythonhosted.org/packages/81/f2/cb74a3472a60649e3a28fb3b5c873a83b9182a9e0046626b922553b0fc39/pyproc-0.1b8.tar.gz
+[2023-05-10 06:14:40] INFO root fetch - processPackages [pyproc]: executing diffoscope
+[2023-05-10 06:14:40] INFO root fetch - processPackages [pyproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyproc-0.1b7.tar.gz tmp/pyproc-0.1b8.tar.gz --markdown 20230510/p/pyproc/0.1b7-0.1b8/diff.md --exclude *.pyd
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [getmonitorresolution]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [sampling-constraints]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [mangadex-dl]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [spec-pilot]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [ezq]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [pyproc]: success
+[2023-05-10 06:14:41] INFO root fetch - main [MainThread]: Store serial: [18042198]
