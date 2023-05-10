@@ -2545,3 +2545,79 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 03:05:44] INFO root fetch - main [MainThread]: End processing [circuitpython-simnple-dial]: success
 [2023-05-10 03:06:13] INFO root fetch - main [MainThread]: End processing [bigquery-ml-utils]: success
 [2023-05-10 03:06:13] INFO root fetch - main [MainThread]: Store serial: [18039350]
+[2023-05-10 03:11:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039350]
+[2023-05-10 03:11:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csv-to-dynamodb
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tastytrade-sdk
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpggen
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spimdisasm
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knic-jupyter
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audiotoolbox
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: optilogic
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: appsurifyci
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecsmgmt-cli
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yowasp-yosys
+[2023-05-10 03:11:26] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [spimdisasm]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [knic-jupyter]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [audiotoolbox]: New version: [0.64.1] Old Version: [0.64]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [ecsmgmt-cli]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [cpggen]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [optilogic]: New version: [2.5.0] Old Version: [2.4.1]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [yowasp-yosys]: New version: [0.9.post5623.dev231] Old Version: [0.9.post5610.dev226]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 03:11:26] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 03:11:26] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 03:11:26] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-10 03:11:26] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230510/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 03:11:26] INFO root fetch - processPackages [csv-to-dynamodb]: Downloading https://files.pythonhosted.org/packages/75/01/3391e772d1993fc913781f85c31111621595d78389239e3cee048b0c7e63/csv_to_dynamodb-0.2.3.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [audiotoolbox]: Downloading https://files.pythonhosted.org/packages/69/08/5af9e106fb1f94d49a0cd2cb876b9ea38b23797366255ced42b664820afb/audiotoolbox-0.64-py3-none-any.whl
+[2023-05-10 03:11:27] INFO root fetch - processPackages [ecsmgmt-cli]: Downloading https://files.pythonhosted.org/packages/05/4d/68e76974a9565bb417932d73715bcbb8c3c4c05e294ab878663f535a9b04/ecsmgmt_cli-0.4.5.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/41/c6/19f63e04ee3d5baffe9a7d61951eac4d8b23e6a6ba36ba894168fb71598a/knic_jupyter-0.1.3.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/d9/10/e7c660588919726a2a41c8d346d4509ae1048b18dd3668a5a08e26ded384/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl
+[2023-05-10 03:11:27] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/65/8a/e3c45d6cdbcedb650d78e916ad3a53d6a72fa3e8eb4c6ffe1da395457581/spimdisasm-1.9.1.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [optilogic]: Downloading https://files.pythonhosted.org/packages/49/7d/3d81a2d6f9498778ecbed0801b2197056c0502e8591024ffcdf26770072a/optilogic-2.4.1-py3-none-any.whl
+[2023-05-10 03:11:27] INFO root fetch - processPackages [cpggen]: Downloading https://files.pythonhosted.org/packages/9f/d6/1fdc8191a1b77a96ab329590aa93633f437d85b27ec59354db1a23eaf4de/cpggen-1.1.0.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [csv-to-dynamodb]: Downloading https://files.pythonhosted.org/packages/45/fe/eedda1217e5048d12cfb1c839e5e946a09d36bdc11802616d61cb1e2c91e/csv_to_dynamodb-0.2.4.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [audiotoolbox]: Downloading https://files.pythonhosted.org/packages/ea/c1/dae6abea569112ddbf51b5be3c9b8a1ed9ade72cb63c45e16c46c91777ca/audiotoolbox-0.64.1-py3-none-any.whl
+[2023-05-10 03:11:27] INFO root fetch - processPackages [cpggen]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [cpggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpggen-1.0.9.tar.gz tmp/cpggen-1.1.0.tar.gz --markdown 20230510/c/cpggen/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [ecsmgmt-cli]: Downloading https://files.pythonhosted.org/packages/28/e3/ca045aaa7ae9c9a5dcb6a278f4c5815160ba55df912951ecf1ee3fd3e28a/ecsmgmt_cli-0.5.0.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.3.tar.gz tmp/csv_to_dynamodb-0.2.4.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [optilogic]: Downloading https://files.pythonhosted.org/packages/5e/5a/bb44e38c66e2a254b77198ffe6d30b66b97294e4e7f719d62b498961d66e/optilogic-2.5.0-py3-none-any.whl
+[2023-05-10 03:11:27] INFO root fetch - processPackages [audiotoolbox]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [audiotoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiotoolbox-0.64-py3-none-any.whl.zip tmp/audiotoolbox-0.64.1-py3-none-any.whl.zip --markdown 20230510/a/audiotoolbox/0.64-0.64.1/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [spimdisasm]: Downloading https://files.pythonhosted.org/packages/4f/b6/3e3fe88ecbbc893a7b39d4c1bb62693fbaa6ad1360bbb0af77a0acafca9c/spimdisasm-1.9.2.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [spimdisasm]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [spimdisasm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spimdisasm-1.9.1.tar.gz tmp/spimdisasm-1.9.2.tar.gz --markdown 20230510/s/spimdisasm/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [ecsmgmt-cli]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [ecsmgmt-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecsmgmt_cli-0.4.5.tar.gz tmp/ecsmgmt_cli-0.5.0.tar.gz --markdown 20230510/e/ecsmgmt-cli/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [knic-jupyter]: Downloading https://files.pythonhosted.org/packages/8a/9e/628721089228dde9f00daacd0d9189a1be96cfadbae65068c9013741f5d4/knic_jupyter-0.1.4.tar.gz
+[2023-05-10 03:11:27] INFO root fetch - processPackages [optilogic]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [optilogic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optilogic-2.4.1-py3-none-any.whl.zip tmp/optilogic-2.5.0-py3-none-any.whl.zip --markdown 20230510/o/optilogic/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2023-05-10 03:11:27] INFO root fetch - processPackages [knic-jupyter]: executing diffoscope
+[2023-05-10 03:11:27] INFO root fetch - processPackages [knic-jupyter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knic_jupyter-0.1.3.tar.gz tmp/knic_jupyter-0.1.4.tar.gz --markdown 20230510/k/knic-jupyter/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 03:11:28] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: primerJinn
+[2023-05-10 03:11:28] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 03:11:28] WARNING root fetch - processPackages [primerJinn]: Skipping, unable to determine old version
+[2023-05-10 03:11:28] INFO root fetch - processPackages [primerJinn]: Start processing: appsurifyci
+[2023-05-10 03:11:28] INFO root fetch - main [MainThread]: End processing [primerJinn] error
+[2023-05-10 03:11:28] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 03:11:28] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-05-10 03:11:28] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230510/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 03:11:28] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 03:11:28] INFO root fetch - main [MainThread]: End processing [audiotoolbox]: success
+[2023-05-10 03:11:29] INFO root fetch - main [MainThread]: End processing [cpggen]: success
+[2023-05-10 03:11:29] INFO root fetch - main [MainThread]: End processing [optilogic]: success
+[2023-05-10 03:11:29] INFO root fetch - main [MainThread]: End processing [ecsmgmt-cli]: success
+[2023-05-10 03:11:29] INFO root fetch - processPackages [yowasp-yosys]: Downloading https://files.pythonhosted.org/packages/35/c4/b4e64452f262989908f22d3e1fff557841f6182c69b887c4f6508b655418/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl
+[2023-05-10 03:11:29] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-10 03:11:29] INFO root fetch - main [MainThread]: End processing [knic-jupyter]: success
+[2023-05-10 03:11:30] INFO root fetch - main [MainThread]: End processing [spimdisasm]: success
+[2023-05-10 03:11:32] INFO root fetch - processPackages [yowasp-yosys]: executing diffoscope
+[2023-05-10 03:11:32] INFO root fetch - processPackages [yowasp-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yowasp_yosys-0.9.post5610.dev226-py3-none-any.whl.zip tmp/yowasp_yosys-0.9.post5623.dev231-py3-none-any.whl.zip --markdown 20230510/y/yowasp-yosys/0.9.post5610.dev226-0.9.post5623.dev231/diff.md --exclude *.pyd
+[2023-05-10 03:11:57] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-05-10 03:12:34] INFO root fetch - main [MainThread]: End processing [yowasp-yosys]: success
+[2023-05-10 03:12:34] INFO root fetch - main [MainThread]: Store serial: [18039382]
