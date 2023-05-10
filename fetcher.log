@@ -12732,3 +12732,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:25:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-05-10 11:25:19] INFO root fetch - main [MainThread]: End processing [logprep]: success
 [2023-05-10 11:25:19] INFO root fetch - main [MainThread]: Store serial: [18044836]
+[2023-05-10 11:30:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044836]
+[2023-05-10 11:30:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: forestadmin-datasource-sqlalchemy
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dxsp
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudforet-console-api-v2
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: forestadmin-agent-toolkit
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: racetrack-client
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: forestadmin-agent-flask
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openhexa.sdk
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bp-data-grid
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ocf-datapipes
+[2023-05-10 11:30:28] INFO root fetch - processPackages [dxsp]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.16.305221] Old Version: [20230509.9.34.138320]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ocf-datapipes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/17/94/3a9ec46423822f27ec5b1fb17bfd2b4c5c81e812b78b83fe06698d907cf7/certora-cli-alpha-niv-fix_check_results-20230509.9.34.138320.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-10 11:30:28] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.1.3.tar.gz tmp/dxsp-2.1.4.tar.gz --markdown 20230510/d/dxsp/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [1.12.dev4] Old Version: [1.12.dev3]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-agent-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2023-05-10 11:30:28] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20230510/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:30:28] INFO root fetch - processPackages [bp-data-grid]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-agent-flask]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-10 11:30:28] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213368>=10485760
+[2023-05-10 11:30:28] INFO root fetch - processPackages [racetrack-client]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Start processing: tagmaps
+[2023-05-10 11:30:28] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2023-05-10 11:30:28] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-1.2.8.tar.gz tmp/ocf_datapipes-1.2.9.tar.gz --markdown 20230510/o/ocf-datapipes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 11:30:28] INFO root fetch - processPackages [tagmaps]: New version: [0.21.2] Old Version: [0.21.1]
+[2023-05-10 11:30:28] INFO root fetch - processPackages [tagmaps]: Downloading https://files.pythonhosted.org/packages/d8/0a/bc6a1423cc5dbd6fbc0b2719ffbaad80e57a63595e37c32e73b98cb64286/tagmaps-0.21.1.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/c1/9e/b9520fea89735e053c49838dde6b7f1fb3f7cb487aeb86335408c44aa936/bp_data_grid-1.0.0.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/55/ec/8247e4e82a326de5c38702a86bb40c226be2e246beada914406074f12e31/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/81/13/0c3fe634cf5d3e6712d4ec8d958264f0c031fc9a780b5218485b96f58641/forestadmin_agent_toolkit-0.1.0b8.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/c5/e0/1b3995d689b069da3b46aac4720caa0e0ad499503dd8f940924776f80602/racetrack-client-2.9.0.tar.gz
+[2023-05-10 11:30:28] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/3e/f4/f6de754630a7c19c8ec4ce4d777e771d743b1e084b0ecf590ffcf9141d99/forestadmin_agent_flask-0.1.0b8.tar.gz
+[2023-05-10 11:30:28] WARNING root fetch - processPackages [tagmaps]: Skipping package: exceeds size limit 44468726>=10485760
+[2023-05-10 11:30:28] INFO root fetch - processPackages [tagmaps]: Start processing: mypylib
+[2023-05-10 11:30:28] INFO root fetch - main [MainThread]: End processing [tagmaps] error
+[2023-05-10 11:30:28] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/8b/69/0cd142492677287d647c5b74acff1a8da5546cf057042295b8cc6fd3683a/cloudforet-console-api-v2-1.12.dev4.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [mypylib]: New version: [0.1.72] Old Version: [0.1.71]
+[2023-05-10 11:30:29] INFO root fetch - processPackages [bp-data-grid]: Downloading https://files.pythonhosted.org/packages/35/19/220b627bf59cad3e4e1c9611712a61bdb4e1560152bc1e20f6b2215d4586/bp_data_grid-1.0.1.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-1.12.dev3.tar.gz tmp/cloudforet-console-api-v2-1.12.dev4.tar.gz --markdown 20230510/c/cloudforet-console-api-v2/1.12.dev3-1.12.dev4/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [bp-data-grid]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [bp-data-grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp_data_grid-1.0.0.tar.gz tmp/bp_data_grid-1.0.1.tar.gz --markdown 20230510/b/bp-data-grid/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/fa/28/fba103677b8eabdf1b8748b4ce9872314f19deb2a18dd75069cf19208bd3/mypylib-0.1.71.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [racetrack-client]: Downloading https://files.pythonhosted.org/packages/a3/cc/fb6d40f92b96278a16e133f99ef397c97c09211913cb331b846c4dc9fa85/racetrack-client-2.9.1.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-flask]: Downloading https://files.pythonhosted.org/packages/16/5e/7c7f370b88a6f11719865650299ba7dd6f764570d0460a4859718445c239/forestadmin_agent_flask-0.1.0b9.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-toolkit]: Downloading https://files.pythonhosted.org/packages/b0/db/01961164568425eb2d6b5765179369ee253f7483d07942f3e15613dfc4c6/forestadmin_agent_toolkit-0.1.0b9.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/e3/82/284d5a98e9849700b9bd0243463ae74bb810fb8f891ef63246ae48a9b25a/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [mypylib]: Downloading https://files.pythonhosted.org/packages/9c/b5/03f4ef6c0a68e38fb2707e6ff17457f214d19eeb7dfd14f94c61bcab3b3b/mypylib-0.1.72.tar.gz
+[2023-05-10 11:30:29] INFO root fetch - processPackages [racetrack-client]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [racetrack-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/racetrack-client-2.9.0.tar.gz tmp/racetrack-client-2.9.1.tar.gz --markdown 20230510/r/racetrack-client/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-flask]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_flask-0.1.0b8.tar.gz tmp/forestadmin_agent_flask-0.1.0b9.tar.gz --markdown 20230510/f/forestadmin-agent-flask/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-toolkit]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-agent-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_agent_toolkit-0.1.0b8.tar.gz tmp/forestadmin_agent_toolkit-0.1.0b9.tar.gz --markdown 20230510/f/forestadmin-agent-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [forestadmin-datasource-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_sqlalchemy-0.1.0b8.tar.gz tmp/forestadmin_datasource_sqlalchemy-0.1.0b9.tar.gz --markdown 20230510/f/forestadmin-datasource-sqlalchemy/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-10 11:30:29] INFO root fetch - processPackages [mypylib]: executing diffoscope
+[2023-05-10 11:30:29] INFO root fetch - processPackages [mypylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypylib-0.1.71.tar.gz tmp/mypylib-0.1.72.tar.gz --markdown 20230510/m/mypylib/0.1.71-0.1.72/diff.md --exclude *.pyd
+[2023-05-10 11:30:30] INFO root fetch - processPackages [dxsp]: Start processing: featurebyte
+[2023-05-10 11:30:30] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-10 11:30:30] INFO root fetch - processPackages [featurebyte]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 11:30:30] INFO root fetch - processPackages [openhexa.sdk]: Start processing: taichu-serve
+[2023-05-10 11:30:30] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2023-05-10 11:30:30] INFO root fetch - processPackages [featurebyte]: Downloading https://files.pythonhosted.org/packages/6c/7e/d162cd4954d8a35a5cb4ad75c8392020b8624f80aed4070fd0f326ff594a/featurebyte-0.2.2.tar.gz
+[2023-05-10 11:30:30] INFO root fetch - processPackages [taichu-serve]: New version: [2.0.9] Old Version: [2.0.28]
+[2023-05-10 11:30:30] INFO root fetch - processPackages [featurebyte]: executing diffoscope
+[2023-05-10 11:30:30] INFO root fetch - processPackages [featurebyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurebyte-0.2.1.tar.gz tmp/featurebyte-0.2.2.tar.gz --markdown 20230510/f/featurebyte/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 11:30:30] INFO root fetch - processPackages [taichu-serve]: Downloading https://files.pythonhosted.org/packages/38/22/4a1b25a6a30b85a7794aa80043b79102c88d105833b29ecc911bab791035/taichu-serve-2.0.28.tar.gz
+[2023-05-10 11:30:30] INFO root fetch - processPackages [forestadmin-agent-flask]: Start processing: memcnn
+[2023-05-10 11:30:30] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-flask]: success
+[2023-05-10 11:30:30] INFO root fetch - processPackages [memcnn]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-05-10 11:30:30] INFO root fetch - processPackages [cloudforet-console-api-v2]: Start processing: silver-payu
+[2023-05-10 11:30:30] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2023-05-10 11:30:30] INFO root fetch - processPackages [silver-payu]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-05-10 11:30:31] INFO root fetch - processPackages [memcnn]: Downloading https://files.pythonhosted.org/packages/ce/9a/88475f2b5641ae3f00d418d4cc814768a9adf6cb73698ad286ae38740d78/memcnn-1.5.1.tar.gz
+[2023-05-10 11:30:31] INFO root fetch - processPackages [taichu-serve]: executing diffoscope
+[2023-05-10 11:30:31] INFO root fetch - processPackages [taichu-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taichu-serve-2.0.28.tar.gz tmp/taichu-serve-2.0.9.tar.gz --markdown 20230510/t/taichu-serve/2.0.28-2.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:30:31] INFO root fetch - main [MainThread]: End processing [racetrack-client]: success
+[2023-05-10 11:30:31] INFO root fetch - main [MainThread]: End processing [forestadmin-agent-toolkit]: success
+[2023-05-10 11:30:31] INFO root fetch - processPackages [silver-payu]: Downloading https://files.pythonhosted.org/packages/52/b5/c02816176ef4c8d2523f8a3770106d89cf655a821d57ef732c21872193a2/silver-payu-0.6.1.tar.gz
+[2023-05-10 11:30:31] INFO root fetch - processPackages [memcnn]: Downloading https://files.pythonhosted.org/packages/01/ca/469972769f97393650e1d10b6ea394fbb7475c73c22fd107640538a92bdc/memcnn-1.5.2.tar.gz
+[2023-05-10 11:30:31] INFO root fetch - processPackages [silver-payu]: executing diffoscope
+[2023-05-10 11:30:31] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-sqlalchemy]: success
+[2023-05-10 11:30:31] INFO root fetch - processPackages [silver-payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silver-payu-0.6.0.tar.gz tmp/silver-payu-0.6.1.tar.gz --markdown 20230510/s/silver-payu/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-05-10 11:30:31] INFO root fetch - processPackages [memcnn]: executing diffoscope
+[2023-05-10 11:30:31] INFO root fetch - processPackages [memcnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/memcnn-1.5.1.tar.gz tmp/memcnn-1.5.2.tar.gz --markdown 20230510/m/memcnn/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-05-10 11:30:31] INFO root fetch - main [MainThread]: End processing [mypylib]: success
+[2023-05-10 11:30:32] INFO root fetch - main [MainThread]: End processing [taichu-serve]: success
+[2023-05-10 11:30:32] INFO root fetch - main [MainThread]: End processing [memcnn]: success
+[2023-05-10 11:30:32] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2023-05-10 11:30:33] INFO root fetch - main [MainThread]: End processing [silver-payu]: success
+[2023-05-10 11:30:33] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
+[2023-05-10 11:30:37] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
+[2023-05-10 11:30:37] INFO root fetch - main [MainThread]: Store serial: [18044889]
