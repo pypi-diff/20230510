@@ -16460,3 +16460,145 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:28:48] INFO root fetch - main [MainThread]: End processing [keras-cv-attention-models]: success
 [2023-05-10 14:28:54] INFO root fetch - main [MainThread]: End processing [resotocore]: success
 [2023-05-10 14:28:54] INFO root fetch - main [MainThread]: Store serial: [18047207]
+[2023-05-10 14:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047207]
+[2023-05-10 14:34:04] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensorflow-nearest-neighbours
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dipex
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-docutils
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiida-phonopy
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tinystream
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inmoose
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utracto
+[2023-05-10 14:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ltbfiles
+[2023-05-10 14:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: HyperEvalSR
+[2023-05-10 14:34:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cnert
+[2023-05-10 14:34:05] INFO root fetch - processPackages [utracto]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [HyperEvalSR]: New version: [0.2] Old Version: [0.1]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [ltbfiles]: New version: [3.0.0rc121] Old Version: [2.3.1rc82]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [types-docutils]: New version: [0.19.1.9] Old Version: [0.19.1.8]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [inmoose]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-2.3.1rc82.tar.gz tmp/ltbfiles-3.0.0rc121.tar.gz --markdown 20230510/l/ltbfiles/2.3.1rc82-3.0.0rc121/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [HyperEvalSR]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [HyperEvalSR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HyperEvalSR-0.1.tar.gz tmp/HyperEvalSR-0.2.tar.gz --markdown 20230510/H/HyperEvalSR/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [aiida-phonopy]: New version: [1.1.1a5] Old Version: [1.1.1]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [cnert]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tinystream]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-05-10 14:34:05] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/99/b6/57ae0d7e19ab935cf1e0e88895b8256674b0ecfec1273c7301e652c2f814/utracto-0.0.2.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [types-docutils]: Downloading https://files.pythonhosted.org/packages/59/3b/3f08a5fd5ad9aedf7bad0e67f7029cddfca14bcc27b431a9238ad8a5dd37/types-docutils-0.19.1.8.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [aiida-phonopy]: Downloading https://files.pythonhosted.org/packages/22/57/0308effc5af6cd42394acfd49f0e4592f69d4d2d258fd1d3342bff85a339/aiida-phonopy-1.1.1.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [inmoose]: Downloading https://files.pythonhosted.org/packages/4c/41/921f54bcd3e1d60bee6a4161a3dc839f6c61d0cc259c3a0b8e8bdd794cd7/inmoose-0.1.0.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Downloading https://files.pythonhosted.org/packages/c9/bb/d2ab63845378532fa5d42c21863418b47d72f3f81049f3e92fc585ee5f4a/tensorflow_nearest_neighbours-0.0.5-cp39-cp39-macosx_13_0_arm64.whl
+[2023-05-10 14:34:05] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/a4/bf/f33590b6b48a6ad427f231731ab23beecd810c1d6cebb90852a8dceff067/cnert-0.3.0.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tinystream]: Downloading https://files.pythonhosted.org/packages/66/55/6beb359e7688b22238f0f564915e711a0da90c36b18b079b18e3f8935846/tinystream-0.0.6.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tinystream]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tinystream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinystream-0.0.5.tar.gz tmp/tinystream-0.0.6.tar.gz --markdown 20230510/t/tinystream/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/50/c6/9269ab770f7af82e622d629f90b1dc4bc881313d2916ff2768693c875427/utracto-0.0.3.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [inmoose]: Downloading https://files.pythonhosted.org/packages/a0/fb/64890fb9d377927531e6f35fbf7e8713acc2cf4503f2a329e70a07a6e8a9/inmoose-0.1.1.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/52/a8/934472da53c37d2664a80c8ef148147778e7af1aaccfdb1f05f75ca3747b/cnert-0.4.0.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [types-docutils]: Downloading https://files.pythonhosted.org/packages/33/40/b259778043a806e0a124dcf54eec65e0b8a7206ba80b52cc960b9e180b49/types-docutils-0.19.1.9.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Downloading https://files.pythonhosted.org/packages/90/7a/3b078159b4fbf998339fe9d303c32fdf293040e9531ebcf0d6dc3e4cac20/tensorflow_nearest_neighbours-0.0.6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-10 14:34:05] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.2.tar.gz tmp/utracto-0.0.3.tar.gz --markdown 20230510/u/utracto/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [inmoose]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [inmoose]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmoose-0.1.0.tar.gz tmp/inmoose-0.1.1.tar.gz --markdown 20230510/i/inmoose/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [aiida-phonopy]: Downloading https://files.pythonhosted.org/packages/bc/3b/31065c3f872feeb89a7a37eaa160a342927497bb9c66539b481eaf0fc15c/aiida-phonopy-1.1.1a5.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [types-docutils]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [types-docutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docutils-0.19.1.8.tar.gz tmp/types-docutils-0.19.1.9.tar.gz --markdown 20230510/t/types-docutils/0.19.1.8-0.19.1.9/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.3.0.tar.gz tmp/cnert-0.4.0.tar.gz --markdown 20230510/c/cnert/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [aiida-phonopy]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [aiida-phonopy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiida-phonopy-1.1.1.tar.gz tmp/aiida-phonopy-1.1.1a5.tar.gz --markdown 20230510/a/aiida-phonopy/1.1.1-1.1.1a5/diff.md --exclude *.pyd
+[2023-05-10 14:34:05] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: executing diffoscope
+[2023-05-10 14:34:05] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_nearest_neighbours-0.0.5-cp39-cp39-macosx_13_0_arm64.whl.zip tmp/tensorflow_nearest_neighbours-0.0.6-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230510/t/tensorflow-nearest-neighbours/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 14:34:06] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-05-10 14:34:06] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230510/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-05-10 14:34:06] INFO root fetch - processPackages [ltbfiles]: Start processing: potato-annotation
+[2023-05-10 14:34:06] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2023-05-10 14:34:06] INFO root fetch - processPackages [HyperEvalSR]: Start processing: DMU
+[2023-05-10 14:34:06] INFO root fetch - main [MainThread]: End processing [HyperEvalSR]: success
+[2023-05-10 14:34:06] INFO root fetch - processPackages [potato-annotation]: New version: [1.2.0.9] Old Version: [1.2.0.8]
+[2023-05-10 14:34:06] INFO root fetch - processPackages [DMU]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 14:34:06] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/97/11/7b938befc793f6c05a732849dfb983a399f427fd5dd70339b2cbc3dff92b/potato-annotation-1.2.0.8.tar.gz
+[2023-05-10 14:34:06] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/eb/eb/26fb36274750923532609e685d768d664402eb45391fa0472f0428965936/DMU-0.0.5.tar.gz
+[2023-05-10 14:34:06] INFO root fetch - processPackages [tinystream]: Start processing: tds-django
+[2023-05-10 14:34:06] INFO root fetch - main [MainThread]: End processing [tinystream]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [DMU]: Downloading https://files.pythonhosted.org/packages/a0/41/9c3592b5724ec22c6e6d5bdfb4dff087b68c6703786bdbb147e962f4ab06/DMU-0.0.6.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tds-django]: New version: [4.2.0] Old Version: [4.1.0]
+[2023-05-10 14:34:07] INFO root fetch - processPackages [potato-annotation]: Downloading https://files.pythonhosted.org/packages/9d/d7/657ca751047cfdbe61f3eb4d71e0f6516d6f57ec0b107ab14280493f8c9a/potato-annotation-1.2.0.9.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [DMU]: executing diffoscope
+[2023-05-10 14:34:07] INFO root fetch - processPackages [DMU]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DMU-0.0.5.tar.gz tmp/DMU-0.0.6.tar.gz --markdown 20230510/D/DMU/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 14:34:07] INFO root fetch - processPackages [cnert]: Start processing: graph-z-c
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tds-django]: Downloading https://files.pythonhosted.org/packages/b2/8b/6be4e723bebfbdecb634a765dcb896d6025e051c56d223c9a5ccc136278b/tds-django-4.1.0.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [graph-z-c]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 14:34:07] INFO root fetch - processPackages [utracto]: Start processing: scale-nucleus
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-05-10 14:34:07] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.0.5.tar.gz tmp/graph_z_c-0.0.6.tar.gz --markdown 20230510/g/graph-z-c/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 14:34:07] INFO root fetch - processPackages [scale-nucleus]: New version: [0.9b6] Old Version: [0.9b5]
+[2023-05-10 14:34:07] INFO root fetch - processPackages [potato-annotation]: executing diffoscope
+[2023-05-10 14:34:07] INFO root fetch - processPackages [potato-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/potato-annotation-1.2.0.8.tar.gz tmp/potato-annotation-1.2.0.9.tar.gz --markdown 20230510/p/potato-annotation/1.2.0.8-1.2.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tds-django]: Downloading https://files.pythonhosted.org/packages/4d/76/2d0ddff5630d902378b66bdc94f64329209af9af48f3b41ca011488fdaa6/tds-django-4.2.0.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [types-docutils]: Start processing: eFatura
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [types-docutils]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/bf/c8/3c9bb9264e452777f75ca0449c13fb21ca37bf72f8738404d71baf5b1e5f/scale-nucleus-0.9b5.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [aiida-phonopy]: Start processing: project-structure
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [aiida-phonopy]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [eFatura]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 14:34:07] INFO root fetch - processPackages [project-structure]: New version: [0.8.30b0] Old Version: [0.8.29b1]
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tds-django]: executing diffoscope
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tds-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tds-django-4.1.0.tar.gz tmp/tds-django-4.2.0.tar.gz --markdown 20230510/t/tds-django/4.1.0-4.2.0/diff.md --exclude *.pyd
+[2023-05-10 14:34:07] INFO root fetch - processPackages [inmoose]: Start processing: PyroFork
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [inmoose]: success
+[2023-05-10 14:34:07] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/98/7c/b7f0aac0def682a1d30db19ba732e7864232b80ee8a6e2d58bc211b3dc9a/eFatura-0.0.2.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [project-structure]: Downloading https://files.pythonhosted.org/packages/d6/a2/aaeacffa5942f84da3f59c7b595457e874aa66b9c9d99c1c3290f558a103/project-structure-0.8.30b0.tar.gz
+[2023-05-10 14:34:07] INFO root fetch - processPackages [tensorflow-nearest-neighbours]: Start processing: uidom
+[2023-05-10 14:34:07] INFO root fetch - main [MainThread]: End processing [tensorflow-nearest-neighbours]: success
+[2023-05-10 14:34:08] INFO root fetch - processPackages [uidom]: New version: [0.2a0] Old Version: [0.1.1b6]
+[2023-05-10 14:34:08] INFO root fetch - processPackages [PyroFork]: New version: [2.1.7] Old Version: [2.1.6]
+[2023-05-10 14:34:08] INFO root fetch - processPackages [project-structure]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [project-structure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/project-structure-0.8.29b1.tar.gz tmp/project-structure-0.8.30b0.tar.gz --markdown 20230510/p/project-structure/0.8.29b1-0.8.30b0/diff.md --exclude *.pyd
+[2023-05-10 14:34:08] INFO root fetch - processPackages [scale-nucleus]: Downloading https://files.pythonhosted.org/packages/35/78/6ee21b292c395656a8fa3e6431b6070ee45f13b09754a998b4f9f2d510ad/scale-nucleus-0.9b6.tar.gz
+[2023-05-10 14:34:08] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.1.1b6.tar.gz tmp/uidom-0.2a0.tar.gz --markdown 20230510/u/uidom/0.1.1b6-0.2a0/diff.md --exclude *.pyd
+[2023-05-10 14:34:08] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/40/ab/da57f04694551bb84e46de19413b94ddddadb7a1d0addc09bfbdf1483f27/PyroFork-2.1.6.tar.gz
+[2023-05-10 14:34:08] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/60/3c/4676f937831032ef27283f4fe4aef674a32fc0b40a98cdef02dd6982cef8/eFatura-0.0.3.tar.gz
+[2023-05-10 14:34:08] INFO root fetch - processPackages [scale-nucleus]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [scale-nucleus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scale-nucleus-0.9b5.tar.gz tmp/scale-nucleus-0.9b6.tar.gz --markdown 20230510/s/scale-nucleus/0.9b5-0.9b6/diff.md --exclude *.pyd
+[2023-05-10 14:34:08] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-0.0.2.tar.gz tmp/eFatura-0.0.3.tar.gz --markdown 20230510/e/eFatura/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 14:34:08] INFO root fetch - processPackages [PyroFork]: Downloading https://files.pythonhosted.org/packages/b4/58/b3355ebb0aa03f888a5e07371126f7c571d7a0bfc4d13f655e97d66885da/PyroFork-2.1.7.tar.gz
+[2023-05-10 14:34:08] INFO root fetch - processPackages [graph-z-c]: Start processing: returnn
+[2023-05-10 14:34:08] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-05-10 14:34:08] INFO root fetch - processPackages [PyroFork]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [PyroFork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-2.1.6.tar.gz tmp/PyroFork-2.1.7.tar.gz --markdown 20230510/P/PyroFork/2.1.6-2.1.7/diff.md --exclude *.pyd
+[2023-05-10 14:34:08] INFO root fetch - processPackages [returnn]: New version: [1.20230510.91944] Old Version: [1.20230510.105313]
+[2023-05-10 14:34:08] INFO root fetch - processPackages [dipex]: Start processing: utracto
+[2023-05-10 14:34:08] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-05-10 14:34:08] INFO root fetch - processPackages [utracto]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 14:34:08] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-10 14:34:08] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230510.105313.tar.gz tmp/returnn-1.20230510.91944.tar.gz --markdown 20230510/r/returnn/1.20230510.105313-1.20230510.91944/diff.md --exclude *.pyd
+[2023-05-10 14:34:09] INFO root fetch - processPackages [DMU]: Start processing: finbourne-access-sdk
+[2023-05-10 14:34:09] INFO root fetch - main [MainThread]: End processing [DMU]: success
+[2023-05-10 14:34:09] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-10 14:34:09] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/f8/cb/bb212e14cc9c4dc85cd7d24e5a38dabb0924d9666630ede613cb59eb07cd/utracto-0.0.4.tar.gz
+[2023-05-10 14:34:09] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-10 14:34:09] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230510/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-10 14:34:09] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 14:34:09] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.3.tar.gz tmp/utracto-0.0.4.tar.gz --markdown 20230510/u/utracto/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 14:34:09] INFO root fetch - main [MainThread]: End processing [potato-annotation]: success
+[2023-05-10 14:34:09] INFO root fetch - main [MainThread]: End processing [tds-django]: success
+[2023-05-10 14:34:09] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-10 14:34:10] INFO root fetch - main [MainThread]: End processing [scale-nucleus]: success
+[2023-05-10 14:34:10] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-05-10 14:34:10] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 14:34:11] INFO root fetch - main [MainThread]: End processing [project-structure]: success
+[2023-05-10 14:34:11] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-10 14:34:13] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-10 14:34:15] INFO root fetch - main [MainThread]: End processing [PyroFork]: success
+[2023-05-10 14:34:15] INFO root fetch - main [MainThread]: Store serial: [18047280]
