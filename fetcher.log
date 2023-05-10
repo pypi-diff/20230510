@@ -2369,3 +2369,118 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 02:54:14] INFO root fetch - main [MainThread]: End processing [apysc]: success
 [2023-05-10 02:54:27] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-05-10 02:54:27] INFO root fetch - main [MainThread]: Store serial: [18039257]
+[2023-05-10 02:59:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039257]
+[2023-05-10 02:59:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-sns-notify
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: momento-wire-types
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tapioca-arbache
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-wget
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: todoist-conv
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aemcmc-nightly
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-web
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-core
+[2023-05-10 02:59:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq
+[2023-05-10 02:59:36] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [todoist-conv]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [tapioca-arbache]: New version: [2.4.0] Old Version: [2.3.0]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230509] Old Version: [0.0.8.dev20230508]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230510/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:59:36] INFO root fetch - processPackages [tapioca-arbache]: Downloading https://files.pythonhosted.org/packages/8f/73/ce3bbb328ca8d6e65348a9742e33e7f2125f2b76942b2befa89ad8d88264/tapioca_arbache-2.3.0.tar.gz
+[2023-05-10 02:59:36] INFO root fetch - processPackages [todoist-conv]: Downloading https://files.pythonhosted.org/packages/36/08/2664aa1edeb652e2a56ee5e9bb8d3cfe23be1cd142bf058447e33c02c7e2/todoist_conv-0.1.3.tar.gz
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230510/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/f6/8d/228d5cc70b85bb650132690c2ac88419ffde8d2b8d0d95fd223fab453add/aemcmc-nightly-0.0.8.dev20230509.tar.gz
+[2023-05-10 02:59:36] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-05-10 02:59:36] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230510/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230510/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-05-10 02:59:36] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230508.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230509.tar.gz --markdown 20230510/a/aemcmc-nightly/0.0.8.dev20230508-0.0.8.dev20230509/diff.md --exclude *.pyd
+[2023-05-10 02:59:36] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/28/0e/13030c50f0df5d827a4141c90d952791f6882724eb04cd41e963e34b9dba/cirq_web-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:37] INFO root fetch - processPackages [tapioca-arbache]: Downloading https://files.pythonhosted.org/packages/e3/19/268ca916e46adf4554353cae8e8914b59e84b493fffcf1d7c8e4cb53bb8f/tapioca_arbache-2.4.0.tar.gz
+[2023-05-10 02:59:37] INFO root fetch - processPackages [todoist-conv]: Downloading https://files.pythonhosted.org/packages/f1/c3/c0489e88215fcb7a6a437788779d63493b9b4c41551ec30c968e36604d21/todoist_conv-0.1.4.tar.gz
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ac/f6/58ef03df8e221b486efed73ef8e60c5c174f29ccb03e2029f54751839856/cirq-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:37] INFO root fetch - processPackages [tapioca-arbache]: executing diffoscope
+[2023-05-10 02:59:37] INFO root fetch - processPackages [tapioca-arbache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tapioca_arbache-2.3.0.tar.gz tmp/tapioca_arbache-2.4.0.tar.gz --markdown 20230510/t/tapioca-arbache/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2023-05-10 02:59:37] INFO root fetch - processPackages [todoist-conv]: executing diffoscope
+[2023-05-10 02:59:37] INFO root fetch - processPackages [todoist-conv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/todoist_conv-0.1.3.tar.gz tmp/todoist_conv-0.1.4.tar.gz --markdown 20230510/t/todoist-conv/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-web/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/26/41/c6fb2ee8b8b0207da4d826d37362df1f82632c523f5512a4b7add1d306dd/cirq_core-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-05-10 02:59:37] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-core/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:38] INFO root fetch - processPackages [momento-wire-types]: Start processing: cirq-google
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cdk-sns-notify]: Start processing: cirq-aqt
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [tapioca-arbache]: Start processing: cirq-pasqal
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [tapioca-arbache]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [todoist-conv]: Start processing: cirq-rigetti
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [todoist-conv]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-web]: Start processing: cirq-ionq
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230510005732] Old Version: [1.2.0.dev20230508210128]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/71/2f/b4eda480040d11e96e37ddbe15e5ccbe2bd41b84973bef0eba202079faa0/cirq_google-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:38] INFO root fetch - processPackages [aemcmc-nightly]: Start processing: optuna-dashboard
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e8/d1/416f485c4429ae70052b4a36f9e8969a46f955cdaf6ec37a72aa98ddd39a/cirq_aqt-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:38] INFO root fetch - processPackages [optuna-dashboard]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq]: Start processing: video-subtitles
+[2023-05-10 02:59:38] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/38/37/34d272999c50fed883920024a18ee93eb84eb912191383f97c9f319e756a/cirq_pasqal-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:38] INFO root fetch - processPackages [video-subtitles]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-aqt/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-google/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-05-10 02:59:38] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-pasqal/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:39] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/c8/ff/86ca1400d507b1df6f24206aa33fdf91d5c92c7d6de5f4f7facf5c4098ff/optuna-dashboard-0.9.1.tar.gz
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/3f/5f/90dea661ee2450b443f3b1b94161e25a91016a1bcd0ca60f91e3ac97da6b/cirq_ionq-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:39] INFO root fetch - processPackages [video-subtitles]: executing diffoscope
+[2023-05-10 02:59:39] INFO root fetch - processPackages [video-subtitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-subtitles-1.0.1.tar.gz tmp/video-subtitles-1.0.2.tar.gz --markdown 20230510/v/video-subtitles/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/64/6d/036dce19cff289e7c146ba20b2f63a26efa4a0f8cd8b56a1a368bafc9393/cirq_rigetti-1.2.0.dev20230510005732-py3-none-any.whl
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-ionq/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-05-10 02:59:39] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230508210128-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230510005732-py3-none-any.whl.zip --markdown 20230510/c/cirq-rigetti/1.2.0.dev20230508210128-1.2.0.dev20230510005732/diff.md --exclude *.pyd
+[2023-05-10 02:59:39] INFO root fetch - processPackages [optuna-dashboard]: Downloading https://files.pythonhosted.org/packages/27/61/eedb08021226c3a12afaae3c1609e4745af8d825d04a37adae30d3af1dd4/optuna-dashboard-0.9.2.tar.gz
+[2023-05-10 02:59:40] INFO root fetch - processPackages [cirq-aqt]: Start processing: cdk-lambda-layer-curl
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-05-10 02:59:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:59:40] INFO root fetch - processPackages [cirq-pasqal]: Start processing: structure-py
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-05-10 02:59:40] INFO root fetch - processPackages [structure-py]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-10 02:59:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-05-10 02:59:40] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230510/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:59:40] INFO root fetch - processPackages [optuna-dashboard]: executing diffoscope
+[2023-05-10 02:59:40] INFO root fetch - processPackages [optuna-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optuna-dashboard-0.9.1.tar.gz tmp/optuna-dashboard-0.9.2.tar.gz --markdown 20230510/o/optuna-dashboard/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-10 02:59:40] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/a0/48/278d3c5b1100b0fd78a586464d31feacf4aa70547eff448014d8e70f75d7/structure_py-0.8.1.tar.gz
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-05-10 02:59:40] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-05-10 02:59:40] INFO root fetch - processPackages [structure-py]: Downloading https://files.pythonhosted.org/packages/7a/10/6102f0a95729090e073ef743c31920efe1449f8e2ad7a588531be11ed18f/structure_py-0.8.2.tar.gz
+[2023-05-10 02:59:40] INFO root fetch - processPackages [structure-py]: executing diffoscope
+[2023-05-10 02:59:40] INFO root fetch - processPackages [structure-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/structure_py-0.8.1.tar.gz tmp/structure_py-0.8.2.tar.gz --markdown 20230510/s/structure-py/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-10 02:59:42] INFO root fetch - main [MainThread]: End processing [structure-py]: success
+[2023-05-10 02:59:42] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-05-10 02:59:42] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
+[2023-05-10 02:59:42] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-05-10 02:59:53] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-05-10 03:00:32] INFO root fetch - main [MainThread]: End processing [optuna-dashboard]: success
+[2023-05-10 03:00:32] INFO root fetch - main [MainThread]: Store serial: [18039305]
