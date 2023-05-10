@@ -12833,3 +12833,86 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:30:33] INFO root fetch - main [MainThread]: End processing [bp-data-grid]: success
 [2023-05-10 11:30:37] INFO root fetch - main [MainThread]: End processing [featurebyte]: success
 [2023-05-10 11:30:37] INFO root fetch - main [MainThread]: Store serial: [18044889]
+[2023-05-10 11:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044889]
+[2023-05-10 11:35:46] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazylinop
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sekoia-automation-sdk
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mootdx
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: llm-generation-server
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupytercards
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: snakehelp
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spcancestry
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-client
+[2023-05-10 11:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-dataset
+[2023-05-10 11:35:46] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [lazylinop]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [mootdx]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [llm-generation-server]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [jupytercards]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [snakehelp]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:46] ERROR root fetch - processPackages [spcancestry]: Unable to get metadata: No such project 'spcancestry'
+[2023-05-10 11:35:46] INFO root fetch - processPackages [spcancestry]: Start processing: nucliadb-models
+[2023-05-10 11:35:46] INFO root fetch - main [MainThread]: End processing [spcancestry] error
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-dataset/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-10 11:35:46] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-client/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-models/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/dd/fb/4a6e22cf168d997fa0f8e8e021dbbbd84435641486ba8711a70d9fe2abe1/sekoia_automation_sdk-1.1.2.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/5c/fd/39e677779966df2318a92fd88e0cd8305aa4971e4644fb3c00f928fb58cd/lazylinop-1.0.8-py3-none-any.whl
+[2023-05-10 11:35:47] INFO root fetch - processPackages [snakehelp]: Downloading https://files.pythonhosted.org/packages/a8/77/1d81fc49869b50ca630e49fb55d5f04879f824c25a06ed36efb6e0158543/snakehelp-0.0.8.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [jupytercards]: Downloading https://files.pythonhosted.org/packages/2f/c5/2c0484d069386273c8851983749047365259e2d9d3c0c2e0c8091e24aaf5/jupytercards-2.3.1.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/d7/79/d2a5201af9976eb13abece0c1ddc942db3e35983e6c94707fd1e6b2788d8/llm_generation_server-0.0.8.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [jupytercards]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [jupytercards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupytercards-2.3.0.tar.gz tmp/jupytercards-2.3.1.tar.gz --markdown 20230510/j/jupytercards/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [mootdx]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [mootdx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mootdx-0.9.8.tar.gz tmp/mootdx-0.9.9.tar.gz --markdown 20230510/m/mootdx/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [lazylinop]: Downloading https://files.pythonhosted.org/packages/ca/89/57b51bd98b2b2782824472a535a5bfd5667a9313ad46677730a1a4e6993d/lazylinop-1.0.9-py3-none-any.whl
+[2023-05-10 11:35:47] INFO root fetch - processPackages [llm-generation-server]: Downloading https://files.pythonhosted.org/packages/1b/92/b7a81c1ae09072f32e01c8f4f15a71efb359935e76a2cdba62984beb2ea1/llm_generation_server-0.0.9.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [snakehelp]: Downloading https://files.pythonhosted.org/packages/f8/a1/634e490c19016099efd1dd9f8de8044cf6b41762d4f47f00045f0178c8e8/snakehelp-0.0.9.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [lazylinop]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [lazylinop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazylinop-1.0.8-py3-none-any.whl.zip tmp/lazylinop-1.0.9-py3-none-any.whl.zip --markdown 20230510/l/lazylinop/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/1f/e3/1eddd2563ceb6f53fb7ef1ef0195d55e020528f504cf98d564af2bf79b8c/sekoia_automation_sdk-1.2.0.tar.gz
+[2023-05-10 11:35:47] INFO root fetch - processPackages [llm-generation-server]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [llm-generation-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llm_generation_server-0.0.8.tar.gz tmp/llm_generation_server-0.0.9.tar.gz --markdown 20230510/l/llm-generation-server/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.1.2.tar.gz tmp/sekoia_automation_sdk-1.2.0.tar.gz --markdown 20230510/s/sekoia-automation-sdk/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 11:35:47] INFO root fetch - processPackages [snakehelp]: executing diffoscope
+[2023-05-10 11:35:47] INFO root fetch - processPackages [snakehelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakehelp-0.0.8.tar.gz tmp/snakehelp-0.0.9.tar.gz --markdown 20230510/s/snakehelp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-protos
+[2023-05-10 11:35:48] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-sdk
+[2023-05-10 11:35:48] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-protos/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-sdk/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-models]: Start processing: nucliadb-utils
+[2023-05-10 11:35:48] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-10 11:35:48] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 11:35:49] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-10 11:35:49] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-utils/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 11:35:49] INFO root fetch - processPackages [lazylinop]: Start processing: kaiko-research
+[2023-05-10 11:35:49] INFO root fetch - main [MainThread]: End processing [lazylinop]: success
+[2023-05-10 11:35:49] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-10 11:35:49] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 11:35:49] INFO root fetch - main [MainThread]: End processing [snakehelp]: success
+[2023-05-10 11:35:49] INFO root fetch - main [MainThread]: End processing [mootdx]: success
+[2023-05-10 11:35:49] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-05-10 11:35:50] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-10 11:35:50] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-10 11:35:50] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-10 11:35:51] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-10 11:35:51] INFO root fetch - main [MainThread]: End processing [jupytercards]: success
+[2023-05-10 11:35:52] INFO root fetch - main [MainThread]: End processing [llm-generation-server]: success
+[2023-05-10 11:35:52] INFO root fetch - main [MainThread]: Store serial: [18044940]
