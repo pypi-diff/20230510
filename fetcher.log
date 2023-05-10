@@ -21514,3 +21514,73 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:45:09] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
 [2023-05-10 18:45:10] INFO root fetch - main [MainThread]: End processing [rasa]: success
 [2023-05-10 18:45:10] INFO root fetch - main [MainThread]: Store serial: [18050116]
+[2023-05-10 18:50:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050116]
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jarvis-ui
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venv-modulefile
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deid
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grizli
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lanelet2
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: citrine
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-dynamic-choice
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moddagudu
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PatryksAutoAI
+[2023-05-10 18:50:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: venv-modulefile
+[2023-05-10 18:50:21] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [moddagudu]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] INFO root fetch - processPackages [moddagudu]: Start processing: gleaner
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [moddagudu] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [jarvis-ui]: New version: [1.1] Old Version: [1.0]
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:50:21] INFO root fetch - processPackages [lanelet2]: New version: [1.2.1] Old Version: [1.2.0.post3]
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [wagtail-dynamic-choice]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [gleaner]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] INFO root fetch - processPackages [wagtail-dynamic-choice]: Start processing: wagtail-dynamic-stream-block
+[2023-05-10 18:50:21] INFO root fetch - processPackages [gleaner]: Start processing: discordgpt
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [wagtail-dynamic-choice] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [deid]: New version: [0.3.22] Old Version: [0.3.21]
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [gleaner] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [citrine]: New version: [2.8.0] Old Version: [2.2.1]
+[2023-05-10 18:50:21] INFO root fetch - processPackages [grizli]: New version: [1.8.7] Old Version: [1.8.5]
+[2023-05-10 18:50:21] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/2b/5c/9ed8c48cb3efdc5de20ae1fcf8aee296792fe70d9d975509fa76964c3052/PatryksAutoAI-0.0.7.tar.gz
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [discordgpt]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] INFO root fetch - processPackages [discordgpt]: Start processing: llm-kit
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [discordgpt] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [jarvis-ui]: executing diffoscope
+[2023-05-10 18:50:21] INFO root fetch - processPackages [jarvis-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ui-1.0-py3-none-any.whl.zip tmp/jarvis_ui-1.1-py3-none-any.whl.zip --markdown 20230510/j/jarvis-ui/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [wagtail-dynamic-stream-block]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [wagtail-dynamic-stream-block] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [lanelet2]: Downloading https://files.pythonhosted.org/packages/45/c6/60bfa53967346c580642c2a61bfdac933997ce76ea5208eedd541c55a5a4/lanelet2-1.2.0.post3-cp39-cp39-manylinux_2_27_x86_64.whl
+[2023-05-10 18:50:21] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 18:50:21] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.6.tar.gz tmp/PatryksAutoAI-0.0.7.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 18:50:21] INFO root fetch - processPackages [deid]: Downloading https://files.pythonhosted.org/packages/e1/85/d22ced02dc71169410c54afa828881d6835ee73aab84542c4fd0d61fde6f/deid-0.3.21.tar.gz
+[2023-05-10 18:50:21] WARNING root fetch - processPackages [llm-kit]: Skipping, unable to determine old version
+[2023-05-10 18:50:21] INFO root fetch - main [MainThread]: End processing [llm-kit] error
+[2023-05-10 18:50:21] INFO root fetch - processPackages [citrine]: Downloading https://files.pythonhosted.org/packages/75/95/d01f7a4c0b873cf2eb1b632c2bbcaae72ec9ef3dcc21f5c3f1d6268a0815/citrine-2.2.1.tar.gz
+[2023-05-10 18:50:21] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/33/42/a1d3fde18da42f8372f82ad814b071e12accedcd312d4d358ecd949111de/grizli-1.8.5.tar.gz
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 18:50:21] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:50:22] INFO root fetch - processPackages [lanelet2]: Downloading https://files.pythonhosted.org/packages/96/8e/a06e33da34a1b3c9cb6bcea2176967abedb4203032c4c50cd9be059fecc8/lanelet2-1.2.1-cp39-cp39-manylinux_2_27_x86_64.whl
+[2023-05-10 18:50:22] INFO root fetch - processPackages [citrine]: Downloading https://files.pythonhosted.org/packages/4d/e9/57aee37f83c182e8ed1a38ed55b55329850ceaae19fe51c69eda76ab5854/citrine-2.8.0.tar.gz
+[2023-05-10 18:50:22] INFO root fetch - processPackages [deid]: Downloading https://files.pythonhosted.org/packages/09/31/67227831745a5217dce959d5327e1a479a9f424ababef27f38c3cf77fe22/deid-0.3.22.tar.gz
+[2023-05-10 18:50:22] INFO root fetch - processPackages [grizli]: Downloading https://files.pythonhosted.org/packages/8d/18/60a1c31013918bbff93d9bd5b5a187851819adee134bf0fabad3ea2549f8/grizli-1.8.7.tar.gz
+[2023-05-10 18:50:22] INFO root fetch - processPackages [citrine]: executing diffoscope
+[2023-05-10 18:50:22] INFO root fetch - processPackages [citrine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrine-2.2.1.tar.gz tmp/citrine-2.8.0.tar.gz --markdown 20230510/c/citrine/2.2.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-10 18:50:22] INFO root fetch - processPackages [deid]: executing diffoscope
+[2023-05-10 18:50:22] INFO root fetch - processPackages [deid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deid-0.3.21.tar.gz tmp/deid-0.3.22.tar.gz --markdown 20230510/d/deid/0.3.21-0.3.22/diff.md --exclude *.pyd
+[2023-05-10 18:50:22] INFO root fetch - processPackages [grizli]: executing diffoscope
+[2023-05-10 18:50:22] INFO root fetch - processPackages [grizli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grizli-1.8.5.tar.gz tmp/grizli-1.8.7.tar.gz --markdown 20230510/g/grizli/1.8.5-1.8.7/diff.md --exclude *.pyd
+[2023-05-10 18:50:22] INFO root fetch - processPackages [lanelet2]: executing diffoscope
+[2023-05-10 18:50:22] INFO root fetch - processPackages [lanelet2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lanelet2-1.2.0.post3-cp39-cp39-manylinux_2_27_x86_64.whl.zip tmp/lanelet2-1.2.1-cp39-cp39-manylinux_2_27_x86_64.whl.zip --markdown 20230510/l/lanelet2/1.2.0.post3-1.2.1/diff.md --exclude *.pyd
+[2023-05-10 18:50:22] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 18:50:23] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 18:50:23] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 18:50:23] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
+[2023-05-10 18:50:24] INFO root fetch - main [MainThread]: End processing [citrine]: success
+[2023-05-10 18:50:24] INFO root fetch - main [MainThread]: End processing [deid]: success
+[2023-05-10 18:50:27] INFO root fetch - main [MainThread]: End processing [grizli]: success
+[2023-05-10 18:51:41] INFO root fetch - main [MainThread]: End processing [lanelet2]: success
+[2023-05-10 18:51:41] INFO root fetch - main [MainThread]: Store serial: [18050168]
