@@ -22136,3 +22136,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:30:20] INFO root fetch - main [MainThread]: End processing [biotrade]: success
 [2023-05-10 19:30:20] INFO root fetch - main [MainThread]: End processing [biotrade]: success
 [2023-05-10 19:30:20] INFO root fetch - main [MainThread]: Store serial: [18050587]
+[2023-05-10 19:35:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050587]
+[2023-05-10 19:35:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aionotion
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alphabetize
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffgram
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colander-client
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hexwatershed
+[2023-05-10 19:35:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: latch
+[2023-05-10 19:35:30] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 19:35:30] INFO root fetch - processPackages [alphabetize]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:35:30] INFO root fetch - processPackages [diffgram]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-10 19:35:30] INFO root fetch - processPackages [aionotion]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-05-10 19:35:30] WARNING root fetch - processPackages [colander-client]: Skipping, unable to determine old version
+[2023-05-10 19:35:30] INFO root fetch - main [MainThread]: End processing [colander-client] error
+[2023-05-10 19:35:30] INFO root fetch - processPackages [latch]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-05-10 19:35:30] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/2f/01/3614f3e8d99dce9c3a3bb0bf3d64f02a76124d5a57315e77ca22eface8f9/hexwatershed-0.2.9.tar.gz
+[2023-05-10 19:35:30] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/d2/42/38af64fda93eab141ff7953210d2bfa71461fa041ff321c2469fae19dfeb/aionotion-3.0.1.tar.gz
+[2023-05-10 19:35:30] INFO root fetch - processPackages [diffgram]: Downloading https://files.pythonhosted.org/packages/df/9c/131e15499aba0b4425914505fbb65ee9ff8b923a55211a4d1275bc26a85c/diffgram-0.9.6.tar.gz
+[2023-05-10 19:35:30] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-10 19:35:30] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.8.tar.gz tmp/hexwatershed-0.2.9.tar.gz --markdown 20230510/h/hexwatershed/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 19:35:30] INFO root fetch - processPackages [latch]: executing diffoscope
+[2023-05-10 19:35:30] INFO root fetch - processPackages [latch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch-2.9.5.tar.gz tmp/latch-2.9.6.tar.gz --markdown 20230510/l/latch/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-05-10 19:35:30] INFO root fetch - processPackages [alphabetize]: executing diffoscope
+[2023-05-10 19:35:30] INFO root fetch - processPackages [alphabetize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphabetize-0.0.8.tar.gz tmp/alphabetize-0.0.9.tar.gz --markdown 20230510/a/alphabetize/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:35:31] INFO root fetch - processPackages [aionotion]: Downloading https://files.pythonhosted.org/packages/22/6d/d6ae4c277ccd4e1336a048e2de5585363472505d853a6ab2505e23c3a322/aionotion-3.0.2.tar.gz
+[2023-05-10 19:35:31] INFO root fetch - processPackages [diffgram]: Downloading https://files.pythonhosted.org/packages/30/82/7d0c7953075c236ee57975d2aadc104a121bce5b988f47261daf8c273c8d/diffgram-0.9.7.tar.gz
+[2023-05-10 19:35:31] INFO root fetch - processPackages [aionotion]: executing diffoscope
+[2023-05-10 19:35:31] INFO root fetch - processPackages [aionotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aionotion-3.0.1.tar.gz tmp/aionotion-3.0.2.tar.gz --markdown 20230510/a/aionotion/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-05-10 19:35:31] INFO root fetch - processPackages [diffgram]: executing diffoscope
+[2023-05-10 19:35:31] INFO root fetch - processPackages [diffgram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffgram-0.9.6.tar.gz tmp/diffgram-0.9.7.tar.gz --markdown 20230510/d/diffgram/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [alphabetize]: success
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [aionotion]: success
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [latch]: success
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: End processing [diffgram]: success
+[2023-05-10 19:35:32] INFO root fetch - main [MainThread]: Store serial: [18050606]
