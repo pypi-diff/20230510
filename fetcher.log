@@ -13256,3 +13256,118 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:52:11] INFO root fetch - main [MainThread]: End processing [encord-active]: success
 [2023-05-10 11:52:13] INFO root fetch - main [MainThread]: End processing [cercis]: success
 [2023-05-10 11:52:13] INFO root fetch - main [MainThread]: Store serial: [18045143]
+[2023-05-10 11:57:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045143]
+[2023-05-10 11:57:22] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-fabric
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kaiko-research
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: up-ibacop
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wolkenatlas
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LasBuildSeg
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spotipy-anon
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tetun-tokenizer
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irails
+[2023-05-10 11:57:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-05-10 11:57:22] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-10 11:57:22] INFO root fetch - processPackages [kaiko-research]: Start processing: pandasai
+[2023-05-10 11:57:22] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 11:57:22] INFO root fetch - processPackages [wolkenatlas]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-10 11:57:22] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:57:23] WARNING root fetch - processPackages [up-ibacop]: Skipping, unable to determine old version
+[2023-05-10 11:57:23] INFO root fetch - processPackages [up-ibacop]: Start processing: afex-sso
+[2023-05-10 11:57:23] INFO root fetch - main [MainThread]: End processing [up-ibacop] error
+[2023-05-10 11:57:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [15.0.3.9.0] Old Version: [15.0.3.8.0]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [text-fabric]: New version: [9.5.2] Old Version: [9.4.4]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [spotipy-anon]: New version: [1.2] Old Version: [1.1]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [irails]: New version: [1.2.4] Old Version: [1.2.2]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230510.9.53.690092] Old Version: [20230509.20.1.633192]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [tetun-tokenizer]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [pandasai]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [afex-sso]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.8.tar.gz tmp/LasBuildSeg-0.0.9.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.2.8.tar.gz tmp/pandasai-0.2.9.tar.gz --markdown 20230510/p/pandasai/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [wolkenatlas]: Downloading https://files.pythonhosted.org/packages/8b/d0/4dbdd29ee61375a3b8089f1df68982a2366fb336af224ca5e638e531167d/wolkenatlas-0.1.6.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [tetun-tokenizer]: Downloading https://files.pythonhosted.org/packages/3a/91/2008531874972abce23d70157772fce3a67849ad2c5ebc38b965d1d91cfb/tetun_tokenizer-1.1.1.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/6a/95/eb6bc5081a7bcfa2dc75ed6d02413c043756ca7bf7919d66f98eb3b46a89/certora-cli-alpha-uri-eradicate_certora_dir-20230509.20.1.633192.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/50/1a/e1689fa2ec5576e94fe59be16272d36306568b1d1e23ebb64ed96561df7a/odoo_addon_l10n_ro_stock_account-15.0.3.8.0-py3-none-any.whl
+[2023-05-10 11:57:23] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/06/90/18aad8f30ad4261e90b761c22ed890714808039581f24a359e324a8a441d/afex-sso-0.0.52.tar.gz
+[2023-05-10 11:57:23] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 39211688>=10485760
+[2023-05-10 11:57:23] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: general-utils-juan-palma-borda
+[2023-05-10 11:57:23] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-10 11:57:23] INFO root fetch - processPackages [general-utils-juan-palma-borda]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 11:57:23] INFO root fetch - processPackages [irails]: Downloading https://files.pythonhosted.org/packages/7b/4c/26a998e1f703f7341d6578eac2368fb7ac6bac0112454f2c64b61098d508/irails-1.2.4.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [spotipy-anon]: Downloading https://files.pythonhosted.org/packages/4a/ef/b335aef7c2d3d937cbd454d6f8cbafe78f535878e4ff46665d7b93b98866/spotipy_anon-1.2.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.51.tar.gz tmp/afex-sso-0.0.52.tar.gz --markdown 20230510/a/afex-sso/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [text-fabric]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [text-fabric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_fabric-9.4.4-py3-none-any.whl.zip tmp/text_fabric-9.5.2-py3-none-any.whl.zip --markdown 20230510/t/text-fabric/9.4.4-9.5.2/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/b7/48/93754ca510e459315010c1bf7c8d5cdec0838805b4e7976e42c2a0ae71be/general-utils-juan-palma-borda-0.1.2.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [wolkenatlas]: Downloading https://files.pythonhosted.org/packages/b8/a2/b935fed3cf204e33d61cad859f298a7bc6b0049dfebefa8d3ee427c589b3/wolkenatlas-0.2.0.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [tetun-tokenizer]: Downloading https://files.pythonhosted.org/packages/30/85/072876b4644562364a47d6cecae49cfb79f9aa86c6a95d843358f57cbfca/tetun_tokenizer-1.1.2.tar.gz
+[2023-05-10 11:57:23] INFO root fetch - processPackages [spotipy-anon]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [spotipy-anon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotipy_anon-1.1.tar.gz tmp/spotipy_anon-1.2.tar.gz --markdown 20230510/s/spotipy-anon/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [wolkenatlas]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [wolkenatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wolkenatlas-0.1.6.tar.gz tmp/wolkenatlas-0.2.0.tar.gz --markdown 20230510/w/wolkenatlas/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/52/81/9b06640d0b302bfe89a6dd01fbdfbad8abfa574a8eb992098394e4a89fb0/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl
+[2023-05-10 11:57:23] INFO root fetch - processPackages [irails]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [irails]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irails-1.2.2.tar.gz tmp/irails-1.2.4.tar.gz --markdown 20230510/i/irails/1.2.2-1.2.4/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [general-utils-juan-palma-borda]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [general-utils-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-utils-juan-palma-borda-0.1.1.tar.gz tmp/general-utils-juan-palma-borda-0.1.2.tar.gz --markdown 20230510/g/general-utils-juan-palma-borda/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [tetun-tokenizer]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [tetun-tokenizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tetun_tokenizer-1.1.1.tar.gz tmp/tetun_tokenizer-1.1.2.tar.gz --markdown 20230510/t/tetun-tokenizer/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-10 11:57:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-05-10 11:57:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-15.0.3.8.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-15.0.3.9.0-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-l10n-ro-stock-account/15.0.3.8.0-15.0.3.9.0/diff.md --exclude *.pyd
+[2023-05-10 11:57:24] INFO root fetch - processPackages [pandasai]: Start processing: primap2
+[2023-05-10 11:57:24] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-05-10 11:57:24] INFO root fetch - processPackages [primap2]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-05-10 11:57:24] INFO root fetch - processPackages [LasBuildSeg]: Start processing: chronus
+[2023-05-10 11:57:24] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 11:57:24] INFO root fetch - processPackages [chronus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 11:57:24] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/8e/e2/901d3a0911010dd77ed71d6d5ebe3e8d8830158a69938956aec70cde9eb7/primap2-0.9.6.tar.gz
+[2023-05-10 11:57:24] INFO root fetch - processPackages [afex-sso]: Start processing: jupyterhub-url-sharing
+[2023-05-10 11:57:24] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-05-10 11:57:24] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-05-10 11:57:24] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.0.tar.gz tmp/chronus-0.3.1.tar.gz --markdown 20230510/c/chronus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 11:57:25] WARNING root fetch - processPackages [jupyterhub-url-sharing]: Skipping, unable to determine old version
+[2023-05-10 11:57:25] INFO root fetch - processPackages [jupyterhub-url-sharing]: Start processing: housekeeper
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [jupyterhub-url-sharing] error
+[2023-05-10 11:57:25] INFO root fetch - processPackages [primap2]: Downloading https://files.pythonhosted.org/packages/b2/d9/968f0c80f354dcdd986361622a67ed457477468ce7bb2ce83ee5ab93d80d/primap2-0.9.7.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [housekeeper]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-05-10 11:57:25] INFO root fetch - processPackages [housekeeper]: executing diffoscope
+[2023-05-10 11:57:25] INFO root fetch - processPackages [housekeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/housekeeper-4.1.1.tar.gz tmp/housekeeper-4.2.0.tar.gz --markdown 20230510/h/housekeeper/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-05-10 11:57:25] INFO root fetch - processPackages [spotipy-anon]: Start processing: invenio-records-marc21
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [spotipy-anon]: success
+[2023-05-10 11:57:25] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Start processing: searchkit
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [general-utils-juan-palma-borda]: success
+[2023-05-10 11:57:25] INFO root fetch - processPackages [tetun-tokenizer]: Start processing: PhyREC
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [tetun-tokenizer]: success
+[2023-05-10 11:57:25] INFO root fetch - processPackages [invenio-records-marc21]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-10 11:57:25] INFO root fetch - processPackages [searchkit]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-10 11:57:25] INFO root fetch - processPackages [PhyREC]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-10 11:57:25] INFO root fetch - processPackages [primap2]: executing diffoscope
+[2023-05-10 11:57:25] INFO root fetch - processPackages [primap2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primap2-0.9.6.tar.gz tmp/primap2-0.9.7.tar.gz --markdown 20230510/p/primap2/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [wolkenatlas]: success
+[2023-05-10 11:57:25] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/1f/09/a285658f14729733deae81c360a900fca1cf163577ed13be75db16ec2eca/invenio-records-marc21-0.9.1.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/87/fa/d84a608d9976535c1a97b5dcfcc2ad62a5665cfd1a87909172201f525b98/searchkit-0.2.3.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [PhyREC]: Downloading https://files.pythonhosted.org/packages/0e/50/a4f7af8386902b262ef9b991d1bf7cb354983b114a6b7463493c3f0eb767/PhyREC-0.6.4.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [searchkit]: Downloading https://files.pythonhosted.org/packages/4d/4e/2da468b08ed00785865151e402424f9df377d526c706d6f3f501aa9e3e27/searchkit-0.2.4.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [PhyREC]: Downloading https://files.pythonhosted.org/packages/c6/24/98c7c9571e941f29e0cd4d9c0979ad051ab41e3d48689ff9473e9f00cb73/PhyREC-0.6.5.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - processPackages [invenio-records-marc21]: Downloading https://files.pythonhosted.org/packages/87/4d/265e3ab47550d183abe236faa375e5556c99bf64372d3d6dca2ce6f03e60/invenio-records-marc21-0.9.2.tar.gz
+[2023-05-10 11:57:25] INFO root fetch - main [MainThread]: End processing [irails]: success
+[2023-05-10 11:57:26] INFO root fetch - processPackages [searchkit]: executing diffoscope
+[2023-05-10 11:57:26] INFO root fetch - processPackages [searchkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchkit-0.2.3.tar.gz tmp/searchkit-0.2.4.tar.gz --markdown 20230510/s/searchkit/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 11:57:26] INFO root fetch - processPackages [PhyREC]: executing diffoscope
+[2023-05-10 11:57:26] INFO root fetch - processPackages [PhyREC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PhyREC-0.6.4.tar.gz tmp/PhyREC-0.6.5.tar.gz --markdown 20230510/P/PhyREC/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-10 11:57:26] INFO root fetch - processPackages [invenio-records-marc21]: executing diffoscope
+[2023-05-10 11:57:26] INFO root fetch - processPackages [invenio-records-marc21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-records-marc21-0.9.1.tar.gz tmp/invenio-records-marc21-0.9.2.tar.gz --markdown 20230510/i/invenio-records-marc21/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-10 11:57:26] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-05-10 11:57:26] INFO root fetch - main [MainThread]: End processing [text-fabric]: success
+[2023-05-10 11:57:27] INFO root fetch - main [MainThread]: End processing [searchkit]: success
+[2023-05-10 11:57:27] INFO root fetch - main [MainThread]: End processing [primap2]: success
+[2023-05-10 11:57:27] INFO root fetch - main [MainThread]: End processing [PhyREC]: success
+[2023-05-10 11:57:28] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
+[2023-05-10 11:57:28] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
+[2023-05-10 11:57:28] INFO root fetch - main [MainThread]: Store serial: [18045207]
