@@ -13371,3 +13371,95 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:57:28] INFO root fetch - main [MainThread]: End processing [housekeeper]: success
 [2023-05-10 11:57:28] INFO root fetch - main [MainThread]: End processing [invenio-records-marc21]: success
 [2023-05-10 11:57:28] INFO root fetch - main [MainThread]: Store serial: [18045207]
+[2023-05-10 12:02:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045207]
+[2023-05-10 12:02:37] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: charset-mnbvc
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: newWhoisBobPkgs
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coco-types
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytpu
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: paneltime
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: invenio-workflows-tugraz
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zxcvbn-rs-py
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sarus-data-spec-public
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyscemu
+[2023-05-10 12:02:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dxsp
+[2023-05-10 12:02:37] WARNING root fetch - processPackages [zxcvbn-rs-py]: Skipping, unable to determine old version
+[2023-05-10 12:02:37] INFO root fetch - processPackages [zxcvbn-rs-py]: Start processing: locuaz
+[2023-05-10 12:02:37] INFO root fetch - main [MainThread]: End processing [zxcvbn-rs-py] error
+[2023-05-10 12:02:37] INFO root fetch - processPackages [charset-mnbvc]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [pytpu]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [newWhoisBobPkgs]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [coco-types]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [paneltime]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.2.1.dev2] Old Version: [3.2.1.dev0]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [pyscemu]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [dxsp]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [locuaz]: New version: [0.3.1] Old Version: [0.2.1]
+[2023-05-10 12:02:37] INFO root fetch - processPackages [coco-types]: Downloading https://files.pythonhosted.org/packages/f0/02/ba05e734edeb4ef2db2e86cd73e4596d6a336420dd5196d673d933458eea/coco_types-0.0.8.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/19/b9/cbb85b8d43ae5e6c6b85c9cf650bfd4b931fd332e0b775af22a1eeaedd4c/dxsp-2.1.5.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/14/7e/318b9d450701a1119dab355c814fbf066ea88207bf16ba7b656a67ae765c/charset_mnbvc-0.0.4-py3.9.egg
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pytpu]: Downloading https://files.pythonhosted.org/packages/42/35/a1662d09ac6482f8b91e31ff55cf725566f5d1a74aac0dd4a875acd8dc89/pytpu-2.0.0.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/8d/a0/3ac323bb3db90e78db669b77b707d91b163a951425f677b170d03b359147/paneltime-1.2.8-py3-none-any.whl
+[2023-05-10 12:02:38] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/d0/b0/6fc1ee39082738a49985e7bb3414e56beaabc8e73051f921a1b5db18c510/invenio-workflows-tugraz-0.1.8.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/10/79/90724a2104bd4fc484a02e4ddfc30acc7dddb44faa770edbc6d9ffc4c0f1/pyscemu-0.2.3.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/47/90/9d6c54dd96609bb7c14bf79c1028c9edc79e6d48488b2cce49f0e952eb15/locuaz-0.2.1.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [coco-types]: Downloading https://files.pythonhosted.org/packages/38/ca/d258bf3278586514c7bdcc42b8e54b4d14180056419ff16562b8d9b4d7ba/coco_types-0.0.9.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [newWhoisBobPkgs]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [newWhoisBobPkgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newWhoisBobPkgs-1.0.0.8-py3-none-any.whl.zip tmp/newWhoisBobPkgs-1.0.0.9-py3-none-any.whl.zip --markdown 20230510/n/newWhoisBobPkgs/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/38/b5/c067dca878badc65981fc788a9f35fcdba56c8d170201b7e8514e3b922e1/dxsp-2.1.6.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.2.1.dev0.tar.gz tmp/sarus_data_spec_public-3.2.1.dev2.tar.gz --markdown 20230510/s/sarus-data-spec-public/3.2.1.dev0-3.2.1.dev2/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pyscemu]: Downloading https://files.pythonhosted.org/packages/8b/42/c60338e1be89fb4c597e4b3845a60211c3a881174df7738d29a8cb92bc3d/pyscemu-0.2.4.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [charset-mnbvc]: Downloading https://files.pythonhosted.org/packages/06/d8/0f8319f72ff487c268cbdcd563f047ce8c2d83937067312fb8b5aefba0e5/charset_mnbvc-0.0.5.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/a2/82/735c685493b8d96cadb6c16579a6c9a5b9b4beff64f4180e482e0f7c8d93/locuaz-0.3.1.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pytpu]: Downloading https://files.pythonhosted.org/packages/93/c2/a673aeb2ea258969cb83aff10c6765fea2494a08da1432e1847312de50b0/pytpu-2.0.1.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [coco-types]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [coco-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coco_types-0.0.8.tar.gz tmp/coco_types-0.0.9.tar.gz --markdown 20230510/c/coco-types/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [charset-mnbvc]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [charset-mnbvc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/charset_mnbvc-0.0.4-py3.9.egg tmp/charset_mnbvc-0.0.5.tar.gz --markdown 20230510/c/charset-mnbvc/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.3.tar.gz tmp/pyscemu-0.2.4.tar.gz --markdown 20230510/p/pyscemu/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [invenio-workflows-tugraz]: Downloading https://files.pythonhosted.org/packages/c8/71/bb8ae9a9f134d1c1ad70a199c5b112e9f11b47f30e8b45fe7f5c916dd4b9/invenio-workflows-tugraz-0.1.9.tar.gz
+[2023-05-10 12:02:38] INFO root fetch - processPackages [locuaz]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [locuaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locuaz-0.2.1.tar.gz tmp/locuaz-0.3.1.tar.gz --markdown 20230510/l/locuaz/0.2.1-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pytpu]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [pytpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytpu-2.0.0.tar.gz tmp/pytpu-2.0.1.tar.gz --markdown 20230510/p/pytpu/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.1.5.tar.gz tmp/dxsp-2.1.6.tar.gz --markdown 20230510/d/dxsp/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-10 12:02:38] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230510/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 12:02:38] INFO root fetch - processPackages [paneltime]: Downloading https://files.pythonhosted.org/packages/de/a8/dbbf56dea3d193b12b6786a57098c57f20651d9e1469533589ac80355236/paneltime-1.2.9.tar.gz
+[2023-05-10 12:02:39] INFO root fetch - processPackages [paneltime]: executing diffoscope
+[2023-05-10 12:02:39] INFO root fetch - processPackages [paneltime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paneltime-1.2.8-py3-none-any.whl.zip tmp/paneltime-1.2.9.tar.gz --markdown 20230510/p/paneltime/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 12:02:39] INFO root fetch - processPackages [newWhoisBobPkgs]: Start processing: kaiko-research
+[2023-05-10 12:02:39] INFO root fetch - main [MainThread]: End processing [newWhoisBobPkgs]: success
+[2023-05-10 12:02:39] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-10 12:02:39] INFO root fetch - processPackages [kaiko-research]: Start processing: mysql-type-plugin
+[2023-05-10 12:02:39] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 12:02:39] INFO root fetch - processPackages [mysql-type-plugin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 12:02:40] INFO root fetch - processPackages [charset-mnbvc]: Start processing: argstart
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [charset-mnbvc]: success
+[2023-05-10 12:02:40] INFO root fetch - processPackages [mysql-type-plugin]: executing diffoscope
+[2023-05-10 12:02:40] INFO root fetch - processPackages [mysql-type-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysql_type_plugin-0.1.8.tar.gz tmp/mysql_type_plugin-0.1.9.tar.gz --markdown 20230510/m/mysql-type-plugin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 12:02:40] INFO root fetch - processPackages [coco-types]: Start processing: titan-iris
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [coco-types]: success
+[2023-05-10 12:02:40] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-10 12:02:40] INFO root fetch - processPackages [argstart]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 12:02:40] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-10 12:02:40] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230510/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-10 12:02:40] INFO root fetch - processPackages [argstart]: Downloading https://files.pythonhosted.org/packages/06/39/94b12814738bcd977614c070ac7e9f9a5ed62c8de3f0c0b68b69c74494c6/argstart-0.0.2.tar.gz
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [pytpu]: success
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [paneltime]: success
+[2023-05-10 12:02:40] INFO root fetch - processPackages [argstart]: Downloading https://files.pythonhosted.org/packages/30/cf/9bfad2f705b014e8ee15b41836fdf2ad26e6c84a1a6a5424d2e54fcdf24a/argstart-0.0.3.tar.gz
+[2023-05-10 12:02:40] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-10 12:02:40] INFO root fetch - processPackages [argstart]: executing diffoscope
+[2023-05-10 12:02:40] INFO root fetch - processPackages [argstart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argstart-0.0.2.tar.gz tmp/argstart-0.0.3.tar.gz --markdown 20230510/a/argstart/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [mysql-type-plugin]: success
+[2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [locuaz]: success
+[2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [argstart]: success
+[2023-05-10 12:02:42] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-10 12:02:42] INFO root fetch - main [MainThread]: Store serial: [18045315]
