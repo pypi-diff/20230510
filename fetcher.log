@@ -14627,3 +14627,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 13:18:34] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-10 13:18:34] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-10 13:18:34] INFO root fetch - main [MainThread]: Store serial: [18046201]
+[2023-05-10 13:23:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046201]
+[2023-05-10 13:23:43] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locuaz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codeoffer
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sensorbucket
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cognite-power-ops
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flaks
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tb-nightly
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: express-pascal-voc-tools
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensordict-nightly
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flaks
+[2023-05-10 13:23:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: scarlet-shark-client
+[2023-05-10 13:23:43] INFO root fetch - processPackages [sensorbucket]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [codeoffer]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [locuaz]: New version: [0.3.5] Old Version: [0.3.3]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [express-pascal-voc-tools]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [flaks]: New version: [0.3] Old Version: [0.2]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [flaks]: New version: [0.3] Old Version: [0.2]
+[2023-05-10 13:23:43] WARNING root fetch - processPackages [scarlet-shark-client]: Skipping, unable to determine old version
+[2023-05-10 13:23:43] INFO root fetch - processPackages [scarlet-shark-client]: Start processing: CnacRac
+[2023-05-10 13:23:43] INFO root fetch - main [MainThread]: End processing [scarlet-shark-client] error
+[2023-05-10 13:23:43] INFO root fetch - processPackages [codeoffer]: Downloading https://files.pythonhosted.org/packages/d2/61/c8de9ddc400325f12ff61e755b7ebc7e9c87a31a5c8c510948318cde2a25/codeoffer-0.6.0.tar.gz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [express-pascal-voc-tools]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [express-pascal-voc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/express-pascal-voc-tools-0.1.0.tar.gz tmp/express-pascal-voc-tools-0.2.0.tar.gz --markdown 20230510/e/express-pascal-voc-tools/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.5.8-py39-none-any.whl.zip tmp/tensordict_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230510/t/tensordict-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 13:23:43] WARNING root fetch - processPackages [CnacRac]: Skipping, unable to determine old version
+[2023-05-10 13:23:43] INFO root fetch - processPackages [CnacRac]: Start processing: torchtnt-nightly
+[2023-05-10 13:23:43] INFO root fetch - main [MainThread]: End processing [CnacRac] error
+[2023-05-10 13:23:43] INFO root fetch - processPackages [codeoffer]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [codeoffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoffer-0.5.0.tar.gz tmp/codeoffer-0.6.0.tar.gz --markdown 20230510/c/codeoffer/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 13:23:43] INFO root fetch - processPackages [sensorbucket]: Downloading https://files.pythonhosted.org/packages/c9/93/d820ebb75675e89e25d1f6800fe32a3c7448ab383d1a41ceaa61f36605da/sensorbucket-1.0.1.tar.gz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:23:43] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/28/59/17b2878b0b6e4ee2ceaa4ad009d2746beff559fd84fe5551d52c01394833/flaks-0.2.tar.gz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/28/59/17b2878b0b6e4ee2ceaa4ad009d2746beff559fd84fe5551d52c01394833/flaks-0.2.tar.gz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230510/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-05-10 13:23:43] INFO root fetch - processPackages [sensorbucket]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [sensorbucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensorbucket-1.0.0.tar.gz tmp/sensorbucket-1.0.1.tar.gz --markdown 20230510/s/sensorbucket/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 13:23:43] INFO root fetch - processPackages [locuaz]: Downloading https://files.pythonhosted.org/packages/25/b6/af45539a1a1a926afc966c85be69b8e86308422d8125c4e2f2d6a7bc81c4/locuaz-0.3.5.tar.gz
+[2023-05-10 13:23:43] INFO root fetch - processPackages [locuaz]: executing diffoscope
+[2023-05-10 13:23:43] INFO root fetch - processPackages [locuaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locuaz-0.3.3.tar.gz tmp/locuaz-0.3.5.tar.gz --markdown 20230510/l/locuaz/0.3.3-0.3.5/diff.md --exclude *.pyd
+[2023-05-10 13:23:44] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/58/6a/71c4c11868b912ab07c0f32c67a391c18cc9ccc29bc2c77bfdd3480ea4e7/cognite_power_ops-0.2.1.tar.gz
+[2023-05-10 13:23:44] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/84/58/d92a7f6b5272f00573f228299b167e2475aa768066980df79d4f10ea20ba/torchtnt-nightly-2023.5.9.tar.gz
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/ab/93/2804644a26151d7b2d65d5cb247ca64ac3b3bfe446b5543902e1bf49b2e6/flaks-0.3.tar.gz
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/ab/93/2804644a26151d7b2d65d5cb247ca64ac3b3bfe446b5543902e1bf49b2e6/flaks-0.3.tar.gz
+[2023-05-10 13:23:44] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-05-10 13:23:44] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.2.0.tar.gz tmp/cognite_power_ops-0.2.1.tar.gz --markdown 20230510/c/cognite-power-ops/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 13:23:44] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-05-10 13:23:44] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.5.8.tar.gz tmp/torchtnt-nightly-2023.5.9.tar.gz --markdown 20230510/t/torchtnt-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.2.tar.gz tmp/flaks-0.3.tar.gz --markdown 20230510/f/flaks/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 13:23:44] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.2.tar.gz tmp/flaks-0.3.tar.gz --markdown 20230510/f/flaks/0.2-0.3/diff.md --exclude *.pyd
+[2023-05-10 13:23:45] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
+[2023-05-10 13:23:45] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-05-10 13:23:45] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 13:23:45] INFO root fetch - main [MainThread]: End processing [express-pascal-voc-tools]: success
+[2023-05-10 13:23:46] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 13:23:46] INFO root fetch - main [MainThread]: End processing [sensorbucket]: success
+[2023-05-10 13:23:46] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-05-10 13:23:46] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-05-10 13:23:47] INFO root fetch - main [MainThread]: End processing [locuaz]: success
+[2023-05-10 13:23:47] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-05-10 13:23:47] INFO root fetch - main [MainThread]: Store serial: [18046261]
