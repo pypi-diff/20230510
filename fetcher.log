@@ -8714,3 +8714,86 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:52:23] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-10 07:52:23] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-05-10 07:52:23] INFO root fetch - main [MainThread]: Store serial: [18042703]
+[2023-05-10 07:57:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042703]
+[2023-05-10 07:57:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FlyHash
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-codewhisperer-jupyterlab-ext
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EdgeGPT
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo9-addon-mrp-production-request
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: acryl-datahub
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-securelogin
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mediapipe
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: acryl-datahub-airflow-plugin
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dls-normsql
+[2023-05-10 07:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-mrp-multi-level
+[2023-05-10 07:57:32] WARNING root fetch - processPackages [amazon-codewhisperer-jupyterlab-ext]: Skipping, unable to determine old version
+[2023-05-10 07:57:32] INFO root fetch - processPackages [amazon-codewhisperer-jupyterlab-ext]: Start processing: dls-servbase
+[2023-05-10 07:57:32] INFO root fetch - main [MainThread]: End processing [amazon-codewhisperer-jupyterlab-ext] error
+[2023-05-10 07:57:32] INFO root fetch - processPackages [FlyHash]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [mediapipe]: New version: [0.9.3.0] Old Version: [0.9.2.1]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [EdgeGPT]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [dls-normsql]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [dls-servbase]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 07:57:32] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-securelogin-0.1.3.tar.gz tmp/flask-securelogin-0.1.4.tar.gz --markdown 20230510/f/flask-securelogin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 07:57:32] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-10 07:57:32] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: New version: [14.0.1.9.0] Old Version: [14.0.1.8.1]
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub]: New version: [0.9.6rc1] Old Version: [0.9.6rc0]
+[2023-05-10 07:57:33] INFO root fetch - processPackages [dls-normsql]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [dls-normsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-normsql-1.2.0.tar.gz tmp/dls-normsql-1.2.1.tar.gz --markdown 20230510/d/dls-normsql/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] INFO root fetch - processPackages [FlyHash]: Downloading https://files.pythonhosted.org/packages/fb/a1/168dad8188253821c28032276e48abfd6069d5f84869cf0d51c379b06a2a/FlyHash-0.3.0.tar.gz
+[2023-05-10 07:57:33] INFO root fetch - processPackages [mediapipe]: Downloading https://files.pythonhosted.org/packages/e1/38/baa8cb913bd2fbab707956f6154d207a689f70a2bfc218e7ed3ab9abb932/mediapipe-0.9.2.1-cp39-cp39-win_amd64.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [dls-servbase]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [dls-servbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-servbase-1.2.0.tar.gz tmp/dls-servbase-1.2.1.tar.gz --markdown 20230510/d/dls-servbase/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/61/80/b9bea4a94bd33b1cf32fffddb1d608990a076738dde770983b44b9485f51/EdgeGPT-0.3.8.tar.gz
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/f8/4c/77dd1d4a0909a732df70075c1407d13e155567e98cc44fcd6d0e664eb493/odoo9_addon_mrp_production_request-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/27/03/4310ba971dc95afc05e2f77cb8939920e7a20bea4534f297c5d6d9acbce2/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/60/74/0b422dc91d4bd8d366dd7b7d0ec02d0dce8acb8fd091783a0270d02e5607/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz
+[2023-05-10 07:57:33] INFO root fetch - processPackages [FlyHash]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [FlyHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyHash-0.2.0.tar.gz tmp/FlyHash-0.3.0.tar.gz --markdown 20230510/F/FlyHash/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] WARNING root fetch - processPackages [mediapipe]: Skipping package: exceeds size limit 50123564>=10485760
+[2023-05-10 07:57:33] INFO root fetch - processPackages [mediapipe]: Start processing: odoo-addon-mrp-production-split
+[2023-05-10 07:57:33] INFO root fetch - main [MainThread]: End processing [mediapipe] error
+[2023-05-10 07:57:33] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.3.7.tar.gz tmp/EdgeGPT-0.3.8.tar.gz --markdown 20230510/E/EdgeGPT/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo-addon-mrp-production-split]: New version: [15.0.1.0.0.6] Old Version: [15.0.1.0.0.5]
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo-addon-mrp-production-split]: Downloading https://files.pythonhosted.org/packages/06/7c/6940e850f52de93b9d61e5228e508503d25be7e8773a0b89c94025826502/odoo_addon_mrp_production_split-15.0.1.0.0.5-py3-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: Downloading https://files.pythonhosted.org/packages/73/c1/ef9e846f2158c75b1453aca3e9412c8844732f43768791438fd14ad4a409/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: Downloading https://files.pythonhosted.org/packages/8c/ee/fa9c08b9f255db5385b46e09a7315f48f208b40d651a68bf9966b4745db4/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/5c/93/a89204befbf5a41d498b9204bc4e597e57cf385fbbf058bd74b9e2cff691/acryl-datahub-0.9.6rc0.tar.gz
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo14-addon-mrp-multi-level]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_multi_level-14.0.1.8.1-py3-none-any.whl.zip tmp/odoo14_addon_mrp_multi_level-14.0.1.9.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-mrp-multi-level/14.0.1.8.1-14.0.1.9.0/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo-addon-mrp-production-split]: Downloading https://files.pythonhosted.org/packages/1e/26/733b50134a7ce466b10147d838ac18768a71dff0c1a20313b3cfe4109d6c/odoo_addon_mrp_production_split-15.0.1.0.0.6-py3-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: Downloading https://files.pythonhosted.org/packages/c7/93/af076ffcf99b3e53c5a12d2d955cd525ec7d5a8a33963af9b852794ccef8/odoo9_addon_mrp_production_request-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo-addon-mrp-production-split]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [odoo-addon-mrp-production-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mrp_production_split-15.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_mrp_production_split-15.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-mrp-production-split/15.0.1.0.0.5-15.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: executing diffoscope
+[2023-05-10 07:57:33] INFO root fetch - processPackages [acryl-datahub-airflow-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-airflow-plugin-0.9.6rc0.tar.gz tmp/acryl-datahub-airflow-plugin-0.9.6rc1.tar.gz --markdown 20230510/a/acryl-datahub-airflow-plugin/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-10 07:57:34] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: executing diffoscope
+[2023-05-10 07:57:34] INFO root fetch - processPackages [odoo9-addon-mrp-production-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mrp_production_request-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_mrp_production_request-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mrp-production-request/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-10 07:57:34] INFO root fetch - processPackages [dls-normsql]: Start processing: newWhoisBobPkgs
+[2023-05-10 07:57:34] INFO root fetch - main [MainThread]: End processing [dls-normsql]: success
+[2023-05-10 07:57:34] INFO root fetch - processPackages [newWhoisBobPkgs]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2023-05-10 07:57:34] INFO root fetch - processPackages [FlyHash]: Start processing: architex
+[2023-05-10 07:57:34] INFO root fetch - main [MainThread]: End processing [FlyHash]: success
+[2023-05-10 07:57:34] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-05-10 07:57:34] INFO root fetch - processPackages [architex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 07:57:34] INFO root fetch - processPackages [newWhoisBobPkgs]: executing diffoscope
+[2023-05-10 07:57:34] INFO root fetch - processPackages [newWhoisBobPkgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newWhoisBobPkgs-1.0.0.8-py3-none-any.whl.zip tmp/newWhoisBobPkgs-1.0.0.9-py3-none-any.whl.zip --markdown 20230510/n/newWhoisBobPkgs/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2023-05-10 07:57:34] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 07:57:34] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.0.tar.gz tmp/architex-0.1.1.tar.gz --markdown 20230510/a/architex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 07:57:34] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 07:57:34] INFO root fetch - processPackages [acryl-datahub]: Downloading https://files.pythonhosted.org/packages/ad/82/42882429f560fe5f9e20c6f3ee4d421b566a61c843e944997be820243708/acryl-datahub-0.9.6rc1.tar.gz
+[2023-05-10 07:57:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-split]: success
+[2023-05-10 07:57:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-multi-level]: success
+[2023-05-10 07:57:35] INFO root fetch - processPackages [acryl-datahub]: executing diffoscope
+[2023-05-10 07:57:35] INFO root fetch - processPackages [acryl-datahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acryl-datahub-0.9.6rc0.tar.gz tmp/acryl-datahub-0.9.6rc1.tar.gz --markdown 20230510/a/acryl-datahub/0.9.6rc0-0.9.6rc1/diff.md --exclude *.pyd
+[2023-05-10 07:57:35] INFO root fetch - main [MainThread]: End processing [acryl-datahub-airflow-plugin]: success
+[2023-05-10 07:57:35] INFO root fetch - main [MainThread]: End processing [newWhoisBobPkgs]: success
+[2023-05-10 07:57:35] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 07:57:36] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mrp-production-request]: success
+[2023-05-10 07:57:36] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
+[2023-05-10 07:57:40] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
+[2023-05-10 07:57:40] INFO root fetch - main [MainThread]: Store serial: [18042762]
