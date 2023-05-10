@@ -15918,3 +15918,320 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:18:03] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
 [2023-05-10 14:18:04] INFO root fetch - main [MainThread]: End processing [mumott]: success
 [2023-05-10 14:18:04] INFO root fetch - main [MainThread]: Store serial: [18046936]
+[2023-05-10 14:23:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046936]
+[2023-05-10 14:23:15] INFO root fetch - main [MainThread]: Found 49 changed packages
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: funboost
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: recon-lw
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: masonite-uas
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zhmcclient
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: musegan
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-microservice
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ferveo
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recon-lw
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mwrpy
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-uri-eradicate-certora-dir
+[2023-05-10 14:23:15] INFO root fetch - processPackages [musegan]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: New version: [20230510.9.53.690092] Old Version: [20230510.11.15.483936]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [funboost]: New version: [20.8] Old Version: [20.7]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [zhmcclient]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [st-microservice]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [mwrpy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ferveo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 14:23:15] WARNING root fetch - processPackages [masonite-uas]: Skipping, unable to determine old version
+[2023-05-10 14:23:15] INFO root fetch - processPackages [masonite-uas]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-10 14:23:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4936886767] Old Version: [2.0.0.dev4936878452]
+[2023-05-10 14:23:15] INFO root fetch - main [MainThread]: End processing [masonite-uas] error
+[2023-05-10 14:23:15] INFO root fetch - processPackages [recon-lw]: New version: [2.0.0.dev4936886767] Old Version: [2.0.0.dev4936878452]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Downloading https://files.pythonhosted.org/packages/8b/f6/bc98043c33aa4fba397279057a64b56d69b588d5fbd180abf0e368aea6f2/certora-cli-alpha-uri-eradicate_certora_dir-20230510.11.15.483936.tar.gz
+[2023-05-10 14:23:15] WARNING root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Skipping package: exceeds size limit 39211774>=10485760
+[2023-05-10 14:23:15] INFO root fetch - processPackages [certora-cli-alpha-uri-eradicate-certora-dir]: Start processing: sample-git-diffs
+[2023-05-10 14:23:15] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-uri-eradicate-certora-dir] error
+[2023-05-10 14:23:15] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c0/b4/831987a22d9c5a1811a34bed88fd81d6e3377bc4402c33b3a57d77f22280/recon_lw-2.0.0.dev4936878452.tar.gz
+[2023-05-10 14:23:15] INFO root fetch - processPackages [musegan]: Downloading https://files.pythonhosted.org/packages/9a/d5/b02b163d648b00c7f75fe25a899b5f3b94d701df15eb5ffe2f76f47a9f94/musegan-0.1.1.tar.gz
+[2023-05-10 14:23:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-10 14:23:15] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230510/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 14:23:15] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c0/b4/831987a22d9c5a1811a34bed88fd81d6e3377bc4402c33b3a57d77f22280/recon_lw-2.0.0.dev4936878452.tar.gz
+[2023-05-10 14:23:15] INFO root fetch - processPackages [sample-git-diffs]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-10 14:23:15] INFO root fetch - processPackages [musegan]: executing diffoscope
+[2023-05-10 14:23:15] INFO root fetch - processPackages [musegan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musegan-0.1.0.tar.gz tmp/musegan-0.1.1.tar.gz --markdown 20230510/m/musegan/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 14:23:15] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/bf/a8/48676ca295ef48edebe4c695c670f6d6371274f8763a17f9c3c444ca767d/funboost-20.8-py3-none-any.whl
+[2023-05-10 14:23:15] INFO root fetch - processPackages [mwrpy]: Downloading https://files.pythonhosted.org/packages/98/c1/7ace8688585b8c94457be2b69ec1c7c69296c796949acc5efc2f4e1791e6/mwrpy-0.1.6.tar.gz
+[2023-05-10 14:23:15] INFO root fetch - processPackages [st-microservice]: executing diffoscope
+[2023-05-10 14:23:15] INFO root fetch - processPackages [st-microservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_microservice-0.9.8.tar.gz tmp/st_microservice-0.9.9.tar.gz --markdown 20230510/s/st-microservice/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:15] INFO root fetch - processPackages [zhmcclient]: Downloading https://files.pythonhosted.org/packages/fa/ff/ea227c821963d6d13b1166d37c16fbd35bca9ffcc4ee37fe34987917df3d/zhmcclient-1.7.3.tar.gz
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ferveo]: executing diffoscope
+[2023-05-10 14:23:15] INFO root fetch - processPackages [ferveo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ferveo-0.1.8.tar.gz tmp/ferveo-0.1.9.tar.gz --markdown 20230510/f/ferveo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c3/7a/ad3893539799a9a84d17ad89f102b50839db2a789a111e925ee7976a7998/recon_lw-2.0.0.dev4936886767.tar.gz
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: Downloading https://files.pythonhosted.org/packages/c3/7a/ad3893539799a9a84d17ad89f102b50839db2a789a111e925ee7976a7998/recon_lw-2.0.0.dev4936886767.tar.gz
+[2023-05-10 14:23:16] INFO root fetch - processPackages [mwrpy]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [mwrpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwrpy-0.1.5.tar.gz tmp/mwrpy-0.1.6.tar.gz --markdown 20230510/m/mwrpy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [zhmcclient]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [zhmcclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhmcclient-1.7.2.tar.gz tmp/zhmcclient-1.7.3.tar.gz --markdown 20230510/z/zhmcclient/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [sample-git-diffs]: Downloading https://files.pythonhosted.org/packages/6a/8d/8e4bbd65e7fb2d2a3e5f935b58d551955c1a28bf618f44a8790807ddf8a7/sample-git-diffs-0.2.5.tar.gz
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4936878452.tar.gz tmp/recon_lw-2.0.0.dev4936886767.tar.gz --markdown 20230510/r/recon-lw/2.0.0.dev4936878452-2.0.0.dev4936886767/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [recon-lw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recon_lw-2.0.0.dev4936878452.tar.gz tmp/recon_lw-2.0.0.dev4936886767.tar.gz --markdown 20230510/r/recon-lw/2.0.0.dev4936878452-2.0.0.dev4936886767/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-20.7-py3-none-any.whl.zip tmp/funboost-20.8-py3-none-any.whl.zip --markdown 20230510/f/funboost/20.7-20.8/diff.md --exclude *.pyd
+[2023-05-10 14:23:16] INFO root fetch - processPackages [sample-git-diffs]: executing diffoscope
+[2023-05-10 14:23:16] INFO root fetch - processPackages [sample-git-diffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sample-git-diffs-0.2.4.tar.gz tmp/sample-git-diffs-0.2.5.tar.gz --markdown 20230510/s/sample-git-diffs/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-10 14:23:17] INFO root fetch - processPackages [st-microservice]: Start processing: CosmoTech-Acceleration-Library
+[2023-05-10 14:23:17] INFO root fetch - main [MainThread]: End processing [st-microservice]: success
+[2023-05-10 14:23:17] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 14:23:17] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: lendsmart-autotest
+[2023-05-10 14:23:17] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-10 14:23:17] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.1] Old Version: [1.0]
+[2023-05-10 14:23:17] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: executing diffoscope
+[2023-05-10 14:23:17] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CosmoTech_Acceleration_Library-0.2.8.tar.gz tmp/CosmoTech_Acceleration_Library-0.2.9.tar.gz --markdown 20230510/C/CosmoTech-Acceleration-Library/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:17] INFO root fetch - processPackages [musegan]: Start processing: resoto-plugin-cleanup-expired
+[2023-05-10 14:23:17] INFO root fetch - main [MainThread]: End processing [musegan]: success
+[2023-05-10 14:23:17] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/ab/e0/48b8f66894fca2ca4dddec9df5ba5897071e52317abba794d453850fc7aa/lendsmart_autotest-1.0.tar.gz
+[2023-05-10 14:23:17] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:17] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Downloading https://files.pythonhosted.org/packages/14/48/6773bf2f0e01175396c13bd517180f9896bce83d3124a4b5dc31c8d46b49/resoto-plugin-cleanup-expired-3.4.1.tar.gz
+[2023-05-10 14:23:17] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/c9/43/59261f3cad4b9ce8345bf25e4fac257224fc1a21c28b6b91381f346bde0a/lendsmart_autotest-1.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [recon-lw]: Start processing: resoto-plugin-onelogin
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [ferveo]: Start processing: resoto-plugin-posthog
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [ferveo]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Downloading https://files.pythonhosted.org/packages/09/f6/588e7c576a826e8244ded557c188bb4356f9aaecdbdcae4c60bfe0a1a384/resoto-plugin-cleanup-expired-3.4.2.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [sample-git-diffs]: Start processing: resoto-plugin-cleanup-volumes
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [sample-git-diffs]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-10 14:23:18] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.0.tar.gz tmp/lendsmart_autotest-1.1.tar.gz --markdown 20230510/l/lendsmart-autotest/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-onelogin]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-posthog]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:18] INFO root fetch - processPackages [mwrpy]: Start processing: resoto-plugin-dockerhub
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [mwrpy]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [recon-lw]: Start processing: nanoqnt
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [recon-lw]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: executing diffoscope
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-expired-3.4.1.tar.gz tmp/resoto-plugin-cleanup-expired-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-cleanup-expired/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/f1/72/5581be7d93272ffecaf908ec898af731bc042b018f9bad31fe8e1c088ecc/resoto-plugin-onelogin-3.4.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [zhmcclient]: Start processing: ena-upload-cli
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [zhmcclient]: success
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/88/c9/3896ee0ef26194280678da7e78c3974b4c5921d97e3856aae1540103a6bd/resoto-plugin-posthog-3.4.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-dockerhub]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:18] WARNING root fetch - processPackages [nanoqnt]: Skipping, unable to determine old version
+[2023-05-10 14:23:18] INFO root fetch - processPackages [nanoqnt]: Start processing: resoto-plugin-vsphere
+[2023-05-10 14:23:18] INFO root fetch - main [MainThread]: End processing [nanoqnt] error
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Downloading https://files.pythonhosted.org/packages/f6/d9/5191dadf632a90705374a40f820a2742ec9985f9264274db46aea27a2aff/resoto-plugin-cleanup-volumes-3.4.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [ena-upload-cli]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-vsphere]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/9e/ab/189dbc9d4f499ad4adc7517a3dbc6eb452a4f63acb71d2ebde44d994c546/resoto-plugin-dockerhub-3.4.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-posthog]: Downloading https://files.pythonhosted.org/packages/c8/51/0fef487f010a22f71fd9756afad92a61c04119c9f6efd3e0dbd10608e7e8/resoto-plugin-posthog-3.4.2.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Downloading https://files.pythonhosted.org/packages/0e/42/4ab8687f2d7d9617bf04efc47688ec8b75396305b7cbea13b3888687873c/resoto-plugin-cleanup-volumes-3.4.2.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-onelogin]: Downloading https://files.pythonhosted.org/packages/7e/43/b037ffc3f49bb03be99be4f54f7b460494c57cbdc49815ea4ef2cd14c5a4/resoto-plugin-onelogin-3.4.2.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [ena-upload-cli]: Downloading https://files.pythonhosted.org/packages/e1/66/943ec3f97ad07a48dd740b09601bbf09cb8a5af71864a74aff51642ebd27/ena-upload-cli-0.6.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-posthog]: executing diffoscope
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-posthog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-posthog-3.4.1.tar.gz tmp/resoto-plugin-posthog-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-posthog/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/06/1f/94e90a31ec83c20a8addf92636d8ef7acc580cefd77b99e2658e28c84a5c/resoto-plugin-vsphere-3.4.1.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-onelogin]: executing diffoscope
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-onelogin-3.4.1.tar.gz tmp/resoto-plugin-onelogin-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-onelogin/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Downloading https://files.pythonhosted.org/packages/2a/47/da1202576374075fa8a89d5740fb9b1e859de57dbb13f76afd292a037236/resoto-plugin-dockerhub-3.4.2.tar.gz
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: executing diffoscope
+[2023-05-10 14:23:18] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-volumes-3.4.1.tar.gz tmp/resoto-plugin-cleanup-volumes-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-cleanup-volumes/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-dockerhub]: executing diffoscope
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-dockerhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-dockerhub-3.4.1.tar.gz tmp/resoto-plugin-dockerhub-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-dockerhub/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-vsphere]: Downloading https://files.pythonhosted.org/packages/69/74/682c93197a8616d83726a72134539fd9bbd92d51064bc4319824041db819/resoto-plugin-vsphere-3.4.2.tar.gz
+[2023-05-10 14:23:19] INFO root fetch - processPackages [ena-upload-cli]: Downloading https://files.pythonhosted.org/packages/7e/06/52f3e1ca53d8d982b08b0bacee0d4ffe97c8bbde612115b049dce8f647de/ena-upload-cli-0.6.2.tar.gz
+[2023-05-10 14:23:19] INFO root fetch - processPackages [ena-upload-cli]: executing diffoscope
+[2023-05-10 14:23:19] INFO root fetch - processPackages [ena-upload-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ena-upload-cli-0.6.1.tar.gz tmp/ena-upload-cli-0.6.2.tar.gz --markdown 20230510/e/ena-upload-cli/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-vsphere]: executing diffoscope
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-vsphere]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-vsphere-3.4.1.tar.gz tmp/resoto-plugin-vsphere-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-vsphere/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:19] INFO root fetch - processPackages [CosmoTech-Acceleration-Library]: Start processing: resoto-plugin-cleanup-aws-alarms
+[2023-05-10 14:23:19] INFO root fetch - main [MainThread]: End processing [CosmoTech-Acceleration-Library]: success
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:19] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: dynalite-panel
+[2023-05-10 14:23:19] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Downloading https://files.pythonhosted.org/packages/09/a2/8a233c012f53e8aab214944c03f9bad14b8507bb935bc707847023107742/resoto-plugin-cleanup-aws-alarms-3.4.1.tar.gz
+[2023-05-10 14:23:19] INFO root fetch - processPackages [dynalite-panel]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 14:23:19] INFO root fetch - processPackages [dynalite-panel]: executing diffoscope
+[2023-05-10 14:23:19] INFO root fetch - processPackages [dynalite-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynalite-panel-0.0.2.tar.gz tmp/dynalite-panel-0.0.3.tar.gz --markdown 20230510/d/dynalite-panel/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 14:23:19] INFO root fetch - processPackages [funboost]: Start processing: resoto-plugin-cleanup-untagged
+[2023-05-10 14:23:19] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-cleanup-expired]: Start processing: invenio-workflows-tugraz
+[2023-05-10 14:23:19] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-expired]: success
+[2023-05-10 14:23:19] INFO root fetch - processPackages [invenio-workflows-tugraz]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Downloading https://files.pythonhosted.org/packages/06/f0/53359251435a829719cff9f9c1789d5fe1f28474cb31ad63d2216a6a26f6/resoto-plugin-cleanup-aws-alarms-3.4.2.tar.gz
+[2023-05-10 14:23:19] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [invenio-workflows-tugraz]: executing diffoscope
+[2023-05-10 14:23:20] INFO root fetch - processPackages [invenio-workflows-tugraz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-workflows-tugraz-0.1.8.tar.gz tmp/invenio-workflows-tugraz-0.1.9.tar.gz --markdown 20230510/i/invenio-workflows-tugraz/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-posthog]: Start processing: certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [resoto-plugin-posthog]: success
+[2023-05-10 14:23:20] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: New version: [20230510.8.43.321308] Old Version: [20230510.6.25.196118]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: executing diffoscope
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-aws-alarms-3.4.1.tar.gz tmp/resoto-plugin-cleanup-aws-alarms-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-cleanup-aws-alarms/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:20] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Downloading https://files.pythonhosted.org/packages/9c/82/8a37757c243fbda72190dfbc6e1906a5ae08b4315e47d6bc6ef76fb58ffa/certora-cli-alpha-naftali-CERT-1883_support_multiple_blocks_in_hook-20230510.6.25.196118.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Downloading https://files.pythonhosted.org/packages/c4/bf/f153fd0d46381b36bd09866053c0f3f18d126d58a3477c52605fbe9cf49f/resoto-plugin-cleanup-untagged-3.4.1.tar.gz
+[2023-05-10 14:23:20] WARNING root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Skipping package: exceeds size limit 39214430>=10485760
+[2023-05-10 14:23:20] INFO root fetch - processPackages [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook]: Start processing: resoto-plugin-aws-k8s
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-CERT-1883-support-multiple-blocks-in-hook] error
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Downloading https://files.pythonhosted.org/packages/2f/48/8e2c3636d5a8a28d558c4a4d7293244e8926c7024fdebb19488def3b33a8/resoto-plugin-cleanup-untagged-3.4.2.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-onelogin]: Start processing: resoto-plugin-slack
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [resoto-plugin-onelogin]: success
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: Downloading https://files.pythonhosted.org/packages/ff/51/766842441bb4d789a9ff5b8339595666b07dee3dd163caa21c1a39fee29e/resoto-plugin-aws-k8s-3.4.1.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-slack]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-volumes]: Start processing: resoto-plugin-digitalocean-k8s
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-volumes]: success
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: executing diffoscope
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-cleanup-untagged-3.4.1.tar.gz tmp/resoto-plugin-cleanup-untagged-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-cleanup-untagged/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-dockerhub]: Start processing: resoto-plugin-digitalocean
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [resoto-plugin-dockerhub]: success
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-slack]: Downloading https://files.pythonhosted.org/packages/71/b9/50b0a0fd68ebcd9a068b97235b0665cf52b92a54c7734044c6f28eb28ffc/resoto-plugin-slack-3.4.1.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-digitalocean]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: Downloading https://files.pythonhosted.org/packages/f1/3f/cfb37436c50043821706fc8dbdf494c2e9be4231af9b411fae7c4f35aa7c/resoto-plugin-aws-k8s-3.4.2.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: Downloading https://files.pythonhosted.org/packages/0b/8e/32b3e9c145e8d7dc60dea0332abee5c9e9fbaa87336f563ec84c42b77801/resoto-plugin-digitalocean-k8s-3.4.1.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/44/76/4d8fd707f55bafedb5badfa4cd07f99bd667708d8d1530cf08039d1134d3/resoto-plugin-digitalocean-3.4.1.tar.gz
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-vsphere]: Start processing: resoto-plugin-k8s
+[2023-05-10 14:23:20] INFO root fetch - main [MainThread]: End processing [resoto-plugin-vsphere]: success
+[2023-05-10 14:23:20] INFO root fetch - processPackages [resoto-plugin-slack]: Downloading https://files.pythonhosted.org/packages/81/12/846f10d4bf11ca4e44b75df773a146562dd9afdd05c13a1fa0090541f0fc/resoto-plugin-slack-3.4.2.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: executing diffoscope
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-aws-k8s-3.4.1.tar.gz tmp/resoto-plugin-aws-k8s-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-aws-k8s/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-k8s]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: Downloading https://files.pythonhosted.org/packages/46/09/35b5091ecc0dbaa00592418cc5114254cf91d01f57f3a2df11217a583b1e/resoto-plugin-digitalocean-k8s-3.4.2.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-slack]: executing diffoscope
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-slack-3.4.1.tar.gz tmp/resoto-plugin-slack-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-slack/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Downloading https://files.pythonhosted.org/packages/ad/f3/9cb9a1f683eb38b2efa153326dc8d0bb7e06882af38b61935ceb4780644d/resoto-plugin-digitalocean-3.4.2.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/a7/dd/4bffe06e66a649d6aad55bcf82aedbe2b5c2c873131a233fbafaa1384353/resoto-plugin-k8s-3.4.1.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean]: executing diffoscope
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-digitalocean-3.4.1.tar.gz tmp/resoto-plugin-digitalocean-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-digitalocean/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: executing diffoscope
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-digitalocean-k8s-3.4.1.tar.gz tmp/resoto-plugin-digitalocean-k8s-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-digitalocean-k8s/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-k8s]: Downloading https://files.pythonhosted.org/packages/f0/9a/f6f335c776ee990d2852d871722dbab67d1b0c4f9548fc5d296c5e497f77/resoto-plugin-k8s-3.4.2.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [ena-upload-cli]: Start processing: soda-core-athena
+[2023-05-10 14:23:21] INFO root fetch - main [MainThread]: End processing [ena-upload-cli]: success
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-k8s]: executing diffoscope
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-k8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-k8s-3.4.1.tar.gz tmp/resoto-plugin-k8s-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-k8s/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:21] INFO root fetch - processPackages [soda-core-athena]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:21] INFO root fetch - processPackages [invenio-workflows-tugraz]: Start processing: resoto-plugin-github
+[2023-05-10 14:23:21] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-cleanup-aws-alarms]: Start processing: soda-core-bigquery
+[2023-05-10 14:23:21] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-aws-alarms]: success
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-github]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:21] INFO root fetch - processPackages [soda-core-athena]: Downloading https://files.pythonhosted.org/packages/92/68/2f9111a12212256af3007cccd420e5b2967f756275e458f25a2abd245469/soda-core-athena-3.0.8.tar.gz
+[2023-05-10 14:23:21] INFO root fetch - processPackages [soda-core-bigquery]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:21] INFO root fetch - processPackages [resoto-plugin-cleanup-untagged]: Start processing: soda-core
+[2023-05-10 14:23:21] INFO root fetch - main [MainThread]: End processing [resoto-plugin-cleanup-untagged]: success
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-github]: Downloading https://files.pythonhosted.org/packages/e4/3d/30b689f8468a694ecf29751250b5aafc472a1b24d60528822c9e6f2a558b/resoto-plugin-github-3.4.1.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-bigquery]: Downloading https://files.pythonhosted.org/packages/24/c7/b2b0c0b607b9ec1fc0e4ca16b8d8f085d2cd2b82da931d5cdab286692a40/soda-core-bigquery-3.0.8.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-github]: Downloading https://files.pythonhosted.org/packages/be/42/bc7bf8b51e19ef6e4e676441aa55255f6ab9db32a45f6e5e5f5abcc9be42/resoto-plugin-github-3.4.2.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-athena]: Downloading https://files.pythonhosted.org/packages/65/8e/111b8be4571edf345adc30d51ed7edbf4770437783edbb422b42aa55c82c/soda-core-athena-3.0.9.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core]: Downloading https://files.pythonhosted.org/packages/22/03/fb2284c2a85154c97ec92a78462045f3b1162c2bbd28707f0cc63d418d4e/soda-core-3.0.8.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-aws-k8s]: Start processing: soda-core-pandas-dask
+[2023-05-10 14:23:22] INFO root fetch - main [MainThread]: End processing [resoto-plugin-aws-k8s]: success
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-github]: executing diffoscope
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-github-3.4.1.tar.gz tmp/resoto-plugin-github-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-github/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-pandas-dask]: New version: [3.0.34] Old Version: [3.0.33]
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-athena]: executing diffoscope
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-athena-3.0.8.tar.gz tmp/soda-core-athena-3.0.9.tar.gz --markdown 20230510/s/soda-core-athena/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-bigquery]: Downloading https://files.pythonhosted.org/packages/c3/39/83862a5d74cd81c46e17e9e5838d1c1634ea32203ff68cb5a3469b818e21/soda-core-bigquery-3.0.9.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-slack]: Start processing: soda-core-db2
+[2023-05-10 14:23:22] INFO root fetch - main [MainThread]: End processing [resoto-plugin-slack]: success
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-bigquery]: executing diffoscope
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-bigquery-3.0.8.tar.gz tmp/soda-core-bigquery-3.0.9.tar.gz --markdown 20230510/s/soda-core-bigquery/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-pandas-dask]: Downloading https://files.pythonhosted.org/packages/2c/ef/fb9ac69906369ee15bd19632114a00c5fddc256d88a6b05062a64ec9fbc6/soda-core-pandas-dask-3.0.33.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core]: Downloading https://files.pythonhosted.org/packages/d3/5d/c8090b8f5434166fd27c3ea65a24ac8f0e9d76ab64930e192675f80a9905/soda-core-3.0.9.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-digitalocean-k8s]: Start processing: resoto-plugin-aws
+[2023-05-10 14:23:22] INFO root fetch - main [MainThread]: End processing [resoto-plugin-digitalocean-k8s]: success
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-db2]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-aws]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core]: executing diffoscope
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-3.0.8.tar.gz tmp/soda-core-3.0.9.tar.gz --markdown 20230510/s/soda-core/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-pandas-dask]: Downloading https://files.pythonhosted.org/packages/1e/e8/83ec1b35de1be500cbdb89f6a75a5c7088651fb8fba916de3437b5923f8b/soda-core-pandas-dask-3.0.34.tar.gz
+[2023-05-10 14:23:22] INFO root fetch - processPackages [resoto-plugin-k8s]: Start processing: soda-core-dbt
+[2023-05-10 14:23:22] INFO root fetch - main [MainThread]: End processing [resoto-plugin-k8s]: success
+[2023-05-10 14:23:22] INFO root fetch - processPackages [soda-core-db2]: Downloading https://files.pythonhosted.org/packages/cf/37/a597b2d9882bf907de15f521652bd4a27d0a4d2cd779d42ed944a4c24785/soda-core-db2-3.0.8.tar.gz
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-aws]: Downloading https://files.pythonhosted.org/packages/66/7c/3e6c2a05c0d32cf2cd7fdbf7c084ecff325a220b337f53c7e15de1ea38ed/resoto-plugin-aws-3.4.1.tar.gz
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-dbt]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-pandas-dask]: executing diffoscope
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-pandas-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-pandas-dask-3.0.33.tar.gz tmp/soda-core-pandas-dask-3.0.34.tar.gz --markdown 20230510/s/soda-core-pandas-dask/3.0.33-3.0.34/diff.md --exclude *.pyd
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-aws]: Downloading https://files.pythonhosted.org/packages/4a/3a/612f307cb800b4f79c65f097b7513a8467732bf5ba0ee65f3bd1dd120afb/resoto-plugin-aws-3.4.2.tar.gz
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-db2]: Downloading https://files.pythonhosted.org/packages/34/98/b5c9965e5aaff55c01e415bfdbf94d6928c986dc0941d2dd0b7e5ed721a5/soda-core-db2-3.0.9.tar.gz
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-dbt]: Downloading https://files.pythonhosted.org/packages/b4/81/d717b42b2d181db54d17f9080b1ebf3fd88656f33672e17318ad92b65128/soda-core-dbt-3.0.8.tar.gz
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-aws]: executing diffoscope
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-aws-3.4.1.tar.gz tmp/resoto-plugin-aws-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-aws/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-db2]: executing diffoscope
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-db2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-db2-3.0.8.tar.gz tmp/soda-core-db2-3.0.9.tar.gz --markdown 20230510/s/soda-core-db2/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-athena]: Start processing: soda-core-denodo
+[2023-05-10 14:23:23] INFO root fetch - main [MainThread]: End processing [soda-core-athena]: success
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-digitalocean]: Start processing: soda-core-dremio
+[2023-05-10 14:23:23] INFO root fetch - main [MainThread]: End processing [resoto-plugin-digitalocean]: success
+[2023-05-10 14:23:23] INFO root fetch - processPackages [resoto-plugin-github]: Start processing: pysentimiento
+[2023-05-10 14:23:23] INFO root fetch - main [MainThread]: End processing [resoto-plugin-github]: success
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-dremio]: New version: [3.0.34] Old Version: [3.0.33]
+[2023-05-10 14:23:23] INFO root fetch - processPackages [soda-core-denodo]: New version: [3.0.34] Old Version: [3.0.33]
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dbt]: Downloading https://files.pythonhosted.org/packages/02/2e/1e299e6ec5cc38613924ff4d11971ccb88b48cfbd1494c14226002978a2b/soda-core-dbt-3.0.9.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [pysentimiento]: New version: [0.7.0rc1] Old Version: [0.7.0]
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-bigquery]: Start processing: soda-core-duckdb
+[2023-05-10 14:23:24] INFO root fetch - main [MainThread]: End processing [soda-core-bigquery]: success
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dremio]: Downloading https://files.pythonhosted.org/packages/58/5b/750bbe8aff6d19b743b4bc0dd04146121099851684940ecddc22fc4f39ef/soda-core-dremio-3.0.33.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-denodo]: Downloading https://files.pythonhosted.org/packages/0b/ea/7a7c671b92808f85ce955908efe951205f32b8e67f33ffd0a0474dfe9000/soda-core-denodo-3.0.33.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [pysentimiento]: Downloading https://files.pythonhosted.org/packages/67/e1/aa13be6e388e28f9a04f8f857f773b21d549b02e7af8aed52e4508c83ae6/pysentimiento-0.7.0.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dbt]: executing diffoscope
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dbt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dbt-3.0.8.tar.gz tmp/soda-core-dbt-3.0.9.tar.gz --markdown 20230510/s/soda-core-dbt/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-duckdb]: New version: [3.0.34] Old Version: [3.0.33]
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-denodo]: Downloading https://files.pythonhosted.org/packages/db/d2/ff34765b640ee7af2cdc8a3128dd2f516a8c06263a6eb4863413867d5d9e/soda-core-denodo-3.0.34.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-pandas-dask]: Start processing: soda-core-mysql
+[2023-05-10 14:23:24] INFO root fetch - main [MainThread]: End processing [soda-core-pandas-dask]: success
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-duckdb]: Downloading https://files.pythonhosted.org/packages/f8/18/9d1aa6082a66da7e6ffe8266a84390629be4b1d1c90ece8be256d7b2a0d0/soda-core-duckdb-3.0.33.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dremio]: Downloading https://files.pythonhosted.org/packages/7a/56/40c0988fd334601c9632f55160c40dbc5d60a15da3d4897ca94b2e9a8d64/soda-core-dremio-3.0.34.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-mysql]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-denodo]: executing diffoscope
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-denodo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-denodo-3.0.33.tar.gz tmp/soda-core-denodo-3.0.34.tar.gz --markdown 20230510/s/soda-core-denodo/3.0.33-3.0.34/diff.md --exclude *.pyd
+[2023-05-10 14:23:24] INFO root fetch - processPackages [pysentimiento]: Downloading https://files.pythonhosted.org/packages/43/7e/3257b19d3bf456d4719f01130bcd9015be5388deb0d7beb473b163273f1c/pysentimiento-0.7.0rc1.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dremio]: executing diffoscope
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-dremio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-dremio-3.0.33.tar.gz tmp/soda-core-dremio-3.0.34.tar.gz --markdown 20230510/s/soda-core-dremio/3.0.33-3.0.34/diff.md --exclude *.pyd
+[2023-05-10 14:23:24] INFO root fetch - processPackages [pysentimiento]: executing diffoscope
+[2023-05-10 14:23:24] INFO root fetch - processPackages [pysentimiento]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysentimiento-0.7.0.tar.gz tmp/pysentimiento-0.7.0rc1.tar.gz --markdown 20230510/p/pysentimiento/0.7.0-0.7.0rc1/diff.md --exclude *.pyd
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-mysql]: Downloading https://files.pythonhosted.org/packages/67/37/2e813c9e73aca3ca4ca3abecbe06d39be03146ca631df59a8a30c1bbbaaf/soda-core-mysql-3.0.8.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-duckdb]: Downloading https://files.pythonhosted.org/packages/0c/e4/849e60192f246aee2a97b6daa04d5ec0b8aa12c84dd147fe57cddb0cc97d/soda-core-duckdb-3.0.34.tar.gz
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-duckdb]: executing diffoscope
+[2023-05-10 14:23:24] INFO root fetch - processPackages [soda-core-duckdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-duckdb-3.0.33.tar.gz tmp/soda-core-duckdb-3.0.34.tar.gz --markdown 20230510/s/soda-core-duckdb/3.0.33-3.0.34/diff.md --exclude *.pyd
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-mysql]: Downloading https://files.pythonhosted.org/packages/cb/7c/c69ede51d2e5532ba25c2582d2a14b80abdb7aebd3546010864ea9949090/soda-core-mysql-3.0.9.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core]: Start processing: resoto-plugin-gcp
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [soda-core]: success
+[2023-05-10 14:23:25] INFO root fetch - processPackages [dynalite-panel]: Start processing: soda-core-oracle
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [dynalite-panel]: success
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-gcp]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-mysql]: executing diffoscope
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-mysql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-mysql-3.0.8.tar.gz tmp/soda-core-mysql-3.0.9.tar.gz --markdown 20230510/s/soda-core-mysql/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-oracle]: New version: [3.0.34] Old Version: [3.0.33]
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-db2]: Start processing: resotoshell
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [soda-core-db2]: success
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/60/b8/3033247c01d416ad356f16affe64ceea8ff6a0f100e19ad3414393abbbe1/resoto-plugin-gcp-3.4.1.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resotoshell]: New version: [3.4.2] Old Version: [3.4.1]
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-oracle]: Downloading https://files.pythonhosted.org/packages/b9/84/eb8c1fa6588a74c327cd5da3f249c61929d01bf92a9fea05dddf3e5fd81b/soda-core-oracle-3.0.33.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-aws]: Start processing: soda-core-postgres
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [resoto-plugin-aws]: success
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [soda-core-dbt]: success
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-gcp]: Downloading https://files.pythonhosted.org/packages/6f/f1/fe5e3c614ca7042664cb0515f6eab46f05cc44b0784a7a049ed5fa379b37/resoto-plugin-gcp-3.4.2.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-postgres]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resotoshell]: Downloading https://files.pythonhosted.org/packages/0b/a0/c59d9e227d131f6f5db32ef5408502bf28991b53f5cc2df00b5beffa42e1/resotoshell-3.4.1.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - processPackages [soda-core-oracle]: Downloading https://files.pythonhosted.org/packages/7e/c3/401acdf8f7df7805000fa192f9b8bcc2a9ab35e9d56ec3bc47bcf62392c8/soda-core-oracle-3.0.34.tar.gz
+[2023-05-10 14:23:25] INFO root fetch - main [MainThread]: End processing [soda-core-denodo]: success
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-gcp]: executing diffoscope
+[2023-05-10 14:23:25] INFO root fetch - processPackages [resoto-plugin-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resoto-plugin-gcp-3.4.1.tar.gz tmp/resoto-plugin-gcp-3.4.2.tar.gz --markdown 20230510/r/resoto-plugin-gcp/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-postgres]: Downloading https://files.pythonhosted.org/packages/00/83/c6cf2edda97780f86ea73f6257644fa5507b3c3d004292796f81f11fb251/soda-core-postgres-3.0.8.tar.gz
+[2023-05-10 14:23:26] INFO root fetch - main [MainThread]: End processing [soda-core-dremio]: success
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-oracle]: executing diffoscope
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-oracle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-oracle-3.0.33.tar.gz tmp/soda-core-oracle-3.0.34.tar.gz --markdown 20230510/s/soda-core-oracle/3.0.33-3.0.34/diff.md --exclude *.pyd
+[2023-05-10 14:23:26] INFO root fetch - processPackages [resotoshell]: Downloading https://files.pythonhosted.org/packages/18/1b/17a234edf1ee62a3eac3115be778df333a1e949f6e50dc92e28ccc9d8d68/resotoshell-3.4.2.tar.gz
+[2023-05-10 14:23:26] INFO root fetch - processPackages [resotoshell]: executing diffoscope
+[2023-05-10 14:23:26] INFO root fetch - processPackages [resotoshell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resotoshell-3.4.1.tar.gz tmp/resotoshell-3.4.2.tar.gz --markdown 20230510/r/resotoshell/3.4.1-3.4.2/diff.md --exclude *.pyd
+[2023-05-10 14:23:26] INFO root fetch - main [MainThread]: End processing [soda-core-duckdb]: success
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-postgres]: Downloading https://files.pythonhosted.org/packages/a1/6b/a960615fc0dfd80f3d234245c6acb6a1d35371f761d837e88918309f5274/soda-core-postgres-3.0.9.tar.gz
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-postgres]: executing diffoscope
+[2023-05-10 14:23:26] INFO root fetch - processPackages [soda-core-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soda-core-postgres-3.0.8.tar.gz tmp/soda-core-postgres-3.0.9.tar.gz --markdown 20230510/s/soda-core-postgres/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-05-10 14:23:26] INFO root fetch - main [MainThread]: End processing [soda-core-mysql]: success
+[2023-05-10 14:23:26] INFO root fetch - main [MainThread]: End processing [pysentimiento]: success
+[2023-05-10 14:23:27] INFO root fetch - main [MainThread]: End processing [soda-core-oracle]: success
+[2023-05-10 14:23:27] INFO root fetch - main [MainThread]: End processing [resoto-plugin-gcp]: success
+[2023-05-10 14:23:27] INFO root fetch - main [MainThread]: End processing [resotoshell]: success
+[2023-05-10 14:23:27] INFO root fetch - main [MainThread]: End processing [soda-core-postgres]: success
+[2023-05-10 14:23:27] INFO root fetch - main [MainThread]: Store serial: [18047087]
