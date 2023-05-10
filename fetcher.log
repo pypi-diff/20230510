@@ -13463,3 +13463,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:02:41] INFO root fetch - main [MainThread]: End processing [argstart]: success
 [2023-05-10 12:02:42] INFO root fetch - main [MainThread]: End processing [invenio-workflows-tugraz]: success
 [2023-05-10 12:02:42] INFO root fetch - main [MainThread]: Store serial: [18045315]
+[2023-05-10 12:07:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045315]
+[2023-05-10 12:07:52] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kili
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docarray
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: raisetool
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: batframes
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openeo-processes-dask
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omero-web
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shimoku-api-python
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neclib
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PySciMath
+[2023-05-10 12:07:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: atlas-ftag-tools
+[2023-05-10 12:07:52] INFO root fetch - processPackages [batframes]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [shimoku-api-python]: New version: [0.9] Old Version: [0.8.1]
+[2023-05-10 12:07:52] WARNING root fetch - processPackages [PySciMath]: Skipping, unable to determine old version
+[2023-05-10 12:07:52] INFO root fetch - processPackages [PySciMath]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2023-05-10 12:07:52] INFO root fetch - main [MainThread]: End processing [PySciMath] error
+[2023-05-10 12:07:52] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [omero-web]: New version: [5.9.2] Old Version: [5.9.1]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [raisetool]: New version: [0.1.15] Old Version: [0.1.14]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [batframes]: executing diffoscope
+[2023-05-10 12:07:52] INFO root fetch - processPackages [batframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batframes-1.0.0.3.tar.gz tmp/batframes-1.0.0.4.tar.gz --markdown 20230510/b/batframes/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-10 12:07:52] INFO root fetch - processPackages [openeo-processes-dask]: New version: [2023.5.0] Old Version: [2023.4.0]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [atlas-ftag-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [kili]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [neclib]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 12:07:52] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-05-10 12:07:52] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-10 12:07:52] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-10 12:07:52] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230510/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-10 12:07:52] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/42/3f/4290b9a3337285a102de498320b93987bc5037f1ddc2b42d2228557d3399/shimoku_api_python-0.8.1-py2.py3-none-any.whl
+[2023-05-10 12:07:52] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/ef/56/ca934f6599bd2daf503a86e6203dce722bddc087ffae9459329b73fbf470/omero-web-5.9.1.tar.gz
+[2023-05-10 12:07:52] INFO root fetch - processPackages [raisetool]: Downloading https://files.pythonhosted.org/packages/45/f1/2ffcd45f3c3a200f3bac36a4f24bec90fdad83646cc5fdacf679e664506d/raisetool-0.1.14.tar.gz
+[2023-05-10 12:07:52] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/82/1a/9d8d62f4db71c0c98f2af8101e21f42133a2335a53ea5acb86d49e0afcce/kili-2.98.0.tar.gz
+[2023-05-10 12:07:52] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/bf/fc/d3125390a9cae4fd6e22a30b3cf1c5465bf84069821da00aa4588a6f28fd/atlas-ftag-tools-0.1.2.tar.gz
+[2023-05-10 12:07:52] INFO root fetch - processPackages [neclib]: Downloading https://files.pythonhosted.org/packages/24/ac/56510f6f795bd7f4e4e5fbffafefcb74bdcc1cde02bf4c0a7829c76d3b2f/neclib-0.8.0.tar.gz
+[2023-05-10 12:07:52] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/2f/33/1120d04e1b91ff0509eaa567837cd01fd5b46e47c83c6d28a05ef8c954d8/openeo_processes_dask-2023.4.0.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [raisetool]: Downloading https://files.pythonhosted.org/packages/3b/67/2ffb805e23da627ec6db070a603d69060d8b259eecc892f9b1d4b8edb7df/raisetool-0.1.15.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [atlas-ftag-tools]: Downloading https://files.pythonhosted.org/packages/46/36/876af2fddfc45e0c2d6f6355d039ea680fce78e2cc7b875302577e3ea80e/atlas-ftag-tools-0.1.3.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [raisetool]: executing diffoscope
+[2023-05-10 12:07:53] INFO root fetch - processPackages [raisetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raisetool-0.1.14.tar.gz tmp/raisetool-0.1.15.tar.gz --markdown 20230510/r/raisetool/0.1.14-0.1.15/diff.md --exclude *.pyd
+[2023-05-10 12:07:53] INFO root fetch - processPackages [kili]: Downloading https://files.pythonhosted.org/packages/29/0e/34477795c404b4be48b4e400c823732c9e2857d5f305bbbdbc8203e0ec17/kili-2.99.0.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [neclib]: Downloading https://files.pythonhosted.org/packages/57/5b/9de6618c361a02ff6b2bb0f05bed9f33fd543204479c229852e3ae608b3f/neclib-0.9.0.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [atlas-ftag-tools]: executing diffoscope
+[2023-05-10 12:07:53] INFO root fetch - processPackages [atlas-ftag-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atlas-ftag-tools-0.1.2.tar.gz tmp/atlas-ftag-tools-0.1.3.tar.gz --markdown 20230510/a/atlas-ftag-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 12:07:53] INFO root fetch - processPackages [openeo-processes-dask]: Downloading https://files.pythonhosted.org/packages/ae/1b/b0cdaf7d5271b6ea43135f937bdb60956faf0cb05ac4187cee95b7e33415/openeo_processes_dask-2023.5.0.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [omero-web]: Downloading https://files.pythonhosted.org/packages/87/b1/97dedd01aff39d93e282ea870287e6bf741460c2d7cae96d7dcae38d4d30/omero-web-5.9.2.tar.gz
+[2023-05-10 12:07:53] INFO root fetch - processPackages [kili]: executing diffoscope
+[2023-05-10 12:07:53] INFO root fetch - processPackages [kili]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kili-2.98.0.tar.gz tmp/kili-2.99.0.tar.gz --markdown 20230510/k/kili/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-05-10 12:07:53] INFO root fetch - processPackages [neclib]: executing diffoscope
+[2023-05-10 12:07:53] INFO root fetch - processPackages [neclib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neclib-0.8.0.tar.gz tmp/neclib-0.9.0.tar.gz --markdown 20230510/n/neclib/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 12:07:53] INFO root fetch - processPackages [openeo-processes-dask]: executing diffoscope
+[2023-05-10 12:07:53] INFO root fetch - processPackages [openeo-processes-dask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openeo_processes_dask-2023.4.0.tar.gz tmp/openeo_processes_dask-2023.5.0.tar.gz --markdown 20230510/o/openeo-processes-dask/2023.4.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-10 12:07:53] INFO root fetch - processPackages [shimoku-api-python]: Downloading https://files.pythonhosted.org/packages/12/3e/ec83bde96fc66f5775191c2bd6152638642b5c194b6da3e82971cea702aa/shimoku_api_python-0.9-py2.py3-none-any.whl
+[2023-05-10 12:07:54] INFO root fetch - processPackages [shimoku-api-python]: executing diffoscope
+[2023-05-10 12:07:54] INFO root fetch - processPackages [shimoku-api-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shimoku_api_python-0.8.1-py2.py3-none-any.whl.zip tmp/shimoku_api_python-0.9-py2.py3-none-any.whl.zip --markdown 20230510/s/shimoku-api-python/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-05-10 12:07:54] INFO root fetch - processPackages [batframes]: Start processing: numericnormalizer
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [batframes]: success
+[2023-05-10 12:07:54] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Start processing: parquet-datastore-utils
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2023-05-10 12:07:54] WARNING root fetch - processPackages [numericnormalizer]: Skipping, unable to determine old version
+[2023-05-10 12:07:54] INFO root fetch - processPackages [numericnormalizer]: Start processing: kaiko-research
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [numericnormalizer] error
+[2023-05-10 12:07:54] WARNING root fetch - processPackages [parquet-datastore-utils]: Skipping, unable to determine old version
+[2023-05-10 12:07:54] INFO root fetch - processPackages [parquet-datastore-utils]: Start processing: oopt-gnpy-libyang
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [parquet-datastore-utils] error
+[2023-05-10 12:07:54] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-10 12:07:54] INFO root fetch - processPackages [kaiko-research]: Start processing: connect-cli
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 12:07:54] INFO root fetch - processPackages [oopt-gnpy-libyang]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 12:07:54] INFO root fetch - processPackages [connect-cli]: New version: [27.2] Old Version: [27.1]
+[2023-05-10 12:07:54] INFO root fetch - processPackages [raisetool]: Start processing: chronus
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [raisetool]: success
+[2023-05-10 12:07:54] INFO root fetch - processPackages [chronus]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 12:07:54] INFO root fetch - processPackages [omero-web]: executing diffoscope
+[2023-05-10 12:07:54] INFO root fetch - processPackages [omero-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omero-web-5.9.1.tar.gz tmp/omero-web-5.9.2.tar.gz --markdown 20230510/o/omero-web/5.9.1-5.9.2/diff.md --exclude *.pyd
+[2023-05-10 12:07:54] INFO root fetch - processPackages [oopt-gnpy-libyang]: Downloading https://files.pythonhosted.org/packages/ff/aa/4580009aa58a907d5cbf8bb8e07770c6d3f8d210650f38676c548b093d60/oopt-gnpy-libyang-0.0.5.tar.gz
+[2023-05-10 12:07:54] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/47/47/7308e576dcc918c97a84d293d235b937db7286605cae3cbba0df9eba3845/connect_cli-27.1.tar.gz
+[2023-05-10 12:07:54] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/c7/56/0c5e7481ec17916d64de095c024d85c872799811c6408a03c0055391371b/chronus-0.3.2.tar.gz
+[2023-05-10 12:07:54] INFO root fetch - processPackages [atlas-ftag-tools]: Start processing: cloud-governance
+[2023-05-10 12:07:54] INFO root fetch - main [MainThread]: End processing [atlas-ftag-tools]: success
+[2023-05-10 12:07:54] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-05-10 12:07:54] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.1.tar.gz tmp/chronus-0.3.2.tar.gz --markdown 20230510/c/chronus/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 12:07:54] INFO root fetch - processPackages [cloud-governance]: New version: [1.1.95] Old Version: [1.1.94]
+[2023-05-10 12:07:54] INFO root fetch - processPackages [oopt-gnpy-libyang]: Downloading https://files.pythonhosted.org/packages/59/8b/f47ced8afd4bc947f44316fa005b5d08157a2f2e633cc84b5795ecaf3d2b/oopt-gnpy-libyang-0.0.6.tar.gz
+[2023-05-10 12:07:55] INFO root fetch - processPackages [connect-cli]: Downloading https://files.pythonhosted.org/packages/a0/85/21377ef57c51c8d536b7b0afad80243d742f6d50d72eaec6309dcb904276/connect_cli-27.2.tar.gz
+[2023-05-10 12:07:55] INFO root fetch - processPackages [neclib]: Start processing: mm-sdk
+[2023-05-10 12:07:55] INFO root fetch - main [MainThread]: End processing [neclib]: success
+[2023-05-10 12:07:55] INFO root fetch - processPackages [kili]: Start processing: Slpapy
+[2023-05-10 12:07:55] INFO root fetch - main [MainThread]: End processing [kili]: success
+[2023-05-10 12:07:55] INFO root fetch - processPackages [Slpapy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mm-sdk]: New version: [0.1.3] Old Version: [0.1.277]
+[2023-05-10 12:07:55] INFO root fetch - processPackages [oopt-gnpy-libyang]: executing diffoscope
+[2023-05-10 12:07:55] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-10 12:07:55] INFO root fetch - processPackages [oopt-gnpy-libyang]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oopt-gnpy-libyang-0.0.5.tar.gz tmp/oopt-gnpy-libyang-0.0.6.tar.gz --markdown 20230510/o/oopt-gnpy-libyang/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 12:07:55] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.8.tar.gz tmp/Slpapy-0.3.9.tar.gz --markdown 20230510/S/Slpapy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/c4/a2/1de8c701860b998d427b9b6ad7be0517474a723b62665eff5a290e3b36af/mm_sdk-0.1.277.tar.gz
+[2023-05-10 12:07:55] INFO root fetch - processPackages [connect-cli]: executing diffoscope
+[2023-05-10 12:07:55] INFO root fetch - processPackages [connect-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/connect_cli-27.1.tar.gz tmp/connect_cli-27.2.tar.gz --markdown 20230510/c/connect-cli/27.1-27.2/diff.md --exclude *.pyd
+[2023-05-10 12:07:55] INFO root fetch - processPackages [cloud-governance]: Downloading https://files.pythonhosted.org/packages/06/05/e0942a545434f3f8906992a4d93fbfacf6b503972f0d62ba0c6ded14281e/cloud-governance-1.1.95.tar.gz
+[2023-05-10 12:07:55] INFO root fetch - processPackages [cloud-governance]: executing diffoscope
+[2023-05-10 12:07:55] INFO root fetch - processPackages [cloud-governance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-governance-1.1.94.tar.gz tmp/cloud-governance-1.1.95.tar.gz --markdown 20230510/c/cloud-governance/1.1.94-1.1.95/diff.md --exclude *.pyd
+[2023-05-10 12:07:55] INFO root fetch - processPackages [shimoku-api-python]: Start processing: vijkan-package-twine
+[2023-05-10 12:07:55] INFO root fetch - main [MainThread]: End processing [shimoku-api-python]: success
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mm-sdk]: Downloading https://files.pythonhosted.org/packages/03/aa/d8c272285a7704066ac4561b833b5144e76c812479a75a91e1eff3bc24af/mm-sdk-0.1.3.tar.gz
+[2023-05-10 12:07:55] WARNING root fetch - processPackages [vijkan-package-twine]: Skipping, unable to determine old version
+[2023-05-10 12:07:55] INFO root fetch - processPackages [vijkan-package-twine]: Start processing: mimeograph
+[2023-05-10 12:07:55] INFO root fetch - main [MainThread]: End processing [vijkan-package-twine] error
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mimeograph]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mm-sdk]: executing diffoscope
+[2023-05-10 12:07:55] INFO root fetch - processPackages [mm-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mm_sdk-0.1.277.tar.gz tmp/mm-sdk-0.1.3.tar.gz --markdown 20230510/m/mm-sdk/0.1.277-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 12:07:56] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/84/f7/d2085d6a5511971cba96098f901616dab55b5d641601bfb900bedbb8eee4/mimeograph-0.4.2.tar.gz
+[2023-05-10 12:07:56] INFO root fetch - main [MainThread]: End processing [openeo-processes-dask]: success
+[2023-05-10 12:07:56] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-05-10 12:07:56] INFO root fetch - processPackages [mimeograph]: Downloading https://files.pythonhosted.org/packages/5a/ca/ece8de6dd929b294816f79aba4b6a5f6324a3609d3236a8fde960a4a89ae/mimeograph-0.4.3.tar.gz
+[2023-05-10 12:07:56] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-05-10 12:07:56] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.4.2.tar.gz tmp/mimeograph-0.4.3.tar.gz --markdown 20230510/m/mimeograph/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-10 12:07:57] INFO root fetch - main [MainThread]: End processing [mm-sdk]: success
+[2023-05-10 12:07:57] INFO root fetch - main [MainThread]: End processing [cloud-governance]: success
+[2023-05-10 12:07:57] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-10 12:07:57] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-10 12:07:57] INFO root fetch - main [MainThread]: End processing [oopt-gnpy-libyang]: success
+[2023-05-10 12:07:58] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-05-10 12:08:00] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
+[2023-05-10 12:08:07] INFO root fetch - main [MainThread]: End processing [omero-web]: success
+[2023-05-10 12:08:07] INFO root fetch - main [MainThread]: Store serial: [18045393]
