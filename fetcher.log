@@ -18721,3 +18721,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:23:24] INFO root fetch - main [MainThread]: End processing [django-spectator]: success
 [2023-05-10 16:23:25] INFO root fetch - main [MainThread]: End processing [FuncsForSPO]: success
 [2023-05-10 16:23:25] INFO root fetch - main [MainThread]: Store serial: [18048397]
+[2023-05-10 16:28:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048397]
+[2023-05-10 16:28:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: argilla
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pylookyloomonitoring
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swh.web
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sfkit
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytket-qulacs
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-grpc
+[2023-05-10 16:28:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tableautransformer
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pylookyloomonitoring]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [argilla]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [swh.web]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [django-grpc]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [tableautransformer]: New version: [1.0.0] Old Version: [0.1.6]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pytket-qulacs]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 16:28:34] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-05-10 16:28:34] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230510/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pylookyloomonitoring]: Downloading https://files.pythonhosted.org/packages/65/6b/3e3c91f9d7a3a9ea46eb4e907e384c4bc33fceff5d64642a9920f86ad576/pylookyloomonitoring-1.0.4.tar.gz
+[2023-05-10 16:28:34] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/05/b8/34def979e6be97fa64b80f2cdd928daa452c686c9b23f1301ec07d7bea4b/argilla-1.6.0.tar.gz
+[2023-05-10 16:28:34] INFO root fetch - processPackages [swh.web]: Downloading https://files.pythonhosted.org/packages/66/15/6bc04af12a23337bb393e57e21ffba928a503bf0e3a5106bea151682da0d/swh.web-0.2.8.tar.gz
+[2023-05-10 16:28:34] INFO root fetch - processPackages [django-grpc]: Downloading https://files.pythonhosted.org/packages/04/84/3796c53e9b80e1dcedc5f9335800febee34b8058b37e1b06ba3a7c798e5c/django-grpc-1.0.7.tar.gz
+[2023-05-10 16:28:34] INFO root fetch - processPackages [tableautransformer]: Downloading https://files.pythonhosted.org/packages/08/c5/8a63330d41f85c63aa45ce8bf4093554c544d8357c3bb5d79c23dc8ffaca/tableautransformer-0.1.6.tar.gz
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pylookyloomonitoring]: executing diffoscope
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pylookyloomonitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylookyloomonitoring-1.0.3.tar.gz tmp/pylookyloomonitoring-1.0.4.tar.gz --markdown 20230510/p/pylookyloomonitoring/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 16:28:34] INFO root fetch - processPackages [pytket-qulacs]: Downloading https://files.pythonhosted.org/packages/d5/d6/146d8e1ccf54e64df42ec5f0cb55469ccfe0b9b28c31314caf77f706c867/pytket-qulacs-0.8.0.tar.gz
+[2023-05-10 16:28:35] INFO root fetch - processPackages [tableautransformer]: Downloading https://files.pythonhosted.org/packages/88/fc/69da15b49becc3f377e2c9359304c8c13e13cac04cecf53b6ed2d09a4d5b/tableautransformer-1.0.0.tar.gz
+[2023-05-10 16:28:35] INFO root fetch - processPackages [pytket-qulacs]: Downloading https://files.pythonhosted.org/packages/9d/68/219fe155e6cf89dbd8d9aa6329281b183cd6277d9d16742fa7c1966638ed/pytket-qulacs-0.9.0.tar.gz
+[2023-05-10 16:28:35] INFO root fetch - processPackages [argilla]: Downloading https://files.pythonhosted.org/packages/f0/34/a4b2b834bad6e5ba9a9b0595146146deec1ae7e4755184fd8816d688c9b9/argilla-1.7.0.tar.gz
+[2023-05-10 16:28:35] INFO root fetch - processPackages [tableautransformer]: executing diffoscope
+[2023-05-10 16:28:35] INFO root fetch - processPackages [tableautransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tableautransformer-0.1.6.tar.gz tmp/tableautransformer-1.0.0.tar.gz --markdown 20230510/t/tableautransformer/0.1.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 16:28:35] INFO root fetch - processPackages [django-grpc]: Downloading https://files.pythonhosted.org/packages/3f/00/5c8043f0d685379bc56472707b223a69f989806b1fa5abc00afc5e22e40f/django-grpc-1.0.8.tar.gz
+[2023-05-10 16:28:35] WARNING root fetch - processPackages [swh.web]: Skipping package: exceeds size limit 13132382>=10485760
+[2023-05-10 16:28:35] INFO root fetch - main [MainThread]: End processing [swh.web] error
+[2023-05-10 16:28:35] INFO root fetch - processPackages [django-grpc]: executing diffoscope
+[2023-05-10 16:28:35] INFO root fetch - processPackages [django-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-grpc-1.0.7.tar.gz tmp/django-grpc-1.0.8.tar.gz --markdown 20230510/d/django-grpc/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-10 16:28:35] INFO root fetch - processPackages [argilla]: executing diffoscope
+[2023-05-10 16:28:35] INFO root fetch - processPackages [argilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argilla-1.6.0.tar.gz tmp/argilla-1.7.0.tar.gz --markdown 20230510/a/argilla/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-05-10 16:28:35] INFO root fetch - processPackages [pytket-qulacs]: executing diffoscope
+[2023-05-10 16:28:35] INFO root fetch - processPackages [pytket-qulacs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qulacs-0.8.0.tar.gz tmp/pytket-qulacs-0.9.0.tar.gz --markdown 20230510/p/pytket-qulacs/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 16:28:35] INFO root fetch - main [MainThread]: End processing [pylookyloomonitoring]: success
+[2023-05-10 16:28:35] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-05-10 16:28:36] INFO root fetch - main [MainThread]: End processing [tableautransformer]: success
+[2023-05-10 16:28:36] INFO root fetch - main [MainThread]: End processing [django-grpc]: success
+[2023-05-10 16:28:36] INFO root fetch - main [MainThread]: End processing [pytket-qulacs]: success
+[2023-05-10 16:29:34] INFO root fetch - main [MainThread]: End processing [argilla]: success
+[2023-05-10 16:29:34] INFO root fetch - main [MainThread]: Store serial: [18048418]
