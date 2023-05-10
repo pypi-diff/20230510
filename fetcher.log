@@ -13861,3 +13861,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
 [2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [lleaves]: success
 [2023-05-10 12:25:08] INFO root fetch - main [MainThread]: Store serial: [18045580]
+[2023-05-10 12:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045580]
+[2023-05-10 12:30:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cefeste
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: diffusionjax
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hubrdvmairie
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netunicorn-base
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: virgoSuite
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-pos-stock-available-online
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: netunicorn-connector-aws
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: titan-iris
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scipion-em-cryodrgn
+[2023-05-10 12:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: raphtory
+[2023-05-10 12:30:17] INFO root fetch - processPackages [diffusionjax]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 12:30:17] INFO root fetch - processPackages [hubrdvmairie]: New version: [2.8.1] Old Version: [2.8.0]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [cefeste]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-base]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [odoo-addon-pos-stock-available-online]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-connector-aws]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 12:30:18] WARNING root fetch - processPackages [virgoSuite]: Skipping, unable to determine old version
+[2023-05-10 12:30:18] INFO root fetch - processPackages [virgoSuite]: Start processing: pysen-plugins
+[2023-05-10 12:30:18] INFO root fetch - main [MainThread]: End processing [virgoSuite] error
+[2023-05-10 12:30:18] INFO root fetch - processPackages [scipion-em-cryodrgn]: New version: [3.9.1] Old Version: [3.9]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [titan-iris]: New version: [0.3.9a2] Old Version: [0.3.9a1]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [raphtory]: New version: [0.2.4] Old Version: [0.2.1]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [pysen-plugins]: New version: [2023.5.10] Old Version: [2023.4.5]
+[2023-05-10 12:30:18] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.3.9a1.tar.gz tmp/titan-iris-0.3.9a2.tar.gz --markdown 20230510/t/titan-iris/0.3.9a1-0.3.9a2/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-base]: Downloading https://files.pythonhosted.org/packages/cc/59/f8d286645621d99e5774db506f45be94a1cfbf07e181a2481bbfa1bb7689/netunicorn-base-0.3.2.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [scipion-em-cryodrgn]: Downloading https://files.pythonhosted.org/packages/a9/72/3135875b8cb2635da28409c036bfb0773c714ad84132857ed9e8bf006d23/scipion-em-cryodrgn-3.9.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [odoo-addon-pos-stock-available-online]: Downloading https://files.pythonhosted.org/packages/c8/93/02a9f0ee0082502398f2fd8c6b3a1e13594d537c8721c9362207d9781313/odoo_addon_pos_stock_available_online-16.0.1.0.0.6-py3-none-any.whl
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-connector-aws]: Downloading https://files.pythonhosted.org/packages/66/23/76224f3ad3851409d7b67fce7d6005c40ad93da98fa61a2d0bfa97e8ea64/netunicorn-connector-aws-0.0.3.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [diffusionjax]: Downloading https://files.pythonhosted.org/packages/db/df/acffab48e9fa06f8e20e99ce15e5e0b570e3994394728298922b41e09542/diffusionjax-0.0.7.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/03/57/b2c1285fbc1b9e624ca7879aa3c8c00be5e5eaab369b48015104ce78dd7d/hubrdvmairie-2.8.0.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [raphtory]: Downloading https://files.pythonhosted.org/packages/01/45/ea3dad122495ac7377c0cb9ae4794f84bc29725c5b66ce6f12ff9ed07d25/raphtory-0.2.4-cp39-none-win_amd64.whl
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-connector-aws]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-connector-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-connector-aws-0.0.2.tar.gz tmp/netunicorn-connector-aws-0.0.3.tar.gz --markdown 20230510/n/netunicorn-connector-aws/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-base]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [netunicorn-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-base-0.3.1.tar.gz tmp/netunicorn-base-0.3.2.tar.gz --markdown 20230510/n/netunicorn-base/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [pysen-plugins]: Downloading https://files.pythonhosted.org/packages/6f/ac/23faaf5a37f3754d709f374e29adec92090720fa4cc148dab299914d1125/pysen-plugins-2023.4.5.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/80/1b/f134f7ba893b9c2ba339a035e0c1b5be0c2c08df5dd16bfe255796d69cb4/cefeste-1.1.2.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.1.tar.gz tmp/cefeste-1.1.2.tar.gz --markdown 20230510/c/cefeste/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [scipion-em-cryodrgn]: Downloading https://files.pythonhosted.org/packages/0a/33/432fbade80e4393854f5ceb98e621765874124627d1e70bdea7adb281399/scipion-em-cryodrgn-3.9.1.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [diffusionjax]: Downloading https://files.pythonhosted.org/packages/a5/6a/2bcc01b63a8ebb0db4d23a4ddf7642c69179fb6014ff99f35071bdb07343/diffusionjax-0.0.8.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [hubrdvmairie]: Downloading https://files.pythonhosted.org/packages/43/eb/2cc6c18bad489a469f034efea0c0f86994234ab048618b080650519efcc8/hubrdvmairie-2.8.1.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [pysen-plugins]: Downloading https://files.pythonhosted.org/packages/af/3f/6c5ea67cd1ae69af95937774c1a2a3ba81a6795b065f1701a495f6d0151f/pysen-plugins-2023.5.10.tar.gz
+[2023-05-10 12:30:18] INFO root fetch - processPackages [diffusionjax]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [diffusionjax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/diffusionjax-0.0.7.tar.gz tmp/diffusionjax-0.0.8.tar.gz --markdown 20230510/d/diffusionjax/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [odoo-addon-pos-stock-available-online]: Downloading https://files.pythonhosted.org/packages/49/8f/01235632a5a79fb335ded1fb878eb487445680bf8ee69de2d8b0afc7bf3f/odoo_addon_pos_stock_available_online-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-10 12:30:18] INFO root fetch - processPackages [pysen-plugins]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [raphtory]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [pysen-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysen-plugins-2023.4.5.tar.gz tmp/pysen-plugins-2023.5.10.tar.gz --markdown 20230510/p/pysen-plugins/2023.4.5-2023.5.10/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [raphtory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raphtory-0.2.1-cp39-none-win_amd64.whl.zip tmp/raphtory-0.2.4-cp39-none-win_amd64.whl.zip --markdown 20230510/r/raphtory/0.2.1-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [scipion-em-cryodrgn]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [scipion-em-cryodrgn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryodrgn-3.9.tar.gz tmp/scipion-em-cryodrgn-3.9.1.tar.gz --markdown 20230510/s/scipion-em-cryodrgn/3.9-3.9.1/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [odoo-addon-pos-stock-available-online]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [odoo-addon-pos-stock-available-online]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_pos_stock_available_online-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_pos_stock_available_online-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-pos-stock-available-online/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-05-10 12:30:18] INFO root fetch - processPackages [hubrdvmairie]: executing diffoscope
+[2023-05-10 12:30:18] INFO root fetch - processPackages [hubrdvmairie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hubrdvmairie-2.8.0.tar.gz tmp/hubrdvmairie-2.8.1.tar.gz --markdown 20230510/h/hubrdvmairie/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2023-05-10 12:30:19] INFO root fetch - processPackages [netunicorn-connector-aws]: Start processing: frugy
+[2023-05-10 12:30:19] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-aws]: success
+[2023-05-10 12:30:20] INFO root fetch - processPackages [frugy]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-10 12:30:20] INFO root fetch - processPackages [titan-iris]: Start processing: Titan-Client
+[2023-05-10 12:30:20] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-05-10 12:30:20] INFO root fetch - processPackages [Titan-Client]: New version: [1.19.5] Old Version: [1.19.3.1]
+[2023-05-10 12:30:20] INFO root fetch - processPackages [frugy]: Downloading https://files.pythonhosted.org/packages/c9/5a/f46de61f32e1ae093cd96d01c7c45915b5fdd026c98c3fd802e42c8f3349/frugy-0.4.1.tar.gz
+[2023-05-10 12:30:20] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-05-10 12:30:20] INFO root fetch - main [MainThread]: End processing [netunicorn-base]: success
+[2023-05-10 12:30:20] INFO root fetch - processPackages [Titan-Client]: Downloading https://files.pythonhosted.org/packages/e6/fa/ed4fb9dbbbeef35773e1441299f05710a48d25e6e2729106d026b856c9a6/Titan_Client-1.19.3.1.tar.gz
+[2023-05-10 12:30:20] INFO root fetch - main [MainThread]: End processing [pysen-plugins]: success
+[2023-05-10 12:30:20] INFO root fetch - main [MainThread]: End processing [raphtory]: success
+[2023-05-10 12:30:20] INFO root fetch - processPackages [frugy]: Downloading https://files.pythonhosted.org/packages/9b/fb/35c36c8bfcdb70cf17d0c3efeb5a513d686e56e8c801a113a50613d6b6fd/frugy-0.4.2.tar.gz
+[2023-05-10 12:30:20] INFO root fetch - processPackages [Titan-Client]: Downloading https://files.pythonhosted.org/packages/0a/0f/9b638de6a19c73c687ab46b5b59fb7ffeff5eb3e11f9bc507bf7498d8b20/Titan_Client-1.19.5.tar.gz
+[2023-05-10 12:30:20] INFO root fetch - processPackages [frugy]: executing diffoscope
+[2023-05-10 12:30:20] INFO root fetch - processPackages [frugy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frugy-0.4.1.tar.gz tmp/frugy-0.4.2.tar.gz --markdown 20230510/f/frugy/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-10 12:30:20] INFO root fetch - processPackages [Titan-Client]: executing diffoscope
+[2023-05-10 12:30:20] INFO root fetch - processPackages [Titan-Client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Titan_Client-1.19.3.1.tar.gz tmp/Titan_Client-1.19.5.tar.gz --markdown 20230510/T/Titan-Client/1.19.3.1-1.19.5/diff.md --exclude *.pyd
+[2023-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [scipion-em-cryodrgn]: success
+[2023-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [hubrdvmairie]: success
+[2023-05-10 12:30:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-pos-stock-available-online]: success
+[2023-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [frugy]: success
+[2023-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [diffusionjax]: success
+[2023-05-10 12:30:34] INFO root fetch - main [MainThread]: End processing [Titan-Client]: success
+[2023-05-10 12:30:34] INFO root fetch - main [MainThread]: Store serial: [18045635]
