@@ -15687,3 +15687,130 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:07:27] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-05-10 14:07:28] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-10 14:07:28] INFO root fetch - main [MainThread]: Store serial: [18046802]
+[2023-05-10 14:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046802]
+[2023-05-10 14:12:38] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onevizion
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docarray
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docarray
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: IQM-Vis
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyikarus
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: phenotype2phenopacket
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dftrans
+[2023-05-10 14:12:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: test-helper-gae3
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000051] Old Version: [0.3.0.dev202310000050]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [dftrans]: New version: [2.0.2.3] Old Version: [2.0.2.2]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230510.9.51.843026] Old Version: [20230509.17.43.306305]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [onevizion]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.63] Old Version: [0.2.5.29]
+[2023-05-10 14:12:38] WARNING root fetch - processPackages [phenotype2phenopacket]: Skipping, unable to determine old version
+[2023-05-10 14:12:38] INFO root fetch - processPackages [phenotype2phenopacket]: Start processing: geti-sdk
+[2023-05-10 14:12:38] INFO root fetch - main [MainThread]: End processing [phenotype2phenopacket] error
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-10 14:12:38] INFO root fetch - processPackages [test-helper-gae3]: New version: [1.2] Old Version: [1.1]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000050.tar.gz tmp/pyikarus-0.3.0.dev202310000051.tar.gz --markdown 20230510/p/pyikarus/0.3.0.dev202310000050-0.3.0.dev202310000051/diff.md --exclude *.pyd
+[2023-05-10 14:12:38] INFO root fetch - processPackages [dftrans]: executing diffoscope
+[2023-05-10 14:12:38] INFO root fetch - processPackages [dftrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftrans-2.0.2.2.tar.gz tmp/dftrans-2.0.2.3.tar.gz --markdown 20230510/d/dftrans/2.0.2.2-2.0.2.3/diff.md --exclude *.pyd
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230510/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-10 14:12:38] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230510/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/b4/b9/dc64ecf625e9214d9b2781fc9062a98d0f8df71117878fec5d5a4c58b9fe/certora-cli-alpha-roy-CERT-1955-assertHits-20230509.17.43.306305.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [geti-sdk]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-05-10 14:12:38] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39213527>=10485760
+[2023-05-10 14:12:38] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: tf-agents-nightly
+[2023-05-10 14:12:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-10 14:12:38] INFO root fetch - processPackages [onevizion]: Downloading https://files.pythonhosted.org/packages/90/9f/01a43fcedc54568e342646fa4f99fcd950965bc95956bc9fdbe12f270f5d/onevizion-1.1.2.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [test-helper-gae3]: Downloading https://files.pythonhosted.org/packages/51/6a/00b62ed4e8e35eefb0d834fa4df4e61159c3b5ae321f8cec7013c0099751/test_helper_gae3-1.1.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/b8/46/d5b1817fb9adae58a43ac1800a78e33568ce75202ce976c245af076f0194/IQM-VIS-0.2.5.29.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-05-10 14:12:38] INFO root fetch - processPackages [onevizion]: Downloading https://files.pythonhosted.org/packages/d7/d5/a1d1a8f5e0c86b143e269762d8ced6416fd2a0fe8c20e57863731318edc9/onevizion-1.1.3.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [geti-sdk]: Downloading https://files.pythonhosted.org/packages/98/21/96e65078e4b7ba1faa445d665c9b2c28f0e6494661fd67a9904ff12e5dad/geti-sdk-1.5.3.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-10 14:12:38] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230510/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 14:12:38] INFO root fetch - processPackages [IQM-Vis]: Downloading https://files.pythonhosted.org/packages/8e/e8/456b90abb971ab2dc7dde13bfe374fa00b101d1a5b7c9aa1d9c65dd48fa1/IQM-Vis-0.2.5.63.tar.gz
+[2023-05-10 14:12:38] INFO root fetch - processPackages [test-helper-gae3]: Downloading https://files.pythonhosted.org/packages/d1/fe/99c510563fb3fb4fbe646256b01ef22fbac37bfab7f73f115eb4971f4e69/test_helper_gae3-1.2.tar.gz
+[2023-05-10 14:12:39] INFO root fetch - processPackages [onevizion]: executing diffoscope
+[2023-05-10 14:12:39] INFO root fetch - processPackages [onevizion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onevizion-1.1.2.tar.gz tmp/onevizion-1.1.3.tar.gz --markdown 20230510/o/onevizion/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-10 14:12:39] INFO root fetch - processPackages [test-helper-gae3]: executing diffoscope
+[2023-05-10 14:12:39] INFO root fetch - processPackages [test-helper-gae3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_helper_gae3-1.1.tar.gz tmp/test_helper_gae3-1.2.tar.gz --markdown 20230510/t/test-helper-gae3/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-10 14:12:39] INFO root fetch - processPackages [geti-sdk]: executing diffoscope
+[2023-05-10 14:12:39] INFO root fetch - processPackages [geti-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geti-sdk-1.5.2.tar.gz tmp/geti-sdk-1.5.3.tar.gz --markdown 20230510/g/geti-sdk/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-05-10 14:12:39] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-05-10 14:12:39] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-VIS-0.2.5.29.tar.gz tmp/IQM-Vis-0.2.5.63.tar.gz --markdown 20230510/I/IQM-Vis/0.2.5.29-0.2.5.63/diff.md --exclude *.pyd
+[2023-05-10 14:12:39] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-05-10 14:12:39] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230510/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-05-10 14:12:40] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: weesocket
+[2023-05-10 14:12:40] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-10 14:12:40] INFO root fetch - processPackages [weesocket]: New version: [2.0.0] Old Version: [1.0.1]
+[2023-05-10 14:12:40] INFO root fetch - processPackages [onevizion]: Start processing: moralis
+[2023-05-10 14:12:40] INFO root fetch - main [MainThread]: End processing [onevizion]: success
+[2023-05-10 14:12:40] INFO root fetch - processPackages [weesocket]: Downloading https://files.pythonhosted.org/packages/2c/a0/8402e3091a221f7ada7621aeb80fbf92075a82a8919e3e220d10c3b86a32/weesocket-1.0.1.tar.gz
+[2023-05-10 14:12:40] INFO root fetch - processPackages [docarray]: Start processing: vantage6-common
+[2023-05-10 14:12:40] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-10 14:12:40] INFO root fetch - processPackages [moralis]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-common]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-10 14:12:40] INFO root fetch - processPackages [test-helper-gae3]: Start processing: vantage6-client
+[2023-05-10 14:12:40] INFO root fetch - main [MainThread]: End processing [test-helper-gae3]: success
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-client]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-common]: executing diffoscope
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-common-3.8.7rc1.tar.gz tmp/vantage6-common-3.9.0rc2.tar.gz --markdown 20230510/v/vantage6-common/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-client]: executing diffoscope
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-client-3.8.7rc1.tar.gz tmp/vantage6-client-3.9.0rc2.tar.gz --markdown 20230510/v/vantage6-client/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-10 14:12:40] INFO root fetch - processPackages [moralis]: Downloading https://files.pythonhosted.org/packages/77/f2/3463780cabfe68192ac3d9881adbadf2a86c7a0ff5e5606cdd2a69ec7340/moralis-0.1.8.tar.gz
+[2023-05-10 14:12:40] INFO root fetch - processPackages [IQM-Vis]: Start processing: vantage6
+[2023-05-10 14:12:40] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-05-10 14:12:40] INFO root fetch - processPackages [weesocket]: Downloading https://files.pythonhosted.org/packages/e7/aa/1710c34d0a5f13057aff2d23c759559b9b2e8a4bd139c1049d8538f68bf6/weesocket-2.0.0.tar.gz
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6]: executing diffoscope
+[2023-05-10 14:12:40] INFO root fetch - processPackages [vantage6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-3.8.7rc1.tar.gz tmp/vantage6-3.9.0rc2.tar.gz --markdown 20230510/v/vantage6/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-10 14:12:40] INFO root fetch - processPackages [weesocket]: executing diffoscope
+[2023-05-10 14:12:40] INFO root fetch - processPackages [weesocket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weesocket-1.0.1.tar.gz tmp/weesocket-2.0.0.tar.gz --markdown 20230510/w/weesocket/1.0.1-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 14:12:41] INFO root fetch - processPackages [moralis]: Downloading https://files.pythonhosted.org/packages/93/43/cf4b48bd2d5d2b67b0f9145a197700fa0df0d289a20e3b4a177305d237fb/moralis-0.1.9.tar.gz
+[2023-05-10 14:12:41] INFO root fetch - processPackages [moralis]: executing diffoscope
+[2023-05-10 14:12:41] INFO root fetch - processPackages [moralis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moralis-0.1.8.tar.gz tmp/moralis-0.1.9.tar.gz --markdown 20230510/m/moralis/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 14:12:41] INFO root fetch - processPackages [geti-sdk]: Start processing: rddl-verify
+[2023-05-10 14:12:41] INFO root fetch - main [MainThread]: End processing [geti-sdk]: success
+[2023-05-10 14:12:41] WARNING root fetch - processPackages [rddl-verify]: Skipping, unable to determine old version
+[2023-05-10 14:12:41] INFO root fetch - processPackages [rddl-verify]: Start processing: vantage6-node
+[2023-05-10 14:12:41] INFO root fetch - main [MainThread]: End processing [rddl-verify] error
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-node]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-10 14:12:41] INFO root fetch - processPackages [dftrans]: Start processing: vantage6-server
+[2023-05-10 14:12:41] INFO root fetch - main [MainThread]: End processing [dftrans]: success
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-node]: executing diffoscope
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-node-3.8.7rc1.tar.gz tmp/vantage6-node-3.9.0rc2.tar.gz --markdown 20230510/v/vantage6-node/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-server]: New version: [3.9.0rc2] Old Version: [3.8.7rc1]
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-server]: executing diffoscope
+[2023-05-10 14:12:41] INFO root fetch - processPackages [vantage6-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vantage6-server-3.8.7rc1.tar.gz tmp/vantage6-server-3.9.0rc2.tar.gz --markdown 20230510/v/vantage6-server/3.8.7rc1-3.9.0rc2/diff.md --exclude *.pyd
+[2023-05-10 14:12:42] INFO root fetch - processPackages [vantage6-common]: Start processing: pyikarus
+[2023-05-10 14:12:42] INFO root fetch - main [MainThread]: End processing [vantage6-common]: success
+[2023-05-10 14:12:42] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000053] Old Version: [0.3.0.dev202310000052]
+[2023-05-10 14:12:42] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/b1/33/24b26e0afb760543c421300f14236b7910b558214ee9b2df13f898979a1b/pyikarus-0.3.0.dev202310000052.tar.gz
+[2023-05-10 14:12:42] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/6b/06/15f7ca8f7e18235510427679dfd4aaa710d804b9f77a07c395128ff5c0a6/pyikarus-0.3.0.dev202310000053.tar.gz
+[2023-05-10 14:12:42] INFO root fetch - processPackages [vantage6]: Start processing: jobspire-nitra
+[2023-05-10 14:12:42] INFO root fetch - main [MainThread]: End processing [vantage6]: success
+[2023-05-10 14:12:42] INFO root fetch - processPackages [weesocket]: Start processing: utracto
+[2023-05-10 14:12:42] INFO root fetch - main [MainThread]: End processing [weesocket]: success
+[2023-05-10 14:12:42] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-10 14:12:42] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000052.tar.gz tmp/pyikarus-0.3.0.dev202310000053.tar.gz --markdown 20230510/p/pyikarus/0.3.0.dev202310000052-0.3.0.dev202310000053/diff.md --exclude *.pyd
+[2023-05-10 14:12:42] INFO root fetch - processPackages [jobspire-nitra]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 14:12:42] WARNING root fetch - processPackages [utracto]: Skipping, unable to determine old version
+[2023-05-10 14:12:42] INFO root fetch - main [MainThread]: End processing [utracto] error
+[2023-05-10 14:12:42] INFO root fetch - main [MainThread]: End processing [vantage6-client]: success
+[2023-05-10 14:12:42] INFO root fetch - processPackages [jobspire-nitra]: Downloading https://files.pythonhosted.org/packages/35/c1/82901825af43b6fa17ac2cf2dd4a514561492a57b7a5a784ffd4dd993096/jobspire_nitra-0.1.7.tar.gz
+[2023-05-10 14:12:43] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-10 14:12:43] INFO root fetch - processPackages [jobspire-nitra]: Downloading https://files.pythonhosted.org/packages/59/56/f7869a153d5ae47b7da2ae9aff01df03fc13d33da30560ada580dbdb621e/jobspire_nitra-0.1.8.tar.gz
+[2023-05-10 14:12:43] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-10 14:12:43] INFO root fetch - processPackages [jobspire-nitra]: executing diffoscope
+[2023-05-10 14:12:43] INFO root fetch - processPackages [jobspire-nitra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jobspire_nitra-0.1.7.tar.gz tmp/jobspire_nitra-0.1.8.tar.gz --markdown 20230510/j/jobspire-nitra/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 14:12:43] INFO root fetch - main [MainThread]: End processing [vantage6-node]: success
+[2023-05-10 14:12:44] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-10 14:12:44] INFO root fetch - main [MainThread]: End processing [jobspire-nitra]: success
+[2023-05-10 14:12:45] INFO root fetch - main [MainThread]: End processing [vantage6-server]: success
+[2023-05-10 14:12:45] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-05-10 14:12:49] INFO root fetch - main [MainThread]: End processing [moralis]: success
+[2023-05-10 14:12:49] INFO root fetch - main [MainThread]: Store serial: [18046874]
