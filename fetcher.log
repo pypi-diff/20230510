@@ -7772,3 +7772,68 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [ezq]: success
 [2023-05-10 06:14:41] INFO root fetch - main [MainThread]: End processing [pyproc]: success
 [2023-05-10 06:14:41] INFO root fetch - main [MainThread]: Store serial: [18042198]
+[2023-05-10 06:19:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042198]
+[2023-05-10 06:19:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: VirxERLU-RLib
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver-files-aws-s3
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-delivery-carrier-deposit
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arkdata
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-base-delivery-carrier-label
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: uniques
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jcmutils
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: picopt
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hexwatershed
+[2023-05-10 06:19:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bytetrade-recommend-model-sdk
+[2023-05-10 06:19:50] INFO root fetch - processPackages [VirxERLU-RLib]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [heaserver-files-aws-s3]: New version: [1.0.0a9] Old Version: [1.0.0a8]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [odoo9-addon-base-delivery-carrier-label]: New version: [9.0.1.0.1.99.dev9] Old Version: [9.0.1.0.1.99.dev8]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [jcmutils]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-10 06:19:50] WARNING root fetch - processPackages [uniques]: Skipping, unable to determine old version
+[2023-05-10 06:19:50] INFO root fetch - processPackages [uniques]: Start processing: seeq-mps
+[2023-05-10 06:19:50] INFO root fetch - main [MainThread]: End processing [uniques] error
+[2023-05-10 06:19:50] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: New version: [9.0.0.1.1.99.dev8] Old Version: [9.0.0.1.1.99.dev7]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [picopt]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-10 06:19:50] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 06:19:50] WARNING root fetch - processPackages [bytetrade-recommend-model-sdk]: Skipping, unable to determine old version
+[2023-05-10 06:19:50] INFO root fetch - main [MainThread]: End processing [bytetrade-recommend-model-sdk] error
+[2023-05-10 06:19:50] INFO root fetch - processPackages [seeq-mps]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-10 06:19:51] INFO root fetch - processPackages [jcmutils]: Downloading https://files.pythonhosted.org/packages/da/85/c38d51ce3d51584dd92acde66b5c88d0fecf0ff8031defe608b02f373d1c/jcmutils-1.4.1.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [heaserver-files-aws-s3]: Downloading https://files.pythonhosted.org/packages/4b/9b/73f33a94f4aff25bff8a0100e7c9f7d239d27c6bb47e91c553f03fccfde2/heaserver-files-aws-s3-1.0.0a8.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [VirxERLU-RLib]: Downloading https://files.pythonhosted.org/packages/0a/38/2c3154a4af0664d7354abf3c784988fb4b24a6ea4c72220ce4139c5a7c39/VirxERLU_RLib-1.1.0.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [picopt]: Downloading https://files.pythonhosted.org/packages/a5/42/82041a1949507cc1bd4c034a0e0a9c62a8a0570a1cb13855626330cf85ea/picopt-3.3.1.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/f1/b9/5aff71a9ce224e5338ab5421e777f488be2c7fd8c1a563adc3baf6b474c2/hexwatershed-0.2.8.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [odoo9-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/ce/d4/cbae8fccdc756584bb0c94dfb31c08189f06935239b637e27632845a0f74/odoo9_addon_base_delivery_carrier_label-9.0.1.0.1.99.dev8-py2-none-any.whl
+[2023-05-10 06:19:51] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/1c/8e/f92f52f9d99d66528498e7a68e6068e8e5eeb3510d4b7d971ea5d8133d1f/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev7-py2-none-any.whl
+[2023-05-10 06:19:51] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-10 06:19:51] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230510/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:19:51] WARNING root fetch - processPackages [heaserver-files-aws-s3]: Skipping package: exceeds size limit 18398734>=10485760
+[2023-05-10 06:19:51] INFO root fetch - main [MainThread]: End processing [heaserver-files-aws-s3] error
+[2023-05-10 06:19:51] INFO root fetch - processPackages [jcmutils]: executing diffoscope
+[2023-05-10 06:19:51] INFO root fetch - processPackages [jcmutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jcmutils-1.4.0.tar.gz tmp/jcmutils-1.4.1.tar.gz --markdown 20230510/j/jcmutils/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-10 06:19:51] INFO root fetch - processPackages [seeq-mps]: Downloading https://files.pythonhosted.org/packages/72/cd/f1711ec2899a746b58c7a6581a38d5ecc8453dfbf17600640e466214de8c/seeq_mps-0.3.3-py3-none-any.whl
+[2023-05-10 06:19:51] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-10 06:19:51] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.7.tar.gz tmp/hexwatershed-0.2.8.tar.gz --markdown 20230510/h/hexwatershed/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 06:19:51] INFO root fetch - processPackages [VirxERLU-RLib]: Downloading https://files.pythonhosted.org/packages/41/c6/104393acbfd5803bbea4fc38930bcd9c1feb8b433c529cb0870b4ddcf7b4/VirxERLU_RLib-1.1.1.tar.gz
+[2023-05-10 06:19:51] INFO root fetch - processPackages [seeq-mps]: Downloading https://files.pythonhosted.org/packages/fa/02/fa8c7c58ac69855c81b018b182593e5bfb64c7ef732a0dfbf3778f0d80bb/seeq_mps-0.3.4-py3-none-any.whl
+[2023-05-10 06:19:51] INFO root fetch - processPackages [VirxERLU-RLib]: executing diffoscope
+[2023-05-10 06:19:51] INFO root fetch - processPackages [VirxERLU-RLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/VirxERLU_RLib-1.1.0.tar.gz tmp/VirxERLU_RLib-1.1.1.tar.gz --markdown 20230510/V/VirxERLU-RLib/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 06:19:51] INFO root fetch - processPackages [seeq-mps]: executing diffoscope
+[2023-05-10 06:19:51] INFO root fetch - processPackages [seeq-mps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq_mps-0.3.3-py3-none-any.whl.zip tmp/seeq_mps-0.3.4-py3-none-any.whl.zip --markdown 20230510/s/seeq-mps/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-10 06:19:51] INFO root fetch - processPackages [odoo9-addon-base-delivery-carrier-label]: Downloading https://files.pythonhosted.org/packages/2e/d3/336fafc68e8c473043ef0ea68d574654d5fae7aac85d8a496d6a86c44476/odoo9_addon_base_delivery_carrier_label-9.0.1.0.1.99.dev9-py2-none-any.whl
+[2023-05-10 06:19:51] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: Downloading https://files.pythonhosted.org/packages/18/7f/4b30a9a24843dda2982169bf12d17f1c84cd60bf09d832ba25a7bb37bd38/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl
+[2023-05-10 06:19:52] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: executing diffoscope
+[2023-05-10 06:19:52] INFO root fetch - processPackages [odoo9-addon-delivery-carrier-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_delivery_carrier_deposit-9.0.0.1.1.99.dev8-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-delivery-carrier-deposit/9.0.0.1.1.99.dev7-9.0.0.1.1.99.dev8/diff.md --exclude *.pyd
+[2023-05-10 06:19:52] INFO root fetch - processPackages [picopt]: executing diffoscope
+[2023-05-10 06:19:52] INFO root fetch - processPackages [picopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopt-3.3.0.tar.gz tmp/picopt-3.3.1.tar.gz --markdown 20230510/p/picopt/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-05-10 06:19:52] INFO root fetch - main [MainThread]: End processing [jcmutils]: success
+[2023-05-10 06:19:52] INFO root fetch - processPackages [odoo9-addon-base-delivery-carrier-label]: executing diffoscope
+[2023-05-10 06:19:52] INFO root fetch - processPackages [odoo9-addon-base-delivery-carrier-label]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_base_delivery_carrier_label-9.0.1.0.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_base_delivery_carrier_label-9.0.1.0.1.99.dev9-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-base-delivery-carrier-label/9.0.1.0.1.99.dev8-9.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 06:19:52] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-10 06:19:52] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-10 06:19:52] INFO root fetch - main [MainThread]: End processing [seeq-mps]: success
+[2023-05-10 06:19:52] INFO root fetch - main [MainThread]: End processing [VirxERLU-RLib]: success
+[2023-05-10 06:19:53] INFO root fetch - main [MainThread]: End processing [odoo9-addon-delivery-carrier-deposit]: success
+[2023-05-10 06:19:54] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-delivery-carrier-label]: success
+[2023-05-10 06:19:55] INFO root fetch - main [MainThread]: End processing [picopt]: success
+[2023-05-10 06:19:55] INFO root fetch - main [MainThread]: Store serial: [18042231]
