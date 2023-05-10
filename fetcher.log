@@ -15416,3 +15416,53 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 13:51:30] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
 [2023-05-10 13:51:32] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-10 13:51:32] INFO root fetch - main [MainThread]: Store serial: [18046640]
+[2023-05-10 13:56:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046640]
+[2023-05-10 13:56:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nucliadb-contributor-assets
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: virgoSuite
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyroFork-dev
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RoboArt
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: webscrapbook
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: logmaster
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: claws
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flaks-setup
+[2023-05-10 13:56:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bhv
+[2023-05-10 13:56:43] WARNING root fetch - processPackages [RoboArt]: Skipping, unable to determine old version
+[2023-05-10 13:56:43] INFO root fetch - main [MainThread]: End processing [RoboArt] error
+[2023-05-10 13:56:43] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.6.dev202305101150] Old Version: [2.1.6.dev202305101127]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [flaks-setup]: New version: [0.5] Old Version: [0.3]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [claws]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [virgoSuite]: New version: [0.5] Old Version: [0.0.1]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [flaks-setup]: executing diffoscope
+[2023-05-10 13:56:43] INFO root fetch - processPackages [flaks-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks_setup-0.3.tar.gz tmp/flaks_setup-0.5.tar.gz --markdown 20230510/f/flaks-setup/0.3-0.5/diff.md --exclude *.pyd
+[2023-05-10 13:56:43] WARNING root fetch - processPackages [logmaster]: Skipping, unable to determine old version
+[2023-05-10 13:56:43] INFO root fetch - processPackages [claws]: executing diffoscope
+[2023-05-10 13:56:43] INFO root fetch - main [MainThread]: End processing [logmaster] error
+[2023-05-10 13:56:43] INFO root fetch - processPackages [claws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/claws-0.0.8.tar.gz tmp/claws-0.0.9.tar.gz --markdown 20230510/c/claws/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 13:56:43] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post760] Old Version: [1.0.0.post758]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [webscrapbook]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [bhv]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 13:56:43] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/3a/73/a898704123fcbf90565475ba41f34a2b17afe850deef90eac58503428e99/PyroFork-dev-2.1.6.dev202305101150.tar.gz
+[2023-05-10 13:56:43] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/ae/e4/754882f70a9b0782e1235e2d95ec50431fe53b5a6009d12c10e68cf8c444/nucliadb_contributor_assets-1.0.0.post758-py3-none-any.whl
+[2023-05-10 13:56:43] INFO root fetch - processPackages [virgoSuite]: Downloading https://files.pythonhosted.org/packages/43/ff/f2c06ac078076fffb26ee48958c0bd695c5999c3af7c01708791488588a4/virgoSuite-0.0.1-py3-none-any.whl
+[2023-05-10 13:56:43] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-10 13:56:43] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202305101127.tar.gz tmp/PyroFork-dev-2.1.6.dev202305101150.tar.gz --markdown 20230510/P/PyroFork-dev/2.1.6.dev202305101127-2.1.6.dev202305101150/diff.md --exclude *.pyd
+[2023-05-10 13:56:44] INFO root fetch - processPackages [webscrapbook]: executing diffoscope
+[2023-05-10 13:56:44] INFO root fetch - processPackages [webscrapbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscrapbook-1.8.3.tar.gz tmp/webscrapbook-1.9.0.tar.gz --markdown 20230510/w/webscrapbook/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 13:56:44] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/c6/3b/3bdc928ec0ab386c0991e053bdd1c7fcf019b3c9e5696a5a0a3551fa4917/bhv-0.2.9.tar.gz
+[2023-05-10 13:56:44] INFO root fetch - processPackages [virgoSuite]: Downloading https://files.pythonhosted.org/packages/99/e0/b85a5c4847e2bb554246ab1d260f3ea12c66e648b114341fb670475a005d/virgoSuite-0.5.tar.gz
+[2023-05-10 13:56:44] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-05-10 13:56:44] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.2.8.tar.gz tmp/bhv-0.2.9.tar.gz --markdown 20230510/b/bhv/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 13:56:44] INFO root fetch - processPackages [virgoSuite]: executing diffoscope
+[2023-05-10 13:56:44] INFO root fetch - processPackages [virgoSuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgoSuite-0.0.1-py3-none-any.whl.zip tmp/virgoSuite-0.5.tar.gz --markdown 20230510/v/virgoSuite/0.0.1-0.5/diff.md --exclude *.pyd
+[2023-05-10 13:56:44] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/75/fb/01fd8d11611a96cd5c8a60dd012148c95d2d9cca733d830ec90148847e7f/nucliadb_contributor_assets-1.0.0.post760-py3-none-any.whl
+[2023-05-10 13:56:44] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-10 13:56:44] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post758-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post760-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-contributor-assets/1.0.0.post758-1.0.0.post760/diff.md --exclude *.pyd
+[2023-05-10 13:56:44] INFO root fetch - main [MainThread]: End processing [flaks-setup]: success
+[2023-05-10 13:56:44] INFO root fetch - main [MainThread]: End processing [claws]: success
+[2023-05-10 13:56:45] INFO root fetch - main [MainThread]: End processing [virgoSuite]: success
+[2023-05-10 13:56:45] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-05-10 13:56:47] INFO root fetch - main [MainThread]: End processing [webscrapbook]: success
+[2023-05-10 13:56:47] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-10 13:56:48] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-10 13:56:48] INFO root fetch - main [MainThread]: Store serial: [18046679]
