@@ -21445,3 +21445,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:39:52] INFO root fetch - main [MainThread]: End processing [uidom]: success
 [2023-05-10 18:39:55] INFO root fetch - main [MainThread]: End processing [datamodel-code-generator]: success
 [2023-05-10 18:39:55] INFO root fetch - main [MainThread]: Store serial: [18050067]
+[2023-05-10 18:45:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050067]
+[2023-05-10 18:45:04] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flarespy
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: venv-modulefile
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: domolibrary
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shimmerdrift
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: yutto
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-block-model-field
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: colesbury-c-extension
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gleaner
+[2023-05-10 18:45:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wagtail-content-block
+[2023-05-10 18:45:05] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 18:45:05] WARNING root fetch - processPackages [wagtail-block-model-field]: Skipping, unable to determine old version
+[2023-05-10 18:45:05] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [wagtail-block-model-field]: Start processing: rasa
+[2023-05-10 18:45:05] INFO root fetch - main [MainThread]: End processing [wagtail-block-model-field] error
+[2023-05-10 18:45:05] INFO root fetch - processPackages [rasa]: New version: [3.5.7] Old Version: [3.5.6]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 18:45:05] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] WARNING root fetch - processPackages [gleaner]: Skipping, unable to determine old version
+[2023-05-10 18:45:05] INFO root fetch - processPackages [gleaner]: Start processing: myUniquePythonPackageName
+[2023-05-10 18:45:05] INFO root fetch - main [MainThread]: End processing [gleaner] error
+[2023-05-10 18:45:05] WARNING root fetch - processPackages [wagtail-content-block]: Skipping, unable to determine old version
+[2023-05-10 18:45:05] INFO root fetch - processPackages [wagtail-content-block]: Start processing: pear-xai
+[2023-05-10 18:45:05] INFO root fetch - main [MainThread]: End processing [wagtail-content-block] error
+[2023-05-10 18:45:05] WARNING root fetch - processPackages [shimmerdrift]: Skipping, unable to determine old version
+[2023-05-10 18:45:05] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 18:45:05] WARNING root fetch - processPackages [colesbury-c-extension]: Skipping, unable to determine old version
+[2023-05-10 18:45:05] INFO root fetch - processPackages [shimmerdrift]: Start processing: jarvis-ui
+[2023-05-10 18:45:05] INFO root fetch - main [MainThread]: End processing [shimmerdrift] error
+[2023-05-10 18:45:05] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.5.tar.gz tmp/PatryksAutoAI-0.0.6.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] INFO root fetch - main [MainThread]: End processing [colesbury-c-extension] error
+[2023-05-10 18:45:05] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-10 18:45:05] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230510/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] INFO root fetch - processPackages [yutto]: New version: [2.0.0b9] Old Version: [2.0.0b8]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [rasa]: executing diffoscope
+[2023-05-10 18:45:05] INFO root fetch - processPackages [rasa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rasa-3.5.6.tar.gz tmp/rasa-3.5.7.tar.gz --markdown 20230510/r/rasa/3.5.6-3.5.7/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [pear-xai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-10 18:45:05] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230510/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] INFO root fetch - processPackages [jarvis-ui]: New version: [1.1] Old Version: [1.0]
+[2023-05-10 18:45:05] INFO root fetch - processPackages [yutto]: Downloading https://files.pythonhosted.org/packages/d4/82/afc8ceecddf536999aae2b829c18ee41e41e7f2ca51c51e1f0435f005ea2/yutto-2.0.0b8.tar.gz
+[2023-05-10 18:45:05] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/c9/a2/c169e0e9dcf641bb0000e905400ee21c9ca4502d446537e42c764f70bf36/pear-xai-0.0.8.tar.gz
+[2023-05-10 18:45:05] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-10 18:45:05] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230510/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-10 18:45:05] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/57/b5/75937b8b1fb61189818096e328e671684f8adfa8810d56a471b624ea0507/jarvis_ui-1.0-py3-none-any.whl
+[2023-05-10 18:45:05] INFO root fetch - processPackages [jarvis-ui]: Downloading https://files.pythonhosted.org/packages/81/99/bcb51d8efc131adf631c469d9e0778a92f1835c7659a3c1ac9d8b8ede8ff/jarvis_ui-1.1-py3-none-any.whl
+[2023-05-10 18:45:06] INFO root fetch - processPackages [yutto]: Downloading https://files.pythonhosted.org/packages/cf/2d/5f85c6e137c3e526cd1fd5e829320295112a8a5dde8e96c21333e0666f73/yutto-2.0.0b9.tar.gz
+[2023-05-10 18:45:06] INFO root fetch - processPackages [pear-xai]: Downloading https://files.pythonhosted.org/packages/d9/83/588f5c6b263730abc3c76beb166e6086aa0da62bea938f037ff47e3b488f/pear-xai-0.0.9.tar.gz
+[2023-05-10 18:45:06] INFO root fetch - processPackages [jarvis-ui]: executing diffoscope
+[2023-05-10 18:45:06] INFO root fetch - processPackages [jarvis-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jarvis_ui-1.0-py3-none-any.whl.zip tmp/jarvis_ui-1.1-py3-none-any.whl.zip --markdown 20230510/j/jarvis-ui/1.0-1.1/diff.md --exclude *.pyd
+[2023-05-10 18:45:06] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 18:45:06] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 18:45:06] INFO root fetch - processPackages [yutto]: executing diffoscope
+[2023-05-10 18:45:06] INFO root fetch - processPackages [yutto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yutto-2.0.0b8.tar.gz tmp/yutto-2.0.0b9.tar.gz --markdown 20230510/y/yutto/2.0.0b8-2.0.0b9/diff.md --exclude *.pyd
+[2023-05-10 18:45:06] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-10 18:45:06] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-10 18:45:06] INFO root fetch - processPackages [pear-xai]: executing diffoscope
+[2023-05-10 18:45:06] INFO root fetch - processPackages [pear-xai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pear-xai-0.0.8.tar.gz tmp/pear-xai-0.0.9.tar.gz --markdown 20230510/p/pear-xai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:45:07] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-10 18:45:07] INFO root fetch - main [MainThread]: End processing [yutto]: success
+[2023-05-10 18:45:08] INFO root fetch - main [MainThread]: End processing [jarvis-ui]: success
+[2023-05-10 18:45:09] INFO root fetch - main [MainThread]: End processing [pear-xai]: success
+[2023-05-10 18:45:10] INFO root fetch - main [MainThread]: End processing [rasa]: success
+[2023-05-10 18:45:10] INFO root fetch - main [MainThread]: Store serial: [18050116]
