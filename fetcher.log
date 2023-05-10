@@ -7932,3 +7932,40 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:30:22] INFO root fetch - main [MainThread]: End processing [arkdata]: success
 [2023-05-10 06:30:23] INFO root fetch - main [MainThread]: End processing [oloren]: success
 [2023-05-10 06:30:23] INFO root fetch - main [MainThread]: Store serial: [18042312]
+[2023-05-10 06:35:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042312]
+[2023-05-10 06:35:32] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arthub-api
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dogfood-logger
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocodeus
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-event-session
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spec-pilot
+[2023-05-10 06:35:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-fieldservice
+[2023-05-10 06:35:32] INFO root fetch - processPackages [spec-pilot]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [arthub-api]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [dogfood-logger]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [odoo14-addon-event-session]: New version: [14.0.1.0.2.dev8] Old Version: [14.0.1.0.2.dev7]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [spec-pilot]: executing diffoscope
+[2023-05-10 06:35:32] INFO root fetch - processPackages [spec-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec-pilot-0.3.1.tar.gz tmp/spec-pilot-0.3.2.tar.gz --markdown 20230510/s/spec-pilot/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 06:35:32] INFO root fetch - processPackages [odoo12-addon-fieldservice]: New version: [12.0.2.9.0.99.dev1] Old Version: [12.0.2.9.0]
+[2023-05-10 06:35:32] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 06:35:32] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 06:35:32] INFO root fetch - processPackages [dogfood-logger]: executing diffoscope
+[2023-05-10 06:35:32] INFO root fetch - processPackages [dogfood-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogfood_logger-0.1.4.tar.gz tmp/dogfood_logger-0.1.5.tar.gz --markdown 20230510/d/dogfood-logger/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-10 06:35:32] INFO root fetch - processPackages [odoo14-addon-event-session]: Downloading https://files.pythonhosted.org/packages/69/22/4fc10ae2768c279c52310ae27b4cf8860fbddc9248be45bc15afb4fc47f8/odoo14_addon_event_session-14.0.1.0.2.dev7-py3-none-any.whl
+[2023-05-10 06:35:32] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/6e/d9/491d315bbcae1bc30b657dcff85a22fcdeb0f4bf5a59899db786b40c98e2/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl
+[2023-05-10 06:35:32] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-10 06:35:32] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.5.2.tar.gz tmp/arthub_api-1.6.0.tar.gz --markdown 20230510/a/arthub-api/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo12-addon-fieldservice]: Downloading https://files.pythonhosted.org/packages/0d/99/9c12b1b3a9373eb6b44ae076eab5c1e08eb41838fbbc86eac1f9ac99f83f/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo14-addon-event-session]: Downloading https://files.pythonhosted.org/packages/bc/3b/3e8c2f22d4994541c903d201fcd0ee7d27ffd4ea20718fba8732c0475b45/odoo14_addon_event_session-14.0.1.0.2.dev8-py3-none-any.whl
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo12-addon-fieldservice]: executing diffoscope
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo12-addon-fieldservice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_fieldservice-12.0.2.9.0-py3-none-any.whl.zip tmp/odoo12_addon_fieldservice-12.0.2.9.0.99.dev1-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-fieldservice/12.0.2.9.0-12.0.2.9.0.99.dev1/diff.md --exclude *.pyd
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo14-addon-event-session]: executing diffoscope
+[2023-05-10 06:35:33] INFO root fetch - processPackages [odoo14-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_event_session-14.0.1.0.2.dev7-py3-none-any.whl.zip tmp/odoo14_addon_event_session-14.0.1.0.2.dev8-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-event-session/14.0.1.0.2.dev7-14.0.1.0.2.dev8/diff.md --exclude *.pyd
+[2023-05-10 06:35:33] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 06:35:33] INFO root fetch - main [MainThread]: End processing [spec-pilot]: success
+[2023-05-10 06:35:33] INFO root fetch - main [MainThread]: End processing [dogfood-logger]: success
+[2023-05-10 06:35:34] INFO root fetch - main [MainThread]: End processing [odoo14-addon-event-session]: success
+[2023-05-10 06:35:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-fieldservice]: success
+[2023-05-10 06:35:35] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-10 06:35:35] INFO root fetch - main [MainThread]: Store serial: [18042329]
