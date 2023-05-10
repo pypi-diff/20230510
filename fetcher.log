@@ -13006,3 +13006,125 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:41:12] INFO root fetch - main [MainThread]: End processing [amici]: success
 [2023-05-10 11:41:34] INFO root fetch - main [MainThread]: End processing [hget]: success
 [2023-05-10 11:41:34] INFO root fetch - main [MainThread]: Store serial: [18044997]
+[2023-05-10 11:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044997]
+[2023-05-10 11:46:43] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: raga-cli
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oxalis
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afex-sso
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: garpix-company
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kaiko-research
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: glean-sdk
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: probabilistic-word-embeddings
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gitlint-core
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitlint
+[2023-05-10 11:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xiaoranli
+[2023-05-10 11:46:43] INFO root fetch - processPackages [raga-cli]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [afex-sso]: New version: [0.0.5] Old Version: [0.0.43]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [probabilistic-word-embeddings]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [garpix-company]: New version: [2.7.2] Old Version: [2.7.1]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [xiaoranli]: New version: [6.1.0] Old Version: [6.0.1]
+[2023-05-10 11:46:43] ERROR root fetch - processPackages [kaiko-research]: Unable to get metadata: No such project 'kaiko-research'
+[2023-05-10 11:46:43] INFO root fetch - processPackages [kaiko-research]: Start processing: chatplayground
+[2023-05-10 11:46:43] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 11:46:43] INFO root fetch - processPackages [oxalis]: New version: [0.6.0] Old Version: [0.5.9]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [glean-sdk]: New version: [52.7.0] Old Version: [52.6.0]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [chatplayground]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230510/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230510/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-05-10 11:46:43] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/ab/74/5dc59af1d61adc8425e4069661afae2810e1b617c88876ab8ac203cf0e14/probabilistic_word_embeddings-1.3.1.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/6c/27/913c6e292a9ab8d698b6a46f0c21d31a22daa7e881a69c36ca80763ebfc1/xiaoranli-6.0.1-py3-none-any.whl
+[2023-05-10 11:46:43] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/ca/68/2aba30a4f809a2daf08f36b62868d594aa1c5957ba6e3158adbe69e464bb/garpix_company-2.7.1.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [chatplayground]: Downloading https://files.pythonhosted.org/packages/62/13/a3fde5501ec4b0bfb3c5d568a951d0d310c029f601527e228910e642a390/chatplayground-1.1.1.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/00/9d/d0a7503fd2cc3d70c8628749933179914e84f1fbe347148f93a01ee0b7a9/glean-sdk-52.6.0.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [chatplayground]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [chatplayground]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chatplayground-1.1.0.tar.gz tmp/chatplayground-1.1.1.tar.gz --markdown 20230510/c/chatplayground/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 11:46:43] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/94/aa/3615ce519669ae217aa0b3050f6e1fd670efeeb70678c4fc5de335a8d309/afex-sso-0.0.5.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/11/57/ed2bc033f9d82f23317741f700be789ce07cdf550a75c0b9db28b33a0cff/oxalis-0.6.0.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [raga-cli]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [raga-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raga-cli-0.1.8.tar.gz tmp/raga-cli-0.1.9.tar.gz --markdown 20230510/r/raga-cli/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:46:43] INFO root fetch - processPackages [probabilistic-word-embeddings]: Downloading https://files.pythonhosted.org/packages/b3/eb/aa0818bcdd242bfb770eae4a050b8ff683ac44638ea02a763c9a3f142147/probabilistic_word_embeddings-1.4.0.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [garpix-company]: Downloading https://files.pythonhosted.org/packages/ff/8a/a9150816b2d0339bb6425c681add3028f7986bcfabdbe8d10a97ad007404/garpix_company-2.7.2.tar.gz
+[2023-05-10 11:46:43] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.43.tar.gz tmp/afex-sso-0.0.5.tar.gz --markdown 20230510/a/afex-sso/0.0.43-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 11:46:43] INFO root fetch - processPackages [xiaoranli]: Downloading https://files.pythonhosted.org/packages/81/ad/b390a9f9120415bdbd4598786458675f261e5d0ab88d4793409ffb8db759/xiaoranli-6.1.0-py3-none-any.whl
+[2023-05-10 11:46:43] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-05-10 11:46:43] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.9.tar.gz tmp/oxalis-0.6.0.tar.gz --markdown 20230510/o/oxalis/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:44] INFO root fetch - processPackages [garpix-company]: executing diffoscope
+[2023-05-10 11:46:44] INFO root fetch - processPackages [garpix-company]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_company-2.7.1.tar.gz tmp/garpix_company-2.7.2.tar.gz --markdown 20230510/g/garpix-company/2.7.1-2.7.2/diff.md --exclude *.pyd
+[2023-05-10 11:46:44] INFO root fetch - processPackages [xiaoranli]: executing diffoscope
+[2023-05-10 11:46:44] INFO root fetch - processPackages [xiaoranli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xiaoranli-6.0.1-py3-none-any.whl.zip tmp/xiaoranli-6.1.0-py3-none-any.whl.zip --markdown 20230510/x/xiaoranli/6.0.1-6.1.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:44] INFO root fetch - processPackages [glean-sdk]: Downloading https://files.pythonhosted.org/packages/de/b5/b96e6429b665e915d031eff8d8fee1e7805cc416d002f947e639c679c454/glean-sdk-52.7.0.tar.gz
+[2023-05-10 11:46:44] INFO root fetch - processPackages [probabilistic-word-embeddings]: executing diffoscope
+[2023-05-10 11:46:44] INFO root fetch - processPackages [probabilistic-word-embeddings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probabilistic_word_embeddings-1.3.1.tar.gz tmp/probabilistic_word_embeddings-1.4.0.tar.gz --markdown 20230510/p/probabilistic-word-embeddings/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:44] INFO root fetch - processPackages [glean-sdk]: executing diffoscope
+[2023-05-10 11:46:44] INFO root fetch - processPackages [glean-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glean-sdk-52.6.0.tar.gz tmp/glean-sdk-52.7.0.tar.gz --markdown 20230510/g/glean-sdk/52.6.0-52.7.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:45] INFO root fetch - processPackages [afex-sso]: Start processing: NanoRepeat
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-05-10 11:46:45] WARNING root fetch - processPackages [NanoRepeat]: Skipping, unable to determine old version
+[2023-05-10 11:46:45] INFO root fetch - processPackages [NanoRepeat]: Start processing: dftrans
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [NanoRepeat] error
+[2023-05-10 11:46:45] INFO root fetch - processPackages [dftrans]: New version: [2.0.2.3] Old Version: [2.0.2.2]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [raga-cli]: Start processing: sensorbucket
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [raga-cli]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [sensorbucket]: New version: [1.0.0] Old Version: [0.2.0]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [gitlint]: Start processing: lk-logger
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [lk-logger]: New version: [5.5.0] Old Version: [5.4.9]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [oxalis]: Start processing: netdoc
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/af/01/cd5692e7ceea6e5f6c07b1469db0180385b2f7037d6e1b8a15b3abb288b4/dftrans-2.0.2.3.tar.gz
+[2023-05-10 11:46:45] INFO root fetch - processPackages [netdoc]: New version: [0.9.64] Old Version: [0.9.63]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [xiaoranli]: Start processing: akshare
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [xiaoranli]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [sensorbucket]: Downloading https://files.pythonhosted.org/packages/96/16/41e8d81359377d674f6528633072db57581536b91999609839242104022c/sensorbucket-0.2.0.tar.gz
+[2023-05-10 11:46:45] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/90/d0/337ac51b6b36e27cce32d840a04c35d48a88064a6268eed8e2d31ff496e8/lk_logger-5.4.9-py3-none-any.whl
+[2023-05-10 11:46:45] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/93/a6/61440f17b7ae2a73d28d0138a5e5aac28e772d1c667f7ec37e0a71346424/netdoc-0.9.63.tar.gz
+[2023-05-10 11:46:45] INFO root fetch - processPackages [probabilistic-word-embeddings]: Start processing: edk2-basetools
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [probabilistic-word-embeddings]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [dftrans]: executing diffoscope
+[2023-05-10 11:46:45] INFO root fetch - processPackages [dftrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftrans-2.0.2.2.tar.gz tmp/dftrans-2.0.2.3.tar.gz --markdown 20230510/d/dftrans/2.0.2.2-2.0.2.3/diff.md --exclude *.pyd
+[2023-05-10 11:46:45] INFO root fetch - processPackages [edk2-basetools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-10 11:46:45] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230510/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-10 11:46:45] INFO root fetch - processPackages [gitlint-core]: Start processing: navalmartin-mir-vision-utils
+[2023-05-10 11:46:45] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-05-10 11:46:45] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:46:45] INFO root fetch - processPackages [lk-logger]: Downloading https://files.pythonhosted.org/packages/3d/e6/d2c93203c71103b208f9b1e0c12e635091bd72a43a1bbd618033e366ebca/lk_logger-5.5.0-py3-none-any.whl
+[2023-05-10 11:46:46] INFO root fetch - processPackages [edk2-basetools]: Downloading https://files.pythonhosted.org/packages/b5/d4/2916c3fc2362d4fafc530b2218781c6c7d46a5fa00cc43e9aee699fdd901/edk2-basetools-0.1.8.tar.gz
+[2023-05-10 11:46:46] INFO root fetch - processPackages [sensorbucket]: Downloading https://files.pythonhosted.org/packages/70/04/a30bdbb78b0348e5af89fe84437896cbd4cf34937d7b5521cebb8c7232ab/sensorbucket-1.0.0.tar.gz
+[2023-05-10 11:46:46] INFO root fetch - processPackages [chatplayground]: Start processing: chatGPTKS
+[2023-05-10 11:46:46] INFO root fetch - main [MainThread]: End processing [chatplayground]: success
+[2023-05-10 11:46:46] INFO root fetch - processPackages [netdoc]: Downloading https://files.pythonhosted.org/packages/c5/81/992a2922d15fcb8b172605e3638dc7443f0ef8e08f7d3d67049ff894a691/netdoc-0.9.64.tar.gz
+[2023-05-10 11:46:46] INFO root fetch - processPackages [lk-logger]: executing diffoscope
+[2023-05-10 11:46:46] INFO root fetch - processPackages [lk-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lk_logger-5.4.9-py3-none-any.whl.zip tmp/lk_logger-5.5.0-py3-none-any.whl.zip --markdown 20230510/l/lk-logger/5.4.9-5.5.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:46] INFO root fetch - processPackages [garpix-company]: Start processing: javonet-python-sdk
+[2023-05-10 11:46:46] INFO root fetch - main [MainThread]: End processing [garpix-company]: success
+[2023-05-10 11:46:46] INFO root fetch - processPackages [sensorbucket]: executing diffoscope
+[2023-05-10 11:46:46] INFO root fetch - processPackages [sensorbucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sensorbucket-0.2.0.tar.gz tmp/sensorbucket-1.0.0.tar.gz --markdown 20230510/s/sensorbucket/0.2.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 11:46:46] WARNING root fetch - processPackages [chatGPTKS]: Skipping, unable to determine old version
+[2023-05-10 11:46:46] INFO root fetch - main [MainThread]: End processing [chatGPTKS] error
+[2023-05-10 11:46:46] INFO root fetch - processPackages [netdoc]: executing diffoscope
+[2023-05-10 11:46:46] INFO root fetch - processPackages [netdoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netdoc-0.9.63.tar.gz tmp/netdoc-0.9.64.tar.gz --markdown 20230510/n/netdoc/0.9.63-0.9.64/diff.md --exclude *.pyd
+[2023-05-10 11:46:46] INFO root fetch - processPackages [javonet-python-sdk]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-10 11:46:46] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: executing diffoscope
+[2023-05-10 11:46:46] INFO root fetch - processPackages [navalmartin-mir-vision-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navalmartin_mir_vision_utils-0.0.8.tar.gz tmp/navalmartin_mir_vision_utils-0.0.9.tar.gz --markdown 20230510/n/navalmartin-mir-vision-utils/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:46:46] INFO root fetch - processPackages [javonet-python-sdk]: Downloading https://files.pythonhosted.org/packages/96/b0/162a39c2dcd91f8f107525b364e4d7c0555b26ccab0ee88dd04539aec97b/javonet_python_sdk-2.1.1-py3-none-any.whl
+[2023-05-10 11:46:46] WARNING root fetch - processPackages [javonet-python-sdk]: Skipping package: exceeds size limit 91129206>=10485760
+[2023-05-10 11:46:46] INFO root fetch - main [MainThread]: End processing [javonet-python-sdk] error
+[2023-05-10 11:46:46] INFO root fetch - processPackages [edk2-basetools]: Downloading https://files.pythonhosted.org/packages/e6/cf/c283d30ff414e506cfa154274e9f0ceba80634686f0295b604fb43911c40/edk2-basetools-0.1.9.tar.gz
+[2023-05-10 11:46:47] INFO root fetch - main [MainThread]: End processing [dftrans]: success
+[2023-05-10 11:46:47] INFO root fetch - main [MainThread]: End processing [lk-logger]: success
+[2023-05-10 11:46:47] INFO root fetch - processPackages [edk2-basetools]: executing diffoscope
+[2023-05-10 11:46:47] INFO root fetch - processPackages [edk2-basetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-basetools-0.1.8.tar.gz tmp/edk2-basetools-0.1.9.tar.gz --markdown 20230510/e/edk2-basetools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:46:47] INFO root fetch - main [MainThread]: End processing [sensorbucket]: success
+[2023-05-10 11:46:48] INFO root fetch - main [MainThread]: End processing [netdoc]: success
+[2023-05-10 11:46:48] INFO root fetch - main [MainThread]: End processing [navalmartin-mir-vision-utils]: success
+[2023-05-10 11:46:49] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-10 11:46:50] INFO root fetch - main [MainThread]: End processing [edk2-basetools]: success
+[2023-05-10 11:46:55] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
+[2023-05-10 11:46:55] INFO root fetch - main [MainThread]: Store serial: [18045068]
