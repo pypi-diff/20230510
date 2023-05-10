@@ -7536,3 +7536,92 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:53:42] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
 [2023-05-10 05:53:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
 [2023-05-10 05:53:50] INFO root fetch - main [MainThread]: Store serial: [18042068]
+[2023-05-10 05:58:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042068]
+[2023-05-10 05:59:00] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fyers-token-manager-v2
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hoyo-daily-logins-helper
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ml-starter
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-shopify-app
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dogfood-logger
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: je-editor
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: je-editor-dev
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyhalo
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: just-time
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zep-python
+[2023-05-10 05:59:00] INFO root fetch - processPackages [ml-starter]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [dogfood-logger]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [django-shopify-app]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [je-editor-dev]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 05:59:00] WARNING root fetch - processPackages [fyers-token-manager-v2]: Skipping, unable to determine old version
+[2023-05-10 05:59:00] INFO root fetch - processPackages [pyhalo]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [fyers-token-manager-v2]: Start processing: python-spacetraders
+[2023-05-10 05:59:00] INFO root fetch - processPackages [just-time]: New version: [1.0.0.dev0] Old Version: [1.0]
+[2023-05-10 05:59:00] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2] error
+[2023-05-10 05:59:00] INFO root fetch - processPackages [zep-python]: New version: [0.21] Old Version: [0.2]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [je-editor]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 05:59:00] WARNING root fetch - processPackages [python-spacetraders]: Skipping, unable to determine old version
+[2023-05-10 05:59:00] INFO root fetch - processPackages [python-spacetraders]: Start processing: pixelmagic
+[2023-05-10 05:59:00] INFO root fetch - main [MainThread]: End processing [python-spacetraders] error
+[2023-05-10 05:59:00] WARNING root fetch - processPackages [pixelmagic]: Skipping, unable to determine old version
+[2023-05-10 05:59:00] INFO root fetch - processPackages [pixelmagic]: Start processing: spacetraders
+[2023-05-10 05:59:00] INFO root fetch - main [MainThread]: End processing [pixelmagic] error
+[2023-05-10 05:59:00] WARNING root fetch - processPackages [spacetraders]: Skipping, unable to determine old version
+[2023-05-10 05:59:00] INFO root fetch - processPackages [spacetraders]: Start processing: spec-pilot
+[2023-05-10 05:59:00] INFO root fetch - main [MainThread]: End processing [spacetraders] error
+[2023-05-10 05:59:00] INFO root fetch - processPackages [spec-pilot]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-10 05:59:00] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/8b/94/1f995c0e4cac9968be920e7907deacd20b4659ac0bd3a88be48da2c05eb3/je_editor_dev-0.0.98.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/5f/db/76ebc42786d116d582dd5e4b98f632cd57320e9e1bdf3b824c77bfc16a27/ml-starter-0.0.33.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [just-time]: Downloading https://files.pythonhosted.org/packages/dd/ad/569c968d0fd795ad4ca1b256f111295bc04a34faad09ca5b669ebfbe3850/just_time-1.0.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [django-shopify-app]: Downloading https://files.pythonhosted.org/packages/85/e7/e4b322cf0ca345e85e2791e58a61214ca0438c4f4983ca5051935d041733/django_shopify_app-1.1.3.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [dogfood-logger]: Downloading https://files.pythonhosted.org/packages/68/6e/9d28648ccd593c553cb2203877327a7ef63b2960fea2dad139f83e2b056c/dogfood_logger-0.1.4.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/bf/18/af86e3c453cc5e09db7c67bd434dcc5a7a6957206f5acf3ed026af5c9dfd/zep_python-0.21.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/ef/fc/038a2d492f66e42a8f5a01f0687702b04f94a3b12f0ec226405a8995dbb9/pyhalo-0.0.1.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/c1/de/4c71c6321ca03920982bcb62dc99ee4c91f71d9b22c430c4880ba17018fb/hoyo-daily-logins-helper-2.1.0.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/18/5a/9781b5d7b4cbad1f9f9cf0b8dbff0d29d79012bfa040e7a2a512b2370144/je_editor-0.0.98.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.2.tar.gz tmp/zep_python-0.21.tar.gz --markdown 20230510/z/zep-python/0.2-0.21/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [spec-pilot]: Downloading https://files.pythonhosted.org/packages/f7/84/be6523ce8972eb8c2842d97320e5bb931d4d2ba8aaadc7cb837102d59707/spec_pilot-0.2.1.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [dogfood-logger]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [dogfood-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogfood-logger-0.1.3.tar.gz tmp/dogfood_logger-0.1.4.tar.gz --markdown 20230510/d/dogfood-logger/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor-dev]: Downloading https://files.pythonhosted.org/packages/f5/5e/fafae8fb4029eea9a83a739b4877837148336a0d6d302272145a8519a55e/je_editor_dev-0.0.99.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.0.1.tar.gz tmp/hoyo-daily-logins-helper-2.1.0.tar.gz --markdown 20230510/h/hoyo-daily-logins-helper/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [just-time]: Downloading https://files.pythonhosted.org/packages/43/08/17297eac73ce056468cd4105b6a2c106f9cbc64ff066634f30192ea633aa/just_time-1.0.0.dev0.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [ml-starter]: Downloading https://files.pythonhosted.org/packages/4b/16/00f7d4885b4d514cf02e8c7da227411b5f3ab0215ea787e857e05fa3fd34/ml-starter-0.0.34.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [pyhalo]: Downloading https://files.pythonhosted.org/packages/f2/df/314c8b23c5bf7a3d36ee29afeb1204fb8b00cee250f75a2dce10248bc594/pyhalo-0.2.0.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor-dev]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor_dev-0.0.98.tar.gz tmp/je_editor_dev-0.0.99.tar.gz --markdown 20230510/j/je-editor-dev/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [django-shopify-app]: Downloading https://files.pythonhosted.org/packages/ba/0c/0d6823f94d97bf920d79d30dcbc8488a309be69f2b61e0351cce38a20a88/django_shopify_app-1.1.4.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.33.tar.gz tmp/ml-starter-0.0.34.tar.gz --markdown 20230510/m/ml-starter/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [pyhalo]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [pyhalo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyhalo-0.0.1.tar.gz tmp/pyhalo-0.2.0.tar.gz --markdown 20230510/p/pyhalo/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor]: Downloading https://files.pythonhosted.org/packages/75/ca/4e894555d734ec4dfd99b15542060c6c3c836135f3bc5b9fd7a12b1b9620/je_editor-0.0.99.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [django-shopify-app]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [django-shopify-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_shopify_app-1.1.3.tar.gz tmp/django_shopify_app-1.1.4.tar.gz --markdown 20230510/d/django-shopify-app/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [just-time]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [just-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/just_time-1.0.tar.gz tmp/just_time-1.0.0.dev0.tar.gz --markdown 20230510/j/just-time/1.0-1.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [spec-pilot]: Downloading https://files.pythonhosted.org/packages/b7/73/8d10ee92446d3525ced700843716f6e8216ecfb58614329f3e7d93ceac18/spec-pilot-0.3.0.tar.gz
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [je-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/je_editor-0.0.98.tar.gz tmp/je_editor-0.0.99.tar.gz --markdown 20230510/j/je-editor/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 05:59:01] INFO root fetch - processPackages [spec-pilot]: executing diffoscope
+[2023-05-10 05:59:01] INFO root fetch - processPackages [spec-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec_pilot-0.2.1.tar.gz tmp/spec-pilot-0.3.0.tar.gz --markdown 20230510/s/spec-pilot/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 05:59:02] INFO root fetch - processPackages [zep-python]: Start processing: odoo10-addon-contract-variable-quantity
+[2023-05-10 05:59:02] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-05-10 05:59:02] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-10 05:59:02] INFO root fetch - main [MainThread]: End processing [dogfood-logger]: success
+[2023-05-10 05:59:02] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: New version: [10.0.1.2.0.99.dev5] Old Version: [10.0.1.2.0.99.dev4]
+[2023-05-10 05:59:02] INFO root fetch - main [MainThread]: End processing [just-time]: success
+[2023-05-10 05:59:03] INFO root fetch - main [MainThread]: End processing [je-editor-dev]: success
+[2023-05-10 05:59:03] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/ec/3b/ed2c5f0ac5762fbe1d0e1d4b2cc3bcacb19732ba1b77128d8214480a5e03/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev4-py2-none-any.whl
+[2023-05-10 05:59:03] INFO root fetch - main [MainThread]: End processing [je-editor]: success
+[2023-05-10 05:59:03] INFO root fetch - main [MainThread]: End processing [django-shopify-app]: success
+[2023-05-10 05:59:03] INFO root fetch - main [MainThread]: End processing [spec-pilot]: success
+[2023-05-10 05:59:03] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: Downloading https://files.pythonhosted.org/packages/a1/d5/c2243038dff0d9c7ef1180e8d2c5e74b1a402b6bd612d9f5a303f7d8ad2c/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev5-py2-none-any.whl
+[2023-05-10 05:59:03] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-05-10 05:59:03] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: executing diffoscope
+[2023-05-10 05:59:03] INFO root fetch - processPackages [odoo10-addon-contract-variable-quantity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev4-py2-none-any.whl.zip tmp/odoo10_addon_contract_variable_quantity-10.0.1.2.0.99.dev5-py2-none-any.whl.zip --markdown 20230510/o/odoo10-addon-contract-variable-quantity/10.0.1.2.0.99.dev4-10.0.1.2.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-10 05:59:04] INFO root fetch - main [MainThread]: End processing [pyhalo]: success
+[2023-05-10 05:59:05] INFO root fetch - main [MainThread]: End processing [odoo10-addon-contract-variable-quantity]: success
+[2023-05-10 05:59:05] INFO root fetch - main [MainThread]: Store serial: [18042121]
