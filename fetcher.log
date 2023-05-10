@@ -21168,3 +21168,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:23:03] INFO root fetch - main [MainThread]: End processing [transformers]: success
 [2023-05-10 18:23:32] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
 [2023-05-10 18:23:32] INFO root fetch - main [MainThread]: Store serial: [18049888]
+[2023-05-10 18:28:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049888]
+[2023-05-10 18:28:41] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text2term
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubescrambler
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prettynumbers
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PatryksAutoAI
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crunch-cli
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: devind-dictionaries
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nexus-utilities
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tox-ansible
+[2023-05-10 18:28:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aind-data-transfer
+[2023-05-10 18:28:41] INFO root fetch - processPackages [text2term]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-05-10 18:28:41] WARNING root fetch - processPackages [cubescrambler]: Skipping, unable to determine old version
+[2023-05-10 18:28:41] INFO root fetch - processPackages [cubescrambler]: Start processing: novalabs-backtest
+[2023-05-10 18:28:41] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230510.9.51.843026] Old Version: [20230510.16.25.619896]
+[2023-05-10 18:28:41] INFO root fetch - main [MainThread]: End processing [cubescrambler] error
+[2023-05-10 18:28:41] INFO root fetch - processPackages [prettynumbers]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [devind-dictionaries]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [tox-ansible]: New version: [2.0.0] Old Version: [1.9.0]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [nexus-utilities]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [crunch-cli]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [aind-data-transfer]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [novalabs-backtest]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [devind-dictionaries]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [devind-dictionaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devind_dictionaries-0.9.0.tar.gz tmp/devind_dictionaries-1.0.0.tar.gz --markdown 20230510/d/devind-dictionaries/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [text2term]: Downloading https://files.pythonhosted.org/packages/a1/2f/592b99834e12bf9ea7248e746bfdca2d36317aee291b06e0ec6736890467/text2term-2.3.0.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [aind-data-transfer]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [aind-data-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-transfer-0.9.2.tar.gz tmp/aind-data-transfer-0.9.3.tar.gz --markdown 20230510/a/aind-data-transfer/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/5b/e4/a310a86712194328412411037533df7c8916f0e6e2ec9e1b200f7e6a9f47/certora-cli-alpha-roy-CERT-1955-assertHits-20230510.16.25.619896.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/28/43/f3b6576ecbc78e22e57517811790d6d403eaed4fdb1a789a8e6ed7a869b5/crunch-cli-1.0.0.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/2b/8a/9508e3d7fbd8c7595277a1394a353af6c4d4bb1b5f689502b2b3dbcb937c/nexus-utilities-0.2.8.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/f3/dd/92379751162b3e3f96faff02a333c66d315458f3a23cbef5749d1ca1fac0/prettynumbers-0.2.5.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/70/65/33663db1fa5eedec1c1e43a8433e54935e4a7e5658f6e5c1e9e0b22aa8f1/PatryksAutoAI-0.0.5.tar.gz
+[2023-05-10 18:28:41] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39214453>=10485760
+[2023-05-10 18:28:41] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: moto
+[2023-05-10 18:28:41] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-10 18:28:41] INFO root fetch - processPackages [tox-ansible]: Downloading https://files.pythonhosted.org/packages/84/76/78aabf91d675ef288c8ae70572067288438625b2a7e3e1d0f18b812001a5/tox-ansible-1.9.0.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/96/78/bf32843b4206d90b939c0d91d6b366a4a9e043e6880f825526946237e001/novalabs-backtest-1.1.8.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-05-10 18:28:41] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230510/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.2.4.tar.gz tmp/prettynumbers-0.2.5.tar.gz --markdown 20230510/p/prettynumbers/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [text2term]: Downloading https://files.pythonhosted.org/packages/f6/e8/46ce50fe2d7e6100b23398d556e39a936bf03d640c554c19fcab8cc9145d/text2term-2.3.1.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [crunch-cli]: Downloading https://files.pythonhosted.org/packages/92/f6/a54fb1f157342e99933a471d461ecf13691e2a786cf6444491436c0e6229/crunch-cli-1.1.0.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [nexus-utilities]: Downloading https://files.pythonhosted.org/packages/cb/37/ca38cd655d0a3facedaf94469bd9b8692f4be0f7f39325af2fc153689aa4/nexus-utilities-0.2.9.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/e4/6f/1be91e9901cffef73d6b6bc0d48c43c852988e6d3e3f8afaf33a10cfe1d7/PatryksAutoAI-0.0.6.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-1.0.0.tar.gz tmp/crunch-cli-1.1.0.tar.gz --markdown 20230510/c/crunch-cli/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [tox-ansible]: Downloading https://files.pythonhosted.org/packages/ae/e6/8cc91ad691b908ffdd087c745403bbef738ef630a4bf68e4d7b82b184c46/tox-ansible-2.0.0.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [text2term]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [text2term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2term-2.3.0.tar.gz tmp/text2term-2.3.1.tar.gz --markdown 20230510/t/text2term/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.5.tar.gz tmp/PatryksAutoAI-0.0.6.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [novalabs-backtest]: Downloading https://files.pythonhosted.org/packages/a2/38/1bb46fca8aa87d5375b99b0927a732739b47b6f4d60dfa183990acf5110f/novalabs-backtest-1.1.9.tar.gz
+[2023-05-10 18:28:41] INFO root fetch - processPackages [nexus-utilities]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [nexus-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nexus-utilities-0.2.8.tar.gz tmp/nexus-utilities-0.2.9.tar.gz --markdown 20230510/n/nexus-utilities/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 18:28:41] INFO root fetch - processPackages [tox-ansible]: executing diffoscope
+[2023-05-10 18:28:41] INFO root fetch - processPackages [tox-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tox-ansible-1.9.0.tar.gz tmp/tox-ansible-2.0.0.tar.gz --markdown 20230510/t/tox-ansible/1.9.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:28:42] INFO root fetch - processPackages [novalabs-backtest]: executing diffoscope
+[2023-05-10 18:28:42] INFO root fetch - processPackages [novalabs-backtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novalabs-backtest-1.1.8.tar.gz tmp/novalabs-backtest-1.1.9.tar.gz --markdown 20230510/n/novalabs-backtest/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 18:28:42] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [tox-ansible]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [novalabs-backtest]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [nexus-utilities]: success
+[2023-05-10 18:28:43] INFO root fetch - main [MainThread]: End processing [text2term]: success
+[2023-05-10 18:28:44] INFO root fetch - main [MainThread]: End processing [devind-dictionaries]: success
+[2023-05-10 18:28:46] INFO root fetch - main [MainThread]: End processing [aind-data-transfer]: success
+[2023-05-10 18:29:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-05-10 18:29:11] INFO root fetch - main [MainThread]: Store serial: [18049927]
