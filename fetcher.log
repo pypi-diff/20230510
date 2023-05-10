@@ -18956,3 +18956,116 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:40:11] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
 [2023-05-10 16:40:12] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
 [2023-05-10 16:40:12] INFO root fetch - main [MainThread]: Store serial: [18048504]
+[2023-05-10 16:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048504]
+[2023-05-10 16:45:21] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: facefinder
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nso-oc
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quick-resto-API
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gitlabds
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meshed
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: py-timed-cache
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyMPX
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-rocm
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: navigator-api
+[2023-05-10 16:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drvaroz-scoi-lab3-json-xml-serializer
+[2023-05-10 16:45:22] INFO root fetch - processPackages [facefinder]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [nso-oc]: New version: [2.49.0] Old Version: [2.48.0]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [quick-resto-API]: New version: [1.2.0] Old Version: [1.1.8]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [meshed]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: New version: [0.2] Old Version: [0.1]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [PyMPX]: New version: [1.2.5] Old Version: [1.2.4]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [gitlabds]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 16:45:22] WARNING root fetch - processPackages [py-timed-cache]: Skipping, unable to determine old version
+[2023-05-10 16:45:22] INFO root fetch - processPackages [py-timed-cache]: Start processing: enot-autodl
+[2023-05-10 16:45:22] INFO root fetch - main [MainThread]: End processing [py-timed-cache] error
+[2023-05-10 16:45:22] INFO root fetch - processPackages [tensorflow-rocm]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [navigator-api]: New version: [2.6.9] Old Version: [2.6.8]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [enot-autodl]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [navigator-api]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [navigator-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/navigator_api-2.6.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/navigator_api-2.6.9-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230510/n/navigator-api/2.6.8-2.6.9/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [quick-resto-API]: Downloading https://files.pythonhosted.org/packages/61/0c/7c103e29c203184aa54626288b05d36678a2a330342a9b983141c192dd81/quick_resto_API-1.1.8.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [facefinder]: Downloading https://files.pythonhosted.org/packages/00/c0/aae05852e3b09a90ec1f43a03d8e36fbc3bdb96fecd88c56e14845825bfd/facefinder-0.1.7.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: Downloading https://files.pythonhosted.org/packages/0e/ba/80d1fba9441fe9c12ccc66ccdc3087214770bf500bd2ba1f37f4c08a0cdb/drvaroz_scoi_lab3_json_xml_serializer-0.1.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/6d/05/65bf290e95c730046111c53f5e16a9322b2390b6586291b97a3450c5c197/nso-oc-2.48.0.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [enot-autodl]: Downloading https://files.pythonhosted.org/packages/01/3f/bab016e7e2bc9b544baed56a66094d9dd7769a3d88f7b8fe70f15cb5cf1c/enot_autodl-3.3.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 16:45:22] INFO root fetch - processPackages [PyMPX]: Downloading https://files.pythonhosted.org/packages/7d/02/42ff6082c8895b9381154558775acde9b03380e16b2d8f9592b42d24d6a8/PyMPX-1.2.4-py3-none-any.whl
+[2023-05-10 16:45:22] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/ec/66/ec18e469de7a31199ec17594f774aa629498f1f4b963deea16117918bef2/meshed-0.1.98.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [tensorflow-rocm]: Downloading https://files.pythonhosted.org/packages/43/e0/fc6c6628d96b3bd34c7dc2e048edf52ef5b700527fbdd3cc52138b78d1d3/tensorflow_rocm-2.9.3-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-10 16:45:22] INFO root fetch - processPackages [gitlabds]: Downloading https://files.pythonhosted.org/packages/3f/bf/c1b11afb4442f424ec3aa99683f0324e817269d357b7cfef821a958048a8/gitlabds-1.0.8.tar.gz
+[2023-05-10 16:45:22] WARNING root fetch - processPackages [enot-autodl]: Skipping package: exceeds size limit 10629259>=10485760
+[2023-05-10 16:45:22] INFO root fetch - processPackages [enot-autodl]: Start processing: wyoming-faster-whisper
+[2023-05-10 16:45:22] INFO root fetch - main [MainThread]: End processing [enot-autodl] error
+[2023-05-10 16:45:22] INFO root fetch - processPackages [wyoming-faster-whisper]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [facefinder]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [facefinder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facefinder-0.1.6.tar.gz tmp/facefinder-0.1.7.tar.gz --markdown 20230510/f/facefinder/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [quick-resto-API]: Downloading https://files.pythonhosted.org/packages/b3/f0/3ba4430b933b7c12bb7e83d0beda7dbd640ffb69714624b97b820d9a710e/quick_resto_API-1.2.0.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [nso-oc]: Downloading https://files.pythonhosted.org/packages/62/da/d21efc43bcf14233b833ba6751cbc57153c79ec2caadcd6a0ad549cb563e/nso-oc-2.49.0.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: Downloading https://files.pythonhosted.org/packages/1d/47/4c891aebf5ed0f8b015c3222af0cb4a593909008cfa7a12517d3d2cbe5fc/drvaroz_scoi_lab3_json_xml_serializer-0.2.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [PyMPX]: Downloading https://files.pythonhosted.org/packages/9c/e9/2893bffe22eea5852ff1c71f0a661df3c410481a7708709a7e4d457d230a/PyMPX-1.2.5-py3-none-any.whl
+[2023-05-10 16:45:22] INFO root fetch - processPackages [quick-resto-API]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [quick-resto-API]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quick_resto_API-1.1.8.tar.gz tmp/quick_resto_API-1.2.0.tar.gz --markdown 20230510/q/quick-resto-API/1.1.8-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [wyoming-faster-whisper]: Downloading https://files.pythonhosted.org/packages/3c/3b/7389fdf4380a9112053aa6ce84b2847c42deb6d5936f0af59d2fab0fc801/wyoming_faster_whisper-0.0.3.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [meshed]: Downloading https://files.pythonhosted.org/packages/52/c3/21e2c03ab6607bd25fb9f6efb994798b3e75db906daf491bf961ee733450/meshed-0.1.99.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drvaroz_scoi_lab3_json_xml_serializer-0.1.tar.gz tmp/drvaroz_scoi_lab3_json_xml_serializer-0.2.tar.gz --markdown 20230510/d/drvaroz-scoi-lab3-json-xml-serializer/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [nso-oc]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [nso-oc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nso-oc-2.48.0.tar.gz tmp/nso-oc-2.49.0.tar.gz --markdown 20230510/n/nso-oc/2.48.0-2.49.0/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [PyMPX]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [PyMPX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMPX-1.2.4-py3-none-any.whl.zip tmp/PyMPX-1.2.5-py3-none-any.whl.zip --markdown 20230510/P/PyMPX/1.2.4-1.2.5/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [wyoming-faster-whisper]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [wyoming-faster-whisper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wyoming_faster_whisper-0.0.2.tar.gz tmp/wyoming_faster_whisper-0.0.3.tar.gz --markdown 20230510/w/wyoming-faster-whisper/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] INFO root fetch - processPackages [meshed]: executing diffoscope
+[2023-05-10 16:45:22] INFO root fetch - processPackages [meshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meshed-0.1.98.tar.gz tmp/meshed-0.1.99.tar.gz --markdown 20230510/m/meshed/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-10 16:45:22] WARNING root fetch - processPackages [tensorflow-rocm]: Skipping package: exceeds size limit 401694531>=10485760
+[2023-05-10 16:45:22] INFO root fetch - processPackages [tensorflow-rocm]: Start processing: hmms
+[2023-05-10 16:45:22] INFO root fetch - main [MainThread]: End processing [tensorflow-rocm] error
+[2023-05-10 16:45:22] INFO root fetch - processPackages [hmms]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-10 16:45:22] INFO root fetch - processPackages [gitlabds]: Downloading https://files.pythonhosted.org/packages/8b/a7/9e1738b00c801a5547aee19fe6d20eb01ff504879e0e6bdd442b127139e7/gitlabds-1.0.9.tar.gz
+[2023-05-10 16:45:22] INFO root fetch - processPackages [hmms]: Downloading https://files.pythonhosted.org/packages/93/24/2221255c8f0409c22dc787a02485ae3656f29c0b5ddbace5b3351c171697/hmms-0.2.3.tar.gz
+[2023-05-10 16:45:23] INFO root fetch - processPackages [gitlabds]: executing diffoscope
+[2023-05-10 16:45:23] INFO root fetch - processPackages [gitlabds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlabds-1.0.8.tar.gz tmp/gitlabds-1.0.9.tar.gz --markdown 20230510/g/gitlabds/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:45:23] INFO root fetch - processPackages [hmms]: executing diffoscope
+[2023-05-10 16:45:23] INFO root fetch - processPackages [hmms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmms-0.2.2.tar.gz tmp/hmms-0.2.3.tar.gz --markdown 20230510/h/hmms/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-10 16:45:23] INFO root fetch - processPackages [facefinder]: Start processing: py-timed-cache
+[2023-05-10 16:45:23] INFO root fetch - main [MainThread]: End processing [facefinder]: success
+[2023-05-10 16:45:23] INFO root fetch - processPackages [py-timed-cache]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 16:45:23] INFO root fetch - processPackages [py-timed-cache]: Downloading https://files.pythonhosted.org/packages/e2/4a/508a786d5aec7057906fe51fde423fe5019db41b52a20158fb1f2786d251/py-timed-cache-1.0.0.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - processPackages [navigator-api]: Start processing: spacymoji
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [navigator-api]: success
+[2023-05-10 16:45:24] INFO root fetch - processPackages [spacymoji]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-10 16:45:24] INFO root fetch - processPackages [py-timed-cache]: Downloading https://files.pythonhosted.org/packages/8e/3d/3b8632805af7e1209c4bf14860b7df8d068fe1563fc4ffcb26a3651d279f/py-timed-cache-1.0.1.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - processPackages [wyoming-faster-whisper]: Start processing: lion-pytorch
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [wyoming-faster-whisper]: success
+[2023-05-10 16:45:24] INFO root fetch - processPackages [lion-pytorch]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-10 16:45:24] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: Start processing: sdkit
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [drvaroz-scoi-lab3-json-xml-serializer]: success
+[2023-05-10 16:45:24] INFO root fetch - processPackages [nso-oc]: Start processing: aps-common-libraries
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [nso-oc]: success
+[2023-05-10 16:45:24] INFO root fetch - processPackages [py-timed-cache]: executing diffoscope
+[2023-05-10 16:45:24] INFO root fetch - processPackages [py-timed-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-timed-cache-1.0.0.tar.gz tmp/py-timed-cache-1.0.1.tar.gz --markdown 20230510/p/py-timed-cache/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 16:45:24] INFO root fetch - processPackages [aps-common-libraries]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 16:45:24] INFO root fetch - processPackages [spacymoji]: Downloading https://files.pythonhosted.org/packages/2d/69/91125a437c48a2c5d40ff89a7adc659dcc4e371223f83540bf1ae990ffd3/spacymoji-3.0.1.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - processPackages [sdkit]: New version: [1.0.9] Old Version: [1.0.88]
+[2023-05-10 16:45:24] INFO root fetch - processPackages [aps-common-libraries]: executing diffoscope
+[2023-05-10 16:45:24] INFO root fetch - processPackages [aps-common-libraries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aps_common_libraries-1.0.5.tar.gz tmp/aps_common_libraries-1.0.6.tar.gz --markdown 20230510/a/aps-common-libraries/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 16:45:24] INFO root fetch - processPackages [lion-pytorch]: Downloading https://files.pythonhosted.org/packages/4c/98/96ab084dacda41466d6fa0163295e96f35bcfb3a42369c9b437659cea4d4/lion-pytorch-0.1.0.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/55/99/39d0056525da5be12f71391ff76db16362504b82d48fde41c9b03ecbc8c0/sdkit-1.0.88.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [gitlabds]: success
+[2023-05-10 16:45:24] INFO root fetch - processPackages [lion-pytorch]: executing diffoscope
+[2023-05-10 16:45:24] INFO root fetch - processPackages [lion-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lion-pytorch-0.0.8.tar.gz tmp/lion-pytorch-0.1.0.tar.gz --markdown 20230510/l/lion-pytorch/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 16:45:24] INFO root fetch - processPackages [spacymoji]: Downloading https://files.pythonhosted.org/packages/ef/25/fc60fecc03e34078f32402694139bab644e6f64a45341a3270539a93bf8b/spacymoji-3.1.0.tar.gz
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [meshed]: success
+[2023-05-10 16:45:24] INFO root fetch - main [MainThread]: End processing [hmms]: success
+[2023-05-10 16:45:25] INFO root fetch - processPackages [spacymoji]: executing diffoscope
+[2023-05-10 16:45:25] INFO root fetch - processPackages [spacymoji]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacymoji-3.0.1.tar.gz tmp/spacymoji-3.1.0.tar.gz --markdown 20230510/s/spacymoji/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-10 16:45:25] INFO root fetch - processPackages [sdkit]: Downloading https://files.pythonhosted.org/packages/b9/a9/05feb86839622b5b309a0677852dca34c39d0e0f0827e0180289f33d7e1b/sdkit-1.0.9.tar.gz
+[2023-05-10 16:45:25] INFO root fetch - processPackages [sdkit]: executing diffoscope
+[2023-05-10 16:45:25] INFO root fetch - processPackages [sdkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdkit-1.0.88.tar.gz tmp/sdkit-1.0.9.tar.gz --markdown 20230510/s/sdkit/1.0.88-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:45:25] INFO root fetch - main [MainThread]: End processing [quick-resto-API]: success
+[2023-05-10 16:45:25] INFO root fetch - main [MainThread]: End processing [PyMPX]: success
+[2023-05-10 16:45:25] INFO root fetch - main [MainThread]: End processing [py-timed-cache]: success
+[2023-05-10 16:45:26] INFO root fetch - main [MainThread]: End processing [lion-pytorch]: success
+[2023-05-10 16:45:26] INFO root fetch - main [MainThread]: End processing [aps-common-libraries]: success
+[2023-05-10 16:45:26] INFO root fetch - main [MainThread]: End processing [spacymoji]: success
+[2023-05-10 16:45:27] INFO root fetch - main [MainThread]: End processing [sdkit]: success
+[2023-05-10 16:45:27] INFO root fetch - main [MainThread]: Store serial: [18048554]
