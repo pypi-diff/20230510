@@ -20365,3 +20365,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:33:49] INFO root fetch - main [MainThread]: End processing [pypsa]: success
 [2023-05-10 17:33:52] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-10 17:33:52] INFO root fetch - main [MainThread]: Store serial: [18049383]
+[2023-05-10 17:38:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049383]
+[2023-05-10 17:39:01] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultrachic
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dv
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fonttools
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spotON_sdk
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlrun
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: frequency-feature-map-visualization
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: money-to-prisoners-common
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyduke-energy
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hyperfetch
+[2023-05-10 17:39:01] WARNING root fetch - processPackages [frequency-feature-map-visualization]: Skipping, unable to determine old version
+[2023-05-10 17:39:01] INFO root fetch - processPackages [frequency-feature-map-visualization]: Start processing: es-translator
+[2023-05-10 17:39:01] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization] error
+[2023-05-10 17:39:01] INFO root fetch - processPackages [money-to-prisoners-common]: New version: [9.9.0] Old Version: [9.8.1]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [spotON_sdk]: New version: [0.0.3.5] Old Version: [0.0.3.4]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [es-translator]: New version: [1.4.0] Old Version: [1.3.6]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [fonttools]: New version: [4.9.0] Old Version: [4.8.1]
+[2023-05-10 17:39:01] WARNING root fetch - processPackages [ultrachic]: Skipping, unable to determine old version
+[2023-05-10 17:39:01] INFO root fetch - processPackages [ultrachic]: Start processing: latch-data-validation
+[2023-05-10 17:39:01] INFO root fetch - main [MainThread]: End processing [ultrachic] error
+[2023-05-10 17:39:01] INFO root fetch - processPackages [dv]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230510.9.51.843026] Old Version: [20230510.15.36.750542]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [pyduke-energy]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 17:39:01] INFO root fetch - processPackages [hyperfetch]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 17:39:02] INFO root fetch - processPackages [money-to-prisoners-common]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [money-to-prisoners-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/money-to-prisoners-common-9.8.1.tar.gz tmp/money-to-prisoners-common-9.9.0.tar.gz --markdown 20230510/m/money-to-prisoners-common/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] INFO root fetch - processPackages [latch-data-validation]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 17:39:02] INFO root fetch - processPackages [es-translator]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [es-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_translator-1.3.6.tar.gz tmp/es_translator-1.4.0.tar.gz --markdown 20230510/e/es-translator/1.3.6-1.4.0/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc1-py3-none-any.whl.zip tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip --markdown 20230510/m/mlrun/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] INFO root fetch - processPackages [spotON_sdk]: Downloading https://files.pythonhosted.org/packages/c5/2f/266268d9c5f525520d5416340d56e0e9a07c4a9ba26142714cdff1668b26/spotON_sdk-0.0.3.5.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [latch-data-validation]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/f6/f3/20a44fa390e9b8ad1c6716f21c211e8edab9440a3bf05d8801271468f6c1/certora-cli-alpha-roy-CERT-1955-assertHits-20230510.15.36.750542.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [latch-data-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_data_validation-0.1.1.tar.gz tmp/latch_data_validation-0.1.2.tar.gz --markdown 20230510/l/latch-data-validation/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] INFO root fetch - processPackages [fonttools]: Downloading https://files.pythonhosted.org/packages/12/b4/7f5e17c48a656ceb066778eed3101ce2260eea4664560f859a9abeb3153c/fonttools-4.8.1.zip
+[2023-05-10 17:39:02] INFO root fetch - processPackages [dv]: Downloading https://files.pythonhosted.org/packages/c7/f1/3ee64d72b37c7435737b3d88128dab99019edadcdba77ade1bebf4b9e034/dv-1.0.8.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [pyduke-energy]: Downloading https://files.pythonhosted.org/packages/28/cc/e76c63666543504a8be486b09802511c37ee6ee3fe74514526ada5ee4098/pyduke-energy-1.0.5.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [spotON_sdk]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [spotON_sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotON_sdk-0.0.3.4.tar.gz tmp/spotON_sdk-0.0.3.5.tar.gz --markdown 20230510/s/spotON_sdk/0.0.3.4-0.0.3.5/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39214468>=10485760
+[2023-05-10 17:39:02] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: cmeel-boost
+[2023-05-10 17:39:02] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-10 17:39:02] INFO root fetch - processPackages [hyperfetch]: Downloading https://files.pythonhosted.org/packages/99/d2/13a9aae9949eb901eecdaf48a88631556eca93561ea2604ec307dd5595a5/hyperfetch-1.1.1.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [cmeel-boost]: New version: [1.82.0] Old Version: [1.81.0]
+[2023-05-10 17:39:02] INFO root fetch - processPackages [pyduke-energy]: Downloading https://files.pythonhosted.org/packages/07/80/4574d62e7beb5a7f9c61e7e3d014b6420839ca4716d83de51ebf3a817fb1/pyduke-energy-1.0.6.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [hyperfetch]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [hyperfetch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfetch-1.1.0.tar.gz tmp/hyperfetch-1.1.1.tar.gz --markdown 20230510/h/hyperfetch/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] INFO root fetch - processPackages [dv]: Downloading https://files.pythonhosted.org/packages/59/ed/3dfd51bd4382de29cc1a4d15931fb569545d0f63f66de0b2c2e4382bb33d/dv-1.0.9.tar.gz
+[2023-05-10 17:39:02] INFO root fetch - processPackages [cmeel-boost]: Downloading https://files.pythonhosted.org/packages/85/38/10951e57d769309cd4c7929051829445a992aeef7cc7b33826261ff79e39/cmeel_boost-1.81.0-9-pp39-pypy39_pp73-macosx_11_0_arm64.whl
+[2023-05-10 17:39:02] INFO root fetch - processPackages [pyduke-energy]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [pyduke-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyduke-energy-1.0.5.tar.gz tmp/pyduke-energy-1.0.6.tar.gz --markdown 20230510/p/pyduke-energy/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 17:39:02] WARNING root fetch - processPackages [cmeel-boost]: Skipping package: exceeds size limit 28154472>=10485760
+[2023-05-10 17:39:02] INFO root fetch - main [MainThread]: End processing [cmeel-boost] error
+[2023-05-10 17:39:02] INFO root fetch - processPackages [dv]: executing diffoscope
+[2023-05-10 17:39:02] INFO root fetch - processPackages [dv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dv-1.0.8.tar.gz tmp/dv-1.0.9.tar.gz --markdown 20230510/d/dv/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:39:03] INFO root fetch - processPackages [fonttools]: Downloading https://files.pythonhosted.org/packages/38/2d/5440a3abd96736fbecd234c6fda8ede6c54d76e4dc83419f03b09d18989b/fonttools-4.9.0.zip
+[2023-05-10 17:39:03] INFO root fetch - main [MainThread]: End processing [latch-data-validation]: success
+[2023-05-10 17:39:03] INFO root fetch - main [MainThread]: End processing [es-translator]: success
+[2023-05-10 17:39:03] INFO root fetch - main [MainThread]: End processing [spotON_sdk]: success
+[2023-05-10 17:39:03] INFO root fetch - main [MainThread]: End processing [hyperfetch]: success
+[2023-05-10 17:39:04] INFO root fetch - main [MainThread]: End processing [pyduke-energy]: success
+[2023-05-10 17:39:04] INFO root fetch - main [MainThread]: End processing [dv]: success
+[2023-05-10 17:39:04] INFO root fetch - processPackages [fonttools]: executing diffoscope
+[2023-05-10 17:39:04] INFO root fetch - processPackages [fonttools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fonttools-4.8.1.zip tmp/fonttools-4.9.0.zip --markdown 20230510/f/fonttools/4.8.1-4.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:39:04] INFO root fetch - main [MainThread]: End processing [money-to-prisoners-common]: success
+[2023-05-10 17:39:06] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-10 17:39:44] INFO root fetch - main [MainThread]: End processing [fonttools]: success
+[2023-05-10 17:39:44] INFO root fetch - main [MainThread]: Store serial: [18049424]
