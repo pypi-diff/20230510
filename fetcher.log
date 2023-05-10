@@ -19787,3 +19787,297 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:17:54] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
 [2023-05-10 17:17:54] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
 [2023-05-10 17:17:54] INFO root fetch - main [MainThread]: Store serial: [18049099]
+[2023-05-10 17:22:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049099]
+[2023-05-10 17:23:03] INFO root fetch - main [MainThread]: Found 45 changed packages
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: certora-cli-alpha-alex-handle-array-index-subtraction
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mmcb-avt
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-flake8-plugin-utils
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: types-flake8-simplify
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-python-dateutil
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: types-flake8-typing-imports
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: types-aws-xray-sdk
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: types-setuptools
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-boto
+[2023-05-10 17:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: types-braintree
+[2023-05-10 17:23:03] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: New version: [20230510.15.18.601786] Old Version: [20230510.12.6.778692]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [mmcb-avt]: New version: [0.0.77] Old Version: [0.0.75]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-plugin-utils]: New version: [1.3.7.3] Old Version: [1.3.7.2]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-simplify]: New version: [0.20.0.1] Old Version: [0.20.0.0]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-boto]: New version: [2.49.9] Old Version: [2.49.8]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-braintree]: New version: [4.19.0.1] Old Version: [4.19.0.0]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-typing-imports]: New version: [1.14.0.2] Old Version: [1.14.0.1]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-python-dateutil]: New version: [2.8.9] Old Version: [2.8.8]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-aws-xray-sdk]: New version: [2.9.0] Old Version: [2.8.5]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-setuptools]: New version: [67.7.0.2] Old Version: [67.7.0.1]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Downloading https://files.pythonhosted.org/packages/24/20/69c285c46f7e94757d6bd4bde814afe339e74ce478a58ae6071dea3da9a7/certora-cli-alpha-alex-handle-array-index-subtraction-20230510.12.6.778692.tar.gz
+[2023-05-10 17:23:03] WARNING root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Skipping package: exceeds size limit 39213460>=10485760
+[2023-05-10 17:23:03] INFO root fetch - processPackages [certora-cli-alpha-alex-handle-array-index-subtraction]: Start processing: types-Markdown
+[2023-05-10 17:23:03] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-alex-handle-array-index-subtraction] error
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-plugin-utils]: Downloading https://files.pythonhosted.org/packages/3e/4e/d3c80047e188e4bf8795546583c497bc0673577b9df28dcb71add6dd69a4/types-flake8-plugin-utils-1.3.7.2.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/de/38/cebf793564c66b14a73363eb332432876c1bf73a2ad17d86c62cecd39367/types-braintree-4.19.0.0.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/d3/cd/ebb55f567408a0652d930a00a4a2d5bd331b652a7d1c35cce9a5a3169b09/types-setuptools-67.7.0.1.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-boto]: Downloading https://files.pythonhosted.org/packages/e4/3b/3cc81816712770a4f55910dd9879428233632129c2e1526575800c062dc6/types-boto-2.49.8.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/f9/69/a16825f1f3b4da9031ae6f8f53fb6ffd8d50a22e2cdfe2abbbcd4f8bf85f/types-aws-xray-sdk-2.8.5.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-simplify]: Downloading https://files.pythonhosted.org/packages/9a/04/85f3c56f17cd0264e7ca5cbc8f231595aba4c63ce846c9bb9080b222089e/types-flake8-simplify-0.20.0.0.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-python-dateutil]: Downloading https://files.pythonhosted.org/packages/96/f7/146ef0be1953b445412d8d67bedf51f39a706c57dde890b9a4f3e6f43fd8/types-python-dateutil-2.8.8.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-typing-imports]: Downloading https://files.pythonhosted.org/packages/3a/3f/afc174772bf0697601c4117fc3834c08bb24ff06c05b4c02b5308562528d/types-flake8-typing-imports-1.14.0.1.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-Markdown]: New version: [3.4.2.9] Old Version: [3.4.2.8]
+[2023-05-10 17:23:03] INFO root fetch - processPackages [mmcb-avt]: Downloading https://files.pythonhosted.org/packages/16/43/91e6ba52093a6d5645173c8857e74308f28ae781ec7a7674d0d7d66fd913/mmcb-avt-0.0.77.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [mmcb-avt]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [mmcb-avt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmcb-avt-0.0.75.tar.gz tmp/mmcb-avt-0.0.77.tar.gz --markdown 20230510/m/mmcb-avt/0.0.75-0.0.77/diff.md --exclude *.pyd
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-Markdown]: Downloading https://files.pythonhosted.org/packages/e6/8d/99f9297d88f725c3532971a4925d63988b840bd041dc2d6e5bddfbe4a7c5/types-Markdown-3.4.2.8.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-plugin-utils]: Downloading https://files.pythonhosted.org/packages/54/5f/1e1866f37f783b282c98fb8ba1e989d666f7b8e1ae1cc6f578bffc1dcdfd/types-flake8-plugin-utils-1.3.7.3.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-braintree]: Downloading https://files.pythonhosted.org/packages/6f/d1/c205902220efcb7e87d5ddaa5dfa4161c586c805d5f9fdd5035ea54df1c0/types-braintree-4.19.0.1.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-setuptools]: Downloading https://files.pythonhosted.org/packages/54/5a/6579b5b197c0f344775dfce47d2d5e1669c5bc1756a37e973761cff40a23/types-setuptools-67.7.0.2.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-typing-imports]: Downloading https://files.pythonhosted.org/packages/4a/e1/71d7000a21f6885c7669413517938bca957bd4244c9b551822bf364e36b2/types-flake8-typing-imports-1.14.0.2.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-python-dateutil]: Downloading https://files.pythonhosted.org/packages/1d/92/6015fbb0d82e846012ba5000fee60552a36f6155bd10eb98925f55d5dd29/types-python-dateutil-2.8.9.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-simplify]: Downloading https://files.pythonhosted.org/packages/19/26/affea9dba380f529ee8c55ddc94d3febfdd594026f80f1010ded7478604b/types-flake8-simplify-0.20.0.1.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-boto]: Downloading https://files.pythonhosted.org/packages/0a/64/de62113f5aeb3d422922a416e95953d3fd8e82fa7ce1002894e28a204d50/types-boto-2.49.9.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-Markdown]: Downloading https://files.pythonhosted.org/packages/5b/a3/db18c5de0cbe1afe69fe4f93d72f26cfbba995f4fa5e639a6634ad31e8fd/types-Markdown-3.4.2.9.tar.gz
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-plugin-utils]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-plugin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-plugin-utils-1.3.7.2.tar.gz tmp/types-flake8-plugin-utils-1.3.7.3.tar.gz --markdown 20230510/t/types-flake8-plugin-utils/1.3.7.2-1.3.7.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-braintree]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-braintree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-braintree-4.19.0.0.tar.gz tmp/types-braintree-4.19.0.1.tar.gz --markdown 20230510/t/types-braintree/4.19.0.0-4.19.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-setuptools]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-setuptools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-setuptools-67.7.0.1.tar.gz tmp/types-setuptools-67.7.0.2.tar.gz --markdown 20230510/t/types-setuptools/67.7.0.1-67.7.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-python-dateutil]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-python-dateutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-python-dateutil-2.8.8.tar.gz tmp/types-python-dateutil-2.8.9.tar.gz --markdown 20230510/t/types-python-dateutil/2.8.8-2.8.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-typing-imports]: executing diffoscope
+[2023-05-10 17:23:03] INFO root fetch - processPackages [types-flake8-typing-imports]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-typing-imports-1.14.0.1.tar.gz tmp/types-flake8-typing-imports-1.14.0.2.tar.gz --markdown 20230510/t/types-flake8-typing-imports/1.14.0.1-1.14.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-flake8-simplify]: executing diffoscope
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-flake8-simplify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-simplify-0.20.0.0.tar.gz tmp/types-flake8-simplify-0.20.0.1.tar.gz --markdown 20230510/t/types-flake8-simplify/0.20.0.0-0.20.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-Markdown]: executing diffoscope
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-Markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Markdown-3.4.2.8.tar.gz tmp/types-Markdown-3.4.2.9.tar.gz --markdown 20230510/t/types-Markdown/3.4.2.8-3.4.2.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-aws-xray-sdk]: Downloading https://files.pythonhosted.org/packages/b5/bb/d501a17548e0cb4f158a834de693ca92f3e47048a1577c1f9422b8c974ee/types-aws-xray-sdk-2.9.0.tar.gz
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-aws-xray-sdk]: executing diffoscope
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-aws-xray-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-aws-xray-sdk-2.8.5.tar.gz tmp/types-aws-xray-sdk-2.9.0.tar.gz --markdown 20230510/t/types-aws-xray-sdk/2.8.5-2.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-boto]: executing diffoscope
+[2023-05-10 17:23:04] INFO root fetch - processPackages [types-boto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-boto-2.49.8.tar.gz tmp/types-boto-2.49.9.tar.gz --markdown 20230510/t/types-boto/2.49.8-2.49.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-plugin-utils]: Start processing: types-invoke
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-flake8-plugin-utils]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [mmcb-avt]: Start processing: types-html5lib
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [mmcb-avt]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-html5lib]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-invoke]: New version: [2.0.0.7] Old Version: [2.0.0.6]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-python-dateutil]: Start processing: types-flake8-rst-docstrings
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-python-dateutil]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-rst-docstrings]: New version: [0.3.0.2] Old Version: [0.3.0.1]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-invoke]: Downloading https://files.pythonhosted.org/packages/b8/62/4ce53e4a672cd371986124a13e2d76dc1b0a1d464ab335b9cc3ae7eef3d2/types-invoke-2.0.0.6.tar.gz
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-html5lib]: Downloading https://files.pythonhosted.org/packages/20/7b/b30d27a1ba7e22939b7fd7f225d3762cb9180132e86feec248a8df0e999d/types-html5lib-1.1.8.tar.gz
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-typing-imports]: Start processing: types-PyMySQL
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-flake8-typing-imports]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-PyMySQL]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-simplify]: Start processing: types-flake8-builtins
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-flake8-simplify]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Downloading https://files.pythonhosted.org/packages/63/7a/64a5082d5f8db943974df6101708520b318634bb36d0c33107e90862d511/types-flake8-rst-docstrings-0.3.0.1.tar.gz
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-aws-xray-sdk]: Start processing: strmprivacy-api-definitions
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-aws-xray-sdk]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-flake8-builtins]: New version: [2.1.0.2] Old Version: [2.1.0.1]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/b2/48/aafa5fde47df06238e771fb65a70f0b059838fdbee6b6ad4bb49bf00f58b/types-PyMySQL-1.0.8.tar.gz
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-Markdown]: Start processing: types-openpyxl
+[2023-05-10 17:23:05] INFO root fetch - main [MainThread]: End processing [types-Markdown]: success
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-invoke]: Downloading https://files.pythonhosted.org/packages/8a/42/1eabd63d8e7ce6fadaea69f298191df4160f57349408d835d0b0e54f5650/types-invoke-2.0.0.7.tar.gz
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.6] Old Version: [3.1.0.5]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [strmprivacy-api-definitions]: New version: [2.9.0] Old Version: [2.84.0]
+[2023-05-10 17:23:05] INFO root fetch - processPackages [types-html5lib]: Downloading https://files.pythonhosted.org/packages/30/cc/ebca3551dc41585d0c824669a0f66d3b584f822a048753e74144ce9651bd/types-html5lib-1.1.9.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.5.tar.gz tmp/types-openpyxl-3.1.0.6.tar.gz --markdown 20230510/t/types-openpyxl/3.1.0.5-3.1.0.6/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/9c/6f/2aa0047f68752fdc587ac2e1f4bf4f48310e50b70764a9cb310537edaba6/types-flake8-builtins-2.1.0.1.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-invoke]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-invoke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-invoke-2.0.0.6.tar.gz tmp/types-invoke-2.0.0.7.tar.gz --markdown 20230510/t/types-invoke/2.0.0.6-2.0.0.7/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Downloading https://files.pythonhosted.org/packages/80/52/083fe891064a2f686e84c4e6117e272ef992f217948476e3e9af899129a0/types-flake8-rst-docstrings-0.3.0.2.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/9c/58/6cb93af42fe2feb74701941b32d8762a8fc5c0fe1f41333b6375dacf7668/strmprivacy-api-definitions-2.84.0.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-rst-docstrings]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-rst-docstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-rst-docstrings-0.3.0.1.tar.gz tmp/types-flake8-rst-docstrings-0.3.0.2.tar.gz --markdown 20230510/t/types-flake8-rst-docstrings/0.3.0.1-0.3.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-html5lib]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-html5lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-html5lib-1.1.8.tar.gz tmp/types-html5lib-1.1.9.tar.gz --markdown 20230510/t/types-html5lib/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-builtins]: Downloading https://files.pythonhosted.org/packages/7a/a1/2d28373657502e6e3a364a3f6e17ef1fb6103b6ad9a24afb115bf4ece6c1/types-flake8-builtins-2.1.0.2.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-PyMySQL]: Downloading https://files.pythonhosted.org/packages/32/35/191cc921e51af34336d2a567a71151946a3540bcb3d3afbd043111831c8e/types-PyMySQL-1.0.9.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-builtins]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-flake8-builtins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-builtins-2.1.0.1.tar.gz tmp/types-flake8-builtins-2.1.0.2.tar.gz --markdown 20230510/t/types-flake8-builtins/2.1.0.1-2.1.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [strmprivacy-api-definitions]: Downloading https://files.pythonhosted.org/packages/89/ad/908915ed1c7af94dfe78a95110dc03d81532c4e526c5d82f30d952314754/strmprivacy-api-definitions-2.9.0.tar.gz
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-PyMySQL]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-PyMySQL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-PyMySQL-1.0.8.tar.gz tmp/types-PyMySQL-1.0.9.tar.gz --markdown 20230510/t/types-PyMySQL/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-boto]: Start processing: runningz
+[2023-05-10 17:23:06] INFO root fetch - main [MainThread]: End processing [types-boto]: success
+[2023-05-10 17:23:06] INFO root fetch - processPackages [runningz]: New version: [0.11.0] Old Version: [0.1.1.0]
+[2023-05-10 17:23:06] INFO root fetch - processPackages [strmprivacy-api-definitions]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [strmprivacy-api-definitions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strmprivacy-api-definitions-2.84.0.tar.gz tmp/strmprivacy-api-definitions-2.9.0.tar.gz --markdown 20230510/s/strmprivacy-api-definitions/2.84.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [runningz]: executing diffoscope
+[2023-05-10 17:23:06] INFO root fetch - processPackages [runningz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/runningz-0.1.1.0-py39-none-any.whl.zip tmp/runningz-0.11.0-py39-none-any.whl.zip --markdown 20230510/r/runningz/0.1.1.0-0.11.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-setuptools]: Start processing: types-Pillow
+[2023-05-10 17:23:06] INFO root fetch - main [MainThread]: End processing [types-setuptools]: success
+[2023-05-10 17:23:06] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.3] Old Version: [9.5.0.2]
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.2.tar.gz tmp/types-Pillow-9.5.0.3.tar.gz --markdown 20230510/t/types-Pillow/9.5.0.2-9.5.0.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-braintree]: Start processing: types-jsonschema
+[2023-05-10 17:23:07] INFO root fetch - main [MainThread]: End processing [types-braintree]: success
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-jsonschema]: New version: [4.9.0] Old Version: [4.7.0]
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-flake8-rst-docstrings]: Start processing: types-bleach
+[2023-05-10 17:23:07] INFO root fetch - main [MainThread]: End processing [types-flake8-rst-docstrings]: success
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/c6/e1/278379da0b28700f9f6cf017cf3fa5863afdfe70a724fe2b2ee18a4758ec/types-jsonschema-4.7.0.tar.gz
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-invoke]: Start processing: types-pyvmomi
+[2023-05-10 17:23:07] INFO root fetch - main [MainThread]: End processing [types-invoke]: success
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-bleach]: New version: [6.0.0.3] Old Version: [6.0.0.2]
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-html5lib]: Start processing: types-waitress
+[2023-05-10 17:23:07] INFO root fetch - main [MainThread]: End processing [types-html5lib]: success
+[2023-05-10 17:23:07] INFO root fetch - processPackages [types-pyvmomi]: New version: [8.0.0.3] Old Version: [8.0.0.2]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-bleach]: Downloading https://files.pythonhosted.org/packages/63/54/f98c9d214b6772039e69c6433494bfb0830e3c659b15f0ede079c57fdfeb/types-bleach-6.0.0.2.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-waitress]: New version: [2.1.4.8] Old Version: [2.1.4.7]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-flake8-builtins]: Start processing: types-urllib3
+[2023-05-10 17:23:08] INFO root fetch - main [MainThread]: End processing [types-flake8-builtins]: success
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-PyMySQL]: Start processing: types-pep8-naming
+[2023-05-10 17:23:08] INFO root fetch - main [MainThread]: End processing [types-PyMySQL]: success
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-jsonschema]: Downloading https://files.pythonhosted.org/packages/e4/92/a22669e12621f1f6ecbe4a0df317ec38af90b5f4e5432685f9b6b44cb647/types-jsonschema-4.9.0.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/dc/47/cd017a2922b635180cae199b01b180dc292e596672ef75c7f2ce64552ea7/types-pyvmomi-8.0.0.2.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-urllib3]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-waitress]: Downloading https://files.pythonhosted.org/packages/42/33/6ac95449f1ecddb1bccbfb6128fa4efbb46b6e66d2f35750c55d6bd5230d/types-waitress-2.1.4.7.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pep8-naming]: New version: [0.13.0.4] Old Version: [0.13.0.3]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-bleach]: Downloading https://files.pythonhosted.org/packages/51/9f/1396fa92f2e00f0052a06610e1d02a3aed0ac33c3e8a7079303c39a4d79b/types-bleach-6.0.0.3.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-jsonschema]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-jsonschema-4.7.0.tar.gz tmp/types-jsonschema-4.9.0.tar.gz --markdown 20230510/t/types-jsonschema/4.7.0-4.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-urllib3]: Downloading https://files.pythonhosted.org/packages/f8/2f/184bfd8ada02f7d85af1462226264377880eb0e6921e77bf900478c6c510/types-urllib3-1.26.8.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pyvmomi]: Downloading https://files.pythonhosted.org/packages/96/45/4fe91ac59df81ad182159968d6efeba4599e6a0cea4f3e5af0d0184225ba/types-pyvmomi-8.0.0.3.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/96/85/182d291059b4233f56649c26f7aa1d0af72b02e997fc424605d640cbcd53/types-pep8-naming-0.13.0.3.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-waitress]: Downloading https://files.pythonhosted.org/packages/49/e4/8b83b4d8cf0dc6c06487ac784fbfcd1c588ccc44abb89d94342717c2504d/types-waitress-2.1.4.8.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-bleach]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-bleach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-bleach-6.0.0.2.tar.gz tmp/types-bleach-6.0.0.3.tar.gz --markdown 20230510/t/types-bleach/6.0.0.2-6.0.0.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-waitress]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-waitress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-waitress-2.1.4.7.tar.gz tmp/types-waitress-2.1.4.8.tar.gz --markdown 20230510/t/types-waitress/2.1.4.7-2.1.4.8/diff.md --exclude *.pyd
+[2023-05-10 17:23:08] INFO root fetch - processPackages [strmprivacy-api-definitions]: Start processing: gcscore
+[2023-05-10 17:23:08] INFO root fetch - main [MainThread]: End processing [strmprivacy-api-definitions]: success
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pyvmomi]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pyvmomi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyvmomi-8.0.0.2.tar.gz tmp/types-pyvmomi-8.0.0.3.tar.gz --markdown 20230510/t/types-pyvmomi/8.0.0.2-8.0.0.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pep8-naming]: Downloading https://files.pythonhosted.org/packages/c0/33/5ef6f5e6eeb6ab983df16680611abf4cbece78b5160ae952e5547eea310f/types-pep8-naming-0.13.0.4.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [gcscore]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-openpyxl]: Start processing: types-opentracing
+[2023-05-10 17:23:08] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-urllib3]: Downloading https://files.pythonhosted.org/packages/64/af/22951f86e467ca603e7daa3a62cbc9999f24f5787ece51fd1930ed20eb12/types-urllib3-1.26.9.tar.gz
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pep8-naming]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-pep8-naming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pep8-naming-0.13.0.3.tar.gz tmp/types-pep8-naming-0.13.0.4.tar.gz --markdown 20230510/t/types-pep8-naming/0.13.0.3-0.13.0.4/diff.md --exclude *.pyd
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-opentracing]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-Pillow]: Start processing: types-oauthlib
+[2023-05-10 17:23:08] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-urllib3]: executing diffoscope
+[2023-05-10 17:23:08] INFO root fetch - processPackages [types-urllib3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-urllib3-1.26.8.tar.gz tmp/types-urllib3-1.26.9.tar.gz --markdown 20230510/t/types-urllib3/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-opentracing]: Downloading https://files.pythonhosted.org/packages/c6/89/74f377c7602f54c469c3b5c24cbd70a35525f4825387168747a03fcf5826/types-opentracing-2.4.8.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [runningz]: Start processing: types-commonmark
+[2023-05-10 17:23:09] INFO root fetch - main [MainThread]: End processing [runningz]: success
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-oauthlib]: New version: [3.2.0.8] Old Version: [3.2.0.7]
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-commonmark]: New version: [0.9.2.3] Old Version: [0.9.2.2]
+[2023-05-10 17:23:09] INFO root fetch - processPackages [gcscore]: executing diffoscope
+[2023-05-10 17:23:09] INFO root fetch - processPackages [gcscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gcscore-0.0.8.tar.gz tmp/gcscore-0.0.9.tar.gz --markdown 20230510/g/gcscore/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-oauthlib]: Downloading https://files.pythonhosted.org/packages/c7/d0/5ea756fbba43a62cfc35afd448073260b47c64d70a24c5c4f236b8ca1664/types-oauthlib-3.2.0.7.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-commonmark]: Downloading https://files.pythonhosted.org/packages/8a/34/66e8cef0991d53790a7fc860a1a9d957ab6001b1494ea2d4936d6f781fa0/types-commonmark-0.9.2.2.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-opentracing]: Downloading https://files.pythonhosted.org/packages/d2/0e/c2d62b22ab6b6cd2af73dd4e4adfb4b382e9703e35e991d28f0a3df875d8/types-opentracing-2.4.9.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-oauthlib]: Downloading https://files.pythonhosted.org/packages/48/8b/ef0cab20c3aba523bd536efff09d82dcac8465c15b25654aea4563429088/types-oauthlib-3.2.0.8.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-oauthlib]: executing diffoscope
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-oauthlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-oauthlib-3.2.0.7.tar.gz tmp/types-oauthlib-3.2.0.8.tar.gz --markdown 20230510/t/types-oauthlib/3.2.0.7-3.2.0.8/diff.md --exclude *.pyd
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-jsonschema]: Start processing: types-stripe
+[2023-05-10 17:23:09] INFO root fetch - main [MainThread]: End processing [types-jsonschema]: success
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-opentracing]: executing diffoscope
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-opentracing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-opentracing-2.4.8.tar.gz tmp/types-opentracing-2.4.9.tar.gz --markdown 20230510/t/types-opentracing/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-commonmark]: Downloading https://files.pythonhosted.org/packages/5a/4a/48c8c22f852f5d09c19653e6ee1c141df27105611fc71193230e5938ee6b/types-commonmark-0.9.2.3.tar.gz
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-stripe]: New version: [3.5.2.9] Old Version: [3.5.2.8]
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-commonmark]: executing diffoscope
+[2023-05-10 17:23:09] INFO root fetch - processPackages [types-commonmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-commonmark-0.9.2.2.tar.gz tmp/types-commonmark-0.9.2.3.tar.gz --markdown 20230510/t/types-commonmark/0.9.2.2-0.9.2.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-stripe]: Downloading https://files.pythonhosted.org/packages/13/f6/2882509b029b7f34ea99a380a5a3ed8cccaf5d92852bf1c7d525e2a771e1/types-stripe-3.5.2.8.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-bleach]: Start processing: types-pyflakes
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [types-bleach]: success
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyflakes]: New version: [3.0.0.4] Old Version: [3.0.0.3]
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyvmomi]: Start processing: types-chardet
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [types-pyvmomi]: success
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-waitress]: Start processing: sfkit
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [types-waitress]: success
+[2023-05-10 17:23:10] INFO root fetch - processPackages [sfkit]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-chardet]: New version: [5.0.4.6] Old Version: [5.0.4.5]
+[2023-05-10 17:23:10] INFO root fetch - processPackages [sfkit]: executing diffoscope
+[2023-05-10 17:23:10] INFO root fetch - processPackages [sfkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sfkit-0.0.98-py3-none-any.whl.zip tmp/sfkit-0.0.99-py3-none-any.whl.zip --markdown 20230510/s/sfkit/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/3a/7b/894a9ad4710279c22b6ce02829bae7ee112c68ce1c9278e23159ee40b2e3/types-pyflakes-3.0.0.3.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pep8-naming]: Start processing: types-flake8-docstrings
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [types-pep8-naming]: success
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/34/1e/f337ce41d6cf2236d7fd11ecd455d5402f16e6f66485c7cd4e028c8f537e/types-chardet-5.0.4.5.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-flake8-docstrings]: New version: [1.7.0.2] Old Version: [1.7.0.1]
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-stripe]: Downloading https://files.pythonhosted.org/packages/a3/76/df0c21de3e24d10a569855514cb273d138248b30bddabfcb1e353106559c/types-stripe-3.5.2.9.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-stripe]: executing diffoscope
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-stripe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-stripe-3.5.2.8.tar.gz tmp/types-stripe-3.5.2.9.tar.gz --markdown 20230510/t/types-stripe/3.5.2.8-3.5.2.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyflakes]: Downloading https://files.pythonhosted.org/packages/a4/a8/9f1fe406592101218d5b1023d3ae3e0c75627bc384b23b66d437457dfbdd/types-pyflakes-3.0.0.4.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-flake8-docstrings]: Downloading https://files.pythonhosted.org/packages/52/2b/1584355ebe8ad0df76db5b7c119138aea2e806803c999f9a76677386576a/types-flake8-docstrings-1.7.0.1.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [gcscore]: Start processing: torch-gaggle
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [gcscore]: success
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-chardet]: Downloading https://files.pythonhosted.org/packages/dd/47/932d35ac07203e936e69102dc9570e83606d386bacb60696f0c403224e86/types-chardet-5.0.4.6.tar.gz
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-urllib3]: Start processing: types-protobuf
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [types-urllib3]: success
+[2023-05-10 17:23:10] WARNING root fetch - processPackages [torch-gaggle]: Skipping, unable to determine old version
+[2023-05-10 17:23:10] INFO root fetch - processPackages [torch-gaggle]: Start processing: types-Send2Trash
+[2023-05-10 17:23:10] INFO root fetch - main [MainThread]: End processing [torch-gaggle] error
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-protobuf]: New version: [4.23.0.0] Old Version: [4.22.0.2]
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyflakes]: executing diffoscope
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-pyflakes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyflakes-3.0.0.3.tar.gz tmp/types-pyflakes-3.0.0.4.tar.gz --markdown 20230510/t/types-pyflakes/3.0.0.3-3.0.0.4/diff.md --exclude *.pyd
+[2023-05-10 17:23:10] INFO root fetch - processPackages [types-flake8-docstrings]: Downloading https://files.pythonhosted.org/packages/2c/d4/7d9e369308c2022bc6c35bfa67aacfb52fe5bae7955eab163aacc89eac00/types-flake8-docstrings-1.7.0.2.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-Send2Trash]: New version: [1.8.2.5] Old Version: [1.8.2.4]
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-chardet]: executing diffoscope
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-chardet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-chardet-5.0.4.5.tar.gz tmp/types-chardet-5.0.4.6.tar.gz --markdown 20230510/t/types-chardet/5.0.4.5-5.0.4.6/diff.md --exclude *.pyd
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-oauthlib]: Start processing: types-google-cloud-ndb
+[2023-05-10 17:23:11] INFO root fetch - main [MainThread]: End processing [types-oauthlib]: success
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-flake8-docstrings]: executing diffoscope
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-flake8-docstrings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-docstrings-1.7.0.1.tar.gz tmp/types-flake8-docstrings-1.7.0.2.tar.gz --markdown 20230510/t/types-flake8-docstrings/1.7.0.1-1.7.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-opentracing]: Start processing: venv-modulefile
+[2023-05-10 17:23:11] INFO root fetch - main [MainThread]: End processing [types-opentracing]: success
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-Send2Trash]: Downloading https://files.pythonhosted.org/packages/f2/8d/7d9bac6fcfde3bd400e40d2f52efc1e9d64fe3124756a8ab404e184c6625/types-Send2Trash-1.8.2.4.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-protobuf]: executing diffoscope
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-protobuf-4.22.0.2.tar.gz tmp/types-protobuf-4.23.0.0.tar.gz --markdown 20230510/t/types-protobuf/4.22.0.2-4.23.0.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-google-cloud-ndb]: New version: [2.1.0.7] Old Version: [2.1.0.6]
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-commonmark]: Start processing: types-simplejson
+[2023-05-10 17:23:11] INFO root fetch - main [MainThread]: End processing [types-commonmark]: success
+[2023-05-10 17:23:11] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 17:23:11] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-simplejson]: New version: [3.19.0.1] Old Version: [3.19.0.0]
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-google-cloud-ndb]: Downloading https://files.pythonhosted.org/packages/7f/62/331f3dd44c50b9044889d606215ddae4d4fc28549aae829107a8c3073289/types-google-cloud-ndb-2.1.0.6.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-Send2Trash]: Downloading https://files.pythonhosted.org/packages/0a/e2/945cc7ea08f9dea2dda4855a06dda45420d628b48777c32d3f76bd6a404b/types-Send2Trash-1.8.2.5.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-simplejson]: Downloading https://files.pythonhosted.org/packages/c6/1d/476ef6c685cc43a12df9b954331427b83c4ab6cac745dc152d7be2381f0a/types-simplejson-3.19.0.0.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-Send2Trash]: executing diffoscope
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-Send2Trash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Send2Trash-1.8.2.4.tar.gz tmp/types-Send2Trash-1.8.2.5.tar.gz --markdown 20230510/t/types-Send2Trash/1.8.2.4-1.8.2.5/diff.md --exclude *.pyd
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-google-cloud-ndb]: Downloading https://files.pythonhosted.org/packages/29/7c/b47fd209efd401152ee484e99b49ab9694a6017d4fe9e58c53f243387670/types-google-cloud-ndb-2.1.0.7.tar.gz
+[2023-05-10 17:23:11] INFO root fetch - processPackages [types-simplejson]: Downloading https://files.pythonhosted.org/packages/3c/29/b0f91528059cd51681e1f614b1f03f0785f8307e51c1a0907847d75af203/types-simplejson-3.19.0.1.tar.gz
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-google-cloud-ndb]: executing diffoscope
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-google-cloud-ndb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-google-cloud-ndb-2.1.0.6.tar.gz tmp/types-google-cloud-ndb-2.1.0.7.tar.gz --markdown 20230510/t/types-google-cloud-ndb/2.1.0.6-2.1.0.7/diff.md --exclude *.pyd
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-simplejson]: executing diffoscope
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-simplejson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-simplejson-3.19.0.0.tar.gz tmp/types-simplejson-3.19.0.1.tar.gz --markdown 20230510/t/types-simplejson/3.19.0.0-3.19.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-pyflakes]: Start processing: types-psycopg2
+[2023-05-10 17:23:12] INFO root fetch - main [MainThread]: End processing [types-pyflakes]: success
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-psycopg2]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-chardet]: Start processing: types-docutils
+[2023-05-10 17:23:12] INFO root fetch - main [MainThread]: End processing [types-chardet]: success
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-docutils]: New version: [0.20.0.0] Old Version: [0.19.1.9]
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-flake8-docstrings]: Start processing: types-flake8-bugbear
+[2023-05-10 17:23:12] INFO root fetch - main [MainThread]: End processing [types-flake8-docstrings]: success
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/5c/e6/4586fc0a909bc797f26ddfc245c18c9a6e6319f95ea971a8d3ce8fe3749e/types-psycopg2-2.9.8.tar.gz
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-flake8-bugbear]: New version: [23.5.9.0] Old Version: [23.3.23.0]
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-stripe]: Start processing: types-pyOpenSSL
+[2023-05-10 17:23:12] INFO root fetch - main [MainThread]: End processing [types-stripe]: success
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-flake8-bugbear]: executing diffoscope
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-bugbear-23.3.23.0.tar.gz tmp/types-flake8-bugbear-23.5.9.0.tar.gz --markdown 20230510/t/types-flake8-bugbear/23.3.23.0-23.5.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-docutils]: Downloading https://files.pythonhosted.org/packages/8a/ce/3493dc6e0dd7341d51692cffaa11f5a8ab1dd9adf4a01efeb0feaf3c1396/types-docutils-0.20.0.0.tar.gz
+[2023-05-10 17:23:12] INFO root fetch - processPackages [types-pyOpenSSL]: New version: [23.1.0.3] Old Version: [23.1.0.2]
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-docutils]: executing diffoscope
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-docutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-docutils-0.19.1.9.tar.gz tmp/types-docutils-0.20.0.0.tar.gz --markdown 20230510/t/types-docutils/0.19.1.9-0.20.0.0/diff.md --exclude *.pyd
+[2023-05-10 17:23:13] INFO root fetch - main [MainThread]: End processing [types-Send2Trash]: success
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/9e/26/bd7b47d54526581e6682a275055e2109f406e9566dc5cc666fc6aa874523/types-pyOpenSSL-23.1.0.2.tar.gz
+[2023-05-10 17:23:13] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-psycopg2]: Downloading https://files.pythonhosted.org/packages/82/cc/73c4880716866b239054839bf72b23c51c4d43ffe56c9ccbe4948e7a57b6/types-psycopg2-2.9.9.tar.gz
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-pyOpenSSL]: Downloading https://files.pythonhosted.org/packages/a5/f0/7c331aa7a58d421b41aaf69ca72a1633a7f3e724a8e3646a0b10357af16f/types-pyOpenSSL-23.1.0.3.tar.gz
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-psycopg2]: executing diffoscope
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-psycopg2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-psycopg2-2.9.8.tar.gz tmp/types-psycopg2-2.9.9.tar.gz --markdown 20230510/t/types-psycopg2/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-05-10 17:23:13] INFO root fetch - main [MainThread]: End processing [types-protobuf]: success
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-pyOpenSSL]: executing diffoscope
+[2023-05-10 17:23:13] INFO root fetch - processPackages [types-pyOpenSSL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-pyOpenSSL-23.1.0.2.tar.gz tmp/types-pyOpenSSL-23.1.0.3.tar.gz --markdown 20230510/t/types-pyOpenSSL/23.1.0.2-23.1.0.3/diff.md --exclude *.pyd
+[2023-05-10 17:23:13] INFO root fetch - main [MainThread]: End processing [types-simplejson]: success
+[2023-05-10 17:23:13] INFO root fetch - main [MainThread]: End processing [types-google-cloud-ndb]: success
+[2023-05-10 17:23:14] INFO root fetch - main [MainThread]: End processing [types-flake8-bugbear]: success
+[2023-05-10 17:23:14] INFO root fetch - main [MainThread]: End processing [types-docutils]: success
+[2023-05-10 17:23:14] INFO root fetch - main [MainThread]: End processing [types-psycopg2]: success
+[2023-05-10 17:23:14] INFO root fetch - main [MainThread]: End processing [types-pyOpenSSL]: success
+[2023-05-10 17:23:15] INFO root fetch - main [MainThread]: End processing [sfkit]: success
+[2023-05-10 17:23:15] INFO root fetch - main [MainThread]: Store serial: [18049238]
