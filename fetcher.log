@@ -7481,3 +7481,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:48:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
 [2023-05-10 05:48:25] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
 [2023-05-10 05:48:25] INFO root fetch - main [MainThread]: Store serial: [18042031]
+[2023-05-10 05:53:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042031]
+[2023-05-10 05:53:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imit
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-csgo-case-simulator
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snaptrade-python-sdk
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: csv-to-dynamodb
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TeamBasics
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-connector-importer-source-sftp
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wcfhttp
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dogfood-logger-package
+[2023-05-10 05:53:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-magentoerpconnect
+[2023-05-10 05:53:34] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 05:53:34] INFO root fetch - processPackages [imit]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 05:53:34] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.3] Old Version: [37.1.25.2]
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo14-addon-connector-importer-source-sftp]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-05-10 05:53:34] WARNING root fetch - processPackages [dogfood-logger-package]: Skipping, unable to determine old version
+[2023-05-10 05:53:34] INFO root fetch - main [MainThread]: End processing [dogfood-logger-package] error
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: New version: [8.0.3.0.0.99.dev99] Old Version: [8.0.3.0.0.99.dev98]
+[2023-05-10 05:53:34] WARNING root fetch - processPackages [TeamBasics]: Skipping, unable to determine old version
+[2023-05-10 05:53:34] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-05-10 05:53:34] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:53:34] INFO root fetch - main [MainThread]: End processing [TeamBasics] error
+[2023-05-10 05:53:34] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:53:34] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:53:34] INFO root fetch - processPackages [imit]: Downloading https://files.pythonhosted.org/packages/7c/f8/43685e9068dc2c63fd9158e8393377b7d5075c40c560411bf9f7bc97e248/imit-1.1.0.tar.gz
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo14-addon-connector-importer-source-sftp]: Downloading https://files.pythonhosted.org/packages/9f/0a/9a4d3cc922cc73fbf1f46df39b495566294aaf8c89f8bb43b97575a7f5f3/odoo14_addon_connector_importer_source_sftp-14.0.1.1.0-py3-none-any.whl
+[2023-05-10 05:53:34] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/ca/3e/4c137faab202d535afe62d150650274f3113494f50921b52376b49af1db3/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl
+[2023-05-10 05:53:34] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/fd/3d/8f52018a33e1077f06b962baab94f5b46a5b9e15089312cb0062dfd7d4e0/wcfhttp-37.1.25.3.tar.gz
+[2023-05-10 05:53:34] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: executing diffoscope
+[2023-05-10 05:53:34] INFO root fetch - processPackages [nonebot-plugin-csgo-case-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-csgo-case-simulator-0.1.8.tar.gz tmp/nonebot-plugin-csgo-case-simulator-0.1.9.tar.gz --markdown 20230510/n/nonebot-plugin-csgo-case-simulator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 05:53:34] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-05-10 05:53:34] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.2.tar.gz tmp/wcfhttp-37.1.25.3.tar.gz --markdown 20230510/w/wcfhttp/37.1.25.2-37.1.25.3/diff.md --exclude *.pyd
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo14-addon-connector-importer-source-sftp]: Downloading https://files.pythonhosted.org/packages/86/a3/9a5dc7465d8ac9af39df57311478f176779e098106ed0fd7a399f3664ead/odoo14_addon_connector_importer_source_sftp-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-05-10 05:53:34] INFO root fetch - processPackages [imit]: Downloading https://files.pythonhosted.org/packages/48/f9/dddb896643d39b8b9f83acaae36d3d3dcb1bfee91117b2580070378f8d96/imit-1.1.1.tar.gz
+[2023-05-10 05:53:34] INFO root fetch - processPackages [imit]: executing diffoscope
+[2023-05-10 05:53:34] INFO root fetch - processPackages [imit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imit-1.1.0.tar.gz tmp/imit-1.1.1.tar.gz --markdown 20230510/i/imit/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo14-addon-connector-importer-source-sftp]: executing diffoscope
+[2023-05-10 05:53:34] INFO root fetch - processPackages [odoo14-addon-connector-importer-source-sftp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer_source_sftp-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer_source_sftp-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-connector-importer-source-sftp/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-05-10 05:53:34] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-05-10 05:53:34] ERROR root fetch - processPackages [imit]: Diffoscope failed: Error: error creating container storage: the container name "frosty_franklin" is already in use by "ec08b70a7cd92f0dc0d3e380c318e0301b777c2f59746def7274ad73c45bd435". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-10 05:53:34] INFO root fetch - main [MainThread]: End processing [imit] error
+[2023-05-10 05:53:35] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-05-10 05:53:35] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230510/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-05-10 05:53:35] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:53:35] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-05-10 05:53:35] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer-source-sftp]: success
+[2023-05-10 05:53:36] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: Downloading https://files.pythonhosted.org/packages/8c/df/e2903450ff8a8521d1ffe7f414b2c48a9ae22059b2f7e39c7ca578b500c2/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl
+[2023-05-10 05:53:37] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: executing diffoscope
+[2023-05-10 05:53:37] INFO root fetch - processPackages [odoo8-addon-magentoerpconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev98-py2-none-any.whl.zip tmp/odoo8_addon_magentoerpconnect-8.0.3.0.0.99.dev99-py2-none-any.whl.zip --markdown 20230510/o/odoo8-addon-magentoerpconnect/8.0.3.0.0.99.dev98-8.0.3.0.0.99.dev99/diff.md --exclude *.pyd
+[2023-05-10 05:53:40] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-05-10 05:53:42] INFO root fetch - main [MainThread]: End processing [odoo8-addon-magentoerpconnect]: success
+[2023-05-10 05:53:50] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-csgo-case-simulator]: success
+[2023-05-10 05:53:50] INFO root fetch - main [MainThread]: Store serial: [18042068]
