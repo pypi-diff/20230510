@@ -7187,3 +7187,76 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:22:07] INFO root fetch - main [MainThread]: End processing [wcferry]: success
 [2023-05-10 05:22:07] INFO root fetch - main [MainThread]: End processing [fyers-token-manager]: success
 [2023-05-10 05:22:07] INFO root fetch - main [MainThread]: Store serial: [18041858]
+[2023-05-10 05:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041858]
+[2023-05-10 05:27:17] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dreem
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ScraperFC
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-agreement
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: areixio
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: csv-to-dynamodb
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ardilla
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: utiles
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: konfuzio-sdk
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hybrid-example
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Exegol
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ardilla]: New version: [0.0.2a0] Old Version: [0.0.1a0]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [dreem]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ScraperFC]: New version: [2.7.0] Old Version: [2.6.5]
+[2023-05-10 05:27:17] WARNING root fetch - processPackages [utiles]: Skipping, unable to determine old version
+[2023-05-10 05:27:17] INFO root fetch - processPackages [utiles]: Start processing: pyEdgeEval
+[2023-05-10 05:27:17] INFO root fetch - main [MainThread]: End processing [utiles] error
+[2023-05-10 05:27:17] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [areixio]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [odoo-addon-agreement]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230510/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-05-10 05:27:17] INFO root fetch - processPackages [Exegol]: New version: [4.2.0] Old Version: [4.1.1]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [hybrid-example]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:27:17] INFO root fetch - processPackages [pyEdgeEval]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-10 05:27:17] INFO root fetch - processPackages [areixio]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [areixio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areixio-0.2.8.tar.gz tmp/areixio-0.2.9.tar.gz --markdown 20230510/a/areixio/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:27:17] INFO root fetch - processPackages [dreem]: Downloading https://files.pythonhosted.org/packages/94/8a/6a002dfa45eb69eb196c880e7201065fd3ecfe31c414b4abc9499431289d/dreem-0.1.8.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ardilla]: Downloading https://files.pythonhosted.org/packages/e0/18/49b79ce1ec82ea13953c7258b0f8863f3b62505587a1c7ffaf452f64b972/ardilla-0.0.1a0.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/cb/37/b63a15c268d7a662c5563ce32b9665633eb248ac4c7f646b95d097bd2efd/odoo_addon_agreement-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ScraperFC]: Downloading https://files.pythonhosted.org/packages/f3/13/a2e4f1f9e6a530ec531ab08b34be4dcdef8a34049663cc4bd38d0a2e82b9/ScraperFC-2.6.5.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [hybrid-example]: Downloading https://files.pythonhosted.org/packages/ac/81/e12561ee1ba3382a35c6b5a0924524ba43d72ab74d2a35b22a9fd957d18f/hybrid_example-0.0.2.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [pyEdgeEval]: Downloading https://files.pythonhosted.org/packages/94/e1/9cd463cc67e2a186c283d4b5e29fa0b17fc0e3bb430a8fa2debcbbf59ee5/pyEdgeEval-0.2.6.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ardilla]: Downloading https://files.pythonhosted.org/packages/e7/43/8c3ad86c24dcf4aef9ca0ddf81002a37f0122e7f08db859e3fa1db3b3d15/ardilla-0.0.2a0.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ScraperFC]: Downloading https://files.pythonhosted.org/packages/25/16/e9ffd29413afa1a238a81b229934e73895b99d8a40bf744d1ffaa90af467/ScraperFC-2.7.0.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/98/1c/2587537c77268967286002e19b2c085b1f39230c7d3c07578c2ee52c50de/Exegol-4.1.1.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [dreem]: Downloading https://files.pythonhosted.org/packages/54/f6/a2005a987ee1b7b549a6fba5d72017c1e64be97433f6be612e3af29005e9/dreem-0.1.9.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [hybrid-example]: Downloading https://files.pythonhosted.org/packages/40/ff/72d349977d4534d430efa6e631f29f651aa7c744618dfa918ef8a7b35ead/hybrid_example-0.1.0.tar.gz
+[2023-05-10 05:27:17] INFO root fetch - processPackages [odoo-addon-agreement]: Downloading https://files.pythonhosted.org/packages/a6/eb/28518850a6b025dc429a696ae0ee51c4299b7a27f86bd416257c9b36b817/odoo_addon_agreement-16.0.1.0.0.4-py3-none-any.whl
+[2023-05-10 05:27:17] INFO root fetch - processPackages [dreem]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [dreem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreem-0.1.8.tar.gz tmp/dreem-0.1.9.tar.gz --markdown 20230510/d/dreem/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ScraperFC]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ScraperFC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ScraperFC-2.6.5.tar.gz tmp/ScraperFC-2.7.0.tar.gz --markdown 20230510/S/ScraperFC/2.6.5-2.7.0/diff.md --exclude *.pyd
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ardilla]: executing diffoscope
+[2023-05-10 05:27:17] INFO root fetch - processPackages [ardilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ardilla-0.0.1a0.tar.gz tmp/ardilla-0.0.2a0.tar.gz --markdown 20230510/a/ardilla/0.0.1a0-0.0.2a0/diff.md --exclude *.pyd
+[2023-05-10 05:27:18] INFO root fetch - processPackages [pyEdgeEval]: Downloading https://files.pythonhosted.org/packages/3b/f4/fafa338cca3ea553807f97ab03bdead9dd98ebb858de8e0d132970f9196b/pyEdgeEval-0.2.7.tar.gz
+[2023-05-10 05:27:18] INFO root fetch - processPackages [hybrid-example]: executing diffoscope
+[2023-05-10 05:27:18] INFO root fetch - processPackages [hybrid-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hybrid_example-0.0.2.tar.gz tmp/hybrid_example-0.1.0.tar.gz --markdown 20230510/h/hybrid-example/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 05:27:18] INFO root fetch - processPackages [odoo-addon-agreement]: executing diffoscope
+[2023-05-10 05:27:18] INFO root fetch - processPackages [odoo-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_agreement-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_agreement-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-agreement/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-05-10 05:27:18] INFO root fetch - processPackages [Exegol]: Downloading https://files.pythonhosted.org/packages/7d/63/d56c52e24a30e1caf7064c7907bc3255510f6f3c4d73c3758a3e41f887ca/Exegol-4.2.0.tar.gz
+[2023-05-10 05:27:18] INFO root fetch - processPackages [pyEdgeEval]: executing diffoscope
+[2023-05-10 05:27:18] INFO root fetch - processPackages [pyEdgeEval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyEdgeEval-0.2.6.tar.gz tmp/pyEdgeEval-0.2.7.tar.gz --markdown 20230510/p/pyEdgeEval/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-10 05:27:18] INFO root fetch - processPackages [Exegol]: executing diffoscope
+[2023-05-10 05:27:18] INFO root fetch - processPackages [Exegol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Exegol-4.1.1.tar.gz tmp/Exegol-4.2.0.tar.gz --markdown 20230510/E/Exegol/4.1.1-4.2.0/diff.md --exclude *.pyd
+[2023-05-10 05:27:18] INFO root fetch - processPackages [csv-to-dynamodb]: Start processing: basics-team
+[2023-05-10 05:27:18] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:27:18] WARNING root fetch - processPackages [basics-team]: Skipping, unable to determine old version
+[2023-05-10 05:27:18] INFO root fetch - main [MainThread]: End processing [basics-team] error
+[2023-05-10 05:27:18] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-05-10 05:27:19] INFO root fetch - main [MainThread]: End processing [ScraperFC]: success
+[2023-05-10 05:27:19] INFO root fetch - main [MainThread]: End processing [hybrid-example]: success
+[2023-05-10 05:27:19] INFO root fetch - main [MainThread]: End processing [ardilla]: success
+[2023-05-10 05:27:19] INFO root fetch - main [MainThread]: End processing [odoo-addon-agreement]: success
+[2023-05-10 05:27:22] INFO root fetch - main [MainThread]: End processing [Exegol]: success
+[2023-05-10 05:27:22] INFO root fetch - main [MainThread]: End processing [dreem]: success
+[2023-05-10 05:27:23] INFO root fetch - main [MainThread]: End processing [pyEdgeEval]: success
+[2023-05-10 05:27:27] INFO root fetch - main [MainThread]: End processing [areixio]: success
+[2023-05-10 05:27:27] INFO root fetch - main [MainThread]: Store serial: [18041898]
