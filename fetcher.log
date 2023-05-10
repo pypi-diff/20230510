@@ -8797,3 +8797,81 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:57:36] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
 [2023-05-10 07:57:40] INFO root fetch - main [MainThread]: End processing [acryl-datahub]: success
 [2023-05-10 07:57:40] INFO root fetch - main [MainThread]: Store serial: [18042762]
+[2023-05-10 08:02:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042762]
+[2023-05-10 08:02:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arclet-alconna-ariadne
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: arclet-alconna-avilla
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arclet-alconna-graia
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: exodusutils
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arclet-alconna-ichika
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appshwnd
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: architex
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: DinoPackage
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyutils-basstal
+[2023-05-10 08:02:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-user
+[2023-05-10 08:02:49] WARNING root fetch - processPackages [DinoPackage]: Skipping, unable to determine old version
+[2023-05-10 08:02:49] INFO root fetch - processPackages [DinoPackage]: Start processing: font-CLI
+[2023-05-10 08:02:49] INFO root fetch - main [MainThread]: End processing [DinoPackage] error
+[2023-05-10 08:02:49] INFO root fetch - processPackages [exodusutils]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [architex]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [font-CLI]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [pyutils-basstal]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [arclet-alconna-ariadne]: New version: [0.13.0rc3] Old Version: [0.13.0rc2]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [appshwnd]: New version: [0.11] Old Version: [0.10]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [arclet-alconna-ichika]: New version: [0.13.0rc3] Old Version: [0.13.0rc2]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [exodusutils]: executing diffoscope
+[2023-05-10 08:02:49] INFO root fetch - processPackages [arclet-alconna-avilla]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [exodusutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exodusutils-0.3.7.tar.gz tmp/exodusutils-0.3.9.tar.gz --markdown 20230510/e/exodusutils/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 08:02:49] INFO root fetch - processPackages [arclet-alconna-graia]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-10 08:02:49] INFO root fetch - processPackages [architex]: Downloading https://files.pythonhosted.org/packages/31/93/8400e77c79311df4019b8965b5c6ecc9774ba5c73f17c08eb67bc1ab7cec/architex-0.1.2.tar.gz
+[2023-05-10 08:02:49] INFO root fetch - processPackages [font-CLI]: executing diffoscope
+[2023-05-10 08:02:49] INFO root fetch - processPackages [font-CLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/font-CLI-0.9.8.tar.gz tmp/font-CLI-0.9.9.tar.gz --markdown 20230510/f/font-CLI/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 08:02:49] INFO root fetch - processPackages [pyutils-basstal]: Downloading https://files.pythonhosted.org/packages/dc/d7/539f587953f274cd2c690412b0b25d27b294d151f422ddab79e7cb8bb4bd/pyutils_basstal-0.4.2.tar.gz
+[2023-05-10 08:02:49] INFO root fetch - processPackages [appshwnd]: Downloading https://files.pythonhosted.org/packages/8d/87/0b5e7f40e7c16d31d555a0f35b7257e17b29d14c0cbd56f70d0f79b31b6b/appshwnd-0.10.tar.gz
+[2023-05-10 08:02:49] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-05-10 08:02:49] INFO root fetch - processPackages [arclet-alconna-ariadne]: Downloading https://files.pythonhosted.org/packages/5a/da/e05234d8340a3126ce641a40d82b2bc320e12c901ef9de8dfe3fae8ca344/arclet-alconna-ariadne-0.13.0rc3.tar.gz
+[2023-05-10 08:02:50] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.1.tar.gz tmp/architex-0.1.2.tar.gz --markdown 20230510/a/architex/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-ariadne]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ariadne-0.13.0rc2.tar.gz tmp/arclet-alconna-ariadne-0.13.0rc3.tar.gz --markdown 20230510/a/arclet-alconna-ariadne/0.13.0rc2-0.13.0rc3/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-ichika]: Downloading https://files.pythonhosted.org/packages/2f/4d/d11b0c4c965ba482949f11d21620a7da66fb568c16a0854e22c37af3a177/arclet-alconna-ichika-0.13.0rc3.tar.gz
+[2023-05-10 08:02:50] INFO root fetch - processPackages [pyutils-basstal]: Downloading https://files.pythonhosted.org/packages/0f/e6/4af3dd1e30b19c4cb228b15564db0445afc95f9d808e5235aa724fef7b82/pyutils_basstal-0.4.3.tar.gz
+[2023-05-10 08:02:50] INFO root fetch - processPackages [appshwnd]: Downloading https://files.pythonhosted.org/packages/a6/8d/c4f25bd07781bc1a30b45282eea05bd4b7f335d872fc2b1b28bba0c92fb9/appshwnd-0.11.tar.gz
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-avilla]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-avilla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-avilla-0.2.0.tar.gz tmp/arclet-alconna-avilla-0.3.0.tar.gz --markdown 20230510/a/arclet-alconna-avilla/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-ichika]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-ichika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-ichika-0.13.0rc2.tar.gz tmp/arclet-alconna-ichika-0.13.0rc3.tar.gz --markdown 20230510/a/arclet-alconna-ichika/0.13.0rc2-0.13.0rc3/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-graia]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [arclet-alconna-graia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arclet-alconna-graia-0.9.0.tar.gz tmp/arclet-alconna-graia-0.9.1.tar.gz --markdown 20230510/a/arclet-alconna-graia/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [appshwnd]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [appshwnd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appshwnd-0.10.tar.gz tmp/appshwnd-0.11.tar.gz --markdown 20230510/a/appshwnd/0.10-0.11/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-05-10 08:02:50] INFO root fetch - processPackages [pyutils-basstal]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [pyutils-basstal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyutils_basstal-0.4.2.tar.gz tmp/pyutils_basstal-0.4.3.tar.gz --markdown 20230510/p/pyutils-basstal/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-10 08:02:50] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-05-10 08:02:50] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230510/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-10 08:02:51] INFO root fetch - processPackages [architex]: Start processing: pysearchconsole
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 08:02:51] INFO root fetch - processPackages [pysearchconsole]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-10 08:02:51] INFO root fetch - processPackages [font-CLI]: Start processing: flask-securelogin
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [font-CLI]: success
+[2023-05-10 08:02:51] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ariadne]: success
+[2023-05-10 08:02:51] INFO root fetch - processPackages [pysearchconsole]: Downloading https://files.pythonhosted.org/packages/66/84/b03016a29da5b82b6e79e4e07a7fa30019ab528473186dc0a35c11d70c47/pysearchconsole-1.0.4.tar.gz
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [arclet-alconna-avilla]: success
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [exodusutils]: success
+[2023-05-10 08:02:51] INFO root fetch - processPackages [flask-securelogin]: Downloading https://files.pythonhosted.org/packages/60/a6/d255750b8039430d0ba57df3305705941f631f90d835a3fd56b5ed6d142b/flask_securelogin-0.1.5-py3-none-any.whl
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [arclet-alconna-graia]: success
+[2023-05-10 08:02:51] INFO root fetch - processPackages [pysearchconsole]: Downloading https://files.pythonhosted.org/packages/39/fa/82b0843de9aaab7c12434d60f8f9d5113e3e8f1243e63679e5f42c1fe77a/pysearchconsole-1.0.5.tar.gz
+[2023-05-10 08:02:51] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 08:02:51] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-securelogin-0.1.4.tar.gz tmp/flask_securelogin-0.1.5-py3-none-any.whl.zip --markdown 20230510/f/flask-securelogin/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-10 08:02:51] INFO root fetch - main [MainThread]: End processing [appshwnd]: success
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: End processing [pyutils-basstal]: success
+[2023-05-10 08:02:52] INFO root fetch - processPackages [pysearchconsole]: executing diffoscope
+[2023-05-10 08:02:52] INFO root fetch - processPackages [pysearchconsole]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysearchconsole-1.0.4.tar.gz tmp/pysearchconsole-1.0.5.tar.gz --markdown 20230510/p/pysearchconsole/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: End processing [arclet-alconna-ichika]: success
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: End processing [pysearchconsole]: success
+[2023-05-10 08:02:52] INFO root fetch - main [MainThread]: Store serial: [18042800]
