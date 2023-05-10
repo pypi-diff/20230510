@@ -15280,3 +15280,139 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 13:45:43] INFO root fetch - main [MainThread]: End processing [acdh-tei-pyutils]: success
 [2023-05-10 13:46:13] INFO root fetch - main [MainThread]: End processing [irails]: success
 [2023-05-10 13:46:13] INFO root fetch - main [MainThread]: Store serial: [18046570]
+[2023-05-10 13:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046570]
+[2023-05-10 13:51:22] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bigdl-dllib-spark3
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-orca-spark3
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-friesian-spark3
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-chronos-spark3
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bigdl-spark3
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hdsr-pygithub
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: power-grid-model
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: graph-z-c
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hyperparameter-tuning
+[2023-05-10 13:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chipi
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [graph-z-c]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 13:51:22] WARNING root fetch - processPackages [chipi]: Skipping, unable to determine old version
+[2023-05-10 13:51:22] INFO root fetch - processPackages [chipi]: Start processing: RoboArt
+[2023-05-10 13:51:22] INFO root fetch - main [MainThread]: End processing [chipi] error
+[2023-05-10 13:51:22] INFO root fetch - processPackages [hdsr-pygithub]: New version: [1.9] Old Version: [1.8]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [hyperparameter-tuning]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:51:22] WARNING root fetch - processPackages [RoboArt]: Skipping, unable to determine old version
+[2023-05-10 13:51:22] INFO root fetch - processPackages [RoboArt]: Start processing: oc-sql-helpers
+[2023-05-10 13:51:22] INFO root fetch - main [MainThread]: End processing [RoboArt] error
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [oc-sql-helpers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9166510100968] Old Version: [1.5.0rc9165501361799]
+[2023-05-10 13:51:22] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/1e/d8/18a6778fcbeb02c2e418e0daf4743a4381f4d132235b70aa9247318f473a/bigdl-dllib-spark3-2.4.0b20230508.tar.gz
+[2023-05-10 13:51:22] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/41/f9/141e6b650cc5d419f4d1b0a37b76c17fc249842093c99e830ffe39515b3e/hdsr_pygithub-1.8.tar.gz
+[2023-05-10 13:51:22] INFO root fetch - processPackages [hyperparameter-tuning]: Downloading https://files.pythonhosted.org/packages/f2/56/3422d04cd65dd97058079ca3c73d9cbc494149261ca4d89f2e0f4b8878b0/hyperparameter-tuning-0.1.9.tar.gz
+[2023-05-10 13:51:22] INFO root fetch - processPackages [graph-z-c]: Downloading https://files.pythonhosted.org/packages/d2/2f/02a2d1b8e0afe59ba5cb2d94805d93a06a94aead23512468bcb474fea470/graph_z_c-0.0.6.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/83/8f/c490ba7f49647d0d065d22f2b59cf756a598c4635600f6e611d9cbcf6a8d/bigdl_orca_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl
+[2023-05-10 13:51:23] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207479>=10485760
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-orca-spark3]: Start processing: hdsr-fewspy
+[2023-05-10 13:51:23] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-05-10 13:51:23] INFO root fetch - processPackages [oc-sql-helpers]: Downloading https://files.pythonhosted.org/packages/06/88/fcaec4184b163050bda16f03f41650ec1f721aba497030761aa865d5dbc6/oc_sql_helpers-1.0.0-py3-none-any.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-fewspy]: New version: [1.8] Old Version: [1.7]
+[2023-05-10 13:51:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/c6/b5/cb490778fbf249bc1cf117a588ede171456bcef926dc6c36817a3f512993/power_grid_model-1.5.0rc9165501361799-py3-none-win_amd64.whl
+[2023-05-10 13:51:23] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251904>=10485760
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-dllib-spark3]: Start processing: html2notion
+[2023-05-10 13:51:23] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-05-10 13:51:23] INFO root fetch - processPackages [html2notion]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 13:51:23] INFO root fetch - processPackages [graph-z-c]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [graph-z-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graph_z_c-0.0.5.tar.gz tmp/graph_z_c-0.0.6.tar.gz --markdown 20230510/g/graph-z-c/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/fd/1c/b234c1ec6ab4f31d35273804d8fd20f19ea895117a4dba9b9723189826e7/bigdl_friesian_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/67/79/ad5bf07184fe278597d85ef00c622a683648f2163545839f5d0c2c963a0b/bigdl_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/d8/35/11e68b65ad9cb33e9f95ad77d6479190e3a3ca21a2601c084fb392f8ac30/hdsr_fewspy-1.7.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip --markdown 20230510/b/bigdl-friesian-spark3/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip --markdown 20230510/b/bigdl-spark3/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/43/1f/b1cbc86ca27aae9e4205896d90693d83667e9dcff7da686aa6a0cfa3e38d/html2notion-0.1.7.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/6b/f4/477444831b93e83f711c41e38484de48b8163fcced29e7aff104a5419871/bigdl_chronos_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hyperparameter-tuning]: Downloading https://files.pythonhosted.org/packages/e3/05/29e975ff89a06612c8cd3f7d919aac9432eaa4025cc94475bbcbc3fcbcd6/hyperparameter-tuning-0.2.0.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [oc-sql-helpers]: Downloading https://files.pythonhosted.org/packages/a8/46/7bfe04fd0bc5613746c4f9d3c5c17ea0bc5ed97ae180fc7ee8bbaf11a314/oc_sql_helpers-1.0.1-py3-none-any.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hyperparameter-tuning]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hyperparameter-tuning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperparameter-tuning-0.1.9.tar.gz tmp/hyperparameter-tuning-0.2.0.tar.gz --markdown 20230510/h/hyperparameter-tuning/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230508-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230510-py3-none-manylinux1_x86_64.whl.zip --markdown 20230510/b/bigdl-chronos-spark3/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-pygithub]: Downloading https://files.pythonhosted.org/packages/5d/42/aaeb22fc67e6d652872597b97abfc7cca20a0bf555240cce92c5858309f2/hdsr_pygithub-1.9.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/68/62/41ae17c7eda7ece69d1fa7e0dff9aedaedc142bd2cfe29009edf066d7775/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-fewspy]: Downloading https://files.pythonhosted.org/packages/c4/95/1c2c806a03f052432c1910649c954abab72660f0ad87d159e406a891de2a/hdsr_fewspy-1.8.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [oc-sql-helpers]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [oc-sql-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oc_sql_helpers-1.0.0-py3-none-any.whl.zip tmp/oc_sql_helpers-1.0.1-py3-none-any.whl.zip --markdown 20230510/o/oc-sql-helpers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [html2notion]: Downloading https://files.pythonhosted.org/packages/eb/a1/f617d9bad2ef50e2bc7dbf4d2d8ed5041f1062f1be7e00737660bf0b4383/html2notion-0.1.8.tar.gz
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-pygithub]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-pygithub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_pygithub-1.8.tar.gz tmp/hdsr_pygithub-1.9.tar.gz --markdown 20230510/h/hdsr-pygithub/1.8-1.9/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-fewspy]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [hdsr-fewspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdsr_fewspy-1.7.tar.gz tmp/hdsr_fewspy-1.8.tar.gz --markdown 20230510/h/hdsr-fewspy/1.7-1.8/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [html2notion]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [html2notion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/html2notion-0.1.7.tar.gz tmp/html2notion-0.1.8.tar.gz --markdown 20230510/h/html2notion/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 13:51:23] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-05-10 13:51:23] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power_grid_model-1.5.0rc9165501361799-py3-none-win_amd64.whl.zip tmp/power_grid_model-1.5.0rc9166510100968-py3-none-win_amd64.whl.zip --markdown 20230510/p/power-grid-model/1.5.0rc9165501361799-1.5.0rc9166510100968/diff.md --exclude *.pyd
+[2023-05-10 13:51:24] INFO root fetch - processPackages [graph-z-c]: Start processing: samplestamps
+[2023-05-10 13:51:24] INFO root fetch - main [MainThread]: End processing [graph-z-c]: success
+[2023-05-10 13:51:24] INFO root fetch - processPackages [samplestamps]: New version: [0.5.0] Old Version: [0.4.4]
+[2023-05-10 13:51:24] INFO root fetch - processPackages [samplestamps]: Downloading https://files.pythonhosted.org/packages/e9/25/9b28c8b53ecd47e23d91aa8cfc2223bd1acb3d81e343586f33a423b468cf/samplestamps-0.4.4.tar.gz
+[2023-05-10 13:51:24] INFO root fetch - processPackages [bigdl-spark3]: Start processing: finalynx
+[2023-05-10 13:51:24] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-05-10 13:51:25] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-10 13:51:25] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-10 13:51:25] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230510/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 13:51:25] INFO root fetch - processPackages [samplestamps]: Downloading https://files.pythonhosted.org/packages/10/01/e7674ef312566bd8461bf33468cda93344c4a8ccfe86c049a33cf44be796/samplestamps-0.5.0.tar.gz
+[2023-05-10 13:51:25] INFO root fetch - processPackages [bigdl-friesian-spark3]: Start processing: pyikarus
+[2023-05-10 13:51:25] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-05-10 13:51:25] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000051] Old Version: [0.3.0.dev202310000050]
+[2023-05-10 13:51:25] INFO root fetch - processPackages [samplestamps]: executing diffoscope
+[2023-05-10 13:51:25] INFO root fetch - processPackages [samplestamps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samplestamps-0.4.4.tar.gz tmp/samplestamps-0.5.0.tar.gz --markdown 20230510/s/samplestamps/0.4.4-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 13:51:25] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/23/bb/b9215d7574bf8f33d3654a328938f4a8f26860b76bd499c7370c9c3c7ff0/pyikarus-0.3.0.dev202310000050.tar.gz
+[2023-05-10 13:51:25] INFO root fetch - processPackages [hyperparameter-tuning]: Start processing: django-admin-tailwind
+[2023-05-10 13:51:25] INFO root fetch - main [MainThread]: End processing [hyperparameter-tuning]: success
+[2023-05-10 13:51:25] INFO root fetch - processPackages [oc-sql-helpers]: Start processing: CnacRac
+[2023-05-10 13:51:25] INFO root fetch - main [MainThread]: End processing [oc-sql-helpers]: success
+[2023-05-10 13:51:25] INFO root fetch - processPackages [django-admin-tailwind]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 13:51:25] WARNING root fetch - processPackages [CnacRac]: Skipping, unable to determine old version
+[2023-05-10 13:51:25] INFO root fetch - processPackages [CnacRac]: Start processing: masonite-servicing
+[2023-05-10 13:51:25] INFO root fetch - main [MainThread]: End processing [CnacRac] error
+[2023-05-10 13:51:25] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 13:51:25] INFO root fetch - processPackages [django-admin-tailwind]: Downloading https://files.pythonhosted.org/packages/b6/09/8323f66322d7f938430206d24a12560e414eefb0f13ae6db674b9b932028/django-admin-tailwind-0.0.8.tar.gz
+[2023-05-10 13:51:25] INFO root fetch - processPackages [hdsr-pygithub]: Start processing: pyxllib
+[2023-05-10 13:51:25] INFO root fetch - main [MainThread]: End processing [hdsr-pygithub]: success
+[2023-05-10 13:51:25] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-10 13:51:25] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.1.tar.gz tmp/masonite-servicing-0.0.2.tar.gz --markdown 20230510/m/masonite-servicing/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/0b/ea/380eb4ab8e680e08f6fef4a6299afc91ed81f02ee939b85737836559023c/pyikarus-0.3.0.dev202310000051.tar.gz
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyxllib]: New version: [0.3.9] Old Version: [0.3.8.1]
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000050.tar.gz tmp/pyikarus-0.3.0.dev202310000051.tar.gz --markdown 20230510/p/pyikarus/0.3.0.dev202310000050-0.3.0.dev202310000051/diff.md --exclude *.pyd
+[2023-05-10 13:51:26] INFO root fetch - processPackages [django-admin-tailwind]: Downloading https://files.pythonhosted.org/packages/62/fb/cfc1ac93c62410d3c39c23f4b87c6d7e625eea7f41c58a55a156f62fa209/django-admin-tailwind-0.0.9.tar.gz
+[2023-05-10 13:51:26] INFO root fetch - processPackages [django-admin-tailwind]: executing diffoscope
+[2023-05-10 13:51:26] INFO root fetch - processPackages [django-admin-tailwind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-admin-tailwind-0.0.8.tar.gz tmp/django-admin-tailwind-0.0.9.tar.gz --markdown 20230510/d/django-admin-tailwind/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 13:51:26] INFO root fetch - processPackages [hdsr-fewspy]: Start processing: multiviewdata
+[2023-05-10 13:51:26] INFO root fetch - main [MainThread]: End processing [hdsr-fewspy]: success
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyxllib]: executing diffoscope
+[2023-05-10 13:51:26] INFO root fetch - processPackages [pyxllib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxllib-0.3.8.1.tar.gz tmp/pyxllib-0.3.9.tar.gz --markdown 20230510/p/pyxllib/0.3.8.1-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 13:51:26] INFO root fetch - processPackages [multiviewdata]: New version: [0.6] Old Version: [0.5.1]
+[2023-05-10 13:51:26] INFO root fetch - processPackages [html2notion]: Start processing: PyroFork-dev
+[2023-05-10 13:51:26] INFO root fetch - main [MainThread]: End processing [html2notion]: success
+[2023-05-10 13:51:26] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.1.6.dev202305101127] Old Version: [2.1.6.dev202305031625]
+[2023-05-10 13:51:26] INFO root fetch - processPackages [multiviewdata]: Downloading https://files.pythonhosted.org/packages/37/9d/f3607e1b60b39e660808cd8e841fcf90a2bb0f8ae4bf23fc9f883983e2f9/multiviewdata-0.5.1.tar.gz
+[2023-05-10 13:51:26] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-05-10 13:51:26] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.1.6.dev202305031625.tar.gz tmp/PyroFork-dev-2.1.6.dev202305101127.tar.gz --markdown 20230510/P/PyroFork-dev/2.1.6.dev202305031625-2.1.6.dev202305101127/diff.md --exclude *.pyd
+[2023-05-10 13:51:26] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-05-10 13:51:27] INFO root fetch - processPackages [multiviewdata]: Downloading https://files.pythonhosted.org/packages/ea/3a/d11789aade4da0d1f9e8cfe170b938191a8b542eaf2327683659c0a51624/multiviewdata-0.6.tar.gz
+[2023-05-10 13:51:27] INFO root fetch - processPackages [multiviewdata]: executing diffoscope
+[2023-05-10 13:51:27] INFO root fetch - processPackages [multiviewdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiviewdata-0.5.1.tar.gz tmp/multiviewdata-0.6.tar.gz --markdown 20230510/m/multiviewdata/0.5.1-0.6/diff.md --exclude *.pyd
+[2023-05-10 13:51:27] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-10 13:51:27] INFO root fetch - main [MainThread]: End processing [samplestamps]: success
+[2023-05-10 13:51:27] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-10 13:51:28] INFO root fetch - main [MainThread]: End processing [django-admin-tailwind]: success
+[2023-05-10 13:51:28] INFO root fetch - main [MainThread]: End processing [multiviewdata]: success
+[2023-05-10 13:51:29] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-10 13:51:29] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-05-10 13:51:30] INFO root fetch - main [MainThread]: End processing [pyxllib]: success
+[2023-05-10 13:51:32] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-05-10 13:51:32] INFO root fetch - main [MainThread]: Store serial: [18046640]
