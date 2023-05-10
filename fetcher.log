@@ -21688,3 +21688,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:57:10] INFO root fetch - main [MainThread]: End processing [skylibs]: success
 [2023-05-10 18:57:12] INFO root fetch - main [MainThread]: End processing [financepy]: success
 [2023-05-10 18:57:12] INFO root fetch - main [MainThread]: Store serial: [18050218]
+[2023-05-10 19:02:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050218]
+[2023-05-10 19:02:21] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: osais
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moddagudu
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crdb
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillow-heif
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: morsels
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shub-workflow
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: napari-stpt
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tensorflow-macos
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ptzipcam
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PatryksAutoAI
+[2023-05-10 19:02:21] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [moddagudu]: New version: [1.2] Old Version: [1.1]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [pillow-heif]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [osais]: New version: [1.0.39] Old Version: [1.0.38]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 19:02:21] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.1.tar.gz tmp/moddagudu-1.2.tar.gz --markdown 20230510/m/moddagudu/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-10 19:02:21] WARNING root fetch - processPackages [morsels]: Skipping, unable to determine old version
+[2023-05-10 19:02:21] INFO root fetch - processPackages [morsels]: Start processing: calfram
+[2023-05-10 19:02:21] INFO root fetch - main [MainThread]: End processing [morsels] error
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ptzipcam]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [tensorflow-macos]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [crdb]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [napari-stpt]: New version: [0.1.0.0] Old Version: [0.0.9.9]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-05-10 19:02:21] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230510/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-05-10 19:02:21] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/60/11/af2981b4627230d95120a5a7d405a69f633342dd83aa4cc1e6a2ef0d82cb/PatryksAutoAI-0.0.9.tar.gz
+[2023-05-10 19:02:21] WARNING root fetch - processPackages [calfram]: Skipping, unable to determine old version
+[2023-05-10 19:02:21] INFO root fetch - processPackages [calfram]: Start processing: stactools-sentinel1
+[2023-05-10 19:02:21] INFO root fetch - main [MainThread]: End processing [calfram] error
+[2023-05-10 19:02:21] INFO root fetch - processPackages [pillow-heif]: Downloading https://files.pythonhosted.org/packages/93/8f/3808d7e562d12b6b66aed6ea4bc12380bdc76556cde5c6d50141e7b43141/pillow_heif-0.9.2.tar.gz
+[2023-05-10 19:02:21] INFO root fetch - processPackages [stactools-sentinel1]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-05-10 19:02:21] INFO root fetch - processPackages [ptzipcam]: Downloading https://files.pythonhosted.org/packages/57/84/f809b103d2e0941c1ddfeabb9338ab73787bc060f0cca558594f93f24b99/ptzipcam-0.0.5.tar.gz
+[2023-05-10 19:02:21] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/e8/96/090234d8c30414d21f71c159e0c4ab95d9eb36eb47e94d1dd336c069f3a8/osais-1.0.38.tar.gz
+[2023-05-10 19:02:21] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/68/c2/702f22074fe1e2a074de8d2cdc763c349b64e99553d9696bfa72117ac716/napari-stpt-0.0.9.9.tar.gz
+[2023-05-10 19:02:21] INFO root fetch - processPackages [tensorflow-macos]: Downloading https://files.pythonhosted.org/packages/e6/99/1a88558b12f78e17ea703384f3f34f5ac45a1acff4947491830c6add1434/tensorflow_macos-2.9.1-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-05-10 19:02:21] INFO root fetch - processPackages [stactools-sentinel1]: executing diffoscope
+[2023-05-10 19:02:21] INFO root fetch - processPackages [stactools-sentinel1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stactools-sentinel1-0.5.3.tar.gz tmp/stactools-sentinel1-0.6.0.tar.gz --markdown 20230510/s/stactools-sentinel1/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 19:02:22] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.8.tar.gz tmp/PatryksAutoAI-0.0.9.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [crdb]: Downloading https://files.pythonhosted.org/packages/71/4e/3ba65249ab0786a0b903aa0bff4fba1fd56a89298263636da4dd34fd8af5/crdb-0.8.0.tar.gz
+[2023-05-10 19:02:22] WARNING root fetch - processPackages [tensorflow-macos]: Skipping package: exceeds size limit 237539752>=10485760
+[2023-05-10 19:02:22] INFO root fetch - processPackages [tensorflow-macos]: Start processing: pi-heif
+[2023-05-10 19:02:22] INFO root fetch - main [MainThread]: End processing [tensorflow-macos] error
+[2023-05-10 19:02:22] INFO root fetch - processPackages [crdb]: executing diffoscope
+[2023-05-10 19:02:22] INFO root fetch - processPackages [crdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crdb-0.7.0.tar.gz tmp/crdb-0.8.0.tar.gz --markdown 20230510/c/crdb/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [napari-stpt]: Downloading https://files.pythonhosted.org/packages/2e/83/870b6c6841c854d861ad46815b5d2ed88e3cd0538d531e0a5bbb2214d72b/napari-stpt-0.1.0.0.tar.gz
+[2023-05-10 19:02:22] INFO root fetch - processPackages [osais]: Downloading https://files.pythonhosted.org/packages/12/7d/a7cf4c1126a57efbbebff6f928e8672a3abf49624ba6a625238e4d069117/osais-1.0.39.tar.gz
+[2023-05-10 19:02:22] INFO root fetch - processPackages [ptzipcam]: Downloading https://files.pythonhosted.org/packages/e3/49/e3c0d4438fce7876687dca63184a4ec04ab86905da288ff87660e3bfa362/ptzipcam-0.0.6.tar.gz
+[2023-05-10 19:02:22] INFO root fetch - processPackages [napari-stpt]: executing diffoscope
+[2023-05-10 19:02:22] INFO root fetch - processPackages [napari-stpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stpt-0.0.9.9.tar.gz tmp/napari-stpt-0.1.0.0.tar.gz --markdown 20230510/n/napari-stpt/0.0.9.9-0.1.0.0/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [osais]: executing diffoscope
+[2023-05-10 19:02:22] INFO root fetch - processPackages [osais]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osais-1.0.38.tar.gz tmp/osais-1.0.39.tar.gz --markdown 20230510/o/osais/1.0.38-1.0.39/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [pi-heif]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-10 19:02:22] INFO root fetch - processPackages [ptzipcam]: executing diffoscope
+[2023-05-10 19:02:22] INFO root fetch - processPackages [ptzipcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ptzipcam-0.0.5.tar.gz tmp/ptzipcam-0.0.6.tar.gz --markdown 20230510/p/ptzipcam/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 19:02:22] INFO root fetch - processPackages [pi-heif]: Downloading https://files.pythonhosted.org/packages/18/72/4dab2604548ee1910d609dd2ce23fab4a9516a62038d67838b819c0714a3/pi_heif-0.9.2.tar.gz
+[2023-05-10 19:02:22] INFO root fetch - processPackages [moddagudu]: Start processing: mythic-container
+[2023-05-10 19:02:22] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 19:02:22] INFO root fetch - processPackages [mythic-container]: New version: [0.2.7] Old Version: [0.2.6rc2]
+[2023-05-10 19:02:23] INFO root fetch - processPackages [shub-workflow]: Start processing: arithmetica-py
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-05-10 19:02:23] INFO root fetch - processPackages [mythic-container]: Downloading https://files.pythonhosted.org/packages/d4/35/2421b5f5194fc963bd188dd6c7439367aaa6bd2fe351b187b01a7da36e62/mythic_container-0.2.7.tar.gz
+[2023-05-10 19:02:23] INFO root fetch - processPackages [arithmetica-py]: New version: [1.0.202] Old Version: [1.0.201]
+[2023-05-10 19:02:23] INFO root fetch - processPackages [mythic-container]: executing diffoscope
+[2023-05-10 19:02:23] INFO root fetch - processPackages [mythic-container]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mythic_container-0.2.6rc2.tar.gz tmp/mythic_container-0.2.7.tar.gz --markdown 20230510/m/mythic-container/0.2.6rc2-0.2.7/diff.md --exclude *.pyd
+[2023-05-10 19:02:23] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: instagrapi
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 19:02:23] INFO root fetch - processPackages [stactools-sentinel1]: Start processing: 8puzz
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [stactools-sentinel1]: success
+[2023-05-10 19:02:23] INFO root fetch - processPackages [instagrapi]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-10 19:02:23] WARNING root fetch - processPackages [8puzz]: Skipping, unable to determine old version
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [8puzz] error
+[2023-05-10 19:02:23] INFO root fetch - processPackages [arithmetica-py]: Downloading https://files.pythonhosted.org/packages/cb/c7/660ace8a1224773b79a316724a54b49711fbaa555545a7b3c7db86a938ee/arithmetica-py-1.0.202.tar.gz
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [crdb]: success
+[2023-05-10 19:02:23] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/76/d7/2e3379f2e2033e99f5743565c35eea3290a0d8c64d972b61d72a5f58d114/instagrapi-1.9.8.tar.gz
+[2023-05-10 19:02:23] INFO root fetch - main [MainThread]: End processing [napari-stpt]: success
+[2023-05-10 19:02:23] INFO root fetch - processPackages [arithmetica-py]: executing diffoscope
+[2023-05-10 19:02:23] INFO root fetch - processPackages [arithmetica-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arithmetica-py-1.0.201.tar.gz tmp/arithmetica-py-1.0.202.tar.gz --markdown 20230510/a/arithmetica-py/1.0.201-1.0.202/diff.md --exclude *.pyd
+[2023-05-10 19:02:23] INFO root fetch - processPackages [pi-heif]: Downloading https://files.pythonhosted.org/packages/83/95/34106827a39fdc232e2500e354edff1540338cf263d5672108f02340e5ed/pi_heif-0.9.3.tar.gz
+[2023-05-10 19:02:24] INFO root fetch - processPackages [instagrapi]: Downloading https://files.pythonhosted.org/packages/1a/d8/c991a85c48ec7f9c0e137bdaebffcfe17e3a14ceb51fbce4a4e3742df665/instagrapi-1.9.9.tar.gz
+[2023-05-10 19:02:24] INFO root fetch - processPackages [instagrapi]: executing diffoscope
+[2023-05-10 19:02:24] INFO root fetch - processPackages [instagrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instagrapi-1.9.8.tar.gz tmp/instagrapi-1.9.9.tar.gz --markdown 20230510/i/instagrapi/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-10 19:02:24] INFO root fetch - main [MainThread]: End processing [ptzipcam]: success
+[2023-05-10 19:02:24] INFO root fetch - main [MainThread]: End processing [osais]: success
+[2023-05-10 19:02:24] INFO root fetch - processPackages [pillow-heif]: Downloading https://files.pythonhosted.org/packages/ec/a1/54a57a796adea5fd7272e94a4597acdd9fc03779f5efad58e291455784a8/pillow_heif-0.9.3.tar.gz
+[2023-05-10 19:02:24] INFO root fetch - main [MainThread]: End processing [mythic-container]: success
+[2023-05-10 19:02:25] INFO root fetch - main [MainThread]: End processing [arithmetica-py]: success
+[2023-05-10 19:02:25] INFO root fetch - main [MainThread]: End processing [instagrapi]: success
+[2023-05-10 19:02:25] INFO root fetch - processPackages [pi-heif]: executing diffoscope
+[2023-05-10 19:02:25] INFO root fetch - processPackages [pi-heif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pi_heif-0.9.2.tar.gz tmp/pi_heif-0.9.3.tar.gz --markdown 20230510/p/pi-heif/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 19:02:26] INFO root fetch - processPackages [pillow-heif]: executing diffoscope
+[2023-05-10 19:02:26] INFO root fetch - processPackages [pillow-heif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillow_heif-0.9.2.tar.gz tmp/pillow_heif-0.9.3.tar.gz --markdown 20230510/p/pillow-heif/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 19:02:27] INFO root fetch - main [MainThread]: End processing [pi-heif]: success
+[2023-05-10 19:02:28] INFO root fetch - main [MainThread]: End processing [pillow-heif]: success
+[2023-05-10 19:02:28] INFO root fetch - main [MainThread]: Store serial: [18050348]
