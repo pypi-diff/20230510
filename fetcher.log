@@ -20880,3 +20880,70 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:01:45] INFO root fetch - main [MainThread]: End processing [darfix]: success
 [2023-05-10 18:01:58] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
 [2023-05-10 18:01:58] INFO root fetch - main [MainThread]: Store serial: [18049720]
+[2023-05-10 18:07:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049720]
+[2023-05-10 18:07:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wagtail-association-panel
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dingo-gw
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: myUniquePythonPackageName
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandas-gbq
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firepup650
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leanit-mweb
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hhnk-threedi-tools
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: elasticityproject
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyVLMP
+[2023-05-10 18:07:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: maoc-support-functions
+[2023-05-10 18:07:08] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [hhnk-threedi-tools]: New version: [2023.1] Old Version: [0.9.2]
+[2023-05-10 18:07:08] WARNING root fetch - processPackages [elasticityproject]: Skipping, unable to determine old version
+[2023-05-10 18:07:08] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [elasticityproject]: Start processing: hkfdb
+[2023-05-10 18:07:08] INFO root fetch - main [MainThread]: End processing [elasticityproject] error
+[2023-05-10 18:07:08] INFO root fetch - processPackages [maoc-support-functions]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [pyVLMP]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-05-10 18:07:08] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230510/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:07:08] WARNING root fetch - processPackages [wagtail-association-panel]: Skipping, unable to determine old version
+[2023-05-10 18:07:08] INFO root fetch - processPackages [wagtail-association-panel]: Start processing: certora-cli-alpha-eytan-view-reentrency
+[2023-05-10 18:07:08] INFO root fetch - main [MainThread]: End processing [wagtail-association-panel] error
+[2023-05-10 18:07:08] INFO root fetch - processPackages [leanit-mweb]: New version: [23.5.3] Old Version: [23.5.2]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [dingo-gw]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [pandas-gbq]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [pyVLMP]: executing diffoscope
+[2023-05-10 18:07:08] INFO root fetch - processPackages [pyVLMP]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyVLMP-1.0.2.tar.gz tmp/pyVLMP-1.0.3.tar.gz --markdown 20230510/p/pyVLMP/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 18:07:08] INFO root fetch - processPackages [maoc-support-functions]: executing diffoscope
+[2023-05-10 18:07:08] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-10 18:07:08] INFO root fetch - processPackages [maoc-support-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maoc_support_functions-0.0.5.tar.gz tmp/maoc_support_functions-0.0.6.tar.gz --markdown 20230510/m/maoc-support-functions/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 18:07:08] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230510/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-10 18:07:08] INFO root fetch - processPackages [hkfdb]: New version: [2.8] Old Version: [2.77]
+[2023-05-10 18:07:08] INFO root fetch - processPackages [hhnk-threedi-tools]: Downloading https://files.pythonhosted.org/packages/2d/dd/0737a7c94f5f6ca9503e7e5f02f635e823813cafbd5e6006b46a0a350246/hhnk-threedi-tools-0.9.2.tar.gz
+[2023-05-10 18:07:08] WARNING root fetch - processPackages [certora-cli-alpha-eytan-view-reentrency]: Skipping, unable to determine old version
+[2023-05-10 18:07:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eytan-view-reentrency] error
+[2023-05-10 18:07:08] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/fc/9b/4741aecf1037a88179df47b49a5224e5e698234cb2a2e346934e5acad976/dingo-gw-0.5.2.tar.gz
+[2023-05-10 18:07:08] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/17/9f/479684fa586ec9539d91b4b64da550f61dcbd0cbffaee08c9e097d18a683/leanit-mweb-23.5.2.tar.gz
+[2023-05-10 18:07:08] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/8a/31/60a312ded0607e262f87b33866b77dc1f0781016b336776aecb0695341cf/hkfdb-2.77.tar.gz
+[2023-05-10 18:07:08] INFO root fetch - processPackages [pandas-gbq]: Downloading https://files.pythonhosted.org/packages/c8/57/30bb5768b4b1249e3ecf0eb4cff3be5f182db38fc1134c660ab6362b4d98/pandas-gbq-0.8.0.tar.gz
+[2023-05-10 18:07:09] INFO root fetch - processPackages [dingo-gw]: Downloading https://files.pythonhosted.org/packages/2f/67/348a6b22bf1c87a7f81093be713e53d1ca5111c65922df7edef74416bb1e/dingo-gw-0.5.3.tar.gz
+[2023-05-10 18:07:09] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/81/e8/dd2b77647a9aa86993e014bda1ddaed307736b0fa87c300fe7ddff76d974/leanit-mweb-23.5.3.tar.gz
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hhnk-threedi-tools]: Downloading https://files.pythonhosted.org/packages/2e/b7/f538e99cdbcd1d079273de10622bd791a1cfd717bb43d1e9deeecda409d9/hhnk_threedi_tools-2023.1-py3-none-any.whl
+[2023-05-10 18:07:09] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-05-10 18:07:09] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.5.2.tar.gz tmp/leanit-mweb-23.5.3.tar.gz --markdown 20230510/l/leanit-mweb/23.5.2-23.5.3/diff.md --exclude *.pyd
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hkfdb]: Downloading https://files.pythonhosted.org/packages/a5/d0/93314d6f73ca759a474a5791afe0bf4ceed338141db590ce54f04704250b/hkfdb-2.8.tar.gz
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hhnk-threedi-tools]: executing diffoscope
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hhnk-threedi-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk-threedi-tools-0.9.2.tar.gz tmp/hhnk_threedi_tools-2023.1-py3-none-any.whl.zip --markdown 20230510/h/hhnk-threedi-tools/0.9.2-2023.1/diff.md --exclude *.pyd
+[2023-05-10 18:07:09] INFO root fetch - processPackages [pandas-gbq]: Downloading https://files.pythonhosted.org/packages/9b/3d/b7b22e2c3b029c21967af83f33be3a763a59dc9c7a502912d6fa0e6a867b/pandas-gbq-0.9.0.tar.gz
+[2023-05-10 18:07:09] INFO root fetch - processPackages [dingo-gw]: executing diffoscope
+[2023-05-10 18:07:09] INFO root fetch - processPackages [dingo-gw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingo-gw-0.5.2.tar.gz tmp/dingo-gw-0.5.3.tar.gz --markdown 20230510/d/dingo-gw/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-05-10 18:07:09] INFO root fetch - processPackages [pandas-gbq]: executing diffoscope
+[2023-05-10 18:07:09] INFO root fetch - processPackages [pandas-gbq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-gbq-0.8.0.tar.gz tmp/pandas-gbq-0.9.0.tar.gz --markdown 20230510/p/pandas-gbq/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-05-10 18:07:09] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-2.77.tar.gz tmp/hkfdb-2.8.tar.gz --markdown 20230510/h/hkfdb/2.77-2.8/diff.md --exclude *.pyd
+[2023-05-10 18:07:09] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-05-10 18:07:09] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-10 18:07:09] INFO root fetch - main [MainThread]: End processing [maoc-support-functions]: success
+[2023-05-10 18:07:10] INFO root fetch - main [MainThread]: End processing [pyVLMP]: success
+[2023-05-10 18:07:10] INFO root fetch - main [MainThread]: End processing [pandas-gbq]: success
+[2023-05-10 18:07:10] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-05-10 18:07:10] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-05-10 18:07:12] INFO root fetch - main [MainThread]: End processing [hhnk-threedi-tools]: success
+[2023-05-10 18:07:13] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
+[2023-05-10 18:07:13] INFO root fetch - main [MainThread]: Store serial: [18049771]
