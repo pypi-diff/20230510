@@ -12627,3 +12627,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
 [2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [xtgeo]: success
 [2023-05-10 11:20:00] INFO root fetch - main [MainThread]: Store serial: [18044767]
+[2023-05-10 11:25:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044767]
+[2023-05-10 11:25:11] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gardener-oci
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: returnn
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkedin-scraper
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: afex-sso
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datatoolbox
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-nightly-cpu-aws
+[2023-05-10 11:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: logprep
+[2023-05-10 11:25:11] INFO root fetch - processPackages [linkedin-scraper]: New version: [2.9.2] Old Version: [2.9.1]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [datatoolbox]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [logprep]: New version: [6.2.0] Old Version: [6.1.0]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [afex-sso]: New version: [0.0.43] Old Version: [0.0.42]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [returnn]: New version: [1.20230510.91944] Old Version: [1.20230510.105313]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/90/47/1eefaa9a5e1f21e1bf99f0d146fd0f5011ce97f4b791df7ead7324b6cef8/afex-sso-0.0.42.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.14.0.dev20230510] Old Version: [2.14.0.dev20230508]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [linkedin-scraper]: Downloading https://files.pythonhosted.org/packages/ba/52/dbe57b6dc85b23d741fc248a5f4cb4be5ed2d7c5f10937d6011852cde0b7/linkedin_scraper-2.9.1.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/14/fe/6507d24dba79dbfb53a8e9656d2bab7d7397a486568875a17d2857bea492/returnn-1.20230510.105313.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/cf/24/cef1acc9408abfeaf94a999187b7488b987210e6387eab203be5bd4cf77f/logprep-6.1.0.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-10 11:25:11] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230510/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-10 11:25:11] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/1d/8b/a5dda92b44ef08dad9e1c5cd4b5629abaf76a9d73506b2aab8826d316a33/tf_nightly_cpu_aws-2.14.0.dev20230508-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-10 11:25:11] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-10 11:25:11] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230510/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-10 11:25:11] INFO root fetch - processPackages [datatoolbox]: Downloading https://files.pythonhosted.org/packages/11/cc/3c776395c6df96483ef3fef76a9353d4fee2624b3b8f539893267a06e2af/datatoolbox-0.5.6.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-05-10 11:25:11] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230510/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-05-10 11:25:11] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 250758229>=10485760
+[2023-05-10 11:25:11] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Start processing: pyrew
+[2023-05-10 11:25:11] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-05-10 11:25:11] INFO root fetch - processPackages [pyrew]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-05-10 11:25:11] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/21/61/d48ab079066f8be7ca5441f6050cef310a33c49255817903be7b38b4a83f/afex-sso-0.0.43.tar.gz
+[2023-05-10 11:25:11] INFO root fetch - processPackages [linkedin-scraper]: Downloading https://files.pythonhosted.org/packages/d9/30/9d1765a83661c33ef6d5e7a444f9cfeb3821aa1c08cda632dd578767089f/linkedin_scraper-2.9.2.tar.gz
+[2023-05-10 11:25:12] INFO root fetch - processPackages [logprep]: Downloading https://files.pythonhosted.org/packages/ab/20/f2091f38f6d885582747702838beda595185eadbab0cdedd1c37a9245d86/logprep-6.2.0.tar.gz
+[2023-05-10 11:25:12] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.42.tar.gz tmp/afex-sso-0.0.43.tar.gz --markdown 20230510/a/afex-sso/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2023-05-10 11:25:12] INFO root fetch - processPackages [datatoolbox]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [datatoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datatoolbox-0.5.5.tar.gz tmp/datatoolbox-0.5.6.tar.gz --markdown 20230510/d/datatoolbox/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-05-10 11:25:12] INFO root fetch - processPackages [linkedin-scraper]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [linkedin-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin_scraper-2.9.1.tar.gz tmp/linkedin_scraper-2.9.2.tar.gz --markdown 20230510/l/linkedin-scraper/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2023-05-10 11:25:12] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/58/9f/5c408e705e2ab6de875d0d83334a73bc49848c27a869e5f72fd52a7f257f/returnn-1.20230510.91944.tar.gz
+[2023-05-10 11:25:12] INFO root fetch - processPackages [logprep]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [logprep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logprep-6.1.0.tar.gz tmp/logprep-6.2.0.tar.gz --markdown 20230510/l/logprep/6.1.0-6.2.0/diff.md --exclude *.pyd
+[2023-05-10 11:25:12] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230510.105313.tar.gz tmp/returnn-1.20230510.91944.tar.gz --markdown 20230510/r/returnn/1.20230510.105313-1.20230510.91944/diff.md --exclude *.pyd
+[2023-05-10 11:25:12] INFO root fetch - processPackages [pyrew]: executing diffoscope
+[2023-05-10 11:25:12] INFO root fetch - processPackages [pyrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrew-0.9.2.tar.gz tmp/pyrew-0.9.3.tar.gz --markdown 20230510/p/pyrew/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 11:25:13] INFO root fetch - processPackages [afex-sso]: Start processing: pyright
+[2023-05-10 11:25:13] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-05-10 11:25:13] INFO root fetch - processPackages [pyright]: New version: [1.1.307] Old Version: [1.1.306]
+[2023-05-10 11:25:13] INFO root fetch - processPackages [gardener-oci]: Start processing: antchain-ak-ea70f896f759459588dfbc7d1fafe2f9
+[2023-05-10 11:25:13] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-10 11:25:13] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/9c/65/e12aee503b6093a22e1e01254a37bf5115bce8f62d67a6bd27fb81196c7f/pyright-1.1.306.tar.gz
+[2023-05-10 11:25:13] WARNING root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Skipping, unable to determine old version
+[2023-05-10 11:25:13] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Start processing: SPCAncestry
+[2023-05-10 11:25:13] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9] error
+[2023-05-10 11:25:14] WARNING root fetch - processPackages [SPCAncestry]: Skipping, unable to determine old version
+[2023-05-10 11:25:14] INFO root fetch - processPackages [SPCAncestry]: Start processing: daktari
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [SPCAncestry] error
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pyright]: Downloading https://files.pythonhosted.org/packages/62/1e/6b1dc2b80ab2d73dd036325c65e67821cdd896d6b50c15672cd2a7e44dbf/pyright-1.1.307.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: forestadmin-datasource-toolkit
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-10 11:25:14] INFO root fetch - processPackages [daktari]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pyright]: executing diffoscope
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pyright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyright-1.1.306.tar.gz tmp/pyright-1.1.307.tar.gz --markdown 20230510/p/pyright/1.1.306-1.1.307/diff.md --exclude *.pyd
+[2023-05-10 11:25:14] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: New version: [0.1.0b9] Old Version: [0.1.0b8]
+[2023-05-10 11:25:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: pierskarsenbarg-pulumi-sdm
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-05-10 11:25:14] INFO root fetch - processPackages [linkedin-scraper]: Start processing: spaceone-identity
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [linkedin-scraper]: success
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-10 11:25:14] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/ad/37/aef0972f584a7ccd5a02b58b58449fee7cfc5e203219dbfd89ec8ffdf6c9/forestadmin_datasource_toolkit-0.1.0b8.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - processPackages [spaceone-identity]: New version: [1.9.7rc2] Old Version: [1.9.7rc1]
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [pyrew]: success
+[2023-05-10 11:25:14] INFO root fetch - processPackages [daktari]: Downloading https://files.pythonhosted.org/packages/80/e2/e763e02669b3c5003eab9a1d3f23a8c11ddea7b9843baca75d4a3f67dfd1/daktari-0.0.98.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/24/55/b7beb1d6ec93751088d5381aff4026864e968323c60b3b4b58286ae9dbbf/pierskarsenbarg_pulumi_sdm-1.0.1.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - processPackages [daktari]: executing diffoscope
+[2023-05-10 11:25:14] INFO root fetch - processPackages [daktari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daktari-0.0.97.tar.gz tmp/daktari-0.0.98.tar.gz --markdown 20230510/d/daktari/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-05-10 11:25:14] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Downloading https://files.pythonhosted.org/packages/b7/9a/988eb6cd1dfc14a2b6ace6915c6966ba385d85c30d7547c85b9cf0fe2dd9/forestadmin_datasource_toolkit-0.1.0b9.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - main [MainThread]: End processing [datatoolbox]: success
+[2023-05-10 11:25:14] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: Downloading https://files.pythonhosted.org/packages/8f/86/fdf41e1caa3b35983bfc6ab07e830f27d84301f08ec6490ed802b0d60e3b/pierskarsenbarg_pulumi_sdm-1.1.0.tar.gz
+[2023-05-10 11:25:14] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2023-05-10 11:25:14] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_identity-1.9.7rc1-py3-none-any.whl.zip tmp/spaceone_identity-1.9.7rc2-py3-none-any.whl.zip --markdown 20230510/s/spaceone-identity/1.9.7rc1-1.9.7rc2/diff.md --exclude *.pyd
+[2023-05-10 11:25:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: executing diffoscope
+[2023-05-10 11:25:15] INFO root fetch - processPackages [pierskarsenbarg-pulumi-sdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pierskarsenbarg_pulumi_sdm-1.0.1.tar.gz tmp/pierskarsenbarg_pulumi_sdm-1.1.0.tar.gz --markdown 20230510/p/pierskarsenbarg-pulumi-sdm/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 11:25:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: executing diffoscope
+[2023-05-10 11:25:15] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forestadmin_datasource_toolkit-0.1.0b8.tar.gz tmp/forestadmin_datasource_toolkit-0.1.0b9.tar.gz --markdown 20230510/f/forestadmin-datasource-toolkit/0.1.0b8-0.1.0b9/diff.md --exclude *.pyd
+[2023-05-10 11:25:16] INFO root fetch - main [MainThread]: End processing [pyright]: success
+[2023-05-10 11:25:16] INFO root fetch - main [MainThread]: End processing [daktari]: success
+[2023-05-10 11:25:16] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2023-05-10 11:25:17] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
+[2023-05-10 11:25:17] INFO root fetch - main [MainThread]: End processing [pierskarsenbarg-pulumi-sdm]: success
+[2023-05-10 11:25:17] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-10 11:25:18] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-10 11:25:19] INFO root fetch - main [MainThread]: End processing [logprep]: success
+[2023-05-10 11:25:19] INFO root fetch - main [MainThread]: Store serial: [18044836]
