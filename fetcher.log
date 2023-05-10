@@ -7879,3 +7879,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:25:06] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.1.5.tar.gz tmp/nonebot_plugin_majsoul-0.1.6.tar.gz --markdown 20230510/n/nonebot-plugin-majsoul/0.1.5-0.1.6/diff.md --exclude *.pyd
 [2023-05-10 06:25:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
 [2023-05-10 06:25:08] INFO root fetch - main [MainThread]: Store serial: [18042249]
+[2023-05-10 06:30:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042249]
+[2023-05-10 06:30:17] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nni
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pixelmagic
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: protobuf
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-website-sale-category-breadcrumb
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: arkdata
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oloren
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-securelogin
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: snowflake-connector-python-nightly
+[2023-05-10 06:30:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: arthub-api
+[2023-05-10 06:30:17] INFO root fetch - processPackages [nni]: New version: [3.0rc1] Old Version: [2.9]
+[2023-05-10 06:30:18] WARNING root fetch - processPackages [pixelmagic]: Skipping, unable to determine old version
+[2023-05-10 06:30:18] INFO root fetch - main [MainThread]: End processing [pixelmagic] error
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [protobuf]: New version: [4.23.0rc3] Old Version: [4.23.0rc2]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [odoo14-addon-website-sale-category-breadcrumb]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev3]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230510/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arthub-api]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-10 06:30:18] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230510/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 06:30:18] INFO root fetch - processPackages [nni]: Downloading https://files.pythonhosted.org/packages/a7/00/aad22cc3727ae56cf137bde71d022be79cd286ce6d29641ed483db4e8746/nni-2.9-py3-none-win_amd64.whl
+[2023-05-10 06:30:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.5.3] Old Version: [2023.5.10]
+[2023-05-10 06:30:18] INFO root fetch - processPackages [odoo14-addon-website-sale-category-breadcrumb]: Downloading https://files.pythonhosted.org/packages/5b/69/a9579bfd9e98aa1bb127deb33835504eecec0790d629612ec1c440037d03/odoo14_addon_website_sale_category_breadcrumb-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-10 06:30:18] WARNING root fetch - processPackages [nni]: Skipping package: exceeds size limit 52957170>=10485760
+[2023-05-10 06:30:18] INFO root fetch - main [MainThread]: End processing [nni] error
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/15/2d/c89fe38216988157b98db47dace279ce2943009b5084698c4e4458666971/arthub_api-1.5.2.tar.gz
+[2023-05-10 06:30:18] INFO root fetch - processPackages [flask-securelogin]: Downloading https://files.pythonhosted.org/packages/d0/06/21eaca79b9232dce8c2eca1a3b9fcb6d915f03f621b6d3df949ab69e3095/flask-securelogin-0.1.2.tar.gz
+[2023-05-10 06:30:18] INFO root fetch - processPackages [protobuf]: executing diffoscope
+[2023-05-10 06:30:18] INFO root fetch - processPackages [protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protobuf-4.23.0rc2.tar.gz tmp/protobuf-4.23.0rc3.tar.gz --markdown 20230510/p/protobuf/4.23.0rc2-4.23.0rc3/diff.md --exclude *.pyd
+[2023-05-10 06:30:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/50/ce/8232d80948e2d70ef6df04dc193ec73c61858245ccf020d63fad09c57ff3/snowflake-connector-python-nightly-2023.5.10.tar.gz
+[2023-05-10 06:30:18] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 06:30:18] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-securelogin-0.1.1.tar.gz tmp/flask-securelogin-0.1.2.tar.gz --markdown 20230510/f/flask-securelogin/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arthub-api]: Downloading https://files.pythonhosted.org/packages/b4/cf/a8f5ee59e072406cc54d77362515e288ec7c0ce0847d8a69f5805a5e105b/arthub_api-1.6.0.tar.gz
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arthub-api]: executing diffoscope
+[2023-05-10 06:30:18] INFO root fetch - processPackages [arthub-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arthub_api-1.5.2.tar.gz tmp/arthub_api-1.6.0.tar.gz --markdown 20230510/a/arthub-api/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-05-10 06:30:18] INFO root fetch - processPackages [odoo14-addon-website-sale-category-breadcrumb]: Downloading https://files.pythonhosted.org/packages/55/54/d33b246159cf09a7bf5748a317e7998472344a55a984e331ccdd94e24008/odoo14_addon_website_sale_category_breadcrumb-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-10 06:30:18] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/74/72/f8c906b350d21baa9c755f2c8d81891f20acaaa9f63270016dcbdb20d39c/snowflake-connector-python-nightly-2023.5.3.tar.gz
+[2023-05-10 06:30:19] INFO root fetch - processPackages [odoo14-addon-website-sale-category-breadcrumb]: executing diffoscope
+[2023-05-10 06:30:19] INFO root fetch - processPackages [odoo14-addon-website-sale-category-breadcrumb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_website_sale_category_breadcrumb-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_website_sale_category_breadcrumb-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-website-sale-category-breadcrumb/14.0.1.0.1.dev3-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-10 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-05-10 06:30:19] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.5.10.tar.gz tmp/snowflake-connector-python-nightly-2023.5.3.tar.gz --markdown 20230510/s/snowflake-connector-python-nightly/2023.5.10-2023.5.3/diff.md --exclude *.pyd
+[2023-05-10 06:30:19] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 06:30:20] INFO root fetch - main [MainThread]: End processing [arthub-api]: success
+[2023-05-10 06:30:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-website-sale-category-breadcrumb]: success
+[2023-05-10 06:30:21] INFO root fetch - main [MainThread]: End processing [protobuf]: success
+[2023-05-10 06:30:21] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-05-10 06:30:22] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-10 06:30:23] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-10 06:30:23] INFO root fetch - main [MainThread]: Store serial: [18042312]
