@@ -11594,3 +11594,183 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:30:16] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
 [2023-05-10 10:30:38] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-05-10 10:30:38] INFO root fetch - main [MainThread]: Store serial: [18044180]
+[2023-05-10 10:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044180]
+[2023-05-10 10:35:47] INFO root fetch - main [MainThread]: Found 30 changed packages
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netunicorn-library
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotic
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ambient-toolbox
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: chronus
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: reamber
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tastytrade-sdk
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: digital-experiments
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-sale-order-revision
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: llwp
+[2023-05-10 10:35:47] INFO root fetch - processPackages [robotic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [chronus]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [ambient-toolbox]: New version: [8.2.1] Old Version: [8.2.0]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [digital-experiments]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [netunicorn-library]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [llwp]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [reamber]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 10:35:47] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:35:48] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [robotic]: Downloading https://files.pythonhosted.org/packages/34/a9/a4575e5556c65e745516c498a2bfe9aaaf1b460ff5faa412b064787999e8/robotic-0.0.8-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-10 10:35:48] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/bb/a2/8207eae7dc1572cede740fc7fe7ba6ea370bfbde697f2a754a5174565491/netunicorn-library-0.2.4.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [reamber]: Downloading https://files.pythonhosted.org/packages/34/92/2773a2d204a77ac17f689648bbe3530dd5a598e0113549d25d5c76b7a5ee/reamber-0.1.7.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/66/87/656c08f5297e8aa744bb5ac98034a6c3c2c0c078398477e5920c9f0c25e0/odoo_addon_sale_order_revision-15.0.1.0.0.2-py3-none-any.whl
+[2023-05-10 10:35:48] INFO root fetch - processPackages [llwp]: Downloading https://files.pythonhosted.org/packages/09/7e/7adb94e275ea6787f68b1d05fb0c8947a33b5cafb5ef326868e2e4911987/llwp-1.3.1.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/0d/20/04ff1dcfca75352b1d9954f4763e3b952249279cfaeb9a7e20b6ff9078d9/chronus-0.3.1.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/7c/c8/9c4f1b00235541d94b3c4fc784828061ac206e3b28fc28f8fe343d1fa3cc/digital-experiments-1.1.1.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.3.0.tar.gz tmp/chronus-0.3.1.tar.gz --markdown 20230510/c/chronus/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.1.0.tar.gz tmp/digital-experiments-1.1.1.tar.gz --markdown 20230510/d/digital-experiments/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [ambient-toolbox]: Downloading https://files.pythonhosted.org/packages/87/5a/fb33b804256088e418289cb34713a505cf8e71107b88fd840a0ea84a686e/ambient-toolbox-8.2.1.tar.gz
+[2023-05-10 10:35:48] WARNING root fetch - processPackages [robotic]: Skipping package: exceeds size limit 12240177>=10485760
+[2023-05-10 10:35:48] INFO root fetch - processPackages [robotic]: Start processing: flaaks2
+[2023-05-10 10:35:48] INFO root fetch - main [MainThread]: End processing [robotic] error
+[2023-05-10 10:35:48] WARNING root fetch - processPackages [flaaks2]: Skipping, unable to determine old version
+[2023-05-10 10:35:48] INFO root fetch - processPackages [flaaks2]: Start processing: alibabacloud-dytnsapi20200217
+[2023-05-10 10:35:48] INFO root fetch - main [MainThread]: End processing [flaaks2] error
+[2023-05-10 10:35:48] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 10:35:48] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Downloading https://files.pythonhosted.org/packages/2e/ca/711d908e2a1161857fcc2560afcc3ee603338cf541db7a3f6ced58ae212b/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-10 10:35:48] INFO root fetch - processPackages [reamber]: Downloading https://files.pythonhosted.org/packages/06/be/044228295ee53860fc427abc56b66f05408fc6b60820f87137b57fe042ee/reamber-0.1.8.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [netunicorn-library]: Downloading https://files.pythonhosted.org/packages/d0/69/a7d1d85341d08c88259cf7305d62343fd576a61aa0c12ef0a8782a74e98a/netunicorn-library-0.3.0.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [ambient-toolbox]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [ambient-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-toolbox-8.2.0.tar.gz tmp/ambient-toolbox-8.2.1.tar.gz --markdown 20230510/a/ambient-toolbox/8.2.0-8.2.1/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_revision-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_order_revision-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-sale-order-revision/15.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [llwp]: Downloading https://files.pythonhosted.org/packages/e3/f6/3b0218dcc6611ffe5166fd1049b187c8ccc8957ed14301739fb05151b2e7/llwp-1.3.2.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [reamber]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [reamber]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reamber-0.1.7.tar.gz tmp/reamber-0.1.8.tar.gz --markdown 20230510/r/reamber/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/ca/e7/ea0e7b6fe52a3b06f8884ff07db7ef71da51bf7e1555622c7fd33f74ee60/alibabacloud_dytnsapi20200217-1.0.8.tar.gz
+[2023-05-10 10:35:48] INFO root fetch - processPackages [llwp]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [llwp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llwp-1.3.1.tar.gz tmp/llwp-1.3.2.tar.gz --markdown 20230510/l/llwp/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-05-10 10:35:48] INFO root fetch - processPackages [netunicorn-library]: executing diffoscope
+[2023-05-10 10:35:48] INFO root fetch - processPackages [netunicorn-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-library-0.2.4.tar.gz tmp/netunicorn-library-0.3.0.tar.gz --markdown 20230510/n/netunicorn-library/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 10:35:49] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Downloading https://files.pythonhosted.org/packages/90/e4/bfac9f37474d00b7053b752d73717630179a4aed5b0700f11ebf5327a4f4/alibabacloud_dytnsapi20200217-1.0.9.tar.gz
+[2023-05-10 10:35:49] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: checkov
+[2023-05-10 10:35:49] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:35:49] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: netunicorn-director-infrastructure
+[2023-05-10 10:35:49] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:35:49] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-10 10:35:49] INFO root fetch - processPackages [netunicorn-director-infrastructure]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-05-10 10:35:49] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-10 10:35:49] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230510/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-10 10:35:49] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: executing diffoscope
+[2023-05-10 10:35:49] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dytnsapi20200217-1.0.8.tar.gz tmp/alibabacloud_dytnsapi20200217-1.0.9.tar.gz --markdown 20230510/a/alibabacloud-dytnsapi20200217/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 10:35:49] INFO root fetch - processPackages [netunicorn-director-infrastructure]: Downloading https://files.pythonhosted.org/packages/6e/7e/7cb4ebb5986d92cb04fc9d63414866906ebece8d0e6deabbaab63854c4bb/netunicorn-director-infrastructure-0.2.1.tar.gz
+[2023-05-10 10:35:49] INFO root fetch - processPackages [chronus]: Start processing: promptwatch
+[2023-05-10 10:35:49] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-05-10 10:35:49] INFO root fetch - processPackages [promptwatch]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 10:35:50] INFO root fetch - processPackages [netunicorn-director-infrastructure]: Downloading https://files.pythonhosted.org/packages/c7/c8/d35731a9cc6968e8c62a97541ffa8307872121ff9e16c0cefccad4792da2/netunicorn-director-infrastructure-0.3.0.tar.gz
+[2023-05-10 10:35:50] INFO root fetch - processPackages [netunicorn-director-infrastructure]: executing diffoscope
+[2023-05-10 10:35:50] INFO root fetch - processPackages [netunicorn-director-infrastructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-director-infrastructure-0.2.1.tar.gz tmp/netunicorn-director-infrastructure-0.3.0.tar.gz --markdown 20230510/n/netunicorn-director-infrastructure/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo-addon-sale-order-revision]: Start processing: odoo14-addon-l10n-ro-partner-create-by-vat
+[2023-05-10 10:35:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-revision]: success
+[2023-05-10 10:35:50] INFO root fetch - processPackages [digital-experiments]: Start processing: csrfvalidators
+[2023-05-10 10:35:50] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: New version: [14.0.4.5.0] Old Version: [14.0.4.4.1.dev1]
+[2023-05-10 10:35:50] INFO root fetch - processPackages [csrfvalidators]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 10:35:50] INFO root fetch - processPackages [promptwatch]: Downloading https://files.pythonhosted.org/packages/19/45/2efd0a483d0536ff10df3768c914480d2dd59f7aa05ccb08dc07bf69ed2a/promptwatch-0.0.8.tar.gz
+[2023-05-10 10:35:50] INFO root fetch - processPackages [promptwatch]: executing diffoscope
+[2023-05-10 10:35:50] INFO root fetch - processPackages [promptwatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptwatch-0.0.7.tar.gz tmp/promptwatch-0.0.8.tar.gz --markdown 20230510/p/promptwatch/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:50] INFO root fetch - processPackages [csrfvalidators]: Downloading https://files.pythonhosted.org/packages/4c/0c/973104b9c9369356ce4f85820d03414d6d62abc6d09283e7786900eb1d1b/csrfvalidators-0.1.7.tar.gz
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/40/c4/5c98f4915d12fb1f818f7c090652966aba43fc057ab9a81c0fd8aceeb078/odoo14_addon_l10n_ro_partner_create_by_vat-14.0.4.4.1.dev1-py3-none-any.whl
+[2023-05-10 10:35:50] INFO root fetch - processPackages [csrfvalidators]: Downloading https://files.pythonhosted.org/packages/de/43/5475e63e097cdec26475731d933ed2f379baf6c9c8c7f522b9ee8930dc96/csrfvalidators-0.1.8.tar.gz
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/e9/59/80f85e3b90fb8714843b9cbe22b9f6da2044dba32bfc36cf74b72d5cc38c/odoo14_addon_l10n_ro_partner_create_by_vat-14.0.4.5.0-py3-none-any.whl
+[2023-05-10 10:35:50] INFO root fetch - processPackages [csrfvalidators]: executing diffoscope
+[2023-05-10 10:35:50] INFO root fetch - processPackages [csrfvalidators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfvalidators-0.1.7.tar.gz tmp/csrfvalidators-0.1.8.tar.gz --markdown 20230510/c/csrfvalidators/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:50] INFO root fetch - processPackages [netunicorn-library]: Start processing: tastytrade-sdk
+[2023-05-10 10:35:50] INFO root fetch - main [MainThread]: End processing [netunicorn-library]: success
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-05-10 10:35:50] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_ro_partner_create_by_vat-14.0.4.4.1.dev1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_ro_partner_create_by_vat-14.0.4.5.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-l10n-ro-partner-create-by-vat/14.0.4.4.1.dev1-14.0.4.5.0/diff.md --exclude *.pyd
+[2023-05-10 10:35:50] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:35:51] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:35:51] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:35:51] INFO root fetch - processPackages [ambient-toolbox]: Start processing: csrfvalidators
+[2023-05-10 10:35:51] INFO root fetch - main [MainThread]: End processing [ambient-toolbox]: success
+[2023-05-10 10:35:51] INFO root fetch - processPackages [csrfvalidators]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 10:35:51] INFO root fetch - processPackages [alibabacloud-dytnsapi20200217]: Start processing: django-pony-express
+[2023-05-10 10:35:51] INFO root fetch - main [MainThread]: End processing [alibabacloud-dytnsapi20200217]: success
+[2023-05-10 10:35:51] INFO root fetch - processPackages [django-pony-express]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 10:35:51] INFO root fetch - processPackages [csrfvalidators]: executing diffoscope
+[2023-05-10 10:35:51] INFO root fetch - processPackages [csrfvalidators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfvalidators-0.1.7.tar.gz tmp/csrfvalidators-0.1.8.tar.gz --markdown 20230510/c/csrfvalidators/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:51] INFO root fetch - processPackages [llwp]: Start processing: tastytrade-sdk
+[2023-05-10 10:35:51] INFO root fetch - main [MainThread]: End processing [llwp]: success
+[2023-05-10 10:35:51] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/ef/47/66153848677980b2fe3a64743b374436577988f32f78ac0daad067fdf0a1/django-pony-express-1.1.0.tar.gz
+[2023-05-10 10:35:51] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:35:51] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:35:51] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:35:51] INFO root fetch - processPackages [django-pony-express]: Downloading https://files.pythonhosted.org/packages/f0/00/1b6a71975f18a7db6171a1e57b055a3011a33392dbec8bd0084ce225e0ff/django-pony-express-1.1.1.tar.gz
+[2023-05-10 10:35:51] INFO root fetch - processPackages [netunicorn-director-infrastructure]: Start processing: nwebclient
+[2023-05-10 10:35:51] INFO root fetch - main [MainThread]: End processing [netunicorn-director-infrastructure]: success
+[2023-05-10 10:35:51] INFO root fetch - processPackages [django-pony-express]: executing diffoscope
+[2023-05-10 10:35:51] INFO root fetch - processPackages [django-pony-express]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-pony-express-1.1.0.tar.gz tmp/django-pony-express-1.1.1.tar.gz --markdown 20230510/d/django-pony-express/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 10:35:51] INFO root fetch - processPackages [nwebclient]: New version: [1.0.91] Old Version: [1.0.90]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/90/b5/08f1dd17bf3af7a236b60a2baad59365f0e45e9c7fe9f710e28c8d597859/nwebclient-1.0.91.tar.gz
+[2023-05-10 10:35:52] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-10 10:35:52] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.90.tar.gz tmp/nwebclient-1.0.91.tar.gz --markdown 20230510/n/nwebclient/1.0.90-1.0.91/diff.md --exclude *.pyd
+[2023-05-10 10:35:52] INFO root fetch - processPackages [csrfvalidators]: Start processing: executor-engine
+[2023-05-10 10:35:52] INFO root fetch - main [MainThread]: End processing [csrfvalidators]: success
+[2023-05-10 10:35:52] INFO root fetch - processPackages [executor-engine]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [executor-engine]: Downloading https://files.pythonhosted.org/packages/ed/6d/d2f1c1e47ff900adf568eb35c4dc1dd90ffac2da0acc0d136ac832dd3010/executor-engine-0.1.8.tar.gz
+[2023-05-10 10:35:52] INFO root fetch - processPackages [promptwatch]: Start processing: pineboo
+[2023-05-10 10:35:52] INFO root fetch - main [MainThread]: End processing [promptwatch]: success
+[2023-05-10 10:35:52] INFO root fetch - processPackages [pineboo]: New version: [1.0.5] Old Version: [1.0.4.6]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [executor-engine]: executing diffoscope
+[2023-05-10 10:35:52] INFO root fetch - processPackages [executor-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/executor-engine-0.1.7.tar.gz tmp/executor-engine-0.1.8.tar.gz --markdown 20230510/e/executor-engine/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:52] INFO root fetch - processPackages [odoo14-addon-l10n-ro-partner-create-by-vat]: Start processing: jina-now
+[2023-05-10 10:35:52] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-ro-partner-create-by-vat]: success
+[2023-05-10 10:35:52] INFO root fetch - processPackages [jina-now]: New version: [0.0.9.dev2] Old Version: [0.0.9]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [reamber]: Start processing: csrfvalidators
+[2023-05-10 10:35:52] INFO root fetch - main [MainThread]: End processing [reamber]: success
+[2023-05-10 10:35:52] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: mongomancy
+[2023-05-10 10:35:52] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:35:52] INFO root fetch - processPackages [csrfvalidators]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [mongomancy]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 10:35:52] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/a0/c1/8dab3c7cac6450f5dcc71e7437bc31197cbadb65f348356c767429777502/jina-now-0.0.9.tar.gz
+[2023-05-10 10:35:53] INFO root fetch - processPackages [pineboo]: Downloading https://files.pythonhosted.org/packages/cf/3c/e968fa0b3cd2758d3aeb916a82dd58e778fb393ea83ad998f97c1cca773b/pineboo-1.0.5.tar.gz
+[2023-05-10 10:35:53] INFO root fetch - processPackages [csrfvalidators]: executing diffoscope
+[2023-05-10 10:35:53] INFO root fetch - processPackages [csrfvalidators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfvalidators-0.1.7.tar.gz tmp/csrfvalidators-0.1.8.tar.gz --markdown 20230510/c/csrfvalidators/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 10:35:53] INFO root fetch - processPackages [csrfvalidators]: Start processing: orb-billing
+[2023-05-10 10:35:53] INFO root fetch - main [MainThread]: End processing [csrfvalidators]: success
+[2023-05-10 10:35:53] INFO root fetch - processPackages [orb-billing]: New version: [1.2.0] Old Version: [0.9.2]
+[2023-05-10 10:35:53] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/e3/b7/8c66519007940245042e3c4842bb481a1211a4150ac0691ab90aa0565b54/mongomancy-0.1.5.tar.gz
+[2023-05-10 10:35:53] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: ambient-package-update
+[2023-05-10 10:35:53] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:35:53] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2023-05-10 10:35:53] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb-billing-0.9.2.tar.gz tmp/orb-billing-1.2.0.tar.gz --markdown 20230510/o/orb-billing/0.9.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:35:53] INFO root fetch - processPackages [ambient-package-update]: New version: [23.5.9] Old Version: [23.5.8]
+[2023-05-10 10:35:53] INFO root fetch - processPackages [ambient-package-update]: executing diffoscope
+[2023-05-10 10:35:53] INFO root fetch - processPackages [ambient-package-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ambient-package-update-23.5.8.tar.gz tmp/ambient-package-update-23.5.9.tar.gz --markdown 20230510/a/ambient-package-update/23.5.8-23.5.9/diff.md --exclude *.pyd
+[2023-05-10 10:35:53] INFO root fetch - processPackages [jina-now]: Downloading https://files.pythonhosted.org/packages/82/20/038948e51195bd3de8c85ac694d6a59d712e94575701c6d9eb0c2eb58f7b/jina-now-0.0.9.dev2.tar.gz
+[2023-05-10 10:35:53] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/ca/13/954112dc20c4e7e3a2b1a9e2ea1231b388625e342cb75683652f93f46d18/mongomancy-0.1.6.tar.gz
+[2023-05-10 10:35:53] INFO root fetch - processPackages [django-pony-express]: Start processing: gitlint-core
+[2023-05-10 10:35:53] INFO root fetch - main [MainThread]: End processing [django-pony-express]: success
+[2023-05-10 10:35:53] INFO root fetch - processPackages [jina-now]: executing diffoscope
+[2023-05-10 10:35:53] INFO root fetch - processPackages [jina-now]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-now-0.0.9.tar.gz tmp/jina-now-0.0.9.dev2.tar.gz --markdown 20230510/j/jina-now/0.0.9-0.0.9.dev2/diff.md --exclude *.pyd
+[2023-05-10 10:35:53] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-05-10 10:35:53] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.5.tar.gz tmp/mongomancy-0.1.6.tar.gz --markdown 20230510/m/mongomancy/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 10:35:53] INFO root fetch - processPackages [gitlint-core]: New version: [0.20.0.dev9] Old Version: [0.20.0.dev8]
+[2023-05-10 10:35:53] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-10 10:35:54] INFO root fetch - processPackages [gitlint-core]: executing diffoscope
+[2023-05-10 10:35:54] INFO root fetch - processPackages [gitlint-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint_core-0.20.0.dev8.tar.gz tmp/gitlint_core-0.20.0.dev9.tar.gz --markdown 20230510/g/gitlint-core/0.20.0.dev8-0.20.0.dev9/diff.md --exclude *.pyd
+[2023-05-10 10:35:54] INFO root fetch - processPackages [pineboo]: executing diffoscope
+[2023-05-10 10:35:54] INFO root fetch - processPackages [pineboo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pineboo-1.0.4.6.tar.gz tmp/pineboo-1.0.5.tar.gz --markdown 20230510/p/pineboo/1.0.4.6-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 10:35:54] INFO root fetch - main [MainThread]: End processing [csrfvalidators]: success
+[2023-05-10 10:35:54] INFO root fetch - main [MainThread]: End processing [executor-engine]: success
+[2023-05-10 10:35:55] INFO root fetch - main [MainThread]: End processing [ambient-package-update]: success
+[2023-05-10 10:35:55] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2023-05-10 10:35:55] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-05-10 10:35:55] INFO root fetch - main [MainThread]: End processing [gitlint-core]: success
+[2023-05-10 10:35:55] INFO root fetch - main [MainThread]: End processing [jina-now]: success
+[2023-05-10 10:36:01] INFO root fetch - main [MainThread]: End processing [pineboo]: success
+[2023-05-10 10:36:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-10 10:36:30] INFO root fetch - main [MainThread]: Store serial: [18044275]
