@@ -7837,3 +7837,45 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:19:54] INFO root fetch - main [MainThread]: End processing [odoo9-addon-base-delivery-carrier-label]: success
 [2023-05-10 06:19:55] INFO root fetch - main [MainThread]: End processing [picopt]: success
 [2023-05-10 06:19:55] INFO root fetch - main [MainThread]: Store serial: [18042231]
+[2023-05-10 06:24:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042231]
+[2023-05-10 06:25:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AIRPALibrary
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nudebomb
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-mongo
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zep-python
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-majsoul
+[2023-05-10 06:25:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AISAPLibrary
+[2023-05-10 06:25:04] INFO root fetch - processPackages [zep-python]: New version: [0.22] Old Version: [0.21]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AIRPALibrary]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nudebomb]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [macrometa-source-mongo]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AISAPLibrary]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nonebot-plugin-majsoul]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 06:25:04] INFO root fetch - processPackages [macrometa-source-mongo]: Downloading https://files.pythonhosted.org/packages/97/6a/594e74d73f668d904ea86c148bfd38c8fa476b970664889a72bceb8cbfed/macrometa-source-mongo-0.0.36.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AIRPALibrary]: Downloading https://files.pythonhosted.org/packages/5a/f7/3da794c3bf2869b973be9209e580d2556f0390ae62bf7cf426325ff8051c/AIRPALibrary-1.0.2.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [zep-python]: Downloading https://files.pythonhosted.org/packages/06/17/be3233b6c3adc1d2b338738a5d35095e2189dd696b33139e31d7c3c98198/zep_python-0.22.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/b3/73/4362cb24cbd06973cd954fca28c2756aa8f7a5959d0b1430e6df220b4ca1/nonebot_plugin_majsoul-0.1.5.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AISAPLibrary]: Downloading https://files.pythonhosted.org/packages/49/49/b9155e9dc9c6abc68dbedc9ca9cc6a478a8344dba3cc951706d7a24ada79/AISAPLibrary-1.0.2.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [macrometa-source-mongo]: executing diffoscope
+[2023-05-10 06:25:04] INFO root fetch - processPackages [macrometa-source-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-mongo-0.0.35.tar.gz tmp/macrometa-source-mongo-0.0.36.tar.gz --markdown 20230510/m/macrometa-source-mongo/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-05-10 06:25:04] INFO root fetch - processPackages [zep-python]: executing diffoscope
+[2023-05-10 06:25:04] INFO root fetch - processPackages [zep-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zep_python-0.21.tar.gz tmp/zep_python-0.22.tar.gz --markdown 20230510/z/zep-python/0.21-0.22/diff.md --exclude *.pyd
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nudebomb]: Downloading https://files.pythonhosted.org/packages/f2/83/a8af9e1df188711c2661e4dea1b48ab7da8d6fa81e6cf4e13e97798d75cc/nudebomb-0.3.1.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AIRPALibrary]: Downloading https://files.pythonhosted.org/packages/04/0c/1f514ebcc9916368483e4ba58007d80ed99ad56da3772b50f49036d175ab/AIRPALibrary-1.0.3.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nudebomb]: executing diffoscope
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AISAPLibrary]: Downloading https://files.pythonhosted.org/packages/52/cb/d44f07e9e7933b8e3d22347021b636f256204c5edd9980be0d717c3fad8a/AISAPLibrary-1.0.3.tar.gz
+[2023-05-10 06:25:04] INFO root fetch - processPackages [nudebomb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nudebomb-0.3.0.tar.gz tmp/nudebomb-0.3.1.tar.gz --markdown 20230510/n/nudebomb/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AIRPALibrary]: executing diffoscope
+[2023-05-10 06:25:04] INFO root fetch - processPackages [AIRPALibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIRPALibrary-1.0.2.tar.gz tmp/AIRPALibrary-1.0.3.tar.gz --markdown 20230510/A/AIRPALibrary/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 06:25:05] INFO root fetch - processPackages [AISAPLibrary]: executing diffoscope
+[2023-05-10 06:25:05] INFO root fetch - processPackages [AISAPLibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AISAPLibrary-1.0.2.tar.gz tmp/AISAPLibrary-1.0.3.tar.gz --markdown 20230510/A/AISAPLibrary/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 06:25:05] INFO root fetch - processPackages [nonebot-plugin-majsoul]: Downloading https://files.pythonhosted.org/packages/17/7e/a185d130f9e1de04751ecce80d90297b523ce43edc86bf7d165155cc84b5/nonebot_plugin_majsoul-0.1.6.tar.gz
+[2023-05-10 06:25:05] INFO root fetch - main [MainThread]: End processing [zep-python]: success
+[2023-05-10 06:25:05] INFO root fetch - main [MainThread]: End processing [macrometa-source-mongo]: success
+[2023-05-10 06:25:06] INFO root fetch - main [MainThread]: End processing [AIRPALibrary]: success
+[2023-05-10 06:25:06] INFO root fetch - main [MainThread]: End processing [AISAPLibrary]: success
+[2023-05-10 06:25:06] INFO root fetch - main [MainThread]: End processing [nudebomb]: success
+[2023-05-10 06:25:06] INFO root fetch - processPackages [nonebot-plugin-majsoul]: executing diffoscope
+[2023-05-10 06:25:06] INFO root fetch - processPackages [nonebot-plugin-majsoul]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_majsoul-0.1.5.tar.gz tmp/nonebot_plugin_majsoul-0.1.6.tar.gz --markdown 20230510/n/nonebot-plugin-majsoul/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 06:25:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-majsoul]: success
+[2023-05-10 06:25:08] INFO root fetch - main [MainThread]: Store serial: [18042249]
