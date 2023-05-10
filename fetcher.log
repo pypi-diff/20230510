@@ -11121,3 +11121,150 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:12:07] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
 [2023-05-10 10:13:34] INFO root fetch - main [MainThread]: End processing [coral-api]: success
 [2023-05-10 10:13:34] INFO root fetch - main [MainThread]: Store serial: [18043952]
+[2023-05-10 10:18:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043952]
+[2023-05-10 10:18:51] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poem-plugins
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uhfReaderApi
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxsp
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bluepyopt
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sosin
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: codefast
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JanusReader
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-web-widget-datepicker-fulloptions
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addons-oca-web
+[2023-05-10 10:18:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LasBuildSeg
+[2023-05-10 10:18:51] INFO root fetch - processPackages [uhfReaderApi]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [odoo14-addons-oca-web]: New version: [14.0.20230509.0] Old Version: [14.0.20230213.0]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [codefast]: New version: [23.5.7.16] Old Version: [23.5.5.11]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [JanusReader]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [poem-plugins]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [sosin]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: New version: [14.0.1.0.1.dev3] Old Version: [14.0.1.0.1.dev2]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [dxsp]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-10 10:18:51] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/8a/5b/c6d63d21fbcebee39c90b96ca1aa8afa90b9ca15a4de57a14e1b63388fff/dxsp-2.1.3.tar.gz
+[2023-05-10 10:18:51] INFO root fetch - processPackages [uhfReaderApi]: Downloading https://files.pythonhosted.org/packages/49/24/9165eb033f554c252bd59da99ff2af2f8bf9fcc9d073f380921a882c2dd6/uhfReaderApi-0.0.6.tar.gz
+[2023-05-10 10:18:51] INFO root fetch - processPackages [JanusReader]: Downloading https://files.pythonhosted.org/packages/36/73/177d02569095f0f058f94567d5e752f3913334345c9b406f3efde5ea46b4/JanusReader-0.4.2.tar.gz
+[2023-05-10 10:18:51] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: Downloading https://files.pythonhosted.org/packages/13/9d/d20b0574f72c1aa56402a38c1a411a8d2e2efa96c14cb88852e60f551459/odoo14_addon_web_widget_datepicker_fulloptions-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-05-10 10:18:51] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/01/28/e3dc3f5d93c493baba759a1d8b5dd81c008db88e48313966daba21ec2ea0/odoo14_addons_oca_web-14.0.20230213.0-py3-none-any.whl
+[2023-05-10 10:18:51] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/dc/3e/130f34ebc61250134e8e5661fd0197ae44e90bd4d656d0a8a85907a7c09e/sosin-1.1.0.tar.gz
+[2023-05-10 10:18:51] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/49/b1/60cc13fd279449fc4fe29f069533d37c450719a605140d3bb7e9d6661aa5/LasBuildSeg-0.0.7.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [poem-plugins]: Downloading https://files.pythonhosted.org/packages/15/b6/9b124fda6cd5464bed4208e5aecc22ff40313c8ab65b9c5a74e08b5e0866/poem_plugins-0.9.0.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/02/51/e461071d827d1fafd2af5fbddbf633fa8ec6fe1cb1a547cb8afe2b45c2ef/bluepyopt-1.9.96.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/81/ef/432de72d4813966899e4ca52eea548009ccbb7b3614e22e33f79d10e7289/codefast-23.5.5.11.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.6.tar.gz tmp/LasBuildSeg-0.0.7.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.0.5.tar.gz tmp/sosin-1.1.0.tar.gz --markdown 20230510/s/sosin/1.0.5-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/61/24/86dfa237254f1004d53a115464df591a77eab57182dd96b0e3eaa34bdf83/dxsp-2.1.4.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [JanusReader]: Downloading https://files.pythonhosted.org/packages/46/bb/eb63490abcdb0b9b9c27c9216c852a16c902da7ecdab5a9dfd08a132a13b/JanusReader-0.5.0.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: Downloading https://files.pythonhosted.org/packages/b6/80/35264e748e3cbe1a18c0f89ca301cf9705d9a9c741743cb3a70506538722/odoo14_addon_web_widget_datepicker_fulloptions-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-10 10:18:52] INFO root fetch - processPackages [uhfReaderApi]: Downloading https://files.pythonhosted.org/packages/81/d8/b8685b721fbbb4ccd7d58604eca1d9d77372c8e3c662ba59e059e50e75ea/uhfReaderApi-0.0.7.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addons-oca-web]: Downloading https://files.pythonhosted.org/packages/ce/1e/ad89b64ba0c051eba0c6b1ff05d17c340abe5cbdfb4871705ea70c0323bb/odoo14_addons_oca_web-14.0.20230509.0-py3-none-any.whl
+[2023-05-10 10:18:52] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.1.3.tar.gz tmp/dxsp-2.1.4.tar.gz --markdown 20230510/d/dxsp/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [JanusReader]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [JanusReader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JanusReader-0.4.2.tar.gz tmp/JanusReader-0.5.0.tar.gz --markdown 20230510/J/JanusReader/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [uhfReaderApi]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [uhfReaderApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uhfReaderApi-0.0.6.tar.gz tmp/uhfReaderApi-0.0.7.tar.gz --markdown 20230510/u/uhfReaderApi/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addons-oca-web]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addons-oca-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_web-14.0.20230213.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_web-14.0.20230509.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addons-oca-web/14.0.20230213.0-14.0.20230509.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [bluepyopt]: Downloading https://files.pythonhosted.org/packages/65/0f/18a17694624fbea4932495e5caf19dd6d774a835d6a79289130c89a06a5e/bluepyopt-1.9.98.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [codefast]: Downloading https://files.pythonhosted.org/packages/e1/dc/e5ab881162d1a6aa054fcf137d835cbddf14f9f3c79699515f32b9a706ef/codefast-23.5.7.16.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_web_widget_datepicker_fulloptions-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_web_widget_datepicker_fulloptions-14.0.1.0.1.dev3-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-web-widget-datepicker-fulloptions/14.0.1.0.1.dev2-14.0.1.0.1.dev3/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [poem-plugins]: Downloading https://files.pythonhosted.org/packages/4d/34/6a0eb2ea7109c30e5ff40af4c3ff102ee3307331977aae182b96b3b6af09/poem_plugins-1.0.0.tar.gz
+[2023-05-10 10:18:52] INFO root fetch - processPackages [codefast]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [codefast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codefast-23.5.5.11.tar.gz tmp/codefast-23.5.7.16.tar.gz --markdown 20230510/c/codefast/23.5.5.11-23.5.7.16/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [poem-plugins]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [poem-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poem_plugins-0.9.0.tar.gz tmp/poem_plugins-1.0.0.tar.gz --markdown 20230510/p/poem-plugins/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:52] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-10 10:18:52] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230510/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-10 10:18:53] INFO root fetch - processPackages [LasBuildSeg]: Start processing: cqlite
+[2023-05-10 10:18:53] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 10:18:53] INFO root fetch - processPackages [cqlite]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-10 10:18:53] INFO root fetch - processPackages [odoo14-addons-oca-web]: Start processing: python-ss-logging-tool
+[2023-05-10 10:18:53] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-web]: success
+[2023-05-10 10:18:53] INFO root fetch - processPackages [python-ss-logging-tool]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [cqlite]: Downloading https://files.pythonhosted.org/packages/bc/e0/4fdc0264f1521c80062860f649095164a503224c00d1eeba8f33420618a6/cqlite-0.2.0.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [poem-plugins]: Start processing: ecg-quality
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [poem-plugins]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [ecg-quality]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo14-addon-web-widget-datepicker-fulloptions]: Start processing: asgi-matomo
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [odoo14-addon-web-widget-datepicker-fulloptions]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [JanusReader]: Start processing: odoo8-addon-website-portal-purchase
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [JanusReader]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [dxsp]: Start processing: finbourne-access-sdk
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [cqlite]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [asgi-matomo]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [cqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqlite-0.1.0.tar.gz tmp/cqlite-0.2.0.tar.gz --markdown 20230510/c/cqlite/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: New version: [8.0.1.0.0.99.dev33] Old Version: [8.0.1.0.0.99.dev32]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [sosin]: Start processing: jolt-docker
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [0.0.815] Old Version: [0.0.616]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [jolt-docker]: New version: [0.9.95] Old Version: [0.9.93]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [python-ss-logging-tool]: Downloading https://files.pythonhosted.org/packages/16/78/24ef35c31d5ff72b32f8835d05931a19db56678f9354761788e54265b96f/python-ss-logging-tool-0.1.2.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [asgi-matomo]: Downloading https://files.pythonhosted.org/packages/9a/5b/11944b91fb28472bccdcec1197fa2ebfcc60a8abbf24566e5b9239fb1ee3/asgi_matomo-0.1.4.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/ef/c0/f4cea7c81dcda04adc73a8dea9c3bac49fc2779597d2564f97d8ba8ec174/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev32-py2-none-any.whl
+[2023-05-10 10:18:54] INFO root fetch - processPackages [python-ss-logging-tool]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [python-ss-logging-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ss-logging-tool-0.1.1.tar.gz tmp/python-ss-logging-tool-0.1.2.tar.gz --markdown 20230510/p/python-ss-logging-tool/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/3d/4d/20e2eb0ad39991eb2d6b511721ad7bb18df2823d3f65953c13be025e1e3b/jolt_docker-0.9.93.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [asgi-matomo]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [asgi-matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_matomo-0.1.3.tar.gz tmp/asgi_matomo-0.1.4.tar.gz --markdown 20230510/a/asgi-matomo/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/22/58/ee379caa00eba72b01ce5884996e3957e85f9db086b5f74209b445963467/finbourne-access-sdk-0.0.616.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [ecg-quality]: Downloading https://files.pythonhosted.org/packages/56/f6/84609965c1f367525820f22a04775172870b815acc05f16c69b610717b08/ecg_quality-0.1.3.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [bluepyopt]: Start processing: bc-detect-secrets
+[2023-05-10 10:18:54] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-10 10:18:54] INFO root fetch - processPackages [bc-detect-secrets]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-10 10:18:54] INFO root fetch - processPackages [ecg-quality]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [ecg-quality]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecg_quality-0.1.2.tar.gz tmp/ecg_quality-0.1.3.tar.gz --markdown 20230510/e/ecg-quality/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: Downloading https://files.pythonhosted.org/packages/de/e8/51322c7a0a7f11ad6878cb83f6699331f036931785d7adc1d78af133233a/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev33-py2-none-any.whl
+[2023-05-10 10:18:54] INFO root fetch - processPackages [jolt-docker]: Downloading https://files.pythonhosted.org/packages/65/3b/fcaa54d80d4d38a7f457352705a6b33e69dcd69a3514df6f2b49d9fce7bd/jolt_docker-0.9.95.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/f5/48/d40801e505892153d9eb9fea2de2f415455702ca8818dd23f14a3f88d813/finbourne-access-sdk-0.0.815.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [odoo8-addon-website-portal-purchase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev32-py2-none-any.whl.zip tmp/odoo8_addon_website_portal_purchase-8.0.1.0.0.99.dev33-py2-none-any.whl.zip --markdown 20230510/o/odoo8-addon-website-portal-purchase/8.0.1.0.0.99.dev32-8.0.1.0.0.99.dev33/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [jolt-docker]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [jolt-docker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt_docker-0.9.93.tar.gz tmp/jolt_docker-0.9.95.tar.gz --markdown 20230510/j/jolt-docker/0.9.93-0.9.95/diff.md --exclude *.pyd
+[2023-05-10 10:18:54] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/a2/23/a92e4dd2a6d1d3532e79c77d0021ae63edce1919e2f1d537537b6422138f/bc-detect-secrets-1.4.8.tar.gz
+[2023-05-10 10:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2023-05-10 10:18:54] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-access-sdk-0.0.616.tar.gz tmp/finbourne-access-sdk-0.0.815.tar.gz --markdown 20230510/f/finbourne-access-sdk/0.0.616-0.0.815/diff.md --exclude *.pyd
+[2023-05-10 10:18:55] INFO root fetch - processPackages [codefast]: Start processing: jolt
+[2023-05-10 10:18:55] INFO root fetch - main [MainThread]: End processing [codefast]: success
+[2023-05-10 10:18:55] INFO root fetch - processPackages [jolt]: New version: [0.9.95] Old Version: [0.9.93]
+[2023-05-10 10:18:55] INFO root fetch - processPackages [bc-detect-secrets]: Downloading https://files.pythonhosted.org/packages/02/f2/d1d870d526c722f22a491ebad1680e02ce935097d42af758a7a0e278f3c4/bc-detect-secrets-1.4.9.tar.gz
+[2023-05-10 10:18:55] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/d8/c5/cf802de53e68f8c70eae0344a8ec0aabc3a623a8e06508a1e5bc0c2b06de/jolt-0.9.93.tar.gz
+[2023-05-10 10:18:55] INFO root fetch - processPackages [bc-detect-secrets]: executing diffoscope
+[2023-05-10 10:18:55] INFO root fetch - processPackages [bc-detect-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bc-detect-secrets-1.4.8.tar.gz tmp/bc-detect-secrets-1.4.9.tar.gz --markdown 20230510/b/bc-detect-secrets/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-10 10:18:55] INFO root fetch - processPackages [cqlite]: Start processing: tastytrade-sdk
+[2023-05-10 10:18:55] INFO root fetch - main [MainThread]: End processing [cqlite]: success
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:18:55] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/18/39/073ecb0a9c17c9b36216fa00f733a95be6171d7d71cbade0058f937ce53b/jolt-0.9.95.tar.gz
+[2023-05-10 10:18:55] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2023-05-10 10:18:55] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.93.tar.gz tmp/jolt-0.9.95.tar.gz --markdown 20230510/j/jolt/0.9.93-0.9.95/diff.md --exclude *.pyd
+[2023-05-10 10:18:55] INFO root fetch - processPackages [python-ss-logging-tool]: Start processing: tastytrade-sdk
+[2023-05-10 10:18:55] INFO root fetch - main [MainThread]: End processing [python-ss-logging-tool]: success
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:18:55] INFO root fetch - processPackages [uhfReaderApi]: Start processing: spotify-dl
+[2023-05-10 10:18:55] INFO root fetch - main [MainThread]: End processing [uhfReaderApi]: success
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:18:55] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:18:55] INFO root fetch - main [MainThread]: End processing [asgi-matomo]: success
+[2023-05-10 10:18:56] INFO root fetch - processPackages [spotify-dl]: New version: [8.8.0] Old Version: [8.7.0]
+[2023-05-10 10:18:56] INFO root fetch - processPackages [spotify-dl]: Downloading https://files.pythonhosted.org/packages/db/1a/74e3a890b156dbbc2afc92619e9e8e509134a6d816ef1c6fa2866c214594/spotify_dl-8.7.0.tar.gz
+[2023-05-10 10:18:56] INFO root fetch - main [MainThread]: End processing [jolt-docker]: success
+[2023-05-10 10:18:56] INFO root fetch - processPackages [spotify-dl]: Downloading https://files.pythonhosted.org/packages/60/ec/ac27eae2b2c99e488776dfb0c44399bd0e0957fc379bcbbc0a9c4653c226/spotify_dl-8.8.0.tar.gz
+[2023-05-10 10:18:56] INFO root fetch - processPackages [spotify-dl]: executing diffoscope
+[2023-05-10 10:18:56] INFO root fetch - processPackages [spotify-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotify_dl-8.7.0.tar.gz tmp/spotify_dl-8.8.0.tar.gz --markdown 20230510/s/spotify-dl/8.7.0-8.8.0/diff.md --exclude *.pyd
+[2023-05-10 10:18:56] INFO root fetch - main [MainThread]: End processing [odoo8-addon-website-portal-purchase]: success
+[2023-05-10 10:18:56] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:18:57] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:18:57] INFO root fetch - main [MainThread]: End processing [bc-detect-secrets]: success
+[2023-05-10 10:18:57] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2023-05-10 10:18:57] INFO root fetch - main [MainThread]: End processing [spotify-dl]: success
+[2023-05-10 10:18:58] INFO root fetch - main [MainThread]: End processing [ecg-quality]: success
+[2023-05-10 10:18:59] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2023-05-10 10:18:59] INFO root fetch - main [MainThread]: Store serial: [18044016]
