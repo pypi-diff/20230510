@@ -20284,3 +20284,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:28:34] INFO root fetch - main [MainThread]: End processing [rheia]: success
 [2023-05-10 17:28:35] INFO root fetch - main [MainThread]: End processing [chython]: success
 [2023-05-10 17:28:35] INFO root fetch - main [MainThread]: Store serial: [18049339]
+[2023-05-10 17:33:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049339]
+[2023-05-10 17:33:45] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: topg
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: noconf
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-advert-framework
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-querysets
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pypsa
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-gaggle
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meilisearch-python-async
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: thrivve-core
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pii-data
+[2023-05-10 17:33:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyphetools
+[2023-05-10 17:33:45] WARNING root fetch - processPackages [torch-gaggle]: Skipping, unable to determine old version
+[2023-05-10 17:33:45] INFO root fetch - processPackages [torch-gaggle]: Start processing: warsaw-data-api
+[2023-05-10 17:33:45] INFO root fetch - main [MainThread]: End processing [torch-gaggle] error
+[2023-05-10 17:33:45] INFO root fetch - processPackages [meilisearch-python-async]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [thrivve-core]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pyphetools]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [warsaw-data-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 17:33:45] WARNING root fetch - processPackages [topg]: Skipping, unable to determine old version
+[2023-05-10 17:33:45] INFO root fetch - processPackages [topg]: Start processing: mlrun
+[2023-05-10 17:33:45] INFO root fetch - main [MainThread]: End processing [topg] error
+[2023-05-10 17:33:45] WARNING root fetch - processPackages [noconf]: Skipping, unable to determine old version
+[2023-05-10 17:33:45] INFO root fetch - processPackages [noconf]: Start processing: mys-goods-tool
+[2023-05-10 17:33:45] INFO root fetch - main [MainThread]: End processing [noconf] error
+[2023-05-10 17:33:45] INFO root fetch - processPackages [thrivve-core]: executing diffoscope
+[2023-05-10 17:33:45] INFO root fetch - processPackages [thrivve-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thrivve_core-0.2.0.tar.gz tmp/thrivve_core-0.2.1.tar.gz --markdown 20230510/t/thrivve-core/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 17:33:45] INFO root fetch - processPackages [fastapi-querysets]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [meilisearch-python-async]: executing diffoscope
+[2023-05-10 17:33:45] INFO root fetch - processPackages [meilisearch-python-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meilisearch_python_async-1.2.0.tar.gz tmp/meilisearch_python_async-1.2.1.tar.gz --markdown 20230510/m/meilisearch-python-async/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-05-10 17:33:45] INFO root fetch - processPackages [discord-advert-framework]: New version: [2.7.0] Old Version: [2.6.4]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pypsa]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [warsaw-data-api]: executing diffoscope
+[2023-05-10 17:33:45] INFO root fetch - processPackages [warsaw-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warsaw-data-api-0.3.0.tar.gz tmp/warsaw_data_api-0.3.1.tar.gz --markdown 20230510/w/warsaw-data-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pyphetools]: executing diffoscope
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pyphetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyphetools-0.2.7.tar.gz tmp/pyphetools-0.2.9.tar.gz --markdown 20230510/p/pyphetools/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 17:33:45] INFO root fetch - processPackages [mlrun]: New version: [1.4.0rc2] Old Version: [1.4.0rc1]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [mys-goods-tool]: New version: [2.0.1] Old Version: [2.0.0b1]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [fastapi-querysets]: Downloading https://files.pythonhosted.org/packages/4e/b4/f725e6b3a29469241f44bff68fb98811b936f898483e194e7b8565b8baf1/fastapi_querysets-0.1.1.tar.gz
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pii-data]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-10 17:33:45] INFO root fetch - processPackages [discord-advert-framework]: Downloading https://files.pythonhosted.org/packages/3c/52/4e3a581e47b1f2f616c4dbdfa2f3670fdfab70a8af76f29299a534e58c67/discord-advert-framework-2.6.4.tar.gz
+[2023-05-10 17:33:45] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/b1/df/284abdbbc60905c7a2f2286c5507b03658dd3fbf7b10cc05a81fff6902bd/pypsa-0.8.0.tar.gz
+[2023-05-10 17:33:46] WARNING root fetch - processPackages [discord-advert-framework]: Skipping package: exceeds size limit 17686827>=10485760
+[2023-05-10 17:33:46] INFO root fetch - processPackages [discord-advert-framework]: Start processing: intezer-sdk
+[2023-05-10 17:33:46] INFO root fetch - main [MainThread]: End processing [discord-advert-framework] error
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mys-goods-tool]: Downloading https://files.pythonhosted.org/packages/04/e6/7fa44cc2f9de7d50800f8a6c1bc74be69cc73d25774b37f4f02ac89e98c1/mys_goods_tool-2.0.0b1.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pii-data]: Downloading https://files.pythonhosted.org/packages/f7/61/c7b9ab17984680f8e56865ed400389c7c986c56dad1ea998665fff1f88c6/pii-data-0.3.2.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [intezer-sdk]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-10 17:33:46] INFO root fetch - processPackages [fastapi-querysets]: Downloading https://files.pythonhosted.org/packages/4f/83/01c6e9ec39841988e8fde8bb292fcb0e67048733e386670e3b56df381e60/fastapi_querysets-0.1.2.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.4.0rc1-py3-none-any.whl.zip tmp/mlrun-1.4.0rc2-py3-none-any.whl.zip --markdown 20230510/m/mlrun/1.4.0rc1-1.4.0rc2/diff.md --exclude *.pyd
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pypsa]: Downloading https://files.pythonhosted.org/packages/33/dd/0450c22b22814dfa635e3e221a61ec96d98208c05e6e7390d3f4c8ce0557/pypsa-0.9.0.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [fastapi-querysets]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [fastapi-querysets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_querysets-0.1.1.tar.gz tmp/fastapi_querysets-0.1.2.tar.gz --markdown 20230510/f/fastapi-querysets/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mys-goods-tool]: Downloading https://files.pythonhosted.org/packages/f9/a8/91062b3f7c2f52b1808a2e0a925f20a6c1d8cb698d0969a89d79931809d9/mys_goods_tool-2.0.1.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pii-data]: Downloading https://files.pythonhosted.org/packages/20/29/4439ec2a2be2903a70293f48147bb931a0ef6e62dda30dc033f1f8761364/pii-data-0.4.0.tar.gz
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pii-data]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pii-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii-data-0.3.2.tar.gz tmp/pii-data-0.4.0.tar.gz --markdown 20230510/p/pii-data/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 17:33:46] INFO root fetch - processPackages [intezer-sdk]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [intezer-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intezer_sdk-1.9.3-py3-none-any.whl.zip tmp/intezer_sdk-1.9.4-py3-none-any.whl.zip --markdown 20230510/i/intezer-sdk/1.9.3-1.9.4/diff.md --exclude *.pyd
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mys-goods-tool]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [mys-goods-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mys_goods_tool-2.0.0b1.tar.gz tmp/mys_goods_tool-2.0.1.tar.gz --markdown 20230510/m/mys-goods-tool/2.0.0b1-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pypsa]: executing diffoscope
+[2023-05-10 17:33:46] INFO root fetch - processPackages [pypsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypsa-0.8.0.tar.gz tmp/pypsa-0.9.0.tar.gz --markdown 20230510/p/pypsa/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:33:47] INFO root fetch - processPackages [warsaw-data-api]: Start processing: PoissonFuncaoCorrente
+[2023-05-10 17:33:47] INFO root fetch - main [MainThread]: End processing [warsaw-data-api]: success
+[2023-05-10 17:33:47] INFO root fetch - processPackages [PoissonFuncaoCorrente]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 17:33:47] INFO root fetch - main [MainThread]: End processing [thrivve-core]: success
+[2023-05-10 17:33:47] INFO root fetch - processPackages [PoissonFuncaoCorrente]: Downloading https://files.pythonhosted.org/packages/4c/da/fa507d3fe6523e692d9aa28fa681dde73a480546a6d95cde7c6f09d25d61/PoissonFuncaoCorrente-1.1.1.tar.gz
+[2023-05-10 17:33:47] INFO root fetch - processPackages [PoissonFuncaoCorrente]: executing diffoscope
+[2023-05-10 17:33:47] INFO root fetch - processPackages [PoissonFuncaoCorrente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoissonFuncaoCorrente-1.1.0.tar.gz tmp/PoissonFuncaoCorrente-1.1.1.tar.gz --markdown 20230510/P/PoissonFuncaoCorrente/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 17:33:47] INFO root fetch - main [MainThread]: End processing [pyphetools]: success
+[2023-05-10 17:33:47] INFO root fetch - main [MainThread]: End processing [meilisearch-python-async]: success
+[2023-05-10 17:33:47] INFO root fetch - main [MainThread]: End processing [fastapi-querysets]: success
+[2023-05-10 17:33:48] INFO root fetch - main [MainThread]: End processing [intezer-sdk]: success
+[2023-05-10 17:33:48] INFO root fetch - main [MainThread]: End processing [mys-goods-tool]: success
+[2023-05-10 17:33:48] INFO root fetch - main [MainThread]: End processing [pii-data]: success
+[2023-05-10 17:33:48] INFO root fetch - main [MainThread]: End processing [PoissonFuncaoCorrente]: success
+[2023-05-10 17:33:49] INFO root fetch - main [MainThread]: End processing [pypsa]: success
+[2023-05-10 17:33:52] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2023-05-10 17:33:52] INFO root fetch - main [MainThread]: Store serial: [18049383]
