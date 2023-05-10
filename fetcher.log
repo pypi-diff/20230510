@@ -13128,3 +13128,131 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:46:50] INFO root fetch - main [MainThread]: End processing [edk2-basetools]: success
 [2023-05-10 11:46:55] INFO root fetch - main [MainThread]: End processing [glean-sdk]: success
 [2023-05-10 11:46:55] INFO root fetch - main [MainThread]: Store serial: [18045068]
+[2023-05-10 11:52:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045068]
+[2023-05-10 11:52:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nautobot-device-resources
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spatialdata
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PyBerries
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JupyterQuiz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: specklepy
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nautobot-device-resources
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: domino-py
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-channels-graphql-ws
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: general-utils-juan-palma-borda
+[2023-05-10 11:52:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: afex-sso
+[2023-05-10 11:52:05] INFO root fetch - processPackages [spatialdata]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 11:52:05] WARNING root fetch - processPackages [nautobot-device-resources]: Skipping, unable to determine old version
+[2023-05-10 11:52:05] INFO root fetch - processPackages [nautobot-device-resources]: Start processing: scipion-em-motioncorr
+[2023-05-10 11:52:05] INFO root fetch - main [MainThread]: End processing [nautobot-device-resources] error
+[2023-05-10 11:52:05] INFO root fetch - processPackages [PyBerries]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [afex-sso]: New version: [0.0.51] Old Version: [0.0.5]
+[2023-05-10 11:52:05] WARNING root fetch - processPackages [nautobot-device-resources]: Skipping, unable to determine old version
+[2023-05-10 11:52:05] INFO root fetch - processPackages [nautobot-device-resources]: Start processing: antchain-ak-ea70f896f759459588dfbc7d1fafe2f9
+[2023-05-10 11:52:05] INFO root fetch - main [MainThread]: End processing [nautobot-device-resources] error
+[2023-05-10 11:52:05] INFO root fetch - processPackages [general-utils-juan-palma-borda]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [specklepy]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [domino-py]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [django-channels-graphql-ws]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [scipion-em-motioncorr]: New version: [3.9] Old Version: [3.8]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [JupyterQuiz]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-05-10 11:52:05] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Downloading https://files.pythonhosted.org/packages/0f/35/b1170138c969664f986933f395b61e6fbe2af23e8b9eaaacb864a0060264/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.0.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/1e/60/8552c11e01a354825209c89253a28c96e584989847230519f33f7422cf01/general-utils-juan-palma-borda-0.1.0.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/d8/92/0a4cada458fcf7f321aa6b2da5a6930a049cca54d474ca4f13f0a829eaed/spatialdata-0.0.5.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [afex-sso]: Downloading https://files.pythonhosted.org/packages/f6/fd/9bfcc3d389394d0fdbdad0e4ebf23c2fc787191ab4a49ae2831526412a11/afex-sso-0.0.51.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/b3/6f/a2ba3bc8d59fa1bd5baf203a9f18221152d6e88ac1eeae40234abc009fc8/PyBerries-0.2.7.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/4e/5e/1524e55cbb1d407a41968009612ef702dfb3225c519d25ec69ae059974ec/scipion-em-motioncorr-3.8.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/a5/3d/e272ab635ebc6d79c18c03275fab6615b6f813a9b2089b12662d041eb149/specklepy-2.9.0.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [django-channels-graphql-ws]: Downloading https://files.pythonhosted.org/packages/0c/61/6cb3b05295096e678a8f1e3aee40763b77849b1e37ca160ad279cad54bab/django_channels_graphql_ws-1.0.0rc5.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [afex-sso]: executing diffoscope
+[2023-05-10 11:52:05] INFO root fetch - processPackages [afex-sso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-sso-0.0.5.tar.gz tmp/afex-sso-0.0.51.tar.gz --markdown 20230510/a/afex-sso/0.0.5-0.0.51/diff.md --exclude *.pyd
+[2023-05-10 11:52:05] INFO root fetch - processPackages [domino-py]: Downloading https://files.pythonhosted.org/packages/de/84/a80435543967a6a36b41757a0bd0fa5d148972fb320c194b8b512c3510cb/domino-py-0.2.0.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Downloading https://files.pythonhosted.org/packages/f9/0b/917c4ed86ad534bd6014b12d1eec70fef092e6919638ab66398f6bbf9ebf/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.1.tar.gz
+[2023-05-10 11:52:05] INFO root fetch - processPackages [JupyterQuiz]: Downloading https://files.pythonhosted.org/packages/12/11/d8cc16daf2967eed61c958c6714c33c0ecf56e51c4d64a65b3517499b289/JupyterQuiz-2.5.2.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Downloading https://files.pythonhosted.org/packages/c7/03/07ccd0b7d50c4a42a9b278c77857a6332cf2392bca60abb3f711eed9177a/general-utils-juan-palma-borda-0.1.1.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.9.tar.gz tmp/domino-py-0.2.0.tar.gz --markdown 20230510/d/domino-py/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [django-channels-graphql-ws]: Downloading https://files.pythonhosted.org/packages/8d/16/ef75dc90835fdc59fe68a3600cbfa37b0e80fdb97dd1caa5c2719ce75fe9/django_channels_graphql_ws-1.0.0rc6.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [general-utils-juan-palma-borda]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [general-utils-juan-palma-borda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/general-utils-juan-palma-borda-0.1.0.tar.gz tmp/general-utils-juan-palma-borda-0.1.1.tar.gz --markdown 20230510/g/general-utils-juan-palma-borda/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/e7/e7/5f79c07bab1002ee644700f4f90502652cd6d0fae41d3d9c9b98f6ed0953/spatialdata-0.0.6.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [PyBerries]: Downloading https://files.pythonhosted.org/packages/03/1b/505870facf356c09ec2154e97bc073a6f424b3a6ebf41d61a7c0aa3887c9/PyBerries-0.2.8.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [JupyterQuiz]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [JupyterQuiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JupyterQuiz-2.5.1.tar.gz tmp/JupyterQuiz-2.5.2.tar.gz --markdown 20230510/J/JupyterQuiz/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.0.tar.gz tmp/antchain_ak_ea70f896f759459588dfbc7d1fafe2f9-1.0.1.tar.gz --markdown 20230510/a/antchain-ak-ea70f896f759459588dfbc7d1fafe2f9/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [scipion-em-motioncorr]: Downloading https://files.pythonhosted.org/packages/8f/7b/78b9b5e37ac9d4f03364a6e6070b17eed8ebdbfa541b94fba26721d3845b/scipion-em-motioncorr-3.9.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [django-channels-graphql-ws]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [django-channels-graphql-ws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_channels_graphql_ws-1.0.0rc5.tar.gz tmp/django_channels_graphql_ws-1.0.0rc6.tar.gz --markdown 20230510/d/django-channels-graphql-ws/1.0.0rc5-1.0.0rc6/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [specklepy]: Downloading https://files.pythonhosted.org/packages/f8/33/c2055e2e98c3872f50585bc585a86e591e32eaae34a35d77c8db153d49be/specklepy-2.9.1.tar.gz
+[2023-05-10 11:52:06] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.5.tar.gz tmp/spatialdata-0.0.6.tar.gz --markdown 20230510/s/spatialdata/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [PyBerries]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [PyBerries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyBerries-0.2.7.tar.gz tmp/PyBerries-0.2.8.tar.gz --markdown 20230510/P/PyBerries/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [scipion-em-motioncorr]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [scipion-em-motioncorr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-motioncorr-3.8.tar.gz tmp/scipion-em-motioncorr-3.9.tar.gz --markdown 20230510/s/scipion-em-motioncorr/3.8-3.9/diff.md --exclude *.pyd
+[2023-05-10 11:52:06] INFO root fetch - processPackages [specklepy]: executing diffoscope
+[2023-05-10 11:52:06] INFO root fetch - processPackages [specklepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklepy-2.9.0.tar.gz tmp/specklepy-2.9.1.tar.gz --markdown 20230510/s/specklepy/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-05-10 11:52:07] INFO root fetch - processPackages [afex-sso]: Start processing: kaiko-research
+[2023-05-10 11:52:07] INFO root fetch - main [MainThread]: End processing [afex-sso]: success
+[2023-05-10 11:52:07] WARNING root fetch - processPackages [kaiko-research]: Skipping, unable to determine old version
+[2023-05-10 11:52:07] INFO root fetch - processPackages [kaiko-research]: Start processing: batframes
+[2023-05-10 11:52:07] INFO root fetch - main [MainThread]: End processing [kaiko-research] error
+[2023-05-10 11:52:07] INFO root fetch - processPackages [batframes]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-10 11:52:07] INFO root fetch - processPackages [batframes]: Downloading https://files.pythonhosted.org/packages/28/4a/b5200ebacd3f9b7422971fa525c650f4904c7f0a1ea47ff6e4a2eb028bc1/batframes-1.0.0.3.tar.gz
+[2023-05-10 11:52:07] INFO root fetch - processPackages [general-utils-juan-palma-borda]: Start processing: mpscenes
+[2023-05-10 11:52:07] INFO root fetch - main [MainThread]: End processing [general-utils-juan-palma-borda]: success
+[2023-05-10 11:52:07] INFO root fetch - processPackages [mpscenes]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-05-10 11:52:07] INFO root fetch - processPackages [batframes]: Downloading https://files.pythonhosted.org/packages/90/94/85fe8b3f3f496d117cba93c4d9d1e2d1ea5c4ae196834ff05003897f0e19/batframes-1.0.0.4.tar.gz
+[2023-05-10 11:52:07] INFO root fetch - processPackages [domino-py]: Start processing: aioflureedb
+[2023-05-10 11:52:07] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-10 11:52:07] INFO root fetch - processPackages [aioflureedb]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-10 11:52:07] INFO root fetch - processPackages [mpscenes]: Downloading https://files.pythonhosted.org/packages/ef/11/c8020e50f7dc1b58e8b54cbd62c17b0e7cc9e9eebf821b63f4e4e8196062/mpscenes-0.4.0.tar.gz
+[2023-05-10 11:52:07] INFO root fetch - processPackages [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: Start processing: PyLEMS
+[2023-05-10 11:52:07] INFO root fetch - main [MainThread]: End processing [antchain-ak-ea70f896f759459588dfbc7d1fafe2f9]: success
+[2023-05-10 11:52:07] INFO root fetch - processPackages [PyLEMS]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-10 11:52:07] INFO root fetch - processPackages [batframes]: executing diffoscope
+[2023-05-10 11:52:07] INFO root fetch - processPackages [batframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batframes-1.0.0.3.tar.gz tmp/batframes-1.0.0.4.tar.gz --markdown 20230510/b/batframes/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-10 11:52:07] INFO root fetch - processPackages [mpscenes]: executing diffoscope
+[2023-05-10 11:52:07] INFO root fetch - processPackages [mpscenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpscenes-0.3.2.tar.gz tmp/mpscenes-0.4.0.tar.gz --markdown 20230510/m/mpscenes/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 11:52:08] INFO root fetch - processPackages [django-channels-graphql-ws]: Start processing: LasBuildSeg
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [django-channels-graphql-ws]: success
+[2023-05-10 11:52:08] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 11:52:08] INFO root fetch - processPackages [aioflureedb]: Downloading https://files.pythonhosted.org/packages/d4/46/e3ce819d7b2baa2a10c48074c4cd2884811e364f9380c95aada078a9ee7e/aioflureedb-0.8.0.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [JupyterQuiz]: Start processing: encord-active
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [JupyterQuiz]: success
+[2023-05-10 11:52:08] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:52:08] INFO root fetch - processPackages [PyLEMS]: Downloading https://files.pythonhosted.org/packages/b2/ad/7c440cb5dfea6bf6ceae226ed27e04d9ec75a8151f2c6b307e6c51357219/PyLEMS-0.6.2.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-05-10 11:52:08] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230510/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:52:08] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/35/6e/e088d3e722f467aaf2a5b2a5fe406b88f0ef7307666235f5dd90171dd78f/LasBuildSeg-0.0.8.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [PyLEMS]: executing diffoscope
+[2023-05-10 11:52:08] INFO root fetch - processPackages [PyLEMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLEMS-0.6.1-py3.10.egg tmp/PyLEMS-0.6.2.tar.gz --markdown 20230510/P/PyLEMS/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-10 11:52:08] INFO root fetch - processPackages [aioflureedb]: Downloading https://files.pythonhosted.org/packages/62/c3/cc2c63e98f5c1c88fa9722c3658201dd0aea90a9cdc46723e12a0164bbd9/aioflureedb-0.8.1.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [aioflureedb]: executing diffoscope
+[2023-05-10 11:52:08] INFO root fetch - processPackages [aioflureedb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioflureedb-0.8.0.tar.gz tmp/aioflureedb-0.8.1.tar.gz --markdown 20230510/a/aioflureedb/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-10 11:52:08] INFO root fetch - processPackages [PyBerries]: Start processing: cercis
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [PyBerries]: success
+[2023-05-10 11:52:08] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/1b/6b/b09f70da3517385883f0c428729a593814f24914abeae28199fb86c460b2/LasBuildSeg-0.0.9.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [cercis]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-10 11:52:08] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 11:52:08] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.8.tar.gz tmp/LasBuildSeg-0.0.9.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:52:08] INFO root fetch - processPackages [specklepy]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [specklepy]: success
+[2023-05-10 11:52:08] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230509.17.43.306305] Old Version: [20230509.16.29.808103]
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [scipion-em-motioncorr]: success
+[2023-05-10 11:52:08] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/9d/6c/03b1077959ee47da27235511ae1852724edd21161c91cb5caedfef9c71f7/certora-cli-alpha-roy-CERT-1955-assertHits-20230509.16.29.808103.tar.gz
+[2023-05-10 11:52:08] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39213516>=10485760
+[2023-05-10 11:52:08] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-10 11:52:08] INFO root fetch - processPackages [cercis]: Downloading https://files.pythonhosted.org/packages/8f/8f/ab76aab18b07ccc92a34befd6184d668bb4b98197054c861e77b4ee390bc/cercis-0.1.5.tar.gz
+[2023-05-10 11:52:08] INFO root fetch - processPackages [cercis]: executing diffoscope
+[2023-05-10 11:52:08] INFO root fetch - processPackages [cercis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cercis-0.1.4.tar.gz tmp/cercis-0.1.5.tar.gz --markdown 20230510/c/cercis/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-10 11:52:09] INFO root fetch - main [MainThread]: End processing [batframes]: success
+[2023-05-10 11:52:09] INFO root fetch - main [MainThread]: End processing [mpscenes]: success
+[2023-05-10 11:52:09] INFO root fetch - main [MainThread]: End processing [PyLEMS]: success
+[2023-05-10 11:52:09] INFO root fetch - main [MainThread]: End processing [aioflureedb]: success
+[2023-05-10 11:52:10] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-05-10 11:52:10] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 11:52:11] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-05-10 11:52:13] INFO root fetch - main [MainThread]: End processing [cercis]: success
+[2023-05-10 11:52:13] INFO root fetch - main [MainThread]: Store serial: [18045143]
