@@ -4734,3 +4734,85 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 03:37:36] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2023-05-10 03:37:38] INFO root fetch - main [MainThread]: End processing [rattail]: success
 [2023-05-10 03:37:38] INFO root fetch - main [MainThread]: Store serial: [18040620]
+[2023-05-10 03:42:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18040620]
+[2023-05-10 03:42:47] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easy-gpt-utils
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-scipy
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: animegifs
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mongogettersetter
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flake8-ban-utcnow-36
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hassle
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nbdev-sphinx
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PicsToPdfs
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sam-zipcode-geocode-us
+[2023-05-10 03:42:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tencentcloud-sdk-python
+[2023-05-10 03:42:47] INFO root fetch - processPackages [animegifs]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [easy-gpt-utils]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-10 03:42:47] WARNING root fetch - processPackages [flake8-ban-utcnow-36]: Skipping, unable to determine old version
+[2023-05-10 03:42:47] INFO root fetch - processPackages [flake8-ban-utcnow-36]: Start processing: np-jobs
+[2023-05-10 03:42:47] INFO root fetch - main [MainThread]: End processing [flake8-ban-utcnow-36] error
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [tencentcloud-sdk-python]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-10 03:42:47] WARNING root fetch - processPackages [sam-zipcode-geocode-us]: Skipping, unable to determine old version
+[2023-05-10 03:42:47] INFO root fetch - processPackages [sam-zipcode-geocode-us]: Start processing: nbdev-django
+[2023-05-10 03:42:47] INFO root fetch - main [MainThread]: End processing [sam-zipcode-geocode-us] error
+[2023-05-10 03:42:47] INFO root fetch - processPackages [hassle]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [PicsToPdfs]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230510/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] WARNING root fetch - processPackages [np-jobs]: Skipping, unable to determine old version
+[2023-05-10 03:42:47] INFO root fetch - processPackages [np-jobs]: Start processing: fstflowchat
+[2023-05-10 03:42:47] INFO root fetch - main [MainThread]: End processing [np-jobs] error
+[2023-05-10 03:42:47] INFO root fetch - processPackages [tencentcloud-sdk-python]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [tencentcloud-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-3.0.98.tar.gz tmp/tencentcloud-sdk-python-3.0.99.tar.gz --markdown 20230510/t/tencentcloud-sdk-python/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/6f/5a/4fce81722b0dcea5a69c2465e541d7de5c7721b1be2581ca369f9898858a/easy_gpt_utils-0.1.4.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/0a/3c/ef5ee21c20e646c6ead9834c69d2c33b279c9009a36093ac32dd4a8280e8/animegifs-0.5.1.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [mongogettersetter]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230510/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [fstflowchat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 03:42:47] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/15/b5/d87e2b8d0f3739c5292be54d7141729736b0c707e6f3af814f83a0334b32/hassle-2.7.1.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230510/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/a4/4e/5d0f75a5750dc47461bbcf1f1aabeb9dd51e83d4d12cb23878b6360eb053/PicsToPdfs-0.3.5.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [animegifs]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [animegifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animegifs-0.5.0.tar.gz tmp/animegifs-0.5.1.tar.gz --markdown 20230510/a/animegifs/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/8b/5f/1501b07ef640f33cff2b641fdb512db9524a15179020dfdd92a4650bd2ef/easy_gpt_utils-0.1.5.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/8c/d0/2daf498904d8b8ec3b36dc168e642cecb224486ea51f644800db565cfdfc/fstflowchat-0.0.5.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [mongogettersetter]: Downloading https://files.pythonhosted.org/packages/12/8d/fabfa1dc418d3825bc86a4d55f4fa731553b889b68d4cb0ff7ca76604e8c/mongogettersetter-1.4.4.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [hassle]: Downloading https://files.pythonhosted.org/packages/71/95/876d1be77e9a8c18fdc9649365b51f80c395b3d44c710aaf233c71aab988/hassle-2.8.0.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [easy-gpt-utils]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [easy-gpt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gpt_utils-0.1.4.tar.gz tmp/easy_gpt_utils-0.1.5.tar.gz --markdown 20230510/e/easy-gpt-utils/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [PicsToPdfs]: Downloading https://files.pythonhosted.org/packages/fa/ba/b1391a8b773e5384808fe66a3925746340cda92110ad1cffe5a7271b6c99/PicsToPdfs-0.3.6.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [fstflowchat]: Downloading https://files.pythonhosted.org/packages/ee/0f/af3a4b868521e1eeb7c75d573cb8b99a4ed2602d9920df149bb5f58c8fe6/fstflowchat-0.0.6.tar.gz
+[2023-05-10 03:42:47] INFO root fetch - processPackages [mongogettersetter]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [mongogettersetter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongogettersetter-1.4.3.tar.gz tmp/mongogettersetter-1.4.4.tar.gz --markdown 20230510/m/mongogettersetter/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-05-10 03:42:47] INFO root fetch - processPackages [hassle]: executing diffoscope
+[2023-05-10 03:42:47] INFO root fetch - processPackages [hassle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hassle-2.7.1.tar.gz tmp/hassle-2.8.0.tar.gz --markdown 20230510/h/hassle/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-05-10 03:42:48] INFO root fetch - processPackages [PicsToPdfs]: executing diffoscope
+[2023-05-10 03:42:48] INFO root fetch - processPackages [PicsToPdfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PicsToPdfs-0.3.5.tar.gz tmp/PicsToPdfs-0.3.6.tar.gz --markdown 20230510/P/PicsToPdfs/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-05-10 03:42:48] INFO root fetch - processPackages [fstflowchat]: executing diffoscope
+[2023-05-10 03:42:48] INFO root fetch - processPackages [fstflowchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fstflowchat-0.0.5.tar.gz tmp/fstflowchat-0.0.6.tar.gz --markdown 20230510/f/fstflowchat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 03:42:48] INFO root fetch - processPackages [nbdev-scipy]: Start processing: seven-cloudapp-frame
+[2023-05-10 03:42:48] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-10 03:42:48] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-05-10 03:42:48] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: nbdev-apl
+[2023-05-10 03:42:48] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-05-10 03:42:48] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.763] Old Version: [0.0.762]
+[2023-05-10 03:42:48] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-05-10 03:42:48] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230510/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-05-10 03:42:48] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-05-10 03:42:48] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.762.tar.gz tmp/nbdev-apl-0.0.763.tar.gz --markdown 20230510/n/nbdev-apl/0.0.762-0.0.763/diff.md --exclude *.pyd
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [animegifs]: success
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [mongogettersetter]: success
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [fstflowchat]: success
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils]: success
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-05-10 03:42:49] INFO root fetch - main [MainThread]: End processing [PicsToPdfs]: success
+[2023-05-10 03:42:50] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-05-10 03:42:50] INFO root fetch - main [MainThread]: End processing [hassle]: success
+[2023-05-10 03:42:50] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-05-10 03:42:55] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python]: success
+[2023-05-10 03:42:55] INFO root fetch - main [MainThread]: Store serial: [18040677]
