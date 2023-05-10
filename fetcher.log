@@ -12106,3 +12106,80 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:52:52] INFO root fetch - main [MainThread]: End processing [akshare]: success
 [2023-05-10 10:52:53] INFO root fetch - main [MainThread]: End processing [calorine]: success
 [2023-05-10 10:52:53] INFO root fetch - main [MainThread]: Store serial: [18044449]
+[2023-05-10 10:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044449]
+[2023-05-10 10:58:02] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Auto-FOX
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ferned
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: enhanceezqq
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zensvi
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-ecs-deploy
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metaquantus
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-report-template
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: embykeeper
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: munet
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ImageD11
+[2023-05-10 10:58:02] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.0.4] Old Version: [1.0.0.3]
+[2023-05-10 10:58:02] WARNING root fetch - processPackages [zensvi]: Skipping, unable to determine old version
+[2023-05-10 10:58:02] INFO root fetch - processPackages [zensvi]: Start processing: batframes
+[2023-05-10 10:58:02] INFO root fetch - processPackages [get-report-template]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 10:58:02] INFO root fetch - main [MainThread]: End processing [zensvi] error
+[2023-05-10 10:58:02] WARNING root fetch - processPackages [ferned]: Skipping, unable to determine old version
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ferned]: Start processing: amsterdam-schema-tools
+[2023-05-10 10:58:02] INFO root fetch - main [MainThread]: End processing [ferned] error
+[2023-05-10 10:58:02] INFO root fetch - processPackages [aws-ecs-deploy]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [batframes]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [Auto-FOX]: New version: [1.0.0b1] Old Version: [0.10.2]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [metaquantus]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [embykeeper]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ImageD11]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [munet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-05-10 10:58:02] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/68/a4/9d5bc926731d0b445ea31dadafcaba0f3ec58c07396f2b5996ef6afe9e51/enhanceezqq-1.0.0.3.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [get-report-template]: Downloading https://files.pythonhosted.org/packages/db/f0/960e9ee9463e1c2f0bba0cd9320b510b25add0d19354577e0d600119e248/get_report_template-0.0.1.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [aws-ecs-deploy]: Downloading https://files.pythonhosted.org/packages/f6/3b/25e1604ae629b6bfdd3f894c7b2551829880d247c098b3632dc68f7e0e54/aws_ecs_deploy-0.1.0.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [metaquantus]: Downloading https://files.pythonhosted.org/packages/88/df/3eab50a6de477e951be6f81119b20f5f1acd27b78b8a738a3e53c8e48c43/metaquantus-0.0.3.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [ImageD11]: Downloading https://files.pythonhosted.org/packages/63/d2/3b8f6c4ae45d3302a95c69e099063414db33862d5769f224efe10b5771d3/ImageD11-1.9.8.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [Auto-FOX]: Downloading https://files.pythonhosted.org/packages/80/a7/ad2ab6a6d47def844f80fa33d2ce795b593be678d2ffdf6a646a330d2915/Auto-FOX-0.10.2.tar.gz
+[2023-05-10 10:58:02] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/ab/ab/50abc3289545adb952eebcb12b5d75cd68c3deddb2ead102309f6b23b3fd/munet-0.9.8.tar.gz
+[2023-05-10 10:58:02] WARNING root fetch - processPackages [Auto-FOX]: Skipping package: exceeds size limit 23144666>=10485760
+[2023-05-10 10:58:03] INFO root fetch - processPackages [Auto-FOX]: Start processing: palmers-agents-general
+[2023-05-10 10:58:03] INFO root fetch - main [MainThread]: End processing [Auto-FOX] error
+[2023-05-10 10:58:03] INFO root fetch - processPackages [batframes]: Downloading https://files.pythonhosted.org/packages/66/eb/21ad341e9436af7b47606ee3761223b7584ca0a1ea0a52e43d4468bf09f5/batframes-1.0.0.2.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [palmers-agents-general]: New version: [0.10.0] Old Version: [0.0.9]
+[2023-05-10 10:58:03] INFO root fetch - processPackages [batframes]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [batframes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batframes-1.0.0.1.tar.gz tmp/batframes-1.0.0.2.tar.gz --markdown 20230510/b/batframes/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [enhanceezqq]: Downloading https://files.pythonhosted.org/packages/dd/a9/b552ada10eecf8cc251e759cfa89b356516f0e079d9ec93eb4c9008977ef/enhanceezqq-1.0.0.4.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [get-report-template]: Downloading https://files.pythonhosted.org/packages/3c/c9/4d02a56c802a118c40bde2814e6d89e2e0eea8031af267439ba084c31f4c/get-report-template-0.0.2.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230510/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.0.3.tar.gz tmp/enhanceezqq-1.0.0.4.tar.gz --markdown 20230510/e/enhanceezqq/1.0.0.3-1.0.0.4/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [embykeeper]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [embykeeper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embykeeper-2.0.8.tar.gz tmp/embykeeper-2.0.9.tar.gz --markdown 20230510/e/embykeeper/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [aws-ecs-deploy]: Downloading https://files.pythonhosted.org/packages/d4/73/e4371ce8e8be516fd51a83eb5c4fd5b5a8d3c51a384d75fe51e261066a92/aws_ecs_deploy-0.1.1.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [palmers-agents-general]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [palmers-agents-general]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/palmers_agents_general-0.0.9.tar.gz tmp/palmers_agents_general-0.10.0.tar.gz --markdown 20230510/p/palmers-agents-general/0.0.9-0.10.0/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [metaquantus]: Downloading https://files.pythonhosted.org/packages/1a/98/8e1501f431cba7ca32a2362a90bf755be7cbcede6a73f61053d0bcfa87ca/metaquantus-0.0.4.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [get-report-template]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [get-report-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_report_template-0.0.1.tar.gz tmp/get-report-template-0.0.2.tar.gz --markdown 20230510/g/get-report-template/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [munet]: Downloading https://files.pythonhosted.org/packages/e9/a7/16aef984464ad235996a4918e7377bd5e40cd015eb9b5cae381b237aeba4/munet-0.9.9.tar.gz
+[2023-05-10 10:58:03] INFO root fetch - processPackages [aws-ecs-deploy]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [aws-ecs-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_ecs_deploy-0.1.0.tar.gz tmp/aws_ecs_deploy-0.1.1.tar.gz --markdown 20230510/a/aws-ecs-deploy/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [metaquantus]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [metaquantus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaquantus-0.0.3.tar.gz tmp/metaquantus-0.0.4.tar.gz --markdown 20230510/m/metaquantus/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 10:58:03] INFO root fetch - processPackages [munet]: executing diffoscope
+[2023-05-10 10:58:03] INFO root fetch - processPackages [munet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/munet-0.9.8.tar.gz tmp/munet-0.9.9.tar.gz --markdown 20230510/m/munet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 10:58:04] INFO root fetch - processPackages [ImageD11]: Downloading https://files.pythonhosted.org/packages/51/87/a7fc0fbdb8bad72c85406c567c26d4375b58435c323d74fc42bb120ec5b6/ImageD11-1.9.9.tar.gz
+[2023-05-10 10:58:04] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2023-05-10 10:58:04] INFO root fetch - main [MainThread]: End processing [palmers-agents-general]: success
+[2023-05-10 10:58:04] INFO root fetch - main [MainThread]: End processing [batframes]: success
+[2023-05-10 10:58:04] INFO root fetch - processPackages [ImageD11]: executing diffoscope
+[2023-05-10 10:58:04] INFO root fetch - processPackages [ImageD11]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ImageD11-1.9.8.tar.gz tmp/ImageD11-1.9.9.tar.gz --markdown 20230510/I/ImageD11/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-10 10:58:05] INFO root fetch - main [MainThread]: End processing [get-report-template]: success
+[2023-05-10 10:58:05] INFO root fetch - main [MainThread]: End processing [embykeeper]: success
+[2023-05-10 10:58:05] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-05-10 10:58:05] INFO root fetch - main [MainThread]: End processing [aws-ecs-deploy]: success
+[2023-05-10 10:58:06] INFO root fetch - main [MainThread]: End processing [munet]: success
+[2023-05-10 10:58:15] INFO root fetch - main [MainThread]: End processing [ImageD11]: success
+[2023-05-10 10:58:33] INFO root fetch - main [MainThread]: End processing [metaquantus]: success
+[2023-05-10 10:58:33] INFO root fetch - main [MainThread]: Store serial: [18044492]
