@@ -10224,3 +10224,225 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-date-range]: success
 [2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [odoo13-addon-date-range]: success
 [2023-05-10 09:34:20] INFO root fetch - main [MainThread]: Store serial: [18043503]
+[2023-05-10 09:39:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043503]
+[2023-05-10 09:39:29] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fattureincloud-python-sdk
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codecov-cli
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nucliadb
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-client
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-dataset
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-models
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tatarubot2
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-protos
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-sdk
+[2023-05-10 09:39:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addon-date-range
+[2023-05-10 09:39:29] INFO root fetch - processPackages [codecov-cli]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-05-10 09:39:29] INFO root fetch - processPackages [fattureincloud-python-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-10 09:39:29] INFO root fetch - processPackages [nucliadb-client]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:29] INFO root fetch - processPackages [tatarubot2]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 09:39:29] INFO root fetch - processPackages [odoo14-addon-date-range]: New version: [14.0.2.1.2.dev4] Old Version: [14.0.2.1.2.dev3]
+[2023-05-10 09:39:29] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-models]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:30] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/07/68/ca4647f06cc8170b393a02e7994291d0c94f552ceb2a86d68ad86851966f/fattureincloud-python-sdk-2.0.8.tar.gz
+[2023-05-10 09:39:30] INFO root fetch - processPackages [odoo14-addon-date-range]: Downloading https://files.pythonhosted.org/packages/f8/2e/6d4cf8c38aca837e330297066da9de04be1b5ef24f905c8029678255154a/odoo14_addon_date_range-14.0.2.1.2.dev3-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/f0/f8/ede86753b205c5239898ca42c659d90a997f69c7c6ddd38e4b6d6f98aa8f/codecov-cli-0.1.7.tar.gz
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-client]: Downloading https://files.pythonhosted.org/packages/f1/f6/cf823431a4985722f0e25dd8c233fbcaaf04b6fc169da6fb852521ce2b09/nucliadb_client-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/bc/ff/b3bc71fe232dcfe6bdb07781e65bfc9d5cab0982b8959078bdb988f8e515/nucliadb_protos-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/fb/64/e5f92d88b67aea7a910a582c19d29666559ea9fecebbeecb7ec96924f17f/nucliadb_dataset-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/5e/fd/fa99aae519ecb26fac795b7c9c8587a6416ae27e15cdfe3501020d919f64/nucliadb_models-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/8a/36/bdf8bca9e20daab671ec9df2f3bdd25cfcc2d1b1c61205a5daa0972bb943/nucliadb_sdk-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/8e/cc/90079eb470808280d49092d1da565ab3e75db817225da136c58b13f743da/nucliadb-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_models-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-models/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [tatarubot2]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [tatarubot2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tatarubot2-0.1.8.tar.gz tmp/tatarubot2-0.1.9.tar.gz --markdown 20230510/t/tatarubot2/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-client]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_client-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_client-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-client/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_protos-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-protos/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [codecov-cli]: Downloading https://files.pythonhosted.org/packages/29/d2/34ea421302ac578c18b3ed19cde1397aa3e6fc7a0c89e3ae8732033ccf3c/codecov-cli-0.1.8.tar.gz
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_dataset-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-dataset/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [fattureincloud-python-sdk]: Downloading https://files.pythonhosted.org/packages/58/4d/b02e21c01bbde9517449526d78585b25115420fb3798a6c7417570aa9d2f/fattureincloud-python-sdk-2.0.9.tar.gz
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_sdk-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-sdk/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [codecov-cli]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [codecov-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecov-cli-0.1.7.tar.gz tmp/codecov-cli-0.1.8.tar.gz --markdown 20230510/c/codecov-cli/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [fattureincloud-python-sdk]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [fattureincloud-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fattureincloud-python-sdk-2.0.8.tar.gz tmp/fattureincloud-python-sdk-2.0.9.tar.gz --markdown 20230510/f/fattureincloud-python-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2023-05-10 09:39:30] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:30] INFO root fetch - processPackages [odoo14-addon-date-range]: Downloading https://files.pythonhosted.org/packages/ee/8f/4d331d26be2e2d7102f9a7d5802ce13920f028d51d91ec526110ebdd8539/odoo14_addon_date_range-14.0.2.1.2.dev4-py3-none-any.whl
+[2023-05-10 09:39:31] INFO root fetch - processPackages [odoo14-addon-date-range]: executing diffoscope
+[2023-05-10 09:39:31] INFO root fetch - processPackages [odoo14-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_date_range-14.0.2.1.2.dev3-py3-none-any.whl.zip tmp/odoo14_addon_date_range-14.0.2.1.2.dev4-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-date-range/14.0.2.1.2.dev3-14.0.2.1.2.dev4/diff.md --exclude *.pyd
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-models]: Start processing: cg
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2023-05-10 09:39:32] INFO root fetch - processPackages [cg]: New version: [30.0.0] Old Version: [29.8.7]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-client]: Start processing: nucliadb-utils
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb-client]: success
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.8.5.post253] Old Version: [2.8.5.post252]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: odoo-addon-date-range
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2023-05-10 09:39:32] INFO root fetch - processPackages [odoo-addon-date-range]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/1f/e9/c3271c7597f01e5a16fc7eb81a80420ef2b35a754f3888ac1689f8db420b/cg-29.8.7.tar.gz
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: lalsuite
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/bd/67/820f0be32c2fff2a4543afd13a006822dbf52e50d24f718f744cd0197423/nucliadb_utils-2.8.5.post253-py3-none-any.whl
+[2023-05-10 09:39:32] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-protos]: Start processing: milankalkenings
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2023-05-10 09:39:32] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/d2/29/be62250c944c51d94791f3d4cf1fa5ba27caba7f3d8204cd6f2db676fed3/odoo_addon_date_range-16.0.1.0.0.7-py3-none-any.whl
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2023-05-10 09:39:32] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.8.5.post252-py3-none-any.whl.zip tmp/nucliadb_utils-2.8.5.post253-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-utils/2.8.5.post252-2.8.5.post253/diff.md --exclude *.pyd
+[2023-05-10 09:39:32] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-10 09:39:32] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230510/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 09:39:32] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/85/60/575008eb5013961c4e9eb4a632b7f14752ec7d4ae7e29ddb250eb8041763/cg-30.0.0.tar.gz
+[2023-05-10 09:39:32] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 09:39:32] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-05-10 09:39:32] INFO root fetch - processPackages [lalsuite]: Start processing: odoo9-addon-mass-mailing-custom-unsubscribe
+[2023-05-10 09:39:32] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-05-10 09:39:32] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: New version: [9.0.3.0.0.99.dev7] Old Version: [9.0.3.0.0.99.dev6]
+[2023-05-10 09:39:32] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-05-10 09:39:32] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-29.8.7.tar.gz tmp/cg-30.0.0.tar.gz --markdown 20230510/c/cg/29.8.7-30.0.0/diff.md --exclude *.pyd
+[2023-05-10 09:39:32] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/9a/dd/cbdbb44c0e381857b3fc129ac74cc0cf9455fbfbe740f244b8f584de7f5d/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev6-py2-none-any.whl
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/60/70/9ff665ddfd3534dabff0bb1fde1d0b65f0c9039ccb24b9544157180ce31b/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev7-py2-none-any.whl
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo14-addon-date-range]: Start processing: index-calculator
+[2023-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [odoo14-addon-date-range]: success
+[2023-05-10 09:39:33] INFO root fetch - processPackages [index-calculator]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_mass_mailing_custom_unsubscribe-9.0.3.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mass-mailing-custom-unsubscribe/9.0.3.0.0.99.dev6-9.0.3.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo-addon-date-range]: Downloading https://files.pythonhosted.org/packages/4e/2c/00404cecae528d3cd16233db7b55d5716b373c16a4781dad840afebe2a39/odoo_addon_date_range-16.0.1.0.1-py3-none-any.whl
+[2023-05-10 09:39:33] INFO root fetch - processPackages [index-calculator]: Downloading https://files.pythonhosted.org/packages/67/86/7fa98dd9cd12c67c8f03630fe29f6f6affff4b24b8e75980bc3c7c0c41a6/index_calculator-0.7.1.tar.gz
+[2023-05-10 09:39:33] INFO root fetch - processPackages [milankalkenings]: Start processing: asgi-matomo
+[2023-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-10 09:39:33] WARNING root fetch - processPackages [index-calculator]: Skipping package: exceeds size limit 14731256>=10485760
+[2023-05-10 09:39:33] INFO root fetch - processPackages [index-calculator]: Start processing: justa
+[2023-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [index-calculator] error
+[2023-05-10 09:39:33] INFO root fetch - processPackages [asgi-matomo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 09:39:33] WARNING root fetch - processPackages [justa]: Skipping, unable to determine old version
+[2023-05-10 09:39:33] INFO root fetch - processPackages [justa]: Start processing: pycover
+[2023-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [justa] error
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo-addon-date-range]: executing diffoscope
+[2023-05-10 09:39:33] INFO root fetch - processPackages [odoo-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_date_range-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_date_range-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-date-range/16.0.1.0.0.7-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-05-10 09:39:33] INFO root fetch - processPackages [pycover]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-10 09:39:33] INFO root fetch - processPackages [nucliadb-utils]: Start processing: db-contrib-tool
+[2023-05-10 09:39:33] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2023-05-10 09:39:33] INFO root fetch - processPackages [asgi-matomo]: executing diffoscope
+[2023-05-10 09:39:33] INFO root fetch - processPackages [asgi-matomo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgi_matomo-0.1.0.tar.gz tmp/asgi_matomo-0.1.1.tar.gz --markdown 20230510/a/asgi-matomo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 09:39:33] INFO root fetch - processPackages [db-contrib-tool]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-05-10 09:39:34] INFO root fetch - processPackages [pycover]: Downloading https://files.pythonhosted.org/packages/c8/f0/12f742e195eda68e8650f3b8f027fa97a00a2a071ba69b693bf53e75372b/pycover-0.9.7.tar.gz
+[2023-05-10 09:39:34] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/c4/b0/850caa627411ba2b59fec212bb468aeb31d9282be6f364732f8f03236622/db_contrib_tool-0.6.2.tar.gz
+[2023-05-10 09:39:34] INFO root fetch - processPackages [pycover]: Downloading https://files.pythonhosted.org/packages/0a/98/9d95d62a47e18b649d10ac4580c54c9ef88a86082c7681fcec1010ab1f23/pycover-0.9.8.tar.gz
+[2023-05-10 09:39:34] INFO root fetch - processPackages [db-contrib-tool]: Downloading https://files.pythonhosted.org/packages/f2/7f/2310e11e3d2a0b2f783913c188dd2b60392aa87b4cdd2b279c3ac522e86e/db_contrib_tool-0.6.3.tar.gz
+[2023-05-10 09:39:34] INFO root fetch - processPackages [pycover]: executing diffoscope
+[2023-05-10 09:39:34] INFO root fetch - processPackages [pycover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycover-0.9.7.tar.gz tmp/pycover-0.9.8.tar.gz --markdown 20230510/p/pycover/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-10 09:39:34] INFO root fetch - processPackages [nucliadb]: Start processing: returnn
+[2023-05-10 09:39:34] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2023-05-10 09:39:34] INFO root fetch - processPackages [returnn]: New version: [1.20230509.224617] Old Version: [1.20230509.190819]
+[2023-05-10 09:39:34] INFO root fetch - processPackages [db-contrib-tool]: executing diffoscope
+[2023-05-10 09:39:34] INFO root fetch - processPackages [db-contrib-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/db_contrib_tool-0.6.2.tar.gz tmp/db_contrib_tool-0.6.3.tar.gz --markdown 20230510/d/db-contrib-tool/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-05-10 09:39:34] INFO root fetch - processPackages [returnn]: Downloading https://files.pythonhosted.org/packages/f1/4f/74ed61ba532bd83675ee35aa8de4f2762e1b1a0c6b28e23d8cab13e684fa/returnn-1.20230509.224617.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [asgi-matomo]: Start processing: aliyun-python-sdk-avatar
+[2023-05-10 09:39:35] INFO root fetch - main [MainThread]: End processing [asgi-matomo]: success
+[2023-05-10 09:39:35] INFO root fetch - processPackages [returnn]: executing diffoscope
+[2023-05-10 09:39:35] INFO root fetch - processPackages [returnn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/returnn-1.20230509.190819.tar.gz tmp/returnn-1.20230509.224617.tar.gz --markdown 20230510/r/returnn/1.20230509.190819-1.20230509.224617/diff.md --exclude *.pyd
+[2023-05-10 09:39:35] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: New version: [1.0.9] Old Version: [1.0.2]
+[2023-05-10 09:39:35] INFO root fetch - processPackages [odoo9-addon-mass-mailing-custom-unsubscribe]: Start processing: thug
+[2023-05-10 09:39:35] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mass-mailing-custom-unsubscribe]: success
+[2023-05-10 09:39:35] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/4b/ed/87aae13001ecf58442b071485d33b58a9f21dbef9c1bd1d9f5983f051fa4/aliyun-python-sdk-avatar-1.0.2.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [thug]: New version: [5.0] Old Version: [4.9]
+[2023-05-10 09:39:35] ERROR root fetch - processPackages [tatarubot2]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+SystemError: ../Objects/codeobject.c:250: bad argument to internal function
+
+[2023-05-10 09:39:35] INFO root fetch - processPackages [tatarubot2]: Start processing: dython
+[2023-05-10 09:39:35] INFO root fetch - main [MainThread]: End processing [tatarubot2] error
+[2023-05-10 09:39:35] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/19/ce/dc0e5579ebf3447e6f9fb30617c9d8e8c5c7f5e0c8cb19b837f5fb413832/thug-4.9.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [dython]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-05-10 09:39:35] INFO root fetch - processPackages [odoo-addon-date-range]: Start processing: bagbag
+[2023-05-10 09:39:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-date-range]: success
+[2023-05-10 09:39:35] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: Downloading https://files.pythonhosted.org/packages/ff/e8/ba9744da258b0e71cdc1b7fe1a4f25a7bd3d9806ce5911f0b24f0f754815/aliyun-python-sdk-avatar-1.0.9.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [bagbag]: New version: [0.58.9] Old Version: [0.58.8]
+[2023-05-10 09:39:35] INFO root fetch - processPackages [dython]: Downloading https://files.pythonhosted.org/packages/d6/98/d221ca7a798d917a8550e7a3f1939fe15227ba2469020438c4c43b8772de/dython-0.7.3.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [thug]: Downloading https://files.pythonhosted.org/packages/0a/24/4c3660246242fc6abff7d2a611b7c9bad04322e2321692e69c84924997a1/thug-5.0.tar.gz
+[2023-05-10 09:39:35] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: executing diffoscope
+[2023-05-10 09:39:35] INFO root fetch - processPackages [aliyun-python-sdk-avatar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-avatar-1.0.2.tar.gz tmp/aliyun-python-sdk-avatar-1.0.9.tar.gz --markdown 20230510/a/aliyun-python-sdk-avatar/1.0.2-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 09:39:36] INFO root fetch - processPackages [db-contrib-tool]: Start processing: odoo-addon-spreadsheet-oca
+[2023-05-10 09:39:36] INFO root fetch - main [MainThread]: End processing [db-contrib-tool]: success
+[2023-05-10 09:39:36] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0.2]
+[2023-05-10 09:39:36] INFO root fetch - processPackages [thug]: executing diffoscope
+[2023-05-10 09:39:36] INFO root fetch - processPackages [thug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thug-4.9.tar.gz tmp/thug-5.0.tar.gz --markdown 20230510/t/thug/4.9-5.0/diff.md --exclude *.pyd
+[2023-05-10 09:39:36] INFO root fetch - processPackages [dython]: Downloading https://files.pythonhosted.org/packages/ce/b3/b22d48007781f41f30b7f136387f027f305abcd553170a1498e2ab232f10/dython-0.7.4.tar.gz
+[2023-05-10 09:39:36] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: executing diffoscope
+[2023-05-10 09:39:36] INFO root fetch - processPackages [odoo-addon-spreadsheet-oca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_spreadsheet_oca-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_spreadsheet_oca-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-spreadsheet-oca/16.0.1.1.0.2-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-05-10 09:39:36] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/93/38/2b465711bc025bb16b135886272e8a8d59ae9ea741770b4a9bf6e4c8ef42/bagbag-0.58.9.tar.gz
+[2023-05-10 09:39:36] INFO root fetch - processPackages [dython]: executing diffoscope
+[2023-05-10 09:39:36] INFO root fetch - processPackages [dython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dython-0.7.3.tar.gz tmp/dython-0.7.4.tar.gz --markdown 20230510/d/dython/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-05-10 09:39:36] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-05-10 09:39:36] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.58.8.tar.gz tmp/bagbag-0.58.9.tar.gz --markdown 20230510/b/bagbag/0.58.8-0.58.9/diff.md --exclude *.pyd
+[2023-05-10 09:39:36] INFO root fetch - processPackages [pycover]: Start processing: e2xgrader
+[2023-05-10 09:39:36] INFO root fetch - main [MainThread]: End processing [pycover]: success
+[2023-05-10 09:39:36] WARNING root fetch - processPackages [e2xgrader]: Skipping, unable to determine old version
+[2023-05-10 09:39:36] INFO root fetch - main [MainThread]: End processing [e2xgrader] error
+[2023-05-10 09:39:36] INFO root fetch - main [MainThread]: End processing [codecov-cli]: success
+[2023-05-10 09:39:37] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-avatar]: success
+[2023-05-10 09:39:37] INFO root fetch - main [MainThread]: End processing [dython]: success
+[2023-05-10 09:39:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-spreadsheet-oca]: success
+[2023-05-10 09:39:39] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-05-10 09:39:39] INFO root fetch - main [MainThread]: End processing [returnn]: success
+[2023-05-10 09:39:40] INFO root fetch - main [MainThread]: End processing [thug]: success
+[2023-05-10 09:39:43] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
+[2023-05-10 09:39:48] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-05-10 09:39:48] INFO root fetch - main [MainThread]: Store serial: [18043588]
