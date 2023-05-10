@@ -13590,3 +13590,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:08:00] INFO root fetch - main [MainThread]: End processing [connect-cli]: success
 [2023-05-10 12:08:07] INFO root fetch - main [MainThread]: End processing [omero-web]: success
 [2023-05-10 12:08:07] INFO root fetch - main [MainThread]: Store serial: [18045393]
+[2023-05-10 12:13:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045393]
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mimeograph
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tap-shopify
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gomea
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: configration
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cbcflow
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-account-check-deposit
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dm-reverb-nightly
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: loutilities
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: brain-loop-search
+[2023-05-10 12:13:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prodia-python
+[2023-05-10 12:13:17] INFO root fetch - processPackages [mimeograph]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [configration]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - processPackages [configration]: Start processing: pycanha
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [gomea]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [configration] error
+[2023-05-10 12:13:17] INFO root fetch - processPackages [gomea]: Start processing: domino-py
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [gomea] error
+[2023-05-10 12:13:17] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: New version: [14.0.1.2.0] Old Version: [14.0.1.1.1.dev9]
+[2023-05-10 12:13:17] INFO root fetch - processPackages [tap-shopify]: New version: [1.7.3] Old Version: [1.7.2]
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [brain-loop-search]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - processPackages [prodia-python]: New version: [2.3] Old Version: [2.2]
+[2023-05-10 12:13:17] INFO root fetch - processPackages [brain-loop-search]: Start processing: useragents-me-scraper
+[2023-05-10 12:13:17] INFO root fetch - processPackages [cbcflow]: New version: [0.2.1] Old Version: [0.1.2a6]
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [brain-loop-search] error
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [domino-py]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - processPackages [domino-py]: Start processing: softlab
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [domino-py] error
+[2023-05-10 12:13:17] INFO root fetch - processPackages [loutilities]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [pycanha]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [pycanha] error
+[2023-05-10 12:13:17] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-05-10 12:13:17] WARNING root fetch - processPackages [useragents-me-scraper]: Skipping, unable to determine old version
+[2023-05-10 12:13:17] INFO root fetch - main [MainThread]: End processing [useragents-me-scraper] error
+[2023-05-10 12:13:17] INFO root fetch - processPackages [softlab]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 12:13:17] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-05-10 12:13:17] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230510/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-05-10 12:13:17] INFO root fetch - processPackages [loutilities]: Downloading https://files.pythonhosted.org/packages/d3/62/fd6aa75b40d51228cad3a9e6803e3041fc9b09a6fb9badb9d6f1dbd21810/loutilities-3.8.1.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/4f/90/7528232a71df07fb51fdefe0e6be0a4ce498262e2ac453fdbbfb8954d6da/tap-shopify-1.7.2.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/70/e9/83c790a498128cc9206f7a5d9694c414b9275c55584761d460ab80013fe7/odoo14_addon_account_check_deposit-14.0.1.1.1.dev9-py3-none-any.whl
+[2023-05-10 12:13:17] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/e8/e5/1cb72a713ed0ba8fbb885ed7fbde17686bb72bacb0340ef2d4cbb44d128d/prodia-python-2.2.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [cbcflow]: Downloading https://files.pythonhosted.org/packages/2a/9f/0931a6ffad5f0f6d6fcf87b3bbbcc7093baaaa9d3a809bcb89f1c6681bec/cbcflow-0.1.2a6.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [softlab]: Downloading https://files.pythonhosted.org/packages/2f/0a/ac0d3f8759e5068137bcd1e660a9dad61633817a432fb5b24fbd65b3f84a/softlab-0.1.2.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [mimeograph]: executing diffoscope
+[2023-05-10 12:13:17] INFO root fetch - processPackages [mimeograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mimeograph-0.4.2.tar.gz tmp/mimeograph-0.4.3.tar.gz --markdown 20230510/m/mimeograph/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-10 12:13:17] INFO root fetch - processPackages [tap-shopify]: Downloading https://files.pythonhosted.org/packages/28/b2/d611b0bacd897c45604de47d88ba287c139bca5e4a6fa1bb44865dad4b1a/tap-shopify-1.7.3.tar.gz
+[2023-05-10 12:13:17] INFO root fetch - processPackages [prodia-python]: Downloading https://files.pythonhosted.org/packages/84/3e/5f0ff2bc6f304cca9d9d3539981cb6b42f03358578ae1d49a0d5810bc9c4/prodia-python-2.3.tar.gz
+[2023-05-10 12:13:18] INFO root fetch - processPackages [softlab]: Downloading https://files.pythonhosted.org/packages/01/ad/0eaa10a8bc5f9db98d82cd933f01f1572d44c955f7e9a0d931944bc9c9a3/softlab-0.1.3.tar.gz
+[2023-05-10 12:13:18] INFO root fetch - processPackages [cbcflow]: Downloading https://files.pythonhosted.org/packages/c4/e6/a123cc40606d862e56060231f43d60c342b09b68dffe7674371087ce908c/cbcflow-0.2.1.tar.gz
+[2023-05-10 12:13:18] INFO root fetch - processPackages [loutilities]: Downloading https://files.pythonhosted.org/packages/b8/3c/25c2ae6f6926e3c509252947f678ad27ecffa3abdc7a30b755117f816031/loutilities-3.8.2.tar.gz
+[2023-05-10 12:13:18] INFO root fetch - processPackages [tap-shopify]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [tap-shopify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap-shopify-1.7.2.tar.gz tmp/tap-shopify-1.7.3.tar.gz --markdown 20230510/t/tap-shopify/1.7.2-1.7.3/diff.md --exclude *.pyd
+[2023-05-10 12:13:18] INFO root fetch - processPackages [prodia-python]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [prodia-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodia-python-2.2.tar.gz tmp/prodia-python-2.3.tar.gz --markdown 20230510/p/prodia-python/2.2-2.3/diff.md --exclude *.pyd
+[2023-05-10 12:13:18] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: Downloading https://files.pythonhosted.org/packages/80/71/15738fa9797da1679876ed28ec3110632688809e2e026751b137a0dfbc70/odoo14_addon_account_check_deposit-14.0.1.2.0-py3-none-any.whl
+[2023-05-10 12:13:18] INFO root fetch - processPackages [loutilities]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [loutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loutilities-3.8.1.tar.gz tmp/loutilities-3.8.2.tar.gz --markdown 20230510/l/loutilities/3.8.1-3.8.2/diff.md --exclude *.pyd
+[2023-05-10 12:13:18] INFO root fetch - processPackages [softlab]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [softlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/softlab-0.1.2.tar.gz tmp/softlab-0.1.3.tar.gz --markdown 20230510/s/softlab/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 12:13:18] INFO root fetch - processPackages [cbcflow]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [cbcflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbcflow-0.1.2a6.tar.gz tmp/cbcflow-0.2.1.tar.gz --markdown 20230510/c/cbcflow/0.1.2a6-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 12:13:18] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: executing diffoscope
+[2023-05-10 12:13:18] INFO root fetch - processPackages [odoo14-addon-account-check-deposit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_check_deposit-14.0.1.1.1.dev9-py3-none-any.whl.zip tmp/odoo14_addon_account_check_deposit-14.0.1.2.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-account-check-deposit/14.0.1.1.1.dev9-14.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-10 12:13:19] INFO root fetch - main [MainThread]: End processing [prodia-python]: success
+[2023-05-10 12:13:20] INFO root fetch - main [MainThread]: End processing [tap-shopify]: success
+[2023-05-10 12:13:20] INFO root fetch - main [MainThread]: End processing [loutilities]: success
+[2023-05-10 12:13:20] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-check-deposit]: success
+[2023-05-10 12:13:20] INFO root fetch - main [MainThread]: End processing [cbcflow]: success
+[2023-05-10 12:13:22] INFO root fetch - main [MainThread]: End processing [mimeograph]: success
+[2023-05-10 12:13:47] INFO root fetch - main [MainThread]: End processing [softlab]: success
+[2023-05-10 12:14:15] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-05-10 12:14:15] INFO root fetch - main [MainThread]: Store serial: [18045468]
