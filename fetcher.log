@@ -18195,3 +18195,123 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 15:55:57] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
 [2023-05-10 15:56:15] INFO root fetch - main [MainThread]: End processing [akeyless]: success
 [2023-05-10 15:56:15] INFO root fetch - main [MainThread]: Store serial: [18048097]
+[2023-05-10 16:01:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048097]
+[2023-05-10 16:01:25] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: turbine-design
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: phenotype2phenopacket
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dftrans
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyikarus
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytestifyx
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: acids-msprior
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reqmgr2ms-pileup
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reqmgr2ms-rulecleaner
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: acdcserver
+[2023-05-10 16:01:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reqmon
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-10 16:01:25] WARNING root fetch - processPackages [acids-msprior]: Skipping, unable to determine old version
+[2023-05-10 16:01:25] INFO root fetch - processPackages [acids-msprior]: Start processing: reqmgr2
+[2023-05-10 16:01:25] INFO root fetch - main [MainThread]: End processing [acids-msprior] error
+[2023-05-10 16:01:25] INFO root fetch - processPackages [phenotype2phenopacket]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-05-10 16:01:25] WARNING root fetch - processPackages [turbine-design]: Skipping, unable to determine old version
+[2023-05-10 16:01:25] INFO root fetch - processPackages [dftrans]: New version: [2.0.2.5] Old Version: [2.0.2.4]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pyikarus]: New version: [0.3.0.dev202310000060] Old Version: [0.3.0.dev202310000058]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [turbine-design]: Start processing: drift-mqtt
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 16:01:25] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmon]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [acdcserver]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [drift-mqtt]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.1rc1.tar.gz tmp/reqmon-2.2.1rc2.tar.gz --markdown 20230510/r/reqmon/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.1rc1.tar.gz tmp/reqmgr2ms-pileup-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-pileup/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/ff/07/a528980695cb4aaf3d44ebc7c443523629d950fafe8c447d7ad55ec2fa85/pytestifyx-0.4.1-py2.py3-none-any.whl
+[2023-05-10 16:01:25] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.1rc1.tar.gz tmp/acdcserver-2.2.1rc2.tar.gz --markdown 20230510/a/acdcserver/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.1rc1.tar.gz tmp/reqmgr2-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [phenotype2phenopacket]: Downloading https://files.pythonhosted.org/packages/51/c0/e77c053c4f0995790cd7beefc079e72202f6f56c6e974510e82c2c38920b/phenotype2phenopacket-0.1.1.tar.gz
+[2023-05-10 16:01:25] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.1rc1.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-rulecleaner/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/7c/9c/ac50bd1edb9b82a218f271d3733f0b8ed6caaf12043b932281fa2a6cd301/dftrans-2.0.2.4.tar.gz
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pyikarus]: Downloading https://files.pythonhosted.org/packages/6a/7f/9778ca806776473eede5d0ff3cc5dc59633c66ea5be49e7a4ef89da7c1bc/pyikarus-0.3.0.dev202310000060.tar.gz
+[2023-05-10 16:01:25] INFO root fetch - processPackages [drift-mqtt]: Downloading https://files.pythonhosted.org/packages/04/79/72303a2970aec0122b21d0778c8fcfe9469f8846b6fb93417b1f8d21f201/drift_mqtt-0.2.0-py3-none-any.whl
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pyikarus]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pyikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyikarus-0.3.0.dev202310000058.tar.gz tmp/pyikarus-0.3.0.dev202310000060.tar.gz --markdown 20230510/p/pyikarus/0.3.0.dev202310000058-0.3.0.dev202310000060/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/3d/27/8059516c6cc50f5e824e90fb73534c43e9698522fffc72506abc49764d9d/dftrans-2.0.2.5.tar.gz
+[2023-05-10 16:01:25] INFO root fetch - processPackages [phenotype2phenopacket]: Downloading https://files.pythonhosted.org/packages/2d/e3/41ff8214eba93d6904cc06a49a5fb8fac1e6bab19fb804e4ac4938e6d255/phenotype2phenopacket-0.2.0.tar.gz
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/8d/49/4503d2bcda86a3bbedb30e93e4d804a6e16efe019b754726414df1aae5f1/pytestifyx-0.4.2-py2.py3-none-any.whl
+[2023-05-10 16:01:25] INFO root fetch - processPackages [drift-mqtt]: Downloading https://files.pythonhosted.org/packages/87/31/6bc4d176fc8afe19aaf0044656de94de2866c9d1b219d9965d4b15718749/drift_mqtt-0.2.1-py3-none-any.whl
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.1-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.2-py2.py3-none-any.whl.zip --markdown 20230510/p/pytestifyx/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [drift-mqtt]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [drift-mqtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drift_mqtt-0.2.0-py3-none-any.whl.zip tmp/drift_mqtt-0.2.1-py3-none-any.whl.zip --markdown 20230510/d/drift-mqtt/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 16:01:25] INFO root fetch - processPackages [dftrans]: executing diffoscope
+[2023-05-10 16:01:25] INFO root fetch - processPackages [dftrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftrans-2.0.2.4.tar.gz tmp/dftrans-2.0.2.5.tar.gz --markdown 20230510/d/dftrans/2.0.2.4-2.0.2.5/diff.md --exclude *.pyd
+[2023-05-10 16:01:26] INFO root fetch - processPackages [phenotype2phenopacket]: executing diffoscope
+[2023-05-10 16:01:26] INFO root fetch - processPackages [phenotype2phenopacket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phenotype2phenopacket-0.1.1.tar.gz tmp/phenotype2phenopacket-0.2.0.tar.gz --markdown 20230510/p/phenotype2phenopacket/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 16:01:27] INFO root fetch - processPackages [drift-mqtt]: Start processing: gridworks
+[2023-05-10 16:01:27] INFO root fetch - main [MainThread]: End processing [drift-mqtt]: success
+[2023-05-10 16:01:27] INFO root fetch - processPackages [gridworks]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-10 16:01:27] INFO root fetch - processPackages [gridworks]: Downloading https://files.pythonhosted.org/packages/06/87/6d2868f0d8ea2b266a6d4632c41bc4dc6cb46588ed2e01c1acdf8165c155/gridworks-0.2.4.tar.gz
+[2023-05-10 16:01:27] INFO root fetch - processPackages [dftrans]: Start processing: milankalkenings
+[2023-05-10 16:01:27] INFO root fetch - main [MainThread]: End processing [dftrans]: success
+[2023-05-10 16:01:27] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 16:01:27] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-10 16:01:27] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230510/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 16:01:27] INFO root fetch - processPackages [gridworks]: executing diffoscope
+[2023-05-10 16:01:27] INFO root fetch - processPackages [gridworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks-0.2.3.tar.gz tmp/gridworks-0.2.4.tar.gz --markdown 20230510/g/gridworks/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 16:01:27] INFO root fetch - processPackages [pytestifyx]: Start processing: JLC2KiCadLib
+[2023-05-10 16:01:27] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-10 16:01:27] INFO root fetch - processPackages [JLC2KiCadLib]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 16:01:27] INFO root fetch - processPackages [JLC2KiCadLib]: Downloading https://files.pythonhosted.org/packages/cb/98/ccede9721435b39721a7933a153f2461f594407d748bea3fcf928d10bc0a/JLC2KiCadLib-1.0.8.tar.gz
+[2023-05-10 16:01:28] INFO root fetch - processPackages [acdcserver]: Start processing: screeny
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-05-10 16:01:28] INFO root fetch - processPackages [screeny]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-10 16:01:28] INFO root fetch - processPackages [screeny]: Downloading https://files.pythonhosted.org/packages/d9/ea/f1ba8c144e8c7f0799716c3d3cf3b8f2d956c1ec27bdc9761500df23c897/screeny-0.2.0.tar.gz
+[2023-05-10 16:01:28] INFO root fetch - processPackages [JLC2KiCadLib]: Downloading https://files.pythonhosted.org/packages/02/6e/ec1524fb03dd570156201c0e3f6c7014ee1762d01f88c926f5c22b756f5e/JLC2KiCadLib-1.0.9.tar.gz
+[2023-05-10 16:01:28] INFO root fetch - processPackages [phenotype2phenopacket]: Start processing: flaks-setup
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [phenotype2phenopacket]: success
+[2023-05-10 16:01:28] INFO root fetch - processPackages [screeny]: executing diffoscope
+[2023-05-10 16:01:28] INFO root fetch - processPackages [screeny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/screeny-0.1.0.tar.gz tmp/screeny-0.2.0.tar.gz --markdown 20230510/s/screeny/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 16:01:28] INFO root fetch - processPackages [flaks-setup]: New version: [0.95] Old Version: [0.94]
+[2023-05-10 16:01:28] INFO root fetch - processPackages [JLC2KiCadLib]: executing diffoscope
+[2023-05-10 16:01:28] INFO root fetch - processPackages [JLC2KiCadLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JLC2KiCadLib-1.0.8.tar.gz tmp/JLC2KiCadLib-1.0.9.tar.gz --markdown 20230510/J/JLC2KiCadLib/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:01:28] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: lv_velodyne
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-05-10 16:01:28] WARNING root fetch - processPackages [lv_velodyne]: Skipping, unable to determine old version
+[2023-05-10 16:01:28] INFO root fetch - processPackages [lv_velodyne]: Start processing: flaks
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [lv_velodyne] error
+[2023-05-10 16:01:28] INFO root fetch - processPackages [flaks]: New version: [1.0] Old Version: [0.9]
+[2023-05-10 16:01:28] INFO root fetch - processPackages [flaks-setup]: Downloading https://files.pythonhosted.org/packages/38/ad/19d24c561e746bd9320113af6c595118d1c6cbecf48bb461a9928266ee51/flaks_setup-0.94.tar.gz
+[2023-05-10 16:01:28] INFO root fetch - processPackages [pyikarus]: Start processing: pytestifyx
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [pyikarus]: success
+[2023-05-10 16:01:28] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-10 16:01:28] INFO root fetch - processPackages [milankalkenings]: Start processing: pytensor
+[2023-05-10 16:01:28] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-10 16:01:28] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/b1/13/c627c2a528088db19fe6444a6c45d71062bc5d1842670fc2feb5952fb302/flaks-1.0.tar.gz
+[2023-05-10 16:01:28] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-10 16:01:28] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.1-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.2-py2.py3-none-any.whl.zip --markdown 20230510/p/pytestifyx/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-10 16:01:28] INFO root fetch - processPackages [pytensor]: New version: [2.9.1] Old Version: [2.8.11]
+[2023-05-10 16:01:28] INFO root fetch - processPackages [flaks-setup]: Downloading https://files.pythonhosted.org/packages/aa/29/a62423e193d5762e8c0fa77bde881662a9ef74bce506bdb307ec984bca78/flaks_setup-0.95.tar.gz
+[2023-05-10 16:01:29] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 16:01:29] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.9.tar.gz tmp/flaks-1.0.tar.gz --markdown 20230510/f/flaks/0.9-1.0/diff.md --exclude *.pyd
+[2023-05-10 16:01:29] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/93/d6/4163252aeb081f46572450118d4384e037a1f82291ae1e051a483fe6ca2b/pytensor-2.8.11.tar.gz
+[2023-05-10 16:01:29] INFO root fetch - processPackages [flaks-setup]: executing diffoscope
+[2023-05-10 16:01:29] INFO root fetch - processPackages [flaks-setup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks_setup-0.94.tar.gz tmp/flaks_setup-0.95.tar.gz --markdown 20230510/f/flaks-setup/0.94-0.95/diff.md --exclude *.pyd
+[2023-05-10 16:01:29] INFO root fetch - main [MainThread]: End processing [gridworks]: success
+[2023-05-10 16:01:29] INFO root fetch - processPackages [pytensor]: Downloading https://files.pythonhosted.org/packages/a7/0d/621c9aaf5406a39b2defa66cedc2d54a377b0524b360de0c282668b3f57d/pytensor-2.9.1.tar.gz
+[2023-05-10 16:01:29] INFO root fetch - main [MainThread]: End processing [screeny]: success
+[2023-05-10 16:01:30] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 16:01:30] INFO root fetch - main [MainThread]: End processing [flaks-setup]: success
+[2023-05-10 16:01:30] INFO root fetch - main [MainThread]: End processing [JLC2KiCadLib]: success
+[2023-05-10 16:01:30] INFO root fetch - processPackages [pytensor]: executing diffoscope
+[2023-05-10 16:01:30] INFO root fetch - processPackages [pytensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytensor-2.8.11.tar.gz tmp/pytensor-2.9.1.tar.gz --markdown 20230510/p/pytensor/2.8.11-2.9.1/diff.md --exclude *.pyd
+[2023-05-10 16:01:30] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-10 16:01:31] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-05-10 16:01:32] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-05-10 16:01:33] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-05-10 16:01:37] INFO root fetch - main [MainThread]: End processing [pytensor]: success
+[2023-05-10 16:01:37] INFO root fetch - main [MainThread]: Store serial: [18048171]
