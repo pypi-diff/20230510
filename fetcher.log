@@ -14061,3 +14061,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:41:00] INFO root fetch - main [MainThread]: End processing [athiruma-cloud-governance]: success
 [2023-05-10 12:41:07] INFO root fetch - main [MainThread]: End processing [pulumi-fortios]: success
 [2023-05-10 12:41:07] INFO root fetch - main [MainThread]: Store serial: [18045690]
+[2023-05-10 12:46:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045690]
+[2023-05-10 12:46:17] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RoboArt
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySciMath
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pref-voting
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ikarus
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: solrvalidator
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ieeh-powerfactory-tools
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: start-time-estimator
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bp-data-visualization
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: codeoffer
+[2023-05-10 12:46:17] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.38.587190] Old Version: [20230510.9.27.733025]
+[2023-05-10 12:46:17] WARNING root fetch - processPackages [solrvalidator]: Skipping, unable to determine old version
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ieeh-powerfactory-tools]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [solrvalidator]: Start processing: texproject
+[2023-05-10 12:46:17] INFO root fetch - main [MainThread]: End processing [solrvalidator] error
+[2023-05-10 12:46:17] INFO root fetch - processPackages [pref-voting]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ikarus]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [PySciMath]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-10 12:46:17] WARNING root fetch - processPackages [start-time-estimator]: Skipping, unable to determine old version
+[2023-05-10 12:46:17] INFO root fetch - processPackages [start-time-estimator]: Start processing: solrvalidator
+[2023-05-10 12:46:17] INFO root fetch - main [MainThread]: End processing [start-time-estimator] error
+[2023-05-10 12:46:17] INFO root fetch - processPackages [codeoffer]: New version: [0.4.0] Old Version: [0.2.0]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [bp-data-visualization]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-05-10 12:46:17] WARNING root fetch - processPackages [solrvalidator]: Skipping, unable to determine old version
+[2023-05-10 12:46:17] INFO root fetch - processPackages [solrvalidator]: Start processing: RoboArt
+[2023-05-10 12:46:17] INFO root fetch - main [MainThread]: End processing [solrvalidator] error
+[2023-05-10 12:46:17] INFO root fetch - processPackages [texproject]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-05-10 12:46:17] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/2f/88/dd2001f9d5a88d8fe95f88aafc426165de36b07f51904361f2e938818f9f/certora-cli-alpha-niv-fix_check_results-20230510.9.27.733025.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 12:46:17] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213798>=10485760
+[2023-05-10 12:46:17] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 12:46:17] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/2f/f0/c5c6d0297571d69ab637d8e60c6d474cd10d3cc5540b232597d353d8892b/pref_voting-0.2.4.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: Downloading https://files.pythonhosted.org/packages/81/32/413973e660f0280691b6fbfe9ec88938a756927f4b759dcfe4c857df833d/roboart-0.0.1.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: Downloading https://files.pythonhosted.org/packages/81/32/413973e660f0280691b6fbfe9ec88938a756927f4b759dcfe4c857df833d/roboart-0.0.1.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ieeh-powerfactory-tools]: Downloading https://files.pythonhosted.org/packages/30/7c/0639bf4ab13a49a387b4a04b2a4ddca23842f26506e7f2c76d732c4a7cf1/ieeh-powerfactory-tools-1.5.0.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [PySciMath]: Downloading https://files.pythonhosted.org/packages/05/7d/85fff6ccd6c97dfdf633cc6ed4d071f78727b42810f32c00211da8b9c37f/PySciMath-1.1.0.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [texproject]: Downloading https://files.pythonhosted.org/packages/5c/e2/4df80ab565b6ab27d31704a6c6ef15339d8459a11ea0d4c49292aae7d6ad/texproject-0.8.7.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ikarus]: Downloading https://files.pythonhosted.org/packages/a2/81/29f91473436936656a52c204a67cc5a7288dfc5ee6062fbc97a3cf566db5/ikarus-0.0.2.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [bp-data-visualization]: Downloading https://files.pythonhosted.org/packages/3f/5c/c0b4588314cca839b0c49c1fde8439a9534c89641ad6d1b232f4671fb335/bp-data-visualization-1.0.4.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [codeoffer]: Downloading https://files.pythonhosted.org/packages/69/8e/0db9ff729a0b932bea7bd4c40359f9247c8a7550d72b8278b1fb89ef7c75/codeoffer-0.4.0.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [pref-voting]: Downloading https://files.pythonhosted.org/packages/b2/87/ebdd20118ca748c5adec79e00bec42672fda4e6c1dc85a281edb21f6479e/pref_voting-0.2.5.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: Downloading https://files.pythonhosted.org/packages/a8/4f/cb98157fac815529b5be670c2f9fef6b2fd503ad49d9593bc18c003f03c0/RoboArt-0.0.2.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [RoboArt]: Downloading https://files.pythonhosted.org/packages/a8/4f/cb98157fac815529b5be670c2f9fef6b2fd503ad49d9593bc18c003f03c0/RoboArt-0.0.2.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [ieeh-powerfactory-tools]: Downloading https://files.pythonhosted.org/packages/bd/15/232360078ed69109b9dd4ab6a5d67a4fbbe311f3a6978cc6473c39774245/ieeh-powerfactory-tools-1.5.1.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [texproject]: Downloading https://files.pythonhosted.org/packages/d7/ac/357fe13be47b6121343f2529c46a0f1f8d31ffb5bbdf9fd11ee9e467e629/texproject-0.8.8.tar.gz
+[2023-05-10 12:46:17] INFO root fetch - processPackages [pref-voting]: executing diffoscope
+[2023-05-10 12:46:17] INFO root fetch - processPackages [pref-voting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pref_voting-0.2.4.tar.gz tmp/pref_voting-0.2.5.tar.gz --markdown 20230510/p/pref-voting/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-10 12:46:17] INFO root fetch - processPackages [PySciMath]: Downloading https://files.pythonhosted.org/packages/26/d9/972396237e91c054990f4244689b5103fa867d3b09b86ab7fef2766714f4/PySciMath-1.2.0.tar.gz
+[2023-05-10 12:46:18] INFO root fetch - processPackages [bp-data-visualization]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [codeoffer]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [bp-data-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bp-data-visualization-1.0.2.tar.gz tmp/bp-data-visualization-1.0.4.tar.gz --markdown 20230510/b/bp-data-visualization/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [codeoffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoffer-0.2.0.tar.gz tmp/codeoffer-0.4.0.tar.gz --markdown 20230510/c/codeoffer/0.2.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [ikarus]: Downloading https://files.pythonhosted.org/packages/5c/72/57022564944ded1c25f0d4e7d05bfc080cfe1899bd71d200c1c5a2cf5ac2/ikarus-0.0.3.tar.gz
+[2023-05-10 12:46:18] INFO root fetch - processPackages [RoboArt]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [RoboArt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboart-0.0.1.tar.gz tmp/RoboArt-0.0.2.tar.gz --markdown 20230510/R/RoboArt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [RoboArt]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [RoboArt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roboart-0.0.1.tar.gz tmp/RoboArt-0.0.2.tar.gz --markdown 20230510/R/RoboArt/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [PySciMath]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [PySciMath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySciMath-1.1.0.tar.gz tmp/PySciMath-1.2.0.tar.gz --markdown 20230510/P/PySciMath/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [ieeh-powerfactory-tools]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [ieeh-powerfactory-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ieeh-powerfactory-tools-1.5.0.tar.gz tmp/ieeh-powerfactory-tools-1.5.1.tar.gz --markdown 20230510/i/ieeh-powerfactory-tools/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [texproject]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [texproject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/texproject-0.8.7.tar.gz tmp/texproject-0.8.8.tar.gz --markdown 20230510/t/texproject/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-05-10 12:46:18] INFO root fetch - processPackages [ikarus]: executing diffoscope
+[2023-05-10 12:46:18] INFO root fetch - processPackages [ikarus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ikarus-0.0.2.tar.gz tmp/ikarus-0.0.3.tar.gz --markdown 20230510/i/ikarus/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [RoboArt]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [RoboArt]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [pref-voting]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [PySciMath]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [ieeh-powerfactory-tools]: success
+[2023-05-10 12:46:19] INFO root fetch - main [MainThread]: End processing [ikarus]: success
+[2023-05-10 12:46:20] INFO root fetch - main [MainThread]: End processing [texproject]: success
+[2023-05-10 12:46:39] INFO root fetch - main [MainThread]: End processing [bp-data-visualization]: success
+[2023-05-10 12:46:39] INFO root fetch - main [MainThread]: Store serial: [18045737]
