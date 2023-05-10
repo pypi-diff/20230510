@@ -10527,3 +10527,121 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 09:45:04] INFO root fetch - main [MainThread]: End processing [e2xgrader]: success
 [2023-05-10 09:45:08] INFO root fetch - main [MainThread]: End processing [a2]: success
 [2023-05-10 09:45:08] INFO root fetch - main [MainThread]: Store serial: [18043624]
+[2023-05-10 09:50:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043624]
+[2023-05-10 09:50:17] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo9-addon-stock-cycle-count
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-stock-inventory-verification-request
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cefeste
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiro-zscore
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-stock-inventory-chatter
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo10-addon-stock-cycle-count
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cozo-embedded
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deepdataspace
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo10-addon-stock-valuation-account-manual-adjustment
+[2023-05-10 09:50:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySciMath
+[2023-05-10 09:50:17] WARNING root fetch - processPackages [deepdataspace]: Skipping, unable to determine old version
+[2023-05-10 09:50:17] INFO root fetch - processPackages [deepdataspace]: Start processing: tastytrade-sdk
+[2023-05-10 09:50:17] INFO root fetch - main [MainThread]: End processing [deepdataspace] error
+[2023-05-10 09:50:17] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: New version: [9.0.1.0.0.99.dev8] Old Version: [9.0.1.0.0.99.dev7]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: New version: [9.0.1.2.0.99.dev9] Old Version: [9.0.1.2.0.99.dev8]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: New version: [10.0.1.1.0.99.dev4] Old Version: [10.0.1.1.0.99.dev3]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [cefeste]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 09:50:17] WARNING root fetch - processPackages [PySciMath]: Skipping, unable to determine old version
+[2023-05-10 09:50:17] INFO root fetch - processPackages [PySciMath]: Start processing: qontract-reconcile
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: New version: [9.0.1.0.0.99.dev7] Old Version: [9.0.1.0.0.99.dev6]
+[2023-05-10 09:50:17] INFO root fetch - main [MainThread]: End processing [PySciMath] error
+[2023-05-10 09:50:17] WARNING root fetch - processPackages [spiro-zscore]: Skipping, unable to determine old version
+[2023-05-10 09:50:17] INFO root fetch - processPackages [cozo-embedded]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [spiro-zscore]: Start processing: shiba-model
+[2023-05-10 09:50:17] INFO root fetch - main [MainThread]: End processing [spiro-zscore] error
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo10-addon-stock-cycle-count]: New version: [10.0.1.0.0.99.dev9] Old Version: [10.0.1.0.0.99.dev8]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 09:50:17] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 09:50:17] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [shiba-model]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/1f/43/305900e39cd89d645b5cd52edd6c41971493fc0b608f9cd03779d73c2e8b/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: Downloading https://files.pythonhosted.org/packages/19/44/9adfcfdc993026bec21ae893786b4927b1dac02c9d73047b936c5c540fb3/odoo10_addon_stock_valuation_account_manual_adjustment-10.0.1.1.0.99.dev3-py2-none-any.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/60/da/1f9c37ea80f292f62ffacdb2ba32a389ec5dc8e85bf03cbc0d5acee65f90/odoo9_addon_stock_cycle_count-9.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: Downloading https://files.pythonhosted.org/packages/01/d2/12ee329e577b35d88861131f4f9cb072060db6c3ebc51d0d60a6a3689e2d/odoo9_addon_stock_inventory_chatter-9.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/64/1c/546660f3177030e1e767c1eb26cb5aece18852d1357d865faa38458902c1/cefeste-1.1.0.tar.gz
+[2023-05-10 09:50:17] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/f6/49/6ab54491a5b22c21e6bdbbbb4a2d827f7e6b4f3061085c060311c9ab36af/cozo_embedded-0.7.0-cp37-abi3-win_amd64.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [odoo10-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/29/11/9edce643ecef5f4618e79447c87a2aee693b96c8dc8c9e7fc2cbca258277/odoo10_addon_stock_cycle_count-10.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-10 09:50:17] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-05-10 09:50:17] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230510/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-05-10 09:50:17] INFO root fetch - processPackages [shiba-model]: Downloading https://files.pythonhosted.org/packages/a0/a2/2f7313ceda89a4b76714f013a3b3e8793ac1a4fee0f1ac9c89032394b6f4/shiba-model-0.1.0.tar.gz
+[2023-05-10 09:50:18] INFO root fetch - processPackages [cefeste]: Downloading https://files.pythonhosted.org/packages/e6/38/921aecab800a56169112b01456bb289096fa227eaf5bf9b6d314c7f39d7c/cefeste-1.1.1.tar.gz
+[2023-05-10 09:50:18] INFO root fetch - processPackages [shiba-model]: Downloading https://files.pythonhosted.org/packages/b3/42/f898d0706e817b913c3ea14a6e3df691a211c3b6207be7d5031aaa39c290/shiba-model-0.1.1.tar.gz
+[2023-05-10 09:50:18] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/0a/67/69a76cfc2b80d80859d22cad2a4ab5950cc5f133df7ceb40a9d97ccaec47/odoo9_addon_stock_cycle_count-9.0.1.2.0.99.dev9-py2-none-any.whl
+[2023-05-10 09:50:18] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.0.tar.gz tmp/cefeste-1.1.1.tar.gz --markdown 20230510/c/cefeste/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: Downloading https://files.pythonhosted.org/packages/5d/91/23a26d383c36dc80764e9262a3ca74d0c403ead1ac2e13541540d0a06e24/odoo10_addon_stock_valuation_account_manual_adjustment-10.0.1.1.0.99.dev4-py2-none-any.whl
+[2023-05-10 09:50:18] INFO root fetch - processPackages [shiba-model]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [shiba-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiba-model-0.1.0.tar.gz tmp/shiba-model-0.1.1.tar.gz --markdown 20230510/s/shiba-model/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_valuation_account_manual_adjustment-10.0.1.1.0.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_stock_valuation_account_manual_adjustment-10.0.1.1.0.99.dev4-py2-none-any.whl.zip --markdown 20230510/o/odoo10-addon-stock-valuation-account-manual-adjustment/10.0.1.1.0.99.dev3-10.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: Downloading https://files.pythonhosted.org/packages/b2/e7/412fa24c806dfdc439e3d9fec2a90ae0a607b34c1cc5954337c1aa1a76ea/odoo9_addon_stock_inventory_chatter-9.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-cycle-count]: Downloading https://files.pythonhosted.org/packages/94/e7/8dcc92b51448f44273b901ada5f658b0bd7298b999f986f17a4c2c5ff108/odoo10_addon_stock_cycle_count-10.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: Downloading https://files.pythonhosted.org/packages/72/8c/62c5a43e01d2532957fb35edb3af587ac08ad2b9ca2a3d8833e9cec757b8/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_inventory_chatter-9.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo9_addon_stock_inventory_chatter-9.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-stock-inventory-chatter/9.0.1.0.0.99.dev6-9.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_cycle_count-9.0.1.2.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_stock_cycle_count-9.0.1.2.0.99.dev9-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-stock-cycle-count/9.0.1.2.0.99.dev8-9.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: django-payu-ro
+[2023-05-10 09:50:18] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-cycle-count]: executing diffoscope
+[2023-05-10 09:50:18] INFO root fetch - processPackages [odoo10-addon-stock-cycle-count]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_stock_cycle_count-10.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo10_addon_stock_cycle_count-10.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230510/o/odoo10-addon-stock-cycle-count/10.0.1.0.0.99.dev8-10.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 09:50:18] INFO root fetch - processPackages [django-payu-ro]: New version: [1.5.0] Old Version: [1.4.2]
+[2023-05-10 09:50:19] INFO root fetch - processPackages [django-payu-ro]: Downloading https://files.pythonhosted.org/packages/1a/3a/d45e7df8224afa246a19c61290dc544af3cdcc6ce1f1b2685cf29d8b2f40/django-payu-ro-1.4.2.tar.gz
+[2023-05-10 09:50:19] INFO root fetch - processPackages [django-payu-ro]: Downloading https://files.pythonhosted.org/packages/a9/a4/25564547909b555638b93eeae698f99b08479b727fc1fbbcd7f588a048c4/django-payu-ro-1.5.0.tar.gz
+[2023-05-10 09:50:19] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: executing diffoscope
+[2023-05-10 09:50:19] INFO root fetch - processPackages [odoo9-addon-stock-inventory-verification-request]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_stock_inventory_verification_request-9.0.1.0.0.99.dev8-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-stock-inventory-verification-request/9.0.1.0.0.99.dev7-9.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-10 09:50:19] INFO root fetch - processPackages [django-payu-ro]: executing diffoscope
+[2023-05-10 09:50:19] INFO root fetch - processPackages [django-payu-ro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-payu-ro-1.4.2.tar.gz tmp/django-payu-ro-1.5.0.tar.gz --markdown 20230510/d/django-payu-ro/1.4.2-1.5.0/diff.md --exclude *.pyd
+[2023-05-10 09:50:19] INFO root fetch - processPackages [cozo-embedded]: Downloading https://files.pythonhosted.org/packages/13/95/2804a2d65624ac65efd2a59b0efabbaf277999029345715691c81bda4497/cozo_embedded-0.7.1-cp37-abi3-win_amd64.whl
+[2023-05-10 09:50:19] INFO root fetch - processPackages [cefeste]: Start processing: alchql
+[2023-05-10 09:50:19] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: New version: [3.2.9.12843396] Old Version: [3.2.9.12843389]
+[2023-05-10 09:50:20] INFO root fetch - processPackages [shiba-model]: Start processing: alchql
+[2023-05-10 09:50:20] INFO root fetch - main [MainThread]: End processing [shiba-model]: success
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/59/dd/0552b53dbbec4434d872db5126df65992152d04e8e0cf7d7ac58b1356952/alchql-3.2.9.12843389.tar.gz
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: New version: [3.2.9.12843396] Old Version: [3.2.9.12843389]
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/59/dd/0552b53dbbec4434d872db5126df65992152d04e8e0cf7d7ac58b1356952/alchql-3.2.9.12843389.tar.gz
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/ac/0b/16ff1c67db287b352db2bdba90f240d4984ca98c0d3b908f52980b5f17b9/alchql-3.2.9.12843396-py2.py3-none-any.whl
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: Downloading https://files.pythonhosted.org/packages/ac/0b/16ff1c67db287b352db2bdba90f240d4984ca98c0d3b908f52980b5f17b9/alchql-3.2.9.12843396-py2.py3-none-any.whl
+[2023-05-10 09:50:20] INFO root fetch - processPackages [odoo9-addon-stock-inventory-chatter]: Start processing: pycozo
+[2023-05-10 09:50:20] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-inventory-chatter]: success
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.2.9.12843389.tar.gz tmp/alchql-3.2.9.12843396-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.2.9.12843389-3.2.9.12843396/diff.md --exclude *.pyd
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 09:50:20] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.2.9.12843389.tar.gz tmp/alchql-3.2.9.12843396-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.2.9.12843389-3.2.9.12843396/diff.md --exclude *.pyd
+[2023-05-10 09:50:20] INFO root fetch - processPackages [pycozo]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-05-10 09:50:20] INFO root fetch - processPackages [odoo10-addon-stock-valuation-account-manual-adjustment]: Start processing: Palos
+[2023-05-10 09:50:20] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-valuation-account-manual-adjustment]: success
+[2023-05-10 09:50:20] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/26/2e/5ec4f9fcbc4db8715bae0c77aa86b0dcbe79ecc83e1cdea3c94f640bc1d4/pycozo-0.7.0.tar.gz
+[2023-05-10 09:50:20] INFO root fetch - processPackages [Palos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 09:50:21] INFO root fetch - processPackages [cozo-embedded]: executing diffoscope
+[2023-05-10 09:50:21] INFO root fetch - processPackages [cozo-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cozo_embedded-0.7.0-cp37-abi3-win_amd64.whl.zip tmp/cozo_embedded-0.7.1-cp37-abi3-win_amd64.whl.zip --markdown 20230510/c/cozo-embedded/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-10 09:50:21] INFO root fetch - processPackages [odoo9-addon-stock-cycle-count]: Start processing: caluma
+[2023-05-10 09:50:21] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-cycle-count]: success
+[2023-05-10 09:50:21] INFO root fetch - processPackages [pycozo]: Downloading https://files.pythonhosted.org/packages/93/8a/5738449f0dcc908f39d856b7227383592e3e42b8d742f4f74098a3227571/pycozo-0.7.1.tar.gz
+[2023-05-10 09:50:21] INFO root fetch - main [MainThread]: End processing [odoo10-addon-stock-cycle-count]: success
+[2023-05-10 09:50:21] INFO root fetch - processPackages [caluma]: New version: [8.0.0b9] Old Version: [8.0.0b8]
+[2023-05-10 09:50:21] INFO root fetch - processPackages [pycozo]: executing diffoscope
+[2023-05-10 09:50:21] INFO root fetch - processPackages [pycozo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycozo-0.7.0.tar.gz tmp/pycozo-0.7.1.tar.gz --markdown 20230510/p/pycozo/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-05-10 09:50:21] INFO root fetch - main [MainThread]: End processing [django-payu-ro]: success
+[2023-05-10 09:50:21] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/fd/3b/e5e52163f8af49b36294951eb65e99b8f37b89bd88aceb3147306ffcbc99/caluma-8.0.0b8.tar.gz
+[2023-05-10 09:50:21] INFO root fetch - processPackages [Palos]: executing diffoscope
+[2023-05-10 09:50:21] INFO root fetch - processPackages [Palos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Palos-0.1.8-py3-none-any.whl.zip tmp/Palos-0.1.9-py3-none-any.whl.zip --markdown 20230510/P/Palos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 09:50:21] INFO root fetch - main [MainThread]: End processing [odoo9-addon-stock-inventory-verification-request]: success
+[2023-05-10 09:50:21] INFO root fetch - processPackages [caluma]: Downloading https://files.pythonhosted.org/packages/63/1d/5b4b01105a9ff4eedad7871f4fb1b5d942b97fa82c95bf9fb9533c917e1f/caluma-8.0.0b9.tar.gz
+[2023-05-10 09:50:21] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 09:50:21] INFO root fetch - processPackages [caluma]: executing diffoscope
+[2023-05-10 09:50:21] INFO root fetch - processPackages [caluma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caluma-8.0.0b8.tar.gz tmp/caluma-8.0.0b9.tar.gz --markdown 20230510/c/caluma/8.0.0b8-8.0.0b9/diff.md --exclude *.pyd
+[2023-05-10 09:50:22] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 09:50:22] INFO root fetch - main [MainThread]: End processing [cozo-embedded]: success
+[2023-05-10 09:50:22] INFO root fetch - main [MainThread]: End processing [pycozo]: success
+[2023-05-10 09:50:24] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-05-10 09:50:24] INFO root fetch - main [MainThread]: End processing [Palos]: success
+[2023-05-10 09:50:52] INFO root fetch - main [MainThread]: End processing [caluma]: success
+[2023-05-10 09:50:52] INFO root fetch - main [MainThread]: Store serial: [18043686]
