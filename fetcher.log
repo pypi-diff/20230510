@@ -8140,3 +8140,27 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:46:00] INFO root fetch - main [MainThread]: End processing [odoo10-addon-hr-payslip-change-state]: success
 [2023-05-10 06:46:00] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
 [2023-05-10 06:46:00] INFO root fetch - main [MainThread]: Store serial: [18042390]
+[2023-05-10 06:51:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042390]
+[2023-05-10 06:51:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-05-10 06:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: unstructured
+[2023-05-10 06:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: netunicorn-connector-salt
+[2023-05-10 06:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cqlite
+[2023-05-10 06:51:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: geocodeus
+[2023-05-10 06:51:09] INFO root fetch - processPackages [netunicorn-connector-salt]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-10 06:51:09] INFO root fetch - processPackages [unstructured]: New version: [0.6.5] Old Version: [0.6.4]
+[2023-05-10 06:51:09] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 06:51:10] WARNING root fetch - processPackages [cqlite]: Skipping, unable to determine old version
+[2023-05-10 06:51:10] INFO root fetch - main [MainThread]: End processing [cqlite] error
+[2023-05-10 06:51:10] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 06:51:10] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 06:51:10] INFO root fetch - processPackages [netunicorn-connector-salt]: Downloading https://files.pythonhosted.org/packages/56/74/fe649b87a1644d66c36af16c1bb73cfad06e5d0ccfc775fb00ff3e410c89/netunicorn-connector-salt-0.3.3.tar.gz
+[2023-05-10 06:51:10] INFO root fetch - processPackages [unstructured]: Downloading https://files.pythonhosted.org/packages/bc/93/09812f5517e220aa4dff7bc495e6432e1c3c1c92561a13c0445603ab34d1/unstructured-0.6.5.tar.gz
+[2023-05-10 06:51:10] INFO root fetch - processPackages [unstructured]: executing diffoscope
+[2023-05-10 06:51:10] INFO root fetch - processPackages [unstructured]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstructured-0.6.4.tar.gz tmp/unstructured-0.6.5.tar.gz --markdown 20230510/u/unstructured/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2023-05-10 06:51:10] INFO root fetch - processPackages [netunicorn-connector-salt]: Downloading https://files.pythonhosted.org/packages/0c/af/c702a596ce926d72fc2076666385cc4a36f56bf97598051febf1401fa430/netunicorn-connector-salt-0.3.4.tar.gz
+[2023-05-10 06:51:10] INFO root fetch - processPackages [netunicorn-connector-salt]: executing diffoscope
+[2023-05-10 06:51:10] INFO root fetch - processPackages [netunicorn-connector-salt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn-connector-salt-0.3.3.tar.gz tmp/netunicorn-connector-salt-0.3.4.tar.gz --markdown 20230510/n/netunicorn-connector-salt/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-10 06:51:11] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 06:51:11] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-salt]: success
+[2023-05-10 06:51:12] INFO root fetch - main [MainThread]: End processing [unstructured]: success
+[2023-05-10 06:51:12] INFO root fetch - main [MainThread]: Store serial: [18042408]
