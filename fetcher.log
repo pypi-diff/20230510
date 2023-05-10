@@ -19708,3 +19708,82 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:12:40] INFO root fetch - main [MainThread]: End processing [viazoom]: success
 [2023-05-10 17:12:40] INFO root fetch - main [MainThread]: End processing [docarray]: success
 [2023-05-10 17:12:40] INFO root fetch - main [MainThread]: Store serial: [18049057]
+[2023-05-10 17:17:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049057]
+[2023-05-10 17:17:50] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: frequency-feature-map-visualization
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk8s
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gbd-tools
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flyteidl
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-ansible
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calcexptime
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dettectinator
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iparapheur-utils3.beta
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: imacs-wcs
+[2023-05-10 17:17:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: camerahub-tagger
+[2023-05-10 17:17:50] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.6] Old Version: [4.5.5]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [calcexptime]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [flyteidl]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [camerahub-tagger]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-05-10 17:17:50] WARNING root fetch - processPackages [frequency-feature-map-visualization]: Skipping, unable to determine old version
+[2023-05-10 17:17:50] INFO root fetch - processPackages [frequency-feature-map-visualization]: Start processing: turbine-design
+[2023-05-10 17:17:50] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization] error
+[2023-05-10 17:17:50] INFO root fetch - processPackages [imacs-wcs]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [dettectinator]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [iparapheur-utils3.beta]: New version: [0.0.1.post577886] Old Version: [0.0.1.post553537]
+[2023-05-10 17:17:50] WARNING root fetch - processPackages [turbine-design]: Skipping, unable to determine old version
+[2023-05-10 17:17:50] INFO root fetch - processPackages [calcexptime]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [turbine-design]: Start processing: odoo-addon-purchase-line-reassign
+[2023-05-10 17:17:50] INFO root fetch - main [MainThread]: End processing [turbine-design] error
+[2023-05-10 17:17:50] INFO root fetch - processPackages [pytest-ansible]: New version: [3.1.2] Old Version: [3.1.0]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [calcexptime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calcexptime-1.0.0-py3-none-any.whl.zip tmp/calcexptime-1.0.1-py3-none-any.whl.zip --markdown 20230510/c/calcexptime/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [camerahub-tagger]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.8.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230510/c/cdk8s/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [camerahub-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub_tagger-0.3.3.tar.gz tmp/camerahub_tagger-0.4.0.tar.gz --markdown 20230510/c/camerahub-tagger/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [gbd-tools]: Downloading https://files.pythonhosted.org/packages/e3/e4/b416fb972617dc885abb34aec844ddc3b7478d9f2aaeada5124bb59b942d/gbd_tools-4.5.6.tar.gz
+[2023-05-10 17:17:50] WARNING root fetch - processPackages [odoo-addon-purchase-line-reassign]: Skipping, unable to determine old version
+[2023-05-10 17:17:50] INFO root fetch - processPackages [odoo-addon-purchase-line-reassign]: Start processing: api-deploy
+[2023-05-10 17:17:50] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-line-reassign] error
+[2023-05-10 17:17:50] INFO root fetch - processPackages [dettectinator]: Downloading https://files.pythonhosted.org/packages/6e/1a/8aedebcbce847d439e3ca36e40266e2398a2800ac65deafd5898628d168e/dettectinator-1.1.1.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [flyteidl]: Downloading https://files.pythonhosted.org/packages/65/43/3ab38dcab6afa65a27986fd926f50d6350f8dc3e74be2de82b81578f065f/flyteidl-1.5.4.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [iparapheur-utils3.beta]: Downloading https://files.pythonhosted.org/packages/29/be/9829d54dd0d09ef489f39dbc704c037f34c32fcf05524a6e57324a7d7558/iparapheur-utils3.beta-0.0.1.post553537.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [imacs-wcs]: Downloading https://files.pythonhosted.org/packages/8c/67/0c1b5486885dca8cf346b13aa85b6d02bf54abb8a94b3ec74e048feb1a70/imacs_wcs-0.0.1.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.5.tar.gz tmp/gbd_tools-4.5.6.tar.gz --markdown 20230510/g/gbd-tools/4.5.5-4.5.6/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [api-deploy]: New version: [0.3.0] Old Version: [0.1.0]
+[2023-05-10 17:17:50] INFO root fetch - processPackages [pytest-ansible]: Downloading https://files.pythonhosted.org/packages/f6/98/b3413146d911fade0c7f540821eed6abc66eb2b16724baebdeccf06bba7e/pytest-ansible-3.1.0.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [flyteidl]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [flyteidl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flyteidl-1.5.3.tar.gz tmp/flyteidl-1.5.4.tar.gz --markdown 20230510/f/flyteidl/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [api-deploy]: Downloading https://files.pythonhosted.org/packages/60/b0/ab3886b90de51033517b4b3efdcad23e1c09498f11e731515e7bbe35b946/api-deploy-0.1.0.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [imacs-wcs]: Downloading https://files.pythonhosted.org/packages/e0/85/075fcb96e66d8f6ac2d291283ac0eb7edcd16699c67638167ee38f6c76b0/imacs_wcs-0.0.2.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [dettectinator]: Downloading https://files.pythonhosted.org/packages/69/e7/590271c6471798048002d5ba04446101ac681ede7727225ed3571bb24e99/dettectinator-1.2.0.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [iparapheur-utils3.beta]: Downloading https://files.pythonhosted.org/packages/e0/f7/a04ae0a294c6a09ec3c8077fb91694c69171fa551efd04943a4dbbfc2c60/iparapheur-utils3.beta-0.0.1.post577886.tar.gz
+[2023-05-10 17:17:50] INFO root fetch - processPackages [iparapheur-utils3.beta]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [iparapheur-utils3.beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iparapheur-utils3.beta-0.0.1.post553537.tar.gz tmp/iparapheur-utils3.beta-0.0.1.post577886.tar.gz --markdown 20230510/i/iparapheur-utils3.beta/0.0.1.post553537-0.0.1.post577886/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [imacs-wcs]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [imacs-wcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imacs_wcs-0.0.1.tar.gz tmp/imacs_wcs-0.0.2.tar.gz --markdown 20230510/i/imacs-wcs/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [dettectinator]: executing diffoscope
+[2023-05-10 17:17:50] INFO root fetch - processPackages [dettectinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dettectinator-1.1.1.tar.gz tmp/dettectinator-1.2.0.tar.gz --markdown 20230510/d/dettectinator/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 17:17:50] INFO root fetch - processPackages [pytest-ansible]: Downloading https://files.pythonhosted.org/packages/d9/df/3cec9b2945d45e0b163cbda37f75b2384c9910f69f0986ace017a1af9869/pytest-ansible-3.1.2.tar.gz
+[2023-05-10 17:17:51] INFO root fetch - processPackages [api-deploy]: Downloading https://files.pythonhosted.org/packages/9d/0f/c6398da4aa6e5f282a72dd6b01cc2ed6a8fd7687ee9ede227d6efb074271/api-deploy-0.3.0.tar.gz
+[2023-05-10 17:17:51] INFO root fetch - processPackages [api-deploy]: executing diffoscope
+[2023-05-10 17:17:51] INFO root fetch - processPackages [api-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api-deploy-0.1.0.tar.gz tmp/api-deploy-0.3.0.tar.gz --markdown 20230510/a/api-deploy/0.1.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 17:17:51] INFO root fetch - processPackages [pytest-ansible]: executing diffoscope
+[2023-05-10 17:17:51] INFO root fetch - processPackages [pytest-ansible]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-ansible-3.1.0.tar.gz tmp/pytest-ansible-3.1.2.tar.gz --markdown 20230510/p/pytest-ansible/3.1.0-3.1.2/diff.md --exclude *.pyd
+[2023-05-10 17:17:51] INFO root fetch - processPackages [camerahub-tagger]: Start processing: domolibrary
+[2023-05-10 17:17:51] INFO root fetch - main [MainThread]: End processing [camerahub-tagger]: success
+[2023-05-10 17:17:51] INFO root fetch - main [MainThread]: End processing [calcexptime]: success
+[2023-05-10 17:17:51] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-10 17:17:52] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-10 17:17:52] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230510/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [imacs-wcs]: success
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [dettectinator]: success
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [api-deploy]: success
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [iparapheur-utils3.beta]: success
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-05-10 17:17:52] INFO root fetch - main [MainThread]: End processing [pytest-ansible]: success
+[2023-05-10 17:17:54] INFO root fetch - main [MainThread]: End processing [flyteidl]: success
+[2023-05-10 17:17:54] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-10 17:17:54] INFO root fetch - main [MainThread]: Store serial: [18049099]
