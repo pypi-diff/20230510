@@ -7372,3 +7372,49 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:37:58] INFO root fetch - main [MainThread]: End processing [CUP-Network]: success
 [2023-05-10 05:38:00] INFO root fetch - main [MainThread]: End processing [pytextclassifier]: success
 [2023-05-10 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18041967]
+[2023-05-10 05:43:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041967]
+[2023-05-10 05:43:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TeamBasics
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mktstructure
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: csv-to-dynamodb
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: silero-api-server
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-outbox-menu
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: just-time
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bbai
+[2023-05-10 05:43:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OnloadTable
+[2023-05-10 05:43:09] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:43:09] INFO root fetch - processPackages [django-outbox-menu]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 05:43:09] WARNING root fetch - processPackages [just-time]: Skipping, unable to determine old version
+[2023-05-10 05:43:09] INFO root fetch - processPackages [mktstructure]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-05-10 05:43:09] INFO root fetch - processPackages [OnloadTable]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 05:43:09] INFO root fetch - main [MainThread]: End processing [just-time] error
+[2023-05-10 05:43:09] WARNING root fetch - processPackages [TeamBasics]: Skipping, unable to determine old version
+[2023-05-10 05:43:09] INFO root fetch - main [MainThread]: End processing [TeamBasics] error
+[2023-05-10 05:43:09] INFO root fetch - processPackages [bbai]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-10 05:43:09] INFO root fetch - processPackages [silero-api-server]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 05:43:09] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:43:09] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:43:09] INFO root fetch - processPackages [mktstructure]: Downloading https://files.pythonhosted.org/packages/ef/c7/017c1c068c113a2cb8d50c662bf29ad41a4df8b887daac04e128eaef54da/mktstructure-0.2.7.tar.gz
+[2023-05-10 05:43:09] INFO root fetch - processPackages [OnloadTable]: Downloading https://files.pythonhosted.org/packages/5d/0b/863e83f24f280f37326bd87994e42de2423c5606917eb4c5fe9c0cb51b44/OnloadTable-0.3.1.tar.gz
+[2023-05-10 05:43:09] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/a4/b5/e927ce22b10a0beef1e06c269bf6eadb92529b619a81ebd58c9491256c5a/django-outbox-menu-1.0.8.tar.gz
+[2023-05-10 05:43:09] INFO root fetch - processPackages [bbai]: Downloading https://files.pythonhosted.org/packages/aa/5f/df4020e7d2a57bca6b91f2612372d2fa9014969be21cfd896dc3fb99785a/bbai-1.3.5-py3-none-manylinux1_x86_64.whl
+[2023-05-10 05:43:09] WARNING root fetch - processPackages [bbai]: Skipping package: exceeds size limit 18848723>=10485760
+[2023-05-10 05:43:09] INFO root fetch - main [MainThread]: End processing [bbai] error
+[2023-05-10 05:43:09] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/75/1e/a5a0980d30209077b252cebfad2444b5ac0149db147acd294e661206ae1e/silero_api_server-0.1.1.tar.gz
+[2023-05-10 05:43:10] INFO root fetch - processPackages [OnloadTable]: Downloading https://files.pythonhosted.org/packages/22/e7/517331571623590066ec9c20bba9551880107f167dfe6a6a07e3c4b094bd/OnloadTable-0.3.2.tar.gz
+[2023-05-10 05:43:10] INFO root fetch - processPackages [mktstructure]: Downloading https://files.pythonhosted.org/packages/56/58/522447f2952220d4cac3f515597bfad9f5a930721696972faae94957f3ab/mktstructure-0.2.9.tar.gz
+[2023-05-10 05:43:10] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-05-10 05:43:10] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.1.0.tar.gz tmp/silero_api_server-0.1.1.tar.gz --markdown 20230510/s/silero-api-server/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:43:10] INFO root fetch - processPackages [django-outbox-menu]: Downloading https://files.pythonhosted.org/packages/12/74/17de0051024c6e36a45ad52e58d199e38092cc14004026d9ecb4d963cfd5/django-outbox-menu-1.0.9.tar.gz
+[2023-05-10 05:43:10] INFO root fetch - processPackages [mktstructure]: executing diffoscope
+[2023-05-10 05:43:10] INFO root fetch - processPackages [mktstructure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mktstructure-0.2.7.tar.gz tmp/mktstructure-0.2.9.tar.gz --markdown 20230510/m/mktstructure/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:43:10] INFO root fetch - processPackages [OnloadTable]: executing diffoscope
+[2023-05-10 05:43:10] INFO root fetch - processPackages [OnloadTable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OnloadTable-0.3.1.tar.gz tmp/OnloadTable-0.3.2.tar.gz --markdown 20230510/O/OnloadTable/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 05:43:10] INFO root fetch - processPackages [django-outbox-menu]: executing diffoscope
+[2023-05-10 05:43:10] INFO root fetch - processPackages [django-outbox-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-outbox-menu-1.0.8.tar.gz tmp/django-outbox-menu-1.0.9.tar.gz --markdown 20230510/d/django-outbox-menu/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 05:43:10] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:43:11] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-05-10 05:43:11] INFO root fetch - main [MainThread]: End processing [mktstructure]: success
+[2023-05-10 05:43:11] INFO root fetch - main [MainThread]: End processing [OnloadTable]: success
+[2023-05-10 05:43:12] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
+[2023-05-10 05:43:12] INFO root fetch - main [MainThread]: Store serial: [18041999]
