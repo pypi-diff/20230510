@@ -8512,3 +8512,64 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:36:07] INFO root fetch - main [MainThread]: End processing [dodo-is-api]: success
 [2023-05-10 07:36:07] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
 [2023-05-10 07:36:07] INFO root fetch - main [MainThread]: Store serial: [18042597]
+[2023-05-10 07:41:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042597]
+[2023-05-10 07:41:16] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dis-inference
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: devapps
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fyers-token-manager-v2
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threefive
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rover-arm
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo8-addon-l10n-ch-import-cresus
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-securelogin
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rwpp
+[2023-05-10 07:41:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-vectordb
+[2023-05-10 07:41:16] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [dis-inference]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [devapps]: New version: [2023.5.12] Old Version: [2023.5.10]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [odoo8-addon-l10n-ch-import-cresus]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [rover-arm]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-10 07:41:16] INFO root fetch - processPackages [threefive]: New version: [2.3.9] Old Version: [2.3.87]
+[2023-05-10 07:41:17] INFO root fetch - processPackages [django-vectordb]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rwpp]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 07:41:17] INFO root fetch - processPackages [devapps]: Downloading https://files.pythonhosted.org/packages/0a/04/0867d67660f37e8d1569c4d6d07a434996569fb2170e290efa44f447a814/devapps-2023.5.12.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [threefive]: Downloading https://files.pythonhosted.org/packages/d8/72/2aa203af07c44b7aef9a23ba5e5d450ef842cbb1d30af7d3ab62e4797fab/threefive-2.3.87.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [dis-inference]: Downloading https://files.pythonhosted.org/packages/5e/54/a57066e720902d5edaab4544e21da7551b2a07acec3ba82cbcb7579b319c/dis_inference-1.0.1.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [odoo8-addon-l10n-ch-import-cresus]: Downloading https://files.pythonhosted.org/packages/7f/e0/4b626a944d6a05a04d705e8b86b52788ff97c71e6299bf492a2c91bb8781/odoo8_addon_l10n_ch_import_cresus-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-05-10 07:41:17] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/fd/1c/ff14e52526a5d38778471320aecb384b9499e340bd03dfc0f9e78948346a/fyers_token_manager_v2-0.0.7.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rover-arm]: Downloading https://files.pythonhosted.org/packages/97/9e/2dc04bc2e0132120253bc16da380a960b35e40218fbdf8f0719c8eb8de46/rover_arm-1.1.9.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [flask-securelogin]: Downloading https://files.pythonhosted.org/packages/62/59/bf2f7a14c8ac10e8ab95e664ead5fd862b402835f85287bf85d72593db27/flask-securelogin-0.1.4.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [django-vectordb]: Downloading https://files.pythonhosted.org/packages/b1/99/9abf4a06bab45d99bfdcb0b02d666a98ab5753423736f63b8d436e938822/django-vectordb-0.1.1.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rwpp]: Downloading https://files.pythonhosted.org/packages/68/93/3080e079d4e2b8bd6b08bbf32d8d440cc237ff805b4ed6b44806c7c19614/rwpp-0.1.1.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [devapps]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [devapps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devapps-2023.5.10.tar.gz tmp/devapps-2023.5.12.tar.gz --markdown 20230510/d/devapps/2023.5.10-2023.5.12/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rover-arm]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rover-arm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rover_arm-1.1.8.tar.gz tmp/rover_arm-1.1.9.tar.gz --markdown 20230510/r/rover-arm/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-securelogin-0.1.3.tar.gz tmp/flask-securelogin-0.1.4.tar.gz --markdown 20230510/f/flask-securelogin/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.0.6.tar.gz tmp/fyers_token_manager_v2-0.0.7.tar.gz --markdown 20230510/f/fyers-token-manager-v2/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [dis-inference]: Downloading https://files.pythonhosted.org/packages/97/3b/c7f8413e5fe4de1510605928de5b7f817891f4c1cecfdbfd3257498011e3/dis_inference-1.1.0.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [django-vectordb]: Downloading https://files.pythonhosted.org/packages/dd/22/cffd87b532a240572b09df6d89dd91e134c80abddc03960c9fe1dcf134f9/django-vectordb-0.1.2.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rwpp]: Downloading https://files.pythonhosted.org/packages/7f/89/024283063cb63cd79ca864a4bc62991103a56385fca5706728667e322bb5/rwpp-0.1.2.tar.gz
+[2023-05-10 07:41:17] INFO root fetch - processPackages [dis-inference]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [dis-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dis_inference-1.0.1.tar.gz tmp/dis_inference-1.1.0.tar.gz --markdown 20230510/d/dis-inference/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [threefive]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [threefive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threefive-2.3.87.tar.gz tmp/threefive-2.3.9.tar.gz --markdown 20230510/t/threefive/2.3.87-2.3.9/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [odoo8-addon-l10n-ch-import-cresus]: Downloading https://files.pythonhosted.org/packages/08/9c/45ac04ee6dadd6661f678dfde25c9638a2066141ced8b32d8a459208870b/odoo8_addon_l10n_ch_import_cresus-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rwpp]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [rwpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwpp-0.1.1.tar.gz tmp/rwpp-0.1.2.tar.gz --markdown 20230510/r/rwpp/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 07:41:17] INFO root fetch - processPackages [django-vectordb]: executing diffoscope
+[2023-05-10 07:41:17] INFO root fetch - processPackages [django-vectordb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-vectordb-0.1.1.tar.gz tmp/django-vectordb-0.1.2.tar.gz --markdown 20230510/d/django-vectordb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 07:41:18] INFO root fetch - processPackages [odoo8-addon-l10n-ch-import-cresus]: executing diffoscope
+[2023-05-10 07:41:18] INFO root fetch - processPackages [odoo8-addon-l10n-ch-import-cresus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_ch_import_cresus-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_ch_import_cresus-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230510/o/odoo8-addon-l10n-ch-import-cresus/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 07:41:18] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-05-10 07:41:18] INFO root fetch - main [MainThread]: End processing [dis-inference]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [rwpp]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [django-vectordb]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [threefive]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-ch-import-cresus]: success
+[2023-05-10 07:41:19] INFO root fetch - main [MainThread]: End processing [devapps]: success
+[2023-05-10 07:41:21] INFO root fetch - main [MainThread]: End processing [rover-arm]: success
+[2023-05-10 07:41:21] INFO root fetch - main [MainThread]: Store serial: [18042623]
