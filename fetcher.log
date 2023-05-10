@@ -11470,3 +11470,127 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:24:38] INFO root fetch - main [MainThread]: End processing [wmagent]: success
 [2023-05-10 10:24:59] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-05-10 10:24:59] INFO root fetch - main [MainThread]: Store serial: [18044120]
+[2023-05-10 10:30:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044120]
+[2023-05-10 10:30:09] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feffery-antd-components
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: azdev
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qwertyenv
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-l10n-ch-states
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-project-parent-task-filter
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ml-starter
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-product-attribute-set
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graphdisplay
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mongomancy
+[2023-05-10 10:30:09] INFO root fetch - processPackages [ml-starter]: New version: [0.0.34] Old Version: [0.0.33]
+[2023-05-10 10:30:09] INFO root fetch - processPackages [mongomancy]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 10:30:09] INFO root fetch - processPackages [qwertyenv]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-05-10 10:30:09] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-05-10 10:30:09] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.3.tar.gz tmp/mongomancy-0.1.4.tar.gz --markdown 20230510/m/mongomancy/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 10:30:09] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 10:30:09] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.1.0.3]
+[2023-05-10 10:30:09] WARNING root fetch - processPackages [odoo-addon-l10n-ch-states]: Skipping, unable to determine old version
+[2023-05-10 10:30:09] INFO root fetch - processPackages [odoo-addon-l10n-ch-states]: Start processing: aliyun-python-sdk-dytnsapi
+[2023-05-10 10:30:09] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: New version: [13.0.1.1.0] Old Version: [13.0.1.0.1.dev4]
+[2023-05-10 10:30:09] INFO root fetch - processPackages [graphdisplay]: New version: [0.3.6] Old Version: [0.3.3]
+[2023-05-10 10:30:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ch-states] error
+[2023-05-10 10:30:09] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-05-10 10:30:10] INFO root fetch - processPackages [azdev]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 10:30:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-05-10 10:30:10] INFO root fetch - processPackages [qwertyenv]: Downloading https://files.pythonhosted.org/packages/09/9e/d0e7180800c426a646327f4840ac04f17b62316949bb499bcd6613039a5e/qwertyenv-0.0.2.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: Downloading https://files.pythonhosted.org/packages/cc/f1/7c54234556e415118f9fb9d346759891f597c6bb9c93c5973589e87c6c72/odoo_addon_project_parent_task_filter-15.0.1.1.0.3-py3-none-any.whl
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/5b/b8/5adde6540e5cb40c04ff85e39df0757db7285530fdf857fdeb14e0684829/odoo13_addon_product_attribute_set-13.0.1.0.1.dev4-py3-none-any.whl
+[2023-05-10 10:30:10] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/26/b3/e90a3d82517d0e67d66c68d4948f50df5460083d749b90620911ec3dcb94/azdev-0.1.8.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/ed/6d/da4d3e5e30ef2328e9787e12fb23f62cd72054e71d474eda8e7a891d4da0/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0.1-py3-none-any.whl
+[2023-05-10 10:30:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/78/4e/a0cd177b4b6746f4d3d0511a8b944492a42dc55d71bbd9ade2e633a0ab34/aliyun-python-sdk-dytnsapi-1.1.5.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [graphdisplay]: Downloading https://files.pythonhosted.org/packages/88/44/04afeb18ec2a3e3c6dbcf9f31de4f067915ec5d6ea832b4973bd99220c73/graphdisplay-0.3.6.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [ml-starter]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [ml-starter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-starter-0.0.33.tar.gz tmp/ml-starter-0.0.34.tar.gz --markdown 20230510/m/ml-starter/0.0.33-0.0.34/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: Downloading https://files.pythonhosted.org/packages/75/c9/a97c91d1339b47a315d78d789c3f3884daf2fa2ef0b31793b375104c3390/odoo_addon_project_parent_task_filter-16.0.1.0.0.2-py3-none-any.whl
+[2023-05-10 10:30:10] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.7.tar.gz tmp/feffery_antd_components-0.2.8.tar.gz --markdown 20230510/f/feffery-antd-components/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [graphdisplay]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [graphdisplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphdisplay-0.3.3.tar.gz tmp/graphdisplay-0.3.6.tar.gz --markdown 20230510/g/graphdisplay/0.3.3-0.3.6/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_parent_task_filter-15.0.1.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_project_parent_task_filter-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-project-parent-task-filter/15.0.1.1.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [qwertyenv]: Downloading https://files.pythonhosted.org/packages/b1/92/a02c1c6005500de785272154bd06241fdb732ea51c821ce8439fd25d3291/qwertyenv-0.1.0.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/20/6d/760753f555ed7b763740f360509c7ed4450477a8d2aeca52291776252c1a/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl
+[2023-05-10 10:30:10] INFO root fetch - processPackages [azdev]: Downloading https://files.pythonhosted.org/packages/a8/bf/9cd7c2c31e25d929e85358027632a0d46d8e5d7f85c855a131905cb53218/azdev-0.1.9.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [qwertyenv]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [qwertyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwertyenv-0.0.2.tar.gz tmp/qwertyenv-0.1.0.tar.gz --markdown 20230510/q/qwertyenv/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:30:10] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Downloading https://files.pythonhosted.org/packages/f3/e0/257953411f2d39dc19a30c888efbaab733e441ad3cbcdcf8b14962911bd7/aliyun-python-sdk-dytnsapi-1.1.6.tar.gz
+[2023-05-10 10:30:10] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: Downloading https://files.pythonhosted.org/packages/57/e6/41c1b50c9e70704d1cab51dc0dfe5e93d9b503d6af3ea267929c9908e316/odoo13_addon_product_attribute_set-13.0.1.1.0-py3-none-any.whl
+[2023-05-10 10:30:11] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: executing diffoscope
+[2023-05-10 10:30:11] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-dytnsapi-1.1.5.tar.gz tmp/aliyun-python-sdk-dytnsapi-1.1.6.tar.gz --markdown 20230510/a/aliyun-python-sdk-dytnsapi/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-05-10 10:30:11] INFO root fetch - processPackages [azdev]: executing diffoscope
+[2023-05-10 10:30:11] INFO root fetch - processPackages [azdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azdev-0.1.8.tar.gz tmp/azdev-0.1.9.tar.gz --markdown 20230510/a/azdev/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:30:11] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: executing diffoscope
+[2023-05-10 10:30:11] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_product_attribute_set-13.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo13_addon_product_attribute_set-13.0.1.1.0-py3-none-any.whl.zip --markdown 20230510/o/odoo13-addon-product-attribute-set/13.0.1.0.1.dev4-13.0.1.1.0/diff.md --exclude *.pyd
+[2023-05-10 10:30:11] INFO root fetch - processPackages [mongomancy]: Start processing: document-merge-service
+[2023-05-10 10:30:11] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-05-10 10:30:11] INFO root fetch - processPackages [document-merge-service]: New version: [6.1.2] Old Version: [6.1.1]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/34/c1/5a33f303255ae8f4c12e217e44d62903537e009193ed403b5d4aaf5844e4/document_merge_service-6.1.1.tar.gz
+[2023-05-10 10:30:12] INFO root fetch - processPackages [odoo-addon-project-parent-task-filter]: Start processing: aws-arn
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-parent-task-filter]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [aws-arn]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [document-merge-service]: Downloading https://files.pythonhosted.org/packages/df/31/f1201bad041926d7a579d3464dcf406cfda45ff9882d457fd84818167794/document_merge_service-6.1.2.tar.gz
+[2023-05-10 10:30:12] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Start processing: tastytrade-sdk
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [aws-arn]: executing diffoscope
+[2023-05-10 10:30:12] INFO root fetch - processPackages [aws-arn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-arn-0.0.6.tar.gz tmp/aws-arn-0.0.7.tar.gz --markdown 20230510/a/aws-arn/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [graphdisplay]: Start processing: findpython
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [graphdisplay]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [qwertyenv]: Start processing: domino-py
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [qwertyenv]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:30:12] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [findpython]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-10 10:30:12] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230510/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:30:12] INFO root fetch - processPackages [document-merge-service]: executing diffoscope
+[2023-05-10 10:30:12] INFO root fetch - processPackages [document-merge-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/document_merge_service-6.1.1.tar.gz tmp/document_merge_service-6.1.2.tar.gz --markdown 20230510/d/document-merge-service/6.1.1-6.1.2/diff.md --exclude *.pyd
+[2023-05-10 10:30:12] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/21/1a/fa0e5e87180e15a417c6102c4f557398ce5edbfa4416d6ed981c2bdef6e6/findpython-0.2.4.tar.gz
+[2023-05-10 10:30:12] INFO root fetch - processPackages [odoo13-addon-product-attribute-set]: Start processing: tastytrade-sdk
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-attribute-set]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:30:12] INFO root fetch - processPackages [ml-starter]: Start processing: bbo-svidreader
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [ml-starter]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [aliyun-python-sdk-dytnsapi]: Start processing: ogc-na
+[2023-05-10 10:30:12] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-dytnsapi]: success
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:30:12] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:30:12] INFO root fetch - processPackages [bbo-svidreader]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-05-10 10:30:13] INFO root fetch - processPackages [ogc-na]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-05-10 10:30:13] INFO root fetch - processPackages [findpython]: Downloading https://files.pythonhosted.org/packages/80/89/93e51011f6279c82ec1386bab15c675f1a82ebf04de0c8193313fcd1895b/findpython-0.2.5.tar.gz
+[2023-05-10 10:30:13] INFO root fetch - processPackages [findpython]: executing diffoscope
+[2023-05-10 10:30:13] INFO root fetch - processPackages [findpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findpython-0.2.4.tar.gz tmp/findpython-0.2.5.tar.gz --markdown 20230510/f/findpython/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-10 10:30:13] INFO root fetch - processPackages [bbo-svidreader]: Downloading https://files.pythonhosted.org/packages/a5/f3/875d590346e6e502e3b8458861d629bdca3a83153585dc73634dfcc14f4d/bbo-svidreader-0.1.1.tar.gz
+[2023-05-10 10:30:13] INFO root fetch - processPackages [bbo-svidreader]: Downloading https://files.pythonhosted.org/packages/e9/bc/13321eb81a05a6ebd53c4243ae4c370c8d810be94e94ab59dded102fa774/bbo-svidreader-0.2.1.tar.gz
+[2023-05-10 10:30:13] INFO root fetch - processPackages [ogc-na]: Downloading https://files.pythonhosted.org/packages/f6/81/fa36b8abd240bf02f5c65e948f38e672b48ec96032037f3212ff7272bd41/ogc_na-0.2.0.tar.gz
+[2023-05-10 10:30:13] INFO root fetch - processPackages [bbo-svidreader]: executing diffoscope
+[2023-05-10 10:30:13] INFO root fetch - processPackages [bbo-svidreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bbo-svidreader-0.1.1.tar.gz tmp/bbo-svidreader-0.2.1.tar.gz --markdown 20230510/b/bbo-svidreader/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 10:30:13] INFO root fetch - processPackages [ogc-na]: executing diffoscope
+[2023-05-10 10:30:13] INFO root fetch - processPackages [ogc-na]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogc_na-0.1.6.tar.gz tmp/ogc_na-0.2.0.tar.gz --markdown 20230510/o/ogc-na/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:30:13] INFO root fetch - processPackages [aws-arn]: Start processing: langful
+[2023-05-10 10:30:13] INFO root fetch - main [MainThread]: End processing [aws-arn]: success
+[2023-05-10 10:30:13] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:30:13] INFO root fetch - main [MainThread]: End processing [azdev]: success
+[2023-05-10 10:30:14] INFO root fetch - processPackages [langful]: New version: [0.25] Old Version: [0.24]
+[2023-05-10 10:30:14] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/c2/62/8ea45d895d22f2ab796dacf423564cfcee5255e15a6675da5b70e5eaf74c/langful-0.24-py2.py3-none-any.whl
+[2023-05-10 10:30:14] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:30:14] INFO root fetch - processPackages [langful]: Downloading https://files.pythonhosted.org/packages/2c/ac/42740a553de02592a409018b7536990781dda15ec46d363f76da0caf180a/langful-0.25-py2.py3-none-any.whl
+[2023-05-10 10:30:14] INFO root fetch - main [MainThread]: End processing [findpython]: success
+[2023-05-10 10:30:14] INFO root fetch - processPackages [langful]: executing diffoscope
+[2023-05-10 10:30:14] INFO root fetch - processPackages [langful]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langful-0.24-py2.py3-none-any.whl.zip tmp/langful-0.25-py2.py3-none-any.whl.zip --markdown 20230510/l/langful/0.24-0.25/diff.md --exclude *.pyd
+[2023-05-10 10:30:14] INFO root fetch - main [MainThread]: End processing [bbo-svidreader]: success
+[2023-05-10 10:30:15] INFO root fetch - main [MainThread]: End processing [ogc-na]: success
+[2023-05-10 10:30:15] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-10 10:30:15] INFO root fetch - main [MainThread]: End processing [langful]: success
+[2023-05-10 10:30:16] INFO root fetch - main [MainThread]: End processing [document-merge-service]: success
+[2023-05-10 10:30:38] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-05-10 10:30:38] INFO root fetch - main [MainThread]: Store serial: [18044180]
