@@ -14877,3 +14877,68 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 13:29:05] INFO root fetch - main [MainThread]: End processing [pycrostates]: success
 [2023-05-10 13:29:07] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
 [2023-05-10 13:29:07] INFO root fetch - main [MainThread]: Store serial: [18046359]
+[2023-05-10 13:34:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046359]
+[2023-05-10 13:34:17] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sc-backtest
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clannotation
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchx-nightly
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coiled
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bluepyopt
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-nano
+[2023-05-10 13:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-chronos
+[2023-05-10 13:34:17] INFO root fetch - processPackages [clannotation]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [sc-backtest]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bluepyopt]: New version: [1.9.98] Old Version: [1.9.96]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/76/91/f2aec86b7659e94007907fc79f1de15c59307d1cc18c955db614fcd064a9/clannotation-0.0.5.tar.gz
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bluepyopt]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bluepyopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepyopt-1.9.96.tar.gz tmp/bluepyopt-1.9.98.tar.gz --markdown 20230510/b/bluepyopt/1.9.96-1.9.98/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [sc-backtest]: Downloading https://files.pythonhosted.org/packages/12/2e/17fb8974ec6c977c304dee677d102a705c9463f6053b33291b5fa6ee30b6/sc-backtest-0.1.8.tar.gz
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230510/t/torch-workflow-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230510/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.5.8-py3-none-any.whl.zip tmp/torchx_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230510/t/torchx-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/84/1f/9485a72320b2c7f49d6a9304acfbc2bd5fe71c25e0e7a3844ce81a1ed180/torchserve_nightly-2023.5.8-py3-none-any.whl
+[2023-05-10 13:34:17] INFO root fetch - processPackages [clannotation]: Downloading https://files.pythonhosted.org/packages/70/3e/dec83117c2e25cae94f9cd107c868d25845e1b33dd2f37556f0ba522c2e8/clannotation-0.0.6.tar.gz
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/42/4c/e930f43a6b8053b4557bf1f85c3789e4088d98bb437d4a2790089abb7699/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl
+[2023-05-10 13:34:17] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23716791>=10485760
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torchserve-nightly]: Start processing: bigdl-serving
+[2023-05-10 13:34:17] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f4/85/e98ec0459bc4fb19bc3626aa19fbb3bb006b7dd3da94e515b6bda0795ea8/bigdl_chronos-2.4.0b20230510-py3-none-win_amd64.whl
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/2d/4f/dc66f4d41825e6f1fbe6c4c9463b8cc7399b28dbee891ac3424525ff2d8f/bigdl_nano-2.4.0b20230510-py3-none-win_amd64.whl
+[2023-05-10 13:34:17] INFO root fetch - processPackages [clannotation]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [clannotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clannotation-0.0.5.tar.gz tmp/clannotation-0.0.6.tar.gz --markdown 20230510/c/clannotation/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.5.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.5.9-py3-none-any.whl.zip --markdown 20230510/t/torch-model-archiver-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230510] Old Version: [2.4.0b20230508]
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-05-10 13:34:17] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230508-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230510-py3-none-win_amd64.whl.zip --markdown 20230510/b/bigdl-chronos/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:34:18] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-05-10 13:34:18] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230508-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230510-py3-none-win_amd64.whl.zip --markdown 20230510/b/bigdl-nano/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:34:18] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/c5/92/dad65f373b87dab8b2813ba1733531a0fc31c6299485f3a22179143f7649/bigdl_serving-2.4.0b20230510-py2.py3-none-any.whl
+[2023-05-10 13:34:18] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-05-10 13:34:18] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230508-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230510-py2.py3-none-any.whl.zip --markdown 20230510/b/bigdl-serving/2.4.0b20230508-2.4.0b20230510/diff.md --exclude *.pyd
+[2023-05-10 13:34:18] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-05-10 13:34:19] INFO root fetch - processPackages [sc-backtest]: Downloading https://files.pythonhosted.org/packages/ab/9f/2acf0e2944bce64c2985de8c4d100f5c8a6bb96163b83cb2e4ee294f464f/sc-backtest-0.1.9.tar.gz
+[2023-05-10 13:34:19] WARNING root fetch - processPackages [sc-backtest]: Skipping package: exceeds size limit 37886281>=10485760
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [sc-backtest] error
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [bluepyopt]: success
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [clannotation]: success
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-05-10 13:34:19] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-05-10 13:34:20] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-05-10 13:34:21] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-05-10 13:34:21] INFO root fetch - main [MainThread]: Store serial: [18046390]
