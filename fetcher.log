@@ -15814,3 +15814,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:12:45] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
 [2023-05-10 14:12:49] INFO root fetch - main [MainThread]: End processing [moralis]: success
 [2023-05-10 14:12:49] INFO root fetch - main [MainThread]: Store serial: [18046874]
+[2023-05-10 14:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18046874]
+[2023-05-10 14:17:58] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stemdiff
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ant1Interface
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blendify
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enhanceezqq
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opengpt
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lendsmart-autotest
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-ssm-parameters-cross-region
+[2023-05-10 14:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: masonite-servicing
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pqinput
+[2023-05-10 14:17:59] WARNING root fetch - processPackages [lendsmart-autotest]: Skipping, unable to determine old version
+[2023-05-10 14:17:59] INFO root fetch - processPackages [lendsmart-autotest]: Start processing: ramodels
+[2023-05-10 14:17:59] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest] error
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [opengpt]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 14:17:59] WARNING root fetch - processPackages [blendify]: Skipping, unable to determine old version
+[2023-05-10 14:17:59] INFO root fetch - processPackages [blendify]: Start processing: idcode
+[2023-05-10 14:17:59] INFO root fetch - processPackages [masonite-servicing]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-10 14:17:59] INFO root fetch - main [MainThread]: End processing [blendify] error
+[2023-05-10 14:17:59] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.38.587190] Old Version: [20230510.9.27.733025]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [enhanceezqq]: New version: [1.0.0.5] Old Version: [1.0.0.4]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/2f/88/dd2001f9d5a88d8fe95f88aafc426165de36b07f51904361f2e938818f9f/certora-cli-alpha-niv-fix_check_results-20230510.9.27.733025.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [enhanceezqq]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [enhanceezqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanceezqq-1.0.0.4.tar.gz tmp/enhanceezqq-1.0.0.5.tar.gz --markdown 20230510/e/enhanceezqq/1.0.0.4-1.0.0.5/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pqinput]: New version: [0.0.323] Old Version: [0.0.322]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [stemdiff]: New version: [5.0.1] Old Version: [5.0.0]
+[2023-05-10 14:17:59] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213798>=10485760
+[2023-05-10 14:17:59] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Start processing: durin
+[2023-05-10 14:17:59] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ramodels]: New version: [9.7.3] Old Version: [9.7.2]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.6-py3-none-any.whl.zip tmp/ant1Interface-0.0.7-py3-none-any.whl.zip --markdown 20230510/a/ant1Interface/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [idcode]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.98.tar.gz tmp/pepperize.cdk-ssm-parameters-cross-region-0.0.99.tar.gz --markdown 20230510/p/pepperize.cdk-ssm-parameters-cross-region/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [opengpt]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [opengpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opengpt-0.0.3-py3-none-any.whl.zip tmp/opengpt-0.0.4.tar.gz --markdown 20230510/o/opengpt/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [durin]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-05-10 14:17:59] INFO root fetch - processPackages [masonite-servicing]: Downloading https://files.pythonhosted.org/packages/1d/99/ad3225d8bb25130313a2afa61e67a1a50c5ac2261b64b87cb079727294a2/masonite-servicing-0.0.4.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [stemdiff]: Downloading https://files.pythonhosted.org/packages/dc/a0/6e147fa9fd6d846942857e3f381afc6e365bd9d8b94698f7145985e36d8b/stemdiff-5.0.0.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/ee/ab/f74d104bd3c208d3322ec509952fb2d04bf217cf6e937eb3a98d6026950b/pqinput-0.0.322.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/8f/ce/a5378061873014f0909042e6e4301d9e428d0f62dadf53c1bfb7281356ff/idcode-0.1.2.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [masonite-servicing]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [masonite-servicing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/masonite-servicing-0.0.2.tar.gz tmp/masonite-servicing-0.0.4.tar.gz --markdown 20230510/m/masonite-servicing/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [stemdiff]: Downloading https://files.pythonhosted.org/packages/5d/10/bd76c2c08bb595416ae41a8bcf84d17bb1a8af6f83494d142df1629ae5fa/stemdiff-5.0.1.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ramodels]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [ramodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ramodels-9.7.2.tar.gz tmp/ramodels-9.7.3.tar.gz --markdown 20230510/r/ramodels/9.7.2-9.7.3/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [idcode]: Downloading https://files.pythonhosted.org/packages/a3/a7/69be27f1aa7dba3ee05259d440bc51a8f229298f7844675c30bc380f72bb/idcode-0.1.3.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/df/92/7938ba339865bdea648e2588618aa0e04a1b5dd0b89d48b299faf8d9da0a/pqinput-0.0.323.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [durin]: Downloading https://files.pythonhosted.org/packages/c3/f0/9ea4bc1910d84cf96f18bf69c44e91274f083053a99e6193b8ae4d65f963/durin-0.0.78.tar.gz
+[2023-05-10 14:17:59] INFO root fetch - processPackages [stemdiff]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [stemdiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stemdiff-5.0.0.tar.gz tmp/stemdiff-5.0.1.tar.gz --markdown 20230510/s/stemdiff/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [idcode]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [idcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idcode-0.1.2.tar.gz tmp/idcode-0.1.3.tar.gz --markdown 20230510/i/idcode/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.322.tar.gz tmp/pqinput-0.0.323.tar.gz --markdown 20230510/p/pqinput/0.0.322-0.0.323/diff.md --exclude *.pyd
+[2023-05-10 14:17:59] INFO root fetch - processPackages [durin]: executing diffoscope
+[2023-05-10 14:17:59] INFO root fetch - processPackages [durin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/durin-0.0.77.tar.gz tmp/durin-0.0.78.tar.gz --markdown 20230510/d/durin/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-05-10 14:18:00] INFO root fetch - processPackages [opengpt]: Start processing: mumott
+[2023-05-10 14:18:00] INFO root fetch - main [MainThread]: End processing [opengpt]: success
+[2023-05-10 14:18:00] INFO root fetch - processPackages [mumott]: New version: [0.4] Old Version: [0.3]
+[2023-05-10 14:18:00] INFO root fetch - processPackages [enhanceezqq]: Start processing: gbd-tools
+[2023-05-10 14:18:00] INFO root fetch - main [MainThread]: End processing [enhanceezqq]: success
+[2023-05-10 14:18:00] INFO root fetch - processPackages [gbd-tools]: New version: [4.5.5] Old Version: [4.5.4]
+[2023-05-10 14:18:00] INFO root fetch - processPackages [pepperize.cdk-ssm-parameters-cross-region]: Start processing: servicex-did-finder-lib
+[2023-05-10 14:18:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ssm-parameters-cross-region]: success
+[2023-05-10 14:18:00] INFO root fetch - processPackages [masonite-servicing]: Start processing: atmoswing-vigicrues
+[2023-05-10 14:18:00] INFO root fetch - main [MainThread]: End processing [masonite-servicing]: success
+[2023-05-10 14:18:00] INFO root fetch - processPackages [gbd-tools]: executing diffoscope
+[2023-05-10 14:18:00] INFO root fetch - processPackages [gbd-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gbd_tools-4.5.4.tar.gz tmp/gbd_tools-4.5.5.tar.gz --markdown 20230510/g/gbd-tools/4.5.4-4.5.5/diff.md --exclude *.pyd
+[2023-05-10 14:18:00] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/8d/22/36fc2c17b12db228a34a024acaa5aa734e1a0e62bb26f011bc75343abe92/mumott-0.3.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - processPackages [servicex-did-finder-lib]: New version: [1.4] Old Version: [1.3.1]
+[2023-05-10 14:18:01] INFO root fetch - processPackages [atmoswing-vigicrues]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-10 14:18:01] INFO root fetch - processPackages [stemdiff]: Start processing: napari-tomotwin
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [stemdiff]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [mumott]: Downloading https://files.pythonhosted.org/packages/95/80/a3cbe55ed0ae823b12dab38ad40faac88f098439ffeda4eb952a811f513d/mumott-0.4.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - processPackages [servicex-did-finder-lib]: Downloading https://files.pythonhosted.org/packages/ad/1b/173ecbc559ec6256c532d0314274d39601e12ba47985cdf61bbb361ec585/servicex_did_finder_lib-1.3.1.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [napari-tomotwin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [atmoswing-vigicrues]: Downloading https://files.pythonhosted.org/packages/6a/49/e80e573f9c1d5c24fd0693587e89698b57ffa20cd8d9e4f935cba0f168ef/atmoswing-vigicrues-1.0.4.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [ramodels]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/c9/11/8822312052bd23d90c5ee9776630376b2899f78db8108bcb76c553cf59a5/napari-tomotwin-0.1.2.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [durin]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [servicex-did-finder-lib]: Downloading https://files.pythonhosted.org/packages/ee/ad/6f4b8b9f9d5977bb83c0d64c9bf395b6c2e9a7e38bb41185ccd68bd29184/servicex_did_finder_lib-1.4.tar.gz
+[2023-05-10 14:18:01] INFO root fetch - processPackages [atmoswing-vigicrues]: executing diffoscope
+[2023-05-10 14:18:01] INFO root fetch - processPackages [atmoswing-vigicrues]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atmoswing-vigicrues-1.0.3.tar.gz tmp/atmoswing-vigicrues-1.0.4.tar.gz --markdown 20230510/a/atmoswing-vigicrues/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 14:18:01] INFO root fetch - main [MainThread]: End processing [idcode]: success
+[2023-05-10 14:18:01] INFO root fetch - processPackages [servicex-did-finder-lib]: executing diffoscope
+[2023-05-10 14:18:01] INFO root fetch - processPackages [servicex-did-finder-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servicex_did_finder_lib-1.3.1.tar.gz tmp/servicex_did_finder_lib-1.4.tar.gz --markdown 20230510/s/servicex-did-finder-lib/1.3.1-1.4/diff.md --exclude *.pyd
+[2023-05-10 14:18:01] INFO root fetch - processPackages [napari-tomotwin]: Downloading https://files.pythonhosted.org/packages/78/9c/358e4850e591b13b15d9f010b4038b3a0627d368655ccf0adf1996eb11b8/napari-tomotwin-0.1.3.tar.gz
+[2023-05-10 14:18:02] INFO root fetch - processPackages [mumott]: executing diffoscope
+[2023-05-10 14:18:02] INFO root fetch - processPackages [mumott]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mumott-0.3.tar.gz tmp/mumott-0.4.tar.gz --markdown 20230510/m/mumott/0.3-0.4/diff.md --exclude *.pyd
+[2023-05-10 14:18:02] INFO root fetch - processPackages [napari-tomotwin]: executing diffoscope
+[2023-05-10 14:18:02] INFO root fetch - processPackages [napari-tomotwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-tomotwin-0.1.2.tar.gz tmp/napari-tomotwin-0.1.3.tar.gz --markdown 20230510/n/napari-tomotwin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 14:18:02] INFO root fetch - main [MainThread]: End processing [atmoswing-vigicrues]: success
+[2023-05-10 14:18:02] INFO root fetch - main [MainThread]: End processing [servicex-did-finder-lib]: success
+[2023-05-10 14:18:03] INFO root fetch - main [MainThread]: End processing [napari-tomotwin]: success
+[2023-05-10 14:18:03] INFO root fetch - main [MainThread]: End processing [gbd-tools]: success
+[2023-05-10 14:18:04] INFO root fetch - main [MainThread]: End processing [mumott]: success
+[2023-05-10 14:18:04] INFO root fetch - main [MainThread]: Store serial: [18046936]
