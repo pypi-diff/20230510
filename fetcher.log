@@ -22453,3 +22453,113 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:52:19] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-05-10 19:52:26] INFO root fetch - main [MainThread]: End processing [CmonCrawl]: success
 [2023-05-10 19:52:26] INFO root fetch - main [MainThread]: Store serial: [18050818]
+[2023-05-10 19:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050818]
+[2023-05-10 19:57:36] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sierras
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gen-pop-linkml2sheets
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tkinterweb
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skylibs
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fortifyapi
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finalynx
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fabric_fim
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: toffy
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: robocorp-tasks
+[2023-05-10 19:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terrainman
+[2023-05-10 19:57:36] INFO root fetch - processPackages [skylibs]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [sierras]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [finalynx]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fabric_fim]: New version: [1.4.9] Old Version: [1.4.7]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fabric_fim]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [skylibs]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fabric_fim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabric_fim-1.4.7.tar.gz tmp/fabric_fim-1.4.9.tar.gz --markdown 20230510/f/fabric_fim/1.4.7-1.4.9/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [skylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skylibs-0.7.2.tar.gz tmp/skylibs-0.7.3.tar.gz --markdown 20230510/s/skylibs/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [tkinterweb]: New version: [3.9.7] Old Version: [3.9.6]
+[2023-05-10 19:57:36] WARNING root fetch - processPackages [terrainman]: Skipping, unable to determine old version
+[2023-05-10 19:57:36] INFO root fetch - processPackages [finalynx]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [terrainman]: Start processing: PatryksAutoAI
+[2023-05-10 19:57:36] INFO root fetch - processPackages [finalynx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finalynx-1.8.3.tar.gz tmp/finalynx-1.9.0.tar.gz --markdown 20230510/f/finalynx/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [gen-pop-linkml2sheets]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 19:57:36] INFO root fetch - main [MainThread]: End processing [terrainman] error
+[2023-05-10 19:57:36] INFO root fetch - processPackages [toffy]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [robocorp-tasks]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [sierras]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [sierras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sierras-0.1.2.tar.gz tmp/sierras-0.2.0.tar.gz --markdown 20230510/s/sierras/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fortifyapi]: New version: [3.1.5] Old Version: [3.1.4]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 19:57:36] INFO root fetch - processPackages [toffy]: Downloading https://files.pythonhosted.org/packages/c2/fc/610489dc8f50073ba8a29d0a791d5c08c45693bf7f0f60a95b4e2d6ba844/toffy-0.1.2.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/12/6f/aad2723e629c086567ba0658bde2e9a9643f97bfc9c2bc011ee2d7b6ca6b/PatryksAutoAI-0.1.2.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fortifyapi]: Downloading https://files.pythonhosted.org/packages/35/3d/0f18fc995d99e8efec7dfa1aaefcfc5a42919cc2aad60576d4fe93cbf1b2/fortifyapi-3.1.4.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [tkinterweb]: Downloading https://files.pythonhosted.org/packages/fb/88/c86c5a5baae51628333717b42e4fb53d2b159233ba97f5089fcb5e1f65cb/tkinterweb-3.9.6.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.1.tar.gz tmp/PatryksAutoAI-0.1.2.tar.gz --markdown 20230510/P/PatryksAutoAI/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [robocorp-tasks]: Downloading https://files.pythonhosted.org/packages/f3/86/137e23022c5663556f19907e56686460fe9fead668854c955cf70a9f1833/robocorp_tasks-0.2.1.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/07/ca/5ab1024075698d570b6564e9769dab2e89e8857d559252f386a098cb1dd6/gen_pop_linkml2sheets-0.1.4.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fortifyapi]: Downloading https://files.pythonhosted.org/packages/3a/23/b63b7ceaf56863b1fb97b1096c19d3ae3fd0486d664a3d49a1acefba73af/fortifyapi-3.1.5.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [toffy]: Downloading https://files.pythonhosted.org/packages/0f/6d/d8abb4f98363765cae46614eae90843227895f449f1471b7ed8e866e53cd/toffy-0.2.0.tar.gz
+[2023-05-10 19:57:36] INFO root fetch - processPackages [gen-pop-linkml2sheets]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [gen-pop-linkml2sheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_pop_linkml2sheets-0.1.3.tar.gz tmp/gen_pop_linkml2sheets-0.1.4.tar.gz --markdown 20230510/g/gen-pop-linkml2sheets/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fortifyapi]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [fortifyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fortifyapi-3.1.4.tar.gz tmp/fortifyapi-3.1.5.tar.gz --markdown 20230510/f/fortifyapi/3.1.4-3.1.5/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [toffy]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [toffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toffy-0.1.2.tar.gz tmp/toffy-0.2.0.tar.gz --markdown 20230510/t/toffy/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 19:57:36] INFO root fetch - processPackages [robocorp-tasks]: executing diffoscope
+[2023-05-10 19:57:36] INFO root fetch - processPackages [robocorp-tasks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robocorp_tasks-0.2.0.tar.gz tmp/robocorp_tasks-0.2.1.tar.gz --markdown 20230510/r/robocorp-tasks/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 19:57:37] INFO root fetch - processPackages [tkinterweb]: Downloading https://files.pythonhosted.org/packages/00/e1/a22d4bc360d1eaed4590da7adf3b45a448f6055ca35ab8939a8019e0203f/tkinterweb-3.9.7.tar.gz
+[2023-05-10 19:57:37] INFO root fetch - processPackages [tkinterweb]: executing diffoscope
+[2023-05-10 19:57:37] INFO root fetch - processPackages [tkinterweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkinterweb-3.9.6.tar.gz tmp/tkinterweb-3.9.7.tar.gz --markdown 20230510/t/tkinterweb/3.9.6-3.9.7/diff.md --exclude *.pyd
+[2023-05-10 19:57:37] INFO root fetch - processPackages [sierras]: Start processing: hat-syslog
+[2023-05-10 19:57:37] INFO root fetch - main [MainThread]: End processing [sierras]: success
+[2023-05-10 19:57:37] INFO root fetch - processPackages [hat-syslog]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-05-10 19:57:37] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: assisted-service-client
+[2023-05-10 19:57:37] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 19:57:37] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/fa/68/60f7f44e95c1327d319921c93df439fa5f56c185c748fae5514111b4e427/hat_syslog-0.7.5-cp38.cp39.cp310.cp311-none-any.whl
+[2023-05-10 19:57:38] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-05-10 19:57:38] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-05-10 19:57:38] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230510/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-05-10 19:57:38] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Start processing: neutralise-link
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets]: success
+[2023-05-10 19:57:38] INFO root fetch - processPackages [hat-syslog]: Downloading https://files.pythonhosted.org/packages/62/0f/5a078b47368def9f565d339efa7a0d294167377c91e7053f6d9fdc5c087d/hat_syslog-0.7.6-cp38.cp39.cp310.cp311-none-any.whl
+[2023-05-10 19:57:38] WARNING root fetch - processPackages [neutralise-link]: Skipping, unable to determine old version
+[2023-05-10 19:57:38] INFO root fetch - processPackages [neutralise-link]: Start processing: filepattern
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [neutralise-link] error
+[2023-05-10 19:57:38] INFO root fetch - processPackages [hat-syslog]: executing diffoscope
+[2023-05-10 19:57:38] INFO root fetch - processPackages [hat-syslog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hat_syslog-0.7.5-cp38.cp39.cp310.cp311-none-any.whl.zip tmp/hat_syslog-0.7.6-cp38.cp39.cp310.cp311-none-any.whl.zip --markdown 20230510/h/hat-syslog/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-05-10 19:57:38] INFO root fetch - processPackages [filepattern]: New version: [2.0.0] Old Version: [1.4.7]
+[2023-05-10 19:57:38] INFO root fetch - processPackages [robocorp-tasks]: Start processing: tensorflow-intel
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [robocorp-tasks]: success
+[2023-05-10 19:57:38] INFO root fetch - processPackages [skylibs]: Start processing: educelab-imgproc
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [skylibs]: success
+[2023-05-10 19:57:38] INFO root fetch - processPackages [educelab-imgproc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 19:57:38] INFO root fetch - processPackages [tensorflow-intel]: New version: [2.13.0rc0] Old Version: [2.12.0rc1]
+[2023-05-10 19:57:38] INFO root fetch - processPackages [filepattern]: Downloading https://files.pythonhosted.org/packages/3e/e0/61a5b533f87c3f508dac97ae9434878324f4b14ca88af1acb44741402d78/filepattern-1.4.7.tar.gz
+[2023-05-10 19:57:38] INFO root fetch - processPackages [educelab-imgproc]: executing diffoscope
+[2023-05-10 19:57:38] INFO root fetch - processPackages [educelab-imgproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educelab-imgproc-0.2.0.tar.gz tmp/educelab-imgproc-0.3.0.tar.gz --markdown 20230510/e/educelab-imgproc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 19:57:38] INFO root fetch - processPackages [tensorflow-intel]: Downloading https://files.pythonhosted.org/packages/2e/89/15e3f4f69ab6652c028625dcd85f9a7687d8dcd3c0b59301a5a77a2e7a72/tensorflow_intel-2.12.0rc1-cp39-cp39-win_amd64.whl
+[2023-05-10 19:57:38] WARNING root fetch - processPackages [tensorflow-intel]: Skipping package: exceeds size limit 272783861>=10485760
+[2023-05-10 19:57:38] INFO root fetch - processPackages [tensorflow-intel]: Start processing: moddagudu
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [tensorflow-intel] error
+[2023-05-10 19:57:38] INFO root fetch - processPackages [moddagudu]: New version: [1.5] Old Version: [1.4]
+[2023-05-10 19:57:38] INFO root fetch - processPackages [finalynx]: Start processing: msgspec
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [finalynx]: success
+[2023-05-10 19:57:38] INFO root fetch - processPackages [filepattern]: Downloading https://files.pythonhosted.org/packages/9b/54/fa6f72e978ced74aba2fdc92c907029676868414469dc62c6ec92839b862/filepattern-2.0.0-cp39-cp39-macosx_11_0_x86_64.whl
+[2023-05-10 19:57:38] INFO root fetch - processPackages [msgspec]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-05-10 19:57:38] INFO root fetch - main [MainThread]: End processing [fortifyapi]: success
+[2023-05-10 19:57:39] INFO root fetch - main [MainThread]: End processing [tkinterweb]: success
+[2023-05-10 19:57:39] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/b8/8b/1dd1acfde6c771023550487571844caa4ee1b262f980eb6e391dfbee7b8d/moddagudu-1.5.tar.gz
+[2023-05-10 19:57:39] INFO root fetch - processPackages [filepattern]: executing diffoscope
+[2023-05-10 19:57:39] INFO root fetch - processPackages [filepattern]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/filepattern-1.4.7.tar.gz tmp/filepattern-2.0.0-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20230510/f/filepattern/1.4.7-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 19:57:39] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/b2/11/ec75058f046fa1792136bdaea4215dc4d57c0685e8b4ae89d06848500241/msgspec-0.9.0.tar.gz
+[2023-05-10 19:57:39] INFO root fetch - main [MainThread]: End processing [toffy]: success
+[2023-05-10 19:57:39] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 19:57:39] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.4.tar.gz tmp/moddagudu-1.5.tar.gz --markdown 20230510/m/moddagudu/1.4-1.5/diff.md --exclude *.pyd
+[2023-05-10 19:57:39] INFO root fetch - processPackages [msgspec]: Downloading https://files.pythonhosted.org/packages/46/4a/86b834cc4b368ef7f76d74b50e523126b6df014ad0fe27472be1a6a76c75/msgspec-0.9.1.tar.gz
+[2023-05-10 19:57:39] INFO root fetch - processPackages [msgspec]: executing diffoscope
+[2023-05-10 19:57:39] INFO root fetch - processPackages [msgspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msgspec-0.9.0.tar.gz tmp/msgspec-0.9.1.tar.gz --markdown 20230510/m/msgspec/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-05-10 19:57:40] INFO root fetch - main [MainThread]: End processing [fabric_fim]: success
+[2023-05-10 19:57:40] INFO root fetch - main [MainThread]: End processing [educelab-imgproc]: success
+[2023-05-10 19:57:40] INFO root fetch - main [MainThread]: End processing [filepattern]: success
+[2023-05-10 19:57:40] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 19:57:41] INFO root fetch - main [MainThread]: End processing [hat-syslog]: success
+[2023-05-10 19:57:41] INFO root fetch - main [MainThread]: End processing [msgspec]: success
+[2023-05-10 19:57:42] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-05-10 19:57:42] INFO root fetch - main [MainThread]: Store serial: [18050881]
