@@ -17603,3 +17603,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 15:23:14] INFO root fetch - main [MainThread]: End processing [axonius-api-client]: success
 [2023-05-10 15:23:22] INFO root fetch - main [MainThread]: End processing [nm-transformers-nightly]: success
 [2023-05-10 15:23:22] INFO root fetch - main [MainThread]: Store serial: [18047788]
+[2023-05-10 15:28:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047788]
+[2023-05-10 15:28:31] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gridworks
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lendsmart-autotest
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OpenMEASURE
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iso15118
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: drf-kit
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: profile-yelp-local-python-circles
+[2023-05-10 15:28:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pqinput
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valis-wsi
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Mensajes-Nikk
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ODtools
+[2023-05-10 15:28:32] INFO root fetch - processPackages [iso15118]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [lendsmart-autotest]: New version: [1.4] Old Version: [1.3]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [OpenMEASURE]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [gridworks]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [profile-yelp-local-python-circles]: Skipping, unable to determine old version
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [Mensajes-Nikk]: Skipping, unable to determine old version
+[2023-05-10 15:28:32] INFO root fetch - processPackages [profile-yelp-local-python-circles]: Start processing: gen-pop-linkml2sheets
+[2023-05-10 15:28:32] INFO root fetch - processPackages [valis-wsi]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [profile-yelp-local-python-circles] error
+[2023-05-10 15:28:32] INFO root fetch - processPackages [Mensajes-Nikk]: Start processing: xx-local
+[2023-05-10 15:28:32] INFO root fetch - processPackages [pqinput]: New version: [0.0.4] Old Version: [0.0.323]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ODtools]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [Mensajes-Nikk] error
+[2023-05-10 15:28:32] INFO root fetch - processPackages [drf-kit]: New version: [1.9.0] Old Version: [1.8.7]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ODtools]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [ODtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ODtools-2.1.8.tar.gz tmp/ODtools-2.1.9.tar.gz --markdown 20230510/O/ODtools/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [drf-kit]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [drf-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-kit-1.8.7.tar.gz tmp/drf-kit-1.9.0.tar.gz --markdown 20230510/d/drf-kit/1.8.7-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [gen-pop-linkml2sheets]: Skipping, unable to determine old version
+[2023-05-10 15:28:32] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Start processing: utracto
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets] error
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [xx-local]: Skipping, unable to determine old version
+[2023-05-10 15:28:32] INFO root fetch - processPackages [xx-local]: Start processing: sqlflat
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [xx-local] error
+[2023-05-10 15:28:32] INFO root fetch - processPackages [utracto]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [iso15118]: Downloading https://files.pythonhosted.org/packages/ef/dd/e18cf63de58aa4819175858bea5d77b3ca4bd4ba7822845dcfa559088a84/iso15118-0.8.1.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [gridworks]: Downloading https://files.pythonhosted.org/packages/1e/51/c872a0bf15f69a1aacdc14ab48dd64c432aa6b85e2b5e227e2a0abb2c6b4/gridworks-0.2.3.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [lendsmart-autotest]: Downloading https://files.pythonhosted.org/packages/ee/7e/8a87b47a259c832409db2c6466a0efbc73a3cb8ee8bddb72ee6855686b25/lendsmart_autotest-1.4.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [OpenMEASURE]: Downloading https://files.pythonhosted.org/packages/99/c2/e55e4c36f729b68f2864428c2942a5724cd3a7d3dd944f22540464128b80/OpenMEASURE-0.1.8.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [valis-wsi]: Downloading https://files.pythonhosted.org/packages/6e/31/c29bd045d36c6c697fcbba046bb8e26a04122cca939370bb9416c8d36b8c/valis_wsi-1.0.0rc8.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.5.tar.gz tmp/utracto-0.0.6.tar.gz --markdown 20230510/u/utracto/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [sqlflat]: Skipping, unable to determine old version
+[2023-05-10 15:28:32] INFO root fetch - processPackages [sqlflat]: Start processing: PySciMath
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [sqlflat] error
+[2023-05-10 15:28:32] INFO root fetch - processPackages [PySciMath]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-10 15:28:32] INFO root fetch - processPackages [gridworks]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [gridworks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks-0.2.2.tar.gz tmp/gridworks-0.2.3.tar.gz --markdown 20230510/g/gridworks/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [pqinput]: Downloading https://files.pythonhosted.org/packages/0a/f8/740d60fb73f1d4cc0631dd03d4673b3499ac2dad58d895a97c43efb24a21/pqinput-0.0.4.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [PySciMath]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [PySciMath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySciMath-1.1.0.tar.gz tmp/PySciMath-1.2.0.tar.gz --markdown 20230510/P/PySciMath/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [lendsmart-autotest]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [lendsmart-autotest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lendsmart_autotest-1.3.tar.gz tmp/lendsmart_autotest-1.4.tar.gz --markdown 20230510/l/lendsmart-autotest/1.3-1.4/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [pqinput]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [pqinput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pqinput-0.0.323.tar.gz tmp/pqinput-0.0.4.tar.gz --markdown 20230510/p/pqinput/0.0.323-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [OpenMEASURE]: Downloading https://files.pythonhosted.org/packages/51/e2/37e3198b416b6ca8ef357a456aa1408874f660e7f037eb90ac1037937a03/OpenMEASURE-0.1.9.tar.gz
+[2023-05-10 15:28:32] INFO root fetch - processPackages [valis-wsi]: Downloading https://files.pythonhosted.org/packages/e6/5f/0e11fadf39fd510c898b865354a30c874acf3816a26ea1a887c5b3055110/valis_wsi-1.0.0rc9.tar.gz
+[2023-05-10 15:28:32] WARNING root fetch - processPackages [iso15118]: Skipping package: exceeds size limit 11797341>=10485760
+[2023-05-10 15:28:32] INFO root fetch - processPackages [iso15118]: Start processing: pyjpt
+[2023-05-10 15:28:32] INFO root fetch - main [MainThread]: End processing [iso15118] error
+[2023-05-10 15:28:32] INFO root fetch - processPackages [OpenMEASURE]: executing diffoscope
+[2023-05-10 15:28:32] INFO root fetch - processPackages [OpenMEASURE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenMEASURE-0.1.8.tar.gz tmp/OpenMEASURE-0.1.9.tar.gz --markdown 20230510/O/OpenMEASURE/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 15:28:32] INFO root fetch - processPackages [pyjpt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 15:28:33] INFO root fetch - processPackages [valis-wsi]: executing diffoscope
+[2023-05-10 15:28:33] INFO root fetch - processPackages [valis-wsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valis_wsi-1.0.0rc8.tar.gz tmp/valis_wsi-1.0.0rc9.tar.gz --markdown 20230510/v/valis-wsi/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2023-05-10 15:28:33] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/c7/13/907cebdac0dad5d81112674adbea3b791d181e0141501a5a115b4fce12ba/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 15:28:33] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 15:28:33] INFO root fetch - main [MainThread]: End processing [ODtools]: success
+[2023-05-10 15:28:33] INFO root fetch - main [MainThread]: End processing [drf-kit]: success
+[2023-05-10 15:28:33] INFO root fetch - main [MainThread]: End processing [gridworks]: success
+[2023-05-10 15:28:34] INFO root fetch - processPackages [pyjpt]: Downloading https://files.pythonhosted.org/packages/68/d8/1cd9d8fa3a040ee3f1851f7a23274a54d62b69990c4523fe22d1c20fab64/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 15:28:34] INFO root fetch - main [MainThread]: End processing [PySciMath]: success
+[2023-05-10 15:28:34] INFO root fetch - main [MainThread]: End processing [lendsmart-autotest]: success
+[2023-05-10 15:28:34] INFO root fetch - main [MainThread]: End processing [pqinput]: success
+[2023-05-10 15:28:34] INFO root fetch - main [MainThread]: End processing [OpenMEASURE]: success
+[2023-05-10 15:28:35] INFO root fetch - processPackages [pyjpt]: executing diffoscope
+[2023-05-10 15:28:35] INFO root fetch - processPackages [pyjpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyjpt-0.1.8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pyjpt-0.1.9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230510/p/pyjpt/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 15:28:35] INFO root fetch - main [MainThread]: End processing [valis-wsi]: success
+[2023-05-10 15:28:47] INFO root fetch - main [MainThread]: End processing [pyjpt]: success
+[2023-05-10 15:28:47] INFO root fetch - main [MainThread]: Store serial: [18047846]
