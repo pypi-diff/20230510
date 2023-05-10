@@ -11268,3 +11268,205 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:18:58] INFO root fetch - main [MainThread]: End processing [ecg-quality]: success
 [2023-05-10 10:18:59] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
 [2023-05-10 10:18:59] INFO root fetch - main [MainThread]: Store serial: [18044016]
+[2023-05-10 10:24:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044016]
+[2023-05-10 10:24:08] INFO root fetch - main [MainThread]: Found 33 changed packages
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nanopyx
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mediapipe-model-maker
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: video-subtitles
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reqmon
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reqmgr2
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: global-workqueue
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reqmgr2ms-pileup
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reqmgr2ms-unmerged
+[2023-05-10 10:24:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: reqmgr2ms-rulecleaner
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmon]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [video-subtitles]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [mediapipe-model-maker]: New version: [0.2.0] Old Version: [0.1.1.1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] WARNING root fetch - processPackages [nanopyx]: Skipping, unable to determine old version
+[2023-05-10 10:24:08] INFO root fetch - processPackages [nanopyx]: Start processing: reqmgr2ms-output
+[2023-05-10 10:24:08] INFO root fetch - main [MainThread]: End processing [nanopyx] error
+[2023-05-10 10:24:08] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:08] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:09] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/7a/36/33fbc3ae2c26463ab47d30a1cbddae2ac5924392ec068d8a263dde6a3e6c/video-subtitles-1.0.8.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/f3/06/d8fd333dd957569e8fa940bf38c554ac821136ba18bbfa81466142ddc349/reqmon-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/54/60/48dc46abb98e2bc39cc4ec0bdc10074f518d8a3efa43b28ca32b1f75f36b/reqmgr2-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/8a/f7/595e6bbb83d6c40a2f0158632d0339617a60666aad5ae72359cba1d72f67/reqmgr2ms-output-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [mediapipe-model-maker]: Downloading https://files.pythonhosted.org/packages/db/ef/28df2f6a798fc2b25cbcc076af9f745250d14912cac94be50b64dad549e3/mediapipe_model_maker-0.1.1.1-py3-none-any.whl
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/90/88/90f1f8481d09e663c5b3e41257782d1cba9627be6591e02068a323733212/reqmgr2ms-pileup-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/a7/44/cfdac1877a18afb36d13d868e0f8577f3abd7384c739efdce4b783fd3bdf/reqmgr2ms-unmerged-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/e4/9d/d2e3954d90f870a8f1766981a6f1c4541bf8b72533abda0376a528abe11a/reqmgr2ms-rulecleaner-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/2e/ac/8859e54f202331ecb73edc571c7ced29244a83bd64f25372ba97e397a8be/global-workqueue-2.2.1rc1.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/59/2f/224aea10eb5001b96a7a0e47f859abe9271a26155beea0dd9bfb25da3d60/video-subtitles-1.0.9.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [mediapipe-model-maker]: Downloading https://files.pythonhosted.org/packages/41/77/3d98a6d29441582b776acc685555edbc2334f4ecdaf4661770666bf56151/mediapipe_model_maker-0.2.0-py3-none-any.whl
+[2023-05-10 10:24:09] INFO root fetch - processPackages [global-workqueue]: Downloading https://files.pythonhosted.org/packages/6b/5e/9162087ee2aa408668adf1dbca22a1d4d6fcb0dec5f4612a289ed6808772/global-workqueue-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-output]: Downloading https://files.pythonhosted.org/packages/8a/6d/f84615c5ad9e1a3df6e81f01d2786cf305aed13aa0b591247e17e6845a0f/reqmgr2ms-output-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Downloading https://files.pythonhosted.org/packages/37/af/1ab864f547fa83a86b6292607f55d94cd9930fa69124f1999d4a59d804eb/reqmgr2ms-unmerged-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-pileup]: Downloading https://files.pythonhosted.org/packages/c9/d3/ef3f63bfdb0dcf4c6738dfd93e851902b3121a1fa67bf54a4fcb2d5c1413/reqmgr2ms-pileup-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [video-subtitles]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [video-subtitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-subtitles-1.0.8.tar.gz tmp/video-subtitles-1.0.9.tar.gz --markdown 20230510/v/video-subtitles/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [mediapipe-model-maker]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [mediapipe-model-maker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediapipe_model_maker-0.1.1.1-py3-none-any.whl.zip tmp/mediapipe_model_maker-0.2.0-py3-none-any.whl.zip --markdown 20230510/m/mediapipe-model-maker/0.1.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.1rc1.tar.gz tmp/global-workqueue-2.2.1rc2.tar.gz --markdown 20230510/g/global-workqueue/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.1rc1.tar.gz tmp/reqmgr2ms-output-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-output/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmon]: Downloading https://files.pythonhosted.org/packages/00/b9/bf507d2251bed49c5bfc9c62382a9dc9d75ad6f92a9b9f1a9ad9b962474e/reqmon-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.1rc1.tar.gz tmp/reqmgr2ms-unmerged-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-unmerged/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Downloading https://files.pythonhosted.org/packages/b6/a2/e435609a829e4f56d68adfd217a31a8aa73443c98b3441e364e5fd4fcc95/reqmgr2ms-rulecleaner-2.2.1rc2.tar.gz
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.1rc1.tar.gz tmp/reqmgr2ms-pileup-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-pileup/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-05-10 10:24:09] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.1rc1.tar.gz tmp/reqmon-2.2.1rc2.tar.gz --markdown 20230510/r/reqmon/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:10] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: reqmgr2ms-monitor
+[2023-05-10 10:24:10] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.1rc1.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-rulecleaner/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/cb/73/72aee34afc6a3682b9e89a06a58c3f55d379dc28a4bb831924db857f18a4/reqmgr2ms-monitor-2.2.1rc1.tar.gz
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2]: Downloading https://files.pythonhosted.org/packages/2b/ce/5ddfce15b492c5937fc9cf9dde0e32d92544c466ab52edce1a035e67f5c8/reqmgr2-2.2.1rc2.tar.gz
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-monitor]: Downloading https://files.pythonhosted.org/packages/0d/b4/5c1ee2afc826488ac3a08b80a229a8c1256a214f64851502a6e4244d5de6/reqmgr2ms-monitor-2.2.1rc2.tar.gz
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.1rc1.tar.gz tmp/reqmgr2ms-monitor-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-monitor/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-05-10 10:24:10] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.1rc1.tar.gz tmp/reqmgr2-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:11] INFO root fetch - processPackages [mediapipe-model-maker]: Start processing: wmcore
+[2023-05-10 10:24:11] INFO root fetch - main [MainThread]: End processing [mediapipe-model-maker]: success
+[2023-05-10 10:24:11] INFO root fetch - processPackages [wmcore]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:12] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/4d/f9/284ab55051e34c9d2538c4fb820372e6150b504cf0d5cf7898fee348d211/wmcore-2.2.1rc1.tar.gz
+[2023-05-10 10:24:12] INFO root fetch - processPackages [reqmgr2ms-output]: Start processing: wmagent-devtools
+[2023-05-10 10:24:12] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-05-10 10:24:12] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:12] INFO root fetch - processPackages [wmcore]: Downloading https://files.pythonhosted.org/packages/e8/09/fdc85ee8b71597fdf8a27343feff3caad8f5dcaeaa18cf2a02792612fed7/wmcore-2.2.1rc2.tar.gz
+[2023-05-10 10:24:12] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/bd/95/50f3965c37e5dcf5a375cdcb9151897d0957b4bed392033314fd4804bda7/wmagent-devtools-2.2.1rc1.tar.gz
+[2023-05-10 10:24:13] INFO root fetch - processPackages [video-subtitles]: Start processing: acdcserver
+[2023-05-10 10:24:13] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
+[2023-05-10 10:24:13] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11425227>=10485760
+[2023-05-10 10:24:13] INFO root fetch - processPackages [wmagent-devtools]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:13] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-05-10 10:24:13] INFO root fetch - processPackages [acdcserver]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:13] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:13] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:13] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:13] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/f3/4f/bbcb54408e50ab67c21e5172d06a0655b1e3298257e8caab31e59cb5d6e3/acdcserver-2.2.1rc1.tar.gz
+[2023-05-10 10:24:13] INFO root fetch - processPackages [acdcserver]: Downloading https://files.pythonhosted.org/packages/9c/76/2c33a59183cdaaab88ebf0ed1e8cff57e7cdd73842f116f850e89775d453/acdcserver-2.2.1rc2.tar.gz
+[2023-05-10 10:24:13] INFO root fetch - processPackages [global-workqueue]: Start processing: wmagent
+[2023-05-10 10:24:13] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-05-10 10:24:13] INFO root fetch - processPackages [wmagent]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:13] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-05-10 10:24:13] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.1rc1.tar.gz tmp/wmcore-2.2.1rc2.tar.gz --markdown 20230510/w/wmcore/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:13] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-05-10 10:24:13] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.1rc1.tar.gz tmp/acdcserver-2.2.1rc2.tar.gz --markdown 20230510/a/acdcserver/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:13] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/b6/24/fbc970c6d682b0a8a3d0960a0995d7315e253b0fd9fae848cf33dee09e22/wmagent-2.2.1rc1.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: reqmgr2ms-transferor
+[2023-05-10 10:24:14] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: awkward
+[2023-05-10 10:24:14] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: digital-experiments
+[2023-05-10 10:24:14] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-05-10 10:24:14] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: topologicpy
+[2023-05-10 10:24:14] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:14] INFO root fetch - processPackages [digital-experiments]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-05-10 10:24:14] INFO root fetch - processPackages [awkward]: New version: [2.2.0] Old Version: [2.1.4]
+[2023-05-10 10:24:14] INFO root fetch - processPackages [topologicpy]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/b2/4a/ab374013e814096b6afc3520d7ade8577bd7cf5fe9ec9bad14459c3fc2c1/reqmgr2ms-transferor-2.2.1rc1.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/68/fe/462824e4f2af6af0884517caa5570778b6f09666ce14c0096a8625858083/awkward-2.1.4.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [wmagent]: Downloading https://files.pythonhosted.org/packages/7b/ca/656a9264e3acdbff1d40cc9b0b9f8ba301d408d0366fcc195569b7dbbcad/wmagent-2.2.1rc2.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/8b/0b/3a658d87132eaf5b9233236b840e8a4aeb1e69f5d341762552fca4028780/digital-experiments-1.1.0.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-05-10 10:24:14] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.0.8.tar.gz tmp/digital-experiments-1.1.0.tar.gz --markdown 20230510/d/digital-experiments/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:14] INFO root fetch - processPackages [topologicpy]: Downloading https://files.pythonhosted.org/packages/c5/85/1c4479b468dd8447a392da1fb4879881f139f70892e1015a6f377c4cea2b/topologicpy-0.4.9.tar.gz
+[2023-05-10 10:24:14] INFO root fetch - processPackages [reqmgr2ms-transferor]: Downloading https://files.pythonhosted.org/packages/82/35/c6fccd395cca269204a6cce9ce6d1bbfb5ee81942ce820a5c3de2ec50370/reqmgr2ms-transferor-2.2.1rc2.tar.gz
+[2023-05-10 10:24:14] WARNING root fetch - processPackages [topologicpy]: Skipping package: exceeds size limit 34020520>=10485760
+[2023-05-10 10:24:14] INFO root fetch - processPackages [topologicpy]: Start processing: drca
+[2023-05-10 10:24:14] INFO root fetch - main [MainThread]: End processing [topologicpy] error
+[2023-05-10 10:24:14] INFO root fetch - processPackages [drca]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-05-10 10:24:14] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-05-10 10:24:14] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.1rc1.tar.gz tmp/wmagent-2.2.1rc2.tar.gz --markdown 20230510/w/wmagent/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:15] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-05-10 10:24:15] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.1rc1.tar.gz tmp/reqmgr2ms-transferor-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-transferor/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 10:24:15] INFO root fetch - processPackages [drca]: Downloading https://files.pythonhosted.org/packages/60/c7/c7b8264b3802e008b5c1b5d3a100f33fdf64b6c9ad5f73251f48b435f838/drca-0.2.4-py3-none-any.whl
+[2023-05-10 10:24:15] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/21/77/5a3f966d0baf0206e48a7ac33375f7faf28565e66c3f9c488ad63676f971/awkward-2.2.0.tar.gz
+[2023-05-10 10:24:15] INFO root fetch - processPackages [drca]: Downloading https://files.pythonhosted.org/packages/f6/18/6257ab6976a563e36721e444a271aa961a88bb9486080a37acb96211dbd3/drca-0.2.5-py3-none-any.whl
+[2023-05-10 10:24:15] INFO root fetch - processPackages [drca]: executing diffoscope
+[2023-05-10 10:24:15] INFO root fetch - processPackages [drca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drca-0.2.4-py3-none-any.whl.zip tmp/drca-0.2.5-py3-none-any.whl.zip --markdown 20230510/d/drca/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-05-10 10:24:15] INFO root fetch - processPackages [acdcserver]: Start processing: premium
+[2023-05-10 10:24:15] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-05-10 10:24:15] INFO root fetch - processPackages [premium]: New version: [23.5.11.1] Old Version: [23.5.10.16]
+[2023-05-10 10:24:16] INFO root fetch - processPackages [premium]: Downloading https://files.pythonhosted.org/packages/97/05/000749350c6249e37eb4b380ee7da01cc399b2301a718df58bb3b20c56c4/premium-23.5.10.16.tar.gz
+[2023-05-10 10:24:16] INFO root fetch - processPackages [awkward]: executing diffoscope
+[2023-05-10 10:24:16] INFO root fetch - processPackages [awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-2.1.4.tar.gz tmp/awkward-2.2.0.tar.gz --markdown 20230510/a/awkward/2.1.4-2.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:16] INFO root fetch - processPackages [premium]: executing diffoscope
+[2023-05-10 10:24:16] INFO root fetch - processPackages [premium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/premium-23.5.10.16.tar.gz tmp/premium-23.5.11.1.tar.gz --markdown 20230510/p/premium/23.5.10.16-23.5.11.1/diff.md --exclude *.pyd
+[2023-05-10 10:24:16] INFO root fetch - processPackages [digital-experiments]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:16] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-05-10 10:24:16] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:16] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:16] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:17] INFO root fetch - processPackages [drca]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:17] INFO root fetch - main [MainThread]: End processing [drca]: success
+[2023-05-10 10:24:17] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:17] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:17] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:18] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: st-text-annotator
+[2023-05-10 10:24:18] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:18] INFO root fetch - processPackages [st-text-annotator]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 10:24:18] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: ht-pricing-module
+[2023-05-10 10:24:18] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ht-pricing-module]: New version: [0.2.0] Old Version: [0.1.37]
+[2023-05-10 10:24:18] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: ykenan-fragments
+[2023-05-10 10:24:18] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor]: success
+[2023-05-10 10:24:18] INFO root fetch - processPackages [st-text-annotator]: executing diffoscope
+[2023-05-10 10:24:18] INFO root fetch - processPackages [st-text-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_text_annotator-0.3.0.tar.gz tmp/st_text_annotator-0.3.1.tar.gz --markdown 20230510/s/st-text-annotator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ykenan-fragments]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ht-pricing-module]: executing diffoscope
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ht-pricing-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ht_pricing_module-0.1.37.tar.gz tmp/ht_pricing_module-0.2.0.tar.gz --markdown 20230510/h/ht-pricing-module/0.1.37-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ykenan-fragments]: executing diffoscope
+[2023-05-10 10:24:18] INFO root fetch - processPackages [ykenan-fragments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_fragments-1.1.8.tar.gz tmp/ykenan_fragments-1.1.9.tar.gz --markdown 20230510/y/ykenan-fragments/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:24:18] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:18] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-05-10 10:24:18] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:18] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:18] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:20] INFO root fetch - processPackages [reqmgr2]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:20] INFO root fetch - processPackages [ykenan-fragments]: Start processing: hydra-genetics
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [ykenan-fragments]: success
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:20] INFO root fetch - processPackages [hydra-genetics]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: tastytrade-sdk
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 10:24:20] INFO root fetch - processPackages [hydra-genetics]: executing diffoscope
+[2023-05-10 10:24:20] INFO root fetch - processPackages [hydra-genetics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra-genetics-1.1.0.tar.gz tmp/hydra-genetics-1.2.0.tar.gz --markdown 20230510/h/hydra-genetics/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 10:24:20] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 10:24:20] INFO root fetch - processPackages [reqmon]: Start processing: chronus
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [ht-pricing-module]: success
+[2023-05-10 10:24:20] INFO root fetch - processPackages [chronus]: New version: [0.3.0] Old Version: [0.2.3]
+[2023-05-10 10:24:20] INFO root fetch - main [MainThread]: End processing [st-text-annotator]: success
+[2023-05-10 10:24:20] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/cf/ee/48634f186039a507b5669c782f0bd5c8888de0fdd37711b7f23b40fe59d6/chronus-0.2.3.tar.gz
+[2023-05-10 10:24:21] INFO root fetch - processPackages [chronus]: Downloading https://files.pythonhosted.org/packages/a3/89/c05087848ba3f23b826c9a4e3183b49081d57c31052f374dc2f6993f4c9d/chronus-0.3.0.tar.gz
+[2023-05-10 10:24:21] INFO root fetch - processPackages [chronus]: executing diffoscope
+[2023-05-10 10:24:21] INFO root fetch - processPackages [chronus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronus-0.2.3.tar.gz tmp/chronus-0.3.0.tar.gz --markdown 20230510/c/chronus/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 10:24:21] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:21] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 10:24:22] INFO root fetch - main [MainThread]: End processing [hydra-genetics]: success
+[2023-05-10 10:24:22] INFO root fetch - main [MainThread]: End processing [chronus]: success
+[2023-05-10 10:24:24] INFO root fetch - main [MainThread]: End processing [premium]: success
+[2023-05-10 10:24:30] INFO root fetch - main [MainThread]: End processing [awkward]: success
+[2023-05-10 10:24:38] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-05-10 10:24:59] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-05-10 10:24:59] INFO root fetch - main [MainThread]: Store serial: [18044120]
