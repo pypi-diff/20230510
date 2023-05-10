@@ -2136,3 +2136,173 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 02:43:12] INFO root fetch - main [MainThread]: End processing [hindilemmatizer]: success
 [2023-05-10 02:43:16] INFO root fetch - main [MainThread]: End processing [webint]: success
 [2023-05-10 02:43:16] INFO root fetch - main [MainThread]: Store serial: [18039187]
+[2023-05-10 02:48:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039187]
+[2023-05-10 02:48:25] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: splight-lib
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-comprehend-s3olap
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: canopy-platform
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oloren
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tfds-nightly
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: libcbm
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: silero-api-server
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyroscopegridding
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: airbyte
+[2023-05-10 02:48:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-slack-chatbot
+[2023-05-10 02:48:25] INFO root fetch - processPackages [splight-lib]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [canopy-platform]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [libcbm]: New version: [2.4.4] Old Version: [2.3.5]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [pyroscopegridding]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [airbyte]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [silero-api-server]: New version: [0.1.0] Old Version: [0.0.7]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202305090044] Old Version: [4.9.2.dev202305080044]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230510/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/52/4d/f998cafb1fd39bc36cb339542abc393c1c9bd7b9ce3086d23b11adf26e79/silero_api_server-0.0.7.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [pyroscopegridding]: Downloading https://files.pythonhosted.org/packages/fb/34/a33dc6c889a88b23e571c010ea642e9e61c1c90d62322901490088e0af7d/pyroscopegridding-0.2.8.tar.gz
+[2023-05-10 02:48:25] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Start processing: kubric-nightly
+[2023-05-10 02:48:25] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-05-10 02:48:25] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/30/4a/e7139be971866f46b6ce4c39b6a87a3e07056e7e831f62a580838633a3a6/airbyte-1.9.1.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/56/6c/c756999b130335d63610cf43fb60664241deb09a999160d251c79ab81be4/tfds-nightly-4.9.2.dev202305090044.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230510/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 02:48:25] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/b5/e5/e16a83c99a6f0553aca52dd88521a3f8166c7f04e0d90d4451b0247c8f16/silero_api_server-0.1.0.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [pyroscopegridding]: Downloading https://files.pythonhosted.org/packages/8f/1d/0bdffdb4e3af99a8e212ef24608d9ba208b88d4422e514f45525dfeaba15/pyroscopegridding-0.2.9.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202305080044.tar.gz tmp/tfds-nightly-4.9.2.dev202305090044.tar.gz --markdown 20230510/t/tfds-nightly/4.9.2.dev202305080044-4.9.2.dev202305090044/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [canopy-platform]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [canopy-platform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/canopy-platform-0.0.7.tar.gz tmp/canopy-platform-0.0.9.tar.gz --markdown 20230510/c/canopy-platform/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [splight-lib]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [splight-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splight-lib-2.3.8.tar.gz tmp/splight-lib-2.3.9.tar.gz --markdown 20230510/s/splight-lib/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [libcbm]: Downloading https://files.pythonhosted.org/packages/fa/b1/f86a59d9947bd147d526eb3176b005e45d83c5233d8f4098ff137a05a4be/libcbm-2.4.4-py3-none-any.whl
+[2023-05-10 02:48:25] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.0.7.tar.gz tmp/silero_api_server-0.1.0.tar.gz --markdown 20230510/s/silero-api-server/0.0.7-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e1/14/2b71312aef454c265c5e944b8789dddcf0e02affc21f9dfc50845a315975/kubric-nightly-2023.5.9.tar.gz
+[2023-05-10 02:48:25] INFO root fetch - processPackages [pyroscopegridding]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [pyroscopegridding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscopegridding-0.2.8.tar.gz tmp/pyroscopegridding-0.2.9.tar.gz --markdown 20230510/p/pyroscopegridding/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.1.tar.gz tmp/airbyte-1.9.2.tar.gz --markdown 20230510/a/airbyte/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-10 02:48:25] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-05-10 02:48:25] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.5.8.tar.gz tmp/kubric-nightly-2023.5.9.tar.gz --markdown 20230510/k/kubric-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 02:48:26] INFO root fetch - processPackages [libcbm]: executing diffoscope
+[2023-05-10 02:48:26] INFO root fetch - processPackages [libcbm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcbm-2.3.5-py3-none-any.whl.zip tmp/libcbm-2.4.4-py3-none-any.whl.zip --markdown 20230510/l/libcbm/2.3.5-2.4.4/diff.md --exclude *.pyd
+[2023-05-10 02:48:26] INFO root fetch - processPackages [cdk-slack-chatbot]: Start processing: threadsafe-shell
+[2023-05-10 02:48:26] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-05-10 02:48:26] INFO root fetch - processPackages [threadsafe-shell]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-10 02:48:26] INFO root fetch - processPackages [canopy-platform]: Start processing: layrz-forms
+[2023-05-10 02:48:26] INFO root fetch - main [MainThread]: End processing [canopy-platform]: success
+[2023-05-10 02:48:27] INFO root fetch - processPackages [layrz-forms]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-10 02:48:27] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-05-10 02:48:27] INFO root fetch - processPackages [threadsafe-shell]: Downloading https://files.pythonhosted.org/packages/38/ed/1c194d267a373e19da60d8523277bc3422fe1cf2d1f300d8071a4b988821/threadsafe_shell-1.5.0.tar.gz
+[2023-05-10 02:48:27] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/bb/e1/24f62244503c5c5d44a9d07d3b0e39982d19375df866e7f14f8d50d173be/layrz-forms-1.0.6.tar.gz
+[2023-05-10 02:48:27] INFO root fetch - main [MainThread]: End processing [pyroscopegridding]: success
+[2023-05-10 02:48:27] INFO root fetch - processPackages [threadsafe-shell]: executing diffoscope
+[2023-05-10 02:48:27] INFO root fetch - processPackages [threadsafe-shell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadsafe_shell-1.4.0.tar.gz tmp/threadsafe_shell-1.5.0.tar.gz --markdown 20230510/t/threadsafe-shell/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-10 02:48:27] INFO root fetch - processPackages [layrz-forms]: Downloading https://files.pythonhosted.org/packages/2e/99/7d5674e17da1292a46a5a60048ce5e66cad67f7b6f103f9af46e4f273b1b/layrz-forms-1.0.7.tar.gz
+[2023-05-10 02:48:27] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-05-10 02:48:27] INFO root fetch - processPackages [layrz-forms]: executing diffoscope
+[2023-05-10 02:48:27] INFO root fetch - processPackages [layrz-forms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layrz-forms-1.0.6.tar.gz tmp/layrz-forms-1.0.7.tar.gz --markdown 20230510/l/layrz-forms/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-10 02:48:28] INFO root fetch - main [MainThread]: End processing [threadsafe-shell]: success
+[2023-05-10 02:48:28] INFO root fetch - main [MainThread]: End processing [splight-lib]: success
+[2023-05-10 02:48:28] INFO root fetch - main [MainThread]: End processing [layrz-forms]: success
+[2023-05-10 02:48:28] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-05-10 02:48:34] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-05-10 02:48:40] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-05-10 02:48:55] ERROR root fetch - processPackages [libcbm]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139843195641280)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/ar.py", line 71, in compare_details
+    Difference.from_text_readers(
+  File "/srv/diffoscope/diffoscope/difference.py", line 258, in from_text_readers
+    return Difference.from_feeder(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 79, in feeder
+    for buf in in_file:
+  File "/srv/diffoscope/diffoscope/comparators/utils/libarchive.py", line 127, in list_libarchive
+    for entry in archive:
+  File "/usr/lib/python3/dist-packages/libarchive/read.py", line 26, in __iter__
+    r = read_next_header2(archive_p, entry_p)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 91, in check_int
+    raise archive_error(args[0], retcode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3/dist-packages/libarchive/ffi.py", line 75, in archive_error
+    raise ArchiveError(msg, errno(archive_p), retcode, archive_p)
+libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, archive_p=139843329860368)
+
+[2023-05-10 02:48:55] INFO root fetch - main [MainThread]: End processing [libcbm] error
+[2023-05-10 02:48:55] INFO root fetch - main [MainThread]: Store serial: [18039225]
