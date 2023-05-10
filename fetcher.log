@@ -13781,3 +13781,83 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:19:33] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2023-05-10 12:19:55] INFO root fetch - main [MainThread]: End processing [esi-syncopy]: success
 [2023-05-10 12:19:55] INFO root fetch - main [MainThread]: Store serial: [18045537]
+[2023-05-10 12:25:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045537]
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lleaves
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kotlin-jupyter-kernel
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lupin-grognard
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audioviz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: boris-behav-obs
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jack-rhoas-sdks
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-connector-importer-product
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pycanha-core
+[2023-05-10 12:25:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: get-music-lizhanqi
+[2023-05-10 12:25:05] INFO root fetch - processPackages [lupin-grognard]: New version: [2.0.0.dev0] Old Version: [1.9.0]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [lleaves]: New version: [1.0.0] Old Version: [0.2.6]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [kotlin-jupyter-kernel]: New version: [0.9.1.9] Old Version: [0.9.1.51]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [audioviz]: New version: [0.2.0] Old Version: [0.1.8.dev1]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [boris-behav-obs]: New version: [8.9.8] Old Version: [8.9.6]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: New version: [20230510.10.21.50719] Old Version: [20230509.8.46.966014]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [odoo14-addon-connector-importer-product]: New version: [14.0.2.0.0] Old Version: [14.0.1.1.0]
+[2023-05-10 12:25:05] WARNING root fetch - processPackages [pycanha-core]: Skipping, unable to determine old version
+[2023-05-10 12:25:05] INFO root fetch - processPackages [pycanha-core]: Start processing: dxsp
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: End processing [pycanha-core] error
+[2023-05-10 12:25:05] INFO root fetch - processPackages [get-music-lizhanqi]: New version: [1.2.6] Old Version: [1.2.5]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [jack-rhoas-sdks]: New version: [0.0.3b1] Old Version: [0.0.3]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [dxsp]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-05-10 12:25:05] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/84/d8/070fb52aa873f86e8a019d38a7c7c4dca376350d00e416c60a93da4a7387/kotlin_jupyter_kernel-0.9.1.51-py3-none-any.whl
+[2023-05-10 12:25:05] INFO root fetch - processPackages [lleaves]: Downloading https://files.pythonhosted.org/packages/1e/a8/8ac710d64194be838e18ff097b1dd7c2ce0b1494d4946f1f4e905a273900/lleaves-0.2.6.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Downloading https://files.pythonhosted.org/packages/dd/24/1908b5af9585e13afadde380625bf0c6f2af81e02b915c9fb70919b1ab88/certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes-20230509.8.46.966014.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/2d/3e/6f6c330e82f398b4100063d33d9c4466e119c98f185886c388e40cbf3183/boris-behav-obs-8.9.6.tar.gz
+[2023-05-10 12:25:05] WARNING root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Skipping package: exceeds size limit 39213820>=10485760
+[2023-05-10 12:25:05] INFO root fetch - processPackages [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes]: Start processing: certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gilad-CERT-1843-keep-canon-symbol-prefixes] error
+[2023-05-10 12:25:05] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-10 12:25:05] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.1.5.tar.gz tmp/dxsp-2.1.6.tar.gz --markdown 20230510/d/dxsp/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-05-10 12:25:05] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/cc/ce/ca76002dcada4ab81b6f8140c7f49cdad40a9ec23dc4c5397d2abcd2cd05/get-music-lizhanqi-1.2.5.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [jack-rhoas-sdks]: Downloading https://files.pythonhosted.org/packages/c2/d1/a95a049dcf68a05ccf49cdaeede730ebe37028175cbb1cebef4c00f3dc9c/jack_rhoas_sdks-0.0.3.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [odoo14-addon-connector-importer-product]: Downloading https://files.pythonhosted.org/packages/4f/2f/bcbe5e3735d075aebf3721b4fa7dd4be39e352075df3490b08d2370f0283/odoo14_addon_connector_importer_product-14.0.1.1.0-py3-none-any.whl
+[2023-05-10 12:25:05] WARNING root fetch - processPackages [certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns]: Skipping, unable to determine old version
+[2023-05-10 12:25:05] INFO root fetch - processPackages [certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns]: Start processing: cnac-rac
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-naftali-support-CONSTANT-sumary-for-all-non-dynamic-returns] error
+[2023-05-10 12:25:05] INFO root fetch - processPackages [audioviz]: Downloading https://files.pythonhosted.org/packages/59/91/84369b054e87471d9bf51905f20ae32435c5d01bef905fae40014f6bae39/audioviz-0.2.0.tar.gz
+[2023-05-10 12:25:05] WARNING root fetch - processPackages [kotlin-jupyter-kernel]: Skipping package: exceeds size limit 64206818>=10485760
+[2023-05-10 12:25:05] INFO root fetch - processPackages [kotlin-jupyter-kernel]: Start processing: cefeste
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: End processing [kotlin-jupyter-kernel] error
+[2023-05-10 12:25:05] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/ec/61/d591b4da4a473d967186bcf51a7beb39798ac662501de05288ef16b2a5f4/lupin-grognard-2.0.0.dev0.tar.gz
+[2023-05-10 12:25:05] INFO root fetch - processPackages [cefeste]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 12:25:05] WARNING root fetch - processPackages [cnac-rac]: Skipping, unable to determine old version
+[2023-05-10 12:25:05] INFO root fetch - main [MainThread]: End processing [cnac-rac] error
+[2023-05-10 12:25:06] INFO root fetch - processPackages [get-music-lizhanqi]: Downloading https://files.pythonhosted.org/packages/a3/2a/123dfe47d51ecdf7f4f88ed7a9bdff5b7b4b50f798463892dfb420980a34/get-music-lizhanqi-1.2.6.tar.gz
+[2023-05-10 12:25:06] INFO root fetch - processPackages [audioviz]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [audioviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioviz-0.1.8.dev1.tar.gz tmp/audioviz-0.2.0.tar.gz --markdown 20230510/a/audioviz/0.1.8.dev1-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [jack-rhoas-sdks]: Downloading https://files.pythonhosted.org/packages/32/3f/40b95ea3e01319a3c242c6666258075d8125d920acd4ef10ca112dea100f/jack_rhoas_sdks-0.0.3b1.tar.gz
+[2023-05-10 12:25:06] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.9.0.tar.gz tmp/lupin-grognard-2.0.0.dev0.tar.gz --markdown 20230510/l/lupin-grognard/1.9.0-2.0.0.dev0/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [odoo14-addon-connector-importer-product]: Downloading https://files.pythonhosted.org/packages/e2/27/8ab0f073fd260b249a752d85b2a89b555e947d8db951a2e587ebe00d8e5d/odoo14_addon_connector_importer_product-14.0.2.0.0-py3-none-any.whl
+[2023-05-10 12:25:06] INFO root fetch - processPackages [lleaves]: Downloading https://files.pythonhosted.org/packages/9b/8e/d543b29eac26b8ab47f1083bf36e29b3aaafb0dc1a38f5bea7045c171fc6/lleaves-1.0.0.tar.gz
+[2023-05-10 12:25:06] INFO root fetch - processPackages [boris-behav-obs]: Downloading https://files.pythonhosted.org/packages/bf/55/6955e9da039eb026b773b540596c8bc85b790aeea5a08d162704522d2174/boris-behav-obs-8.9.8.tar.gz
+[2023-05-10 12:25:06] INFO root fetch - processPackages [get-music-lizhanqi]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [get-music-lizhanqi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-music-lizhanqi-1.2.5.tar.gz tmp/get-music-lizhanqi-1.2.6.tar.gz --markdown 20230510/g/get-music-lizhanqi/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [jack-rhoas-sdks]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [jack-rhoas-sdks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jack_rhoas_sdks-0.0.3.tar.gz tmp/jack_rhoas_sdks-0.0.3b1.tar.gz --markdown 20230510/j/jack-rhoas-sdks/0.0.3-0.0.3b1/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [boris-behav-obs]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [boris-behav-obs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boris-behav-obs-8.9.6.tar.gz tmp/boris-behav-obs-8.9.8.tar.gz --markdown 20230510/b/boris-behav-obs/8.9.6-8.9.8/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [odoo14-addon-connector-importer-product]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [odoo14-addon-connector-importer-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_connector_importer_product-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_connector_importer_product-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-connector-importer-product/14.0.1.1.0-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [cefeste]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [cefeste]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cefeste-1.1.0.tar.gz tmp/cefeste-1.1.1.tar.gz --markdown 20230510/c/cefeste/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 12:25:06] INFO root fetch - processPackages [lleaves]: executing diffoscope
+[2023-05-10 12:25:06] INFO root fetch - processPackages [lleaves]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lleaves-0.2.6.tar.gz tmp/lleaves-1.0.0.tar.gz --markdown 20230510/l/lleaves/0.2.6-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 12:25:07] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-10 12:25:07] INFO root fetch - main [MainThread]: End processing [audioviz]: success
+[2023-05-10 12:25:07] INFO root fetch - main [MainThread]: End processing [odoo14-addon-connector-importer-product]: success
+[2023-05-10 12:25:07] INFO root fetch - main [MainThread]: End processing [get-music-lizhanqi]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [jack-rhoas-sdks]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [cefeste]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [boris-behav-obs]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: End processing [lleaves]: success
+[2023-05-10 12:25:08] INFO root fetch - main [MainThread]: Store serial: [18045580]
