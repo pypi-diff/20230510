@@ -1430,3 +1430,58 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 01:57:38] INFO root fetch - processPackages [nsdotpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsdotpy-1.2.6.tar.gz tmp/nsdotpy-1.2.7.tar.gz --markdown 20230510/n/nsdotpy/1.2.6-1.2.7/diff.md --exclude *.pyd
 [2023-05-10 01:57:39] INFO root fetch - main [MainThread]: End processing [nsdotpy]: success
 [2023-05-10 01:57:39] INFO root fetch - main [MainThread]: Store serial: [18038774]
+[2023-05-10 02:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18038774]
+[2023-05-10 02:02:47] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ncconvert
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flake8-bugbear
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otx
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xcpcio-board-spider
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysparkler
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tastytrade-sdk
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: certora-cli-alpha-shelly-nightlyfixes
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pysolarmanv5
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-beta
+[2023-05-10 02:02:47] INFO root fetch - processPackages [otx]: New version: [1.2.1rc5] Old Version: [1.2.1rc4]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [ncconvert]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [flake8-bugbear]: New version: [23.5.9] Old Version: [23.3.23]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 02:02:47] WARNING root fetch - processPackages [certora-cli-alpha-shelly-nightlyfixes]: Skipping, unable to determine old version
+[2023-05-10 02:02:47] INFO root fetch - processPackages [xcpcio-board-spider]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 02:02:47] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-shelly-nightlyfixes] error
+[2023-05-10 02:02:47] INFO root fetch - processPackages [pysparkler]: New version: [0.7.dev1683676746] Old Version: [0.7.dev1683673164]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 02:02:47] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 02:02:47] INFO root fetch - processPackages [xcpcio-board-spider]: executing diffoscope
+[2023-05-10 02:02:47] INFO root fetch - processPackages [xcpcio-board-spider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcpcio_board_spider-0.0.8.tar.gz tmp/xcpcio_board_spider-0.0.9.tar.gz --markdown 20230510/x/xcpcio-board-spider/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:02:47] INFO root fetch - processPackages [pysolarmanv5]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-10 02:02:47] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/a9/03/462e4f8dbc4b71c477b1c95f52c4ba008bd88c5fa344922e3549e4ab67ab/otx-1.2.1rc4.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/7a/1a/3321cf058a97cdf9096b61f27d880f6a8ee0cbfb7bfae42dbfd66cd9dd9e/flake8-bugbear-23.3.23.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [ncconvert]: Downloading https://files.pythonhosted.org/packages/30/3d/2eff7f23e0e8264a5d9402eccefa17f4a6bdff834b0ca824ca519874457f/ncconvert-0.1.1.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysparkler]: Downloading https://files.pythonhosted.org/packages/07/25/a7b0277a53fbaeb8c642deee0740209dcb3c54535bac01828e01d8d79a82/pysparkler-0.7.dev1683676746.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysolarmanv5]: Downloading https://files.pythonhosted.org/packages/63/db/bc61a6b050fd52e294fc63db4f8db11a2a79cbefe278ff46d8975b41c02a/pysolarmanv5-2.4.0.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/75/83/f1880ebf286443f703a55c046ab2e330e3b03a6b844d9831af1c4fefcc75/certora-cli-beta-4.0.1.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/33/13/f40f36309d1f483f4a829a408883a8925a4709b7d955582c2aa14908afbb/flake8-bugbear-23.5.9.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysparkler]: executing diffoscope
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysparkler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysparkler-0.7.dev1683673164.tar.gz tmp/pysparkler-0.7.dev1683676746.tar.gz --markdown 20230510/p/pysparkler/0.7.dev1683673164-0.7.dev1683676746/diff.md --exclude *.pyd
+[2023-05-10 02:02:48] INFO root fetch - processPackages [ncconvert]: Downloading https://files.pythonhosted.org/packages/ae/6f/ee9bfa45d7542a18a87b1dba78d133c99fe39a543b77430213a341ed1d49/ncconvert-0.1.2.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [flake8-bugbear]: executing diffoscope
+[2023-05-10 02:02:48] INFO root fetch - processPackages [flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flake8-bugbear-23.3.23.tar.gz tmp/flake8-bugbear-23.5.9.tar.gz --markdown 20230510/f/flake8-bugbear/23.3.23-23.5.9/diff.md --exclude *.pyd
+[2023-05-10 02:02:48] INFO root fetch - processPackages [otx]: Downloading https://files.pythonhosted.org/packages/33/8a/74a28e5197c81d7cbfddb111db5a0edd5130f96bdce5020458564182760f/otx-1.2.1rc5.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysolarmanv5]: Downloading https://files.pythonhosted.org/packages/f2/6b/477daf63058ebf69ef9a5a4f161e2b8e2ed9cdc320e6a72f1639e91d1d5f/pysolarmanv5-2.5.0.tar.gz
+[2023-05-10 02:02:48] INFO root fetch - processPackages [ncconvert]: executing diffoscope
+[2023-05-10 02:02:48] INFO root fetch - processPackages [ncconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncconvert-0.1.1.tar.gz tmp/ncconvert-0.1.2.tar.gz --markdown 20230510/n/ncconvert/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysolarmanv5]: executing diffoscope
+[2023-05-10 02:02:48] INFO root fetch - processPackages [pysolarmanv5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysolarmanv5-2.4.0.tar.gz tmp/pysolarmanv5-2.5.0.tar.gz --markdown 20230510/p/pysolarmanv5/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-05-10 02:02:48] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 38480900>=10485760
+[2023-05-10 02:02:48] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-05-10 02:02:48] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 02:02:49] INFO root fetch - main [MainThread]: End processing [xcpcio-board-spider]: success
+[2023-05-10 02:02:49] INFO root fetch - main [MainThread]: End processing [pysparkler]: success
+[2023-05-10 02:02:49] INFO root fetch - processPackages [otx]: executing diffoscope
+[2023-05-10 02:02:49] INFO root fetch - processPackages [otx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otx-1.2.1rc4.tar.gz tmp/otx-1.2.1rc5.tar.gz --markdown 20230510/o/otx/1.2.1rc4-1.2.1rc5/diff.md --exclude *.pyd
+[2023-05-10 02:02:49] INFO root fetch - main [MainThread]: End processing [flake8-bugbear]: success
+[2023-05-10 02:02:49] INFO root fetch - main [MainThread]: End processing [ncconvert]: success
+[2023-05-10 02:02:49] INFO root fetch - main [MainThread]: End processing [pysolarmanv5]: success
+[2023-05-10 02:03:26] INFO root fetch - main [MainThread]: End processing [otx]: success
+[2023-05-10 02:03:26] INFO root fetch - main [MainThread]: Store serial: [18038802]
