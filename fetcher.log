@@ -21906,3 +21906,37 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:13:25] INFO root fetch - main [MainThread]: End processing [ranzen]: success
 [2023-05-10 19:13:26] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2023-05-10 19:13:26] INFO root fetch - main [MainThread]: Store serial: [18050454]
+[2023-05-10 19:18:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050454]
+[2023-05-10 19:18:35] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hexwatershed
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: haicu
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: codeoffer
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satanua
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cliconfig
+[2023-05-10 19:18:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calibrationframework
+[2023-05-10 19:18:35] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 19:18:35] INFO root fetch - processPackages [codeoffer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-10 19:18:36] WARNING root fetch - processPackages [satanua]: Skipping, unable to determine old version
+[2023-05-10 19:18:36] INFO root fetch - main [MainThread]: End processing [satanua] error
+[2023-05-10 19:18:36] INFO root fetch - processPackages [haicu]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-10 19:18:36] INFO root fetch - processPackages [cliconfig]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-05-10 19:18:36] WARNING root fetch - processPackages [calibrationframework]: Skipping, unable to determine old version
+[2023-05-10 19:18:36] INFO root fetch - main [MainThread]: End processing [calibrationframework] error
+[2023-05-10 19:18:36] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-10 19:18:36] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.7.tar.gz tmp/hexwatershed-0.2.8.tar.gz --markdown 20230510/h/hexwatershed/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 19:18:36] INFO root fetch - processPackages [codeoffer]: Downloading https://files.pythonhosted.org/packages/49/a9/0584f400cabcbe19f7925aef7ecb42be1e2e395e86566e0c84fc6018288c/codeoffer-1.0.2.tar.gz
+[2023-05-10 19:18:36] INFO root fetch - processPackages [haicu]: Downloading https://files.pythonhosted.org/packages/84/34/cc9687989036d82c41844c74325af7c2b656de248efdf670d8dd5780ebfd/haicu-0.8.2.tar.gz
+[2023-05-10 19:18:36] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/d6/c6/2a6dfe82e8a74879fa5de70e17ee1be8bfad268a6918f403397c9256097e/cliconfig-0.4.1.tar.gz
+[2023-05-10 19:18:36] INFO root fetch - processPackages [haicu]: Downloading https://files.pythonhosted.org/packages/a5/89/bfd374878c384c2fe73e07389cfa075f82e441612032933912d1ac1a09ac/haicu-0.8.3.tar.gz
+[2023-05-10 19:18:36] INFO root fetch - processPackages [cliconfig]: Downloading https://files.pythonhosted.org/packages/bd/86/2f447e22eab445b8d20d20a97d7a02d7e0a03d529e6e34134c845d90cd33/cliconfig-0.4.2.tar.gz
+[2023-05-10 19:18:36] INFO root fetch - processPackages [haicu]: executing diffoscope
+[2023-05-10 19:18:36] INFO root fetch - processPackages [haicu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haicu-0.8.2.tar.gz tmp/haicu-0.8.3.tar.gz --markdown 20230510/h/haicu/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-10 19:18:36] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-10 19:18:36] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.4.1.tar.gz tmp/cliconfig-0.4.2.tar.gz --markdown 20230510/c/cliconfig/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-05-10 19:18:37] INFO root fetch - processPackages [codeoffer]: executing diffoscope
+[2023-05-10 19:18:37] INFO root fetch - processPackages [codeoffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoffer-1.0.1.tar.gz tmp/codeoffer-1.0.2.tar.gz --markdown 20230510/c/codeoffer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-10 19:18:37] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-10 19:18:37] INFO root fetch - main [MainThread]: End processing [haicu]: success
+[2023-05-10 19:18:38] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-10 19:19:16] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
+[2023-05-10 19:19:16] INFO root fetch - main [MainThread]: Store serial: [18050481]
