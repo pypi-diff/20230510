@@ -18768,3 +18768,109 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:28:36] INFO root fetch - main [MainThread]: End processing [pytket-qulacs]: success
 [2023-05-10 16:29:34] INFO root fetch - main [MainThread]: End processing [argilla]: success
 [2023-05-10 16:29:34] INFO root fetch - main [MainThread]: Store serial: [18048418]
+[2023-05-10 16:34:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048418]
+[2023-05-10 16:34:43] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fsst
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: multiviewdata
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cnert
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tecton
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: whyqd
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: venv-modulefile
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satpy
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: text2story
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kr8s
+[2023-05-10 16:34:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: chytorch-rxnmap
+[2023-05-10 16:34:44] INFO root fetch - processPackages [cnert]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [fsst]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [whyqd]: New version: [1.0.0] Old Version: [0.6.2]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [kr8s]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [chytorch-rxnmap]: New version: [1.4] Old Version: [1.3]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [multiviewdata]: New version: [0.7] Old Version: [0.6]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [text2story]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [satpy]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/ef/7f/6fa89ed9c6e9b7b623156e0fbf76da6b7b6b4d70805e18e05d5b09817338/kr8s-0.3.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/e3/ef/b8cf8b01bc081db1b77f1c37b3a4dab5f0c7b4a970c895e9885da7ce4f81/venv-modulefile-0.0.8.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/64/a0/6f2146ba3b479b95911cb32ebc75251028f4fdef351a8dd996d9375f2cf9/whyqd-0.6.2.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/99/4e/f2919cbb4f7cbbc52a0b0941d1dadfa2b4ae32f861bcbf8f32fad468f59c/text2story-1.2.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [chytorch-rxnmap]: Downloading https://files.pythonhosted.org/packages/24/b4/6143834701c3663834d5a0059f2b4d67247d9d7ff4b38e3ec71875df600b/chytorch_rxnmap-1.3-py3-none-any.whl
+[2023-05-10 16:34:44] INFO root fetch - processPackages [satpy]: Downloading https://files.pythonhosted.org/packages/d4/03/9b1c911b623622b0e5930e9e95074a7ee9f25f8ba07d4c1d57686b541754/satpy-0.9.3.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [fsst]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [fsst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsst-0.8.8.tar.gz tmp/fsst-0.8.9.tar.gz --markdown 20230510/f/fsst/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] WARNING root fetch - processPackages [chytorch-rxnmap]: Skipping package: exceeds size limit 79036720>=10485760
+[2023-05-10 16:34:44] INFO root fetch - processPackages [chytorch-rxnmap]: Start processing: NbRisk
+[2023-05-10 16:34:44] INFO root fetch - main [MainThread]: End processing [chytorch-rxnmap] error
+[2023-05-10 16:34:44] INFO root fetch - processPackages [multiviewdata]: Downloading https://files.pythonhosted.org/packages/44/34/9cfebfa2eef84185e53e5faa4e21dfe4a41bb54e2a8096e4637c47ca03d5/multiviewdata-0.7.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [NbRisk]: New version: [35.0.0] Old Version: [34.0.0]
+[2023-05-10 16:34:44] INFO root fetch - processPackages [cnert]: Downloading https://files.pythonhosted.org/packages/6e/92/b5afb6972da56acd838c74f9c9e94972fb4b0cb901c5a5070c992614557f/cnert-0.5.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.1.9.tar.gz tmp/text2story-1.2.0.tar.gz --markdown 20230510/t/text2story/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230510/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [kr8s]: Downloading https://files.pythonhosted.org/packages/2b/41/70c075d0f577aa3b76ae55de4eab421b10310c02baa249175a49d83fe076/kr8s-0.4.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [venv-modulefile]: Downloading https://files.pythonhosted.org/packages/d5/60/80a53d7bc72f5ac6881d3dc4d7c923dc5d47b6594995001dfa76e8766f92/venv-modulefile-0.0.9.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [multiviewdata]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [multiviewdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiviewdata-0.6.tar.gz tmp/multiviewdata-0.7.tar.gz --markdown 20230510/m/multiviewdata/0.6-0.7/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [kr8s]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [kr8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kr8s-0.3.0.tar.gz tmp/kr8s-0.4.0.tar.gz --markdown 20230510/k/kr8s/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/29/d0/ef2e1130d62a45b9a1b579fa6fd555009498fd7556c71d2a0e72dbe3739b/NbRisk-35.0.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [cnert]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [cnert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cnert-0.4.0.tar.gz tmp/cnert-0.5.0.tar.gz --markdown 20230510/c/cnert/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [whyqd]: Downloading https://files.pythonhosted.org/packages/32/13/cfc4dcea69b127e3ed22ade545149e560364c366ae8519c0c86fbb4babce/whyqd-1.0.0.tar.gz
+[2023-05-10 16:34:44] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-05-10 16:34:44] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-34.0.0.tar.gz tmp/NbRisk-35.0.0.tar.gz --markdown 20230510/N/NbRisk/34.0.0-35.0.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:44] INFO root fetch - processPackages [satpy]: Downloading https://files.pythonhosted.org/packages/2f/56/11aed07191781fa2d5d61309c4d7865c609a9b968782b24fd9e29e964942/satpy-0.9.4.tar.gz
+[2023-05-10 16:34:45] INFO root fetch - processPackages [satpy]: executing diffoscope
+[2023-05-10 16:34:45] INFO root fetch - processPackages [satpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satpy-0.9.3.tar.gz tmp/satpy-0.9.4.tar.gz --markdown 20230510/s/satpy/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-10 16:34:45] INFO root fetch - processPackages [whyqd]: executing diffoscope
+[2023-05-10 16:34:45] INFO root fetch - processPackages [whyqd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whyqd-0.6.2.tar.gz tmp/whyqd-1.0.0.tar.gz --markdown 20230510/w/whyqd/0.6.2-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:46] INFO root fetch - processPackages [multiviewdata]: Start processing: openghg
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [multiviewdata]: success
+[2023-05-10 16:34:46] INFO root fetch - processPackages [openghg]: New version: [1.0.0] Old Version: [0.5.1]
+[2023-05-10 16:34:46] INFO root fetch - processPackages [cnert]: Start processing: drvaroz-scoi-lab3-json-xml-serializer
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [cnert]: success
+[2023-05-10 16:34:46] WARNING root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: Skipping, unable to determine old version
+[2023-05-10 16:34:46] INFO root fetch - processPackages [drvaroz-scoi-lab3-json-xml-serializer]: Start processing: pulumi-azuredevops
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [drvaroz-scoi-lab3-json-xml-serializer] error
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-azuredevops]: New version: [2.8.0a1683661270] Old Version: [2.8.0]
+[2023-05-10 16:34:46] INFO root fetch - processPackages [openghg]: Downloading https://files.pythonhosted.org/packages/48/de/57ec44db8cbde1d09a183cc8d98f378b594f72ff5562b3646ffe71226e90/openghg-0.5.1.tar.gz
+[2023-05-10 16:34:46] INFO root fetch - processPackages [fsst]: Start processing: pulumi-kubernetes
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [fsst]: success
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-kubernetes]: New version: [3.9.0] Old Version: [3.8.3]
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-azuredevops]: Downloading https://files.pythonhosted.org/packages/a7/45/14f71edbdfb2286fbecac57755e7c630a86f7f91787368e168b510d1f17d/pulumi_azuredevops-2.8.0.tar.gz
+[2023-05-10 16:34:46] INFO root fetch - processPackages [venv-modulefile]: Start processing: chytorch
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/ba/a4/6c41a4f50461ed3028a83a534b2370550bfd5ae0fb6dd3efba44e06a2547/pulumi_kubernetes-3.8.3.tar.gz
+[2023-05-10 16:34:46] INFO root fetch - processPackages [NbRisk]: Start processing: zonesmart-utils
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-05-10 16:34:46] INFO root fetch - processPackages [openghg]: Downloading https://files.pythonhosted.org/packages/1f/53/b626f84a9f9301ddb9877d6a3c63a5eba6f17040b4373036d103f2799939/openghg-1.0.0.tar.gz
+[2023-05-10 16:34:46] INFO root fetch - processPackages [chytorch]: New version: [1.7] Old Version: [1.5]
+[2023-05-10 16:34:46] INFO root fetch - main [MainThread]: End processing [kr8s]: success
+[2023-05-10 16:34:46] INFO root fetch - processPackages [zonesmart-utils]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-azuredevops]: executing diffoscope
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-azuredevops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_azuredevops-2.8.0.tar.gz tmp/pulumi_azuredevops-2.8.0a1683661270.tar.gz --markdown 20230510/p/pulumi-azuredevops/2.8.0-2.8.0a1683661270/diff.md --exclude *.pyd
+[2023-05-10 16:34:46] INFO root fetch - processPackages [chytorch]: Downloading https://files.pythonhosted.org/packages/53/8b/f49a4c420acf06c9661d3bf49cf06661866669520f508c61d3125ab9ca64/chytorch-1.5-py3-none-any.whl
+[2023-05-10 16:34:46] INFO root fetch - processPackages [pulumi-kubernetes]: Downloading https://files.pythonhosted.org/packages/0f/a9/6759fd282fa569f4592dc30878e4ced26d260895c12602ac69c7737fe07f/pulumi_kubernetes-3.9.0.tar.gz
+[2023-05-10 16:34:47] INFO root fetch - main [MainThread]: End processing [whyqd]: success
+[2023-05-10 16:34:47] INFO root fetch - processPackages [zonesmart-utils]: Downloading https://files.pythonhosted.org/packages/d3/fb/ef5ceab2c6a50cd3b709d81d0ef3ffafa4d83f0803b4f144455f610a99bb/zonesmart-utils-0.3.0.tar.gz
+[2023-05-10 16:34:47] INFO root fetch - processPackages [chytorch]: Downloading https://files.pythonhosted.org/packages/85/de/ef4e8ebd21f95ab0cafc4fb66832702b0d1735eaa2a8edca42cb538b1fe4/chytorch-1.7-py3-none-any.whl
+[2023-05-10 16:34:47] INFO root fetch - processPackages [zonesmart-utils]: executing diffoscope
+[2023-05-10 16:34:47] INFO root fetch - processPackages [zonesmart-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonesmart-utils-0.2.9.tar.gz tmp/zonesmart-utils-0.3.0.tar.gz --markdown 20230510/z/zonesmart-utils/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:47] INFO root fetch - processPackages [chytorch]: executing diffoscope
+[2023-05-10 16:34:47] INFO root fetch - processPackages [chytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chytorch-1.5-py3-none-any.whl.zip tmp/chytorch-1.7-py3-none-any.whl.zip --markdown 20230510/c/chytorch/1.5-1.7/diff.md --exclude *.pyd
+[2023-05-10 16:34:47] INFO root fetch - processPackages [pulumi-kubernetes]: executing diffoscope
+[2023-05-10 16:34:47] INFO root fetch - processPackages [pulumi-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_kubernetes-3.8.3.tar.gz tmp/pulumi_kubernetes-3.9.0.tar.gz --markdown 20230510/p/pulumi-kubernetes/3.8.3-3.9.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:47] INFO root fetch - processPackages [openghg]: executing diffoscope
+[2023-05-10 16:34:47] INFO root fetch - processPackages [openghg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openghg-0.5.1.tar.gz tmp/openghg-1.0.0.tar.gz --markdown 20230510/o/openghg/0.5.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 16:34:47] INFO root fetch - main [MainThread]: End processing [satpy]: success
+[2023-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [chytorch]: success
+[2023-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [pulumi-azuredevops]: success
+[2023-05-10 16:34:48] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-10 16:34:49] INFO root fetch - main [MainThread]: End processing [openghg]: success
+[2023-05-10 16:34:49] INFO root fetch - main [MainThread]: End processing [zonesmart-utils]: success
+[2023-05-10 16:34:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
+[2023-05-10 16:34:52] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-05-10 16:34:52] INFO root fetch - main [MainThread]: Store serial: [18048466]
