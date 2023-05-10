@@ -10446,3 +10446,84 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 09:39:43] INFO root fetch - main [MainThread]: End processing [fattureincloud-python-sdk]: success
 [2023-05-10 09:39:48] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-05-10 09:39:48] INFO root fetch - main [MainThread]: Store serial: [18043588]
+[2023-05-10 09:44:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043588]
+[2023-05-10 09:44:57] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2xgrader
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-cli
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: a2
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepdataspace
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-stock-barcodes
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-stock-barcodes
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-barcodes
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: protloc-mex1
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-barcodes-generator-product
+[2023-05-10 09:44:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alibabacloud-avatar20220130-py2
+[2023-05-10 09:44:58] INFO root fetch - processPackages [e2xgrader]: New version: [0.1.0.dev1] Old Version: [0.1.0.dev0]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: New version: [15.0.1.2.2.4] Old Version: [15.0.1.2.2.3]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: New version: [14.0.2.2.2.dev2] Old Version: [14.0.2.2.2.dev1]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: New version: [12.0.2.3.0.99.dev6] Old Version: [12.0.2.3.0.99.dev5]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [a2]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-10 09:44:58] WARNING root fetch - processPackages [deepdataspace]: Skipping, unable to determine old version
+[2023-05-10 09:44:58] INFO root fetch - processPackages [protloc-mex1]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [deepdataspace]: Start processing: alibabacloud-avatar20220130
+[2023-05-10 09:44:58] INFO root fetch - main [MainThread]: End processing [deepdataspace] error
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [oarepo-cli]: New version: [11.0.8] Old Version: [11.0.7]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [e2xgrader]: Downloading https://files.pythonhosted.org/packages/23/d9/c39bf914a8260675c64a03ae121f529763252637367040f82be619a0353d/e2xgrader-0.1.0.dev0.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/af/60/a5214eaf97440f2a7a7ee0c017bd7064e8873a7adbaa3fca88e0319c1887/odoo14_addon_stock_barcodes-14.0.2.2.2.dev1-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/57/f6/b25cb64683a59cb7b50e30c886972c542fb0f5b79301c9f927eaa8252274/odoo_addon_stock_barcodes-15.0.1.2.2.3-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [alibabacloud-avatar20220130]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 09:44:58] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/00/e0/e5231bfe343cdcd919ac1a20a3230cecf35ffa11c3fdf2e1daa6ded2c57b/protloc_mex1-0.0.3.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/ac/4c/ae198a4fcbcb210ad0cbf6500df265095f49275cc97bc465281d668b3843/alibabacloud_avatar20220130_py2-1.0.2.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/13/5e/7c987605af62aec987c4ee817c32a1f1dccae97f53623d4caf4d18e3d9b2/oarepo-cli-11.0.7.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/03/34/ca599aa67427dcbe7584e33fc50674a58bc2f7678266058efee794476a07/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev5-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [a2]: Downloading https://files.pythonhosted.org/packages/66/b8/c812e83633b57c188413563ba8a954ae0fbf5b6e08b8274696c84397036d/a2-0.3.4.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/1b/e7/6d3f16f8c29dfdf891000eb476e4ba05577f7761e7c48d2525393dbb48e8/odoo14_addon_stock_barcodes-14.0.2.2.2.dev2-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Downloading https://files.pythonhosted.org/packages/00/3e/d6903597801a7e3936c250149dd0cb203f5e6b4ec48fdb4d69eac3242b9b/odoo_addon_barcodes_generator_product-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [protloc-mex1]: Downloading https://files.pythonhosted.org/packages/ac/95/738f26fe0c5571d25c7769980b3673e1d6c6aa83c0429eb81c821f061e85/protloc_mex1-0.0.4.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [e2xgrader]: Downloading https://files.pythonhosted.org/packages/d1/66/8c7feccb1c67702b54db177d7ae1ed679704886f0acbc8611cd6208a4abb/e2xgrader-0.1.0.dev1.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/bc/be/7f3e94833e1c826dacc5b8da652c1cfd5e2a03b13215a584b63219dca70c/odoo_addon_stock_barcodes-15.0.1.2.2.4-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/4b/a0/6a2a2e8ff44efdba82be0a18fd74ded8f0ce81b1d6dd876f82c0c84b6521/alibabacloud_avatar20220130-1.0.8.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [a2]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [protloc-mex1]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [a2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a2-0.3.3.tar.gz tmp/a2-0.3.4.tar.gz --markdown 20230510/a/a2/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [protloc-mex1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/protloc_mex1-0.0.3.tar.gz tmp/protloc_mex1-0.0.4.tar.gz --markdown 20230510/p/protloc-mex1/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_barcodes_generator_product-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_barcodes_generator_product-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-barcodes-generator-product/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [e2xgrader]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [e2xgrader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2xgrader-0.1.0.dev0.tar.gz tmp/e2xgrader-0.1.0.dev1.tar.gz --markdown 20230510/e/e2xgrader/0.1.0.dev0-0.1.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes-15.0.1.2.2.3-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes-15.0.1.2.2.4-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-stock-barcodes/15.0.1.2.2.3-15.0.1.2.2.4/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [oarepo-cli]: Downloading https://files.pythonhosted.org/packages/e6/3e/4471d2f6de859114e7b33494f9ae4f6101321c300c602caaa133c3e170fc/oarepo-cli-11.0.8.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: Downloading https://files.pythonhosted.org/packages/24/54/b74d23547b44c5f4f5fc8e9a3db510f9e11eabcd357c464590fdd9af7ee1/alibabacloud_avatar20220130_py2-1.0.3.tar.gz
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo14-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_stock_barcodes-14.0.2.2.2.dev2-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-stock-barcodes/14.0.2.2.2.dev1-14.0.2.2.2.dev2/diff.md --exclude *.pyd
+[2023-05-10 09:44:58] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: Downloading https://files.pythonhosted.org/packages/d0/a1/12e6cd394ec328002cdf58798d9f6c8329847e73f0214cd122e9e6e618b8/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev6-py3-none-any.whl
+[2023-05-10 09:44:58] INFO root fetch - processPackages [oarepo-cli]: executing diffoscope
+[2023-05-10 09:44:58] INFO root fetch - processPackages [oarepo-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-cli-11.0.7.tar.gz tmp/oarepo-cli-11.0.8.tar.gz --markdown 20230510/o/oarepo-cli/11.0.7-11.0.8/diff.md --exclude *.pyd
+[2023-05-10 09:44:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: executing diffoscope
+[2023-05-10 09:44:59] INFO root fetch - processPackages [odoo12-addon-stock-barcodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_stock_barcodes-12.0.2.3.0.99.dev6-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-stock-barcodes/12.0.2.3.0.99.dev5-12.0.2.3.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-10 09:44:59] INFO root fetch - processPackages [alibabacloud-avatar20220130]: Downloading https://files.pythonhosted.org/packages/1d/b4/4bb6f09cc7b58637e751863262974a4cb14ab1d86ab3e80fe0ef8fa9db9a/alibabacloud_avatar20220130-1.0.9.tar.gz
+[2023-05-10 09:44:59] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: executing diffoscope
+[2023-05-10 09:44:59] INFO root fetch - processPackages [alibabacloud-avatar20220130-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130_py2-1.0.2.tar.gz tmp/alibabacloud_avatar20220130_py2-1.0.3.tar.gz --markdown 20230510/a/alibabacloud-avatar20220130-py2/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 09:44:59] INFO root fetch - processPackages [alibabacloud-avatar20220130]: executing diffoscope
+[2023-05-10 09:44:59] INFO root fetch - processPackages [alibabacloud-avatar20220130]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_avatar20220130-1.0.8.tar.gz tmp/alibabacloud_avatar20220130-1.0.9.tar.gz --markdown 20230510/a/alibabacloud-avatar20220130/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 09:45:00] INFO root fetch - processPackages [odoo-addon-barcodes-generator-product]: Start processing: ms-entropy
+[2023-05-10 09:45:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-barcodes-generator-product]: success
+[2023-05-10 09:45:00] INFO root fetch - processPackages [ms-entropy]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-10 09:45:00] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130-py2]: success
+[2023-05-10 09:45:00] INFO root fetch - main [MainThread]: End processing [oarepo-cli]: success
+[2023-05-10 09:45:00] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/ba/6e/dea9f42ff6a0d3ea8c4c52b67b7c8a875dfceff995ed8f2cc51906c21f87/ms_entropy-0.4.2.tar.gz
+[2023-05-10 09:45:00] INFO root fetch - main [MainThread]: End processing [odoo12-addon-stock-barcodes]: success
+[2023-05-10 09:45:00] INFO root fetch - main [MainThread]: End processing [protloc-mex1]: success
+[2023-05-10 09:45:01] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
+[2023-05-10 09:45:01] INFO root fetch - processPackages [ms-entropy]: Downloading https://files.pythonhosted.org/packages/06/ae/7cdee517742a1a057ccedcacc0131cd468eef6d62116bc0e84aecdd391d4/ms_entropy-0.5.0.tar.gz
+[2023-05-10 09:45:01] INFO root fetch - main [MainThread]: End processing [alibabacloud-avatar20220130]: success
+[2023-05-10 09:45:01] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-barcodes]: success
+[2023-05-10 09:45:01] INFO root fetch - processPackages [ms-entropy]: executing diffoscope
+[2023-05-10 09:45:01] INFO root fetch - processPackages [ms-entropy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_entropy-0.4.2.tar.gz tmp/ms_entropy-0.5.0.tar.gz --markdown 20230510/m/ms-entropy/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 09:45:02] INFO root fetch - main [MainThread]: End processing [ms-entropy]: success
+[2023-05-10 09:45:04] INFO root fetch - main [MainThread]: End processing [e2xgrader]: success
+[2023-05-10 09:45:08] INFO root fetch - main [MainThread]: End processing [a2]: success
+[2023-05-10 09:45:08] INFO root fetch - main [MainThread]: Store serial: [18043624]
