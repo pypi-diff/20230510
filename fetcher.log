@@ -18874,3 +18874,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:34:51] INFO root fetch - main [MainThread]: End processing [pulumi-kubernetes]: success
 [2023-05-10 16:34:52] INFO root fetch - main [MainThread]: End processing [tecton]: success
 [2023-05-10 16:34:52] INFO root fetch - main [MainThread]: Store serial: [18048466]
+[2023-05-10 16:40:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048466]
+[2023-05-10 16:40:08] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: animegifs
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lazycsv
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scaleapi
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dialogy
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foru
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qwertyenv
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: twitter-api-py
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devind-dictionaries
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsolve
+[2023-05-10 16:40:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: omicscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [animegifs]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qwertyenv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [lazycsv]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [omicscope]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qsolve]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [dialogy]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [devind-dictionaries]: New version: [1.0.0] Old Version: [0.9.0]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [twitter-api-py]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [scaleapi]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-05-10 16:40:08] WARNING root fetch - processPackages [foru]: Skipping, unable to determine old version
+[2023-05-10 16:40:08] INFO root fetch - processPackages [foru]: Start processing: pytket-pennylane
+[2023-05-10 16:40:08] INFO root fetch - main [MainThread]: End processing [foru] error
+[2023-05-10 16:40:08] INFO root fetch - processPackages [pytket-pennylane]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/09/7f/6ae1bd3e361a47de2a97a932de632a7d42adb6d997a2b24f4ef6883613bd/omicscope-1.1.0.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qwertyenv]: Downloading https://files.pythonhosted.org/packages/fb/40/8142ff82b7177f68bc42ebece7bf937470f655e706078836cfc0b11c7639/qwertyenv-0.1.1.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [devind-dictionaries]: Downloading https://files.pythonhosted.org/packages/b2/11/e79c61d57d96471c71f401c48b9f2d5281c022cab8df4c7cadcfb23c5ef5/devind_dictionaries-0.9.0.tar.gz
+[2023-05-10 16:40:08] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 28795248>=10485760
+[2023-05-10 16:40:08] INFO root fetch - processPackages [omicscope]: Start processing: funcdesc
+[2023-05-10 16:40:08] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-05-10 16:40:08] INFO root fetch - processPackages [scaleapi]: Downloading https://files.pythonhosted.org/packages/e3/19/a3decb2b0b8f6a352d825c8d875fcc6391e5b2d52fe30e6e02769243cf2f/scaleapi-2.8.0.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qsolve]: Downloading https://files.pythonhosted.org/packages/df/33/5c8e57fb0070ee0dc61f575b2040aa5985d6ac05cf4cbaf03b68841b510f/qsolve-0.2.9.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qwertyenv]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qwertyenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwertyenv-0.1.0.tar.gz tmp/qwertyenv-0.1.1.tar.gz --markdown 20230510/q/qwertyenv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [pytket-pennylane]: Downloading https://files.pythonhosted.org/packages/d1/aa/48da57cc15bf23ef6efa5d7fa12882a3c751c88e5888dd576d392fc3246f/pytket_pennylane-0.7.0-py3-none-any.whl
+[2023-05-10 16:40:08] INFO root fetch - processPackages [animegifs]: Downloading https://files.pythonhosted.org/packages/dc/e6/46c02456cdb9e747162efd10abf6c4d39d498fac2d0d5082f904b52bed6a/animegifs-0.5.2.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [dialogy]: Downloading https://files.pythonhosted.org/packages/64/97/dd7984adae0b46bae33b142cc90d5f295fadf08f20e03c2fc40bd8500aa3/dialogy-2.0.6.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [lazycsv]: Downloading https://files.pythonhosted.org/packages/7c/fe/d2cddc464c81ad7d2fd42768abb54da22df2a98545e8f5db0f66565db0ce/lazycsv-1.1.3.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [funcdesc]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 16:40:08] INFO root fetch - processPackages [twitter-api-py]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [twitter-api-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/twitter_api_py-0.4.8.tar.gz tmp/twitter_api_py-0.4.9.tar.gz --markdown 20230510/t/twitter-api-py/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [animegifs]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [animegifs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/animegifs-0.5.1.tar.gz tmp/animegifs-0.5.2.tar.gz --markdown 20230510/a/animegifs/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [dialogy]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [dialogy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dialogy-2.0.5.tar.gz tmp/dialogy-2.0.6.tar.gz --markdown 20230510/d/dialogy/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [devind-dictionaries]: Downloading https://files.pythonhosted.org/packages/b8/35/6f3867fc3a5f6ee991d5ea0ae1f42edfecdfaa3fb533ea09de2e071439dc/devind_dictionaries-1.0.0.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [lazycsv]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [lazycsv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazycsv-1.1.2.tar.gz tmp/lazycsv-1.1.3.tar.gz --markdown 20230510/l/lazycsv/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [funcdesc]: Downloading https://files.pythonhosted.org/packages/1e/05/d5d582b56ce574aa60756c09f0fc0b04d2088aa3d3640d8c029fb6d85e99/funcdesc-0.1.2.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [pytket-pennylane]: Downloading https://files.pythonhosted.org/packages/04/f1/f344bc2ff820fe5c1fb8e7096ee4418c01fae0a9deee1f2bc972f32881c7/pytket_pennylane-0.8.0-py3-none-any.whl
+[2023-05-10 16:40:08] INFO root fetch - processPackages [scaleapi]: Downloading https://files.pythonhosted.org/packages/37/1b/026c19db3381dbf22c4ba1d09a5e20f7ef58e29983de6ff7da42d1de9178/scaleapi-2.9.0.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [devind-dictionaries]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [devind-dictionaries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devind_dictionaries-0.9.0.tar.gz tmp/devind_dictionaries-1.0.0.tar.gz --markdown 20230510/d/devind-dictionaries/0.9.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 16:40:08] INFO root fetch - processPackages [qsolve]: Downloading https://files.pythonhosted.org/packages/75/4a/1fe277f2352b55283cc5681dfe51926687f1145054041b6c8e06300168ba/qsolve-0.3.0.tar.gz
+[2023-05-10 16:40:08] INFO root fetch - processPackages [pytket-pennylane]: executing diffoscope
+[2023-05-10 16:40:08] INFO root fetch - processPackages [pytket-pennylane]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_pennylane-0.7.0-py3-none-any.whl.zip tmp/pytket_pennylane-0.8.0-py3-none-any.whl.zip --markdown 20230510/p/pytket-pennylane/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-05-10 16:40:09] INFO root fetch - processPackages [scaleapi]: executing diffoscope
+[2023-05-10 16:40:09] INFO root fetch - processPackages [scaleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleapi-2.8.0.tar.gz tmp/scaleapi-2.9.0.tar.gz --markdown 20230510/s/scaleapi/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-05-10 16:40:09] INFO root fetch - processPackages [funcdesc]: Downloading https://files.pythonhosted.org/packages/02/8f/32ff9dc0aa99fbfce64e32c58fd87e70d483d4fed99cf7b1a4f38efe9afd/funcdesc-0.1.3.tar.gz
+[2023-05-10 16:40:09] INFO root fetch - processPackages [qsolve]: executing diffoscope
+[2023-05-10 16:40:09] INFO root fetch - processPackages [qsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsolve-0.2.9.tar.gz tmp/qsolve-0.3.0.tar.gz --markdown 20230510/q/qsolve/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 16:40:09] INFO root fetch - processPackages [funcdesc]: executing diffoscope
+[2023-05-10 16:40:09] INFO root fetch - processPackages [funcdesc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funcdesc-0.1.2.tar.gz tmp/funcdesc-0.1.3.tar.gz --markdown 20230510/f/funcdesc/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 16:40:10] INFO root fetch - processPackages [animegifs]: Start processing: chat2plot
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [animegifs]: success
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [qwertyenv]: success
+[2023-05-10 16:40:10] INFO root fetch - processPackages [chat2plot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [lazycsv]: success
+[2023-05-10 16:40:10] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/68/4c/fcb868acddace57dcc0923be903f820191218b781c5caab1cf929ccbbbf2/chat2plot-0.0.4.tar.gz
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [pytket-pennylane]: success
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [devind-dictionaries]: success
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [scaleapi]: success
+[2023-05-10 16:40:10] INFO root fetch - processPackages [chat2plot]: Downloading https://files.pythonhosted.org/packages/35/94/73129af232f4f14d18c6fd55327b60249430774bbb678a52570d3da70f74/chat2plot-0.0.5.tar.gz
+[2023-05-10 16:40:10] INFO root fetch - main [MainThread]: End processing [funcdesc]: success
+[2023-05-10 16:40:10] INFO root fetch - processPackages [chat2plot]: executing diffoscope
+[2023-05-10 16:40:10] INFO root fetch - processPackages [chat2plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chat2plot-0.0.4.tar.gz tmp/chat2plot-0.0.5.tar.gz --markdown 20230510/c/chat2plot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 16:40:11] INFO root fetch - main [MainThread]: End processing [qsolve]: success
+[2023-05-10 16:40:11] INFO root fetch - main [MainThread]: End processing [dialogy]: success
+[2023-05-10 16:40:11] INFO root fetch - main [MainThread]: End processing [chat2plot]: success
+[2023-05-10 16:40:12] INFO root fetch - main [MainThread]: End processing [twitter-api-py]: success
+[2023-05-10 16:40:12] INFO root fetch - main [MainThread]: Store serial: [18048504]
