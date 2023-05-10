@@ -7045,3 +7045,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:11:39] INFO root fetch - main [MainThread]: End processing [odoo12-addon-account-invoice-supplierinfo-update]: success
 [2023-05-10 05:11:39] INFO root fetch - main [MainThread]: End processing [cf-xarray]: success
 [2023-05-10 05:11:39] INFO root fetch - main [MainThread]: Store serial: [18041785]
+[2023-05-10 05:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041785]
+[2023-05-10 05:16:48] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-product-supplierinfo-for-customer-invoice
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvosscript
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tfsim-nightly
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GANDLF
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dogfood-logger
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyisva
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fyers-token-manager
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdktf-cdktf-provider-dnsimple
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: csv-to-dynamodb
+[2023-05-10 05:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdktf-cdktf-provider-spotinst
+[2023-05-10 05:16:48] WARNING root fetch - processPackages [dogfood-logger]: Skipping, unable to determine old version
+[2023-05-10 05:16:48] INFO root fetch - main [MainThread]: End processing [dogfood-logger] error
+[2023-05-10 05:16:48] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-invoice]: New version: [14.0.1.0.1.dev8] Old Version: [14.0.1.0.1.dev6]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [nvosscript]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [pyisva]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [fyers-token-manager]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: New version: [7.0.4] Old Version: [7.0.3]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [GANDLF]: New version: [0.0.16.dev20230510] Old Version: [0.0.16.dev20230509]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [tfsim-nightly]: New version: [0.18.0.dev4] Old Version: [0.18.0.dev3]
+[2023-05-10 05:16:48] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:16:48] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:16:48] INFO root fetch - processPackages [pyisva]: Downloading https://files.pythonhosted.org/packages/15/c5/aa2619389c90994cf40fa6ce75fd9af05a05cb15f0eea892ba8aac527bd8/pyisva-0.2.0.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [fyers-token-manager]: Downloading https://files.pythonhosted.org/packages/d4/96/c691041b8c433f70234d69e615f22ae751b930439832ee710b8c6a1d8e22/fyers-token-manager-0.0.4.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/95/0e/bce3832faaf7b0314ae8ee7ad1e876c935e19a91d5eb66d93beac22dda6d/cdktf-cdktf-provider-dnsimple-5.0.1.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/8a/bd/2930b8bf8fcf3002201ab864da6a660ec83f9fffa1e27909f4adf0181e13/GANDLF-0.0.16.dev20230510.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-invoice]: Downloading https://files.pythonhosted.org/packages/38/0f/5b6ed74050850e52e64bb9ad4d8b9083da2575d50ba617f1dc5db2e2f1fe/odoo14_addon_product_supplierinfo_for_customer_invoice-14.0.1.0.1.dev6-py3-none-any.whl
+[2023-05-10 05:16:48] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/be/cf/dc0b8e3903643fda4462d5bda3128d61e9ebba05ad31e73a10c97b909957/tfsim-nightly-0.18.0.dev3.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [fyers-token-manager]: executing diffoscope
+[2023-05-10 05:16:48] INFO root fetch - processPackages [fyers-token-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers-token-manager-0.0.3.tar.gz tmp/fyers-token-manager-0.0.4.tar.gz --markdown 20230510/f/fyers-token-manager/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 05:16:48] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/ec/6a/241ad5d8595efa7269f70a0ce3cd96aa505149f1a7ff3566508341f6e0e2/nvosscript-1.2.9.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: Downloading https://files.pythonhosted.org/packages/ca/4b/0243855501941c557262a36d5d9c1c6a38685d44c0f03eae3313032a46cb/cdktf-cdktf-provider-spotinst-7.0.4.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-05-10 05:16:48] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.2.8.tar.gz tmp/nvosscript-1.2.9.tar.gz --markdown 20230510/n/nvosscript/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:16:48] INFO root fetch - processPackages [pyisva]: Downloading https://files.pythonhosted.org/packages/22/34/e54b3f95ab36c5ebfab10a187d8a49631f133d7e4f811c8788cd2ceb1c51/pyisva-0.2.1.linux-x86_64.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-05-10 05:16:48] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.16.dev20230509.tar.gz tmp/GANDLF-0.0.16.dev20230510.tar.gz --markdown 20230510/G/GANDLF/0.0.16.dev20230509-0.0.16.dev20230510/diff.md --exclude *.pyd
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: Downloading https://files.pythonhosted.org/packages/f7/9e/8083311a837ad0c60e29714166dbdb3e244dbddcbeb89b04cc96babaa2cd/cdktf-cdktf-provider-dnsimple-5.0.2.tar.gz
+[2023-05-10 05:16:48] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-invoice]: Downloading https://files.pythonhosted.org/packages/f2/0f/6df13058209e190d5d1df5eb1c1098c8cd84a433c1578ad33ef17b7c7a96/odoo14_addon_product_supplierinfo_for_customer_invoice-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: executing diffoscope
+[2023-05-10 05:16:48] INFO root fetch - processPackages [cdktf-cdktf-provider-spotinst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-spotinst-7.0.3.tar.gz tmp/cdktf-cdktf-provider-spotinst-7.0.4.tar.gz --markdown 20230510/c/cdktf-cdktf-provider-spotinst/7.0.3-7.0.4/diff.md --exclude *.pyd
+[2023-05-10 05:16:48] INFO root fetch - processPackages [tfsim-nightly]: Downloading https://files.pythonhosted.org/packages/f3/2b/5df76405cbb4b67fd8168238749250c2ec7ce81cef970e6313c283b1a5c7/tfsim-nightly-0.18.0.dev4.tar.gz
+[2023-05-10 05:16:49] INFO root fetch - processPackages [pyisva]: executing diffoscope
+[2023-05-10 05:16:49] INFO root fetch - processPackages [pyisva]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyisva-0.2.0.tar.gz tmp/pyisva-0.2.1.linux-x86_64.tar.gz --markdown 20230510/p/pyisva/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 05:16:49] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: executing diffoscope
+[2023-05-10 05:16:49] INFO root fetch - processPackages [cdktf-cdktf-provider-dnsimple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-dnsimple-5.0.1.tar.gz tmp/cdktf-cdktf-provider-dnsimple-5.0.2.tar.gz --markdown 20230510/c/cdktf-cdktf-provider-dnsimple/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-05-10 05:16:49] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-invoice]: executing diffoscope
+[2023-05-10 05:16:49] INFO root fetch - processPackages [odoo14-addon-product-supplierinfo-for-customer-invoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_product_supplierinfo_for_customer_invoice-14.0.1.0.1.dev6-py3-none-any.whl.zip tmp/odoo14_addon_product_supplierinfo_for_customer_invoice-14.0.1.0.1.dev8-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-product-supplierinfo-for-customer-invoice/14.0.1.0.1.dev6-14.0.1.0.1.dev8/diff.md --exclude *.pyd
+[2023-05-10 05:16:49] INFO root fetch - processPackages [tfsim-nightly]: executing diffoscope
+[2023-05-10 05:16:49] INFO root fetch - processPackages [tfsim-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfsim-nightly-0.18.0.dev3.tar.gz tmp/tfsim-nightly-0.18.0.dev4.tar.gz --markdown 20230510/t/tfsim-nightly/0.18.0.dev3-0.18.0.dev4/diff.md --exclude *.pyd
+[2023-05-10 05:16:49] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:16:50] INFO root fetch - main [MainThread]: End processing [fyers-token-manager]: success
+[2023-05-10 05:16:50] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-05-10 05:16:50] INFO root fetch - main [MainThread]: End processing [odoo14-addon-product-supplierinfo-for-customer-invoice]: success
+[2023-05-10 05:16:50] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-dnsimple]: success
+[2023-05-10 05:16:50] INFO root fetch - main [MainThread]: End processing [pyisva]: success
+[2023-05-10 05:16:51] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-05-10 05:16:52] INFO root fetch - main [MainThread]: End processing [tfsim-nightly]: success
+[2023-05-10 05:16:54] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
+[2023-05-10 05:16:54] INFO root fetch - main [MainThread]: Store serial: [18041818]
