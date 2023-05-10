@@ -21837,3 +21837,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:07:40] INFO root fetch - main [MainThread]: End processing [PythonCoordinates]: success
 [2023-05-10 19:08:12] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
 [2023-05-10 19:08:12] INFO root fetch - main [MainThread]: Store serial: [18050404]
+[2023-05-10 19:13:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050404]
+[2023-05-10 19:13:22] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PatryksAutoAI
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: 8puzz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwfast
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anisq
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deepchem
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffmpegcv
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kd-common
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: propertysync
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: popv
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: firepup650
+[2023-05-10 19:13:22] INFO root fetch - processPackages [popv]: New version: [0.2.0] Old Version: [0.0.4]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [deepchem]: New version: [2.7.2.dev20230509191324] Old Version: [2.7.2.dev20230508181654]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [8puzz]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [propertysync]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-10 19:13:22] WARNING root fetch - processPackages [gwfast]: Skipping, unable to determine old version
+[2023-05-10 19:13:22] INFO root fetch - processPackages [gwfast]: Start processing: ranzen
+[2023-05-10 19:13:22] INFO root fetch - main [MainThread]: End processing [gwfast] error
+[2023-05-10 19:13:22] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [popv]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [popv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/popv-0.0.4.tar.gz tmp/popv-0.2.0.tar.gz --markdown 20230510/p/popv/0.0.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [anisq]: New version: [1.5.4] Old Version: [1.5.3]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ffmpegcv]: New version: [0.3.0] Old Version: [0.2.8]
+[2023-05-10 19:13:22] WARNING root fetch - processPackages [kd-common]: Skipping, unable to determine old version
+[2023-05-10 19:13:22] INFO root fetch - processPackages [kd-common]: Start processing: MoorPy
+[2023-05-10 19:13:22] INFO root fetch - main [MainThread]: End processing [kd-common] error
+[2023-05-10 19:13:22] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230510/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.7.2.dev20230508181654.tar.gz tmp/deepchem-2.7.2.dev20230509191324.tar.gz --markdown 20230510/d/deepchem/2.7.2.dev20230508181654-2.7.2.dev20230509191324/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ranzen]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-05-10 19:13:22] INFO root fetch - processPackages [8puzz]: Downloading https://files.pythonhosted.org/packages/1d/63/16bf64489331f68f13eaae7567b9a47c1ba57f18ba1c0a8d41a6e29c7c51/8puzz-0.0.0.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/97/7e/c5c19951bb73fa95a504446e675a29277ac255872d6f4763d8c7277bc58d/PatryksAutoAI-0.1.0.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [propertysync]: Downloading https://files.pythonhosted.org/packages/a8/04/0b10b1607ccb07ce8d448e2ed8a62c592587bfb35a471f075529d6647f9a/propertysync-0.4.2.tar.gz
+[2023-05-10 19:13:22] WARNING root fetch - processPackages [MoorPy]: Skipping, unable to determine old version
+[2023-05-10 19:13:22] INFO root fetch - main [MainThread]: End processing [MoorPy] error
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/91/8a/deda18944fb83d2a947b42c6993bc35041eb6c487fd33a80e1eca5d0e232/ffmpegcv-0.2.8.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [anisq]: Downloading https://files.pythonhosted.org/packages/74/e6/d3d30a0a764272aa19e335a5874843d063a66535cc6c3de4a3294f7c18a7/anisq-1.5.3.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ranzen]: Downloading https://files.pythonhosted.org/packages/3f/82/b7fe6e773b8de9a104aa182f94c087d24376301f129809690dcb0283192a/ranzen-2.1.1.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [8puzz]: Downloading https://files.pythonhosted.org/packages/eb/f6/c4f70ef5a25da67f97706191c997ae5ebd62dfe5dc7445c73a494d7f970d/8puzz-0.0.1.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [propertysync]: Downloading https://files.pythonhosted.org/packages/d8/1d/7193ccde38a9a5c5efe5b30a25f6d70ba31a6ebe9076abf1a47383c0c057/propertysync-0.5.0.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/32/21/56e3bea8f52f4e6abf0cbc382ac4e7df813675a7d554b4b01c47398e91ff/PatryksAutoAI-0.1.1.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [anisq]: Downloading https://files.pythonhosted.org/packages/2a/26/31f0aa5862a20e079c578685409199fef2481a1b30777dc2a23bfc5c5eb5/anisq-1.5.4.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ffmpegcv]: Downloading https://files.pythonhosted.org/packages/51/05/a84c87b1b09778fbb3fedcde3919be0609f1ceac977ce3056cccbbd353a4/ffmpegcv-0.3.0.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [8puzz]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [8puzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/8puzz-0.0.0.tar.gz tmp/8puzz-0.0.1.tar.gz --markdown 20230510/8/8puzz/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [propertysync]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [propertysync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/propertysync-0.4.2.tar.gz tmp/propertysync-0.5.0.tar.gz --markdown 20230510/p/propertysync/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ranzen]: Downloading https://files.pythonhosted.org/packages/d0/81/c69722836c2ba155012d14cdca04986beae8823b64d141f518e176d423c3/ranzen-2.1.2.tar.gz
+[2023-05-10 19:13:22] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.0.tar.gz tmp/PatryksAutoAI-0.1.1.tar.gz --markdown 20230510/P/PatryksAutoAI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [anisq]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [anisq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anisq-1.5.3.tar.gz tmp/anisq-1.5.4.tar.gz --markdown 20230510/a/anisq/1.5.3-1.5.4/diff.md --exclude *.pyd
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ffmpegcv]: executing diffoscope
+[2023-05-10 19:13:22] INFO root fetch - processPackages [ffmpegcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ffmpegcv-0.2.8.tar.gz tmp/ffmpegcv-0.3.0.tar.gz --markdown 20230510/f/ffmpegcv/0.2.8-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 19:13:23] INFO root fetch - processPackages [ranzen]: executing diffoscope
+[2023-05-10 19:13:23] INFO root fetch - processPackages [ranzen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ranzen-2.1.1.tar.gz tmp/ranzen-2.1.2.tar.gz --markdown 20230510/r/ranzen/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-05-10 19:13:23] INFO root fetch - main [MainThread]: End processing [popv]: success
+[2023-05-10 19:13:23] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-05-10 19:13:24] INFO root fetch - main [MainThread]: End processing [propertysync]: success
+[2023-05-10 19:13:24] INFO root fetch - main [MainThread]: End processing [8puzz]: success
+[2023-05-10 19:13:24] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 19:13:24] INFO root fetch - main [MainThread]: End processing [anisq]: success
+[2023-05-10 19:13:24] INFO root fetch - main [MainThread]: End processing [ffmpegcv]: success
+[2023-05-10 19:13:25] INFO root fetch - main [MainThread]: End processing [ranzen]: success
+[2023-05-10 19:13:26] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2023-05-10 19:13:26] INFO root fetch - main [MainThread]: Store serial: [18050454]
