@@ -8164,3 +8164,32 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 06:51:11] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-salt]: success
 [2023-05-10 06:51:12] INFO root fetch - main [MainThread]: End processing [unstructured]: success
 [2023-05-10 06:51:12] INFO root fetch - main [MainThread]: Store serial: [18042408]
+[2023-05-10 06:56:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042408]
+[2023-05-10 06:56:21] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-10 06:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-serve
+[2023-05-10 06:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qplay-cli
+[2023-05-10 06:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain-serve
+[2023-05-10 06:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: netunicorn-connector-ssh
+[2023-05-10 06:56:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jupyter-up
+[2023-05-10 06:56:21] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-10 06:56:21] INFO root fetch - processPackages [qplay-cli]: New version: [1.1.11] Old Version: [1.1.10]
+[2023-05-10 06:56:21] INFO root fetch - processPackages [langchain-serve]: New version: [0.0.9.dev9] Old Version: [0.0.9.dev22]
+[2023-05-10 06:56:21] WARNING root fetch - processPackages [jupyter-up]: Skipping, unable to determine old version
+[2023-05-10 06:56:21] INFO root fetch - main [MainThread]: End processing [jupyter-up] error
+[2023-05-10 06:56:21] INFO root fetch - processPackages [netunicorn-connector-ssh]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 06:56:22] INFO root fetch - processPackages [netunicorn-connector-ssh]: Downloading https://files.pythonhosted.org/packages/05/78/a416cd48785fb66453174b9baa81c9313937cbb70227babfcf2785395f3b/netunicorn_connector_ssh-0.0.1-py3-none-any.whl
+[2023-05-10 06:56:22] INFO root fetch - processPackages [qplay-cli]: Downloading https://files.pythonhosted.org/packages/84/6f/00870aff0ae710b1a0dc3f713442bbea525cb4dfb7ccaa56ac691bfd798b/qplay_cli-1.1.11-py3-none-any.whl
+[2023-05-10 06:56:22] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-10 06:56:22] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230510/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-10 06:56:22] INFO root fetch - processPackages [langchain-serve]: executing diffoscope
+[2023-05-10 06:56:22] INFO root fetch - processPackages [langchain-serve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-serve-0.0.9.dev22.tar.gz tmp/langchain-serve-0.0.9.dev9.tar.gz --markdown 20230510/l/langchain-serve/0.0.9.dev22-0.0.9.dev9/diff.md --exclude *.pyd
+[2023-05-10 06:56:22] INFO root fetch - processPackages [netunicorn-connector-ssh]: Downloading https://files.pythonhosted.org/packages/2c/a5/8fe6eb237843404911611f02ddef4c7d8f81713917b31539470c8fd9c94d/netunicorn-connector-ssh-0.0.2.tar.gz
+[2023-05-10 06:56:22] INFO root fetch - processPackages [qplay-cli]: executing diffoscope
+[2023-05-10 06:56:22] INFO root fetch - processPackages [qplay-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qplay_cli-1.1.10-py3-none-any.whl.zip tmp/qplay_cli-1.1.11-py3-none-any.whl.zip --markdown 20230510/q/qplay-cli/1.1.10-1.1.11/diff.md --exclude *.pyd
+[2023-05-10 06:56:22] INFO root fetch - processPackages [netunicorn-connector-ssh]: executing diffoscope
+[2023-05-10 06:56:22] INFO root fetch - processPackages [netunicorn-connector-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netunicorn_connector_ssh-0.0.1-py3-none-any.whl.zip tmp/netunicorn-connector-ssh-0.0.2.tar.gz --markdown 20230510/n/netunicorn-connector-ssh/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 06:56:23] INFO root fetch - main [MainThread]: End processing [netunicorn-connector-ssh]: success
+[2023-05-10 06:56:23] INFO root fetch - main [MainThread]: End processing [qplay-cli]: success
+[2023-05-10 06:56:23] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-10 06:56:23] INFO root fetch - main [MainThread]: End processing [langchain-serve]: success
+[2023-05-10 06:56:23] INFO root fetch - main [MainThread]: Store serial: [18042423]
