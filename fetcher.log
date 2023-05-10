@@ -8602,3 +8602,115 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:46:34] INFO root fetch - main [MainThread]: End processing [qoqo-quest]: success
 [2023-05-10 07:47:02] INFO root fetch - main [MainThread]: End processing [dis-inference]: success
 [2023-05-10 07:47:02] INFO root fetch - main [MainThread]: Store serial: [18042648]
+[2023-05-10 07:52:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042648]
+[2023-05-10 07:52:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: stmaterial
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-segmentation-evaluation
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aind-segmentation-evaluation
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-segmentation-evaluation
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aind-segmentation-evaluation
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apache-tvm
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aind-segmentation-evaluation
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: architex
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo9-addon-mgmtsystem-audit
+[2023-05-10 07:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-mgmtsystem-nonconformity
+[2023-05-10 07:52:13] INFO root fetch - processPackages [stmaterial]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: New version: [9.0.1.1.0.99.dev6] Old Version: [9.0.1.1.0.99.dev5]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-05-10 07:52:13] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: New version: [9.0.1.1.0.99.dev6] Old Version: [9.0.1.1.0.99.dev5]
+[2023-05-10 07:52:14] INFO root fetch - processPackages [architex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [stmaterial]: Downloading https://files.pythonhosted.org/packages/42/5b/e85499428104ca76c443344fe2fa9d455bdf7b5d8bc3755b9e982e87d758/stmaterial-0.0.4.tar.gz
+[2023-05-10 07:52:14] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-05-10 07:52:14] INFO root fetch - processPackages [apache-tvm]: Start processing: odoo9-addon-mgmtsystem-claim
+[2023-05-10 07:52:14] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/a5/3a/448672335f4c9acb1549252ea515ef43f105076e1895a20322497d7edcd6/odoo9_addon_mgmtsystem_nonconformity-9.0.1.1.0.99.dev5-py2-none-any.whl
+[2023-05-10 07:52:14] INFO root fetch - processPackages [architex]: Downloading https://files.pythonhosted.org/packages/ea/5b/fba03def89ed5cdf997e5c0c3db714d07b73f11a7abbbb49ddf8910c6029/architex-0.1.0.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/ee/f9/9062ecc6798128bd7146f2b9ffbad7a43ed202e939c20ab2f24fe7920dd0/odoo9_addon_mgmtsystem_audit-9.0.1.1.0.99.dev5-py2-none-any.whl
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: New version: [9.0.1.1.1.99.dev9] Old Version: [9.0.1.1.1.99.dev8]
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/ca/f9/c5eb749fed5158b7b21c173cc7cbe8cf1c359de8b8b65fc7906b187c5f8e/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev8-py2-none-any.whl
+[2023-05-10 07:52:14] INFO root fetch - processPackages [architex]: Downloading https://files.pythonhosted.org/packages/38/ff/9fb5fcbb6b7d8cabf060ef15ace82e854e85bfd62d16c1f73f2066eb1936/architex-0.1.1.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/f2/90/56a2af20ac7f85ce2f9505f506dba0f37949d45af42028970177b34695ea/odoo9_addon_mgmtsystem_nonconformity-9.0.1.1.0.99.dev6-py2-none-any.whl
+[2023-05-10 07:52:14] INFO root fetch - processPackages [stmaterial]: Downloading https://files.pythonhosted.org/packages/3e/d2/03189fd7baa3b6a92afa6b9f051a46291cdd57725aa2d3e3a38008af77e8/stmaterial-0.0.5.tar.gz
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230510/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230510/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230510/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230510/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230510/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.0.tar.gz tmp/architex-0.1.1.tar.gz --markdown 20230510/a/architex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_nonconformity-9.0.1.1.0.99.dev5-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_nonconformity-9.0.1.1.0.99.dev6-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mgmtsystem-nonconformity/9.0.1.1.0.99.dev5-9.0.1.1.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [stmaterial]: executing diffoscope
+[2023-05-10 07:52:14] INFO root fetch - processPackages [stmaterial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stmaterial-0.0.4.tar.gz tmp/stmaterial-0.0.5.tar.gz --markdown 20230510/s/stmaterial/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 07:52:14] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: Downloading https://files.pythonhosted.org/packages/50/9d/5a94bfeb5efaa1cdf64a3b09ec657206e100e4a73bc9ac35945b10c44bdc/odoo9_addon_mgmtsystem_audit-9.0.1.1.0.99.dev6-py2-none-any.whl
+[2023-05-10 07:52:15] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: executing diffoscope
+[2023-05-10 07:52:15] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_audit-9.0.1.1.0.99.dev5-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_audit-9.0.1.1.0.99.dev6-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mgmtsystem-audit/9.0.1.1.0.99.dev5-9.0.1.1.0.99.dev6/diff.md --exclude *.pyd
+[2023-05-10 07:52:15] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Downloading https://files.pythonhosted.org/packages/fd/b2/ace1929f5eb27b23695833408d96c721026d889b38a7f1e7be83ddd8f15c/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev9-py2-none-any.whl
+[2023-05-10 07:52:15] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: executing diffoscope
+[2023-05-10 07:52:15] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_claim-9.0.1.1.1.99.dev9-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mgmtsystem-claim/9.0.1.1.1.99.dev8-9.0.1.1.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 07:52:16] INFO root fetch - processPackages [architex]: Start processing: odoo9-addon-mgmtsystem-action
+[2023-05-10 07:52:16] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-action]: New version: [9.0.1.0.0.99.dev50] Old Version: [9.0.1.0.0.99.dev49]
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-action]: Downloading https://files.pythonhosted.org/packages/ef/45/f58b93140eb53fa862b7683d115e1ea76e2a172e86f3a30605fa6b381300/odoo9_addon_mgmtsystem_action-9.0.1.0.0.99.dev49-py2-none-any.whl
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-action]: Downloading https://files.pythonhosted.org/packages/22/93/f64ad07807fefb3a2f5725fed55ae7d0cf323c881f596365072ea2680093/odoo9_addon_mgmtsystem_action-9.0.1.0.0.99.dev50-py2-none-any.whl
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-action]: executing diffoscope
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-action]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_mgmtsystem_action-9.0.1.0.0.99.dev49-py2-none-any.whl.zip tmp/odoo9_addon_mgmtsystem_action-9.0.1.0.0.99.dev50-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-mgmtsystem-action/9.0.1.0.0.99.dev49-9.0.1.0.0.99.dev50/diff.md --exclude *.pyd
+[2023-05-10 07:52:16] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-audit]: Start processing: pixelmagic
+[2023-05-10 07:52:16] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-audit]: success
+[2023-05-10 07:52:17] INFO root fetch - processPackages [pixelmagic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 07:52:17] INFO root fetch - processPackages [pixelmagic]: Downloading https://files.pythonhosted.org/packages/56/f3/0e700ee953cc119405cb54c536d196eac4dbc6d5890c999f06b5969d1968/pixelmagic-1.0.0.tar.gz
+[2023-05-10 07:52:17] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-nonconformity]: Start processing: DinoPackage
+[2023-05-10 07:52:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-nonconformity]: success
+[2023-05-10 07:52:17] WARNING root fetch - processPackages [DinoPackage]: Skipping, unable to determine old version
+[2023-05-10 07:52:17] INFO root fetch - processPackages [DinoPackage]: Start processing: architex
+[2023-05-10 07:52:17] INFO root fetch - main [MainThread]: End processing [DinoPackage] error
+[2023-05-10 07:52:17] INFO root fetch - processPackages [architex]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 07:52:17] INFO root fetch - processPackages [odoo9-addon-mgmtsystem-claim]: Start processing: linglit
+[2023-05-10 07:52:17] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-claim]: success
+[2023-05-10 07:52:17] INFO root fetch - processPackages [pixelmagic]: Downloading https://files.pythonhosted.org/packages/6a/22/ba865dd81010c90b125de22ecfaf6537f7ce9e46c564139ff1443c75bc72/pixelmagic-1.0.1.tar.gz
+[2023-05-10 07:52:17] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 07:52:17] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.0.tar.gz tmp/architex-0.1.1.tar.gz --markdown 20230510/a/architex/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 07:52:17] INFO root fetch - processPackages [linglit]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-10 07:52:17] INFO root fetch - processPackages [pixelmagic]: executing diffoscope
+[2023-05-10 07:52:17] INFO root fetch - processPackages [pixelmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelmagic-1.0.0.tar.gz tmp/pixelmagic-1.0.1.tar.gz --markdown 20230510/p/pixelmagic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 07:52:17] INFO root fetch - processPackages [linglit]: Downloading https://files.pythonhosted.org/packages/ba/2b/91ff7994537e92ce6d20fb9cb2556e894c4654e6549c20500e4eac0dfdff/linglit-1.2.0.tar.gz
+[2023-05-10 07:52:18] INFO root fetch - processPackages [linglit]: Downloading https://files.pythonhosted.org/packages/1e/71/52a6ccf51362836d94f96ad2c3ca9d61cde0b2b6a7df2ff91e085d30e309/linglit-1.3.0.tar.gz
+[2023-05-10 07:52:18] INFO root fetch - processPackages [linglit]: executing diffoscope
+[2023-05-10 07:52:18] INFO root fetch - processPackages [linglit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linglit-1.2.0.tar.gz tmp/linglit-1.3.0.tar.gz --markdown 20230510/l/linglit/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-10 07:52:18] INFO root fetch - processPackages [architex]: Start processing: FlyHash
+[2023-05-10 07:52:18] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 07:52:18] INFO root fetch - processPackages [FlyHash]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-05-10 07:52:18] INFO root fetch - processPackages [FlyHash]: executing diffoscope
+[2023-05-10 07:52:18] INFO root fetch - processPackages [FlyHash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FlyHash-0.1.0.tar.gz tmp/FlyHash-0.2.0.tar.gz --markdown 20230510/F/FlyHash/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 07:52:18] INFO root fetch - main [MainThread]: End processing [odoo9-addon-mgmtsystem-action]: success
+[2023-05-10 07:52:18] INFO root fetch - main [MainThread]: End processing [pixelmagic]: success
+[2023-05-10 07:52:19] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-10 07:52:19] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-10 07:52:19] INFO root fetch - main [MainThread]: End processing [stmaterial]: success
+[2023-05-10 07:52:20] INFO root fetch - main [MainThread]: End processing [linglit]: success
+[2023-05-10 07:52:20] INFO root fetch - main [MainThread]: End processing [FlyHash]: success
+[2023-05-10 07:52:23] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-10 07:52:23] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-10 07:52:23] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-05-10 07:52:23] INFO root fetch - main [MainThread]: Store serial: [18042703]
