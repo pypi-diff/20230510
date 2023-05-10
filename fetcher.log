@@ -9647,3 +9647,87 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 09:01:22] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2023-05-10 09:01:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-10 09:01:40] INFO root fetch - main [MainThread]: Store serial: [18043241]
+[2023-05-10 09:06:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043241]
+[2023-05-10 09:06:54] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LasBuildSeg
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-boxmanager
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-models-nightly
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iqrfpy
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: random-string-detector
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dtalarm
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: feffery-antd-components
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: commonX
+[2023-05-10 09:06:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LasBuildSeg
+[2023-05-10 09:06:54] INFO root fetch - processPackages [random-string-detector]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [iqrfpy]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [commonX]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [dtalarm]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.3] Old Version: [0.0.2.1]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.3] Old Version: [0.0.2.1]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [napari-boxmanager]: New version: [0.3.9] Old Version: [0.3.7]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [iqrfpy]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [iqrfpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqrfpy-0.1.8.tar.gz tmp/iqrfpy-0.1.9.tar.gz --markdown 20230510/i/iqrfpy/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [tf-models-nightly]: New version: [2.9.0.dev20220920] Old Version: [2.9.0.dev20220919]
+[2023-05-10 09:06:54] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230510/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/da/cb/4fff5e075e35d272712b9e404a809590bd035fa968a3422a47442676c056/LasBuildSeg-0.0.2.1.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/da/cb/4fff5e075e35d272712b9e404a809590bd035fa968a3422a47442676c056/LasBuildSeg-0.0.2.1.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/d3/ae/d6bc65a98a99caf0b6380b76d2e744a61fb1759d100bc0264a05f627943d/commonX-0.4.3.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/1d/66/60c0ebc5c3cb32ab68f51e3298c0ef88d85fc5a918a2afbc533a14f19d7d/feffery_antd_components-0.2.6.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [dtalarm]: Downloading https://files.pythonhosted.org/packages/8c/a3/3fe09882565d343e30c7baba7ffe1d592db27a3f97e7ad954e9633692d0c/dtalarm-1.1.0.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [random-string-detector]: Downloading https://files.pythonhosted.org/packages/50/e7/539a7bbafd109fbac2153e37155cd495d2f976990f7ab65c2c09aa4a1742/random_string_detector-0.0.6.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [tf-models-nightly]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [tf-models-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_models_nightly-2.9.0.dev20220919-py2.py3-none-any.whl.zip tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip --markdown 20230510/t/tf-models-nightly/2.9.0.dev20220919-2.9.0.dev20220920/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [dtalarm]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [dtalarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtalarm-1.0.3.tar.gz tmp/dtalarm-1.1.0.tar.gz --markdown 20230510/d/dtalarm/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [random-string-detector]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [random-string-detector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/random_string_detector-0.0.5.tar.gz tmp/random_string_detector-0.0.6.tar.gz --markdown 20230510/r/random-string-detector/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/1b/a7/26db0759e41480ee19f1b1bca91c3cdd0f9ea4033785735d2dfd1ec60124/LasBuildSeg-0.0.3.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [LasBuildSeg]: Downloading https://files.pythonhosted.org/packages/1b/a7/26db0759e41480ee19f1b1bca91c3cdd0f9ea4033785735d2dfd1ec60124/LasBuildSeg-0.0.3.tar.gz
+[2023-05-10 09:06:54] INFO root fetch - processPackages [napari-boxmanager]: executing diffoscope
+[2023-05-10 09:06:54] INFO root fetch - processPackages [napari-boxmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari_boxmanager-0.3.7.tar.gz tmp/napari_boxmanager-0.3.9.tar.gz --markdown 20230510/n/napari-boxmanager/0.3.7-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 09:06:54] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/d1/69/300016566ec0d5526802e749fd592f3801065f774f5c483a8a66024a1ef7/commonX-0.4.4.tar.gz
+[2023-05-10 09:06:55] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/23/d1/b55cc66ec5bc30ab1a16db7abdb821c04aebc129d10a67bac6b83a57690c/feffery_antd_components-0.2.7.tar.gz
+[2023-05-10 09:06:55] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 09:06:55] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.2.1.tar.gz tmp/LasBuildSeg-0.0.3.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.2.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 09:06:55] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 09:06:55] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.2.1.tar.gz tmp/LasBuildSeg-0.0.3.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.2.1-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 09:06:55] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-05-10 09:06:55] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.3.tar.gz tmp/commonX-0.4.4.tar.gz --markdown 20230510/c/commonX/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-05-10 09:06:55] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-05-10 09:06:55] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.6.tar.gz tmp/feffery_antd_components-0.2.7.tar.gz --markdown 20230510/f/feffery-antd-components/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-10 09:06:56] INFO root fetch - processPackages [dtalarm]: Start processing: serdeserf
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [dtalarm]: success
+[2023-05-10 09:06:56] WARNING root fetch - processPackages [serdeserf]: Skipping, unable to determine old version
+[2023-05-10 09:06:56] INFO root fetch - processPackages [serdeserf]: Start processing: up2b2
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [serdeserf] error
+[2023-05-10 09:06:56] WARNING root fetch - processPackages [up2b2]: Skipping, unable to determine old version
+[2023-05-10 09:06:56] INFO root fetch - processPackages [up2b2]: Start processing: bridgecrew
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [up2b2] error
+[2023-05-10 09:06:56] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-10 09:06:56] INFO root fetch - processPackages [seqio-nightly]: Start processing: keras-vit
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-05-10 09:06:56] WARNING root fetch - processPackages [keras-vit]: Skipping, unable to determine old version
+[2023-05-10 09:06:56] INFO root fetch - processPackages [keras-vit]: Start processing: ggvlib
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [keras-vit] error
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 09:06:56] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-05-10 09:06:56] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230510/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-10 09:06:56] INFO root fetch - processPackages [ggvlib]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [random-string-detector]: success
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-05-10 09:06:56] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 09:06:56] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/c8/a4/76d1f8bec5b3584ef0e86ce8e53ab63916ffc36fcb0d2d8b4f0d337700c3/ggvlib-0.2.8.tar.gz
+[2023-05-10 09:06:57] INFO root fetch - processPackages [ggvlib]: Downloading https://files.pythonhosted.org/packages/34/94/a276f716d8fabdf90cef3cc2a1fccf75e3e71e43c098bb84478fc31b0ff6/ggvlib-0.2.9.tar.gz
+[2023-05-10 09:06:57] INFO root fetch - processPackages [ggvlib]: executing diffoscope
+[2023-05-10 09:06:57] INFO root fetch - processPackages [ggvlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggvlib-0.2.8.tar.gz tmp/ggvlib-0.2.9.tar.gz --markdown 20230510/g/ggvlib/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 09:06:57] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-05-10 09:06:58] INFO root fetch - main [MainThread]: End processing [iqrfpy]: success
+[2023-05-10 09:06:58] INFO root fetch - main [MainThread]: End processing [ggvlib]: success
+[2023-05-10 09:06:59] INFO root fetch - main [MainThread]: End processing [napari-boxmanager]: success
+[2023-05-10 09:07:11] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
+[2023-05-10 09:07:26] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-05-10 09:07:26] INFO root fetch - main [MainThread]: Store serial: [18043297]
