@@ -19286,3 +19286,205 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:56:01] INFO root fetch - main [MainThread]: End processing [pytorch3d]: success
 [2023-05-10 16:56:05] INFO root fetch - main [MainThread]: End processing [apache-beam]: success
 [2023-05-10 16:56:05] INFO root fetch - main [MainThread]: Store serial: [18048799]
+[2023-05-10 17:01:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048799]
+[2023-05-10 17:01:15] INFO root fetch - main [MainThread]: Found 36 changed packages
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiosow
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PoissonFuncaoCorrente
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qcdevol
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ancpbids
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: RepRepBuild
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: factro-client
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: latch-postgres
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: reqmgr2
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: reqmgr2ms-monitor
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: wmcore
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [latch-postgres]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2ms-monitor]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [wmcore]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:15] WARNING root fetch - processPackages [qcdevol]: Skipping, unable to determine old version
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2]: executing diffoscope
+[2023-05-10 17:01:15] INFO root fetch - processPackages [qcdevol]: Start processing: reqmgr2ms-unmerged
+[2023-05-10 17:01:15] INFO root fetch - processPackages [RepRepBuild]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2-2.2.1rc1.tar.gz tmp/reqmgr2-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:15] INFO root fetch - processPackages [factro-client]: New version: [0.9.1a1] Old Version: [0.9.0a1]
+[2023-05-10 17:01:15] INFO root fetch - main [MainThread]: End processing [qcdevol] error
+[2023-05-10 17:01:15] INFO root fetch - processPackages [ancpbids]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [aiosow]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [PoissonFuncaoCorrente]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [latch-postgres]: executing diffoscope
+[2023-05-10 17:01:15] INFO root fetch - processPackages [latch-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latch_postgres-0.1.0.tar.gz tmp/latch_postgres-0.1.3.tar.gz --markdown 20230510/l/latch-postgres/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 17:01:15] INFO root fetch - processPackages [wmcore]: executing diffoscope
+[2023-05-10 17:01:15] INFO root fetch - processPackages [wmcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmcore-2.2.1rc1.tar.gz tmp/wmcore-2.2.1rc2.tar.gz --markdown 20230510/w/wmcore/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2ms-unmerged]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2ms-monitor]: executing diffoscope
+[2023-05-10 17:01:15] INFO root fetch - processPackages [reqmgr2ms-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-monitor-2.2.1rc1.tar.gz tmp/reqmgr2ms-monitor-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-monitor/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [reqmgr2ms-unmerged]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [reqmgr2ms-unmerged]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-unmerged-2.2.1rc1.tar.gz tmp/reqmgr2ms-unmerged-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-unmerged/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/bc/37/7a637a24f5c81a60c4a8c161e17fba46a4021bfbcfaf28f91074cd434ff1/aiosow-0.1.2.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [ancpbids]: Downloading https://files.pythonhosted.org/packages/7a/39/0a8a95c4f4f3ecbb1c359ea24beb8151120c20f1dd363e251af5f40edf24/ancpbids-0.2.1.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [PoissonFuncaoCorrente]: Downloading https://files.pythonhosted.org/packages/99/dd/572e2b54b468e4dc6d253eb0a18d77e3dd4f0d7d93db266595053b03c93b/PoissonFuncaoCorrente-1.0.0.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/ed/c3/0f1e45162b5a24c388f98621b522c4e597b541b4896c89662e5fa0ab0717/factro_client-0.9.0a1.tar.gz
+[2023-05-10 17:01:16] ERROR root fetch - processPackages [reqmgr2ms-monitor]: Diffoscope failed: Error: error creating container storage: the container name "gracious_mclaren" is already in use by "b2ada69aceedf2d8580d53bd7c6a8b36eeb9c437bf93ea897538280edffbeb26". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-10 17:01:16] INFO root fetch - processPackages [reqmgr2ms-monitor]: Start processing: global-workqueue
+[2023-05-10 17:01:16] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-monitor] error
+[2023-05-10 17:01:16] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/ff/ec/c807d1e2599814e10b05b61cd81b5698bca9cfb268c7997138fd9f700015/RepRepBuild-0.7.2.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [global-workqueue]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:16] INFO root fetch - processPackages [global-workqueue]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [global-workqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/global-workqueue-2.2.1rc1.tar.gz tmp/global-workqueue-2.2.1rc2.tar.gz --markdown 20230510/g/global-workqueue/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [aiosow]: Downloading https://files.pythonhosted.org/packages/96/44/e0e90d2bac741f936f11f5a44a16c2eae763a828d9b8e50ca0c55debff82/aiosow-0.1.3.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [PoissonFuncaoCorrente]: Downloading https://files.pythonhosted.org/packages/81/a5/133e65b7978c2c04c1354579eb4515764de330fb9f6b29e0f7a023e0f1e7/PoissonFuncaoCorrente-1.1.0.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [ancpbids]: Downloading https://files.pythonhosted.org/packages/93/0a/f44ba42a49dd36eb4dbcb0ae83107e73ebd3c1aa539d6eb7b48fdea48592/ancpbids-0.2.2.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [aiosow]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [aiosow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiosow-0.1.2.tar.gz tmp/aiosow-0.1.3.tar.gz --markdown 20230510/a/aiosow/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/4a/28/864f4e5265ad54478df85ea6efb91a07759c5bd13e51500ce43910937b20/RepRepBuild-0.7.3.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [PoissonFuncaoCorrente]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [PoissonFuncaoCorrente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoissonFuncaoCorrente-1.0.0.tar.gz tmp/PoissonFuncaoCorrente-1.1.0.tar.gz --markdown 20230510/P/PoissonFuncaoCorrente/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [ancpbids]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [ancpbids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ancpbids-0.2.1.tar.gz tmp/ancpbids-0.2.2.tar.gz --markdown 20230510/a/ancpbids/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.7.2.tar.gz tmp/RepRepBuild-0.7.3.tar.gz --markdown 20230510/R/RepRepBuild/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-10 17:01:16] INFO root fetch - processPackages [factro-client]: Downloading https://files.pythonhosted.org/packages/59/ac/e71d494ebdff48c2c8baccfce4138b172f5122acdcd00a74bf1e342cf39b/factro_client-0.9.1a1.tar.gz
+[2023-05-10 17:01:16] INFO root fetch - processPackages [factro-client]: executing diffoscope
+[2023-05-10 17:01:16] INFO root fetch - processPackages [factro-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/factro_client-0.9.0a1.tar.gz tmp/factro_client-0.9.1a1.tar.gz --markdown 20230510/f/factro-client/0.9.0a1-0.9.1a1/diff.md --exclude *.pyd
+[2023-05-10 17:01:17] INFO root fetch - processPackages [latch-postgres]: Start processing: reqmgr2ms-transferor
+[2023-05-10 17:01:17] INFO root fetch - main [MainThread]: End processing [latch-postgres]: success
+[2023-05-10 17:01:17] INFO root fetch - processPackages [reqmgr2ms-transferor]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:17] INFO root fetch - processPackages [reqmgr2ms-transferor]: executing diffoscope
+[2023-05-10 17:01:17] INFO root fetch - processPackages [reqmgr2ms-transferor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-transferor-2.2.1rc1.tar.gz tmp/reqmgr2ms-transferor-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-transferor/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:17] INFO root fetch - processPackages [PoissonFuncaoCorrente]: Start processing: wmagent
+[2023-05-10 17:01:17] INFO root fetch - main [MainThread]: End processing [PoissonFuncaoCorrente]: success
+[2023-05-10 17:01:17] INFO root fetch - processPackages [wmagent]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:18] INFO root fetch - processPackages [wmagent]: executing diffoscope
+[2023-05-10 17:01:18] INFO root fetch - processPackages [wmagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmagent-2.2.1rc1.tar.gz tmp/wmagent-2.2.1rc2.tar.gz --markdown 20230510/w/wmagent/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:18] INFO root fetch - processPackages [RepRepBuild]: Start processing: reqmgr2ms-output
+[2023-05-10 17:01:18] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-output]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:18] INFO root fetch - processPackages [ancpbids]: Start processing: acdcserver
+[2023-05-10 17:01:18] INFO root fetch - main [MainThread]: End processing [ancpbids]: success
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-output]: executing diffoscope
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-output-2.2.1rc1.tar.gz tmp/reqmgr2ms-output-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-output/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:18] INFO root fetch - processPackages [aiosow]: Start processing: reqmgr2ms-rulecleaner
+[2023-05-10 17:01:18] INFO root fetch - main [MainThread]: End processing [aiosow]: success
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:18] INFO root fetch - processPackages [acdcserver]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:18] INFO root fetch - processPackages [acdcserver]: executing diffoscope
+[2023-05-10 17:01:18] INFO root fetch - processPackages [acdcserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acdcserver-2.2.1rc1.tar.gz tmp/acdcserver-2.2.1rc2.tar.gz --markdown 20230510/a/acdcserver/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:18] INFO root fetch - processPackages [factro-client]: Start processing: anastasia-logging
+[2023-05-10 17:01:18] INFO root fetch - main [MainThread]: End processing [factro-client]: success
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: executing diffoscope
+[2023-05-10 17:01:18] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-rulecleaner-2.2.1rc1.tar.gz tmp/reqmgr2ms-rulecleaner-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-rulecleaner/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:18] INFO root fetch - processPackages [anastasia-logging]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 17:01:18] INFO root fetch - processPackages [anastasia-logging]: executing diffoscope
+[2023-05-10 17:01:18] INFO root fetch - processPackages [anastasia-logging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anastasia_logging-1.0.0.tar.gz tmp/anastasia_logging-1.1.0.tar.gz --markdown 20230510/a/anastasia-logging/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 17:01:19] INFO root fetch - processPackages [anastasia-logging]: Start processing: reqmgr2ms-pileup
+[2023-05-10 17:01:19] INFO root fetch - main [MainThread]: End processing [anastasia-logging]: success
+[2023-05-10 17:01:19] INFO root fetch - processPackages [reqmgr2ms-pileup]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmgr2ms-pileup]: executing diffoscope
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmgr2ms-pileup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmgr2ms-pileup-2.2.1rc1.tar.gz tmp/reqmgr2ms-pileup-2.2.1rc2.tar.gz --markdown 20230510/r/reqmgr2ms-pileup/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmgr2ms-transferor]: Start processing: wmagent-devtools
+[2023-05-10 17:01:20] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-transferor]: success
+[2023-05-10 17:01:20] INFO root fetch - processPackages [wmagent-devtools]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:20] INFO root fetch - processPackages [global-workqueue]: Start processing: polyfile
+[2023-05-10 17:01:20] INFO root fetch - main [MainThread]: End processing [global-workqueue]: success
+[2023-05-10 17:01:20] INFO root fetch - processPackages [wmagent-devtools]: Downloading https://files.pythonhosted.org/packages/bd/95/50f3965c37e5dcf5a375cdcb9151897d0957b4bed392033314fd4804bda7/wmagent-devtools-2.2.1rc1.tar.gz
+[2023-05-10 17:01:20] INFO root fetch - processPackages [acdcserver]: Start processing: reqmon
+[2023-05-10 17:01:20] INFO root fetch - main [MainThread]: End processing [acdcserver]: success
+[2023-05-10 17:01:20] WARNING root fetch - processPackages [wmagent-devtools]: Skipping package: exceeds size limit 11425227>=10485760
+[2023-05-10 17:01:20] INFO root fetch - processPackages [wmagent-devtools]: Start processing: openshift-python-wrapper
+[2023-05-10 17:01:20] INFO root fetch - main [MainThread]: End processing [wmagent-devtools] error
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmon]: New version: [2.2.1rc2] Old Version: [2.2.1rc1]
+[2023-05-10 17:01:20] INFO root fetch - processPackages [polyfile]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmon]: executing diffoscope
+[2023-05-10 17:01:20] INFO root fetch - processPackages [reqmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reqmon-2.2.1rc1.tar.gz tmp/reqmon-2.2.1rc2.tar.gz --markdown 20230510/r/reqmon/2.2.1rc1-2.2.1rc2/diff.md --exclude *.pyd
+[2023-05-10 17:01:20] INFO root fetch - processPackages [openshift-python-wrapper]: New version: [4.9.9.12] Old Version: [4.9.7.12]
+[2023-05-10 17:01:20] INFO root fetch - processPackages [polyfile]: Downloading https://files.pythonhosted.org/packages/67/08/7ef29b7a4db17533703acb9fb4437badc2fba020e52360f7b0624b241c7d/polyfile-0.5.0.tar.gz
+[2023-05-10 17:01:21] INFO root fetch - processPackages [openshift-python-wrapper]: executing diffoscope
+[2023-05-10 17:01:21] INFO root fetch - processPackages [openshift-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-wrapper-4.9.7.12.tar.gz tmp/openshift-python-wrapper-4.9.9.12.tar.gz --markdown 20230510/o/openshift-python-wrapper/4.9.7.12-4.9.9.12/diff.md --exclude *.pyd
+[2023-05-10 17:01:21] INFO root fetch - processPackages [reqmgr2ms-output]: Start processing: evalml
+[2023-05-10 17:01:21] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-output]: success
+[2023-05-10 17:01:21] INFO root fetch - processPackages [evalml]: New version: [0.76.0] Old Version: [0.75.0]
+[2023-05-10 17:01:21] INFO root fetch - processPackages [reqmgr2ms-rulecleaner]: Start processing: omicscope
+[2023-05-10 17:01:21] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-rulecleaner]: success
+[2023-05-10 17:01:21] INFO root fetch - processPackages [evalml]: Downloading https://files.pythonhosted.org/packages/96/f1/1edf3612b99db2c0772801fcdd1d65057b6881ce25e532cef83e7ff19b32/evalml-0.75.0.tar.gz
+[2023-05-10 17:01:21] INFO root fetch - processPackages [omicscope]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-05-10 17:01:21] INFO root fetch - processPackages [polyfile]: Downloading https://files.pythonhosted.org/packages/b5/b2/9d43cbd6208c5b7194719b6b3820b9730e072e40ed9ecaed94c7e0b5c90a/polyfile-0.5.1.tar.gz
+[2023-05-10 17:01:21] INFO root fetch - processPackages [omicscope]: Downloading https://files.pythonhosted.org/packages/09/7f/6ae1bd3e361a47de2a97a932de632a7d42adb6d997a2b24f4ef6883613bd/omicscope-1.1.0.tar.gz
+[2023-05-10 17:01:21] WARNING root fetch - processPackages [omicscope]: Skipping package: exceeds size limit 28795248>=10485760
+[2023-05-10 17:01:21] INFO root fetch - processPackages [omicscope]: Start processing: MaMMUT-pytorch
+[2023-05-10 17:01:21] INFO root fetch - main [MainThread]: End processing [omicscope] error
+[2023-05-10 17:01:21] INFO root fetch - processPackages [MaMMUT-pytorch]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 17:01:21] INFO root fetch - processPackages [polyfile]: executing diffoscope
+[2023-05-10 17:01:21] INFO root fetch - processPackages [polyfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyfile-0.5.0.tar.gz tmp/polyfile-0.5.1.tar.gz --markdown 20230510/p/polyfile/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-10 17:01:21] INFO root fetch - processPackages [MaMMUT-pytorch]: Downloading https://files.pythonhosted.org/packages/cb/42/af9b3a9c3752542875eccf6495f1b6b5c235644fd1232e48948a79e2c842/MaMMUT-pytorch-0.0.3.tar.gz
+[2023-05-10 17:01:22] INFO root fetch - processPackages [MaMMUT-pytorch]: Downloading https://files.pythonhosted.org/packages/3c/b4/14b8082eaf47f6e463e91f5343860fde98b2cacb3835a38250c48ecd96d6/MaMMUT-pytorch-0.0.4.tar.gz
+[2023-05-10 17:01:22] INFO root fetch - processPackages [evalml]: Downloading https://files.pythonhosted.org/packages/cb/ed/7b53f57be1b9b072f4fea1111355d51dd2f9b23031a4dd6f7a0a3814c3c1/evalml-0.76.0.tar.gz
+[2023-05-10 17:01:22] INFO root fetch - processPackages [MaMMUT-pytorch]: executing diffoscope
+[2023-05-10 17:01:22] INFO root fetch - processPackages [MaMMUT-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MaMMUT-pytorch-0.0.3.tar.gz tmp/MaMMUT-pytorch-0.0.4.tar.gz --markdown 20230510/M/MaMMUT-pytorch/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 17:01:23] INFO root fetch - processPackages [openshift-python-wrapper]: Start processing: pytket-quantinuum
+[2023-05-10 17:01:23] INFO root fetch - main [MainThread]: End processing [openshift-python-wrapper]: success
+[2023-05-10 17:01:23] INFO root fetch - processPackages [pytket-quantinuum]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-10 17:01:23] INFO root fetch - processPackages [evalml]: executing diffoscope
+[2023-05-10 17:01:23] INFO root fetch - processPackages [evalml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evalml-0.75.0.tar.gz tmp/evalml-0.76.0.tar.gz --markdown 20230510/e/evalml/0.75.0-0.76.0/diff.md --exclude *.pyd
+[2023-05-10 17:01:23] INFO root fetch - processPackages [reqmgr2ms-pileup]: Start processing: earthquakereport-indonesia
+[2023-05-10 17:01:23] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-pileup]: success
+[2023-05-10 17:01:23] INFO root fetch - processPackages [earthquakereport-indonesia]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 17:01:23] INFO root fetch - processPackages [pytket-quantinuum]: Downloading https://files.pythonhosted.org/packages/63/e7/10084ecfd4c3c1864fdddfd71ca9db23d357504c97df34526eb637bc1c5f/pytket_quantinuum-0.9.0-py3-none-any.whl
+[2023-05-10 17:01:23] INFO root fetch - processPackages [earthquakereport-indonesia]: Downloading https://files.pythonhosted.org/packages/91/fc/6c8c8ca62a1f04fd58b40cb8b56a33327cfe886d723d046170590dbce310/earthquakereport-indonesia-0.1.3.tar.gz
+[2023-05-10 17:01:23] INFO root fetch - processPackages [earthquakereport-indonesia]: Downloading https://files.pythonhosted.org/packages/7b/c9/c5acde1e11b334090c1ecad900ba0392682d400977f699d731cdd078988d/earthquakereport-indonesia-0.1.4.tar.gz
+[2023-05-10 17:01:23] INFO root fetch - processPackages [MaMMUT-pytorch]: Start processing: plutous
+[2023-05-10 17:01:23] INFO root fetch - main [MainThread]: End processing [MaMMUT-pytorch]: success
+[2023-05-10 17:01:23] WARNING root fetch - processPackages [plutous]: Skipping, unable to determine old version
+[2023-05-10 17:01:23] INFO root fetch - processPackages [plutous]: Start processing: luminesce-sdk-preview
+[2023-05-10 17:01:23] INFO root fetch - main [MainThread]: End processing [plutous] error
+[2023-05-10 17:01:23] INFO root fetch - processPackages [earthquakereport-indonesia]: executing diffoscope
+[2023-05-10 17:01:23] INFO root fetch - processPackages [earthquakereport-indonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthquakereport-indonesia-0.1.3.tar.gz tmp/earthquakereport-indonesia-0.1.4.tar.gz --markdown 20230510/e/earthquakereport-indonesia/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 17:01:23] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-05-10 17:01:24] INFO root fetch - processPackages [pytket-quantinuum]: Downloading https://files.pythonhosted.org/packages/c7/f1/45073381a42112525979750d94eb99fdc2fe30a1f2eb897f0bbb9cf7967e/pytket_quantinuum-0.9.0rc0-py3-none-any.whl
+[2023-05-10 17:01:24] INFO root fetch - processPackages [reqmgr2ms-unmerged]: Start processing: crunch-cli
+[2023-05-10 17:01:24] INFO root fetch - main [MainThread]: End processing [reqmgr2ms-unmerged]: success
+[2023-05-10 17:01:24] INFO root fetch - processPackages [crunch-cli]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-05-10 17:01:24] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-05-10 17:01:24] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230510/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-05-10 17:01:24] INFO root fetch - processPackages [crunch-cli]: executing diffoscope
+[2023-05-10 17:01:24] INFO root fetch - processPackages [crunch-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crunch-cli-0.8.1.tar.gz tmp/crunch-cli-0.9.0.tar.gz --markdown 20230510/c/crunch-cli/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:01:24] INFO root fetch - processPackages [pytket-quantinuum]: executing diffoscope
+[2023-05-10 17:01:24] INFO root fetch - processPackages [pytket-quantinuum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket_quantinuum-0.9.0-py3-none-any.whl.zip tmp/pytket_quantinuum-0.9.0rc0-py3-none-any.whl.zip --markdown 20230510/p/pytket-quantinuum/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-10 17:01:25] INFO root fetch - processPackages [earthquakereport-indonesia]: Start processing: virtru-sdk
+[2023-05-10 17:01:25] INFO root fetch - main [MainThread]: End processing [earthquakereport-indonesia]: success
+[2023-05-10 17:01:25] INFO root fetch - processPackages [virtru-sdk]: New version: [2.7.0b2137] Old Version: [2.7.0b1328]
+[2023-05-10 17:01:25] INFO root fetch - processPackages [virtru-sdk]: executing diffoscope
+[2023-05-10 17:01:25] INFO root fetch - processPackages [virtru-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virtru_sdk-2.7.0b1328-cp39-cp39-win_amd64.whl.zip tmp/virtru_sdk-2.7.0b2137-cp39-cp39-win_amd64.whl.zip --markdown 20230510/v/virtru-sdk/2.7.0b1328-2.7.0b2137/diff.md --exclude *.pyd
+[2023-05-10 17:01:25] INFO root fetch - processPackages [crunch-cli]: Start processing: checkov
+[2023-05-10 17:01:25] INFO root fetch - main [MainThread]: End processing [crunch-cli]: success
+[2023-05-10 17:01:25] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-10 17:01:26] INFO root fetch - processPackages [pytket-quantinuum]: Start processing: pg-force-execute
+[2023-05-10 17:01:26] INFO root fetch - main [MainThread]: End processing [pytket-quantinuum]: success
+[2023-05-10 17:01:26] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-10 17:01:26] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230510/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-10 17:01:26] INFO root fetch - processPackages [pg-force-execute]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 17:01:26] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/47/33/36aa39a69238b149a2876172df387d8a224533c21220b2c78eb4535700d5/pg_force_execute-0.0.8.tar.gz
+[2023-05-10 17:01:26] INFO root fetch - processPackages [pg-force-execute]: executing diffoscope
+[2023-05-10 17:01:26] INFO root fetch - processPackages [pg-force-execute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_force_execute-0.0.7.tar.gz tmp/pg_force_execute-0.0.8.tar.gz --markdown 20230510/p/pg-force-execute/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 17:01:26] INFO root fetch - processPackages [virtru-sdk]: Start processing: imacs-wcs
+[2023-05-10 17:01:26] INFO root fetch - main [MainThread]: End processing [virtru-sdk]: success
+[2023-05-10 17:01:26] WARNING root fetch - processPackages [imacs-wcs]: Skipping, unable to determine old version
+[2023-05-10 17:01:26] INFO root fetch - processPackages [imacs-wcs]: Start processing: stream-zip
+[2023-05-10 17:01:26] INFO root fetch - main [MainThread]: End processing [imacs-wcs] error
+[2023-05-10 17:01:27] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:01:27] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-05-10 17:01:27] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-05-10 17:01:27] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-05-10 17:01:27] INFO root fetch - main [MainThread]: End processing [reqmon]: success
+[2023-05-10 17:01:27] INFO root fetch - main [MainThread]: End processing [reqmgr2]: success
+[2023-05-10 17:01:28] INFO root fetch - main [MainThread]: End processing [pg-force-execute]: success
+[2023-05-10 17:01:28] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-05-10 17:01:28] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230510/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:01:29] INFO root fetch - main [MainThread]: End processing [evalml]: success
+[2023-05-10 17:01:29] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-05-10 17:01:31] INFO root fetch - main [MainThread]: End processing [polyfile]: success
+[2023-05-10 17:01:44] INFO root fetch - main [MainThread]: End processing [wmagent]: success
+[2023-05-10 17:02:05] INFO root fetch - main [MainThread]: End processing [wmcore]: success
+[2023-05-10 17:02:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-10 17:02:09] INFO root fetch - main [MainThread]: Store serial: [18048922]
