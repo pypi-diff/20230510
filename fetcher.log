@@ -21584,3 +21584,107 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:50:27] INFO root fetch - main [MainThread]: End processing [grizli]: success
 [2023-05-10 18:51:41] INFO root fetch - main [MainThread]: End processing [lanelet2]: success
 [2023-05-10 18:51:41] INFO root fetch - main [MainThread]: Store serial: [18050168]
+[2023-05-10 18:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050168]
+[2023-05-10 18:57:05] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wetterdienst
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moddagudu
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ILEE-CSK
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assemblyline-service-client
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assemblyline-service-server
+[2023-05-10 18:57:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: assemblyline-ui
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assemblyline-v4-service
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assemblyline
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-core
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gpttui
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ILEE-CSK]: New version: [0.2.2.0] Old Version: [0.2.0.1]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [moddagudu]: New version: [1.2] Old Version: [1.1]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [gpttui]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [wetterdienst]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/4e/ac/100aa034147c5468d2a89f8053ffc7f51f9c72d6039cb3d80a8b05223410/moddagudu-1.1.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [gpttui]: Downloading https://files.pythonhosted.org/packages/73/04/70f60d9af13d628089780e78b24485c38a94fcd0d384e89516d377834206/gpttui-0.5.0.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/78/63/b1277e512023f32d07e5f1100acb1a89b8df6544f68710d48e7c999ddfe7/wetterdienst-0.8.0.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ILEE-CSK]: Downloading https://files.pythonhosted.org/packages/24/8f/8b494fc770c179feee35916576888b1ad074e14a16ffc39c902e663bdbcb/ILEE_CSK-0.2.2.0-py3-none-any.whl
+[2023-05-10 18:57:06] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/e7/40/828723859a728afbf997dfe8f844e2fd621bf7afcfa858ce9bc388147ce2/moddagudu-1.2.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ILEE-CSK]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [ILEE-CSK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ILEE_CSK-0.2.0.1-py3-none-any.whl.zip tmp/ILEE_CSK-0.2.2.0-py3-none-any.whl.zip --markdown 20230510/I/ILEE-CSK/0.2.0.1-0.2.2.0/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [gpttui]: Downloading https://files.pythonhosted.org/packages/cd/06/7f5d9e5032837c31cb178e0128c841e52e2739ab55e0a55dec4460a1a562/gpttui-0.6.0.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [wetterdienst]: Downloading https://files.pythonhosted.org/packages/93/c1/a193d03f936306ba30a17b6df7557fb21eb06ece6da61b94796737ad977a/wetterdienst-0.9.0.tar.gz
+[2023-05-10 18:57:06] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.1.tar.gz tmp/moddagudu-1.2.tar.gz --markdown 20230510/m/moddagudu/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [wetterdienst]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [wetterdienst]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wetterdienst-0.8.0.tar.gz tmp/wetterdienst-0.9.0.tar.gz --markdown 20230510/w/wetterdienst/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 18:57:06] INFO root fetch - processPackages [gpttui]: executing diffoscope
+[2023-05-10 18:57:06] INFO root fetch - processPackages [gpttui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpttui-0.5.0.tar.gz tmp/gpttui-0.6.0.tar.gz --markdown 20230510/g/gpttui/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 18:57:07] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: wagtail-switch-block
+[2023-05-10 18:57:07] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-10 18:57:07] WARNING root fetch - processPackages [wagtail-switch-block]: Skipping, unable to determine old version
+[2023-05-10 18:57:07] INFO root fetch - processPackages [wagtail-switch-block]: Start processing: financepy
+[2023-05-10 18:57:07] INFO root fetch - main [MainThread]: End processing [wagtail-switch-block] error
+[2023-05-10 18:57:07] INFO root fetch - processPackages [financepy]: New version: [0.290] Old Version: [0.270]
+[2023-05-10 18:57:08] INFO root fetch - processPackages [ILEE-CSK]: Start processing: venv-modulefile
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [ILEE-CSK]: success
+[2023-05-10 18:57:08] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: shimmerdrift
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-10 18:57:08] INFO root fetch - processPackages [venv-modulefile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:57:08] WARNING root fetch - processPackages [shimmerdrift]: Skipping, unable to determine old version
+[2023-05-10 18:57:08] INFO root fetch - processPackages [shimmerdrift]: Start processing: wagtail-tags-block
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [shimmerdrift] error
+[2023-05-10 18:57:08] INFO root fetch - processPackages [financepy]: Downloading https://files.pythonhosted.org/packages/49/fa/0cb628fdb851e04fb28b67de41752c18b5475a36f5fcfb315c1a4cc06548/financepy-0.270.tar.gz
+[2023-05-10 18:57:08] INFO root fetch - processPackages [moddagudu]: Start processing: PatryksAutoAI
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 18:57:08] INFO root fetch - processPackages [venv-modulefile]: executing diffoscope
+[2023-05-10 18:57:08] INFO root fetch - processPackages [venv-modulefile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/venv-modulefile-0.0.8.tar.gz tmp/venv-modulefile-0.0.9.tar.gz --markdown 20230510/v/venv-modulefile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:57:08] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 18:57:08] INFO root fetch - processPackages [assemblyline-ui]: Start processing: flarespy
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-10 18:57:08] WARNING root fetch - processPackages [wagtail-tags-block]: Skipping, unable to determine old version
+[2023-05-10 18:57:08] INFO root fetch - processPackages [wagtail-tags-block]: Start processing: moddagudu
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [wagtail-tags-block] error
+[2023-05-10 18:57:08] INFO root fetch - processPackages [moddagudu]: New version: [1.2] Old Version: [1.1]
+[2023-05-10 18:57:08] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-10 18:57:08] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 18:57:08] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.1.tar.gz tmp/moddagudu-1.2.tar.gz --markdown 20230510/m/moddagudu/1.1-1.2/diff.md --exclude *.pyd
+[2023-05-10 18:57:08] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-05-10 18:57:08] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230510/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-10 18:57:08] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/76/60/60963707491404a85e0292749093b6909f1ce410abafef3f3ad1e0ec1657/PatryksAutoAI-0.0.8.tar.gz
+[2023-05-10 18:57:08] INFO root fetch - processPackages [financepy]: Downloading https://files.pythonhosted.org/packages/b5/6f/04e4c251716a4ff7110d11dd36d6a3cc393d846bdfbb9ff054bc1bac753d/financepy-0.290.tar.gz
+[2023-05-10 18:57:08] INFO root fetch - processPackages [gpttui]: Start processing: skylibs
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [gpttui]: success
+[2023-05-10 18:57:08] INFO root fetch - processPackages [financepy]: executing diffoscope
+[2023-05-10 18:57:08] INFO root fetch - processPackages [financepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/financepy-0.270.tar.gz tmp/financepy-0.290.tar.gz --markdown 20230510/f/financepy/0.270-0.290/diff.md --exclude *.pyd
+[2023-05-10 18:57:08] INFO root fetch - main [MainThread]: End processing [wetterdienst]: success
+[2023-05-10 18:57:08] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 18:57:08] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.7.tar.gz tmp/PatryksAutoAI-0.0.8.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 18:57:08] INFO root fetch - processPackages [skylibs]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-05-10 18:57:08] INFO root fetch - processPackages [skylibs]: Downloading https://files.pythonhosted.org/packages/0c/6d/c395dda08314f0c13bb76c3c965a84969e51947c145306e1cb0fa1e7b7ee/skylibs-0.7.2.tar.gz
+[2023-05-10 18:57:09] INFO root fetch - processPackages [skylibs]: Downloading https://files.pythonhosted.org/packages/e5/bf/0a797dee5097a767679c54d69c7d40c269406b025bcc4ed2775b3eaea74b/skylibs-0.7.3.tar.gz
+[2023-05-10 18:57:09] INFO root fetch - processPackages [skylibs]: executing diffoscope
+[2023-05-10 18:57:09] INFO root fetch - processPackages [skylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skylibs-0.7.2.tar.gz tmp/skylibs-0.7.3.tar.gz --markdown 20230510/s/skylibs/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-05-10 18:57:09] INFO root fetch - main [MainThread]: End processing [venv-modulefile]: success
+[2023-05-10 18:57:09] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 18:57:09] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-10 18:57:09] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-05-10 18:57:10] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 18:57:10] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-10 18:57:10] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-10 18:57:10] INFO root fetch - main [MainThread]: End processing [skylibs]: success
+[2023-05-10 18:57:12] INFO root fetch - main [MainThread]: End processing [financepy]: success
+[2023-05-10 18:57:12] INFO root fetch - main [MainThread]: Store serial: [18050218]
