@@ -17358,3 +17358,119 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 15:12:21] INFO root fetch - main [MainThread]: End processing [garpix-user]: success
 [2023-05-10 15:12:24] INFO root fetch - main [MainThread]: End processing [river]: success
 [2023-05-10 15:12:24] INFO root fetch - main [MainThread]: Store serial: [18047676]
+[2023-05-10 15:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047676]
+[2023-05-10 15:17:33] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: scAnnot
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qsolve
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: utracto
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smartjs
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secrets-env
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-pandas
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipyflow-core
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ipyflow
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skytemple-files
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pulpcore
+[2023-05-10 15:17:33] INFO root fetch - processPackages [scAnnot]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [utracto]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [qsolve]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ipyflow-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [smartjs]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [secrets-env]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [skytemple-files]: New version: [1.5.0] Old Version: [1.4.7]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [ipyflow]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [pulpcore]: New version: [3.9.1] Old Version: [3.9.0]
+[2023-05-10 15:17:33] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 15:17:34] INFO root fetch - processPackages [ipyflow-core]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [ipyflow-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-core-0.0.98.tar.gz tmp/ipyflow-core-0.0.99.tar.gz --markdown 20230510/i/ipyflow-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [ipyflow]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [ipyflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipyflow-0.0.98.tar.gz tmp/ipyflow-0.0.99.tar.gz --markdown 20230510/i/ipyflow/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230510/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [scAnnot]: Downloading https://files.pythonhosted.org/packages/4c/54/aefabf9b168e02a80c7f01023a423b1124e92e85c1959681025425300e57/scAnnot-0.0.2.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [qsolve]: Downloading https://files.pythonhosted.org/packages/2f/d6/9b884113420c3b63d7cb53fcf1889683247d6158dfb51a3058eab2f63520/qsolve-0.2.8.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/cc/87/4c614ea9c0547e41e49a32671a5e25b6e6e75d53ec08c7f5c748dab7a220/utracto-0.0.6.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/f8/1d/71d5ee5112d508faa58a8e221cf74383b6d987ca0d17c18e2703c7f42845/pulpcore-3.9.0.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [qsolve]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [qsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsolve-0.2.7.tar.gz tmp/qsolve-0.2.8.tar.gz --markdown 20230510/q/qsolve/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.5.tar.gz tmp/utracto-0.0.6.tar.gz --markdown 20230510/u/utracto/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [smartjs]: Downloading https://files.pythonhosted.org/packages/ea/c3/5665a253cff7c0a51e33d8e589ee11be0432aa342bd68dfb6430af327cd2/smartjs-0.1.1.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/b8/2b/9838a4313518eb1e99a90dbbe632013c7acfa008a9805a4764664651aa56/skytemple_files-1.4.7-py3-none-any.whl
+[2023-05-10 15:17:34] INFO root fetch - processPackages [secrets-env]: Downloading https://files.pythonhosted.org/packages/d0/40/079851ea6eb1e83288c07004b0971996976fcef632afb0a328e7cca8a287/secrets_env-0.8.0-py3-none-any.whl
+[2023-05-10 15:17:34] INFO root fetch - processPackages [smartjs]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [smartjs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartjs-0.1.0.tar.gz tmp/smartjs-0.1.1.tar.gz --markdown 20230510/s/smartjs/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [scAnnot]: Downloading https://files.pythonhosted.org/packages/bc/b9/20697c251b7b94c71ed33032e182f0337e157a79b41cbc41ef9927e0df06/scAnnot-0.0.3.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [scAnnot]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [scAnnot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scAnnot-0.0.2.tar.gz tmp/scAnnot-0.0.3.tar.gz --markdown 20230510/s/scAnnot/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [pulpcore]: Downloading https://files.pythonhosted.org/packages/bb/70/24516074cc53b97be0e41b4892a3f5bcf3ac34e3b7634e49e28a6ae67a49/pulpcore-3.9.1.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [secrets-env]: Downloading https://files.pythonhosted.org/packages/2c/68/06f6d7814b78d71721223ed0e03e90e48e2959c60319bb23cf0d7fd0eef0/secrets_env-0.9.0.tar.gz
+[2023-05-10 15:17:34] INFO root fetch - processPackages [pulpcore]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [pulpcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-3.9.0.tar.gz tmp/pulpcore-3.9.1.tar.gz --markdown 20230510/p/pulpcore/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [skytemple-files]: Downloading https://files.pythonhosted.org/packages/9c/85/f8c6d3653925548a89bccb09032c0bc0e7f9247a5e94a5de134339274b38/skytemple_files-1.5.0-py3-none-any.whl
+[2023-05-10 15:17:34] INFO root fetch - processPackages [skytemple-files]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [skytemple-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skytemple_files-1.4.7-py3-none-any.whl.zip tmp/skytemple_files-1.5.0-py3-none-any.whl.zip --markdown 20230510/s/skytemple-files/1.4.7-1.5.0/diff.md --exclude *.pyd
+[2023-05-10 15:17:34] INFO root fetch - processPackages [secrets-env]: executing diffoscope
+[2023-05-10 15:17:34] INFO root fetch - processPackages [secrets-env]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/secrets_env-0.8.0-py3-none-any.whl.zip tmp/secrets_env-0.9.0.tar.gz --markdown 20230510/s/secrets-env/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:17:35] INFO root fetch - processPackages [smartjs]: Start processing: pulpcore-client
+[2023-05-10 15:17:35] INFO root fetch - main [MainThread]: End processing [smartjs]: success
+[2023-05-10 15:17:35] INFO root fetch - processPackages [pulpcore-client]: New version: [3.9.1] Old Version: [3.9.0.dev1607297320]
+[2023-05-10 15:17:35] INFO root fetch - processPackages [qsolve]: Start processing: SimpleTFLinter
+[2023-05-10 15:17:35] INFO root fetch - main [MainThread]: End processing [qsolve]: success
+[2023-05-10 15:17:35] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/bc/86/6e7f7c30116cfa30b6bd9e4cb32992d10e7c7f831ceef210610b30707023/pulpcore-client-3.9.0.dev1607297320.tar.gz
+[2023-05-10 15:17:35] WARNING root fetch - processPackages [SimpleTFLinter]: Skipping, unable to determine old version
+[2023-05-10 15:17:35] INFO root fetch - processPackages [SimpleTFLinter]: Start processing: nbdev-pytorch
+[2023-05-10 15:17:35] INFO root fetch - main [MainThread]: End processing [SimpleTFLinter] error
+[2023-05-10 15:17:35] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 15:17:35] INFO root fetch - processPackages [scAnnot]: Start processing: nustarpipeline
+[2023-05-10 15:17:35] INFO root fetch - main [MainThread]: End processing [scAnnot]: success
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nustarpipeline]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230510/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [utracto]: Start processing: anypay
+[2023-05-10 15:17:36] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 15:17:36] INFO root fetch - processPackages [anypay]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nustarpipeline]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nustarpipeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nustarpipeline-0.2.8.tar.gz tmp/nustarpipeline-0.2.9.tar.gz --markdown 20230510/n/nustarpipeline/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [secrets-env]: Start processing: llcsciencesdk
+[2023-05-10 15:17:36] INFO root fetch - main [MainThread]: End processing [secrets-env]: success
+[2023-05-10 15:17:36] INFO root fetch - processPackages [llcsciencesdk]: New version: [2.0.0] Old Version: [1.2.0]
+[2023-05-10 15:17:36] INFO root fetch - processPackages [anypay]: Downloading https://files.pythonhosted.org/packages/7e/fe/2fb6c794a5e3be17461220764d375bdeb97532d32b4a501c08da0957d7b7/anypay-1.1.2.tar.gz
+[2023-05-10 15:17:36] INFO root fetch - processPackages [pulpcore-client]: Downloading https://files.pythonhosted.org/packages/35/63/611a0870907086abd3a010fad88acd0236d830aac5b72032d41e66440aff/pulpcore-client-3.9.1.tar.gz
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-scipy
+[2023-05-10 15:17:36] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 15:17:36] INFO root fetch - processPackages [llcsciencesdk]: Downloading https://files.pythonhosted.org/packages/b2/c3/1f0cf819a719ab7de0065487e5219b7104c61e6c30d6de484892bcf49137/llcsciencesdk-1.2.0.tar.gz
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230510/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [pulpcore-client]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [pulpcore-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulpcore-client-3.9.0.dev1607297320.tar.gz tmp/pulpcore-client-3.9.1.tar.gz --markdown 20230510/p/pulpcore-client/3.9.0.dev1607297320-3.9.1/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [anypay]: Downloading https://files.pythonhosted.org/packages/3b/b5/ecee5ffaa2a955c96c2f885d683c312f4c7568c0a1d590cd92323170c4ad/anypay-1.1.3.tar.gz
+[2023-05-10 15:17:36] INFO root fetch - processPackages [anypay]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [anypay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anypay-1.1.2.tar.gz tmp/anypay-1.1.3.tar.gz --markdown 20230510/a/anypay/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [ipyflow]: Start processing: docassemble.ALToolbox
+[2023-05-10 15:17:36] INFO root fetch - main [MainThread]: End processing [ipyflow]: success
+[2023-05-10 15:17:36] INFO root fetch - processPackages [docassemble.ALToolbox]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-10 15:17:36] INFO root fetch - processPackages [llcsciencesdk]: Downloading https://files.pythonhosted.org/packages/1d/4c/09d28d746316a3eb470d814e625c90ce054c49b7b173a46d3d9ed629e7dc/llcsciencesdk-2.0.0.tar.gz
+[2023-05-10 15:17:36] INFO root fetch - processPackages [llcsciencesdk]: executing diffoscope
+[2023-05-10 15:17:36] INFO root fetch - processPackages [llcsciencesdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llcsciencesdk-1.2.0.tar.gz tmp/llcsciencesdk-2.0.0.tar.gz --markdown 20230510/l/llcsciencesdk/1.2.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 15:17:36] INFO root fetch - processPackages [docassemble.ALToolbox]: Downloading https://files.pythonhosted.org/packages/51/1e/ff06d5f8d5a9c4e4c013a232e39cbcf4b6ba1b7ca431b1edc7808e56c5b0/docassemble.ALToolbox-0.8.0.tar.gz
+[2023-05-10 15:17:37] INFO root fetch - processPackages [docassemble.ALToolbox]: Downloading https://files.pythonhosted.org/packages/55/55/9906cf90684556df421322081e1f28183a8cf343fabf36c036d4cc7c18b6/docassemble.ALToolbox-0.8.1.tar.gz
+[2023-05-10 15:17:37] INFO root fetch - processPackages [docassemble.ALToolbox]: executing diffoscope
+[2023-05-10 15:17:37] INFO root fetch - processPackages [docassemble.ALToolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.ALToolbox-0.8.0.tar.gz tmp/docassemble.ALToolbox-0.8.1.tar.gz --markdown 20230510/d/docassemble.ALToolbox/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-10 15:17:37] INFO root fetch - processPackages [nustarpipeline]: Start processing: eFatura
+[2023-05-10 15:17:37] INFO root fetch - main [MainThread]: End processing [nustarpipeline]: success
+[2023-05-10 15:17:37] INFO root fetch - processPackages [eFatura]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 15:17:37] INFO root fetch - main [MainThread]: End processing [ipyflow-core]: success
+[2023-05-10 15:17:37] INFO root fetch - main [MainThread]: End processing [pulpcore]: success
+[2023-05-10 15:17:37] INFO root fetch - processPackages [eFatura]: Downloading https://files.pythonhosted.org/packages/5f/b7/31ded4d228fc941cab08a07f3eae4470d313744c31e5ff0517d13336f48b/eFatura-0.0.8.tar.gz
+[2023-05-10 15:17:37] INFO root fetch - processPackages [eFatura]: executing diffoscope
+[2023-05-10 15:17:37] INFO root fetch - processPackages [eFatura]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eFatura-0.0.7.tar.gz tmp/eFatura-0.0.8.tar.gz --markdown 20230510/e/eFatura/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 15:17:38] INFO root fetch - main [MainThread]: End processing [llcsciencesdk]: success
+[2023-05-10 15:17:38] INFO root fetch - main [MainThread]: End processing [anypay]: success
+[2023-05-10 15:17:38] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-05-10 15:17:38] INFO root fetch - main [MainThread]: End processing [docassemble.ALToolbox]: success
+[2023-05-10 15:17:39] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-05-10 15:17:39] INFO root fetch - main [MainThread]: End processing [eFatura]: success
+[2023-05-10 15:17:40] INFO root fetch - main [MainThread]: End processing [pulpcore-client]: success
+[2023-05-10 15:17:54] INFO root fetch - main [MainThread]: End processing [skytemple-files]: success
+[2023-05-10 15:17:54] INFO root fetch - main [MainThread]: Store serial: [18047734]
