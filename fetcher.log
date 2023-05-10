@@ -6217,3 +6217,74 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 04:36:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-solar]: success
 [2023-05-10 04:36:33] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-scf]: success
 [2023-05-10 04:36:33] INFO root fetch - main [MainThread]: Store serial: [18041422]
+[2023-05-10 04:41:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041422]
+[2023-05-10 04:41:42] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caveclient
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xhs
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vise
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phanterpwa
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-shindan
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intake-dataframe-catalog
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: policyengine-us
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tencentcloud-sdk-python-ssa
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tencentcloud-sdk-python-ssl
+[2023-05-10 04:41:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: geocodeus
+[2023-05-10 04:41:42] INFO root fetch - processPackages [vise]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [caveclient]: New version: [5.4.1] Old Version: [5.4.0]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [phanterpwa]: New version: [13.13.2] Old Version: [13.13.1]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [nonebot-plugin-shindan]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [intake-dataframe-catalog]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [xhs]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [policyengine-us]: New version: [0.315.0] Old Version: [0.314.1]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: New version: [3.0.888] Old Version: [3.0.887]
+[2023-05-10 04:41:42] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: New version: [3.0.888] Old Version: [3.0.887]
+[2023-05-10 04:41:43] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/94/f0/a2e646c40a1407fd61748e5864089bcd23d1a7ad812917ea83fa87a87cf9/intake_dataframe_catalog-0.0.8.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [vise]: Downloading https://files.pythonhosted.org/packages/56/4b/b2b412e578412700eea383b1a15e6e7a6a09c55a77fb233d2e7b1a84da3a/vise-0.7.1.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/b5/94/4940983b78c5c03d8f2cd7b233e81a3e118effbe3a498c9968eecef2ce2f/caveclient-5.4.0.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/3d/d3/681eb3348c12af5d09b48a1e01c15255dee4f78a88f15b9fc0eb81537b67/policyengine-us-0.314.1.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [xhs]: Downloading https://files.pythonhosted.org/packages/fd/75/0b693d1baebfc6d643836f328f16ef66ec0923c902809824f192c466011f/xhs-0.2.0.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: Downloading https://files.pythonhosted.org/packages/c1/81/a2391d08f79e209713b12c77156e1290bca2403cc4650b6b43a97bde3a88/tencentcloud-sdk-python-ssa-3.0.888.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [nonebot-plugin-shindan]: Downloading https://files.pythonhosted.org/packages/4b/35/a2ee9fba94034ca564d989b11900292074e970b2b2b28b1e0ef1be5355a6/nonebot_plugin_shindan-0.3.4.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssa-3.0.887.tar.gz tmp/tencentcloud-sdk-python-ssa-3.0.888.tar.gz --markdown 20230510/t/tencentcloud-sdk-python-ssa/3.0.887-3.0.888/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: Downloading https://files.pythonhosted.org/packages/25/21/4484f3ac3eaf7ba727f94d0e46217da09d00deb32e48ec79f5d82d5c13b8/tencentcloud-sdk-python-ssl-3.0.888.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [phanterpwa]: Downloading https://files.pythonhosted.org/packages/65/d1/406df8ff725b9c0a9ade8c3f696566d12e856e48c11419082b1cce61f553/phanterpwa-13.13.2.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [xhs]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [xhs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xhs-0.1.9.tar.gz tmp/xhs-0.2.0.tar.gz --markdown 20230510/x/xhs/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [intake-dataframe-catalog]: Downloading https://files.pythonhosted.org/packages/69/f5/adefd81f1930ba54c96741dd24fac1c3e70c87c9c9d0d4240162606b859d/intake_dataframe_catalog-0.1.0.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [vise]: Downloading https://files.pythonhosted.org/packages/50/66/19abf2dcdc43368bf181b23a17e6a6656dee08a0896a0eedf271c4da106e/vise-0.7.2.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/65/8d/d5a5ecb742c4cfc706e0d5bc7a09d001ca865be8720c85d972189d884311/caveclient-5.4.1.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [intake-dataframe-catalog]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [intake-dataframe-catalog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intake_dataframe_catalog-0.0.8.tar.gz tmp/intake_dataframe_catalog-0.1.0.tar.gz --markdown 20230510/i/intake-dataframe-catalog/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [phanterpwa]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [phanterpwa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phanterpwa-13.13.1.tar.gz tmp/phanterpwa-13.13.2.tar.gz --markdown 20230510/p/phanterpwa/13.13.1-13.13.2/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [caveclient]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [caveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caveclient-5.4.0.tar.gz tmp/caveclient-5.4.1.tar.gz --markdown 20230510/c/caveclient/5.4.0-5.4.1/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [vise]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [vise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vise-0.7.1.tar.gz tmp/vise-0.7.2.tar.gz --markdown 20230510/v/vise/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [tencentcloud-sdk-python-ssl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-ssl-3.0.887.tar.gz tmp/tencentcloud-sdk-python-ssl-3.0.888.tar.gz --markdown 20230510/t/tencentcloud-sdk-python-ssl/3.0.887-3.0.888/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [policyengine-us]: Downloading https://files.pythonhosted.org/packages/9e/5f/39b1e2ca1b9df5f24984a1d629e39d63b7171ebe49a1469208529c51a729/policyengine-us-0.315.0.tar.gz
+[2023-05-10 04:41:43] INFO root fetch - processPackages [nonebot-plugin-shindan]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [nonebot-plugin-shindan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_shindan-0.3.3.tar.gz tmp/nonebot_plugin_shindan-0.3.4.tar.gz --markdown 20230510/n/nonebot-plugin-shindan/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-10 04:41:43] INFO root fetch - processPackages [policyengine-us]: executing diffoscope
+[2023-05-10 04:41:43] INFO root fetch - processPackages [policyengine-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/policyengine-us-0.314.1.tar.gz tmp/policyengine-us-0.315.0.tar.gz --markdown 20230510/p/policyengine-us/0.314.1-0.315.0/diff.md --exclude *.pyd
+[2023-05-10 04:41:44] INFO root fetch - processPackages [geocodeus]: Start processing: tencentcloud-sdk-python-sslpod
+[2023-05-10 04:41:44] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: New version: [3.0.887] Old Version: [3.0.886]
+[2023-05-10 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: executing diffoscope
+[2023-05-10 04:41:44] INFO root fetch - processPackages [tencentcloud-sdk-python-sslpod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-sslpod-3.0.886.tar.gz tmp/tencentcloud-sdk-python-sslpod-3.0.887.tar.gz --markdown 20230510/t/tencentcloud-sdk-python-sslpod/3.0.886-3.0.887/diff.md --exclude *.pyd
+[2023-05-10 04:41:44] INFO root fetch - main [MainThread]: End processing [xhs]: success
+[2023-05-10 04:41:44] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssl]: success
+[2023-05-10 04:41:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-ssa]: success
+[2023-05-10 04:41:45] INFO root fetch - main [MainThread]: End processing [intake-dataframe-catalog]: success
+[2023-05-10 04:41:45] INFO root fetch - main [MainThread]: End processing [vise]: success
+[2023-05-10 04:41:45] INFO root fetch - main [MainThread]: End processing [caveclient]: success
+[2023-05-10 04:41:45] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-sslpod]: success
+[2023-05-10 04:41:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-shindan]: success
+[2023-05-10 04:41:48] INFO root fetch - main [MainThread]: End processing [phanterpwa]: success
+[2023-05-10 04:42:54] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
+[2023-05-10 04:42:54] INFO root fetch - main [MainThread]: Store serial: [18041452]
