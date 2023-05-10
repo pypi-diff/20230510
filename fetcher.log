@@ -8979,3 +8979,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:13:24] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
 [2023-05-10 08:13:25] INFO root fetch - main [MainThread]: End processing [bacpypes3]: success
 [2023-05-10 08:13:25] INFO root fetch - main [MainThread]: Store serial: [18042859]
+[2023-05-10 08:18:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042859]
+[2023-05-10 08:18:34] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: np-jobs
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: goplus
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdata
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: serdesere
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: util-hj3415
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: setup-lcy
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datar-arrow
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tastytrade-sdk
+[2023-05-10 08:18:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PySide6-Fluent-Widgets
+[2023-05-10 08:18:34] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [np-jobs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-10 08:18:34] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230510/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 08:18:34] WARNING root fetch - processPackages [goplus]: Skipping, unable to determine old version
+[2023-05-10 08:18:34] INFO root fetch - processPackages [goplus]: Start processing: video-subtitles
+[2023-05-10 08:18:34] INFO root fetch - main [MainThread]: End processing [goplus] error
+[2023-05-10 08:18:34] WARNING root fetch - processPackages [serdesere]: Skipping, unable to determine old version
+[2023-05-10 08:18:34] WARNING root fetch - processPackages [datar-arrow]: Skipping, unable to determine old version
+[2023-05-10 08:18:34] WARNING root fetch - processPackages [setup-lcy]: Skipping, unable to determine old version
+[2023-05-10 08:18:34] INFO root fetch - main [MainThread]: End processing [serdesere] error
+[2023-05-10 08:18:34] INFO root fetch - main [MainThread]: End processing [datar-arrow] error
+[2023-05-10 08:18:34] INFO root fetch - main [MainThread]: End processing [setup-lcy] error
+[2023-05-10 08:18:34] INFO root fetch - processPackages [util-hj3415]: New version: [1.0.0] Old Version: [0.9.6]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-10 08:18:34] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 08:18:34] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 08:18:34] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-05-10 08:18:34] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-05-10 08:18:34] INFO root fetch - processPackages [video-subtitles]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 08:18:35] INFO root fetch - processPackages [np-jobs]: Downloading https://files.pythonhosted.org/packages/72/28/08b81254291b602c1b10864f8bf2c41d7e895790ee74cbc82d030cc9a9a7/np_jobs-0.0.2.tar.gz
+[2023-05-10 08:18:35] INFO root fetch - processPackages [video-subtitles]: executing diffoscope
+[2023-05-10 08:18:35] INFO root fetch - processPackages [video-subtitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-subtitles-1.0.5.tar.gz tmp/video-subtitles-1.0.6.tar.gz --markdown 20230510/v/video-subtitles/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 08:18:35] INFO root fetch - processPackages [util-hj3415]: Downloading https://files.pythonhosted.org/packages/ef/fb/c772b2575b144df3a8832fb19167cbfa246262eba21fc4c12ab93ab9ad30/util_hj3415-0.9.6.tar.gz
+[2023-05-10 08:18:35] WARNING root fetch - processPackages [util-hj3415]: Skipping package: exceeds size limit 13892955>=10485760
+[2023-05-10 08:18:35] INFO root fetch - main [MainThread]: End processing [util-hj3415] error
+[2023-05-10 08:18:35] INFO root fetch - processPackages [np-jobs]: Downloading https://files.pythonhosted.org/packages/37/64/def19ea0dcc803f6f2b69f41d7f76faf1105bc622f46423df3e433a1ce93/np_jobs-0.0.3.tar.gz
+[2023-05-10 08:18:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/2d/cb/84cf7cfbfa440a6b36e473619a5120f00982a1d414269e1f6ba2bf8b9b02/PySide6-Fluent-Widgets-0.8.7.tar.gz
+[2023-05-10 08:18:35] INFO root fetch - processPackages [np-jobs]: executing diffoscope
+[2023-05-10 08:18:35] INFO root fetch - processPackages [np-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_jobs-0.0.2.tar.gz tmp/np_jobs-0.0.3.tar.gz --markdown 20230510/n/np-jobs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-05-10 08:18:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: executing diffoscope
+[2023-05-10 08:18:35] INFO root fetch - processPackages [PySide6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-Fluent-Widgets-0.8.6.tar.gz tmp/PySide6-Fluent-Widgets-0.8.7.tar.gz --markdown 20230510/P/PySide6-Fluent-Widgets/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-10 08:18:35] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 08:18:36] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
+[2023-05-10 08:18:36] INFO root fetch - main [MainThread]: End processing [np-jobs]: success
+[2023-05-10 08:18:36] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-10 08:18:39] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
+[2023-05-10 08:18:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-05-10 08:18:42] INFO root fetch - main [MainThread]: Store serial: [18042897]
