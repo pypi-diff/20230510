@@ -8450,3 +8450,50 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:25:18] INFO root fetch - main [MainThread]: End processing [nudebomb]: success
 [2023-05-10 07:25:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
 [2023-05-10 07:25:46] INFO root fetch - main [MainThread]: Store serial: [18042567]
+[2023-05-10 07:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042567]
+[2023-05-10 07:30:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: feathub-nightly
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glacier
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gandai
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: video-subtitles
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crazy-thursday
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: proteinTools
+[2023-05-10 07:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: silero-api-server
+[2023-05-10 07:30:55] INFO root fetch - processPackages [gandai]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [glacier]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [silero-api-server]: New version: [0.1.4] Old Version: [0.1.1]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [video-subtitles]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [proteinTools]: New version: [1.5.1] Old Version: [1.4.4]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.5.9.1] Old Version: [2023.5.9.0]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [feathub-nightly]: New version: [0.1.dev20230510] Old Version: [0.1.dev20230508]
+[2023-05-10 07:30:55] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-05-10 07:30:55] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.5.9.0.tar.gz tmp/crazy-thursday-2023.5.9.1.tar.gz --markdown 20230510/c/crazy-thursday/2023.5.9.0-2023.5.9.1/diff.md --exclude *.pyd
+[2023-05-10 07:30:55] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/82/37/b05ee2d15051fbe7979346c8b0c5e44d666cd5a1ca45f7a3ba771cdefd2b/gandai-1.1.1.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/85/64/1599236dcae51c9be8a00b6e6f4788837fba8059267c85bf24be6344b9e0/proteinTools-1.4.4.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/bb/65/e473c5a2c2350956e08d16f374fdb9b76abb7509e9ea9107afbaa1f3a80d/glacier-0.3.5.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/96/32/1f1f85ebbe16485da525415a8719115629ec5deac9042e416b21fb55a74d/video-subtitles-1.0.5.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [silero-api-server]: Downloading https://files.pythonhosted.org/packages/60/08/a9899cd0d5e7b3d49af8f8bc165a015c3b9ed136221712bcb62bbf2f447d/silero_api_server-0.1.4.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [feathub-nightly]: Downloading https://files.pythonhosted.org/packages/18/f0/9450e48e954d450ff79d1ec66802e2b013efc9552ede26e43ae1cc936ec5/feathub_nightly-0.1.dev20230508-py3-none-any.whl
+[2023-05-10 07:30:55] WARNING root fetch - processPackages [feathub-nightly]: Skipping package: exceeds size limit 12034222>=10485760
+[2023-05-10 07:30:55] INFO root fetch - main [MainThread]: End processing [feathub-nightly] error
+[2023-05-10 07:30:55] INFO root fetch - processPackages [gandai]: Downloading https://files.pythonhosted.org/packages/81/93/c8deee6a2e9e841eb0e807d59a3f123a86318c40078ece06411e9c344d1b/gandai-1.1.2.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [proteinTools]: Downloading https://files.pythonhosted.org/packages/ad/f4/1617da7726b1c0d8ea6c15ba1c75204c0693418bd4882f132475bb188904/proteinTools-1.5.1.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [glacier]: Downloading https://files.pythonhosted.org/packages/ce/6b/3ff9528570a4442700771fb8aca7344b3df6d8f70c260786b6266ad76daf/glacier-0.4.0.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [silero-api-server]: executing diffoscope
+[2023-05-10 07:30:55] INFO root fetch - processPackages [silero-api-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silero_api_server-0.1.1.tar.gz tmp/silero_api_server-0.1.4.tar.gz --markdown 20230510/s/silero-api-server/0.1.1-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 07:30:55] INFO root fetch - processPackages [video-subtitles]: Downloading https://files.pythonhosted.org/packages/1e/e3/68fb706ccc09750d29c704e9da8525740a74faa266ac70d2b618a97a28a4/video-subtitles-1.0.6.tar.gz
+[2023-05-10 07:30:55] INFO root fetch - processPackages [proteinTools]: executing diffoscope
+[2023-05-10 07:30:55] INFO root fetch - processPackages [proteinTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteinTools-1.4.4.tar.gz tmp/proteinTools-1.5.1.tar.gz --markdown 20230510/p/proteinTools/1.4.4-1.5.1/diff.md --exclude *.pyd
+[2023-05-10 07:30:55] INFO root fetch - processPackages [gandai]: executing diffoscope
+[2023-05-10 07:30:55] INFO root fetch - processPackages [gandai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gandai-1.1.1.tar.gz tmp/gandai-1.1.2.tar.gz --markdown 20230510/g/gandai/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-10 07:30:55] INFO root fetch - processPackages [video-subtitles]: executing diffoscope
+[2023-05-10 07:30:55] INFO root fetch - processPackages [video-subtitles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video-subtitles-1.0.5.tar.gz tmp/video-subtitles-1.0.6.tar.gz --markdown 20230510/v/video-subtitles/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-05-10 07:30:56] INFO root fetch - processPackages [glacier]: executing diffoscope
+[2023-05-10 07:30:56] INFO root fetch - processPackages [glacier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glacier-0.3.5.tar.gz tmp/glacier-0.4.0.tar.gz --markdown 20230510/g/glacier/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 07:30:56] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-05-10 07:30:56] INFO root fetch - main [MainThread]: End processing [silero-api-server]: success
+[2023-05-10 07:30:56] INFO root fetch - main [MainThread]: End processing [proteinTools]: success
+[2023-05-10 07:30:57] INFO root fetch - main [MainThread]: End processing [glacier]: success
+[2023-05-10 07:30:57] INFO root fetch - main [MainThread]: End processing [video-subtitles]: success
+[2023-05-10 07:30:57] INFO root fetch - main [MainThread]: End processing [gandai]: success
+[2023-05-10 07:30:57] INFO root fetch - main [MainThread]: Store serial: [18042591]
