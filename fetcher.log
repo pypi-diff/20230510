@@ -10167,3 +10167,60 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 09:29:06] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-05-10 09:29:08] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-05-10 09:29:08] INFO root fetch - main [MainThread]: Store serial: [18043481]
+[2023-05-10 09:34:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043481]
+[2023-05-10 09:34:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tyro
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo10-addon-mass-editing
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mpscenes
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: milankalkenings
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudnetpy
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-date-range
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: salesforce-cdp-connector
+[2023-05-10 09:34:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-date-range
+[2023-05-10 09:34:17] INFO root fetch - processPackages [salesforce-cdp-connector]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [tyro]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [mpscenes]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [milankalkenings]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo13-addon-date-range]: New version: [13.0.1.0.3.dev4] Old Version: [13.0.1.0.3.dev3]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo10-addon-mass-editing]: New version: [10.0.2.1.0.99.dev4] Old Version: [10.0.2.1.0.99.dev3]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo12-addon-date-range]: New version: [12.0.2.0.2.99.dev4] Old Version: [12.0.2.0.2.99.dev3]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [cloudnetpy]: New version: [1.9.4] Old Version: [1.9.3]
+[2023-05-10 09:34:17] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/2f/74/389afc5acae4079635a21a74af4c1e2f69fe8d5b6527fbd002f998c40d33/tyro-0.5.1.tar.gz
+[2023-05-10 09:34:17] INFO root fetch - processPackages [mpscenes]: Downloading https://files.pythonhosted.org/packages/23/e6/2b3d05cd66e7f58a75eddd32f6068464aa4057d79218b549e6a1b8a6498a/mpscenes-0.3.1.tar.gz
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo10-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/45/3b/af83f7d039706d14f53aee6041bd93e81bdcfa0318a9dccabf4851dc1401/odoo10_addon_mass_editing-10.0.2.1.0.99.dev3-py2-none-any.whl
+[2023-05-10 09:34:17] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/c4/40/15455bb7c487cfd9864566d899f488fa7dfd67cb4ae44e3fa032a8444adc/salesforce-cdp-connector-1.0.8.tar.gz
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo12-addon-date-range]: Downloading https://files.pythonhosted.org/packages/fa/19/d68474ab14317951cf9f12917c9be48ec2a2cc05f1707082c3c3463b845b/odoo12_addon_date_range-12.0.2.0.2.99.dev3-py3-none-any.whl
+[2023-05-10 09:34:17] INFO root fetch - processPackages [milankalkenings]: Downloading https://files.pythonhosted.org/packages/c2/55/54ac15aabd4c3111250d257d947bc6ce6131c687bd7140ac1b8ec3807a29/milankalkenings-0.1.8.tar.gz
+[2023-05-10 09:34:17] INFO root fetch - processPackages [cloudnetpy]: Downloading https://files.pythonhosted.org/packages/9c/f5/740f77e4140aebd398cec0e90a35ab89249c74a2128282651e3e52d69176/cloudnetpy-1.9.3.tar.gz
+[2023-05-10 09:34:17] INFO root fetch - processPackages [odoo13-addon-date-range]: Downloading https://files.pythonhosted.org/packages/e6/47/29dad62dfab800bbf2c86e410ce017599c1dd28964044a669bede1d177e5/odoo13_addon_date_range-13.0.1.0.3.dev3-py3-none-any.whl
+[2023-05-10 09:34:18] WARNING root fetch - processPackages [cloudnetpy]: Skipping package: exceeds size limit 16683885>=10485760
+[2023-05-10 09:34:18] INFO root fetch - main [MainThread]: End processing [cloudnetpy] error
+[2023-05-10 09:34:18] INFO root fetch - processPackages [tyro]: Downloading https://files.pythonhosted.org/packages/31/0e/bc43184bf7332a4a8db820136c4287becec4770ad30ea7a9b5e723a3209f/tyro-0.5.2.tar.gz
+[2023-05-10 09:34:18] INFO root fetch - processPackages [milankalkenings]: Downloading https://files.pythonhosted.org/packages/73/38/0f7cadb56388b4c2b6fe5ee41ad59412b10359f048e5526e66e762e6f225/milankalkenings-0.1.9.tar.gz
+[2023-05-10 09:34:18] INFO root fetch - processPackages [mpscenes]: Downloading https://files.pythonhosted.org/packages/3e/38/875c4a4e5c6d0ee0a22dbb41d8339ebba886aa725f813041d98cedebf333/mpscenes-0.3.2.tar.gz
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo12-addon-date-range]: Downloading https://files.pythonhosted.org/packages/bc/cd/af2540fc611f0ad7cd4ea13bdc70d979211f447aefb0ee4bae1ede7efc64/odoo12_addon_date_range-12.0.2.0.2.99.dev4-py3-none-any.whl
+[2023-05-10 09:34:18] INFO root fetch - processPackages [tyro]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [tyro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tyro-0.5.1.tar.gz tmp/tyro-0.5.2.tar.gz --markdown 20230510/t/tyro/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo13-addon-date-range]: Downloading https://files.pythonhosted.org/packages/b8/35/47e1ece343b25fd3f26d48b1f0a6b4e6c4b571e6c23839a2842fb6d52b54/odoo13_addon_date_range-13.0.1.0.3.dev4-py3-none-any.whl
+[2023-05-10 09:34:18] INFO root fetch - processPackages [milankalkenings]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [milankalkenings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/milankalkenings-0.1.8.tar.gz tmp/milankalkenings-0.1.9.tar.gz --markdown 20230510/m/milankalkenings/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [salesforce-cdp-connector]: Downloading https://files.pythonhosted.org/packages/9c/18/5d82dd970de11e1c204c64bfacf46c925c1cf28e7411c93373c199a8d431/salesforce-cdp-connector-1.0.9.tar.gz
+[2023-05-10 09:34:18] INFO root fetch - processPackages [mpscenes]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [mpscenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mpscenes-0.3.1.tar.gz tmp/mpscenes-0.3.2.tar.gz --markdown 20230510/m/mpscenes/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo10-addon-mass-editing]: Downloading https://files.pythonhosted.org/packages/a2/85/1d78a545f9ebaba6a9facb8692df3853d96bc8703a6b4c0c7222c2b0ecad/odoo10_addon_mass_editing-10.0.2.1.0.99.dev4-py2-none-any.whl
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo10-addon-mass-editing]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo10-addon-mass-editing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_mass_editing-10.0.2.1.0.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_mass_editing-10.0.2.1.0.99.dev4-py2-none-any.whl.zip --markdown 20230510/o/odoo10-addon-mass-editing/10.0.2.1.0.99.dev3-10.0.2.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [salesforce-cdp-connector]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [salesforce-cdp-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/salesforce-cdp-connector-1.0.8.tar.gz tmp/salesforce-cdp-connector-1.0.9.tar.gz --markdown 20230510/s/salesforce-cdp-connector/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo13-addon-date-range]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo13-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_date_range-13.0.1.0.3.dev3-py3-none-any.whl.zip tmp/odoo13_addon_date_range-13.0.1.0.3.dev4-py3-none-any.whl.zip --markdown 20230510/o/odoo13-addon-date-range/13.0.1.0.3.dev3-13.0.1.0.3.dev4/diff.md --exclude *.pyd
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo12-addon-date-range]: executing diffoscope
+[2023-05-10 09:34:18] INFO root fetch - processPackages [odoo12-addon-date-range]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_date_range-12.0.2.0.2.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_date_range-12.0.2.0.2.99.dev4-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-date-range/12.0.2.0.2.99.dev3-12.0.2.0.2.99.dev4/diff.md --exclude *.pyd
+[2023-05-10 09:34:19] INFO root fetch - main [MainThread]: End processing [milankalkenings]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [tyro]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [mpscenes]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [salesforce-cdp-connector]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [odoo10-addon-mass-editing]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [odoo12-addon-date-range]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: End processing [odoo13-addon-date-range]: success
+[2023-05-10 09:34:20] INFO root fetch - main [MainThread]: Store serial: [18043503]
