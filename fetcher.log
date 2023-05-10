@@ -12497,3 +12497,133 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 11:14:37] INFO root fetch - main [MainThread]: End processing [project-structure]: success
 [2023-05-10 11:14:45] INFO root fetch - main [MainThread]: End processing [kcli]: success
 [2023-05-10 11:14:45] INFO root fetch - main [MainThread]: Store serial: [18044698]
+[2023-05-10 11:19:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044698]
+[2023-05-10 11:19:54] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: types-openpyxl
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-Pillow
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iosense-connect-onprem
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LasBuildSeg
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: get-report-template
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tbp-nightly
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nesterpack
+[2023-05-10 11:19:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: questdb-connect
+[2023-05-10 11:19:54] INFO root fetch - processPackages [get-report-template]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.16.305221] Old Version: [20230509.9.34.138320]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [types-Pillow]: New version: [9.5.0.3] Old Version: [9.5.0.2]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [LasBuildSeg]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [types-openpyxl]: New version: [3.1.0.6] Old Version: [3.1.0.5]
+[2023-05-10 11:19:54] WARNING root fetch - processPackages [nesterpack]: Skipping, unable to determine old version
+[2023-05-10 11:19:54] INFO root fetch - processPackages [nesterpack]: Start processing: overcome
+[2023-05-10 11:19:54] INFO root fetch - main [MainThread]: End processing [nesterpack] error
+[2023-05-10 11:19:54] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [LasBuildSeg]: executing diffoscope
+[2023-05-10 11:19:54] INFO root fetch - processPackages [LasBuildSeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LasBuildSeg-0.0.6.tar.gz tmp/LasBuildSeg-0.0.7.tar.gz --markdown 20230510/L/LasBuildSeg/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 11:19:54] INFO root fetch - processPackages [get-report-template]: executing diffoscope
+[2023-05-10 11:19:54] INFO root fetch - processPackages [get-report-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get-report-template-0.0.5.tar.gz tmp/get-report-template-0.0.6.tar.gz --markdown 20230510/g/get-report-template/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 11:19:54] INFO root fetch - processPackages [iosense-connect-onprem]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [questdb-connect]: New version: [0.0.41] Old Version: [0.0.40]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/3f/f7/c8b25ad3ffa3982963e9f9e1565105bb3e83ba00680d27c94c7829a92820/types-Pillow-9.5.0.2.tar.gz
+[2023-05-10 11:19:54] INFO root fetch - processPackages [overcome]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 11:19:54] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/0a/e2/efd9028dc164dcf3b3590841f825efec8188f24f3227aaa55084c553fc6f/types-openpyxl-3.1.0.5.tar.gz
+[2023-05-10 11:19:54] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/17/94/3a9ec46423822f27ec5b1fb17bfd2b4c5c81e812b78b83fe06698d907cf7/certora-cli-alpha-niv-fix_check_results-20230509.9.34.138320.tar.gz
+[2023-05-10 11:19:54] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213368>=10485760
+[2023-05-10 11:19:54] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Start processing: certora-cli-alpha-gereon-cert-2107-consolidate-logging
+[2023-05-10 11:19:54] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 11:19:54] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-05-10 11:19:54] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230510/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-05-10 11:19:54] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: Downloading https://files.pythonhosted.org/packages/6f/b8/75744f79d14b75c7d465d801496af99fc216b63882d290a01e8184b4e542/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz
+[2023-05-10 11:19:54] INFO root fetch - processPackages [iosense-connect-onprem]: Downloading https://files.pythonhosted.org/packages/48/60/73702485a7afd0e23125f6fc0936c78b247e1bb13395efe960a726f33272/iosense_connect_onprem-0.0.3.tar.gz
+[2023-05-10 11:19:54] INFO root fetch - processPackages [overcome]: Downloading https://files.pythonhosted.org/packages/9c/4f/c58a84addbc33fb421388ae9aea65c5912f128609bcf946ef85c68bc9223/overcome-0.3.0.tar.gz
+[2023-05-10 11:19:55] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-2107-consolidate-logging]: Skipping, unable to determine old version
+[2023-05-10 11:19:55] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-2107-consolidate-logging]: Start processing: rape-identification
+[2023-05-10 11:19:55] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-2107-consolidate-logging] error
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-Pillow]: Downloading https://files.pythonhosted.org/packages/6a/17/04f906bad877caffc15e6cb706ff08c180c99d09f57bce8744fc97424c7f/types-Pillow-9.5.0.3.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [rape-identification]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 11:19:55] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/fe/70/4334da94654ee832aced630a471b24dabf5b4793115f9d7948ac5756e5cb/questdb-connect-0.0.41.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-openpyxl]: Downloading https://files.pythonhosted.org/packages/a5/f0/771984737da718cae012aec5c112c369959e4e293df6b73fd71871b81205/types-openpyxl-3.1.0.6.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-Pillow]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-Pillow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-Pillow-9.5.0.2.tar.gz tmp/types-Pillow-9.5.0.3.tar.gz --markdown 20230510/t/types-Pillow/9.5.0.2-9.5.0.3/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-0.0.40.tar.gz tmp/questdb-connect-0.0.41.tar.gz --markdown 20230510/q/questdb-connect/0.0.40-0.0.41/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [iosense-connect-onprem]: Downloading https://files.pythonhosted.org/packages/f8/65/5bc28968362859559a9481bf9d9007444c236f3641aec9073049eb465672/iosense_connect_onprem-0.0.4.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [overcome]: Downloading https://files.pythonhosted.org/packages/39/4a/24e61ae45791795d7c55dc63493a9042da8fe27981b7b6095723067ca86b/overcome-0.3.1.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-openpyxl]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [types-openpyxl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-openpyxl-3.1.0.5.tar.gz tmp/types-openpyxl-3.1.0.6.tar.gz --markdown 20230510/t/types-openpyxl/3.1.0.5-3.1.0.6/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [rape-identification]: Downloading https://files.pythonhosted.org/packages/77/90/e4094a6a62e8168ad670d1b202d26513d10ffe3c5bc4f78ecebb869f1d1a/rape_identification-0.1.9.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: Downloading https://files.pythonhosted.org/packages/fa/b8/2f794b1c80d3abf7f5a0926c195bf0af9bfe713832bad805fa77f1c40f80/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz
+[2023-05-10 11:19:55] INFO root fetch - processPackages [iosense-connect-onprem]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [iosense-connect-onprem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iosense_connect_onprem-0.0.3.tar.gz tmp/iosense_connect_onprem-0.0.4.tar.gz --markdown 20230510/i/iosense-connect-onprem/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [overcome]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [overcome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/overcome-0.3.0.tar.gz tmp/overcome-0.3.1.tar.gz --markdown 20230510/o/overcome/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [rape-identification]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [rape-identification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rape_identification-0.1.8.tar.gz tmp/rape_identification-0.1.9.tar.gz --markdown 20230510/r/rape-identification/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 11:19:55] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: executing diffoscope
+[2023-05-10 11:19:55] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.8.tar.gz tmp/antchain_ak_5bb1b66c4aab4cc998c05a36078e45c1-1.0.9.tar.gz --markdown 20230510/a/antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 11:19:56] INFO root fetch - processPackages [get-report-template]: Start processing: xtgeo
+[2023-05-10 11:19:56] INFO root fetch - main [MainThread]: End processing [get-report-template]: success
+[2023-05-10 11:19:56] INFO root fetch - processPackages [xtgeo]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-05-10 11:19:56] INFO root fetch - processPackages [LasBuildSeg]: Start processing: hiclass
+[2023-05-10 11:19:56] INFO root fetch - main [MainThread]: End processing [LasBuildSeg]: success
+[2023-05-10 11:19:56] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/0f/9b/a7bda89fea6633e419fb5330e276105e918101465834266f3740e2d5e318/xtgeo-3.0.1-cp39-cp39-win_amd64.whl
+[2023-05-10 11:19:56] INFO root fetch - processPackages [hiclass]: New version: [4.3.4] Old Version: [4.3.3b1]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [hiclass]: Downloading https://files.pythonhosted.org/packages/c2/c5/e4dcd5c56da16f7865c8d9d4733128dbfb7b39ca176d798ab2d83036899d/hiclass-4.3.3b1.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [iosense-connect-onprem]: Start processing: gardener-cicd-base
+[2023-05-10 11:19:57] INFO root fetch - main [MainThread]: End processing [iosense-connect-onprem]: success
+[2023-05-10 11:19:57] INFO root fetch - processPackages [overcome]: Start processing: gardener-cicd-cli
+[2023-05-10 11:19:57] INFO root fetch - main [MainThread]: End processing [overcome]: success
+[2023-05-10 11:19:57] INFO root fetch - processPackages [rape-identification]: Start processing: gardener-cicd-dso
+[2023-05-10 11:19:57] INFO root fetch - main [MainThread]: End processing [rape-identification]: success
+[2023-05-10 11:19:57] INFO root fetch - processPackages [xtgeo]: Downloading https://files.pythonhosted.org/packages/78/b7/8ebdb2aeeeea3f739a822867d479c32029cf4889c06ef03dda54d306af91/xtgeo-3.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2052.0] Old Version: [1.2051.0]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [hiclass]: Downloading https://files.pythonhosted.org/packages/be/28/db0eae9a2c8fc3199cff4cdec3b27a367eb2951d977248d2072564ecc71e/hiclass-4.3.4.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2052.0] Old Version: [1.2051.0]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [questdb-connect]: Start processing: gardener-cicd-libs
+[2023-05-10 11:19:57] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-05-10 11:19:57] INFO root fetch - processPackages [hiclass]: executing diffoscope
+[2023-05-10 11:19:57] INFO root fetch - processPackages [hiclass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiclass-4.3.3b1.tar.gz tmp/hiclass-4.3.4.tar.gz --markdown 20230510/h/hiclass/4.3.3b1-4.3.4/diff.md --exclude *.pyd
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2052.0] Old Version: [1.2051.0]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/a2/df/fc6052b585de40cc0749925d84042f9e471b13945fe93e7387e804e6dac8/gardener-cicd-dso-1.2051.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [xtgeo]: executing diffoscope
+[2023-05-10 11:19:57] INFO root fetch - processPackages [xtgeo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtgeo-3.0.1-cp39-cp39-win_amd64.whl.zip tmp/xtgeo-3.1.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230510/x/xtgeo/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/ae/a7/b8043a2414adbfdbd69be6ffbd8697731c813c8af5f57f4990f683f2760b/gardener-cicd-base-1.2051.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: Start processing: gardener-cicd-whd
+[2023-05-10 11:19:57] INFO root fetch - main [MainThread]: End processing [antchain-ak-5bb1b66c4aab4cc998c05a36078e45c1]: success
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/45/b7/eb5531a0b157a60f9036696bb9216e97fa4b44b461c4908ac5697d4d384c/gardener-cicd-cli-1.2051.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2052.0] Old Version: [1.2051.0]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/bd/35/8bcaae7a4e6bd33c9458d05813ebeb3167e089beb6a26c46ed681e4d87ca/gardener-cicd-dso-1.2052.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2052.0] Old Version: [1.2051.0]
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/f8/ce/34f4838dc68ae0de5157c2f81dd424b484412923b1f506f662d33291d4a0/gardener-cicd-libs-1.2051.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/08/43/52930faee45a3a9749478d0f0304acd625564ddd2445afcbae347f0a5c9d/gardener-cicd-base-1.2052.0.tar.gz
+[2023-05-10 11:19:57] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/09/00/06e9edfc26380d05fdccd0188cca87ff5de3f4eecdee382ed7f518acc7e1/gardener-cicd-cli-1.2052.0.tar.gz
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2051.0.tar.gz tmp/gardener-cicd-dso-1.2052.0.tar.gz --markdown 20230510/g/gardener-cicd-dso/1.2051.0-1.2052.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/69/2a/fd72a3b6f8d19a9794b0e245cb601d11b42e9f0da7389073afa577e4bdf6/gardener-cicd-whd-1.2051.0.tar.gz
+[2023-05-10 11:19:58] INFO root fetch - processPackages [tbp-nightly]: Start processing: gardener-oci
+[2023-05-10 11:19:58] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2051.0.tar.gz tmp/gardener-cicd-cli-1.2052.0.tar.gz --markdown 20230510/g/gardener-cicd-cli/1.2051.0-1.2052.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/22/e1/c0813bdce86c7634f1680e929524f3d3f7fffb986e86243d304789b89a1b/gardener_cicd_libs-1.2052.0-py3-none-any.whl
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2051.0.tar.gz tmp/gardener-cicd-base-1.2052.0.tar.gz --markdown 20230510/g/gardener-cicd-base/1.2051.0-1.2052.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/6b/64/94d830310f8969b4523e62b0f25c7df460ce87da18d09ddb381d0567eb01/gardener_cicd_whd-1.2052.0-py3-none-any.whl
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2051.0.tar.gz tmp/gardener_cicd_libs-1.2052.0-py3-none-any.whl.zip --markdown 20230510/g/gardener-cicd-libs/1.2051.0-1.2052.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:58] INFO root fetch - main [MainThread]: End processing [types-Pillow]: success
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2023-05-10 11:19:58] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2051.0.tar.gz tmp/gardener_cicd_whd-1.2052.0-py3-none-any.whl.zip --markdown 20230510/g/gardener-cicd-whd/1.2051.0-1.2052.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:59] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2023-05-10 11:19:59] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2023-05-10 11:19:59] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20230510/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2023-05-10 11:19:59] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2023-05-10 11:19:59] INFO root fetch - main [MainThread]: End processing [types-openpyxl]: success
+[2023-05-10 11:19:59] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [hiclass]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: End processing [xtgeo]: success
+[2023-05-10 11:20:00] INFO root fetch - main [MainThread]: Store serial: [18044767]
