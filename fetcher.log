@@ -8365,3 +8365,88 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:20:02] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-ddt]: success
 [2023-05-10 07:20:03] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
 [2023-05-10 07:20:03] INFO root fetch - main [MainThread]: Store serial: [18042524]
+[2023-05-10 07:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042524]
+[2023-05-10 07:25:12] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nudebomb
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fyers-token-manager-v2
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo12-addon-l10n-it-ddt
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: picopt
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-assets-management
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wcfhttp
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-securelogin
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cqlite
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-l10n-it-bill-of-entry
+[2023-05-10 07:25:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo14-addons-oca-l10n-italy
+[2023-05-10 07:25:12] INFO root fetch - processPackages [nudebomb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [wcfhttp]: New version: [37.1.25.4] Old Version: [37.1.25.3]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [picopt]: New version: [3.3.2] Old Version: [3.3.1]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.0.99.dev8] Old Version: [12.0.1.0.0.99.dev7]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: New version: [12.0.1.9.5.99.dev4] Old Version: [12.0.1.9.5.99.dev3]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: New version: [12.0.1.0.1.99.dev2] Old Version: [12.0.1.0.1.99.dev1]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [cqlite]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: New version: [14.0.20230509.0] Old Version: [14.0.20230428.0]
+[2023-05-10 07:25:12] INFO root fetch - processPackages [wcfhttp]: Downloading https://files.pythonhosted.org/packages/6e/51/51fa659b82850c987037ad221622fe2e4e7c0d2dadcc123ca37a0e1dcda9/wcfhttp-37.1.25.4.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [nudebomb]: Downloading https://files.pythonhosted.org/packages/eb/63/b13f3971a13cb7a0f1a84f44d87cda79864e2cf8cece76495f0d65bfb1dc/nudebomb-0.3.2.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [flask-securelogin]: Downloading https://files.pythonhosted.org/packages/23/60/e3826083b7cf79e4d966e9fbacb72aeb1b63da7268fe990bb41456928df9/flask-securelogin-0.1.3.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/e1/74/62ff70294dcbe0998b06239c0884543328d63d8d0de2c73b62489b6bfb97/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/53/26/c77d03516843e3dd26c8f8fd6335976c55d39485ee23b464fac175c6db9d/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/bb/c0/371d7d0878d03d777d9083da0e458ddb92d65f2786c5b3d874e1724618f5/odoo14_addons_oca_l10n_italy-14.0.20230428.0-py3-none-any.whl
+[2023-05-10 07:25:12] INFO root fetch - processPackages [picopt]: Downloading https://files.pythonhosted.org/packages/b6/67/7ca9033ba676248add3a4344f52296d8a689aa480286d54c2a0ad421f892/picopt-3.3.2.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Downloading https://files.pythonhosted.org/packages/25/a7/a855fad8126c1243e491969d806d3b4238bb315c6d748569d4a194463be4/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-05-10 07:25:12] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/09/d4/3434cfd87051d6fda6a154bedcf7cb7cdd58c50888ed1d6576296491b1ce/fyers_token_manager_v2-0.0.5.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [cqlite]: Downloading https://files.pythonhosted.org/packages/6c/44/b6260441bb8c1b826eac3041d0ab072cf4a50c905f3acf8b301a623d9319/cqlite-0.0.1.tar.gz
+[2023-05-10 07:25:12] INFO root fetch - processPackages [wcfhttp]: executing diffoscope
+[2023-05-10 07:25:12] INFO root fetch - processPackages [wcfhttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcfhttp-37.1.25.3.tar.gz tmp/wcfhttp-37.1.25.4.tar.gz --markdown 20230510/w/wcfhttp/37.1.25.3-37.1.25.4/diff.md --exclude *.pyd
+[2023-05-10 07:25:12] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 07:25:12] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-securelogin-0.1.2.tar.gz tmp/flask-securelogin-0.1.3.tar.gz --markdown 20230510/f/flask-securelogin/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 07:25:12] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-05-10 07:25:12] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.0.4.tar.gz tmp/fyers_token_manager_v2-0.0.5.tar.gz --markdown 20230510/f/fyers-token-manager-v2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 07:25:12] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/68/69/acc815cbed2250bd596a3ef7593e4afe4d29244b1124c409750cf387d6d9/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl
+[2023-05-10 07:25:13] INFO root fetch - processPackages [cqlite]: Downloading https://files.pythonhosted.org/packages/db/a0/09886b688d2218f6fb0baa3dadccd383779433a8499ae93908d8639963f7/cqlite-0.1.0.tar.gz
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/60/8d/da9e85b98a74f275b8ee2d55576ca84abcbfd1f4076a6442b78097f3bf31/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: Downloading https://files.pythonhosted.org/packages/10/34/d9518af588c4928b7512d85970c08e59294f347fb088b642caa120c8b1c0/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev2-py3-none-any.whl
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev3-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_ddt-12.0.1.9.5.99.dev4-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-l10n-it-ddt/12.0.1.9.5.99.dev3-12.0.1.9.5.99.dev4/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [cqlite]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [cqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cqlite-0.0.1.tar.gz tmp/cqlite-0.1.0.tar.gz --markdown 20230510/c/cqlite/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/c6/49/c4ca9568c42654be4953c7d7c19b168bc991ca9c0c2759d21cf892e806e7/odoo14_addons_oca_l10n_italy-14.0.20230509.0-py3-none-any.whl
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.0.99.dev8-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-assets-management/12.0.1.0.0.99.dev7-12.0.1.0.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo12-addon-l10n-it-bill-of-entry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_l10n_it_bill_of_entry-12.0.1.0.1.99.dev2-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-l10n-it-bill-of-entry/12.0.1.0.1.99.dev1-12.0.1.0.1.99.dev2/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [nudebomb]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [nudebomb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nudebomb-0.3.1.tar.gz tmp/nudebomb-0.3.2.tar.gz --markdown 20230510/n/nudebomb/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [picopt]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [picopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picopt-3.3.1.tar.gz tmp/picopt-3.3.2.tar.gz --markdown 20230510/p/picopt/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: executing diffoscope
+[2023-05-10 07:25:13] INFO root fetch - processPackages [odoo14-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_italy-14.0.20230428.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_italy-14.0.20230509.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addons-oca-l10n-italy/14.0.20230428.0-14.0.20230509.0/diff.md --exclude *.pyd
+[2023-05-10 07:25:13] INFO root fetch - processPackages [wcfhttp]: Start processing: nyckel
+[2023-05-10 07:25:13] INFO root fetch - main [MainThread]: End processing [wcfhttp]: success
+[2023-05-10 07:25:14] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 07:25:14] INFO root fetch - processPackages [fyers-token-manager-v2]: Start processing: fyers-token-manager-v2
+[2023-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-05-10 07:25:14] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 07:25:14] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-05-10 07:25:14] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230510/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 07:25:14] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/9b/14/c0d5dd978521b56e893e51199a743841684559c82cfa289a4ad615c3f290/fyers_token_manager_v2-0.0.6.tar.gz
+[2023-05-10 07:25:14] INFO root fetch - processPackages [flask-securelogin]: Start processing: renderit
+[2023-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 07:25:14] INFO root fetch - processPackages [renderit]: New version: [0.0.4] Old Version: [0.0.2]
+[2023-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [cqlite]: success
+[2023-05-10 07:25:14] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-05-10 07:25:14] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.0.5.tar.gz tmp/fyers_token_manager_v2-0.0.6.tar.gz --markdown 20230510/f/fyers-token-manager-v2/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-bill-of-entry]: success
+[2023-05-10 07:25:14] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-italy]: success
+[2023-05-10 07:25:15] INFO root fetch - processPackages [renderit]: Downloading https://files.pythonhosted.org/packages/a9/73/c7fe6afdcfb13de975f62818d5ecf3e047f64b391c1f4bf0cde299bf8b00/renderit-0.0.4.tar.gz
+[2023-05-10 07:25:15] INFO root fetch - processPackages [renderit]: executing diffoscope
+[2023-05-10 07:25:15] INFO root fetch - processPackages [renderit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renderit-0.0.2.tar.gz tmp/renderit-0.0.4.tar.gz --markdown 20230510/r/renderit/0.0.2-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 07:25:15] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-it-ddt]: success
+[2023-05-10 07:25:15] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-05-10 07:25:15] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-05-10 07:25:16] INFO root fetch - main [MainThread]: End processing [renderit]: success
+[2023-05-10 07:25:17] INFO root fetch - main [MainThread]: End processing [picopt]: success
+[2023-05-10 07:25:18] INFO root fetch - main [MainThread]: End processing [nudebomb]: success
+[2023-05-10 07:25:46] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2023-05-10 07:25:46] INFO root fetch - main [MainThread]: Store serial: [18042567]
