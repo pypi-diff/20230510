@@ -8223,3 +8223,47 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:01:36] INFO root fetch - main [MainThread]: End processing [odoo9-addon-document-page]: success
 [2023-05-10 07:01:36] INFO root fetch - main [MainThread]: End processing [Simyan]: success
 [2023-05-10 07:01:36] INFO root fetch - main [MainThread]: Store serial: [18042437]
+[2023-05-10 07:06:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042437]
+[2023-05-10 07:06:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvxsimulator
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myUniquePythonPackageName
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spaceone-api
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tflite-runtime-nightly
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rapid-pe
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: multi-model-server
+[2023-05-10 07:06:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-05-10 07:06:46] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230510] Old Version: [0.1.1.dev20230509]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [myUniquePythonPackageName]: New version: [7.10.7] Old Version: [5.5.106]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [cvxsimulator]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [spaceone-api]: New version: [1.9.7rc1] Old Version: [1.9.7.dev3]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.14.0.dev20230508] Old Version: [2.14.0.dev20230507]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2023-05-10 07:06:46] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone_api-1.9.7.dev3-py3-none-any.whl.zip tmp/spaceone_api-1.9.7rc1-py3-none-any.whl.zip --markdown 20230510/s/spaceone-api/1.9.7.dev3-1.9.7rc1/diff.md --exclude *.pyd
+[2023-05-10 07:06:46] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.8b20230510] Old Version: [1.1.8b20230509]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [myUniquePythonPackageName]: executing diffoscope
+[2023-05-10 07:06:46] INFO root fetch - processPackages [myUniquePythonPackageName]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myUniquePythonPackageName-5.5.106.tar.gz tmp/myUniquePythonPackageName-7.10.7.tar.gz --markdown 20230510/m/myUniquePythonPackageName/5.5.106-7.10.7/diff.md --exclude *.pyd
+[2023-05-10 07:06:46] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-05-10 07:06:46] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/43/b5/fe9dc5cd2257a736dbfa8a93d24a65dd8b7d740dcab073c03e001da34857/cvxsimulator-0.3.0.tar.gz
+[2023-05-10 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/ad/2f/7c53ee201572f028ff9b8c8728e8df679971c741a1d591fabd5213ba8a75/rapid_pe-0.1.1.dev20230509.tar.gz
+[2023-05-10 07:06:46] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/38/c9/d01a2a6c33d3889096f29b0d0825db24577a3cdbfbdfaa15ccff56a4b522/tflite_runtime_nightly-2.14.0.dev20230508-cp39-cp39-manylinux2014_x86_64.whl
+[2023-05-10 07:06:46] INFO root fetch - processPackages [multi-model-server]: Downloading https://files.pythonhosted.org/packages/f0/24/8951e5005c79c1c578a43bffab4c65dd9548e058867e3768c34c2450b1a1/multi_model_server-1.1.8b20230510-py2.py3-none-any.whl
+[2023-05-10 07:06:46] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/45/b0/37c0670f668f6dcee794fe26a0a89a437d5f1e304fbad61ac93ae76aafcf/cvxsimulator-0.3.1.tar.gz
+[2023-05-10 07:06:46] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-05-10 07:06:46] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.3.0.tar.gz tmp/cvxsimulator-0.3.1.tar.gz --markdown 20230510/c/cvxsimulator/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 07:06:46] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-05-10 07:06:46] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230510/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-05-10 07:06:46] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/be/e0/0833962e762ea69dfda75e685f48126f5cb1140541c29629cf45f900e289/rapid_pe-0.1.1.dev20230510.tar.gz
+[2023-05-10 07:06:46] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-05-10 07:06:46] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.14.0.dev20230507-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/tflite_runtime_nightly-2.14.0.dev20230508-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230510/t/tflite-runtime-nightly/2.14.0.dev20230507-2.14.0.dev20230508/diff.md --exclude *.pyd
+[2023-05-10 07:06:47] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-05-10 07:06:47] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230509.tar.gz tmp/rapid_pe-0.1.1.dev20230510.tar.gz --markdown 20230510/r/rapid-pe/0.1.1.dev20230509-0.1.1.dev20230510/diff.md --exclude *.pyd
+[2023-05-10 07:06:47] INFO root fetch - main [MainThread]: End processing [myUniquePythonPackageName]: success
+[2023-05-10 07:06:47] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-05-10 07:06:47] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.8b20230509-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.8b20230510-py2.py3-none-any.whl.zip --markdown 20230510/m/multi-model-server/1.1.8b20230509-1.1.8b20230510/diff.md --exclude *.pyd
+[2023-05-10 07:06:48] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-05-10 07:06:48] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-05-10 07:06:48] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-05-10 07:06:49] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-05-10 07:06:49] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2023-05-10 07:09:37] INFO root fetch - main [MainThread]: End processing [multi-model-server]: success
+[2023-05-10 07:09:37] INFO root fetch - main [MainThread]: Store serial: [18042469]
