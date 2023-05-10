@@ -17015,3 +17015,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 14:55:37] INFO root fetch - main [MainThread]: End processing [sqlalchemy-orm]: success
 [2023-05-10 14:55:38] INFO root fetch - main [MainThread]: End processing [jupyterlab-celltagsclasses]: success
 [2023-05-10 14:55:38] INFO root fetch - main [MainThread]: Store serial: [18047484]
+[2023-05-10 15:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047484]
+[2023-05-10 15:00:47] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ltbfiles
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdating-common
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: async-firebase
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smart-app-framework
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-image-buffer
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cluster-experiments
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: strangeworks-rigetti
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sample-git-diffs
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: chaostoolkit-reliably
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: manticore
+[2023-05-10 15:00:47] INFO root fetch - processPackages [np-image-buffer]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [async-firebase]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [cluster-experiments]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [sample-git-diffs]: New version: [0.3.0] Old Version: [0.2.5]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ltbfiles]: New version: [3.0.1rc131] Old Version: [3.0.1]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [smart-app-framework]: New version: [2.0.1rc9] Old Version: [2.0.1rc8]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [strangeworks-rigetti]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [chaostoolkit-reliably]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230510] Old Version: [0.3.8.dev230509]
+[2023-05-10 15:00:47] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230510/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [async-firebase]: Downloading https://files.pythonhosted.org/packages/31/c5/06bdc69eec8f13dd9017ae8971201c0515db94a18eddf3bdafb6cecbbaa8/async_firebase-3.1.0.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/aa/34/54ab5d776739bec2822cd1546ed305259986ef07721a96e74e776ecb45f4/ltbfiles-3.0.1.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [np-image-buffer]: Downloading https://files.pythonhosted.org/packages/d9/87/3ce65e264eda4de673cd99367c5a6c4f25fb9c2b1f68ac616cddefeffef8/np_image_buffer-0.1.0.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/6b/c2/aae2a823c8b01eb6b658fec4b7d4a4295fde1e3668868571bc14c5aa8563/cluster_experiments-0.8.0.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [sample-git-diffs]: Downloading https://files.pythonhosted.org/packages/94/3e/cf2265c75fd972571722ff2804fc3979d4bb48452cb108829adf849e2d55/sample-git-diffs-0.3.0.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/90/0e/68297e3f23de2dce01ec638f47b5b4817ba70ea89d7d0d6b8548cc68f7a4/smart_app_framework-2.0.1rc8-py3-none-any.whl
+[2023-05-10 15:00:47] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/32/df/58422a4f470f2c9c9d486c7b83bf6c238d72841a2ae64f0b7c88350a6b01/chaostoolkit-reliably-0.9.3.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/2e/6e/02af74ed49936b2bf18a104742747c2b61eeef069c810aca81e89ca7041d/manticore-0.3.8.dev230510.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [strangeworks-rigetti]: Downloading https://files.pythonhosted.org/packages/e8/cf/09400752f506cbb6d790b1cf16d39797fff0708c4e7b68a82a9ae9e967e0/strangeworks-rigetti-0.2.8.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [sample-git-diffs]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [sample-git-diffs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sample-git-diffs-0.2.5.tar.gz tmp/sample-git-diffs-0.3.0.tar.gz --markdown 20230510/s/sample-git-diffs/0.2.5-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [np-image-buffer]: Downloading https://files.pythonhosted.org/packages/94/0c/95d3c3867c15666afd62dc4e8a23c0c0ffd3c89c944f741df3e4c323b81f/np_image_buffer-0.1.1.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [cluster-experiments]: Downloading https://files.pythonhosted.org/packages/f0/61/58f22ab7bfedbd426d3a785693156c7b2cb3f2977ca2b832e2c0805a5274/cluster_experiments-0.8.1.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230509.tar.gz tmp/manticore-0.3.8.dev230510.tar.gz --markdown 20230510/m/manticore/0.3.8.dev230509-0.3.8.dev230510/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [async-firebase]: Downloading https://files.pythonhosted.org/packages/7a/d3/891060038efdb482716afab0dda1d1d8af483e99ea18f2661181ea654d80/async_firebase-3.1.1.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ltbfiles]: Downloading https://files.pythonhosted.org/packages/0a/58/385cc4c2ee240061d055bde6923b6f4ed994b30d86f92f9f302850a0358a/ltbfiles-3.0.1rc131.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [smart-app-framework]: Downloading https://files.pythonhosted.org/packages/d0/3f/6922a20c942a366baec46115d75943eccd8bc9e34588a8bffe776c8c9519/smart_app_framework-2.0.1rc9-py3-none-any.whl
+[2023-05-10 15:00:47] INFO root fetch - processPackages [np-image-buffer]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [np-image-buffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_image_buffer-0.1.0.tar.gz tmp/np_image_buffer-0.1.1.tar.gz --markdown 20230510/n/np-image-buffer/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [cluster-experiments]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [cluster-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_experiments-0.8.0.tar.gz tmp/cluster_experiments-0.8.1.tar.gz --markdown 20230510/c/cluster-experiments/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [chaostoolkit-reliably]: Downloading https://files.pythonhosted.org/packages/b8/c5/810c74691ec477bb4963d5199f379e4a81d6cce5b71db42bc848f3477e16/chaostoolkit-reliably-0.9.4.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-3.0.1.tar.gz tmp/ltbfiles-3.0.1rc131.tar.gz --markdown 20230510/l/ltbfiles/3.0.1-3.0.1rc131/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [async-firebase]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [async-firebase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_firebase-3.1.0.tar.gz tmp/async_firebase-3.1.1.tar.gz --markdown 20230510/a/async-firebase/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [strangeworks-rigetti]: Downloading https://files.pythonhosted.org/packages/b7/b9/b5a7348eab089566bd6f58bc461538e5456e5bf282b57b8a5fa0145f3dee/strangeworks-rigetti-0.2.9.tar.gz
+[2023-05-10 15:00:47] INFO root fetch - processPackages [smart-app-framework]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [smart-app-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smart_app_framework-2.0.1rc8-py3-none-any.whl.zip tmp/smart_app_framework-2.0.1rc9-py3-none-any.whl.zip --markdown 20230510/s/smart-app-framework/2.0.1rc8-2.0.1rc9/diff.md --exclude *.pyd
+[2023-05-10 15:00:47] INFO root fetch - processPackages [chaostoolkit-reliably]: executing diffoscope
+[2023-05-10 15:00:47] INFO root fetch - processPackages [chaostoolkit-reliably]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaostoolkit-reliably-0.9.3.tar.gz tmp/chaostoolkit-reliably-0.9.4.tar.gz --markdown 20230510/c/chaostoolkit-reliably/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-10 15:00:48] INFO root fetch - processPackages [strangeworks-rigetti]: executing diffoscope
+[2023-05-10 15:00:48] INFO root fetch - processPackages [strangeworks-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks-rigetti-0.2.8.tar.gz tmp/strangeworks-rigetti-0.2.9.tar.gz --markdown 20230510/s/strangeworks-rigetti/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 15:00:48] INFO root fetch - processPackages [sample-git-diffs]: Start processing: banner-storedot
+[2023-05-10 15:00:48] INFO root fetch - main [MainThread]: End processing [sample-git-diffs]: success
+[2023-05-10 15:00:48] INFO root fetch - processPackages [banner-storedot]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [np-image-buffer]: Start processing: nops-cloudtrail
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [np-image-buffer]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [nops-cloudtrail]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [bdating-common]: Start processing: ltbfiles
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [banner-storedot]: executing diffoscope
+[2023-05-10 15:00:49] INFO root fetch - processPackages [banner-storedot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/banner-storedot-2.2.8.tar.gz tmp/banner-storedot-2.2.9.tar.gz --markdown 20230510/b/banner-storedot/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-05-10 15:00:49] INFO root fetch - processPackages [ltbfiles]: New version: [3.0.1rc131] Old Version: [3.0.1]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [ltbfiles]: Start processing: modal-client
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [modal-client]: New version: [0.49.2159] Old Version: [0.49.2152]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [ltbfiles]: executing diffoscope
+[2023-05-10 15:00:49] INFO root fetch - processPackages [ltbfiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ltbfiles-3.0.1.tar.gz tmp/ltbfiles-3.0.1rc131.tar.gz --markdown 20230510/l/ltbfiles/3.0.1-3.0.1rc131/diff.md --exclude *.pyd
+[2023-05-10 15:00:49] INFO root fetch - processPackages [nops-cloudtrail]: Downloading https://files.pythonhosted.org/packages/08/c5/92446ce179038acd6772362f1495ae55c442e79355451f158e57ea5f0d14/nops-cloudtrail-0.3.1.tar.gz
+[2023-05-10 15:00:49] INFO root fetch - processPackages [async-firebase]: Start processing: wizata-dsapi
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [async-firebase]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/30/cb/642da910fe5eadd226b4998b51e5faf3b51a57662ae12c8550a053655ad0/modal_client-0.49.2152-py3-none-any.whl
+[2023-05-10 15:00:49] INFO root fetch - processPackages [cluster-experiments]: Start processing: xarray-safe-s1
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [cluster-experiments]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [xarray-safe-s1]: New version: [2023.5.5] Old Version: [2023.5.4]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/57/07/ca5a89b7a2142120c33b178499a1bbb8a61eb50a14c7fb6bc872f7becf22/wizata-dsapi-0.1.8.tar.gz
+[2023-05-10 15:00:49] INFO root fetch - processPackages [manticore]: Start processing: kaizen-help
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [kaizen-help]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [nops-cloudtrail]: Downloading https://files.pythonhosted.org/packages/ed/d4/cf96f345037da8b4a054a716589c1c5c67da4199446c55d18fca0cf8fee4/nops_cloudtrail-0.3.2.tar.gz
+[2023-05-10 15:00:49] INFO root fetch - processPackages [strangeworks-rigetti]: Start processing: bhpy
+[2023-05-10 15:00:49] INFO root fetch - main [MainThread]: End processing [strangeworks-rigetti]: success
+[2023-05-10 15:00:49] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/b1/2d/a23879b0331ea8fe7ee263688dcdf31e702092d4c74e661c33dfa0da3848/modal_client-0.49.2159-py3-none-any.whl
+[2023-05-10 15:00:49] INFO root fetch - processPackages [bhpy]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-05-10 15:00:49] INFO root fetch - processPackages [nops-cloudtrail]: executing diffoscope
+[2023-05-10 15:00:49] INFO root fetch - processPackages [nops-cloudtrail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nops-cloudtrail-0.3.1.tar.gz tmp/nops_cloudtrail-0.3.2.tar.gz --markdown 20230510/n/nops-cloudtrail/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-05-10 15:00:49] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/4e/32/d481a213d8f09bae3bab94109b9769908654eed29760087b6616f273f306/xarray-safe-s1-2023.5.4.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [kaizen-help]: Downloading https://files.pythonhosted.org/packages/00/52/860b2eb79623b50a7730e08293be62cf150cd0476180a98b7f161bb3cc28/kaizen_help-0.1.0.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3d/8e/b370f42ec041b3e000ef226f2c1de276972a583145df6090c0be3bd6941d/wizata-dsapi-0.1.9.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [bhpy]: Downloading https://files.pythonhosted.org/packages/4d/a6/b4d8c46d37d165b81539d136ff7f5948b11cb21fe079fb9c504a19e623b9/bhpy-2.0.0.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2023-05-10 15:00:50] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.49.2152-py3-none-any.whl.zip tmp/modal_client-0.49.2159-py3-none-any.whl.zip --markdown 20230510/m/modal-client/0.49.2152-0.49.2159/diff.md --exclude *.pyd
+[2023-05-10 15:00:50] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-05-10 15:00:50] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.8.tar.gz tmp/wizata-dsapi-0.1.9.tar.gz --markdown 20230510/w/wizata-dsapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 15:00:50] INFO root fetch - processPackages [xarray-safe-s1]: Downloading https://files.pythonhosted.org/packages/fd/41/cabc98ef9c74f8a63bd636454b1f1e1a5a268e096c8e570ce87883dde2cc/xarray-safe-s1-2023.5.5.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [kaizen-help]: Downloading https://files.pythonhosted.org/packages/8d/93/3b39e3969508df3eba99a47ceb711588c05e9e67c7941afd33d6fce443dc/kaizen_help-0.1.1.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [xarray-safe-s1]: executing diffoscope
+[2023-05-10 15:00:50] INFO root fetch - processPackages [xarray-safe-s1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xarray-safe-s1-2023.5.4.tar.gz tmp/xarray-safe-s1-2023.5.5.tar.gz --markdown 20230510/x/xarray-safe-s1/2023.5.4-2023.5.5/diff.md --exclude *.pyd
+[2023-05-10 15:00:50] INFO root fetch - processPackages [kaizen-help]: executing diffoscope
+[2023-05-10 15:00:50] INFO root fetch - processPackages [kaizen-help]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaizen_help-0.1.0.tar.gz tmp/kaizen_help-0.1.1.tar.gz --markdown 20230510/k/kaizen-help/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 15:00:50] INFO root fetch - processPackages [bhpy]: Downloading https://files.pythonhosted.org/packages/b8/59/1b46025f2484786506beef06dbac0b185c6cf42ec52073affe27d7ef43f4/bhpy-2.1.0.tar.gz
+[2023-05-10 15:00:50] INFO root fetch - processPackages [bhpy]: executing diffoscope
+[2023-05-10 15:00:50] INFO root fetch - processPackages [bhpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhpy-2.0.0.tar.gz tmp/bhpy-2.1.0.tar.gz --markdown 20230510/b/bhpy/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-05-10 15:00:50] INFO root fetch - processPackages [banner-storedot]: Start processing: dissect.target
+[2023-05-10 15:00:50] INFO root fetch - main [MainThread]: End processing [banner-storedot]: success
+[2023-05-10 15:00:50] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-05-10 15:00:50] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-05-10 15:00:51] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [ltbfiles]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [chaostoolkit-reliably]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [nops-cloudtrail]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [kaizen-help]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [xarray-safe-s1]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-05-10 15:00:51] INFO root fetch - main [MainThread]: End processing [bhpy]: success
+[2023-05-10 15:00:52] INFO root fetch - main [MainThread]: End processing [smart-app-framework]: success
+[2023-05-10 15:00:52] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2023-05-10 15:00:52] INFO root fetch - main [MainThread]: Store serial: [18047541]
