@@ -13945,3 +13945,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 12:30:22] INFO root fetch - main [MainThread]: End processing [diffusionjax]: success
 [2023-05-10 12:30:34] INFO root fetch - main [MainThread]: End processing [Titan-Client]: success
 [2023-05-10 12:30:34] INFO root fetch - main [MainThread]: Store serial: [18045635]
+[2023-05-10 12:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18045635]
+[2023-05-10 12:35:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: commonX
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: megamock
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sevent
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dxsp
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-alconna
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-phonenumber-field-for-garpix-user
+[2023-05-10 12:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: obgraph
+[2023-05-10 12:35:43] INFO root fetch - processPackages [commonX]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [nonebot-plugin-alconna]: New version: [0.4.0rc1] Old Version: [0.3.2]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [megamock]: New version: [0.1.0b3] Old Version: [0.1.0b2]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [django-phonenumber-field-for-garpix-user]: New version: [8.0.0rc2] Old Version: [8.0.0rc1]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [obgraph]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [sevent]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [dxsp]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-05-10 12:35:43] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/62/ca/145b660c634b5dd8a4ad05faeb09fc7af7b1f3527cc9384ca11fe3c60162/megamock-0.1.0b2.tar.gz
+[2023-05-10 12:35:43] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/53/98/db4891c2d604ff1b8ed8ff3a2ef1e9ed2746d97b3f7456f874c9f52e72dc/nonebot-plugin-alconna-0.3.2.tar.gz
+[2023-05-10 12:35:43] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/71/76/d4b00e76fb2b4bb6d9e96ab86ddbf3c4a4eb645bf98ad1dfe1d94a852752/dxsp-2.2.0.tar.gz
+[2023-05-10 12:35:43] INFO root fetch - processPackages [obgraph]: Downloading https://files.pythonhosted.org/packages/10/57/6bccdf4101d24fda4cc847eca8f25d55c646adbe00df39f681e82eb2ca0b/obgraph-0.0.8.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [commonX]: Downloading https://files.pythonhosted.org/packages/5a/02/6eb4c8b1bedeb5a5faa7c0738f73074e7fcef7ea8d200704e084cb817aaa/commonX-0.4.5.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [django-phonenumber-field-for-garpix-user]: Downloading https://files.pythonhosted.org/packages/26/d5/cede2e603404f63a03c9cf7eb52120a7c24f34b58e83623a744a8e135ad1/django-phonenumber-field-for-garpix_user-8.0.0rc1.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [sevent]: Downloading https://files.pythonhosted.org/packages/2a/64/26775e965c183a310f70edf0d10c4a258fad182d439fff40ef2d72a4d021/sevent-0.4.8.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [commonX]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [commonX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonX-0.4.4.tar.gz tmp/commonX-0.4.5.tar.gz --markdown 20230510/c/commonX/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [megamock]: Downloading https://files.pythonhosted.org/packages/0b/13/208bce10904b6268f75d948f273c37a15be8c7923b58fbbbddf68c2c24d4/megamock-0.1.0b3.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: Downloading https://files.pythonhosted.org/packages/49/eb/0bf376ee6b34be9f24637d5899c7a08901408efe4ced1d9cb291fbb2fd1d/nonebot-plugin-alconna-0.4.0rc1.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [megamock]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [megamock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/megamock-0.1.0b2.tar.gz tmp/megamock-0.1.0b3.tar.gz --markdown 20230510/m/megamock/0.1.0b2-0.1.0b3/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [dxsp]: Downloading https://files.pythonhosted.org/packages/b1/fa/be1303d6a5961814e64d602f2198147c2d58360230e4cccf15ab792fb1c5/dxsp-2.2.1.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [nonebot-plugin-alconna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-alconna-0.3.2.tar.gz tmp/nonebot-plugin-alconna-0.4.0rc1.tar.gz --markdown 20230510/n/nonebot-plugin-alconna/0.3.2-0.4.0rc1/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [obgraph]: Downloading https://files.pythonhosted.org/packages/9d/ff/513d4ba63cf8904c66416295eb9687759dbe40faed6cd6c0b25172affa19/obgraph-0.0.9.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [dxsp]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [dxsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxsp-2.2.0.tar.gz tmp/dxsp-2.2.1.tar.gz --markdown 20230510/d/dxsp/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [django-phonenumber-field-for-garpix-user]: Downloading https://files.pythonhosted.org/packages/31/3f/6c6c37e56ed771af587b24c4f2c64461f09e002d56cd772753f7be1538a5/django-phonenumber-field-for-garpix_user-8.0.0rc2.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [sevent]: Downloading https://files.pythonhosted.org/packages/2e/01/faecf37dd2138ccb67f6595b3baea9607e4e81e94df3fdfe34bf00ffe22f/sevent-0.4.9.tar.gz
+[2023-05-10 12:35:44] INFO root fetch - processPackages [django-phonenumber-field-for-garpix-user]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [django-phonenumber-field-for-garpix-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-phonenumber-field-for-garpix_user-8.0.0rc1.tar.gz tmp/django-phonenumber-field-for-garpix_user-8.0.0rc2.tar.gz --markdown 20230510/d/django-phonenumber-field-for-garpix-user/8.0.0rc1-8.0.0rc2/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [sevent]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [sevent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sevent-0.4.8.tar.gz tmp/sevent-0.4.9.tar.gz --markdown 20230510/s/sevent/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-05-10 12:35:44] INFO root fetch - processPackages [obgraph]: executing diffoscope
+[2023-05-10 12:35:44] INFO root fetch - processPackages [obgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obgraph-0.0.8.tar.gz tmp/obgraph-0.0.9.tar.gz --markdown 20230510/o/obgraph/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 12:35:45] INFO root fetch - main [MainThread]: End processing [megamock]: success
+[2023-05-10 12:35:45] INFO root fetch - main [MainThread]: End processing [dxsp]: success
+[2023-05-10 12:35:45] INFO root fetch - main [MainThread]: End processing [commonX]: success
+[2023-05-10 12:35:45] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-alconna]: success
+[2023-05-10 12:35:46] INFO root fetch - main [MainThread]: End processing [sevent]: success
+[2023-05-10 12:35:46] INFO root fetch - main [MainThread]: End processing [obgraph]: success
+[2023-05-10 12:35:46] INFO root fetch - main [MainThread]: End processing [django-phonenumber-field-for-garpix-user]: success
+[2023-05-10 12:35:46] INFO root fetch - main [MainThread]: Store serial: [18045658]
