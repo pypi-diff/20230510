@@ -1989,3 +1989,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
 [2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
 [2023-05-10 02:27:27] INFO root fetch - main [MainThread]: Store serial: [18039087]
+[2023-05-10 02:32:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039087]
+[2023-05-10 02:32:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-speak
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-ecs-service-extensions
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdktf-github-actions
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tastytrade-sdk
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-aurora-globaldatabase
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk8s-operator
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdktf-proxmox
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: everdrop-aws-cdk-constructs
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-jtoman-vyper-fix
+[2023-05-10 02:32:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: aeppl-nightly
+[2023-05-10 02:32:37] INFO root fetch - processPackages [neon-skill-speak]: New version: [0.1.1a2] Old Version: [0.1.1a1]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 02:32:37] WARNING root fetch - processPackages [certora-cli-alpha-jtoman-vyper-fix]: Skipping, unable to determine old version
+[2023-05-10 02:32:37] INFO root fetch - processPackages [certora-cli-alpha-jtoman-vyper-fix]: Start processing: noisepy-seis
+[2023-05-10 02:32:37] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-jtoman-vyper-fix] error
+[2023-05-10 02:32:37] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.4.dev20230509] Old Version: [0.1.4.dev20230508]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [noisepy-seis]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230510/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [everdrop-aws-cdk-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/everdrop-aws-cdk-constructs-0.0.8.tar.gz tmp/everdrop-aws-cdk-constructs-0.0.9.tar.gz --markdown 20230510/e/everdrop-aws-cdk-constructs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230510/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230510/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.8.tar.gz tmp/cdktf-proxmox-0.0.9.tar.gz --markdown 20230510/c/cdktf-proxmox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230510/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [noisepy-seis]: Downloading https://files.pythonhosted.org/packages/21/44/f138d5050724f75c36c6bb9d323963076fb530a46064fa73d60e35f4da3c/noisepy_seis-0.8.2.tar.gz
+[2023-05-10 02:32:37] INFO root fetch - processPackages [neon-skill-speak]: Downloading https://files.pythonhosted.org/packages/f6/ae/28601e1060d7c743c33baa183e353ef8cecd7f198c2a7191a4072fd6bb25/neon_skill_speak-0.1.1a2-py3-none-any.whl
+[2023-05-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/f8/68/3579c13a5214c27a8ed4e780f26e944a9ffe29ed396fa9adc2bff46865dc/aeppl-nightly-0.1.4.dev20230509.tar.gz
+[2023-05-10 02:32:37] INFO root fetch - processPackages [neon-skill-speak]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [neon-skill-speak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_speak-0.1.1a1-py3-none-any.whl.zip tmp/neon_skill_speak-0.1.1a2-py3-none-any.whl.zip --markdown 20230510/n/neon-skill-speak/0.1.1a1-0.1.1a2/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.4.dev20230508.tar.gz tmp/aeppl-nightly-0.1.4.dev20230509.tar.gz --markdown 20230510/a/aeppl-nightly/0.1.4.dev20230508-0.1.4.dev20230509/diff.md --exclude *.pyd
+[2023-05-10 02:32:37] INFO root fetch - processPackages [noisepy-seis]: executing diffoscope
+[2023-05-10 02:32:37] INFO root fetch - processPackages [noisepy-seis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/noisepy_seis-0.8.1.tar.gz tmp/noisepy_seis-0.8.2.tar.gz --markdown 20230510/n/noisepy-seis/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-05-10 02:32:38] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 02:32:38] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-05-10 02:32:38] INFO root fetch - main [MainThread]: End processing [everdrop-aws-cdk-constructs]: success
+[2023-05-10 02:32:38] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-05-10 02:32:38] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-05-10 02:32:39] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-05-10 02:32:39] INFO root fetch - main [MainThread]: End processing [noisepy-seis]: success
+[2023-05-10 02:32:39] INFO root fetch - main [MainThread]: End processing [neon-skill-speak]: success
+[2023-05-10 02:32:39] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-05-10 02:32:40] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-05-10 02:32:40] INFO root fetch - main [MainThread]: Store serial: [18039121]
