@@ -20437,3 +20437,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:39:06] INFO root fetch - main [MainThread]: End processing [mlrun]: success
 [2023-05-10 17:39:44] INFO root fetch - main [MainThread]: End processing [fonttools]: success
 [2023-05-10 17:39:44] INFO root fetch - main [MainThread]: Store serial: [18049424]
+[2023-05-10 17:44:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049424]
+[2023-05-10 17:44:53] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: paddleocrWordLevelDetection
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coretex
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mne
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-kit-annotation
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hhnk-research-tools
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tsd-api-client
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PatryksAutoAI
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyuiauto
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mypy
+[2023-05-10 17:44:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: csskit
+[2023-05-10 17:44:53] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: New version: [20230510.10.58.530540] Old Version: [20230509.9.22.669299]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [hhnk-research-tools]: New version: [2023.1] Old Version: [0.8]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [mypy]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-05-10 17:44:53] WARNING root fetch - processPackages [PatryksAutoAI]: Skipping, unable to determine old version
+[2023-05-10 17:44:53] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: esp-secure-cert-tool
+[2023-05-10 17:44:53] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI] error
+[2023-05-10 17:44:53] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Downloading https://files.pythonhosted.org/packages/bf/cc/cc28f335b0e1c39a69027db384e6ff5c944d9b45d689eba6ecdb8ddcd0d7/certora-cli-alpha-kit-annotation-20230509.9.22.669299.tar.gz
+[2023-05-10 17:44:53] WARNING root fetch - processPackages [paddleocrWordLevelDetection]: Skipping, unable to determine old version
+[2023-05-10 17:44:53] INFO root fetch - processPackages [paddleocrWordLevelDetection]: Start processing: stcrestclient
+[2023-05-10 17:44:53] INFO root fetch - main [MainThread]: End processing [paddleocrWordLevelDetection] error
+[2023-05-10 17:44:53] INFO root fetch - processPackages [mne]: New version: [1.4.0] Old Version: [1.3.1]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [coretex]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:44:53] WARNING root fetch - processPackages [certora-cli-alpha-kit-annotation]: Skipping package: exceeds size limit 39223046>=10485760
+[2023-05-10 17:44:53] INFO root fetch - processPackages [certora-cli-alpha-kit-annotation]: Start processing: dgh
+[2023-05-10 17:44:53] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-kit-annotation] error
+[2023-05-10 17:44:53] WARNING root fetch - processPackages [csskit]: Skipping, unable to determine old version
+[2023-05-10 17:44:53] INFO root fetch - processPackages [csskit]: Start processing: prev-gen
+[2023-05-10 17:44:53] INFO root fetch - main [MainThread]: End processing [csskit] error
+[2023-05-10 17:44:53] INFO root fetch - processPackages [pyuiauto]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [stcrestclient]: New version: [1.9.0] Old Version: [1.8.3]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [dgh]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [prev-gen]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [esp-secure-cert-tool]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [tsd-api-client]: New version: [3.5.9] Old Version: [3.5.8]
+[2023-05-10 17:44:53] INFO root fetch - processPackages [mypy]: Downloading https://files.pythonhosted.org/packages/9a/d0/d96d26e7a6f5a2ed4add8c649f30bce26fc413f25a6ecc5d93ab22c270e1/mypy-1.2.0.tar.gz
+[2023-05-10 17:44:53] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/9b/15/75e38f2fc165abba62b8cdf2886e42ac1322710c748d7f0b6847e8c87c47/hhnk_research_tools-0.8.tar.gz
+[2023-05-10 17:44:53] INFO root fetch - processPackages [dgh]: executing diffoscope
+[2023-05-10 17:44:53] INFO root fetch - processPackages [dgh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dgh-0.0.5.tar.gz tmp/dgh-0.0.6.tar.gz --markdown 20230510/d/dgh/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [pyuiauto]: Downloading https://files.pythonhosted.org/packages/f2/83/8ff31c6d23df6a06ffe3d682f2f87789099f2fe2d94f057e3720a30d3acd/pyUIauto-0.1.4.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [stcrestclient]: Downloading https://files.pythonhosted.org/packages/8e/1c/09a7f09ed03db24d7968069af979b8c55147e73723f9c30b8b28f3ce4ce5/stcrestclient-1.8.3.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/21/1d/980c6d21dbe2d503de34a1993b1e0e9c69167b0ab6e7aae2d6ebf057e8ed/coretex-0.0.8.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/02/98/e4a6e6d0b03cbe37599854b0a3e87c73f9518977cd94938ceaf0788eddf9/esp-secure-cert-tool-0.9.7.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [mne]: Downloading https://files.pythonhosted.org/packages/d6/ee/2dbb0a27d7431bec54c9300ae571f227fe5b21015c73a77dd641af684d21/mne-1.3.1.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [tsd-api-client]: Downloading https://files.pythonhosted.org/packages/8c/a9/9ffde9b742ef5e75a769b47a052b68945c580b5143fdba383067434f5a29/tsd_api_client-3.5.8.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [prev-gen]: Downloading https://files.pythonhosted.org/packages/ff/7b/ca9d05e07cd13624efed9a6e7f1813f05cbc8d65ace4391544c9baf22034/prev_gen-2.0.1-py3-none-any.whl
+[2023-05-10 17:44:54] INFO root fetch - processPackages [mypy]: Downloading https://files.pythonhosted.org/packages/f9/88/3bfe07521fb9e74b449cbc4367434067ec70bfd8a24c652fa3e0f9597389/mypy-1.3.0.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [prev-gen]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [prev-gen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prev_gen-2.0.0-py3-none-any.whl.zip tmp/prev_gen-2.0.1-py3-none-any.whl.zip --markdown 20230510/p/prev-gen/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [hhnk-research-tools]: Downloading https://files.pythonhosted.org/packages/04/af/ba5e338b18b32a6b169a887fede45d5d6d626b2875049164890a0ef6a399/hhnk_research_tools-2023.1.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [pyuiauto]: Downloading https://files.pythonhosted.org/packages/5f/4e/83d7c142c5ae2d944769c4882bef0fb18a4d1b77ec46fd92acfcb4f30143/pyUIauto-0.1.5.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/93/86/1cf39d4988d7419e88a27e0ad1b3c4872a93a11dfc4bccd1a80ad2c687c7/coretex-0.0.9.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [tsd-api-client]: Downloading https://files.pythonhosted.org/packages/a4/48/00dda769ffba56e0db17b8157e1b74bcf54c4988c7254640f3a2f56f54ce/tsd_api_client-3.5.9.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [hhnk-research-tools]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [stcrestclient]: Downloading https://files.pythonhosted.org/packages/a3/c2/b81ed20a2a513086b9e49f5b1ef4d563a70ba8986213b1b6918bb35186e3/stcrestclient-1.9.0.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [hhnk-research-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hhnk_research_tools-0.8.tar.gz tmp/hhnk_research_tools-2023.1.tar.gz --markdown 20230510/h/hhnk-research-tools/0.8-2023.1/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [esp-secure-cert-tool]: Downloading https://files.pythonhosted.org/packages/57/73/1cf9e5d0a73cc6e668c011149bc2bdf7d49a9ea9ae6e4bfb23cc6cd693f1/esp-secure-cert-tool-0.9.8.tar.gz
+[2023-05-10 17:44:54] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-0.0.8.tar.gz tmp/coretex-0.0.9.tar.gz --markdown 20230510/c/coretex/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [tsd-api-client]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [tsd-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tsd_api_client-3.5.8.tar.gz tmp/tsd_api_client-3.5.9.tar.gz --markdown 20230510/t/tsd-api-client/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [pyuiauto]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [pyuiauto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyUIauto-0.1.4.tar.gz tmp/pyUIauto-0.1.5.tar.gz --markdown 20230510/p/pyuiauto/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [esp-secure-cert-tool]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [esp-secure-cert-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esp-secure-cert-tool-0.9.7.tar.gz tmp/esp-secure-cert-tool-0.9.8.tar.gz --markdown 20230510/e/esp-secure-cert-tool/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [stcrestclient]: executing diffoscope
+[2023-05-10 17:44:54] INFO root fetch - processPackages [stcrestclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stcrestclient-1.8.3.tar.gz tmp/stcrestclient-1.9.0.tar.gz --markdown 20230510/s/stcrestclient/1.8.3-1.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:44:54] INFO root fetch - processPackages [mne]: Downloading https://files.pythonhosted.org/packages/06/39/cf60efb97704a3f08004d0abe3cdebdb5d6e08c7e0e6fa85e89409f66308/mne-1.4.0.tar.gz
+[2023-05-10 17:44:55] INFO root fetch - processPackages [mypy]: executing diffoscope
+[2023-05-10 17:44:55] INFO root fetch - processPackages [mypy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypy-1.2.0.tar.gz tmp/mypy-1.3.0.tar.gz --markdown 20230510/m/mypy/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-05-10 17:44:55] INFO root fetch - processPackages [dgh]: Start processing: frequency-feature-map-visualization
+[2023-05-10 17:44:55] INFO root fetch - main [MainThread]: End processing [dgh]: success
+[2023-05-10 17:44:55] INFO root fetch - processPackages [frequency-feature-map-visualization]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 17:44:55] INFO root fetch - processPackages [frequency-feature-map-visualization]: Downloading https://files.pythonhosted.org/packages/39/73/c4cee3e573aab6ef9553dfe08dfa69dc5c835209d2e545ad6eb6d7f73aa0/frequency_feature_map_visualization-0.2.0.tar.gz
+[2023-05-10 17:44:55] INFO root fetch - processPackages [prev-gen]: Start processing: data-repo-client
+[2023-05-10 17:44:55] INFO root fetch - main [MainThread]: End processing [prev-gen]: success
+[2023-05-10 17:44:55] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.480.0]
+[2023-05-10 17:44:55] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/9d/5e/c2e79308a1f7cda00e422c3d34bdb6c00d5b74156cee1e310b005cbe4bf5/data-repo-client-1.480.0.tar.gz
+[2023-05-10 17:44:55] INFO root fetch - processPackages [frequency-feature-map-visualization]: Downloading https://files.pythonhosted.org/packages/97/9a/a98de79fc8c754de120a24092a4a74aa3d4f38ce08591ed13129f76948c3/frequency_feature_map_visualization-0.3.0.tar.gz
+[2023-05-10 17:44:56] INFO root fetch - processPackages [esp-secure-cert-tool]: Start processing: fastapi-querysets
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [esp-secure-cert-tool]: success
+[2023-05-10 17:44:56] INFO root fetch - processPackages [frequency-feature-map-visualization]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [frequency-feature-map-visualization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequency_feature_map_visualization-0.2.0.tar.gz tmp/frequency_feature_map_visualization-0.3.0.tar.gz --markdown 20230510/f/frequency-feature-map-visualization/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 17:44:56] INFO root fetch - processPackages [tsd-api-client]: Start processing: django-auxiliaries
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [tsd-api-client]: success
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fastapi-querysets]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-10 17:44:56] INFO root fetch - processPackages [stcrestclient]: Start processing: naturalspeech2-pytorch
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [stcrestclient]: success
+[2023-05-10 17:44:56] WARNING root fetch - processPackages [django-auxiliaries]: Skipping, unable to determine old version
+[2023-05-10 17:44:56] INFO root fetch - processPackages [django-auxiliaries]: Start processing: fiddler-client
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [django-auxiliaries] error
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [pyuiauto]: success
+[2023-05-10 17:44:56] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-05-10 17:44:56] INFO root fetch - processPackages [naturalspeech2-pytorch]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fiddler-client]: New version: [2.0.0.dev3] Old Version: [2.0.0.dev1]
+[2023-05-10 17:44:56] INFO root fetch - main [MainThread]: End processing [hhnk-research-tools]: success
+[2023-05-10 17:44:56] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.480.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230510/d/data-repo-client/1.480.0-1.64.0/diff.md --exclude *.pyd
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fastapi-querysets]: Downloading https://files.pythonhosted.org/packages/32/25/30c5e1dc330c838141a428dffddd38653c80ff4c2f8e04d00167ea5449ba/fastapi_querysets-0.1.3.tar.gz
+[2023-05-10 17:44:56] INFO root fetch - processPackages [mne]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [mne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mne-1.3.1.tar.gz tmp/mne-1.4.0.tar.gz --markdown 20230510/m/mne/1.3.1-1.4.0/diff.md --exclude *.pyd
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fastapi-querysets]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fastapi-querysets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_querysets-0.1.1.tar.gz tmp/fastapi_querysets-0.1.3.tar.gz --markdown 20230510/f/fastapi-querysets/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fiddler-client]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [fiddler-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiddler-client-2.0.0.dev1.tar.gz tmp/fiddler-client-2.0.0.dev3.tar.gz --markdown 20230510/f/fiddler-client/2.0.0.dev1-2.0.0.dev3/diff.md --exclude *.pyd
+[2023-05-10 17:44:56] INFO root fetch - processPackages [naturalspeech2-pytorch]: executing diffoscope
+[2023-05-10 17:44:56] INFO root fetch - processPackages [naturalspeech2-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naturalspeech2-pytorch-0.0.8.tar.gz tmp/naturalspeech2-pytorch-0.0.9.tar.gz --markdown 20230510/n/naturalspeech2-pytorch/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:44:57] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization]: success
+[2023-05-10 17:44:57] INFO root fetch - main [MainThread]: End processing [fastapi-querysets]: success
+[2023-05-10 17:44:58] INFO root fetch - main [MainThread]: End processing [naturalspeech2-pytorch]: success
+[2023-05-10 17:44:58] INFO root fetch - main [MainThread]: End processing [fiddler-client]: success
+[2023-05-10 17:44:59] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-05-10 17:45:20] INFO root fetch - main [MainThread]: End processing [mypy]: success
+[2023-05-10 17:45:28] INFO root fetch - main [MainThread]: End processing [mne]: success
+[2023-05-10 17:45:28] INFO root fetch - main [MainThread]: Store serial: [18049519]
