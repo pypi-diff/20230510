@@ -7625,3 +7625,36 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:59:04] INFO root fetch - main [MainThread]: End processing [pyhalo]: success
 [2023-05-10 05:59:05] INFO root fetch - main [MainThread]: End processing [odoo10-addon-contract-variable-quantity]: success
 [2023-05-10 05:59:05] INFO root fetch - main [MainThread]: Store serial: [18042121]
+[2023-05-10 06:04:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042121]
+[2023-05-10 06:04:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-10 06:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spacetraders
+[2023-05-10 06:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geocodeus
+[2023-05-10 06:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: geocodeus
+[2023-05-10 06:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addon-agreement
+[2023-05-10 06:04:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyxtend
+[2023-05-10 06:04:14] INFO root fetch - processPackages [spacetraders]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 06:04:14] INFO root fetch - processPackages [odoo14-addon-agreement]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-05-10 06:04:14] INFO root fetch - processPackages [pyxtend]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 06:04:14] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/33/c8/6d989655437eedec14f7048d920579ea00c584f9929bf71a4fac0753b8f8/spacetraders-0.1.0.tar.gz
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 06:04:14] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 06:04:14] INFO root fetch - processPackages [pyxtend]: Downloading https://files.pythonhosted.org/packages/13/4d/3de6c3528da9e4c945350f3c71a2c41def7ab2b9759456afd4469aae49e5/pyxtend-0.3.0.tar.gz
+[2023-05-10 06:04:14] INFO root fetch - processPackages [odoo14-addon-agreement]: Downloading https://files.pythonhosted.org/packages/8f/7a/27cc393dbceec707130e75997ca2cc38b332c022fbf40c9dbeb1e300fd09/odoo14_addon_agreement-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-05-10 06:04:15] INFO root fetch - processPackages [pyxtend]: executing diffoscope
+[2023-05-10 06:04:15] INFO root fetch - processPackages [pyxtend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxtend-0.2.2.tar.gz tmp/pyxtend-0.3.0.tar.gz --markdown 20230510/p/pyxtend/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 06:04:15] INFO root fetch - processPackages [spacetraders]: Downloading https://files.pythonhosted.org/packages/e4/12/183db24349427e564cc13eeb2ed186fea0cf7ebe07dd9136a350608d132b/spacetraders-0.1.1.tar.gz
+[2023-05-10 06:04:15] INFO root fetch - processPackages [odoo14-addon-agreement]: Downloading https://files.pythonhosted.org/packages/09/4d/583e7b6764dadf93f4818851d807cd44d75110f77aa5f407a4dd78cbc6fe/odoo14_addon_agreement-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-05-10 06:04:15] INFO root fetch - processPackages [spacetraders]: executing diffoscope
+[2023-05-10 06:04:15] INFO root fetch - processPackages [spacetraders]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacetraders-0.1.0.tar.gz tmp/spacetraders-0.1.1.tar.gz --markdown 20230510/s/spacetraders/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 06:04:15] INFO root fetch - processPackages [odoo14-addon-agreement]: executing diffoscope
+[2023-05-10 06:04:15] INFO root fetch - processPackages [odoo14-addon-agreement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_agreement-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_agreement-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-agreement/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-05-10 06:04:15] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 06:04:15] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 06:04:16] INFO root fetch - main [MainThread]: End processing [pyxtend]: success
+[2023-05-10 06:04:16] INFO root fetch - main [MainThread]: End processing [odoo14-addon-agreement]: success
+[2023-05-10 06:04:17] INFO root fetch - main [MainThread]: End processing [spacetraders]: success
+[2023-05-10 06:04:17] INFO root fetch - main [MainThread]: Store serial: [18042135]
