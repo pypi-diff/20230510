@@ -19589,3 +19589,122 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:07:24] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
 [2023-05-10 17:07:24] INFO root fetch - main [MainThread]: End processing [py3d]: success
 [2023-05-10 17:07:24] INFO root fetch - main [MainThread]: Store serial: [18048976]
+[2023-05-10 17:12:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048976]
+[2023-05-10 17:12:33] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alphaz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viazoom
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: equal-odds
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scoi-lab-serializer-package
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: earthquakereport-indonesia
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PoissonFuncaoCorrente
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ECUcParser
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cognite-transformations-cli
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: assemblyline-service-client
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assemblyline-service-server
+[2023-05-10 17:12:33] INFO root fetch - processPackages [earthquakereport-indonesia]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [alphaz]: New version: [0.7.7.9] Old Version: [0.7.7.8]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [viazoom]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [PoissonFuncaoCorrente]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-server]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-client]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [alphaz]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [alphaz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphaz-0.7.7.8.tar.gz tmp/alphaz-0.7.7.9.tar.gz --markdown 20230510/a/alphaz/0.7.7.8-0.7.7.9/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [equal-odds]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [scoi-lab-serializer-package]: New version: [0.2] Old Version: [0.1]
+[2023-05-10 17:12:33] WARNING root fetch - processPackages [ECUcParser]: Skipping, unable to determine old version
+[2023-05-10 17:12:33] INFO root fetch - processPackages [ECUcParser]: Start processing: assemblyline-ui
+[2023-05-10 17:12:33] INFO root fetch - main [MainThread]: End processing [ECUcParser] error
+[2023-05-10 17:12:33] INFO root fetch - processPackages [cognite-transformations-cli]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-server]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_server-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_server-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-server/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [PoissonFuncaoCorrente]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [PoissonFuncaoCorrente]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PoissonFuncaoCorrente-1.0.0.tar.gz tmp/PoissonFuncaoCorrente-1.1.0.tar.gz --markdown 20230510/P/PoissonFuncaoCorrente/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-client]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_service_client-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_service_client-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-service-client/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-ui]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:33] INFO root fetch - processPackages [earthquakereport-indonesia]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [earthquakereport-indonesia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/earthquakereport-indonesia-0.1.3.tar.gz tmp/earthquakereport-indonesia-0.1.4.tar.gz --markdown 20230510/e/earthquakereport-indonesia/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [viazoom]: Downloading https://files.pythonhosted.org/packages/81/42/d8480a6a342119e8fbd29bdc17915e32457795de0e0579d25df3096777c5/viazoom-0.1.0.tar.gz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [scoi-lab-serializer-package]: Downloading https://files.pythonhosted.org/packages/99/66/a9c9a945b2a959acc4ec61f6f5ae4af04b5a22ce8150866bd2c245e9c2b0/scoi_lab_serializer_package-0.1.tar.gz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-ui]: executing diffoscope
+[2023-05-10 17:12:33] INFO root fetch - processPackages [assemblyline-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_ui-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_ui-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-ui/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:33] INFO root fetch - processPackages [equal-odds]: Downloading https://files.pythonhosted.org/packages/b9/47/51b87ff0469850ed7862d7ec520e475b82e3567d7269ca18c8e129ef3471/equal-odds-0.0.5.tar.gz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [cognite-transformations-cli]: Downloading https://files.pythonhosted.org/packages/eb/d1/ca98ee16a15b5cd6198e8e9d95713b2a8c812df70ca09e3fb5f691a10fc4/cognite_transformations_cli-2.3.5.tar.gz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [scoi-lab-serializer-package]: Downloading https://files.pythonhosted.org/packages/7e/76/27d329dc8569dc920ee54a573c3d7487918045a162c6db86919db307a716/scoi_lab_serializer_package-0.2.tar.gz
+[2023-05-10 17:12:33] INFO root fetch - processPackages [viazoom]: Downloading https://files.pythonhosted.org/packages/30/31/6164358a48ceb4779227d74f42501811acc5ea0d512f1a60fa3d38d0dc52/viazoom-0.1.1-cp37-abi3-manylinux_2_28_x86_64.whl
+[2023-05-10 17:12:34] INFO root fetch - processPackages [equal-odds]: Downloading https://files.pythonhosted.org/packages/f2/74/49495ed6d3f4763f1a84837554cbbe524019178eb1dba65b9d7388032d90/equal-odds-0.0.6.tar.gz
+[2023-05-10 17:12:34] INFO root fetch - processPackages [scoi-lab-serializer-package]: executing diffoscope
+[2023-05-10 17:12:34] INFO root fetch - processPackages [scoi-lab-serializer-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scoi_lab_serializer_package-0.1.tar.gz tmp/scoi_lab_serializer_package-0.2.tar.gz --markdown 20230510/s/scoi-lab-serializer-package/0.1-0.2/diff.md --exclude *.pyd
+[2023-05-10 17:12:34] INFO root fetch - processPackages [cognite-transformations-cli]: executing diffoscope
+[2023-05-10 17:12:34] INFO root fetch - processPackages [cognite-transformations-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_transformations_cli-2.3.4.tar.gz tmp/cognite_transformations_cli-2.3.5.tar.gz --markdown 20230510/c/cognite-transformations-cli/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-05-10 17:12:34] INFO root fetch - processPackages [equal-odds]: executing diffoscope
+[2023-05-10 17:12:34] INFO root fetch - processPackages [equal-odds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equal-odds-0.0.5.tar.gz tmp/equal-odds-0.0.6.tar.gz --markdown 20230510/e/equal-odds/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-05-10 17:12:34] INFO root fetch - processPackages [viazoom]: executing diffoscope
+[2023-05-10 17:12:34] INFO root fetch - processPackages [viazoom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viazoom-0.1.0.tar.gz tmp/viazoom-0.1.1-cp37-abi3-manylinux_2_28_x86_64.whl.zip --markdown 20230510/v/viazoom/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-service-server]: Start processing: assemblyline-v4-service
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [assemblyline-service-server]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-v4-service]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:35] INFO root fetch - processPackages [PoissonFuncaoCorrente]: Start processing: assemblyline
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [PoissonFuncaoCorrente]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-service-client]: Start processing: assemblyline-core
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [assemblyline-service-client]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-core]: New version: [4.4.1.dev9] Old Version: [4.4.1.dev8]
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-v4-service]: executing diffoscope
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-v4-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline_v4_service-4.4.1.dev8-py3-none-any.whl.zip tmp/assemblyline_v4_service-4.4.1.dev9-py3-none-any.whl.zip --markdown 20230510/a/assemblyline-v4-service/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline]: executing diffoscope
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-4.4.1.dev8.tar.gz tmp/assemblyline-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-core]: executing diffoscope
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assemblyline-core-4.4.1.dev8.tar.gz tmp/assemblyline-core-4.4.1.dev9.tar.gz --markdown 20230510/a/assemblyline-core/4.4.1.dev8-4.4.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 17:12:35] INFO root fetch - processPackages [earthquakereport-indonesia]: Start processing: dve-lumipy-preview
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [earthquakereport-indonesia]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-10 17:12:35] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-05-10 17:12:35] INFO root fetch - processPackages [scoi-lab-serializer-package]: Start processing: lol-site-scraper
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [scoi-lab-serializer-package]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [assemblyline-ui]: Start processing: PatryksAutoAI
+[2023-05-10 17:12:35] INFO root fetch - main [MainThread]: End processing [assemblyline-ui]: success
+[2023-05-10 17:12:35] INFO root fetch - processPackages [lol-site-scraper]: New version: [2.0.1] Old Version: [2.0]
+[2023-05-10 17:12:36] WARNING root fetch - processPackages [PatryksAutoAI]: Skipping, unable to determine old version
+[2023-05-10 17:12:36] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: plutous
+[2023-05-10 17:12:36] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI] error
+[2023-05-10 17:12:36] WARNING root fetch - processPackages [plutous]: Skipping, unable to determine old version
+[2023-05-10 17:12:36] INFO root fetch - processPackages [plutous]: Start processing: sd-meh
+[2023-05-10 17:12:36] INFO root fetch - main [MainThread]: End processing [plutous] error
+[2023-05-10 17:12:36] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-05-10 17:12:36] INFO root fetch - processPackages [lol-site-scraper]: Downloading https://files.pythonhosted.org/packages/a1/53/78b57f424b9a5a592115a108194cfff981958cef735536bb98d58686d9d9/lol-site-scraper-2.0.tar.gz
+[2023-05-10 17:12:36] INFO root fetch - processPackages [equal-odds]: Start processing: simplebox
+[2023-05-10 17:12:36] INFO root fetch - main [MainThread]: End processing [equal-odds]: success
+[2023-05-10 17:12:36] WARNING root fetch - processPackages [sd-meh]: Skipping, unable to determine old version
+[2023-05-10 17:12:36] INFO root fetch - processPackages [sd-meh]: Start processing: automatize
+[2023-05-10 17:12:36] INFO root fetch - main [MainThread]: End processing [sd-meh] error
+[2023-05-10 17:12:36] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-05-10 17:12:36] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230510/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-10 17:12:36] INFO root fetch - processPackages [cognite-transformations-cli]: Start processing: docarray
+[2023-05-10 17:12:36] INFO root fetch - main [MainThread]: End processing [cognite-transformations-cli]: success
+[2023-05-10 17:12:36] INFO root fetch - processPackages [simplebox]: New version: [0.0.1a145] Old Version: [0.0.1a144]
+[2023-05-10 17:12:36] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-05-10 17:12:36] INFO root fetch - processPackages [automatize]: New version: [1.0b6] Old Version: [1.0b5]
+[2023-05-10 17:12:36] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-05-10 17:12:36] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230510/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-05-10 17:12:36] INFO root fetch - processPackages [lol-site-scraper]: Downloading https://files.pythonhosted.org/packages/1c/2f/b799e9bdef4b4ad2a823670ebcf12fd25dcc7570dcd3e6323e8cc3220b44/lol-site-scraper-2.0.1.tar.gz
+[2023-05-10 17:12:36] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/24/a7/29e584bafa8572915dba45339a42147f5ea3c39086ebbe3f0b962db826c8/automatize-1.0b5.tar.gz
+[2023-05-10 17:12:36] INFO root fetch - processPackages [simplebox]: Downloading https://files.pythonhosted.org/packages/c9/59/69811d387b20e57ded379cf6c123d714c18c3bfc62357d8a4a51aebd3867/simplebox-0.0.1a145-py3-none-any.whl
+[2023-05-10 17:12:36] INFO root fetch - processPackages [lol-site-scraper]: executing diffoscope
+[2023-05-10 17:12:36] INFO root fetch - processPackages [lol-site-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lol-site-scraper-2.0.tar.gz tmp/lol-site-scraper-2.0.1.tar.gz --markdown 20230510/l/lol-site-scraper/2.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 17:12:36] INFO root fetch - processPackages [simplebox]: executing diffoscope
+[2023-05-10 17:12:36] INFO root fetch - processPackages [simplebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplebox-0.0.1a144-py3-none-any.whl.zip tmp/simplebox-0.0.1a145-py3-none-any.whl.zip --markdown 20230510/s/simplebox/0.0.1a144-0.0.1a145/diff.md --exclude *.pyd
+[2023-05-10 17:12:37] INFO root fetch - processPackages [automatize]: Downloading https://files.pythonhosted.org/packages/11/d0/74841a1fc37c26233a0b392df7dd4ad3c0971484cc7671990ab2e6bd9233/automatize-1.0b6-py3-none-any.whl
+[2023-05-10 17:12:37] INFO root fetch - processPackages [automatize]: executing diffoscope
+[2023-05-10 17:12:37] INFO root fetch - processPackages [automatize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automatize-1.0b5.tar.gz tmp/automatize-1.0b6-py3-none-any.whl.zip --markdown 20230510/a/automatize/1.0b5-1.0b6/diff.md --exclude *.pyd
+[2023-05-10 17:12:37] INFO root fetch - main [MainThread]: End processing [assemblyline-v4-service]: success
+[2023-05-10 17:12:38] INFO root fetch - main [MainThread]: End processing [lol-site-scraper]: success
+[2023-05-10 17:12:38] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-05-10 17:12:38] INFO root fetch - main [MainThread]: End processing [simplebox]: success
+[2023-05-10 17:12:38] INFO root fetch - main [MainThread]: End processing [alphaz]: success
+[2023-05-10 17:12:38] INFO root fetch - main [MainThread]: End processing [assemblyline-core]: success
+[2023-05-10 17:12:39] INFO root fetch - main [MainThread]: End processing [automatize]: success
+[2023-05-10 17:12:40] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
+[2023-05-10 17:12:40] INFO root fetch - main [MainThread]: End processing [viazoom]: success
+[2023-05-10 17:12:40] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-05-10 17:12:40] INFO root fetch - main [MainThread]: Store serial: [18049057]
