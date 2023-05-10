@@ -7418,3 +7418,66 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:43:11] INFO root fetch - main [MainThread]: End processing [OnloadTable]: success
 [2023-05-10 05:43:12] INFO root fetch - main [MainThread]: End processing [django-outbox-menu]: success
 [2023-05-10 05:43:12] INFO root fetch - main [MainThread]: Store serial: [18041999]
+[2023-05-10 05:48:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041999]
+[2023-05-10 05:48:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geocodeus
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: treestamps
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wcferry
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo8-addon-connector
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-connector
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dogfood-logger
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiliot-api
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-ai
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyxtend
+[2023-05-10 05:48:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pop-ml
+[2023-05-10 05:48:21] INFO root fetch - processPackages [odoo9-addon-connector]: New version: [9.0.1.2.0.99.dev8] Old Version: [9.0.1.2.0.99.dev7]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [odoo8-addon-connector]: New version: [8.0.3.4.0.99.dev5] Old Version: [8.0.3.4.0.99.dev4]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dogfood-logger]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [geocodeus]: New version: [9.0] Old Version: [8.0]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [pyxtend]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wcferry]: New version: [37.1.25.2] Old Version: [37.1.25.1]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wiliot-api]: New version: [4.1.1] Old Version: [4.1.0]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [treestamps]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dbt-ai]: New version: [0.2.0] Old Version: [0.1.3a0]
+[2023-05-10 05:48:21] ERROR root fetch - processPackages [pop-ml]: Unable to get metadata: No such project 'pop-ml'
+[2023-05-10 05:48:21] INFO root fetch - main [MainThread]: End processing [pop-ml] error
+[2023-05-10 05:48:21] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/81/af/824750121e13c14cd343765b9595b2b185aa95821c0b9401dafb2890eb1c/odoo9_addon_connector-9.0.1.2.0.99.dev7-py2-none-any.whl
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dogfood-logger]: Downloading https://files.pythonhosted.org/packages/94/5e/6b898ddf19bf1e326a553c91bd7059c54708c19dad97a2984962b1305e38/dogfood-logger-0.1.2.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/4b/27/56c60d4e308c468fd6181f5c65b67b4e7258f2f2f3b68d1e0023e9e26367/odoo8_addon_connector-8.0.3.4.0.99.dev4-py2-none-any.whl
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/b5/1b/7bbcdae2776af96374b24aeca7fe20c543d72bc9f8bb61f754b28fecca62/wiliot-api-4.1.0.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [pyxtend]: Downloading https://files.pythonhosted.org/packages/2e/47/7a04785088c51baed6aa8cf7746465766ceb2304fd253d4512d51be9bf12/pyxtend-0.2.2.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [treestamps]: Downloading https://files.pythonhosted.org/packages/c5/c6/f880c1a810f96e4a3b2461416d6913ab944b7ca059df407374adefd35ebe/treestamps-0.4.1.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dbt-ai]: Downloading https://files.pythonhosted.org/packages/00/d8/ef1e994976a1abc2940565f6b821db1e7eab2a3c85a21f5979926382e99c/dbt-ai-0.2.0.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [geocodeus]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [geocodeus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geocodeus-8.0.tar.gz tmp/geocodeus-9.0.tar.gz --markdown 20230510/g/geocodeus/8.0-9.0/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/4a/65/d51d64d9197de2ba60e36dfab7acfdad7284f7ef4f45352e1b2595511f6b/wcferry-37.1.25.2.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dbt-ai]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dbt-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-ai-0.1.3a0.tar.gz tmp/dbt-ai-0.2.0.tar.gz --markdown 20230510/d/dbt-ai/0.1.3a0-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dogfood-logger]: Downloading https://files.pythonhosted.org/packages/10/69/9c839663c7f56f6ba880de163f9951992bf021ede8448f47dd64a2a693a6/dogfood-logger-0.1.3.tar.gz
+[2023-05-10 05:48:21] INFO root fetch - processPackages [pyxtend]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [pyxtend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyxtend-0.2.0.tar.gz tmp/pyxtend-0.2.2.tar.gz --markdown 20230510/p/pyxtend/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [treestamps]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [treestamps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/treestamps-0.4.0.tar.gz tmp/treestamps-0.4.1.tar.gz --markdown 20230510/t/treestamps/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dogfood-logger]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [dogfood-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogfood-logger-0.1.2.tar.gz tmp/dogfood-logger-0.1.3.tar.gz --markdown 20230510/d/dogfood-logger/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-37.1.25.1.tar.gz tmp/wcferry-37.1.25.2.tar.gz --markdown 20230510/w/wcferry/37.1.25.1-37.1.25.2/diff.md --exclude *.pyd
+[2023-05-10 05:48:21] INFO root fetch - processPackages [wiliot-api]: Downloading https://files.pythonhosted.org/packages/63/56/c14b04e4e6a4302b14c473f4d1a4c95ecb1b2829d4772ffac27175df4e09/wiliot-api-4.1.1.tar.gz
+[2023-05-10 05:48:22] INFO root fetch - processPackages [wiliot-api]: executing diffoscope
+[2023-05-10 05:48:22] INFO root fetch - processPackages [wiliot-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wiliot-api-4.1.0.tar.gz tmp/wiliot-api-4.1.1.tar.gz --markdown 20230510/w/wiliot-api/4.1.0-4.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo8-addon-connector]: Downloading https://files.pythonhosted.org/packages/80/b2/f813fe9d3750e9c59d65b2e5f40a343877719ccd679f9082d0d5661b2de4/odoo8_addon_connector-8.0.3.4.0.99.dev5-py2-none-any.whl
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo9-addon-connector]: Downloading https://files.pythonhosted.org/packages/71/d8/5915fd47545803fa997174a0719e88ea159b53fc3b130359580ed28e3772/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo8-addon-connector]: executing diffoscope
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo8-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_connector-8.0.3.4.0.99.dev4-py2-none-any.whl.zip tmp/odoo8_addon_connector-8.0.3.4.0.99.dev5-py2-none-any.whl.zip --markdown 20230510/o/odoo8-addon-connector/8.0.3.4.0.99.dev4-8.0.3.4.0.99.dev5/diff.md --exclude *.pyd
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo9-addon-connector]: executing diffoscope
+[2023-05-10 05:48:22] INFO root fetch - processPackages [odoo9-addon-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_connector-9.0.1.2.0.99.dev7-py2-none-any.whl.zip tmp/odoo9_addon_connector-9.0.1.2.0.99.dev8-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-connector/9.0.1.2.0.99.dev7-9.0.1.2.0.99.dev8/diff.md --exclude *.pyd
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [geocodeus]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [treestamps]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [dogfood-logger]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [dbt-ai]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [pyxtend]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-05-10 05:48:23] INFO root fetch - main [MainThread]: End processing [wiliot-api]: success
+[2023-05-10 05:48:24] INFO root fetch - main [MainThread]: End processing [odoo8-addon-connector]: success
+[2023-05-10 05:48:25] INFO root fetch - main [MainThread]: End processing [odoo9-addon-connector]: success
+[2023-05-10 05:48:25] INFO root fetch - main [MainThread]: Store serial: [18042031]
