@@ -11774,3 +11774,120 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:36:01] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-10 10:36:30] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-10 10:36:30] INFO root fetch - main [MainThread]: Store serial: [18044275]
+[2023-05-10 10:41:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044275]
+[2023-05-10 10:41:39] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gitlint
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nwebclient
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-bawiki
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poem-plugins
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: digital-experiments
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mask2bbox
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odimh5
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jolt
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tf-estimator-nightly
+[2023-05-10 10:41:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-l10n-ro-fiscal-validation
+[2023-05-10 10:41:39] INFO root fetch - processPackages [digital-experiments]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [gitlint]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [nonebot-plugin-bawiki]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [odimh5]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [nwebclient]: New version: [1.0.92] Old Version: [1.0.91]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [mask2bbox]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [poem-plugins]: New version: [1.0.2] Old Version: [1.0.0]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: New version: [15.0.3.4.0] Old Version: [15.0.3.3.1]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [jolt]: New version: [0.9.97] Old Version: [0.9.95]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-05-10 10:41:39] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-05-10 10:41:39] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230510/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-05-10 10:41:39] INFO root fetch - processPackages [odimh5]: Downloading https://files.pythonhosted.org/packages/ca/65/a4c3a21312c3b32178aa911756ec0ebbfba7dcb4fa13a78840ec12001147/odimh5-0.1.0.tar.gz
+[2023-05-10 10:41:39] INFO root fetch - processPackages [jolt]: Downloading https://files.pythonhosted.org/packages/cf/1e/068e7b8bff7d0eadf039a015bb6286f250cc8a3cf5edf54927424bb4fe1e/jolt-0.9.97.tar.gz
+[2023-05-10 10:41:39] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/a7/40/1fea073304f81e308bfb67116ac36db6274d598c66440b678f1358ac6534/nonebot_plugin_bawiki-0.7.6.tar.gz
+[2023-05-10 10:41:39] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: Downloading https://files.pythonhosted.org/packages/4c/e5/f973ea6eef226d823cc4eae46fb8b53182e0b9028f36ff595a5797a12b34/odoo_addon_l10n_ro_fiscal_validation-15.0.3.3.1-py3-none-any.whl
+[2023-05-10 10:41:39] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/3a/8e/43770bc27269327662b3e05068c9dd9139c0a6f85e7efbf184f25e646fcf/nwebclient-1.0.92.tar.gz
+[2023-05-10 10:41:39] INFO root fetch - processPackages [digital-experiments]: Downloading https://files.pythonhosted.org/packages/8d/58/2b46fb0f8c71b0fce2ff39d97894a0134205dafb64e989c313445b6c1919/digital-experiments-1.1.2.tar.gz
+[2023-05-10 10:41:39] INFO root fetch - processPackages [jolt]: executing diffoscope
+[2023-05-10 10:41:39] INFO root fetch - processPackages [jolt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jolt-0.9.95.tar.gz tmp/jolt-0.9.97.tar.gz --markdown 20230510/j/jolt/0.9.95-0.9.97/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [poem-plugins]: Downloading https://files.pythonhosted.org/packages/ca/ee/e2c763b780bd43158f591044e61d4a5126462c21169373e543f56c12b4c6/poem_plugins-1.0.2.tar.gz
+[2023-05-10 10:41:40] INFO root fetch - processPackages [gitlint]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [gitlint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitlint-0.8.2.tar.gz tmp/gitlint-0.9.0.tar.gz --markdown 20230510/g/gitlint/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [mask2bbox]: Downloading https://files.pythonhosted.org/packages/0e/c7/bde2ed9d0b31b4eab722e8b593e71dcfd70dd71be4246bb1ea20374ebabd/mask2bbox-0.0.7.tar.gz
+[2023-05-10 10:41:40] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.91.tar.gz tmp/nwebclient-1.0.92.tar.gz --markdown 20230510/n/nwebclient/1.0.91-1.0.92/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [mask2bbox]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [mask2bbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mask2bbox-0.0.6.tar.gz tmp/mask2bbox-0.0.7.tar.gz --markdown 20230510/m/mask2bbox/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [digital-experiments]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [digital-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/digital-experiments-1.1.1.tar.gz tmp/digital-experiments-1.1.2.tar.gz --markdown 20230510/d/digital-experiments/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odimh5]: Downloading https://files.pythonhosted.org/packages/ff/27/e0a9356f95004a0463f8781f20b1b2111cc1ff3f2c27de5882dbd78f6075/odimh5-1.0.0.tar.gz
+[2023-05-10 10:41:40] INFO root fetch - processPackages [poem-plugins]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [poem-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poem_plugins-1.0.0.tar.gz tmp/poem_plugins-1.0.2.tar.gz --markdown 20230510/p/poem-plugins/1.0.0-1.0.2/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: Downloading https://files.pythonhosted.org/packages/c4/6b/a0524b47e3321edacd71095f72ff32962a3e42dc61476473881192715776/odoo_addon_l10n_ro_fiscal_validation-15.0.3.4.0-py3-none-any.whl
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_fiscal_validation-15.0.3.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_fiscal_validation-15.0.3.4.0-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-l10n-ro-fiscal-validation/15.0.3.3.1-15.0.3.4.0/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odimh5]: executing diffoscope
+[2023-05-10 10:41:40] INFO root fetch - processPackages [odimh5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odimh5-0.1.0.tar.gz tmp/odimh5-1.0.0.tar.gz --markdown 20230510/o/odimh5/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 10:41:40] INFO root fetch - processPackages [nonebot-plugin-bawiki]: Downloading https://files.pythonhosted.org/packages/ce/41/95b854229b929fd37493f9fa81210b0a72c9e37c826dd34a8fcf8df39967/nonebot_plugin_bawiki-0.7.7.tar.gz
+[2023-05-10 10:41:41] INFO root fetch - processPackages [nonebot-plugin-bawiki]: executing diffoscope
+[2023-05-10 10:41:41] INFO root fetch - processPackages [nonebot-plugin-bawiki]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bawiki-0.7.6.tar.gz tmp/nonebot_plugin_bawiki-0.7.7.tar.gz --markdown 20230510/n/nonebot-plugin-bawiki/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-05-10 10:41:41] INFO root fetch - processPackages [mask2bbox]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2023-05-10 10:41:41] INFO root fetch - main [MainThread]: End processing [mask2bbox]: success
+[2023-05-10 10:41:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.1]
+[2023-05-10 10:41:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-05-10 10:41:41] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.1.0.1-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:41:42] INFO root fetch - processPackages [poem-plugins]: Start processing: domino-py
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [poem-plugins]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [odimh5]: Start processing: certora-cli-alpha-gereon-cert-1993-fix-unique-successor-remover
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [odimh5]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [nwebclient]: Start processing: csrfvalidators
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [domino-py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 10:41:42] WARNING root fetch - processPackages [certora-cli-alpha-gereon-cert-1993-fix-unique-successor-remover]: Skipping, unable to determine old version
+[2023-05-10 10:41:42] INFO root fetch - processPackages [certora-cli-alpha-gereon-cert-1993-fix-unique-successor-remover]: Start processing: werewolf
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-gereon-cert-1993-fix-unique-successor-remover] error
+[2023-05-10 10:41:42] INFO root fetch - processPackages [csrfvalidators]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 10:41:42] WARNING root fetch - processPackages [werewolf]: Skipping, unable to determine old version
+[2023-05-10 10:41:42] INFO root fetch - processPackages [werewolf]: Start processing: ipydagred3
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [werewolf] error
+[2023-05-10 10:41:42] INFO root fetch - processPackages [domino-py]: executing diffoscope
+[2023-05-10 10:41:42] INFO root fetch - processPackages [domino-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domino-py-0.1.8.tar.gz tmp/domino-py-0.1.9.tar.gz --markdown 20230510/d/domino-py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:41:42] INFO root fetch - processPackages [gitlint]: Start processing: Palos
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [gitlint]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [ipydagred3]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-05-10 10:41:42] INFO root fetch - processPackages [Palos]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 10:41:42] INFO root fetch - processPackages [csrfvalidators]: Downloading https://files.pythonhosted.org/packages/e2/a0/8f92ed9b9597b1d3db109305e8e2da5166d11ad9a25669f88427a960c384/csrfvalidators-0.1.9.tar.gz
+[2023-05-10 10:41:42] INFO root fetch - processPackages [digital-experiments]: Start processing: silver-payu
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [digital-experiments]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [Palos]: executing diffoscope
+[2023-05-10 10:41:42] INFO root fetch - processPackages [Palos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Palos-0.1.8-py3-none-any.whl.zip tmp/Palos-0.1.9-py3-none-any.whl.zip --markdown 20230510/P/Palos/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:41:42] INFO root fetch - processPackages [csrfvalidators]: executing diffoscope
+[2023-05-10 10:41:42] INFO root fetch - processPackages [csrfvalidators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csrfvalidators-0.1.8.tar.gz tmp/csrfvalidators-0.1.9.tar.gz --markdown 20230510/c/csrfvalidators/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 10:41:42] INFO root fetch - processPackages [ipydagred3]: Downloading https://files.pythonhosted.org/packages/82/a6/9b5ab06645073f0593f8d177e5d6828e6bd90d2cafb8397090a69a4c2a66/ipydagred3-0.3.7.tar.gz
+[2023-05-10 10:41:42] INFO root fetch - processPackages [silver-payu]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-05-10 10:41:42] INFO root fetch - processPackages [odoo-addon-l10n-ro-fiscal-validation]: Start processing: pyscemu
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-fiscal-validation]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [pyscemu]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-05-10 10:41:42] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: imaxt-multiscale-plugin
+[2023-05-10 10:41:42] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-05-10 10:41:42] INFO root fetch - processPackages [pyscemu]: executing diffoscope
+[2023-05-10 10:41:42] INFO root fetch - processPackages [pyscemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyscemu-0.2.1.tar.gz tmp/pyscemu-0.2.2.tar.gz --markdown 20230510/p/pyscemu/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-05-10 10:41:42] INFO root fetch - processPackages [silver-payu]: Downloading https://files.pythonhosted.org/packages/0f/c5/a45cb61bd7aa230715a4dd95c5902efc3da28ee160c83dea4b156f2bc053/silver-payu-0.5.1.tar.gz
+[2023-05-10 10:41:42] INFO root fetch - processPackages [imaxt-multiscale-plugin]: New version: [0.2.4] Old Version: [0.2.2]
+[2023-05-10 10:41:42] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/7c/1e/9ee000bf5344d3d00e9bdc8d76b581e5e3c975e404611e246482f63f1624/imaxt-multiscale-plugin-0.2.2.tar.gz
+[2023-05-10 10:41:43] INFO root fetch - processPackages [silver-payu]: Downloading https://files.pythonhosted.org/packages/bc/5a/bea491fc1c62600828f314166e1df6bf4e8d0ac0b7b4de7e8696c27c4590/silver-payu-0.6.0.tar.gz
+[2023-05-10 10:41:43] INFO root fetch - processPackages [ipydagred3]: Downloading https://files.pythonhosted.org/packages/a4/02/e1bdec0a53fb19bd34b3c36209180cf6abef4d4a7ae1e94b6b5fac0ffa9a/ipydagred3-0.3.8.tar.gz
+[2023-05-10 10:41:43] INFO root fetch - processPackages [silver-payu]: executing diffoscope
+[2023-05-10 10:41:43] INFO root fetch - processPackages [silver-payu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/silver-payu-0.5.1.tar.gz tmp/silver-payu-0.6.0.tar.gz --markdown 20230510/s/silver-payu/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-05-10 10:41:43] INFO root fetch - processPackages [imaxt-multiscale-plugin]: Downloading https://files.pythonhosted.org/packages/69/5c/e92d3096bbb0c0a44b2315d182413194c7eddb22296835f3cedeac2f8d76/imaxt-multiscale-plugin-0.2.4.tar.gz
+[2023-05-10 10:41:43] INFO root fetch - processPackages [imaxt-multiscale-plugin]: executing diffoscope
+[2023-05-10 10:41:43] INFO root fetch - processPackages [imaxt-multiscale-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imaxt-multiscale-plugin-0.2.2.tar.gz tmp/imaxt-multiscale-plugin-0.2.4.tar.gz --markdown 20230510/i/imaxt-multiscale-plugin/0.2.2-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 10:41:43] INFO root fetch - processPackages [ipydagred3]: executing diffoscope
+[2023-05-10 10:41:43] INFO root fetch - processPackages [ipydagred3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipydagred3-0.3.7.tar.gz tmp/ipydagred3-0.3.8.tar.gz --markdown 20230510/i/ipydagred3/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-05-10 10:41:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [csrfvalidators]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [jolt]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bawiki]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [pyscemu]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [silver-payu]: success
+[2023-05-10 10:41:44] INFO root fetch - main [MainThread]: End processing [imaxt-multiscale-plugin]: success
+[2023-05-10 10:41:46] INFO root fetch - main [MainThread]: End processing [domino-py]: success
+[2023-05-10 10:41:46] INFO root fetch - main [MainThread]: End processing [Palos]: success
+[2023-05-10 10:42:09] INFO root fetch - main [MainThread]: End processing [ipydagred3]: success
+[2023-05-10 10:42:09] INFO root fetch - main [MainThread]: Store serial: [18044340]
