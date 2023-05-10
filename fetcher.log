@@ -20947,3 +20947,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:07:12] INFO root fetch - main [MainThread]: End processing [hhnk-threedi-tools]: success
 [2023-05-10 18:07:13] INFO root fetch - main [MainThread]: End processing [dingo-gw]: success
 [2023-05-10 18:07:13] INFO root fetch - main [MainThread]: Store serial: [18049771]
+[2023-05-10 18:12:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049771]
+[2023-05-10 18:12:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-10 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: firepup650
+[2023-05-10 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-10 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hkfdb
+[2023-05-10 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fgo-api-types
+[2023-05-10 18:12:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discordgpt
+[2023-05-10 18:12:22] INFO root fetch - processPackages [firepup650]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 18:12:22] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-05-10 18:12:22] INFO root fetch - processPackages [hkfdb]: New version: [2.8] Old Version: [2.77]
+[2023-05-10 18:12:22] INFO root fetch - processPackages [fgo-api-types]: New version: [2023.5.3.17.28.2] Old Version: [2023.5.2.10.8.13]
+[2023-05-10 18:12:22] INFO root fetch - processPackages [discordgpt]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-10 18:12:22] INFO root fetch - processPackages [hkfdb]: executing diffoscope
+[2023-05-10 18:12:22] INFO root fetch - processPackages [hkfdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkfdb-2.77.tar.gz tmp/hkfdb-2.8.tar.gz --markdown 20230510/h/hkfdb/2.77-2.8/diff.md --exclude *.pyd
+[2023-05-10 18:12:22] INFO root fetch - processPackages [firepup650]: executing diffoscope
+[2023-05-10 18:12:22] INFO root fetch - processPackages [firepup650]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firepup650-1.0.8.tar.gz tmp/firepup650-1.0.9.tar.gz --markdown 20230510/f/firepup650/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:12:22] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/2f/a5/b4e00a1c9d5e853452546cf374785cb1c170aabc95276a4f724ccaa253b0/fgo_api_types-2023.5.2.10.8.13.tar.gz
+[2023-05-10 18:12:22] INFO root fetch - processPackages [discordgpt]: Downloading https://files.pythonhosted.org/packages/3c/e7/1d3f79a6c665099651471972a536f22ae168d46ddde71b719916e8989ac8/discordgpt-0.0.1.tar.gz
+[2023-05-10 18:12:22] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/22/eb/4c245274c190d7d357b197102b6488943b4bf17927f19f09cc415a8a7cc5/PatryksAutoAI-0.0.4.tar.gz
+[2023-05-10 18:12:22] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 18:12:22] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.0.3.tar.gz tmp/PatryksAutoAI-0.0.4.tar.gz --markdown 20230510/P/PatryksAutoAI/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-05-10 18:12:22] INFO root fetch - processPackages [discordgpt]: Downloading https://files.pythonhosted.org/packages/b8/36/a1dd63d13daaecd2786fed99a76f569185c58a565bb580d5e4996984539d/discordgpt-1.0.0.tar.gz
+[2023-05-10 18:12:23] INFO root fetch - processPackages [discordgpt]: executing diffoscope
+[2023-05-10 18:12:23] INFO root fetch - processPackages [discordgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordgpt-0.0.1.tar.gz tmp/discordgpt-1.0.0.tar.gz --markdown 20230510/d/discordgpt/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:12:23] INFO root fetch - processPackages [fgo-api-types]: Downloading https://files.pythonhosted.org/packages/ae/f0/b983486e22671b3ef939963fb84b7347ca19852441cca98f552b4e3cc4c5/fgo_api_types-2023.5.3.17.28.2.tar.gz
+[2023-05-10 18:12:23] INFO root fetch - processPackages [fgo-api-types]: executing diffoscope
+[2023-05-10 18:12:23] INFO root fetch - processPackages [fgo-api-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fgo_api_types-2023.5.2.10.8.13.tar.gz tmp/fgo_api_types-2023.5.3.17.28.2.tar.gz --markdown 20230510/f/fgo-api-types/2023.5.2.10.8.13-2023.5.3.17.28.2/diff.md --exclude *.pyd
+[2023-05-10 18:12:23] INFO root fetch - main [MainThread]: End processing [hkfdb]: success
+[2023-05-10 18:12:23] INFO root fetch - main [MainThread]: End processing [firepup650]: success
+[2023-05-10 18:12:23] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 18:12:24] INFO root fetch - main [MainThread]: End processing [discordgpt]: success
+[2023-05-10 18:12:24] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
+[2023-05-10 18:12:24] INFO root fetch - main [MainThread]: Store serial: [18049785]
