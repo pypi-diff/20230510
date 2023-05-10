@@ -9158,3 +9158,58 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:29:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-manual-rank]: success
 [2023-05-10 08:29:15] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-05-10 08:29:15] INFO root fetch - main [MainThread]: Store serial: [18042981]
+[2023-05-10 08:34:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042981]
+[2023-05-10 08:34:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-pos-multiple-control
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: np-workflows
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decimer-segmentation
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo14-addons-oca-pos
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: workbooky
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Putyourgrabbernamehere
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PyNyaaTa
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: qcm-sdk
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hm-pyhelper
+[2023-05-10 08:34:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sag-py-cache-decorator
+[2023-05-10 08:34:24] WARNING root fetch - processPackages [qcm-sdk]: Skipping, unable to determine old version
+[2023-05-10 08:34:24] INFO root fetch - main [MainThread]: End processing [qcm-sdk] error
+[2023-05-10 08:34:24] INFO root fetch - processPackages [PyNyaaTa]: New version: [202305090731] Old Version: [202305050938]
+[2023-05-10 08:34:24] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: New version: [12.0.1.3.1.99.dev7] Old Version: [12.0.1.3.1.99.dev6]
+[2023-05-10 08:34:24] WARNING root fetch - processPackages [Putyourgrabbernamehere]: Skipping, unable to determine old version
+[2023-05-10 08:34:24] WARNING root fetch - processPackages [workbooky]: Skipping, unable to determine old version
+[2023-05-10 08:34:24] INFO root fetch - processPackages [decimer-segmentation]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-05-10 08:34:24] INFO root fetch - main [MainThread]: End processing [Putyourgrabbernamehere] error
+[2023-05-10 08:34:24] INFO root fetch - main [MainThread]: End processing [workbooky] error
+[2023-05-10 08:34:24] INFO root fetch - processPackages [odoo14-addons-oca-pos]: New version: [14.0.20230509.0] Old Version: [14.0.20230505.0]
+[2023-05-10 08:34:24] INFO root fetch - processPackages [np-workflows]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-05-10 08:34:24] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-05-10 08:34:24] WARNING root fetch - processPackages [sag-py-cache-decorator]: Skipping, unable to determine old version
+[2023-05-10 08:34:24] INFO root fetch - main [MainThread]: End processing [sag-py-cache-decorator] error
+[2023-05-10 08:34:24] INFO root fetch - processPackages [PyNyaaTa]: executing diffoscope
+[2023-05-10 08:34:24] INFO root fetch - processPackages [PyNyaaTa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyNyaaTa-202305050938.tar.gz tmp/PyNyaaTa-202305090731.tar.gz --markdown 20230510/P/PyNyaaTa/202305050938-202305090731/diff.md --exclude *.pyd
+[2023-05-10 08:34:24] INFO root fetch - processPackages [decimer-segmentation]: Downloading https://files.pythonhosted.org/packages/16/9f/9f74f3ecf028f48a32b30d2eb598473e3e471716de29e7270d8e99dbc2ab/decimer_segmentation-1.1.2.tar.gz
+[2023-05-10 08:34:24] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/4d/db/e9e851fc774abd544a1ad060625dfe71eb399997e3c477052861184aeef7/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev6-py3-none-any.whl
+[2023-05-10 08:34:24] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/cb/46/8b78bfa90697b9e18336f0dcbf7a8da861adcd1242f81c379723f6ae2ecc/odoo14_addons_oca_pos-14.0.20230505.0-py3-none-any.whl
+[2023-05-10 08:34:24] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-05-10 08:34:24] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/4a/a0/cadfec3e0e2c0b805fdf79e6a75b88028dbd16785507e559a3b128be0d40/np_workflows-1.4.8.tar.gz
+[2023-05-10 08:34:25] INFO root fetch - processPackages [odoo14-addons-oca-pos]: Downloading https://files.pythonhosted.org/packages/78/5c/9b6d2bed1aee1e1eda812353fb3640cb027ea9b74b674cd2f4317d53876b/odoo14_addons_oca_pos-14.0.20230509.0-py3-none-any.whl
+[2023-05-10 08:34:25] INFO root fetch - processPackages [odoo14-addons-oca-pos]: executing diffoscope
+[2023-05-10 08:34:25] INFO root fetch - processPackages [odoo14-addons-oca-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_pos-14.0.20230505.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_pos-14.0.20230509.0-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addons-oca-pos/14.0.20230505.0-14.0.20230509.0/diff.md --exclude *.pyd
+[2023-05-10 08:34:25] INFO root fetch - processPackages [decimer-segmentation]: Downloading https://files.pythonhosted.org/packages/4f/33/c0dc346950beff9af9f5cd3e1cd46ec221d0f5e141b61762254b8ed0c5c5/decimer_segmentation-1.1.3.tar.gz
+[2023-05-10 08:34:25] INFO root fetch - processPackages [np-workflows]: Downloading https://files.pythonhosted.org/packages/ed/99/a23ee9bfb873117551eec660bd84c094982c2fb7cd4151a37d8bc013b461/np_workflows-1.4.9.tar.gz
+[2023-05-10 08:34:25] INFO root fetch - processPackages [np-workflows]: executing diffoscope
+[2023-05-10 08:34:25] INFO root fetch - processPackages [np-workflows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_workflows-1.4.8.tar.gz tmp/np_workflows-1.4.9.tar.gz --markdown 20230510/n/np-workflows/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-05-10 08:34:25] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-05-10 08:34:25] INFO root fetch - processPackages [decimer-segmentation]: executing diffoscope
+[2023-05-10 08:34:25] INFO root fetch - processPackages [decimer-segmentation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decimer_segmentation-1.1.2.tar.gz tmp/decimer_segmentation-1.1.3.tar.gz --markdown 20230510/d/decimer-segmentation/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-05-10 08:34:25] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/7d/15/f20232e4a561bda51664a9ad07e6c256fd9987488215ff8a62c67284cda1/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev7-py3-none-any.whl
+[2023-05-10 08:34:26] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: executing diffoscope
+[2023-05-10 08:34:26] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev7-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-pos-multiple-control/12.0.1.3.1.99.dev6-12.0.1.3.1.99.dev7/diff.md --exclude *.pyd
+[2023-05-10 08:34:26] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-pos]: success
+[2023-05-10 08:34:26] INFO root fetch - main [MainThread]: End processing [PyNyaaTa]: success
+[2023-05-10 08:34:26] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-05-10 08:34:26] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230510/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-05-10 08:34:26] INFO root fetch - main [MainThread]: End processing [np-workflows]: success
+[2023-05-10 08:34:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-multiple-control]: success
+[2023-05-10 08:34:28] INFO root fetch - main [MainThread]: End processing [decimer-segmentation]: success
+[2023-05-10 08:34:42] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-05-10 08:34:42] INFO root fetch - main [MainThread]: Store serial: [18043019]
