@@ -21940,3 +21940,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:18:38] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
 [2023-05-10 19:19:16] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
 [2023-05-10 19:19:16] INFO root fetch - main [MainThread]: Store serial: [18050481]
+[2023-05-10 19:24:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050481]
+[2023-05-10 19:24:24] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-10 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: caveclient
+[2023-05-10 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: procurement-bytetheory
+[2023-05-10 19:24:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrape-schema
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: haicu
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tobler
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ntdsdotsqlite
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moddagudu
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: certora-cli-alpha-thomas-condexp-fix
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bxsolana-trader-proto
+[2023-05-10 19:24:25] INFO root fetch - processPackages [haicu]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [moddagudu]: New version: [1.3] Old Version: [1.2]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [bxsolana-trader-proto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [tobler]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: New version: [20230510.17.20.560733] Old Version: [20230503.13.2.447001]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ntdsdotsqlite]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [procurement-bytetheory]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-thomas-condexp-fix]: New version: [20230510.17.22.63427] Old Version: [20230508.23.22.732485]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [scrape-schema]: New version: [0.2.0] Old Version: [0.1.4]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [caveclient]: New version: [5.5.1] Old Version: [5.5.0]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Downloading https://files.pythonhosted.org/packages/bb/01/1f7759124da68cc6a0a6aad41b4397da133b6201c844b18d6234cab3d0a3/certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace-20230503.13.2.447001.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [bxsolana-trader-proto]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [bxsolana-trader-proto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bxsolana-trader-proto-0.0.8.tar.gz tmp/bxsolana-trader-proto-0.0.9.tar.gz --markdown 20230510/b/bxsolana-trader-proto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/e7/84/11b344c40bc234df1dac839c21e91d1b72b8009b266357fbff0e2ae16034/ntdsdotsqlite-0.9.4.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [haicu]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [haicu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haicu-0.8.2.tar.gz tmp/haicu-0.8.3.tar.gz --markdown 20230510/h/haicu/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [tobler]: Downloading https://files.pythonhosted.org/packages/d1/dd/a25341e86abe7220363a9b5a00d96c3fd2e58a79fae6608c6ff54a70283f/tobler-0.8.2.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/da/98/40cfc51da7307b3273987d2e500f875ff6998463068f8bb5c7821a9ed676/scrape_schema-0.1.4.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-thomas-condexp-fix]: Downloading https://files.pythonhosted.org/packages/29/51/dd5ad93bb317aa36d1478d8310b274261d7c7de7d13b4210c0fc60092200/certora-cli-alpha-thomas-condexp-fix-20230508.23.22.732485.tar.gz
+[2023-05-10 19:24:25] WARNING root fetch - processPackages [certora-cli-alpha-thomas-condexp-fix]: Skipping package: exceeds size limit 38474877>=10485760
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-thomas-condexp-fix]: Start processing: codeoffer
+[2023-05-10 19:24:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-thomas-condexp-fix] error
+[2023-05-10 19:24:25] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/e1/d8/4c3d8bd28fe8a2b2ba0e57f7a4f7baf460434080c132d300d3ced32996cf/moddagudu-1.3.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [procurement-bytetheory]: Downloading https://files.pythonhosted.org/packages/94/5c/e8b651aa9fe83f288405ebb464d952ecc3fa844201c9969ffb95b3181e54/procurement_bytetheory-1.0.4.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [codeoffer]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 19:24:25] WARNING root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Skipping package: exceeds size limit 38365277>=10485760
+[2023-05-10 19:24:25] INFO root fetch - processPackages [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace]: Start processing: AKCK-LFF
+[2023-05-10 19:24:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-eyalf-show-cvl-functions-in-calltrace] error
+[2023-05-10 19:24:25] INFO root fetch - processPackages [caveclient]: Downloading https://files.pythonhosted.org/packages/32/be/866bda6cf965671d9b7264a9e355fd0cd6c6c7e9e0903edc4c0db2188727/caveclient-5.5.1.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ntdsdotsqlite]: Downloading https://files.pythonhosted.org/packages/c1/75/ee20d541807e41c9b0010b96a4df4f555571859c13bf06c1deeed93ffe4c/ntdsdotsqlite-0.9.5.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [scrape-schema]: Downloading https://files.pythonhosted.org/packages/4b/6a/332f3aa6dfd840f29ada17120237110373d3244aef18bd7897b4d4f8200a/scrape_schema-0.2.0.tar.gz
+[2023-05-10 19:24:25] WARNING root fetch - processPackages [AKCK-LFF]: Skipping, unable to determine old version
+[2023-05-10 19:24:25] INFO root fetch - processPackages [AKCK-LFF]: Start processing: lumaapi
+[2023-05-10 19:24:25] INFO root fetch - main [MainThread]: End processing [AKCK-LFF] error
+[2023-05-10 19:24:25] INFO root fetch - processPackages [procurement-bytetheory]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [procurement-bytetheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procurement_bytetheory-1.0.3.tar.gz tmp/procurement_bytetheory-1.0.4.tar.gz --markdown 20230510/p/procurement-bytetheory/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [caveclient]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [caveclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caveclient-5.5.0.tar.gz tmp/caveclient-5.5.1.tar.gz --markdown 20230510/c/caveclient/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [codeoffer]: Downloading https://files.pythonhosted.org/packages/d1/ef/a243aa6a0b9f93238ac302af12ea1419825600d59497060e36ef687b07d9/codeoffer-1.0.3.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ntdsdotsqlite]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [ntdsdotsqlite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ntdsdotsqlite-0.9.4.tar.gz tmp/ntdsdotsqlite-0.9.5.tar.gz --markdown 20230510/n/ntdsdotsqlite/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.2.tar.gz tmp/moddagudu-1.3.tar.gz --markdown 20230510/m/moddagudu/1.2-1.3/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [scrape-schema]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [scrape-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrape_schema-0.1.4.tar.gz tmp/scrape_schema-0.2.0.tar.gz --markdown 20230510/s/scrape-schema/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 19:24:25] INFO root fetch - processPackages [lumaapi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 19:24:25] INFO root fetch - processPackages [tobler]: Downloading https://files.pythonhosted.org/packages/3a/ea/becbd23a7a0b840cd86959a7150425752165576320a6c7dd4fdb19a6e419/tobler-0.9.0.tar.gz
+[2023-05-10 19:24:25] INFO root fetch - processPackages [codeoffer]: executing diffoscope
+[2023-05-10 19:24:25] INFO root fetch - processPackages [codeoffer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeoffer-1.0.2.tar.gz tmp/codeoffer-1.0.3.tar.gz --markdown 20230510/c/codeoffer/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 19:24:26] INFO root fetch - processPackages [lumaapi]: Downloading https://files.pythonhosted.org/packages/0b/55/3f29c380c1e11d285d3e4c23375e689464ba7cf52780a042eadbfca189b6/lumaapi-0.0.1.tar.gz
+[2023-05-10 19:24:26] INFO root fetch - processPackages [tobler]: executing diffoscope
+[2023-05-10 19:24:26] INFO root fetch - processPackages [tobler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tobler-0.8.2.tar.gz tmp/tobler-0.9.0.tar.gz --markdown 20230510/t/tobler/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:24:26] INFO root fetch - processPackages [lumaapi]: Downloading https://files.pythonhosted.org/packages/f2/32/7530f3004cf3d12f1e0cdb2c7f9f856fbbbdccd5ecbb738f30044232958f/lumaapi-0.0.2.tar.gz
+[2023-05-10 19:24:26] INFO root fetch - processPackages [lumaapi]: executing diffoscope
+[2023-05-10 19:24:26] INFO root fetch - processPackages [lumaapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumaapi-0.0.1.tar.gz tmp/lumaapi-0.0.2.tar.gz --markdown 20230510/l/lumaapi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 19:24:26] INFO root fetch - processPackages [haicu]: Start processing: saldet
+[2023-05-10 19:24:26] INFO root fetch - main [MainThread]: End processing [haicu]: success
+[2023-05-10 19:24:26] WARNING root fetch - processPackages [saldet]: Skipping, unable to determine old version
+[2023-05-10 19:24:26] INFO root fetch - processPackages [saldet]: Start processing: tensortrax
+[2023-05-10 19:24:26] INFO root fetch - main [MainThread]: End processing [saldet] error
+[2023-05-10 19:24:27] INFO root fetch - processPackages [tensortrax]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-05-10 19:24:27] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/89/90/35a2c54ede65e72fe80b04f638e7a8151b0671dbd4e55318c2de29784a04/tensortrax-0.8.5.tar.gz
+[2023-05-10 19:24:27] INFO root fetch - processPackages [moddagudu]: Start processing: satanua
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [ntdsdotsqlite]: success
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [caveclient]: success
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [bxsolana-trader-proto]: success
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [procurement-bytetheory]: success
+[2023-05-10 19:24:27] WARNING root fetch - processPackages [satanua]: Skipping, unable to determine old version
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [satanua] error
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [tobler]: success
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [scrape-schema]: success
+[2023-05-10 19:24:27] INFO root fetch - processPackages [tensortrax]: Downloading https://files.pythonhosted.org/packages/d5/ee/5781c8a0fd8be11b0a4fef0fa32c022b900698e16870bf834671c45e36c3/tensortrax-0.9.0.tar.gz
+[2023-05-10 19:24:27] INFO root fetch - main [MainThread]: End processing [lumaapi]: success
+[2023-05-10 19:24:28] INFO root fetch - processPackages [tensortrax]: executing diffoscope
+[2023-05-10 19:24:28] INFO root fetch - processPackages [tensortrax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensortrax-0.8.5.tar.gz tmp/tensortrax-0.9.0.tar.gz --markdown 20230510/t/tensortrax/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:24:29] INFO root fetch - main [MainThread]: End processing [tensortrax]: success
+[2023-05-10 19:25:04] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
+[2023-05-10 19:25:04] INFO root fetch - main [MainThread]: Store serial: [18050530]
