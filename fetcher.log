@@ -9308,3 +9308,120 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:39:59] INFO root fetch - main [MainThread]: End processing [odoo10-addon-product-variant-supplierinfo]: success
 [2023-05-10 08:39:59] INFO root fetch - main [MainThread]: End processing [snort-web-master]: success
 [2023-05-10 08:39:59] INFO root fetch - main [MainThread]: Store serial: [18043052]
+[2023-05-10 08:45:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043052]
+[2023-05-10 08:45:08] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo12-addon-product-variant-sale-price
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-product-variant-configurator
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arkdriver
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jira-assistant
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finetuner-stubs
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finetuner-commons
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-contributor-assets
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: workbooky
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cryton-cli
+[2023-05-10 08:45:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: terrascope-sdk
+[2023-05-10 08:45:08] INFO root fetch - processPackages [odoo12-addon-product-variant-sale-price]: New version: [12.0.1.0.0.99.dev7] Old Version: [12.0.1.0.0.99.dev6]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [arkdriver]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post757] Old Version: [1.0.0.post756]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [terrascope-sdk]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-10 08:45:08] WARNING root fetch - processPackages [workbooky]: Skipping, unable to determine old version
+[2023-05-10 08:45:08] INFO root fetch - processPackages [workbooky]: Start processing: odoo13-addon-project-timesheet-time-control
+[2023-05-10 08:45:08] INFO root fetch - main [MainThread]: End processing [workbooky] error
+[2023-05-10 08:45:08] INFO root fetch - processPackages [odoo12-addon-product-variant-sale-price]: executing diffoscope
+[2023-05-10 08:45:08] INFO root fetch - processPackages [odoo12-addon-product-variant-sale-price]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_variant_sale_price-12.0.1.0.0.99.dev6-py3-none-any.whl.zip tmp/odoo12_addon_product_variant_sale_price-12.0.1.0.0.99.dev7-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-product-variant-sale-price/12.0.1.0.0.99.dev6-12.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-05-10 08:45:08] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: New version: [12.0.1.0.1.99.dev9] Old Version: [12.0.1.0.1.99.dev8]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.5rc1]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [terrascope-sdk]: executing diffoscope
+[2023-05-10 08:45:08] INFO root fetch - processPackages [terrascope-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terrascope-sdk-1.0.4.tar.gz tmp/terrascope-sdk-1.0.5.tar.gz --markdown 20230510/t/terrascope-sdk/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 08:45:08] INFO root fetch - processPackages [jira-assistant]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [cryton-cli]: New version: [2023.1.0a0] Old Version: [2023.1.0]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.5rc1]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [arkdriver]: executing diffoscope
+[2023-05-10 08:45:08] INFO root fetch - processPackages [arkdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdriver-1.0.7.tar.gz tmp/arkdriver-1.0.8.tar.gz --markdown 20230510/a/arkdriver/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-05-10 08:45:08] INFO root fetch - processPackages [odoo13-addon-project-timesheet-time-control]: New version: [13.0.1.1.2.dev9] Old Version: [13.0.1.1.2.dev8]
+[2023-05-10 08:45:08] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/76/07/8931cf088493324a883f915b23e7a1d21643bfc5226095cb6e87c33729c5/nucliadb_contributor_assets-1.0.0.post757-py3-none-any.whl
+[2023-05-10 08:45:09] INFO root fetch - processPackages [cryton-cli]: Downloading https://files.pythonhosted.org/packages/6d/28/ec5968fb0d6fdd2560362290fce29ffeddbd0335d8746498ae1bad11c373/cryton_cli-2023.1.0.tar.gz
+[2023-05-10 08:45:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post756-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post757-py3-none-any.whl.zip --markdown 20230510/n/nucliadb-contributor-assets/1.0.0.post756-1.0.0.post757/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/eb/7b/bf01d061c4b61609057d6e7dc8c0c8dd7bed81cea6738d31cafb62635d1b/odoo12_addon_product_variant_configurator-12.0.1.0.1.99.dev8-py3-none-any.whl
+[2023-05-10 08:45:09] INFO root fetch - processPackages [jira-assistant]: Downloading https://files.pythonhosted.org/packages/9c/98/d37da86ac10e5ef1ce0d30d3ca9126accc1c2a691997d6f7210c8354f973/jira-assistant-0.1.8.tar.gz
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo13-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/b6/6b/2dcaad1602c1e6aa7e34b85f40be588699f751272c21e96b61e5bb8a67d1/odoo13_addon_project_timesheet_time_control-13.0.1.1.2.dev8-py3-none-any.whl
+[2023-05-10 08:45:09] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.5rc1-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230510/f/finetuner-stubs/0.13.5rc1-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.5rc1-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230510/f/finetuner-commons/0.13.5rc1-0.9.3/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [cryton-cli]: Downloading https://files.pythonhosted.org/packages/7d/0b/12566a784a65b4ebf472e6dd8045af7f10cab4f8ded364bb3c8f123260da/cryton_cli-2023.1.0a0.tar.gz
+[2023-05-10 08:45:09] INFO root fetch - processPackages [jira-assistant]: Downloading https://files.pythonhosted.org/packages/3c/ea/b313c766bdbc39c9ed0039db76677b2f6faee1539f016df2641d39d583e0/jira-assistant-0.1.9.tar.gz
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: Downloading https://files.pythonhosted.org/packages/78/06/75a88247400551a8b702f08965647393a27d5dc96f8135bf2ea2e1ac34dd/odoo12_addon_product_variant_configurator-12.0.1.0.1.99.dev9-py3-none-any.whl
+[2023-05-10 08:45:09] INFO root fetch - processPackages [cryton-cli]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [cryton-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cryton_cli-2023.1.0.tar.gz tmp/cryton_cli-2023.1.0a0.tar.gz --markdown 20230510/c/cryton-cli/2023.1.0-2023.1.0a0/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [jira-assistant]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [jira-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jira-assistant-0.1.8.tar.gz tmp/jira-assistant-0.1.9.tar.gz --markdown 20230510/j/jira-assistant/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: executing diffoscope
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_variant_configurator-12.0.1.0.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_product_variant_configurator-12.0.1.0.1.99.dev9-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-product-variant-configurator/12.0.1.0.1.99.dev8-12.0.1.0.1.99.dev9/diff.md --exclude *.pyd
+[2023-05-10 08:45:09] INFO root fetch - processPackages [odoo13-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/4f/2c/e9f39bd4a5b9d6dc5ee6234d875bdad547a5ad994de38c69f4a1fc6ce440/odoo13_addon_project_timesheet_time_control-13.0.1.1.2.dev9-py3-none-any.whl
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo13-addon-project-timesheet-time-control]: executing diffoscope
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo13-addon-project-timesheet-time-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_timesheet_time_control-13.0.1.1.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_project_timesheet_time_control-13.0.1.1.2.dev9-py3-none-any.whl.zip --markdown 20230510/o/odoo13-addon-project-timesheet-time-control/13.0.1.1.2.dev8-13.0.1.1.2.dev9/diff.md --exclude *.pyd
+[2023-05-10 08:45:10] INFO root fetch - processPackages [arkdriver]: Start processing: odoo13-addon-project-administrator-restricted-visibility
+[2023-05-10 08:45:10] INFO root fetch - main [MainThread]: End processing [arkdriver]: success
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: New version: [13.0.1.0.1.dev5] Old Version: [13.0.1.0.1.dev3]
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo12-addon-product-variant-sale-price]: Start processing: geoips-clavrx
+[2023-05-10 08:45:10] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-variant-sale-price]: success
+[2023-05-10 08:45:10] INFO root fetch - processPackages [finetuner-stubs]: Start processing: odoo14-addon-project-timesheet-time-control
+[2023-05-10 08:45:10] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: Downloading https://files.pythonhosted.org/packages/82/14/55c1fa867653a7baa66a9f5f31b4d74ffd572124d76492e940bb0ceb5181/odoo13_addon_project_administrator_restricted_visibility-13.0.1.0.1.dev3-py3-none-any.whl
+[2023-05-10 08:45:10] WARNING root fetch - processPackages [geoips-clavrx]: Skipping, unable to determine old version
+[2023-05-10 08:45:10] INFO root fetch - processPackages [geoips-clavrx]: Start processing: sphinx-pdj-theme
+[2023-05-10 08:45:10] INFO root fetch - main [MainThread]: End processing [geoips-clavrx] error
+[2023-05-10 08:45:10] INFO root fetch - processPackages [finetuner-commons]: Start processing: odoo-addon-project-timesheet-time-control
+[2023-05-10 08:45:10] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control]: New version: [14.0.1.1.1.dev9] Old Version: [14.0.1.1.1.dev8]
+[2023-05-10 08:45:10] INFO root fetch - processPackages [sphinx-pdj-theme]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 08:45:10] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: New version: [15.0.1.1.0.1] Old Version: [15.0.1.1.0]
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: Downloading https://files.pythonhosted.org/packages/1e/a1/389a9c4ad3a3f918faaf1c9ebd9bdbb2af02aefb56d915f5610b84de63f5/odoo13_addon_project_administrator_restricted_visibility-13.0.1.0.1.dev5-py3-none-any.whl
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/bc/75/95bf527b59ecc6811ae6bd234746d9b9cfca3fabc2f9a7d3b0b5417b811a/odoo14_addon_project_timesheet_time_control-14.0.1.1.1.dev8-py3-none-any.whl
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: executing diffoscope
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo13-addon-project-administrator-restricted-visibility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_project_administrator_restricted_visibility-13.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo13_addon_project_administrator_restricted_visibility-13.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230510/o/odoo13-addon-project-administrator-restricted-visibility/13.0.1.0.1.dev3-13.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/d3/40/8cb154c1e64682ebf1064306355a73eeb2da5182f05065acb1e2260e1fda/odoo_addon_project_timesheet_time_control-15.0.1.1.0-py3-none-any.whl
+[2023-05-10 08:45:11] INFO root fetch - processPackages [terrascope-sdk]: Start processing: autonity
+[2023-05-10 08:45:11] INFO root fetch - main [MainThread]: End processing [terrascope-sdk]: success
+[2023-05-10 08:45:11] INFO root fetch - processPackages [sphinx-pdj-theme]: Downloading https://files.pythonhosted.org/packages/85/43/40be3988ebdd57b175ae6f8934b49e52947b5261aa66517210e2aef56285/sphinx-pdj-theme-0.3.1.tar.gz
+[2023-05-10 08:45:11] INFO root fetch - processPackages [autonity]: New version: [0.2.dev1] Old Version: [0.2.0]
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/f1/bb/8fa5c24150d61420c1b571255cc539bea8640774183fac2c5884beddc02d/odoo_addon_project_timesheet_time_control-15.0.1.1.0.1-py3-none-any.whl
+[2023-05-10 08:45:11] INFO root fetch - processPackages [autonity]: Downloading https://files.pythonhosted.org/packages/9a/37/41ae72fb9b7b1337559409705eac27b3269cfca9db9a5cea5309af551c4d/autonity-0.2.0.tar.gz
+[2023-05-10 08:45:11] INFO root fetch - processPackages [sphinx-pdj-theme]: executing diffoscope
+[2023-05-10 08:45:11] INFO root fetch - processPackages [sphinx-pdj-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx-pdj-theme-0.3.0.tar.gz tmp/sphinx-pdj-theme-0.3.1.tar.gz --markdown 20230510/s/sphinx-pdj-theme/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control]: Downloading https://files.pythonhosted.org/packages/da/0a/3a7c903288ede792609507627dd029b827bc4187d81a07a6788caf7406b1/odoo14_addon_project_timesheet_time_control-14.0.1.1.1.dev9-py3-none-any.whl
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: executing diffoscope
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo-addon-project-timesheet-time-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_project_timesheet_time_control-15.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_project_timesheet_time_control-15.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-project-timesheet-time-control/15.0.1.1.0-15.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control]: executing diffoscope
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo14-addon-project-timesheet-time-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_project_timesheet_time_control-14.0.1.1.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_project_timesheet_time_control-14.0.1.1.1.dev9-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-project-timesheet-time-control/14.0.1.1.1.dev8-14.0.1.1.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 08:45:11] INFO root fetch - processPackages [cryton-cli]: Start processing: autonity
+[2023-05-10 08:45:11] INFO root fetch - main [MainThread]: End processing [cryton-cli]: success
+[2023-05-10 08:45:11] INFO root fetch - processPackages [odoo12-addon-product-variant-configurator]: Start processing: fridrixjo-serializer
+[2023-05-10 08:45:11] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-variant-configurator]: success
+[2023-05-10 08:45:11] INFO root fetch - processPackages [autonity]: New version: [0.2.dev1] Old Version: [0.2.0]
+[2023-05-10 08:45:11] INFO root fetch - processPackages [autonity]: Downloading https://files.pythonhosted.org/packages/f5/fc/5babc1c2c6b84ab8fbdcc78c04f0ee4b69d16480a9249e0600657a7e9811/autonity-0.2.dev1.tar.gz
+[2023-05-10 08:45:11] INFO root fetch - processPackages [autonity]: Downloading https://files.pythonhosted.org/packages/f5/fc/5babc1c2c6b84ab8fbdcc78c04f0ee4b69d16480a9249e0600657a7e9811/autonity-0.2.dev1.tar.gz
+[2023-05-10 08:45:11] WARNING root fetch - processPackages [fridrixjo-serializer]: Skipping, unable to determine old version
+[2023-05-10 08:45:11] INFO root fetch - processPackages [fridrixjo-serializer]: Start processing: PySide2-Fluent-Widgets
+[2023-05-10 08:45:11] INFO root fetch - main [MainThread]: End processing [fridrixjo-serializer] error
+[2023-05-10 08:45:12] INFO root fetch - processPackages [autonity]: executing diffoscope
+[2023-05-10 08:45:12] INFO root fetch - processPackages [autonity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonity-0.2.0.tar.gz tmp/autonity-0.2.dev1.tar.gz --markdown 20230510/a/autonity/0.2.0-0.2.dev1/diff.md --exclude *.pyd
+[2023-05-10 08:45:12] INFO root fetch - processPackages [autonity]: executing diffoscope
+[2023-05-10 08:45:12] INFO root fetch - processPackages [autonity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autonity-0.2.0.tar.gz tmp/autonity-0.2.dev1.tar.gz --markdown 20230510/a/autonity/0.2.0-0.2.dev1/diff.md --exclude *.pyd
+[2023-05-10 08:45:12] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-10 08:45:12] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/91/87/01260ed373b1b5cf868e1bb637ebb42869d157a1fdb36b02dbb1555cb106/PySide2-Fluent-Widgets-0.8.7.tar.gz
+[2023-05-10 08:45:12] INFO root fetch - main [MainThread]: End processing [jira-assistant]: success
+[2023-05-10 08:45:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-administrator-restricted-visibility]: success
+[2023-05-10 08:45:12] INFO root fetch - main [MainThread]: End processing [odoo13-addon-project-timesheet-time-control]: success
+[2023-05-10 08:45:12] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-05-10 08:45:12] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-0.8.6.tar.gz tmp/PySide2-Fluent-Widgets-0.8.7.tar.gz --markdown 20230510/P/PySide2-Fluent-Widgets/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-10 08:45:13] INFO root fetch - main [MainThread]: End processing [autonity]: success
+[2023-05-10 08:45:13] INFO root fetch - main [MainThread]: End processing [odoo-addon-project-timesheet-time-control]: success
+[2023-05-10 08:45:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-project-timesheet-time-control]: success
+[2023-05-10 08:45:13] INFO root fetch - main [MainThread]: End processing [autonity]: success
+[2023-05-10 08:45:14] INFO root fetch - main [MainThread]: End processing [sphinx-pdj-theme]: success
+[2023-05-10 08:45:14] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-05-10 08:45:16] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-05-10 08:45:16] INFO root fetch - main [MainThread]: Store serial: [18043106]
