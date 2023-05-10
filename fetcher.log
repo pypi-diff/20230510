@@ -11999,3 +11999,110 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 10:47:31] INFO root fetch - main [MainThread]: End processing [pineboo]: success
 [2023-05-10 10:47:37] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-05-10 10:47:37] INFO root fetch - main [MainThread]: Store serial: [18044388]
+[2023-05-10 10:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18044388]
+[2023-05-10 10:52:47] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akshare
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: automation_rest_server
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algospace
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: get-report-template
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coiled
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Slpapy
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: datanalyse
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cfscanner
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: calorine
+[2023-05-10 10:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: iqm-cortex-cli
+[2023-05-10 10:52:47] INFO root fetch - processPackages [algospace]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [Slpapy]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-05-10 10:52:47] WARNING root fetch - processPackages [get-report-template]: Skipping, unable to determine old version
+[2023-05-10 10:52:47] INFO root fetch - processPackages [cfscanner]: New version: [1.3.16] Old Version: [1.3.15]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [get-report-template]: Start processing: napari-nanopyx
+[2023-05-10 10:52:47] INFO root fetch - processPackages [calorine]: New version: [1.7] Old Version: [1.6]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [datanalyse]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 10:52:47] INFO root fetch - main [MainThread]: End processing [get-report-template] error
+[2023-05-10 10:52:47] INFO root fetch - processPackages [automation_rest_server]: New version: [3.6.8] Old Version: [3.6.7]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [iqm-cortex-cli]: New version: [4.2] Old Version: [4.1]
+[2023-05-10 10:52:47] WARNING root fetch - processPackages [napari-nanopyx]: Skipping, unable to determine old version
+[2023-05-10 10:52:47] INFO root fetch - processPackages [napari-nanopyx]: Start processing: odoo12-addon-community-maps
+[2023-05-10 10:52:47] INFO root fetch - main [MainThread]: End processing [napari-nanopyx] error
+[2023-05-10 10:52:47] INFO root fetch - processPackages [coiled]: New version: [0.6.3.dev9] Old Version: [0.6.3.dev8]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [odoo12-addon-community-maps]: New version: [12.0.0.2.8] Old Version: [12.0.0.2.7]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [akshare]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-05-10 10:52:47] INFO root fetch - processPackages [algospace]: Downloading https://files.pythonhosted.org/packages/9a/33/0e71bd8c9f1dfcb44b46a090580a80071eee709f6d36ffd0436ab4c4ad2d/algospace-0.4.4.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [Slpapy]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [Slpapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Slpapy-0.3.8.tar.gz tmp/Slpapy-0.3.9.tar.gz --markdown 20230510/S/Slpapy/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-05-10 10:52:47] INFO root fetch - processPackages [datanalyse]: Downloading https://files.pythonhosted.org/packages/f7/2a/59b7ec6d0a0e511429bed42d67a64302de358d1d57acf7539afd2d211b3b/datanalyse-0.0.4.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/f4/dc/849813931e08f549f40156ce57e0148333a549cbaf88a24e9ba0e1333825/iqm-cortex-cli-4.1.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/8f/71/5cae88a76d4052589615bbb448e7fedc3b95738c815cd2be132cfea76471/cfscanner-1.3.15.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [calorine]: Downloading https://files.pythonhosted.org/packages/05/70/bd0a5851c081a6ec56e001fa3878209e6d01cc1e0dc1373b441a0b580244/calorine-1.6.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [odoo12-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/1a/c9/055af36c053ed7dd20e3cb118bbdf51f277c510bafc97613d85836a16e16/odoo12_addon_community_maps-12.0.0.2.7-py3-none-any.whl
+[2023-05-10 10:52:47] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/76/57/0580b4df8bc4142173faaf3551117d55c680c12f548630ba8e15fa84b680/automation_rest_server-3.6.7.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.6.3.dev8.tar.gz tmp/coiled-0.6.3.dev9.tar.gz --markdown 20230510/c/coiled/0.6.3.dev8-0.6.3.dev9/diff.md --exclude *.pyd
+[2023-05-10 10:52:47] INFO root fetch - processPackages [algospace]: Downloading https://files.pythonhosted.org/packages/5c/4d/db30ce2452d03c72571ca3e3ce8433b7d2b26942f98cef463318280ad59b/algospace-0.4.5.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [datanalyse]: Downloading https://files.pythonhosted.org/packages/74/12/224b67821cbe6e4b46e6a29523ba916e3403baff47a117bafe6d661fb0e6/datanalyse-0.0.5.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [cfscanner]: Downloading https://files.pythonhosted.org/packages/9f/9f/c0693970cedc0a4b3ef55857cfc61d1035797ca18fbdaaa976dd6b6d714e/cfscanner-1.3.16.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [iqm-cortex-cli]: Downloading https://files.pythonhosted.org/packages/9a/e1/178bb8d4f6071c10a069b8b3301fff9cea38d1070c09dbd229fc4d6dfee7/iqm-cortex-cli-4.2.tar.gz
+[2023-05-10 10:52:47] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.8.tar.gz tmp/akshare-1.9.9.tar.gz --markdown 20230510/a/akshare/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-05-10 10:52:47] INFO root fetch - processPackages [odoo12-addon-community-maps]: Downloading https://files.pythonhosted.org/packages/75/3c/3d66f3cdc0d53329bb70799db86940007a35e1ad16ad150da942af2b6303/odoo12_addon_community_maps-12.0.0.2.8-py3-none-any.whl
+[2023-05-10 10:52:47] INFO root fetch - processPackages [datanalyse]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [datanalyse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datanalyse-0.0.4.tar.gz tmp/datanalyse-0.0.5.tar.gz --markdown 20230510/d/datanalyse/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 10:52:47] INFO root fetch - processPackages [algospace]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [algospace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algospace-0.4.4.tar.gz tmp/algospace-0.4.5.tar.gz --markdown 20230510/a/algospace/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-05-10 10:52:47] INFO root fetch - processPackages [iqm-cortex-cli]: executing diffoscope
+[2023-05-10 10:52:47] INFO root fetch - processPackages [iqm-cortex-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iqm-cortex-cli-4.1.tar.gz tmp/iqm-cortex-cli-4.2.tar.gz --markdown 20230510/i/iqm-cortex-cli/4.1-4.2/diff.md --exclude *.pyd
+[2023-05-10 10:52:48] WARNING root fetch - processPackages [cfscanner]: Skipping package: exceeds size limit 25985586>=10485760
+[2023-05-10 10:52:48] INFO root fetch - processPackages [cfscanner]: Start processing: jaaql-middleware-python
+[2023-05-10 10:52:48] INFO root fetch - main [MainThread]: End processing [cfscanner] error
+[2023-05-10 10:52:48] INFO root fetch - processPackages [automation_rest_server]: Downloading https://files.pythonhosted.org/packages/f1/2f/1721a278f4ee6df0a325a2cab399eec378f22fb331e7c94b48178a06b9a7/automation_rest_server-3.6.8.tar.gz
+[2023-05-10 10:52:48] INFO root fetch - processPackages [calorine]: Downloading https://files.pythonhosted.org/packages/e0/00/a4af51042bfb16bd611c724966f133243309c22f90a03c9feea10077e19c/calorine-1.7.tar.gz
+[2023-05-10 10:52:48] INFO root fetch - processPackages [jaaql-middleware-python]: New version: [4.9.1] Old Version: [4.9.0]
+[2023-05-10 10:52:48] INFO root fetch - processPackages [odoo12-addon-community-maps]: executing diffoscope
+[2023-05-10 10:52:48] INFO root fetch - processPackages [odoo12-addon-community-maps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_community_maps-12.0.0.2.7-py3-none-any.whl.zip tmp/odoo12_addon_community_maps-12.0.0.2.8-py3-none-any.whl.zip --markdown 20230510/o/odoo12-addon-community-maps/12.0.0.2.7-12.0.0.2.8/diff.md --exclude *.pyd
+[2023-05-10 10:52:48] INFO root fetch - processPackages [jaaql-middleware-python]: executing diffoscope
+[2023-05-10 10:52:48] INFO root fetch - processPackages [jaaql-middleware-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaaql-middleware-python-4.9.0.tar.gz tmp/jaaql-middleware-python-4.9.1.tar.gz --markdown 20230510/j/jaaql-middleware-python/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2023-05-10 10:52:48] INFO root fetch - processPackages [automation_rest_server]: executing diffoscope
+[2023-05-10 10:52:48] INFO root fetch - processPackages [automation_rest_server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automation_rest_server-3.6.7.tar.gz tmp/automation_rest_server-3.6.8.tar.gz --markdown 20230510/a/automation_rest_server/3.6.7-3.6.8/diff.md --exclude *.pyd
+[2023-05-10 10:52:48] INFO root fetch - processPackages [calorine]: executing diffoscope
+[2023-05-10 10:52:48] INFO root fetch - processPackages [calorine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calorine-1.6.tar.gz tmp/calorine-1.7.tar.gz --markdown 20230510/c/calorine/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-10 10:52:48] INFO root fetch - processPackages [Slpapy]: Start processing: dftrans
+[2023-05-10 10:52:48] INFO root fetch - main [MainThread]: End processing [Slpapy]: success
+[2023-05-10 10:52:48] INFO root fetch - processPackages [dftrans]: New version: [2.0.2.2] Old Version: [2.0.2.1]
+[2023-05-10 10:52:49] INFO root fetch - processPackages [dftrans]: Downloading https://files.pythonhosted.org/packages/19/aa/60e2ecb20aa7b1035cde5cf5d932ddf8841fff43154fe33c7119ba4b5b43/dftrans-2.0.2.2.tar.gz
+[2023-05-10 10:52:49] INFO root fetch - processPackages [datanalyse]: Start processing: pofmt
+[2023-05-10 10:52:49] INFO root fetch - main [MainThread]: End processing [datanalyse]: success
+[2023-05-10 10:52:49] INFO root fetch - processPackages [dftrans]: executing diffoscope
+[2023-05-10 10:52:49] INFO root fetch - processPackages [dftrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dftrans-2.0.2.1.tar.gz tmp/dftrans-2.0.2.2.tar.gz --markdown 20230510/d/dftrans/2.0.2.1-2.0.2.2/diff.md --exclude *.pyd
+[2023-05-10 10:52:49] INFO root fetch - processPackages [pofmt]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 10:52:49] INFO root fetch - processPackages [pofmt]: Downloading https://files.pythonhosted.org/packages/cd/cd/e60527a7fffc04ab1c69afd5df7949c616e5a3a338858315f2ef8686ddfd/pofmt-0.3.0.tar.gz
+[2023-05-10 10:52:49] INFO root fetch - processPackages [odoo12-addon-community-maps]: Start processing: griffon
+[2023-05-10 10:52:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-community-maps]: success
+[2023-05-10 10:52:49] INFO root fetch - processPackages [griffon]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-05-10 10:52:49] INFO root fetch - processPackages [iqm-cortex-cli]: Start processing: alchql
+[2023-05-10 10:52:49] INFO root fetch - main [MainThread]: End processing [iqm-cortex-cli]: success
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: New version: [3.2.9.12843396] Old Version: [3.2.9.12843389]
+[2023-05-10 10:52:49] INFO root fetch - processPackages [algospace]: Start processing: alchql
+[2023-05-10 10:52:49] INFO root fetch - main [MainThread]: End processing [algospace]: success
+[2023-05-10 10:52:49] INFO root fetch - processPackages [pofmt]: Downloading https://files.pythonhosted.org/packages/25/e3/ebc269949a29cfcf6539eeb9331b9661cf21bdd195408333334a4cb25a2c/pofmt-0.4.0.tar.gz
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.2.9.12843389.tar.gz tmp/alchql-3.2.9.12843396-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.2.9.12843389-3.2.9.12843396/diff.md --exclude *.pyd
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: New version: [3.2.9.12843396] Old Version: [3.2.9.12843389]
+[2023-05-10 10:52:49] INFO root fetch - main [MainThread]: End processing [jaaql-middleware-python]: success
+[2023-05-10 10:52:49] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/23/dd/c076acb3cff7bd03ce910d70419c262f1825bfa0ce32c3d4b7d44996ecc2/griffon-0.1.9.tar.gz
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: executing diffoscope
+[2023-05-10 10:52:49] INFO root fetch - processPackages [alchql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchql-3.2.9.12843389.tar.gz tmp/alchql-3.2.9.12843396-py2.py3-none-any.whl.zip --markdown 20230510/a/alchql/3.2.9.12843389-3.2.9.12843396/diff.md --exclude *.pyd
+[2023-05-10 10:52:50] INFO root fetch - processPackages [pofmt]: executing diffoscope
+[2023-05-10 10:52:50] INFO root fetch - processPackages [pofmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pofmt-0.3.0.tar.gz tmp/pofmt-0.4.0.tar.gz --markdown 20230510/p/pofmt/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 10:52:50] INFO root fetch - processPackages [griffon]: Downloading https://files.pythonhosted.org/packages/e3/d6/f04930757126e2046f5662fd3e7b4e0737263a7fcda1828e21cb7af6a6c1/griffon-0.2.0.tar.gz
+[2023-05-10 10:52:50] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-05-10 10:52:50] INFO root fetch - processPackages [griffon]: executing diffoscope
+[2023-05-10 10:52:50] INFO root fetch - processPackages [griffon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffon-0.1.9.tar.gz tmp/griffon-0.2.0.tar.gz --markdown 20230510/g/griffon/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-05-10 10:52:50] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 10:52:51] INFO root fetch - main [MainThread]: End processing [alchql]: success
+[2023-05-10 10:52:51] INFO root fetch - main [MainThread]: End processing [pofmt]: success
+[2023-05-10 10:52:51] INFO root fetch - main [MainThread]: End processing [griffon]: success
+[2023-05-10 10:52:52] INFO root fetch - main [MainThread]: End processing [dftrans]: success
+[2023-05-10 10:52:52] INFO root fetch - main [MainThread]: End processing [automation_rest_server]: success
+[2023-05-10 10:52:52] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-05-10 10:52:53] INFO root fetch - main [MainThread]: End processing [calorine]: success
+[2023-05-10 10:52:53] INFO root fetch - main [MainThread]: Store serial: [18044449]
