@@ -20980,3 +20980,129 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:12:24] INFO root fetch - main [MainThread]: End processing [discordgpt]: success
 [2023-05-10 18:12:24] INFO root fetch - main [MainThread]: End processing [fgo-api-types]: success
 [2023-05-10 18:12:24] INFO root fetch - main [MainThread]: Store serial: [18049785]
+[2023-05-10 18:17:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049785]
+[2023-05-10 18:17:33] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: localstack-core
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: garpix-favourite
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: educelab-imgproc
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-omnilogic-local
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ghas-cli
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: garpix-cart
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discordgpt
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-autocomplete-light
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: unified-planning
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PlotSpectrumNiceAndEasy
+[2023-05-10 18:17:33] INFO root fetch - processPackages [discordgpt]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [unified-planning]: New version: [0.6.0.9.dev1] Old Version: [0.6.0.21.dev1]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [educelab-imgproc]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [localstack-core]: New version: [2.0.3.dev20230510161215] Old Version: [2.0.3.dev20230510111327]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [garpix-cart]: New version: [3.0.0] Old Version: [2.2.0]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [garpix-favourite]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ghas-cli]: New version: [1.4.2] Old Version: [1.4.0]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [discordgpt]: executing diffoscope
+[2023-05-10 18:17:33] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [unified-planning]: executing diffoscope
+[2023-05-10 18:17:33] INFO root fetch - processPackages [discordgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discordgpt-0.0.1.tar.gz tmp/discordgpt-1.0.0.tar.gz --markdown 20230510/d/discordgpt/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:17:33] INFO root fetch - processPackages [unified-planning]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unified_planning-0.6.0.21.dev1.tar.gz tmp/unified_planning-0.6.0.9.dev1.tar.gz --markdown 20230510/u/unified-planning/0.6.0.21.dev1-0.6.0.9.dev1/diff.md --exclude *.pyd
+[2023-05-10 18:17:33] WARNING root fetch - processPackages [python-omnilogic-local]: Skipping, unable to determine old version
+[2023-05-10 18:17:33] INFO root fetch - processPackages [python-omnilogic-local]: Start processing: amazon-braket-default-simulator
+[2023-05-10 18:17:33] INFO root fetch - main [MainThread]: End processing [python-omnilogic-local] error
+[2023-05-10 18:17:33] INFO root fetch - processPackages [django-autocomplete-light]: New version: [3.9.5rc6] Old Version: [3.9.5rc5]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [amazon-braket-default-simulator]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-10 18:17:33] INFO root fetch - processPackages [educelab-imgproc]: Downloading https://files.pythonhosted.org/packages/2c/7f/8b69f997af44252a6039a447cf4db69d66d030dd129109c0b0e7489a66ad/educelab-imgproc-0.2.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [garpix-cart]: Downloading https://files.pythonhosted.org/packages/bc/7b/3c7ac16b8aa721ff70ce45c426f1a7ac7a5e2205c027f812dffae20ab809/garpix_cart-2.2.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ghas-cli]: Downloading https://files.pythonhosted.org/packages/7a/7c/6910a9969a63a6ceb70a2578e08acc7a72375a2afab42281f1b8a6f8acaa/ghas-cli-1.4.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6d/1f/7380c61393f1adcc6083fa6567a5f1cb235a5b39626b7f64aec9d62fcffe/localstack-core-2.0.3.dev20230510111327.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: Downloading https://files.pythonhosted.org/packages/d4/23/f29951e17624642f8adcda42776fc0a3df11dd59a2be8b2025a29952652a/PlotSpectrumNiceAndEasy-0.0.1.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/77/c4/b2842ba1778e149d5bcfcc1aff2baa8734d407f9fcfb94fe1076bd1c4786/django-autocomplete-light-3.9.5rc5.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [garpix-favourite]: Downloading https://files.pythonhosted.org/packages/50/3d/7e8a5c11867b812c86ea0a8c33995f0ce26eda72feefdecf74153885119d/garpix_favourite-1.0.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/7a/54/afd1e44249d5686858ad0d2bf2cae1c33a712e04c7a97a79ae6b17ec38c5/amazon-braket-default-simulator-1.9.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [educelab-imgproc]: Downloading https://files.pythonhosted.org/packages/3f/71/18a7e9359954d06bc6c90121177ed6e4d35e4fc7af5f3daf1659f35f2e37/educelab-imgproc-0.3.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [ghas-cli]: Downloading https://files.pythonhosted.org/packages/09/f1/922f2175aafcbfe16e3449cf7aefa37834b767a4b2f94c1430b56de46231/ghas_cli-1.4.2.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: Downloading https://files.pythonhosted.org/packages/f5/37/6f656a30a499d44433813ca8f645ee642daf14870ec2197da6c369d4c417/PlotSpectrumNiceAndEasy-0.0.2.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [garpix-cart]: Downloading https://files.pythonhosted.org/packages/41/8d/d4190b51cae3e81b9ba01ac5aef213bcc8ca17810e262548e97b57786382/garpix_cart-3.0.0.tar.gz
+[2023-05-10 18:17:33] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: executing diffoscope
+[2023-05-10 18:17:33] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlotSpectrumNiceAndEasy-0.0.1.tar.gz tmp/PlotSpectrumNiceAndEasy-0.0.2.tar.gz --markdown 20230510/P/PlotSpectrumNiceAndEasy/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-05-10 18:17:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b6/ad/531b84cc3728c69c490ef6244c7949a9e07637a89a1626d2a47b64cad2a3/localstack-core-2.0.3.dev20230510161215.tar.gz
+[2023-05-10 18:17:34] INFO root fetch - processPackages [ghas-cli]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [garpix-cart]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [ghas-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghas-cli-1.4.0.tar.gz tmp/ghas_cli-1.4.2.tar.gz --markdown 20230510/g/ghas-cli/1.4.0-1.4.2/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [garpix-cart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_cart-2.2.0.tar.gz tmp/garpix_cart-3.0.0.tar.gz --markdown 20230510/g/garpix-cart/2.2.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [garpix-favourite]: Downloading https://files.pythonhosted.org/packages/20/ac/412d0927f607505f432eb97108d027a350d8debf6ba9fa9ffee20b3dffba/garpix_favourite-2.0.0.tar.gz
+[2023-05-10 18:17:34] INFO root fetch - processPackages [educelab-imgproc]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [educelab-imgproc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/educelab-imgproc-0.2.0.tar.gz tmp/educelab-imgproc-0.3.0.tar.gz --markdown 20230510/e/educelab-imgproc/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [amazon-braket-default-simulator]: Downloading https://files.pythonhosted.org/packages/19/51/99a137715b8e8e9cd12028bbbcfb41c842f5047587e62140eb7463a3014f/amazon-braket-default-simulator-1.9.1.tar.gz
+[2023-05-10 18:17:34] INFO root fetch - processPackages [django-autocomplete-light]: Downloading https://files.pythonhosted.org/packages/f0/a2/9326c7a7d69e0d51b7dc7cdba9caa2e8ca1a09fa082d00b75b7501833aee/django-autocomplete-light-3.9.5rc6.tar.gz
+[2023-05-10 18:17:34] INFO root fetch - processPackages [garpix-favourite]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [garpix-favourite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_favourite-1.0.0.tar.gz tmp/garpix_favourite-2.0.0.tar.gz --markdown 20230510/g/garpix-favourite/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [django-autocomplete-light]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [django-autocomplete-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-autocomplete-light-3.9.5rc5.tar.gz tmp/django-autocomplete-light-3.9.5rc6.tar.gz --markdown 20230510/d/django-autocomplete-light/3.9.5rc5-3.9.5rc6/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.0.3.dev20230510111327.tar.gz tmp/localstack-core-2.0.3.dev20230510161215.tar.gz --markdown 20230510/l/localstack-core/2.0.3.dev20230510111327-2.0.3.dev20230510161215/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [amazon-braket-default-simulator]: executing diffoscope
+[2023-05-10 18:17:34] INFO root fetch - processPackages [amazon-braket-default-simulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon-braket-default-simulator-1.9.0.tar.gz tmp/amazon-braket-default-simulator-1.9.1.tar.gz --markdown 20230510/a/amazon-braket-default-simulator/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-10 18:17:34] INFO root fetch - processPackages [discordgpt]: Start processing: orange-earth-observation
+[2023-05-10 18:17:34] INFO root fetch - main [MainThread]: End processing [discordgpt]: success
+[2023-05-10 18:17:34] INFO root fetch - processPackages [orange-earth-observation]: New version: [1.0.1] Old Version: [1.0.0.dev1]
+[2023-05-10 18:17:34] INFO root fetch - processPackages [orange-earth-observation]: Downloading https://files.pythonhosted.org/packages/5c/43/70ad3c6ec5f8b724d9ce587b695586c48c5bd60678b17bccf7d2ecf89abe/orange-earth-observation-1.0.0.dev1.tar.gz
+[2023-05-10 18:17:35] INFO root fetch - processPackages [orange-earth-observation]: Downloading https://files.pythonhosted.org/packages/bb/5a/7e527f2fbaf30ac1af1f0f3ff587e9154c76b69ec298bd024a197a061084/orange-earth-observation-1.0.1.tar.gz
+[2023-05-10 18:17:35] INFO root fetch - processPackages [orange-earth-observation]: executing diffoscope
+[2023-05-10 18:17:35] INFO root fetch - processPackages [orange-earth-observation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orange-earth-observation-1.0.0.dev1.tar.gz tmp/orange-earth-observation-1.0.1.tar.gz --markdown 20230510/o/orange-earth-observation/1.0.0.dev1-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 18:17:35] INFO root fetch - processPackages [PlotSpectrumNiceAndEasy]: Start processing: GridCal
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [PlotSpectrumNiceAndEasy]: success
+[2023-05-10 18:17:35] INFO root fetch - processPackages [GridCal]: New version: [4.7.2] Old Version: [4.7.1]
+[2023-05-10 18:17:35] INFO root fetch - processPackages [GridCal]: Downloading https://files.pythonhosted.org/packages/e7/b6/04f1a175d50634f31aab705b0456ea6c568e8b5dfd7f0974386024a160c5/GridCal-4.7.1.tar.gz
+[2023-05-10 18:17:35] WARNING root fetch - processPackages [GridCal]: Skipping package: exceeds size limit 28273301>=10485760
+[2023-05-10 18:17:35] INFO root fetch - processPackages [GridCal]: Start processing: hella-api
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [GridCal] error
+[2023-05-10 18:17:35] INFO root fetch - processPackages [garpix-cart]: Start processing: skelebot
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [garpix-cart]: success
+[2023-05-10 18:17:35] WARNING root fetch - processPackages [hella-api]: Skipping, unable to determine old version
+[2023-05-10 18:17:35] INFO root fetch - processPackages [hella-api]: Start processing: frat-brain
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [hella-api] error
+[2023-05-10 18:17:35] INFO root fetch - processPackages [educelab-imgproc]: Start processing: IQM-Vis
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [educelab-imgproc]: success
+[2023-05-10 18:17:35] INFO root fetch - processPackages [skelebot]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-05-10 18:17:35] INFO root fetch - processPackages [IQM-Vis]: New version: [0.2.5.63] Old Version: [0.2.5.29]
+[2023-05-10 18:17:35] INFO root fetch - processPackages [frat-brain]: New version: [1.5.0] Old Version: [1.4.0]
+[2023-05-10 18:17:35] INFO root fetch - processPackages [IQM-Vis]: executing diffoscope
+[2023-05-10 18:17:35] INFO root fetch - processPackages [IQM-Vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IQM-VIS-0.2.5.29.tar.gz tmp/IQM-Vis-0.2.5.63.tar.gz --markdown 20230510/I/IQM-Vis/0.2.5.29-0.2.5.63/diff.md --exclude *.pyd
+[2023-05-10 18:17:35] INFO root fetch - processPackages [skelebot]: Downloading https://files.pythonhosted.org/packages/b3/8f/6c39678d2481569d6043fe188ab8b0dcb7796cab69db416122db521624ad/skelebot-1.9.0.tar.gz
+[2023-05-10 18:17:35] INFO root fetch - processPackages [ghas-cli]: Start processing: ftrixminer
+[2023-05-10 18:17:35] INFO root fetch - main [MainThread]: End processing [ghas-cli]: success
+[2023-05-10 18:17:36] INFO root fetch - processPackages [garpix-favourite]: Start processing: ix-aims
+[2023-05-10 18:17:36] INFO root fetch - main [MainThread]: End processing [garpix-favourite]: success
+[2023-05-10 18:17:36] INFO root fetch - processPackages [frat-brain]: Downloading https://files.pythonhosted.org/packages/0f/12/202a077b98a569f78dd10b1ec8adf77855ab2174501630f5234a8e2dd3cf/frat_brain-1.4.0.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ftrixminer]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ix-aims]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/ac/bb/450ad13d0cae534e794db7159e4ab23582630f6e3c972785300893f4c5c5/ftrixminer-1.2.1.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/e2/38/1f232c2ec9d6423abe14c8bbc75996ebfe54cead8cf64df6e37bb91dfca6/ix_aims-0.1.5.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [frat-brain]: Downloading https://files.pythonhosted.org/packages/27/9e/c74fee2b784c5fd96b1dff95a9576834c37ee18eba71e13148ede43ad5bc/frat_brain-1.5.0.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [frat-brain]: executing diffoscope
+[2023-05-10 18:17:36] INFO root fetch - processPackages [frat-brain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frat_brain-1.4.0.tar.gz tmp/frat_brain-1.5.0.tar.gz --markdown 20230510/f/frat-brain/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2023-05-10 18:17:36] INFO root fetch - processPackages [skelebot]: Downloading https://files.pythonhosted.org/packages/e8/8d/4474fc2b4ad2d52d5eaa2a1eaccf377d4d621353960550a18d89815f3bdc/skelebot-1.9.1.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ftrixminer]: Downloading https://files.pythonhosted.org/packages/03/17/a40e9bb5d1eaba56b720edd2a7815eefb64e2d166ace999dde43b4a979b4/ftrixminer-1.2.2.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ix-aims]: Downloading https://files.pythonhosted.org/packages/e8/22/ed62d0b7aae3a36c368b413c656a7f67a234c8a848864aea549fd0bb6181/ix_aims-0.1.6.tar.gz
+[2023-05-10 18:17:36] INFO root fetch - processPackages [orange-earth-observation]: Start processing: periodic-element-properties
+[2023-05-10 18:17:36] INFO root fetch - main [MainThread]: End processing [orange-earth-observation]: success
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ftrixminer]: executing diffoscope
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ftrixminer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrixminer-1.2.1.tar.gz tmp/ftrixminer-1.2.2.tar.gz --markdown 20230510/f/ftrixminer/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-10 18:17:36] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.5.tar.gz tmp/ix_aims-0.1.6.tar.gz --markdown 20230510/i/ix-aims/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 18:17:36] INFO root fetch - processPackages [skelebot]: executing diffoscope
+[2023-05-10 18:17:36] INFO root fetch - processPackages [skelebot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skelebot-1.9.0.tar.gz tmp/skelebot-1.9.1.tar.gz --markdown 20230510/s/skelebot/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-05-10 18:17:36] INFO root fetch - processPackages [periodic-element-properties]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-05-10 18:17:37] INFO root fetch - main [MainThread]: End processing [IQM-Vis]: success
+[2023-05-10 18:17:37] INFO root fetch - processPackages [periodic-element-properties]: Downloading https://files.pythonhosted.org/packages/89/56/250de1121ba53966591bf6a63817845706748ab92ca0540f7c1dae50d96b/periodic_element_properties-0.2.1.tar.gz
+[2023-05-10 18:17:37] INFO root fetch - processPackages [periodic-element-properties]: executing diffoscope
+[2023-05-10 18:17:37] INFO root fetch - processPackages [periodic-element-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodic_element_properties-0.2.0.tar.gz tmp/periodic_element_properties-0.2.1.tar.gz --markdown 20230510/p/periodic-element-properties/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-05-10 18:17:37] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
+[2023-05-10 18:17:37] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-10 18:17:38] INFO root fetch - main [MainThread]: End processing [frat-brain]: success
+[2023-05-10 18:17:38] INFO root fetch - main [MainThread]: End processing [skelebot]: success
+[2023-05-10 18:17:38] INFO root fetch - main [MainThread]: End processing [ftrixminer]: success
+[2023-05-10 18:17:38] INFO root fetch - main [MainThread]: End processing [periodic-element-properties]: success
+[2023-05-10 18:17:39] INFO root fetch - main [MainThread]: End processing [amazon-braket-default-simulator]: success
+[2023-05-10 18:17:41] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-05-10 18:17:44] INFO root fetch - main [MainThread]: End processing [django-autocomplete-light]: success
+[2023-05-10 18:17:44] INFO root fetch - main [MainThread]: Store serial: [18049849]
