@@ -9032,3 +9032,108 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:18:39] INFO root fetch - main [MainThread]: End processing [PySide6-Fluent-Widgets]: success
 [2023-05-10 08:18:42] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-05-10 08:18:42] INFO root fetch - main [MainThread]: Store serial: [18042897]
+[2023-05-10 08:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042897]
+[2023-05-10 08:23:52] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qcm-sdk
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pretext
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pixelmagic
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-securelogin
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: types-flake8-bugbear
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ueberzug-bak
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: setup-lcy
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tastytrade-sdk
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dis-inference
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: slurm-parallel
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pixelmagic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [dis-inference]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [flask-securelogin]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pretext]: New version: [1.5.3.dev20230509] Old Version: [1.5.3.dev20230508]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [slurm-parallel]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 08:23:52] WARNING root fetch - processPackages [setup-lcy]: Skipping, unable to determine old version
+[2023-05-10 08:23:52] INFO root fetch - processPackages [setup-lcy]: Start processing: xj-user
+[2023-05-10 08:23:52] INFO root fetch - main [MainThread]: End processing [setup-lcy] error
+[2023-05-10 08:23:52] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-05-10 08:23:52] WARNING root fetch - processPackages [qcm-sdk]: Skipping, unable to determine old version
+[2023-05-10 08:23:52] INFO root fetch - processPackages [qcm-sdk]: Start processing: architex
+[2023-05-10 08:23:52] INFO root fetch - main [MainThread]: End processing [qcm-sdk] error
+[2023-05-10 08:23:52] INFO root fetch - processPackages [architex]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [ueberzug-bak]: New version: [18.2.1] Old Version: [18.2.0]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [types-flake8-bugbear]: New version: [23.5.9.0] Old Version: [23.3.23.0]
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pixelmagic]: executing diffoscope
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pixelmagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelmagic-1.0.0.tar.gz tmp/pixelmagic-1.0.1.tar.gz --markdown 20230510/p/pixelmagic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 08:23:52] INFO root fetch - processPackages [dis-inference]: executing diffoscope
+[2023-05-10 08:23:52] INFO root fetch - processPackages [dis-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dis_inference-1.1.0.tar.gz tmp/dis_inference-1.1.1.tar.gz --markdown 20230510/d/dis-inference/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-05-10 08:23:52] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.5.3.dev20230508.tar.gz tmp/pretext-1.5.3.dev20230509.tar.gz --markdown 20230510/p/pretext/1.5.3.dev20230508-1.5.3.dev20230509/diff.md --exclude *.pyd
+[2023-05-10 08:23:52] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 08:23:52] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [flask-securelogin]: Downloading https://files.pythonhosted.org/packages/44/9b/01f4e37e280a4374f23094e035090b4045e891de10db19b2a3d91ab5699a/flask_securelogin-0.1.7-py3-none-any.whl
+[2023-05-10 08:23:53] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230510/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [flask-securelogin]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [flask-securelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask_securelogin-0.1.6-py3-none-any.whl.zip tmp/flask_securelogin-0.1.7-py3-none-any.whl.zip --markdown 20230510/f/flask-securelogin/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [slurm-parallel]: Downloading https://files.pythonhosted.org/packages/d2/bc/aa41350aeee4616469e59530fc28a7f052e379d0042e7ae50d75ec1439a8/slurm-parallel-0.1.4.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [ueberzug-bak]: Downloading https://files.pythonhosted.org/packages/7b/a0/9cdb3f2ad108f162c15341cdfd094c6fac04fff1cb628df0e8378a8dac66/ueberzug-bak-18.2.0.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [slurm-parallel]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [slurm-parallel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slurm-parallel-0.1.3.tar.gz tmp/slurm-parallel-0.1.4.tar.gz --markdown 20230510/s/slurm-parallel/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/fd/22/6c5f1752e89d64b841ce18d12b88c79d93b746264f50fa37e6744bc1e182/types-flake8-bugbear-23.3.23.0.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [architex]: Downloading https://files.pythonhosted.org/packages/67/74/088be849cddc7f1f91b01332b3235d24496c64a0f4ab595eedb3093fba7a/architex-0.1.3.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [architex]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [architex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architex-0.1.2.tar.gz tmp/architex-0.1.3.tar.gz --markdown 20230510/a/architex/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [ueberzug-bak]: Downloading https://files.pythonhosted.org/packages/4a/a8/4992b600ca9a9042b79a37dec91d19f158650389a6c824a87ad49f48742f/ueberzug-bak-18.2.1.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [types-flake8-bugbear]: Downloading https://files.pythonhosted.org/packages/d0/81/3e0fc2614bbf2fb5a49f0ee563d561b6fc7a400c27daf36a02ef49f73879/types-flake8-bugbear-23.5.9.0.tar.gz
+[2023-05-10 08:23:53] INFO root fetch - processPackages [types-flake8-bugbear]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [types-flake8-bugbear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-flake8-bugbear-23.3.23.0.tar.gz tmp/types-flake8-bugbear-23.5.9.0.tar.gz --markdown 20230510/t/types-flake8-bugbear/23.3.23.0-23.5.9.0/diff.md --exclude *.pyd
+[2023-05-10 08:23:53] INFO root fetch - processPackages [ueberzug-bak]: executing diffoscope
+[2023-05-10 08:23:53] INFO root fetch - processPackages [ueberzug-bak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ueberzug-bak-18.2.0.tar.gz tmp/ueberzug-bak-18.2.1.tar.gz --markdown 20230510/u/ueberzug-bak/18.2.0-18.2.1/diff.md --exclude *.pyd
+[2023-05-10 08:23:54] INFO root fetch - processPackages [tastytrade-sdk]: Start processing: BioSAK
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 08:23:54] INFO root fetch - processPackages [BioSAK]: New version: [1.63.9] Old Version: [1.63.8]
+[2023-05-10 08:23:54] INFO root fetch - processPackages [BioSAK]: Downloading https://files.pythonhosted.org/packages/52/05/ae78b44113d46a959da99f31bce33a00d0621294ecda564ad475c6e911dd/BioSAK-1.63.8.tar.gz
+[2023-05-10 08:23:54] WARNING root fetch - processPackages [BioSAK]: Skipping package: exceeds size limit 16294122>=10485760
+[2023-05-10 08:23:54] INFO root fetch - processPackages [BioSAK]: Start processing: tastytrade-sdk
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [BioSAK] error
+[2023-05-10 08:23:54] INFO root fetch - processPackages [pixelmagic]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [pixelmagic]: success
+[2023-05-10 08:23:54] INFO root fetch - processPackages [tastytrade-sdk]: New version: [0.0.dev1] Old Version: [0.0.4a0.dev79]
+[2023-05-10 08:23:54] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683688826] Old Version: [0.1.1683688818]
+[2023-05-10 08:23:54] INFO root fetch - processPackages [tastytrade-sdk]: executing diffoscope
+[2023-05-10 08:23:54] INFO root fetch - processPackages [tastytrade-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tastytrade_sdk-0.0.4a0.dev79.tar.gz tmp/tastytrade-sdk-0.0.dev1.tar.gz --markdown 20230510/t/tastytrade-sdk/0.0.4a0.dev79-0.0.dev1/diff.md --exclude *.pyd
+[2023-05-10 08:23:54] INFO root fetch - processPackages [flask-securelogin]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [flask-securelogin]: success
+[2023-05-10 08:23:54] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683699801] Old Version: [0.1.1683699793]
+[2023-05-10 08:23:54] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-10 08:23:54] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683688818.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683688826-py3-none-any.whl.zip --markdown 20230510/e/eia-odin-pkg-rioatmadja2018/0.1.1683688818-0.1.1683688826/diff.md --exclude *.pyd
+[2023-05-10 08:23:54] INFO root fetch - processPackages [architex]: Start processing: setup-lcy
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [architex]: success
+[2023-05-10 08:23:54] WARNING root fetch - processPackages [setup-lcy]: Skipping, unable to determine old version
+[2023-05-10 08:23:54] INFO root fetch - processPackages [setup-lcy]: Start processing: odoo-addon-partner-manual-rank
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [setup-lcy] error
+[2023-05-10 08:23:54] INFO root fetch - processPackages [slurm-parallel]: Start processing: odoo14-addon-partner-manual-rank
+[2023-05-10 08:23:54] INFO root fetch - main [MainThread]: End processing [slurm-parallel]: success
+[2023-05-10 08:23:54] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/5f/3f/cb7ccdf5a0a4875f5b0fe1d7d703ec4887fc5ca7b9a8eb1b1c149737de18/eia-odin-pkg-rioatmadja2018-0.1.1683699793.tar.gz
+[2023-05-10 08:23:54] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-05-10 08:23:54] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: New version: [14.0.1.0.1.dev9] Old Version: [14.0.1.0.1.dev8]
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/52/42/451c2edc9f92646ee44dc34ac750cd835ea5e52e6d88ab4af34ba3638f2f/odoo_addon_partner_manual_rank-16.0.1.0.1-py3-none-any.whl
+[2023-05-10 08:23:55] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/ce/5c/eba61c892465076b2f43ab2c183acee1778dc1e94c85fbbf8edf040e600b/eia_odin_pkg_rioatmadja2018-0.1.1683699801-py3-none-any.whl
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [ueberzug-bak]: success
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/58/be/9ac0e971dfa3907af026baf800a7583153557a8a4739641fe0c97f74be13/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev8-py3-none-any.whl
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [types-flake8-bugbear]: success
+[2023-05-10 08:23:55] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-10 08:23:55] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683699793.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683699801-py3-none-any.whl.zip --markdown 20230510/e/eia-odin-pkg-rioatmadja2018/0.1.1683699793-0.1.1683699801/diff.md --exclude *.pyd
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/b6/10/4ffba33d8a782fa725e1e3fd1ac550929dd50a5c9345554ca829624410f3/odoo_addon_partner_manual_rank-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: Downloading https://files.pythonhosted.org/packages/13/05/1a33934e6988e844c18a4c3a715b1021eded256195538febaf567d6b94eb/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev9-py3-none-any.whl
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: executing diffoscope
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo14-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev8-py3-none-any.whl.zip tmp/odoo14_addon_partner_manual_rank-14.0.1.0.1.dev9-py3-none-any.whl.zip --markdown 20230510/o/odoo14-addon-partner-manual-rank/14.0.1.0.1.dev8-14.0.1.0.1.dev9/diff.md --exclude *.pyd
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [tastytrade-sdk]: success
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: executing diffoscope
+[2023-05-10 08:23:55] INFO root fetch - processPackages [odoo-addon-partner-manual-rank]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_partner_manual_rank-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_partner_manual_rank-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-partner-manual-rank/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-10 08:23:55] INFO root fetch - main [MainThread]: End processing [dis-inference]: success
+[2023-05-10 08:23:56] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-10 08:23:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-manual-rank]: success
+[2023-05-10 08:23:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-partner-manual-rank]: success
+[2023-05-10 08:24:00] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-05-10 08:24:00] INFO root fetch - main [MainThread]: Store serial: [18042965]
