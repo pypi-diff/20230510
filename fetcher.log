@@ -1880,3 +1880,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 02:21:05] INFO root fetch - main [MainThread]: End processing [airportsdata]: success
 [2023-05-10 02:22:11] INFO root fetch - main [MainThread]: End processing [synctera-client]: success
 [2023-05-10 02:22:11] INFO root fetch - main [MainThread]: Store serial: [18039028]
+[2023-05-10 02:27:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18039028]
+[2023-05-10 02:27:23] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.ecs-codedeploy
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hindilemmatizer
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aws-cdk.asset-awscli-v1
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk8s-grafana
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-cdk.asset-awscli-v2
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-docker-image-deployment
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyrc-python-utils
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-simplemusic
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openvisuspy
+[2023-05-10 02:27:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchmultimodal-nightly
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [nonebot-plugin-simplemusic]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [pyrc-python-utils]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Downloading https://files.pythonhosted.org/packages/ff/ea/d3ff38a542e799992724e66182e34e344f1ad60cea450624e2d48ee7303b/aws-cdk.asset-awscli-v2-2.0.8.tar.gz
+[2023-05-10 02:27:23] INFO root fetch - processPackages [hindilemmatizer]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [pyrc-python-utils]: executing diffoscope
+[2023-05-10 02:27:23] INFO root fetch - processPackages [pyrc-python-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrc-python-utils-1.0.6.tar.gz tmp/pyrc-python-utils-1.0.7.tar.gz --markdown 20230510/p/pyrc-python-utils/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-05-10 02:27:23] INFO root fetch - processPackages [nonebot-plugin-simplemusic]: executing diffoscope
+[2023-05-10 02:27:23] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v2]: Skipping package: exceeds size limit 53149528>=10485760
+[2023-05-10 02:27:23] INFO root fetch - processPackages [nonebot-plugin-simplemusic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_simplemusic-0.1.5.tar.gz tmp/nonebot_plugin_simplemusic-0.1.6.tar.gz --markdown 20230510/n/nonebot-plugin-simplemusic/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v2]: Start processing: pyroscopegridding
+[2023-05-10 02:27:23] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v2] error
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: New version: [2.2.99] Old Version: [2.2.98]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [openvisuspy]: New version: [1.0.1] Old Version: [0.0.22]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230510/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk-docker-image-deployment]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [torchmultimodal-nightly]: New version: [2023.5.9] Old Version: [2023.5.8]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [pyroscopegridding]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-05-10 02:27:23] INFO root fetch - processPackages [hindilemmatizer]: Downloading https://files.pythonhosted.org/packages/79/11/91ed08db8af14e9c4ecb1a0773c3c6f5141af15d3c5988a23733dd590900/hindilemmatizer-0.5.0-py3-none-any.whl
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Downloading https://files.pythonhosted.org/packages/d8/5f/ec514d7b5296b58149a8b4407d5d4833dd7b24475d8d782b2c36a00c4d22/aws-cdk.asset-awscli-v1-2.2.98.tar.gz
+[2023-05-10 02:27:23] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/e6/e8/a876b7fde9442e41f28703d8a77b0b3ac87a9b37f553640fb334e030c8c0/openvisuspy-0.0.22-py3-none-any.whl
+[2023-05-10 02:27:23] INFO root fetch - processPackages [pyroscopegridding]: Downloading https://files.pythonhosted.org/packages/48/b0/079a26a67cdfefecb491dea9df95fc7c45a0a43b56cdabfe741ba8c4782b/pyroscopegridding-0.2.7.tar.gz
+[2023-05-10 02:27:23] WARNING root fetch - processPackages [aws-cdk.asset-awscli-v1]: Skipping package: exceeds size limit 14653629>=10485760
+[2023-05-10 02:27:23] INFO root fetch - processPackages [aws-cdk.asset-awscli-v1]: Start processing: cdk-certbot-dns-route53
+[2023-05-10 02:27:23] INFO root fetch - main [MainThread]: End processing [aws-cdk.asset-awscli-v1] error
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk-docker-image-deployment]: executing diffoscope
+[2023-05-10 02:27:23] INFO root fetch - processPackages [cdk-docker-image-deployment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-docker-image-deployment-0.0.98.tar.gz tmp/cdk-docker-image-deployment-0.0.99.tar.gz --markdown 20230510/c/cdk-docker-image-deployment/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-10 02:27:24] INFO root fetch - processPackages [pyroscopegridding]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [pyroscopegridding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyroscopegridding-0.2.6.tar.gz tmp/pyroscopegridding-0.2.7.tar.gz --markdown 20230510/p/pyroscopegridding/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [torchmultimodal-nightly]: Downloading https://files.pythonhosted.org/packages/a9/9c/f337ad073d358a35dbee42d50de1f05f55c4be866aae7a5949b2808dea6a/torchmultimodal_nightly-2023.5.9-py39-none-any.whl
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230510/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [torchmultimodal-nightly]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [torchmultimodal-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchmultimodal_nightly-2023.5.8-py39-none-any.whl.zip tmp/torchmultimodal_nightly-2023.5.9-py39-none-any.whl.zip --markdown 20230510/t/torchmultimodal-nightly/2023.5.8-2023.5.9/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [openvisuspy]: Downloading https://files.pythonhosted.org/packages/e9/42/ec9d92e377353623968ba1c92da0944f954435656d165a0896193d7553ab/openvisuspy-1.0.1-py3-none-any.whl
+[2023-05-10 02:27:24] INFO root fetch - processPackages [hindilemmatizer]: Downloading https://files.pythonhosted.org/packages/92/f9/400efc2ea844b816868c9d5d9478c6a31c771f28a9f19d6da5366258a807/hindilemmatizer-0.5.1-py3-none-any.whl
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230510/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [openvisuspy]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [openvisuspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openvisuspy-0.0.22-py3-none-any.whl.zip tmp/openvisuspy-1.0.1-py3-none-any.whl.zip --markdown 20230510/o/openvisuspy/0.0.22-1.0.1/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [hindilemmatizer]: executing diffoscope
+[2023-05-10 02:27:24] INFO root fetch - processPackages [hindilemmatizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hindilemmatizer-0.5.0-py3-none-any.whl.zip tmp/hindilemmatizer-0.5.1-py3-none-any.whl.zip --markdown 20230510/h/hindilemmatizer/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-05-10 02:27:24] INFO root fetch - processPackages [nonebot-plugin-simplemusic]: Start processing: cdk-serverless-clamscan
+[2023-05-10 02:27:24] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-simplemusic]: success
+[2023-05-10 02:27:24] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-05-10 02:27:25] INFO root fetch - processPackages [pyrc-python-utils]: Start processing: cdk-certbot-dns-route53
+[2023-05-10 02:27:25] INFO root fetch - main [MainThread]: End processing [pyrc-python-utils]: success
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230510/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230510/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdk8s-image
+[2023-05-10 02:27:25] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk8s-image]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk8s-image]: executing diffoscope
+[2023-05-10 02:27:25] INFO root fetch - processPackages [cdk8s-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-image-0.2.98.tar.gz tmp/cdk8s-image-0.2.99.tar.gz --markdown 20230510/c/cdk8s-image/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:25] INFO root fetch - processPackages [openvisuspy]: Start processing: aws-cdk.lambda-layer-kubectl-v24
+[2023-05-10 02:27:25] INFO root fetch - main [MainThread]: End processing [openvisuspy]: success
+[2023-05-10 02:27:26] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-docker-image-deployment]: Start processing: cdk-tweet-queue
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [cdk-docker-image-deployment]: success
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk8s-grafana]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-05-10 02:27:26] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Downloading https://files.pythonhosted.org/packages/ba/44/5afcfe5feef2fcf876929e3f62aa23ec5afd6f1ea847bfdde639d820686f/aws-cdk.lambda-layer-kubectl-v24-2.0.98.tar.gz
+[2023-05-10 02:27:26] INFO root fetch - processPackages [pyroscopegridding]: Start processing: cdk8s-jenkins
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [pyroscopegridding]: success
+[2023-05-10 02:27:26] WARNING root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Skipping package: exceeds size limit 27804216>=10485760
+[2023-05-10 02:27:26] INFO root fetch - processPackages [aws-cdk.lambda-layer-kubectl-v24]: Start processing: cdk-gitlab-runner
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [aws-cdk.lambda-layer-kubectl-v24] error
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [torchmultimodal-nightly]: success
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230510/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [hindilemmatizer]: success
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230510/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230510/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-05-10 02:27:26] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230510/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-05-10 02:27:26] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk8s-image]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-05-10 02:27:27] INFO root fetch - main [MainThread]: Store serial: [18039087]
