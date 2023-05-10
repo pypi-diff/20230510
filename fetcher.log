@@ -8329,3 +8329,39 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 07:14:49] INFO root fetch - main [MainThread]: End processing [twint-fork]: success
 [2023-05-10 07:14:50] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-05-10 07:14:50] INFO root fetch - main [MainThread]: Store serial: [18042498]
+[2023-05-10 07:19:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18042498]
+[2023-05-10 07:19:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-05-10 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: orb-billing
+[2023-05-10 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spec-pilot
+[2023-05-10 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo10-addon-l10n-it-ddt
+[2023-05-10 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rapidpe-rift-pipe
+[2023-05-10 07:19:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-l10n-it-ddt
+[2023-05-10 07:19:59] INFO root fetch - processPackages [spec-pilot]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-05-10 07:19:59] INFO root fetch - processPackages [orb-billing]: New version: [1.2.0] Old Version: [0.9.2]
+[2023-05-10 07:19:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.2.2.dev20230509] Old Version: [0.2.2.dev20230508]
+[2023-05-10 07:19:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: New version: [10.0.1.9.0.99.dev4] Old Version: [10.0.1.9.0.99.dev3]
+[2023-05-10 07:19:59] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: New version: [11.0.1.0.2.99.dev5] Old Version: [11.0.1.0.2.99.dev4]
+[2023-05-10 07:19:59] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/58/17/f4e3daedb6da5fa21c3cc302af5d5bf332f35826bbe23fff31023ab235f2/orb-billing-0.9.2.tar.gz
+[2023-05-10 07:19:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-05-10 07:19:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.2.2.dev20230508.tar.gz tmp/rapidpe_rift_pipe-0.2.2.dev20230509.tar.gz --markdown 20230510/r/rapidpe-rift-pipe/0.2.2.dev20230508-0.2.2.dev20230509/diff.md --exclude *.pyd
+[2023-05-10 07:19:59] INFO root fetch - processPackages [spec-pilot]: Downloading https://files.pythonhosted.org/packages/21/c4/828bc41bb3feb8884dc631cf6651bafe9d84692df1ca16d39e7488ab9507/spec-pilot-0.3.3.tar.gz
+[2023-05-10 07:19:59] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/1e/3f/60b5536847acc9fe73918a1752fc20cf3754cfb742e7939fab7dd972c779/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev3-py2-none-any.whl
+[2023-05-10 07:19:59] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/10/57/196a83eddadce5189a785bcfc17ebd09fc32604708824316de2545c13d84/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev4-py2.py3-none-any.whl
+[2023-05-10 07:19:59] INFO root fetch - processPackages [spec-pilot]: Downloading https://files.pythonhosted.org/packages/fb/5b/b0440f51ddafbfe18c109cfec1738ea266620debd9d7d0c24d17d30dbb30/spec-pilot-0.3.4.tar.gz
+[2023-05-10 07:19:59] INFO root fetch - processPackages [orb-billing]: Downloading https://files.pythonhosted.org/packages/1a/16/86db32fce195d8e4dc9278bde16ddb94c1661295c690ac74cb06bffcefbd/orb-billing-1.2.0.tar.gz
+[2023-05-10 07:19:59] INFO root fetch - processPackages [spec-pilot]: executing diffoscope
+[2023-05-10 07:19:59] INFO root fetch - processPackages [spec-pilot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec-pilot-0.3.3.tar.gz tmp/spec-pilot-0.3.4.tar.gz --markdown 20230510/s/spec-pilot/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-05-10 07:20:00] INFO root fetch - processPackages [orb-billing]: executing diffoscope
+[2023-05-10 07:20:00] INFO root fetch - processPackages [orb-billing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orb-billing-0.9.2.tar.gz tmp/orb-billing-1.2.0.tar.gz --markdown 20230510/o/orb-billing/0.9.2-1.2.0/diff.md --exclude *.pyd
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/eb/fe/9c31e3b427a3ddc24ca329f0c1b9472e38a2e04e7a6005d670186ab24d2a/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev4-py2-none-any.whl
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: Downloading https://files.pythonhosted.org/packages/da/31/c49ee2e807f6012f0daad85b53634f6a2a2acd2295389677ae8403a48146/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev5-py2.py3-none-any.whl
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo10-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev3-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_ddt-10.0.1.9.0.99.dev4-py2-none-any.whl.zip --markdown 20230510/o/odoo10-addon-l10n-it-ddt/10.0.1.9.0.99.dev3-10.0.1.9.0.99.dev4/diff.md --exclude *.pyd
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: executing diffoscope
+[2023-05-10 07:20:00] INFO root fetch - processPackages [odoo11-addon-l10n-it-ddt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_ddt-11.0.1.0.2.99.dev5-py2.py3-none-any.whl.zip --markdown 20230510/o/odoo11-addon-l10n-it-ddt/11.0.1.0.2.99.dev4-11.0.1.0.2.99.dev5/diff.md --exclude *.pyd
+[2023-05-10 07:20:00] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-05-10 07:20:01] INFO root fetch - main [MainThread]: End processing [spec-pilot]: success
+[2023-05-10 07:20:01] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-ddt]: success
+[2023-05-10 07:20:02] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-ddt]: success
+[2023-05-10 07:20:03] INFO root fetch - main [MainThread]: End processing [orb-billing]: success
+[2023-05-10 07:20:03] INFO root fetch - main [MainThread]: Store serial: [18042524]
