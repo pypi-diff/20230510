@@ -7324,3 +7324,51 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:32:45] INFO root fetch - main [MainThread]: End processing [amazon-codeguru-jupyterlab-extension]: success
 [2023-05-10 05:32:46] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
 [2023-05-10 05:32:46] INFO root fetch - main [MainThread]: Store serial: [18041934]
+[2023-05-10 05:37:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041934]
+[2023-05-10 05:37:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csv-to-dynamodb
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easy-gpt-utils
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-querycache
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CUP-Network
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hoyo-daily-logins-helper
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: json-timeseries
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytextclassifier
+[2023-05-10 05:37:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dogfood-logger
+[2023-05-10 05:37:56] INFO root fetch - processPackages [easy-gpt-utils]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [django-querycache]: New version: [0.3.0a0] Old Version: [0.3.0]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [CUP-Network]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [pytextclassifier]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-05-10 05:37:56] WARNING root fetch - processPackages [json-timeseries]: Skipping, unable to determine old version
+[2023-05-10 05:37:56] INFO root fetch - main [MainThread]: End processing [json-timeseries] error
+[2023-05-10 05:37:56] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [dogfood-logger]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-10 05:37:56] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:37:56] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:37:56] INFO root fetch - processPackages [django-querycache]: Downloading https://files.pythonhosted.org/packages/34/8a/a788b4a3c466855ea6d8f64906b069dd4d10c769411c539c8880db892be8/django_querycache-0.3.0.tar.gz
+[2023-05-10 05:37:56] INFO root fetch - processPackages [dogfood-logger]: executing diffoscope
+[2023-05-10 05:37:56] INFO root fetch - processPackages [dogfood-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogfood-logger-0.1.tar.gz tmp/dogfood-logger-0.1.1.tar.gz --markdown 20230510/d/dogfood-logger/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:37:56] INFO root fetch - processPackages [CUP-Network]: Downloading https://files.pythonhosted.org/packages/56/30/cbad866ce90dc0921533090cd0e5b97a34f9ea71b64add64ecf6ea86d18d/CUP_Network-0.0.8.tar.gz
+[2023-05-10 05:37:56] INFO root fetch - processPackages [pytextclassifier]: Downloading https://files.pythonhosted.org/packages/60/71/4cc25854c0ab7ce50ed2b6ca43476eee68c3d49404ce9757062a40badea6/pytextclassifier-1.3.5.tar.gz
+[2023-05-10 05:37:56] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/f2/e5/c0d260cc935c90675e68ec8f9569a89641930858a24b45e424db8abb7f77/easy_gpt_utils-0.1.7.tar.gz
+[2023-05-10 05:37:56] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/08/5d/21e3f1505657521dce16f3cce5614bbd50632a02bb2db9aab14bcde92528/hoyo-daily-logins-helper-2.0.1.tar.gz
+[2023-05-10 05:37:56] INFO root fetch - processPackages [easy-gpt-utils]: executing diffoscope
+[2023-05-10 05:37:56] INFO root fetch - processPackages [easy-gpt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gpt_utils-0.1.6.tar.gz tmp/easy_gpt_utils-0.1.7.tar.gz --markdown 20230510/e/easy-gpt-utils/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-10 05:37:56] INFO root fetch - processPackages [django-querycache]: executing diffoscope
+[2023-05-10 05:37:56] INFO root fetch - processPackages [django-querycache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_querycache-0.3.0.tar.gz tmp/django_querycache-0.3.0a0.tar.gz --markdown 20230510/d/django-querycache/0.3.0-0.3.0a0/diff.md --exclude *.pyd
+[2023-05-10 05:37:56] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-05-10 05:37:56] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo-daily-logins-helper-2.0.0.tar.gz tmp/hoyo-daily-logins-helper-2.0.1.tar.gz --markdown 20230510/h/hoyo-daily-logins-helper/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 05:37:57] INFO root fetch - processPackages [CUP-Network]: Downloading https://files.pythonhosted.org/packages/c7/bd/e1c528675d24dc32853c2c7ed4efbda2a3602ad867a2fbe919975e2eca89/CUP_Network-0.0.9.tar.gz
+[2023-05-10 05:37:57] INFO root fetch - processPackages [pytextclassifier]: Downloading https://files.pythonhosted.org/packages/0a/b6/b164326e0db2576f3f7488b719af18b880585ae44b548fbf087d99bf9e2f/pytextclassifier-1.3.6.tar.gz
+[2023-05-10 05:37:57] INFO root fetch - processPackages [pytextclassifier]: executing diffoscope
+[2023-05-10 05:37:57] INFO root fetch - processPackages [pytextclassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytextclassifier-1.3.5.tar.gz tmp/pytextclassifier-1.3.6.tar.gz --markdown 20230510/p/pytextclassifier/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-05-10 05:37:57] INFO root fetch - processPackages [CUP-Network]: executing diffoscope
+[2023-05-10 05:37:57] INFO root fetch - processPackages [CUP-Network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CUP_Network-0.0.8.tar.gz tmp/CUP_Network-0.0.9.tar.gz --markdown 20230510/C/CUP-Network/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 05:37:57] INFO root fetch - main [MainThread]: End processing [dogfood-logger]: success
+[2023-05-10 05:37:57] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:37:58] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils]: success
+[2023-05-10 05:37:58] INFO root fetch - main [MainThread]: End processing [django-querycache]: success
+[2023-05-10 05:37:58] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-05-10 05:37:58] INFO root fetch - main [MainThread]: End processing [CUP-Network]: success
+[2023-05-10 05:38:00] INFO root fetch - main [MainThread]: End processing [pytextclassifier]: success
+[2023-05-10 05:38:00] INFO root fetch - main [MainThread]: Store serial: [18041967]
