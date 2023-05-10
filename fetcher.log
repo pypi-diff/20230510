@@ -9594,3 +9594,56 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 08:55:45] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
 [2023-05-10 08:55:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-request]: success
 [2023-05-10 08:55:46] INFO root fetch - main [MainThread]: Store serial: [18043201]
+[2023-05-10 09:00:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18043201]
+[2023-05-10 09:00:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sosin
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: checkov
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dtalarm
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qcm-sdk
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LasBuildSeg
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thoughty
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: norsoquicksample
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: polymesh
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ibm-vpc
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-riskplus
+[2023-05-10 09:00:55] INFO root fetch - processPackages [dtalarm]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-05-10 09:00:55] WARNING root fetch - processPackages [qcm-sdk]: Skipping, unable to determine old version
+[2023-05-10 09:00:55] INFO root fetch - main [MainThread]: End processing [qcm-sdk] error
+[2023-05-10 09:00:55] WARNING root fetch - processPackages [thoughty]: Skipping, unable to determine old version
+[2023-05-10 09:00:55] INFO root fetch - main [MainThread]: End processing [thoughty] error
+[2023-05-10 09:00:55] INFO root fetch - processPackages [polymesh]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 09:00:55] WARNING root fetch - processPackages [norsoquicksample]: Skipping, unable to determine old version
+[2023-05-10 09:00:55] INFO root fetch - main [MainThread]: End processing [norsoquicksample] error
+[2023-05-10 09:00:55] INFO root fetch - processPackages [sosin]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-05-10 09:00:55] WARNING root fetch - processPackages [LasBuildSeg]: Skipping, unable to determine old version
+[2023-05-10 09:00:55] INFO root fetch - main [MainThread]: End processing [LasBuildSeg] error
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ibm-vpc]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 09:00:55] INFO root fetch - processPackages [antchain-riskplus]: New version: [1.9.5] Old Version: [1.9.3]
+[2023-05-10 09:00:55] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-05-10 09:00:55] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-05-10 09:00:55] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230510/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-05-10 09:00:55] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/27/52/1bbcd9ca5eef620b4bcf7b07f1157babc248597504e13e9c45c7a7217e35/sosin-1.0.4.tar.gz
+[2023-05-10 09:00:55] INFO root fetch - processPackages [dtalarm]: Downloading https://files.pythonhosted.org/packages/12/5b/17ce36c3f970321956506aa7a42318576f96cad7283a17fc8fadd85e49e3/dtalarm-1.0.2.tar.gz
+[2023-05-10 09:00:55] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/bf/c1/dbe03c2d25af3fa0175660a07bf2ec833509da27dea50cc2c6116d0311e4/antchain_riskplus-1.9.3.tar.gz
+[2023-05-10 09:00:55] INFO root fetch - processPackages [ibm-vpc]: Downloading https://files.pythonhosted.org/packages/fb/10/a075ac6a6c5a5d8bdf13a5047848d026be926e44b83b7a149883b009af8b/ibm-vpc-0.8.0.tar.gz
+[2023-05-10 09:00:56] INFO root fetch - processPackages [polymesh]: executing diffoscope
+[2023-05-10 09:00:56] INFO root fetch - processPackages [polymesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polymesh-0.0.8.tar.gz tmp/polymesh-0.0.9.tar.gz --markdown 20230510/p/polymesh/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 09:00:56] INFO root fetch - processPackages [sosin]: Downloading https://files.pythonhosted.org/packages/38/30/830f0ee330c23e983ddf7cea4bf29edf9fd9921286d630ea544ccb7a4086/sosin-1.0.5.tar.gz
+[2023-05-10 09:00:56] INFO root fetch - processPackages [sosin]: executing diffoscope
+[2023-05-10 09:00:56] INFO root fetch - processPackages [sosin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sosin-1.0.4.tar.gz tmp/sosin-1.0.5.tar.gz --markdown 20230510/s/sosin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-05-10 09:00:56] INFO root fetch - processPackages [dtalarm]: Downloading https://files.pythonhosted.org/packages/77/de/5a48bd4575c43c2b13cab481147715cbfed18778bc4e6e5d7646e4cbd99b/dtalarm-1.0.3.tar.gz
+[2023-05-10 09:00:56] INFO root fetch - processPackages [antchain-riskplus]: Downloading https://files.pythonhosted.org/packages/12/c2/d3710d50579d01a29713d277bd95ab4c8f88ed9d297a3ffb73afbd01cb30/antchain_riskplus-1.9.5.tar.gz
+[2023-05-10 09:00:56] INFO root fetch - processPackages [dtalarm]: executing diffoscope
+[2023-05-10 09:00:56] INFO root fetch - processPackages [dtalarm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dtalarm-1.0.2.tar.gz tmp/dtalarm-1.0.3.tar.gz --markdown 20230510/d/dtalarm/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-05-10 09:00:56] INFO root fetch - processPackages [antchain-riskplus]: executing diffoscope
+[2023-05-10 09:00:56] INFO root fetch - processPackages [antchain-riskplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_riskplus-1.9.3.tar.gz tmp/antchain_riskplus-1.9.5.tar.gz --markdown 20230510/a/antchain-riskplus/1.9.3-1.9.5/diff.md --exclude *.pyd
+[2023-05-10 09:00:56] INFO root fetch - processPackages [ibm-vpc]: Downloading https://files.pythonhosted.org/packages/e1/47/b6fbebdada37a6b5f37c0f24a28e0f398e91b00765c3cfcd7f941d264e35/ibm-vpc-0.9.0.tar.gz
+[2023-05-10 09:00:56] INFO root fetch - processPackages [ibm-vpc]: executing diffoscope
+[2023-05-10 09:00:56] INFO root fetch - processPackages [ibm-vpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ibm-vpc-0.8.0.tar.gz tmp/ibm-vpc-0.9.0.tar.gz --markdown 20230510/i/ibm-vpc/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 09:00:57] INFO root fetch - main [MainThread]: End processing [dtalarm]: success
+[2023-05-10 09:00:57] INFO root fetch - main [MainThread]: End processing [sosin]: success
+[2023-05-10 09:00:58] INFO root fetch - main [MainThread]: End processing [polymesh]: success
+[2023-05-10 09:01:00] INFO root fetch - main [MainThread]: End processing [ibm-vpc]: success
+[2023-05-10 09:01:22] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
+[2023-05-10 09:01:40] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-05-10 09:01:40] INFO root fetch - main [MainThread]: Store serial: [18043241]
