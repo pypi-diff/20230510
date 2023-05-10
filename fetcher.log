@@ -17966,3 +17966,152 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 15:45:15] INFO root fetch - main [MainThread]: End processing [assemblyline]: success
 [2023-05-10 15:45:16] INFO root fetch - main [MainThread]: End processing [money-to-prisoners-common]: success
 [2023-05-10 15:45:16] INFO root fetch - main [MainThread]: Store serial: [18047975]
+[2023-05-10 15:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18047975]
+[2023-05-10 15:50:26] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flaks
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: geedim
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-postgres-extra
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gce-rescue
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: NbRisk
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytmatrix
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gen-pop-linkml2sheets
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: utracto
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tab-transformer-pytorch
+[2023-05-10 15:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytket-aqt
+[2023-05-10 15:50:26] INFO root fetch - processPackages [flaks]: New version: [0.9] Old Version: [0.8]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [pytmatrix]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [django-postgres-extra]: New version: [2.0a9] Old Version: [2.0a7]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [NbRisk]: New version: [34.0.0] Old Version: [0.5.0]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gce-rescue]: New version: [0.3b0] Old Version: [0.0.2.post1]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [utracto]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [geedim]: New version: [1.7.1] Old Version: [1.7.0]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gen-pop-linkml2sheets]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [pytket-aqt]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [tab-transformer-pytorch]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-05-10 15:50:26] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/91/38/b452699ca718c5b946e7db1c9359fb416331be33a73b58f1a8e9db032471/utracto-0.0.7.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [pytmatrix]: Downloading https://files.pythonhosted.org/packages/1e/50/d0abc77c055c7ca1fe44ad81f28290738111292ebece56f89a0789e16d61/pytmatrix-0.3.2.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gce-rescue]: Downloading https://files.pythonhosted.org/packages/cf/57/b5fed435d654be21449118f53507597852e11d7155c6e24a0549c6f8ed42/gce-rescue-0.0.2.post1.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [NbRisk]: Downloading https://files.pythonhosted.org/packages/fe/26/384ce8b51ac4dcdffc813ea71d65a2953be4d11a8ac034e8a77f89fa3563/NbRisk-34.0.0.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [geedim]: Downloading https://files.pythonhosted.org/packages/c9/97/f27bb916e95572c77174b47b1ae8cda615342047473c0d43e1eb12b8b43a/geedim-1.7.0.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [django-postgres-extra]: Downloading https://files.pythonhosted.org/packages/dc/19/2d69c3b8d4d9cf07e3a33b100276766d5d5270e6a720e544f9787e85a3ee/django-postgres-extra-2.0a7.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [tab-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/78/51/2b8aecec39f53f29ada9310e07b6aeda9c4546e4a2962ad217764fe65a3d/tab-transformer-pytorch-0.2.5.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/b5/fa/67027a050740a930a36d462e18a763efcc39f30acdd522cd53611d421b44/gen_pop_linkml2sheets-0.1.1.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [flaks]: Downloading https://files.pythonhosted.org/packages/f0/17/22351952ca7cd69b451ebea3a0c430ef0133981cd7428d77c67761fdfa15/flaks-0.9.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [pytket-aqt]: Downloading https://files.pythonhosted.org/packages/28/c2/950ae856697665890a8c09191e7278264262a90613d027fec6c93c36a3af/pytket-aqt-0.7.0.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 15:50:26] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.8.tar.gz tmp/flaks-0.9.tar.gz --markdown 20230510/f/flaks/0.8-0.9/diff.md --exclude *.pyd
+[2023-05-10 15:50:26] INFO root fetch - processPackages [NbRisk]: executing diffoscope
+[2023-05-10 15:50:26] INFO root fetch - processPackages [NbRisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NbRisk-0.5.0.tar.gz tmp/NbRisk-34.0.0.tar.gz --markdown 20230510/N/NbRisk/0.5.0-34.0.0/diff.md --exclude *.pyd
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gce-rescue]: Downloading https://files.pythonhosted.org/packages/3d/3f/562d7734ae2caf1fc920b7e3db86c718bc61bc05729fef0a379d2efe788f/gce-rescue-0.3b0.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [utracto]: Downloading https://files.pythonhosted.org/packages/46/cb/be442ffadfa4234205244fe659653b38a9828d640a1216216a4e27714d08/utracto-0.0.8.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [django-postgres-extra]: Downloading https://files.pythonhosted.org/packages/fa/f5/15a2c2c268e6c324f50acc8e4a698629223050cdcdd46ed2abd0a715f530/django-postgres-extra-2.0a9.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [tab-transformer-pytorch]: Downloading https://files.pythonhosted.org/packages/36/b7/441983e94d1f2df85d9cae65304ed734b660aecfc367c34dc00d9f6907a0/tab-transformer-pytorch-0.2.6.tar.gz
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gce-rescue]: executing diffoscope
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gce-rescue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gce-rescue-0.0.2.post1.tar.gz tmp/gce-rescue-0.3b0.tar.gz --markdown 20230510/g/gce-rescue/0.0.2.post1-0.3b0/diff.md --exclude *.pyd
+[2023-05-10 15:50:26] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Downloading https://files.pythonhosted.org/packages/aa/b1/d8565bc8a51c19dda67f92e0ca1616e65342474abf346e05fbb3deb8c94d/gen_pop_linkml2sheets-0.1.3.tar.gz
+[2023-05-10 15:50:27] INFO root fetch - processPackages [geedim]: Downloading https://files.pythonhosted.org/packages/60/29/1bdd3458916a88aa09d25be8627dc703f07457cb47bfe442f181190333de/geedim-1.7.1.tar.gz
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytmatrix]: Downloading https://files.pythonhosted.org/packages/03/0e/9ab5caf01bd7c62107f2b997555b3f97b25b62db55573d09fd43bf48cad0/pytmatrix-0.3.3.tar.gz
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytket-aqt]: Downloading https://files.pythonhosted.org/packages/01/3b/8602d3ebf8bf11c571e859083178afbcf5a167976d95b86e23cf65960aec/pytket-aqt-0.9.0.tar.gz
+[2023-05-10 15:50:27] INFO root fetch - processPackages [tab-transformer-pytorch]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [tab-transformer-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tab-transformer-pytorch-0.2.5.tar.gz tmp/tab-transformer-pytorch-0.2.6.tar.gz --markdown 20230510/t/tab-transformer-pytorch/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [django-postgres-extra]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [django-postgres-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-postgres-extra-2.0a7.tar.gz tmp/django-postgres-extra-2.0a9.tar.gz --markdown 20230510/d/django-postgres-extra/2.0a7-2.0a9/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [gen-pop-linkml2sheets]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [gen-pop-linkml2sheets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gen_pop_linkml2sheets-0.1.1.tar.gz tmp/gen_pop_linkml2sheets-0.1.3.tar.gz --markdown 20230510/g/gen-pop-linkml2sheets/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [utracto]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [utracto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utracto-0.0.7.tar.gz tmp/utracto-0.0.8.tar.gz --markdown 20230510/u/utracto/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [geedim]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [geedim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geedim-1.7.0.tar.gz tmp/geedim-1.7.1.tar.gz --markdown 20230510/g/geedim/1.7.0-1.7.1/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytmatrix]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytmatrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytmatrix-0.3.2.tar.gz tmp/pytmatrix-0.3.3.tar.gz --markdown 20230510/p/pytmatrix/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytket-aqt]: executing diffoscope
+[2023-05-10 15:50:27] INFO root fetch - processPackages [pytket-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-aqt-0.7.0.tar.gz tmp/pytket-aqt-0.9.0.tar.gz --markdown 20230510/p/pytket-aqt/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:50:28] INFO root fetch - processPackages [flaks]: Start processing: rapids-singlecell
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 15:50:28] INFO root fetch - processPackages [rapids-singlecell]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-05-10 15:50:28] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/5b/6c/df619423088db7654507619e28c2d5d162ee7b9e1a707c2677e3e927f1bc/rapids_singlecell-0.6.1.tar.gz
+[2023-05-10 15:50:28] INFO root fetch - processPackages [rapids-singlecell]: Downloading https://files.pythonhosted.org/packages/4e/ec/28803a051050f5848130fe8a34812880f537e9177c18f5625d538b3caaa9/rapids_singlecell-0.6.2.tar.gz
+[2023-05-10 15:50:28] INFO root fetch - processPackages [tab-transformer-pytorch]: Start processing: psgspecialelements
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [tab-transformer-pytorch]: success
+[2023-05-10 15:50:28] INFO root fetch - processPackages [psgspecialelements]: New version: [1.0.2.4] Old Version: [1.0.2.3]
+[2023-05-10 15:50:28] INFO root fetch - processPackages [gen-pop-linkml2sheets]: Start processing: time-stamped-model
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [gen-pop-linkml2sheets]: success
+[2023-05-10 15:50:28] INFO root fetch - processPackages [time-stamped-model]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-05-10 15:50:28] INFO root fetch - processPackages [rapids-singlecell]: executing diffoscope
+[2023-05-10 15:50:28] INFO root fetch - processPackages [rapids-singlecell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapids_singlecell-0.6.1.tar.gz tmp/rapids_singlecell-0.6.2.tar.gz --markdown 20230510/r/rapids-singlecell/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-05-10 15:50:28] INFO root fetch - processPackages [utracto]: Start processing: iec870ree
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [utracto]: success
+[2023-05-10 15:50:28] INFO root fetch - processPackages [time-stamped-model]: Downloading https://files.pythonhosted.org/packages/98/78/bd365b2b6f5b41244c11bd61b2656ba2458e8c6ef95a8a06e227bd12b41e/time-stamped-model-0.2.3.tar.gz
+[2023-05-10 15:50:28] INFO root fetch - processPackages [iec870ree]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-05-10 15:50:28] INFO root fetch - processPackages [psgspecialelements]: Downloading https://files.pythonhosted.org/packages/df/58/9c31a82c8b924aa202d94d7084017cad86c45828bd16865249a264512eee/psgspecialelements-1.0.2.4.tar.gz
+[2023-05-10 15:50:28] INFO root fetch - processPackages [gce-rescue]: Start processing: garpix-notify
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [gce-rescue]: success
+[2023-05-10 15:50:28] INFO root fetch - processPackages [garpix-notify]: New version: [5.9.0] Old Version: [5.8.0]
+[2023-05-10 15:50:28] INFO root fetch - processPackages [NbRisk]: Start processing: fusionsc
+[2023-05-10 15:50:28] INFO root fetch - main [MainThread]: End processing [NbRisk]: success
+[2023-05-10 15:50:29] INFO root fetch - processPackages [fusionsc]: New version: [4.0.2] Old Version: [4.0.1]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [psgspecialelements]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [psgspecialelements]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psgspecialelements-1.0.2.3.tar.gz tmp/psgspecialelements-1.0.2.4.tar.gz --markdown 20230510/p/psgspecialelements/1.0.2.3-1.0.2.4/diff.md --exclude *.pyd
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytmatrix]: Start processing: pytestifyx
+[2023-05-10 15:50:29] INFO root fetch - main [MainThread]: End processing [pytmatrix]: success
+[2023-05-10 15:50:29] INFO root fetch - processPackages [iec870ree]: Downloading https://files.pythonhosted.org/packages/23/a3/7bbf958485ee5dda6fdfc5123fb77a024db8c157ce705a0ae0490e144ab5/iec870ree-0.9.1.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [fusionsc]: Downloading https://files.pythonhosted.org/packages/6b/4b/5708403096374ea86b1a65b7e3467aeb11a9f2219801f48aecf3a3c3905c/fusionsc-4.0.1.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [time-stamped-model]: Downloading https://files.pythonhosted.org/packages/1d/aa/cd398ee9e0574a3d7a22dc37b38981713deb6a08abf26beb8fb74c199aac/time-stamped-model-0.2.4.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [geedim]: Start processing: ccxt
+[2023-05-10 15:50:29] INFO root fetch - main [MainThread]: End processing [geedim]: success
+[2023-05-10 15:50:29] WARNING root fetch - processPackages [fusionsc]: Skipping package: exceeds size limit 16405718>=10485760
+[2023-05-10 15:50:29] INFO root fetch - processPackages [fusionsc]: Start processing: gtki-module-orup-errors
+[2023-05-10 15:50:29] INFO root fetch - main [MainThread]: End processing [fusionsc] error
+[2023-05-10 15:50:29] INFO root fetch - processPackages [garpix-notify]: Downloading https://files.pythonhosted.org/packages/43/36/8e7a8d57f1cdf542f29e7cb09c0ffdae69c8f73d8590f7bfe024a670d006/garpix_notify-5.8.0.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [django-postgres-extra]: Start processing: ephfile
+[2023-05-10 15:50:29] INFO root fetch - main [MainThread]: End processing [django-postgres-extra]: success
+[2023-05-10 15:50:29] INFO root fetch - processPackages [ephfile]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [gtki-module-orup-errors]: New version: [1.35.7] Old Version: [1.35.61]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [time-stamped-model]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [time-stamped-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time-stamped-model-0.2.3.tar.gz tmp/time-stamped-model-0.2.4.tar.gz --markdown 20230510/t/time-stamped-model/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytket-aqt]: Start processing: pytket-braket
+[2023-05-10 15:50:29] INFO root fetch - main [MainThread]: End processing [pytket-aqt]: success
+[2023-05-10 15:50:29] INFO root fetch - processPackages [ephfile]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [ephfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ephfile-0.0.6.tar.gz tmp/ephfile-0.0.7.tar.gz --markdown 20230510/e/ephfile/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-05-10 15:50:29] INFO root fetch - processPackages [ccxt]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/53/fa/f1e31a06edac10aec60aaf852c971b6007b39513c5bcffb098d48f1366f5/pytestifyx-0.3.0-py2.py3-none-any.whl
+[2023-05-10 15:50:29] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/7b/e6/09d24dfdc614a2b67a6ca3912916a0f62af93ee1a661bd3818d3c3b87683/gtki_module_orup_errors-1.35.61-py3-none-any.whl
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytket-braket]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-05-10 15:50:29] INFO root fetch - processPackages [iec870ree]: Downloading https://files.pythonhosted.org/packages/2a/db/01b2a98a4524c5bab06ab7198999d1218809d72e37579fba8333fdaecfe9/iec870ree-0.9.2.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytket-braket]: Downloading https://files.pythonhosted.org/packages/b7/7d/6ecf417f3b2327046b971bb1a737dd0699f54dba6706e0c02ebed794602d/pytket-braket-0.8.2.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [gtki-module-orup-errors]: Downloading https://files.pythonhosted.org/packages/c0/1a/8c0fbba7cf8105c74d6ef26bcceb8309c83d1e6d9f6d9fb603836986f35b/gtki_module_orup_errors-1.35.7-py3-none-any.whl
+[2023-05-10 15:50:29] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/89/5b/90a3ef98d8a4aa07396ff16a1a4e855dd5e3f01a4649b7bca3d97cc28519/ccxt-3.0.99.tar.gz
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/0d/4e/62e140498821ef3a5bc9351d2ec59dcbcab86c88c2179de9ace8ea467e2e/pytestifyx-0.4.0-py2.py3-none-any.whl
+[2023-05-10 15:50:29] INFO root fetch - processPackages [iec870ree]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [iec870ree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iec870ree-0.9.1.tar.gz tmp/iec870ree-0.9.2.tar.gz --markdown 20230510/i/iec870ree/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-05-10 15:50:29] INFO root fetch - processPackages [gtki-module-orup-errors]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [gtki-module-orup-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gtki_module_orup_errors-1.35.61-py3-none-any.whl.zip tmp/gtki_module_orup_errors-1.35.7-py3-none-any.whl.zip --markdown 20230510/g/gtki-module-orup-errors/1.35.61-1.35.7/diff.md --exclude *.pyd
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-10 15:50:29] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.3.0-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.0-py2.py3-none-any.whl.zip --markdown 20230510/p/pytestifyx/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 15:50:30] INFO root fetch - processPackages [pytket-braket]: Downloading https://files.pythonhosted.org/packages/a6/e6/a1533d71a507ffd5101072fbbddb4d1e96127f780102e7b53d76986471d5/pytket-braket-0.9.0.tar.gz
+[2023-05-10 15:50:30] INFO root fetch - processPackages [garpix-notify]: Downloading https://files.pythonhosted.org/packages/e5/8a/be1ecb878c769a8846e87311db2f37c8daa2147f7afa04871ff5007cc79c/garpix_notify-5.9.0.tar.gz
+[2023-05-10 15:50:30] INFO root fetch - processPackages [pytket-braket]: executing diffoscope
+[2023-05-10 15:50:30] INFO root fetch - processPackages [pytket-braket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-braket-0.8.2.tar.gz tmp/pytket-braket-0.9.0.tar.gz --markdown 20230510/p/pytket-braket/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:50:30] INFO root fetch - processPackages [garpix-notify]: executing diffoscope
+[2023-05-10 15:50:30] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-05-10 15:50:30] INFO root fetch - processPackages [garpix-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garpix_notify-5.8.0.tar.gz tmp/garpix_notify-5.9.0.tar.gz --markdown 20230510/g/garpix-notify/5.8.0-5.9.0/diff.md --exclude *.pyd
+[2023-05-10 15:50:30] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.0.98.tar.gz tmp/ccxt-3.0.99.tar.gz --markdown 20230510/c/ccxt/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-05-10 15:50:30] INFO root fetch - processPackages [rapids-singlecell]: Start processing: pdcom5
+[2023-05-10 15:50:30] INFO root fetch - main [MainThread]: End processing [rapids-singlecell]: success
+[2023-05-10 15:50:30] INFO root fetch - main [MainThread]: End processing [psgspecialelements]: success
+[2023-05-10 15:50:30] INFO root fetch - processPackages [pdcom5]: New version: [5.0.0b1] Old Version: [5.0.0a7]
+[2023-05-10 15:50:30] INFO root fetch - main [MainThread]: End processing [ephfile]: success
+[2023-05-10 15:50:30] INFO root fetch - main [MainThread]: End processing [time-stamped-model]: success
+[2023-05-10 15:50:30] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/5d/02/436294828ae0f605b8142088076dabb712a59025f32eb205a864e019993a/pdcom5-5.0.0a7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 15:50:31] INFO root fetch - processPackages [pdcom5]: Downloading https://files.pythonhosted.org/packages/5b/82/8878ca1b7d8561d49437b61b08e58091e31b086bdc9b47b5f4382b8011ec/pdcom5-5.0.0b1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-05-10 15:50:31] INFO root fetch - main [MainThread]: End processing [gtki-module-orup-errors]: success
+[2023-05-10 15:50:31] INFO root fetch - processPackages [pdcom5]: executing diffoscope
+[2023-05-10 15:50:31] INFO root fetch - processPackages [pdcom5]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdcom5-5.0.0a7-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/pdcom5-5.0.0b1-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230510/p/pdcom5/5.0.0a7-5.0.0b1/diff.md --exclude *.pyd
+[2023-05-10 15:50:31] INFO root fetch - main [MainThread]: End processing [iec870ree]: success
+[2023-05-10 15:50:31] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-10 15:50:31] INFO root fetch - main [MainThread]: End processing [pytket-braket]: success
+[2023-05-10 15:50:32] INFO root fetch - main [MainThread]: End processing [garpix-notify]: success
+[2023-05-10 15:50:39] INFO root fetch - main [MainThread]: End processing [pdcom5]: success
+[2023-05-10 15:50:40] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-05-10 15:50:40] INFO root fetch - main [MainThread]: Store serial: [18048040]
