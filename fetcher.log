@@ -7108,3 +7108,82 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:16:52] INFO root fetch - main [MainThread]: End processing [tfsim-nightly]: success
 [2023-05-10 05:16:54] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-spotinst]: success
 [2023-05-10 05:16:54] INFO root fetch - main [MainThread]: Store serial: [18041818]
+[2023-05-10 05:21:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041818]
+[2023-05-10 05:22:03] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wcferry
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-bunny
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oxalis
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastimgconcat
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo9-addon-account-move-base-import
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easy-gpt-utils
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: csv-to-dynamodb
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: forevd
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hexwatershed
+[2023-05-10 05:22:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-10 05:22:03] WARNING root fetch - processPackages [fastimgconcat]: Skipping, unable to determine old version
+[2023-05-10 05:22:03] INFO root fetch - processPackages [fastimgconcat]: Start processing: eia-odin-pkg-rioatmadja2018
+[2023-05-10 05:22:03] INFO root fetch - main [MainThread]: End processing [fastimgconcat] error
+[2023-05-10 05:22:04] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: New version: [9.0.1.0.0.99.dev97] Old Version: [9.0.1.0.0.99.dev95]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [wcferry]: New version: [37.1.25.1] Old Version: [37.1.25.0]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [oxalis]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [easy-gpt-utils]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [forevd]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683688826] Old Version: [0.1.1683688818]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [django-bunny]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: New version: [0.1.1683688826] Old Version: [0.1.1683688818]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [hexwatershed]: New version: [0.2.6] Old Version: [0.2.4]
+[2023-05-10 05:22:04] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/6a/a9/67ca5e88b458a345e965ee9752b968dbef16d7791e1c4119437fdd9095ff/eia-odin-pkg-rioatmadja2018-0.1.1683688818.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/6a/a9/67ca5e88b458a345e965ee9752b968dbef16d7791e1c4119437fdd9095ff/eia-odin-pkg-rioatmadja2018-0.1.1683688818.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [oxalis]: Downloading https://files.pythonhosted.org/packages/93/ac/0914dc019eb4dd9f64ce616e4f3efe125e5988cf9d211d98656eca585db1/oxalis-0.5.9.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/cc/00/ae94ca88a905b9a32a69998f3771090060c5ef860f64d61b43294f001f31/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev95-py2-none-any.whl
+[2023-05-10 05:22:04] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/e7/53/1393ca7eaca9790440cea059a05b2a0e3bf19e393413183e7e6ef12b6e1e/forevd-0.1.0.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [hexwatershed]: Downloading https://files.pythonhosted.org/packages/42/2f/195ceac50515845a4d471881c7618b74f1d2e3aef3ed03855b7c866eda89/hexwatershed-0.2.6.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [easy-gpt-utils]: Downloading https://files.pythonhosted.org/packages/0a/c0/ce03e3885d6af171e94efbb2fe61e108956548dad163a1a9c6b97c97aa8e/easy_gpt_utils-0.1.6.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [easy-gpt-utils]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [easy-gpt-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_gpt_utils-0.1.5.tar.gz tmp/easy_gpt_utils-0.1.6.tar.gz --markdown 20230510/e/easy-gpt-utils/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [hexwatershed]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [hexwatershed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hexwatershed-0.2.4-py2.py3-none-any.whl.zip tmp/hexwatershed-0.2.6.tar.gz --markdown 20230510/h/hexwatershed/0.2.4-0.2.6/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [django-bunny]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [django-bunny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bunny-1.0.8.tar.gz tmp/django-bunny-1.0.9.tar.gz --markdown 20230510/d/django-bunny/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [wcferry]: Downloading https://files.pythonhosted.org/packages/35/62/4c1c953f806a2b071a8f6feacbcaa39710fd4311e396ca42500c59023f11/wcferry-37.1.25.1.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [oxalis]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [oxalis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxalis-0.5.8.tar.gz tmp/oxalis-0.5.9.tar.gz --markdown 20230510/o/oxalis/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [forevd]: Downloading https://files.pythonhosted.org/packages/49/27/16328c22dd6305f57fcd4ae4468a7c897b21ab4e1a105a77e419887512b8/forevd-0.1.1.tar.gz
+[2023-05-10 05:22:04] INFO root fetch - processPackages [wcferry]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [wcferry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wcferry-37.1.25.0.tar.gz tmp/wcferry-37.1.25.1.tar.gz --markdown 20230510/w/wcferry/37.1.25.0-37.1.25.1/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/4e/25/164d559f5ddc41961e0177dca23a3109fe7cba25f83bc76a0eb3775c6e2b/eia_odin_pkg_rioatmadja2018-0.1.1683688826-py3-none-any.whl
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: Downloading https://files.pythonhosted.org/packages/4e/25/164d559f5ddc41961e0177dca23a3109fe7cba25f83bc76a0eb3775c6e2b/eia_odin_pkg_rioatmadja2018-0.1.1683688826-py3-none-any.whl
+[2023-05-10 05:22:04] INFO root fetch - processPackages [forevd]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [forevd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forevd-0.1.0.tar.gz tmp/forevd-0.1.1.tar.gz --markdown 20230510/f/forevd/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683688818.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683688826-py3-none-any.whl.zip --markdown 20230510/e/eia-odin-pkg-rioatmadja2018/0.1.1683688818-0.1.1683688826/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: executing diffoscope
+[2023-05-10 05:22:04] INFO root fetch - processPackages [eia-odin-pkg-rioatmadja2018]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eia-odin-pkg-rioatmadja2018-0.1.1683688818.tar.gz tmp/eia_odin_pkg_rioatmadja2018-0.1.1683688826-py3-none-any.whl.zip --markdown 20230510/e/eia-odin-pkg-rioatmadja2018/0.1.1683688818-0.1.1683688826/diff.md --exclude *.pyd
+[2023-05-10 05:22:04] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: Downloading https://files.pythonhosted.org/packages/80/31/3bbf7d9e33a0c87d27b3a4c5647a81a8c54ededb38cf65842cb8f0f136fb/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev97-py2-none-any.whl
+[2023-05-10 05:22:05] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: executing diffoscope
+[2023-05-10 05:22:05] INFO root fetch - processPackages [odoo9-addon-account-move-base-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev95-py2-none-any.whl.zip tmp/odoo9_addon_account_move_base_import-9.0.1.0.0.99.dev97-py2-none-any.whl.zip --markdown 20230510/o/odoo9-addon-account-move-base-import/9.0.1.0.0.99.dev95-9.0.1.0.0.99.dev97/diff.md --exclude *.pyd
+[2023-05-10 05:22:05] INFO root fetch - processPackages [csv-to-dynamodb]: Start processing: csv-to-dynamodb
+[2023-05-10 05:22:05] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:22:05] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:22:05] INFO root fetch - processPackages [django-bunny]: Start processing: fyers-token-manager
+[2023-05-10 05:22:05] INFO root fetch - main [MainThread]: End processing [django-bunny]: success
+[2023-05-10 05:22:05] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:22:05] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:22:05] INFO root fetch - processPackages [fyers-token-manager]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-05-10 05:22:05] INFO root fetch - main [MainThread]: End processing [easy-gpt-utils]: success
+[2023-05-10 05:22:05] INFO root fetch - main [MainThread]: End processing [hexwatershed]: success
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [forevd]: success
+[2023-05-10 05:22:06] INFO root fetch - processPackages [fyers-token-manager]: Downloading https://files.pythonhosted.org/packages/81/80/78fedba99b71af6298150cb18de83ec7ea43f2c4385315e74db6d4319994/fyers-token-manager-0.0.5.tar.gz
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [oxalis]: success
+[2023-05-10 05:22:06] INFO root fetch - processPackages [fyers-token-manager]: executing diffoscope
+[2023-05-10 05:22:06] INFO root fetch - processPackages [fyers-token-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers-token-manager-0.0.4.tar.gz tmp/fyers-token-manager-0.0.5.tar.gz --markdown 20230510/f/fyers-token-manager/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [eia-odin-pkg-rioatmadja2018]: success
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:22:06] INFO root fetch - main [MainThread]: End processing [odoo9-addon-account-move-base-import]: success
+[2023-05-10 05:22:07] INFO root fetch - main [MainThread]: End processing [wcferry]: success
+[2023-05-10 05:22:07] INFO root fetch - main [MainThread]: End processing [fyers-token-manager]: success
+[2023-05-10 05:22:07] INFO root fetch - main [MainThread]: Store serial: [18041858]
