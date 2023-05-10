@@ -21354,3 +21354,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 18:34:29] INFO root fetch - main [MainThread]: End processing [berkeleydb]: success
 [2023-05-10 18:34:37] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-05-10 18:34:37] INFO root fetch - main [MainThread]: Store serial: [18049992]
+[2023-05-10 18:39:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18049992]
+[2023-05-10 18:39:48] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: volttron-platform-driver
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vmas
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vk-url-scraper
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: renoir
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hakai-api
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: imagebind
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wagtail-block-model-field
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cliconfig
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: coordinate-descent-attention
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ix-aims
+[2023-05-10 18:39:48] INFO root fetch - processPackages [cliconfig]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ix-aims]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-05-10 18:39:48] WARNING root fetch - processPackages [imagebind]: Skipping, unable to determine old version
+[2023-05-10 18:39:48] INFO root fetch - processPackages [imagebind]: Start processing: datamodel-code-generator
+[2023-05-10 18:39:48] INFO root fetch - processPackages [vk-url-scraper]: New version: [0.3.8] Old Version: [0.3.5]
+[2023-05-10 18:39:48] INFO root fetch - main [MainThread]: End processing [imagebind] error
+[2023-05-10 18:39:48] INFO root fetch - processPackages [cliconfig]: executing diffoscope
+[2023-05-10 18:39:48] WARNING root fetch - processPackages [wagtail-block-model-field]: Skipping, unable to determine old version
+[2023-05-10 18:39:48] INFO root fetch - processPackages [coordinate-descent-attention]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [vmas]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [cliconfig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cliconfig-0.3.0.tar.gz tmp/cliconfig-0.4.0.tar.gz --markdown 20230510/c/cliconfig/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 18:39:48] INFO root fetch - processPackages [wagtail-block-model-field]: Start processing: volttron-platform-driver
+[2023-05-10 18:39:48] INFO root fetch - main [MainThread]: End processing [wagtail-block-model-field] error
+[2023-05-10 18:39:48] INFO root fetch - processPackages [hakai-api]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [renoir]: New version: [1.6.1] Old Version: [1.6.0]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ix-aims]: executing diffoscope
+[2023-05-10 18:39:48] INFO root fetch - processPackages [ix-aims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ix_aims-0.1.5.tar.gz tmp/ix_aims-0.1.6.tar.gz --markdown 20230510/i/ix-aims/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: New version: [0.2.0rc3] Old Version: [0.2.0rc2]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: Downloading https://files.pythonhosted.org/packages/ea/3b/207f22dc3db9a75a27ee82324d1b072b53b7fe0805efe86f22b6afaa4b84/volttron_platform_driver-0.2.0rc2.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: Downloading https://files.pythonhosted.org/packages/ea/3b/207f22dc3db9a75a27ee82324d1b072b53b7fe0805efe86f22b6afaa4b84/volttron_platform_driver-0.2.0rc2.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [datamodel-code-generator]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-05-10 18:39:48] INFO root fetch - processPackages [renoir]: Downloading https://files.pythonhosted.org/packages/bc/9c/5b353ba9e304da798f8eb436e3cefb0e02bde45ef1185a28d77aeb00b753/renoir-1.6.0.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [vk-url-scraper]: Downloading https://files.pythonhosted.org/packages/ee/0a/37dc9d933ef229bfc18466d13712ec0f7613a18798c428d02b5d9eeb4a51/vk-url-scraper-0.3.5.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/06/08/2053f2d321ff86747aeba1ffdd1eedd519a900ef5579af4c341f1af1c063/coordinate-descent-attention-0.0.8.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [hakai-api]: Downloading https://files.pythonhosted.org/packages/a8/42/c80321bc7149bcfe102b80cfed2c25d8d394a61f943d62eb501cf17c70a5/hakai_api-1.4.0.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [vmas]: Downloading https://files.pythonhosted.org/packages/f4/72/82f524b537de832f863cd15b0a37ba3699626ca0245133a5e722499c5e6c/vmas-1.2.8.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4a/d9/15bc464ce307254a4d330683427526d5e0601c774b66371809d42cc26da1/datamodel-code-generator-0.9.3.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: Downloading https://files.pythonhosted.org/packages/31/32/38f1f68c731f93cfb99c1402cc2aafd4596dbea6e4034855441f6751b097/volttron_platform_driver-0.2.0rc3.tar.gz
+[2023-05-10 18:39:48] INFO root fetch - processPackages [volttron-platform-driver]: Downloading https://files.pythonhosted.org/packages/31/32/38f1f68c731f93cfb99c1402cc2aafd4596dbea6e4034855441f6751b097/volttron_platform_driver-0.2.0rc3.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [renoir]: Downloading https://files.pythonhosted.org/packages/0f/c0/eef3faf228ec0fbc2a93cb5385fc72c57d3711bc10cada28c208b29349f6/renoir-1.6.1.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [coordinate-descent-attention]: Downloading https://files.pythonhosted.org/packages/d8/95/3e9b60b4c326ec76e9d06080630c88f08397383a3427a90edf8c95eb121d/coordinate-descent-attention-0.0.9.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [volttron-platform-driver]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [volttron-platform-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_platform_driver-0.2.0rc2.tar.gz tmp/volttron_platform_driver-0.2.0rc3.tar.gz --markdown 20230510/v/volttron-platform-driver/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vk-url-scraper]: Downloading https://files.pythonhosted.org/packages/c7/03/93028df74b7356e8360953d813726e293bb010367d96f59f02fbb39c4b33/vk-url-scraper-0.3.8.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [hakai-api]: Downloading https://files.pythonhosted.org/packages/e6/c3/633a89c995fed1517ce99bc1d7fccf38ec17e86f136a9377bf5bc06290bb/hakai_api-1.4.1.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [volttron-platform-driver]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [volttron-platform-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volttron_platform_driver-0.2.0rc2.tar.gz tmp/volttron_platform_driver-0.2.0rc3.tar.gz --markdown 20230510/v/volttron-platform-driver/0.2.0rc2-0.2.0rc3/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [coordinate-descent-attention]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [coordinate-descent-attention]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coordinate-descent-attention-0.0.8.tar.gz tmp/coordinate-descent-attention-0.0.9.tar.gz --markdown 20230510/c/coordinate-descent-attention/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [datamodel-code-generator]: Downloading https://files.pythonhosted.org/packages/4b/a5/18901fbbea50ced634d0cd3b2a12aac3d0a1dbd732418657fc54983b6e59/datamodel-code-generator-0.9.4.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vmas]: Downloading https://files.pythonhosted.org/packages/03/5a/3c0dc85ffedabc7b752f0e4d56bff8cd17c393e69ce15d4c5372832ff65f/vmas-1.2.9.tar.gz
+[2023-05-10 18:39:49] INFO root fetch - processPackages [renoir]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [renoir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renoir-1.6.0.tar.gz tmp/renoir-1.6.1.tar.gz --markdown 20230510/r/renoir/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [hakai-api]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [hakai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hakai_api-1.4.0.tar.gz tmp/hakai_api-1.4.1.tar.gz --markdown 20230510/h/hakai-api/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vmas]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmas-1.2.8.tar.gz tmp/vmas-1.2.9.tar.gz --markdown 20230510/v/vmas/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vk-url-scraper]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [vk-url-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vk-url-scraper-0.3.5.tar.gz tmp/vk-url-scraper-0.3.8.tar.gz --markdown 20230510/v/vk-url-scraper/0.3.5-0.3.8/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [datamodel-code-generator]: executing diffoscope
+[2023-05-10 18:39:49] INFO root fetch - processPackages [datamodel-code-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datamodel-code-generator-0.9.3.tar.gz tmp/datamodel-code-generator-0.9.4.tar.gz --markdown 20230510/d/datamodel-code-generator/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-05-10 18:39:49] INFO root fetch - processPackages [ix-aims]: Start processing: internimage
+[2023-05-10 18:39:49] INFO root fetch - main [MainThread]: End processing [ix-aims]: success
+[2023-05-10 18:39:49] WARNING root fetch - processPackages [internimage]: Skipping, unable to determine old version
+[2023-05-10 18:39:49] INFO root fetch - processPackages [internimage]: Start processing: uidom
+[2023-05-10 18:39:49] INFO root fetch - main [MainThread]: End processing [internimage] error
+[2023-05-10 18:39:49] INFO root fetch - processPackages [uidom]: New version: [0.2a1] Old Version: [0.2a0]
+[2023-05-10 18:39:50] INFO root fetch - processPackages [uidom]: Downloading https://files.pythonhosted.org/packages/f3/8a/70b83b25114435288948c9487b0b29d45e05150b867054446f3a5da8b29d/uidom-0.2a1.tar.gz
+[2023-05-10 18:39:50] INFO root fetch - processPackages [uidom]: executing diffoscope
+[2023-05-10 18:39:50] INFO root fetch - processPackages [uidom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uidom-0.2a0.tar.gz tmp/uidom-0.2a1.tar.gz --markdown 20230510/u/uidom/0.2a0-0.2a1/diff.md --exclude *.pyd
+[2023-05-10 18:39:50] INFO root fetch - processPackages [volttron-platform-driver]: Start processing: napari-clemreg
+[2023-05-10 18:39:50] INFO root fetch - main [MainThread]: End processing [volttron-platform-driver]: success
+[2023-05-10 18:39:50] INFO root fetch - processPackages [napari-clemreg]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2023-05-10 18:39:50] INFO root fetch - main [MainThread]: End processing [volttron-platform-driver]: success
+[2023-05-10 18:39:50] INFO root fetch - processPackages [napari-clemreg]: Downloading https://files.pythonhosted.org/packages/a3/99/68691779b92c8b3ea02235d6a0bae6784737bc09100558cb4b0a53f65dac/napari-clemreg-0.0.1a3.tar.gz
+[2023-05-10 18:39:50] INFO root fetch - main [MainThread]: End processing [coordinate-descent-attention]: success
+[2023-05-10 18:39:50] INFO root fetch - main [MainThread]: End processing [cliconfig]: success
+[2023-05-10 18:39:50] INFO root fetch - main [MainThread]: End processing [vk-url-scraper]: success
+[2023-05-10 18:39:51] INFO root fetch - main [MainThread]: End processing [hakai-api]: success
+[2023-05-10 18:39:51] INFO root fetch - processPackages [napari-clemreg]: Downloading https://files.pythonhosted.org/packages/9c/cd/69c560e6971ccba9a658369c40f44d9001fb188459113c9a3be77c6c4aef/napari-clemreg-0.0.1a4.tar.gz
+[2023-05-10 18:39:51] INFO root fetch - main [MainThread]: End processing [vmas]: success
+[2023-05-10 18:39:51] INFO root fetch - processPackages [napari-clemreg]: executing diffoscope
+[2023-05-10 18:39:51] INFO root fetch - processPackages [napari-clemreg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-clemreg-0.0.1a3.tar.gz tmp/napari-clemreg-0.0.1a4.tar.gz --markdown 20230510/n/napari-clemreg/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2023-05-10 18:39:51] INFO root fetch - main [MainThread]: End processing [renoir]: success
+[2023-05-10 18:39:52] INFO root fetch - main [MainThread]: End processing [napari-clemreg]: success
+[2023-05-10 18:39:52] INFO root fetch - main [MainThread]: End processing [uidom]: success
+[2023-05-10 18:39:55] INFO root fetch - main [MainThread]: End processing [datamodel-code-generator]: success
+[2023-05-10 18:39:55] INFO root fetch - main [MainThread]: Store serial: [18050067]
