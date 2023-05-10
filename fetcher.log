@@ -21786,3 +21786,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 19:02:27] INFO root fetch - main [MainThread]: End processing [pi-heif]: success
 [2023-05-10 19:02:28] INFO root fetch - main [MainThread]: End processing [pillow-heif]: success
 [2023-05-10 19:02:28] INFO root fetch - main [MainThread]: Store serial: [18050348]
+[2023-05-10 19:07:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18050348]
+[2023-05-10 19:07:38] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PythonCoordinates
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PythonCoordinates
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: griffe
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mlfoundry
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-aarch64
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bdating-common
+[2023-05-10 19:07:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-stpt
+[2023-05-10 19:07:38] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [napari-stpt]: New version: [0.1.0.0] Old Version: [0.0.9.9]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230510/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [griffe]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [napari-stpt]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [napari-stpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-stpt-0.0.9.9.tar.gz tmp/napari-stpt-0.1.0.0.tar.gz --markdown 20230510/n/napari-stpt/0.0.9.9-0.1.0.0/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230510/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [mlfoundry]: New version: [0.8.0rc1] Old Version: [0.7.9]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [tensorflow-aarch64]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: Downloading https://files.pythonhosted.org/packages/47/f1/de935daefff15eb21d88435a3b6559a80afda6bbdc4667dd7534f99236ca/PythonCoordinates-0.5.7.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: Downloading https://files.pythonhosted.org/packages/47/f1/de935daefff15eb21d88435a3b6559a80afda6bbdc4667dd7534f99236ca/PythonCoordinates-0.5.7.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/32/dd/bc07e7e6b53772e9c44c34a18ca7e4ceb99b58bfb2c2f72f7913e3f0d303/griffe-0.8.0.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [tensorflow-aarch64]: Downloading https://files.pythonhosted.org/packages/ba/06/457adfba44d487f3e1b7711265d4375cf63f91d726fa8789041d48b1e7e3/tensorflow_aarch64-2.9.2-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-05-10 19:07:38] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/d6/c0/820db6ef0c2c5f1920b7c3a6301dd5dd08276f740ae2ac806584c0c4a36f/mlfoundry-0.7.9.tar.gz
+[2023-05-10 19:07:38] WARNING root fetch - processPackages [tensorflow-aarch64]: Skipping package: exceeds size limit 192526126>=10485760
+[2023-05-10 19:07:38] INFO root fetch - main [MainThread]: End processing [tensorflow-aarch64] error
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: Downloading https://files.pythonhosted.org/packages/fb/d2/7eee2b0fbfbba81d98e8a710c1eb8e3c177092fd93d30d3aa505e9813c32/PythonCoordinates-0.5.8.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: Downloading https://files.pythonhosted.org/packages/fb/d2/7eee2b0fbfbba81d98e8a710c1eb8e3c177092fd93d30d3aa505e9813c32/PythonCoordinates-0.5.8.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [griffe]: Downloading https://files.pythonhosted.org/packages/97/67/6905162d0aeccc0a65143c6fda9d6510d04561725f6df7df71457a053c3d/griffe-0.9.0.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [mlfoundry]: Downloading https://files.pythonhosted.org/packages/a3/86/f384598f0187c75c42181a27a759a4f73a0442e7a4bef47f27c9c45bd6df/mlfoundry-0.8.0rc1.tar.gz
+[2023-05-10 19:07:38] INFO root fetch - processPackages [mlfoundry]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [mlfoundry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlfoundry-0.7.9.tar.gz tmp/mlfoundry-0.8.0rc1.tar.gz --markdown 20230510/m/mlfoundry/0.7.9-0.8.0rc1/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [griffe]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [griffe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/griffe-0.8.0.tar.gz tmp/griffe-0.9.0.tar.gz --markdown 20230510/g/griffe/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonCoordinates-0.5.7.tar.gz tmp/PythonCoordinates-0.5.8.tar.gz --markdown 20230510/P/PythonCoordinates/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: executing diffoscope
+[2023-05-10 19:07:38] INFO root fetch - processPackages [PythonCoordinates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PythonCoordinates-0.5.7.tar.gz tmp/PythonCoordinates-0.5.8.tar.gz --markdown 20230510/P/PythonCoordinates/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2023-05-10 19:07:39] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-05-10 19:07:39] INFO root fetch - main [MainThread]: End processing [napari-stpt]: success
+[2023-05-10 19:07:39] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-05-10 19:07:40] INFO root fetch - main [MainThread]: End processing [PythonCoordinates]: success
+[2023-05-10 19:07:40] INFO root fetch - main [MainThread]: End processing [griffe]: success
+[2023-05-10 19:07:40] INFO root fetch - main [MainThread]: End processing [PythonCoordinates]: success
+[2023-05-10 19:08:12] INFO root fetch - main [MainThread]: End processing [mlfoundry]: success
+[2023-05-10 19:08:12] INFO root fetch - main [MainThread]: Store serial: [18050404]
