@@ -18512,3 +18512,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 16:12:47] INFO root fetch - main [MainThread]: End processing [codeoffer]: success
 [2023-05-10 16:12:54] INFO root fetch - main [MainThread]: End processing [blosc2]: success
 [2023-05-10 16:12:54] INFO root fetch - main [MainThread]: Store serial: [18048294]
+[2023-05-10 16:17:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048294]
+[2023-05-10 16:18:04] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locnus
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-partner-company-group
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flaks
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-niv-fix-check-results
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sequence-modelling
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pythonarg
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jsonigigovno
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pywnp
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tomni
+[2023-05-10 16:18:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qsolve
+[2023-05-10 16:18:04] INFO root fetch - processPackages [flaks]: New version: [1.0] Old Version: [0.9]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [sequence-modelling]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: New version: [20230510.9.38.587190] Old Version: [20230510.9.27.733025]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [qsolve]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Downloading https://files.pythonhosted.org/packages/2f/88/dd2001f9d5a88d8fe95f88aafc426165de36b07f51904361f2e938818f9f/certora-cli-alpha-niv-fix_check_results-20230510.9.27.733025.tar.gz
+[2023-05-10 16:18:04] INFO root fetch - processPackages [sequence-modelling]: executing diffoscope
+[2023-05-10 16:18:04] INFO root fetch - processPackages [sequence-modelling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequence_modelling-0.1.0.tar.gz tmp/sequence_modelling-0.1.1.tar.gz --markdown 20230510/s/sequence-modelling/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 16:18:04] INFO root fetch - processPackages [flaks]: executing diffoscope
+[2023-05-10 16:18:04] INFO root fetch - processPackages [flaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flaks-0.9.tar.gz tmp/flaks-1.0.tar.gz --markdown 20230510/f/flaks/0.9-1.0/diff.md --exclude *.pyd
+[2023-05-10 16:18:04] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: New version: [16.0.1.0.0.3] Old Version: [15.0.1.1.0.7]
+[2023-05-10 16:18:04] WARNING root fetch - processPackages [pythonarg]: Skipping, unable to determine old version
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pythonarg]: Start processing: pipetool
+[2023-05-10 16:18:04] INFO root fetch - main [MainThread]: End processing [pythonarg] error
+[2023-05-10 16:18:04] INFO root fetch - processPackages [qsolve]: executing diffoscope
+[2023-05-10 16:18:04] WARNING root fetch - processPackages [locnus]: Skipping, unable to determine old version
+[2023-05-10 16:18:04] INFO root fetch - processPackages [qsolve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsolve-0.2.7.tar.gz tmp/qsolve-0.2.8.tar.gz --markdown 20230510/q/qsolve/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-05-10 16:18:04] WARNING root fetch - processPackages [jsonigigovno]: Skipping, unable to determine old version
+[2023-05-10 16:18:04] INFO root fetch - processPackages [locnus]: Start processing: text2story
+[2023-05-10 16:18:04] INFO root fetch - main [MainThread]: End processing [locnus] error
+[2023-05-10 16:18:04] INFO root fetch - processPackages [jsonigigovno]: Start processing: braincube-aws-core-alpha
+[2023-05-10 16:18:04] INFO root fetch - main [MainThread]: End processing [jsonigigovno] error
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pywnp]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-10 16:18:04] WARNING root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Skipping package: exceeds size limit 39213798>=10485760
+[2023-05-10 16:18:04] INFO root fetch - processPackages [certora-cli-alpha-niv-fix-check-results]: Start processing: lixinger
+[2023-05-10 16:18:04] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-niv-fix-check-results] error
+[2023-05-10 16:18:04] INFO root fetch - processPackages [tomni]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [braincube-aws-core-alpha]: New version: [0.0.24] Old Version: [0.0.23]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pipetool]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [lixinger]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Downloading https://files.pythonhosted.org/packages/33/4c/20904a623b7349320fa41486efe66fd8ab61607d75d5bc05c60c66aadd23/odoo_addon_base_partner_company_group-15.0.1.1.0.7-py3-none-any.whl
+[2023-05-10 16:18:04] INFO root fetch - processPackages [text2story]: New version: [1.1.9] Old Version: [1.1.28]
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pywnp]: Downloading https://files.pythonhosted.org/packages/8e/fc/56dd50985f7d7d98081478409811e65498779e9277ea297f2765f2233667/pywnp-2.0.1.tar.gz
+[2023-05-10 16:18:04] INFO root fetch - processPackages [braincube-aws-core-alpha]: Downloading https://files.pythonhosted.org/packages/ed/99/c2783cdc26530cd52ddd876e10d67b3fc7790b08d52b267a94c8dbb74fe9/braincube-aws-core-alpha-0.0.24.tar.gz
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pywnp]: executing diffoscope
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pywnp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywnp-2.0.0.tar.gz tmp/pywnp-2.0.1.tar.gz --markdown 20230510/p/pywnp/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 16:18:04] INFO root fetch - processPackages [pipetool]: Downloading https://files.pythonhosted.org/packages/1a/31/c0e0f601121e462874e5636b648f4c0d9627d0d355de74383e208c3cc8a8/pipetool-0.0.8.tar.gz
+[2023-05-10 16:18:05] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/99/2d/aa3fb10164196ebd52f1e00ac8e0b0f89e65f8963837280cd27c79ca9782/text2story-1.1.28.tar.gz
+[2023-05-10 16:18:05] INFO root fetch - processPackages [lixinger]: Downloading https://files.pythonhosted.org/packages/5c/cb/1a54c0e0facd26267b30fd4f3514a42d86a967808a07e8eeca36fcf5d8ac/lixinger-0.1.7.tar.gz
+[2023-05-10 16:18:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [braincube-aws-core-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/braincube-aws-core-alpha-0.0.23.tar.gz tmp/braincube-aws-core-alpha-0.0.24.tar.gz --markdown 20230510/b/braincube-aws-core-alpha/0.0.23-0.0.24/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [tomni]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [tomni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomni-1.9.1.tar.gz tmp/tomni-1.9.2.tar.gz --markdown 20230510/t/tomni/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [lixinger]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [lixinger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lixinger-0.1.6.tar.gz tmp/lixinger-0.1.7.tar.gz --markdown 20230510/l/lixinger/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: Downloading https://files.pythonhosted.org/packages/be/bb/46e7dc97013836567efb998d5a18e979f4b164e4a79895e78be4a7a55516/odoo_addon_base_partner_company_group-16.0.1.0.0.3-py3-none-any.whl
+[2023-05-10 16:18:05] INFO root fetch - processPackages [text2story]: Downloading https://files.pythonhosted.org/packages/58/a7/054e0d08d0751397d5c05350fef6a3d0820eb08f5905d98132cd6acbe59d/text2story-1.1.9.tar.gz
+[2023-05-10 16:18:05] INFO root fetch - processPackages [pipetool]: Downloading https://files.pythonhosted.org/packages/c5/c5/7330ac10e8b24d3f19719691e4203092acc34ce5f8eaca75a0642df18cff/pipetool-0.0.9.tar.gz
+[2023-05-10 16:18:05] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [odoo-addon-base-partner-company-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_partner_company_group-15.0.1.1.0.7-py3-none-any.whl.zip tmp/odoo_addon_base_partner_company_group-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-base-partner-company-group/15.0.1.1.0.7-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [pipetool]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [pipetool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipetool-0.0.8.tar.gz tmp/pipetool-0.0.9.tar.gz --markdown 20230510/p/pipetool/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [text2story]: executing diffoscope
+[2023-05-10 16:18:05] INFO root fetch - processPackages [text2story]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text2story-1.1.28.tar.gz tmp/text2story-1.1.9.tar.gz --markdown 20230510/t/text2story/1.1.28-1.1.9/diff.md --exclude *.pyd
+[2023-05-10 16:18:05] INFO root fetch - processPackages [flaks]: Start processing: pytestifyx
+[2023-05-10 16:18:05] INFO root fetch - main [MainThread]: End processing [flaks]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pytestifyx]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-05-10 16:18:06] INFO root fetch - processPackages [sequence-modelling]: Start processing: pycognaize
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [sequence-modelling]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pytestifyx]: Downloading https://files.pythonhosted.org/packages/60/c4/4ddda7ffe6717d7a2666e93bfb4dc79eadf19d5d44583d9a341a024ce17d/pytestifyx-0.4.3-py2.py3-none-any.whl
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pycognaize]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pywnp]: Start processing: databricks-connect
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [pywnp]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pytestifyx]: executing diffoscope
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pytestifyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytestifyx-0.4.2-py2.py3-none-any.whl.zip tmp/pytestifyx-0.4.3-py2.py3-none-any.whl.zip --markdown 20230510/p/pytestifyx/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-05-10 16:18:06] INFO root fetch - processPackages [qsolve]: Start processing: foscat
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [qsolve]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [databricks-connect]: New version: [9.1.38] Old Version: [9.1.37]
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/da/4f/7c89d06d44f9f2d0d9c0221b107d31f7aea70cc37d309b20ede459673a6a/pycognaize-1.3.8.tar.gz
+[2023-05-10 16:18:06] INFO root fetch - processPackages [foscat]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-05-10 16:18:06] INFO root fetch - processPackages [databricks-connect]: Downloading https://files.pythonhosted.org/packages/2f/b1/a45dbd780c81150661bc2d5d330179fc20e5d983a487c0c346cb310899b1/databricks-connect-9.1.37.tar.gz
+[2023-05-10 16:18:06] WARNING root fetch - processPackages [databricks-connect]: Skipping package: exceeds size limit 257171613>=10485760
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [databricks-connect] error
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-partner-company-group]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pycognaize]: Downloading https://files.pythonhosted.org/packages/39/c6/575c1b460acfb68c92a3c38fa0258ea202eeec58600589362f7296032e62/pycognaize-1.3.9.tar.gz
+[2023-05-10 16:18:06] INFO root fetch - main [MainThread]: End processing [braincube-aws-core-alpha]: success
+[2023-05-10 16:18:06] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/00/ee/9d1ccf428ed2bf4386ff91b9bfd5a5031fc3d4243cb699bc27e67b8b23e4/foscat-2.0.0.tar.gz
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pycognaize]: executing diffoscope
+[2023-05-10 16:18:06] INFO root fetch - processPackages [pycognaize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycognaize-1.3.8.tar.gz tmp/pycognaize-1.3.9.tar.gz --markdown 20230510/p/pycognaize/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-05-10 16:18:07] INFO root fetch - main [MainThread]: End processing [lixinger]: success
+[2023-05-10 16:18:07] INFO root fetch - processPackages [foscat]: Downloading https://files.pythonhosted.org/packages/e7/17/d3aebd40f45ee2ef94f152fb449ce70909b6688aa91722f7aa995cd11f1d/foscat-2.0.1.tar.gz
+[2023-05-10 16:18:07] INFO root fetch - processPackages [foscat]: executing diffoscope
+[2023-05-10 16:18:07] INFO root fetch - processPackages [foscat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foscat-2.0.0.tar.gz tmp/foscat-2.0.1.tar.gz --markdown 20230510/f/foscat/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-05-10 16:18:07] INFO root fetch - main [MainThread]: End processing [pytestifyx]: success
+[2023-05-10 16:18:07] INFO root fetch - main [MainThread]: End processing [pipetool]: success
+[2023-05-10 16:18:08] INFO root fetch - main [MainThread]: End processing [pycognaize]: success
+[2023-05-10 16:18:08] INFO root fetch - main [MainThread]: End processing [foscat]: success
+[2023-05-10 16:18:08] INFO root fetch - main [MainThread]: End processing [tomni]: success
+[2023-05-10 16:18:09] INFO root fetch - main [MainThread]: End processing [text2story]: success
+[2023-05-10 16:18:09] INFO root fetch - main [MainThread]: Store serial: [18048347]
