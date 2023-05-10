@@ -7260,3 +7260,67 @@ libarchive.exception.ArchiveError: Invalid string table (errno=22, retcode=-30, 
 [2023-05-10 05:27:23] INFO root fetch - main [MainThread]: End processing [pyEdgeEval]: success
 [2023-05-10 05:27:27] INFO root fetch - main [MainThread]: End processing [areixio]: success
 [2023-05-10 05:27:27] INFO root fetch - main [MainThread]: Store serial: [18041898]
+[2023-05-10 05:32:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18041898]
+[2023-05-10 05:32:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: csv-to-dynamodb
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amazon-codeguru-jupyterlab-extension
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-payment-order-grouped-output
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pdm
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQt-Fluent-Widgets
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: persisty
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dogfood-logger
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: arkdata
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: PyQt6-Fluent-Widgets
+[2023-05-10 05:32:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uniquesymbols
+[2023-05-10 05:32:39] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: New version: [16.0.1.0.1.2] Old Version: [16.0.1.0.1]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [amazon-codeguru-jupyterlab-extension]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [csv-to-dynamodb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [dogfood-logger]: New version: [0.1.1] Old Version: [0.1]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [persisty]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-10 05:32:39] WARNING root fetch - processPackages [uniquesymbols]: Skipping, unable to determine old version
+[2023-05-10 05:32:39] INFO root fetch - main [MainThread]: End processing [uniquesymbols] error
+[2023-05-10 05:32:39] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [arkdata]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-05-10 05:32:39] INFO root fetch - processPackages [pdm]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-05-10 05:32:40] INFO root fetch - processPackages [amazon-codeguru-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/b0/e8/4988b322177127c0cc489b2d7f3b6dda891b2e30adc7a05acfe0a77ad3c7/amazon_codeguru_jupyterlab_extension-0.0.3.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [dogfood-logger]: Downloading https://files.pythonhosted.org/packages/9b/f8/2c771444d1dedb6d965c84e83b6aa87f7d173663466a7f2146289c42c647/dogfood-logger-0.1.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/70/b5/4b9d72b2c23b3c6ad03c0195875adc01a220420df754a7fa7df1b0abb7b6/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl
+[2023-05-10 05:32:40] INFO root fetch - processPackages [persisty]: Downloading https://files.pythonhosted.org/packages/9e/a6/6334cb2985c5b8a50e02592d268e4d13bd1ac98880e4d9d31b6dfe8e86ab/persisty-0.0.7.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/e5/0b/f5903b60f8a156c500f95835c46526626b399c8c6256779e594d22bd1010/arkdata-1.0.8.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/85/5a/2002159c9b871b32619d6ba1ab8738ac6f212a26ce3e1e53d2515eb35173/pdm-2.6.1.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [csv-to-dynamodb]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [csv-to-dynamodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv_to_dynamodb-0.2.8.tar.gz tmp/csv_to_dynamodb-0.2.9.tar.gz --markdown 20230510/c/csv-to-dynamodb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/4d/fb/26666261e3f1e4a958b81491f0030fcc0b3b35261593ed57e42428a09dea/PyQt-Fluent-Widgets-0.8.7.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/30/23/35f9769118b258b71fee6f15042d99b1ffb01c2178e5d29d3b9a0d36722c/PyQt6-Fluent-Widgets-0.8.7.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: Downloading https://files.pythonhosted.org/packages/cc/5d/2b94c9fd790cd7df615f06a3eb2fdbb75f5589e6e10762dfa77b566d19dd/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.2-py3-none-any.whl
+[2023-05-10 05:32:40] INFO root fetch - processPackages [amazon-codeguru-jupyterlab-extension]: Downloading https://files.pythonhosted.org/packages/66/3f/6866a6197748aa196dfebca25b8bfe49bb6748a309f21a079aa2916d7870/amazon_codeguru_jupyterlab_extension-1.0.0.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [dogfood-logger]: Downloading https://files.pythonhosted.org/packages/b1/76/0d57f71ea9265cc5e2862c1a95f95c6b1f092d66a0295ff47cbddfe3aea2/dogfood-logger-0.1.1.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [odoo-addon-account-payment-order-grouped-output]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_account_payment_order_grouped_output-16.0.1.0.1.2-py3-none-any.whl.zip --markdown 20230510/o/odoo-addon-account-payment-order-grouped-output/16.0.1.0.1-16.0.1.0.1.2/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [amazon-codeguru-jupyterlab-extension]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [amazon-codeguru-jupyterlab-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amazon_codeguru_jupyterlab_extension-0.0.3.tar.gz tmp/amazon_codeguru_jupyterlab_extension-1.0.0.tar.gz --markdown 20230510/a/amazon-codeguru-jupyterlab-extension/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [persisty]: Downloading https://files.pythonhosted.org/packages/59/b9/6d7172704fa8515476f62f3069f49cff6e7be54c2de86a58682fe1fd65ee/persisty-0.0.8.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [dogfood-logger]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [dogfood-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dogfood-logger-0.1.tar.gz tmp/dogfood-logger-0.1.1.tar.gz --markdown 20230510/d/dogfood-logger/0.1-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-0.8.6.tar.gz tmp/PyQt-Fluent-Widgets-0.8.7.tar.gz --markdown 20230510/P/PyQt-Fluent-Widgets/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [arkdata]: Downloading https://files.pythonhosted.org/packages/59/d9/47955dd632f5f92c50f9b641f8edf57f4f328b6e758b6199abd45f2118c0/arkdata-1.0.9.tar.gz
+[2023-05-10 05:32:40] INFO root fetch - processPackages [persisty]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [persisty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/persisty-0.0.7.tar.gz tmp/persisty-0.0.8.tar.gz --markdown 20230510/p/persisty/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.6.0.tar.gz tmp/pdm-2.6.1.tar.gz --markdown 20230510/p/pdm/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [arkdata]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [arkdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arkdata-1.0.8.tar.gz tmp/arkdata-1.0.9.tar.gz --markdown 20230510/a/arkdata/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-05-10 05:32:40] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-0.8.6.tar.gz tmp/PyQt6-Fluent-Widgets-0.8.7.tar.gz --markdown 20230510/P/PyQt6-Fluent-Widgets/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-05-10 05:32:41] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-order-grouped-output]: success
+[2023-05-10 05:32:41] INFO root fetch - main [MainThread]: End processing [dogfood-logger]: success
+[2023-05-10 05:32:42] INFO root fetch - main [MainThread]: End processing [csv-to-dynamodb]: success
+[2023-05-10 05:32:42] INFO root fetch - main [MainThread]: End processing [arkdata]: success
+[2023-05-10 05:32:42] INFO root fetch - main [MainThread]: End processing [persisty]: success
+[2023-05-10 05:32:43] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-05-10 05:32:43] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-05-10 05:32:45] INFO root fetch - main [MainThread]: End processing [amazon-codeguru-jupyterlab-extension]: success
+[2023-05-10 05:32:46] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-05-10 05:32:46] INFO root fetch - main [MainThread]: Store serial: [18041934]
