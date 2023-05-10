@@ -19488,3 +19488,104 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 17:02:05] INFO root fetch - main [MainThread]: End processing [wmcore]: success
 [2023-05-10 17:02:09] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-05-10 17:02:09] INFO root fetch - main [MainThread]: Store serial: [18048922]
+[2023-05-10 17:07:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18048922]
+[2023-05-10 17:07:19] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunpy-sphinx-theme
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: satosacontrib.perun
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kiba-core
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frequency-feature-map-visualization
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-roy-CERT-1955-assertHits
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: neurotechdevkit
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: WeConnect-SolarManager
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py3d
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyanalyze
+[2023-05-10 17:07:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Universum
+[2023-05-10 17:07:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: New version: [20230510.9.51.843026] Old Version: [20230510.12.7.55281]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [neurotechdevkit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [sunpy-sphinx-theme]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [satosacontrib.perun]: New version: [3.0.0] Old Version: [2.0.0]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [kiba-core]: New version: [0.5.2.dev3] Old Version: [0.5.2.dev2]
+[2023-05-10 17:07:19] WARNING root fetch - processPackages [frequency-feature-map-visualization]: Skipping, unable to determine old version
+[2023-05-10 17:07:19] INFO root fetch - processPackages [frequency-feature-map-visualization]: Start processing: hftbacktest
+[2023-05-10 17:07:19] INFO root fetch - processPackages [WeConnect-SolarManager]: New version: [0.3.0rc1] Old Version: [0.2.2]
+[2023-05-10 17:07:19] INFO root fetch - main [MainThread]: End processing [frequency-feature-map-visualization] error
+[2023-05-10 17:07:19] INFO root fetch - processPackages [Universum]: New version: [0.19.9] Old Version: [0.19.8]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [neurotechdevkit]: executing diffoscope
+[2023-05-10 17:07:19] INFO root fetch - processPackages [neurotechdevkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurotechdevkit-0.0.8.tar.gz tmp/neurotechdevkit-0.0.9.tar.gz --markdown 20230510/n/neurotechdevkit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:07:19] INFO root fetch - processPackages [pyanalyze]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [py3d]: New version: [0.0.9] Old Version: [0.0.84]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Downloading https://files.pythonhosted.org/packages/d2/97/bb3667eaea795024f769000225543de77b6511a3aa4654bfe01b442756ec/certora-cli-alpha-roy-CERT-1955-assertHits-20230510.12.7.55281.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [hftbacktest]: New version: [1.5.5] Old Version: [1.5.4]
+[2023-05-10 17:07:19] WARNING root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Skipping package: exceeds size limit 39214427>=10485760
+[2023-05-10 17:07:19] INFO root fetch - processPackages [certora-cli-alpha-roy-CERT-1955-assertHits]: Start processing: staticHL
+[2023-05-10 17:07:19] INFO root fetch - processPackages [py3d]: Downloading https://files.pythonhosted.org/packages/b3/1f/bc791b70a29d8282c26c9b25103129e6424051737fd5ee7b5d281ef3deaa/py3d-0.0.84.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-roy-CERT-1955-assertHits] error
+[2023-05-10 17:07:19] INFO root fetch - processPackages [WeConnect-SolarManager]: Downloading https://files.pythonhosted.org/packages/3f/3d/839f369da7f5e252642c40ebd7b38fdd8504aa60d7205126da44cfcb6c9f/WeConnect_SolarManager-0.2.2-py3-none-any.whl
+[2023-05-10 17:07:19] INFO root fetch - processPackages [sunpy-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/6c/82/359ef7c6d7e68646d4c608b07110343b3c32f5559a952ec1c589cfc62b7a/sunpy-sphinx-theme-1.2.8.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/a4/7f/76a642206cf0b74a7922ccc52b8d63d8db0cdd0d989bdebd0b4460f9a581/kiba_core-0.5.2.dev2-py3-none-any.whl
+[2023-05-10 17:07:19] INFO root fetch - processPackages [pyanalyze]: Downloading https://files.pythonhosted.org/packages/80/81/e51d25e8296d30ce900c4aca15b0d5b0d3666989fdde640fc8b69e1df408/pyanalyze-0.8.0.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/f2/76/b0f3aed9907b22940f07aa25285bcc5607c7ea8980dcc3fe41e81a055934/satosacontrib.perun-2.0.0.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [Universum]: Downloading https://files.pythonhosted.org/packages/93/29/b5e21b584dfc2065a928949b594a566c7dcd745d4368d992342c8aa46a7c/Universum-0.19.8.tar.gz
+[2023-05-10 17:07:19] WARNING root fetch - processPackages [staticHL]: Skipping, unable to determine old version
+[2023-05-10 17:07:19] INFO root fetch - processPackages [staticHL]: Start processing: camerahub-tagger
+[2023-05-10 17:07:19] INFO root fetch - main [MainThread]: End processing [staticHL] error
+[2023-05-10 17:07:19] INFO root fetch - processPackages [hftbacktest]: Downloading https://files.pythonhosted.org/packages/a6/4a/6cc7f4a2cb388b25a5a1d73400b04662cc4ed7f900363af79d2f633fc05a/hftbacktest-1.5.4.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [camerahub-tagger]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-05-10 17:07:19] INFO root fetch - processPackages [WeConnect-SolarManager]: Downloading https://files.pythonhosted.org/packages/a4/79/d9995bdb9f3556594e44d6c7486c52cb82afe2714293983013161a132249/WeConnect_SolarManager-0.3.0rc1-py3-none-any.whl
+[2023-05-10 17:07:19] INFO root fetch - processPackages [satosacontrib.perun]: Downloading https://files.pythonhosted.org/packages/a3/aa/e1b0cf1d2492faa58c5cad81d8c10d51394f2aedf8d7cf9deb962511dbfe/satosacontrib.perun-3.0.0.tar.gz
+[2023-05-10 17:07:19] INFO root fetch - processPackages [kiba-core]: Downloading https://files.pythonhosted.org/packages/70/95/fd8116deb4ce0b1cb52a918f8c1ed0572b2523432b0ced3969cdca29cbb8/kiba_core-0.5.2.dev3-py3-none-any.whl
+[2023-05-10 17:07:19] INFO root fetch - processPackages [satosacontrib.perun]: executing diffoscope
+[2023-05-10 17:07:19] INFO root fetch - processPackages [satosacontrib.perun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosacontrib.perun-2.0.0.tar.gz tmp/satosacontrib.perun-3.0.0.tar.gz --markdown 20230510/s/satosacontrib.perun/2.0.0-3.0.0/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [pyanalyze]: Downloading https://files.pythonhosted.org/packages/8d/08/84b99031bff93f28da513af6336a9bc27b728c2748b50132fc21f8a34bf0/pyanalyze-0.9.0.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [py3d]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/a6/c7/41a6cbd17640bf12e86b8c3393e2a97885cecaee4a51d0f0793e83346ebd/camerahub_tagger-0.3.3.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [py3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3d-0.0.84.tar.gz tmp/py3d-0.0.9.tar.gz --markdown 20230510/p/py3d/0.0.84-0.0.9/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [Universum]: Downloading https://files.pythonhosted.org/packages/f3/13/f2ac33065a9d9be56c2f38d5deff438f26d310eabdf2db4e61f8d34c1452/Universum-0.19.9.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [kiba-core]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [kiba-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiba_core-0.5.2.dev2-py3-none-any.whl.zip tmp/kiba_core-0.5.2.dev3-py3-none-any.whl.zip --markdown 20230510/k/kiba-core/0.5.2.dev2-0.5.2.dev3/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [hftbacktest]: Downloading https://files.pythonhosted.org/packages/6d/38/52f31767007c023a9946ed41c8b10d06b4a95341a2388348722eea6503f7/hftbacktest-1.5.5.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [WeConnect-SolarManager]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [WeConnect-SolarManager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WeConnect_SolarManager-0.2.2-py3-none-any.whl.zip tmp/WeConnect_SolarManager-0.3.0rc1-py3-none-any.whl.zip --markdown 20230510/W/WeConnect-SolarManager/0.2.2-0.3.0rc1/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [sunpy-sphinx-theme]: Downloading https://files.pythonhosted.org/packages/e2/63/bce77af59b428adf40b66a4f15a24e5a1d298885c5dc2a4052b31a16813e/sunpy-sphinx-theme-1.2.9.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [pyanalyze]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [pyanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyanalyze-0.8.0.tar.gz tmp/pyanalyze-0.9.0.tar.gz --markdown 20230510/p/pyanalyze/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [Universum]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [Universum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Universum-0.19.8.tar.gz tmp/Universum-0.19.9.tar.gz --markdown 20230510/U/Universum/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [hftbacktest]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [hftbacktest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hftbacktest-1.5.4.tar.gz tmp/hftbacktest-1.5.5.tar.gz --markdown 20230510/h/hftbacktest/1.5.4-1.5.5/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [camerahub-tagger]: Downloading https://files.pythonhosted.org/packages/ad/ee/81f77c7c925218261365ebb92513de466d3afe0e828ee929c1c31cfbc6c2/camerahub_tagger-0.4.0.tar.gz
+[2023-05-10 17:07:20] INFO root fetch - processPackages [camerahub-tagger]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [camerahub-tagger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camerahub_tagger-0.3.3.tar.gz tmp/camerahub_tagger-0.4.0.tar.gz --markdown 20230510/c/camerahub-tagger/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 17:07:20] INFO root fetch - processPackages [sunpy-sphinx-theme]: executing diffoscope
+[2023-05-10 17:07:20] INFO root fetch - processPackages [sunpy-sphinx-theme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunpy-sphinx-theme-1.2.8.tar.gz tmp/sunpy-sphinx-theme-1.2.9.tar.gz --markdown 20230510/s/sunpy-sphinx-theme/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-05-10 17:07:21] INFO root fetch - processPackages [WeConnect-SolarManager]: Start processing: warsaw-data-api
+[2023-05-10 17:07:21] INFO root fetch - main [MainThread]: End processing [WeConnect-SolarManager]: success
+[2023-05-10 17:07:21] INFO root fetch - processPackages [warsaw-data-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 17:07:21] INFO root fetch - processPackages [kiba-core]: Start processing: areas
+[2023-05-10 17:07:21] INFO root fetch - main [MainThread]: End processing [kiba-core]: success
+[2023-05-10 17:07:21] INFO root fetch - processPackages [warsaw-data-api]: Downloading https://files.pythonhosted.org/packages/6c/70/6c1253a03d8ad6b4c4e2c5d13c89b7a299a6b154adae923889444490ac89/warsaw-data-api-0.3.0.tar.gz
+[2023-05-10 17:07:21] INFO root fetch - processPackages [areas]: New version: [0.1.9.1] Old Version: [0.1.9]
+[2023-05-10 17:07:21] INFO root fetch - processPackages [camerahub-tagger]: Start processing: gimera
+[2023-05-10 17:07:21] INFO root fetch - main [MainThread]: End processing [camerahub-tagger]: success
+[2023-05-10 17:07:21] INFO root fetch - processPackages [gimera]: New version: [0.6.9] Old Version: [0.6.86]
+[2023-05-10 17:07:21] INFO root fetch - main [MainThread]: End processing [hftbacktest]: success
+[2023-05-10 17:07:22] INFO root fetch - processPackages [areas]: Downloading https://files.pythonhosted.org/packages/af/a0/f7c0cb65f90e473e9fd2727623f07e1b9e68a064866eac79ea057d94498b/areas-0.1.9.tar.gz
+[2023-05-10 17:07:22] INFO root fetch - processPackages [warsaw-data-api]: Downloading https://files.pythonhosted.org/packages/d4/16/1b42aaf9682d4a22e21037a5609f8292667b43130fb143cfe3920f411e93/warsaw_data_api-0.3.1.tar.gz
+[2023-05-10 17:07:22] INFO root fetch - processPackages [gimera]: Downloading https://files.pythonhosted.org/packages/4c/81/554c122c759815572fb8aa44ded6122b0b4ead52e7cbfd04f0f5859a1f2c/gimera-0.6.86.tar.gz
+[2023-05-10 17:07:22] INFO root fetch - main [MainThread]: End processing [satosacontrib.perun]: success
+[2023-05-10 17:07:22] INFO root fetch - main [MainThread]: End processing [sunpy-sphinx-theme]: success
+[2023-05-10 17:07:22] INFO root fetch - main [MainThread]: End processing [Universum]: success
+[2023-05-10 17:07:22] INFO root fetch - processPackages [gimera]: executing diffoscope
+[2023-05-10 17:07:22] INFO root fetch - processPackages [gimera]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gimera-0.6.86.tar.gz tmp/gimera-0.6.9.tar.gz --markdown 20230510/g/gimera/0.6.86-0.6.9/diff.md --exclude *.pyd
+[2023-05-10 17:07:22] INFO root fetch - processPackages [warsaw-data-api]: executing diffoscope
+[2023-05-10 17:07:22] INFO root fetch - processPackages [warsaw-data-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warsaw-data-api-0.3.0.tar.gz tmp/warsaw_data_api-0.3.1.tar.gz --markdown 20230510/w/warsaw-data-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 17:07:22] INFO root fetch - processPackages [areas]: Downloading https://files.pythonhosted.org/packages/81/70/e2ee7756bc394b05b1ebb3cdddef9c7ecf4f2639fc7a7274ecd4e47e0376/areas-0.1.9.1.tar.gz
+[2023-05-10 17:07:22] INFO root fetch - processPackages [areas]: executing diffoscope
+[2023-05-10 17:07:22] INFO root fetch - processPackages [areas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/areas-0.1.9.tar.gz tmp/areas-0.1.9.1.tar.gz --markdown 20230510/a/areas/0.1.9-0.1.9.1/diff.md --exclude *.pyd
+[2023-05-10 17:07:22] INFO root fetch - main [MainThread]: End processing [pyanalyze]: success
+[2023-05-10 17:07:23] INFO root fetch - main [MainThread]: End processing [gimera]: success
+[2023-05-10 17:07:23] INFO root fetch - main [MainThread]: End processing [warsaw-data-api]: success
+[2023-05-10 17:07:23] INFO root fetch - main [MainThread]: End processing [areas]: success
+[2023-05-10 17:07:24] INFO root fetch - main [MainThread]: End processing [neurotechdevkit]: success
+[2023-05-10 17:07:24] INFO root fetch - main [MainThread]: End processing [py3d]: success
+[2023-05-10 17:07:24] INFO root fetch - main [MainThread]: Store serial: [18048976]
