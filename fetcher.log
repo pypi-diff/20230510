@@ -22961,3 +22961,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-05-10 20:08:18] INFO root fetch - main [MainThread]: End processing [cdk-watchful]: success
 [2023-05-10 20:08:27] INFO root fetch - main [MainThread]: End processing [epyk]: success
 [2023-05-10 20:08:27] INFO root fetch - main [MainThread]: Store serial: [18051108]
+[2023-05-10 20:13:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18051108]
+[2023-05-10 20:13:37] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moddagudu
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PatryksAutoAI
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pii-extract-base
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: domolibrary
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pii-extract-plg-regex
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geowatch
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pii-extract-plg-presidio
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pii-transform
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: weighted-kdtree
+[2023-05-10 20:13:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rapidpro-dash
+[2023-05-10 20:13:37] INFO root fetch - processPackages [moddagudu]: New version: [1.7] Old Version: [1.6]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [PatryksAutoAI]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-base]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-05-10 20:13:37] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.8.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230510/d/domolibrary/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-plg-regex]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-plg-presidio]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-transform]: New version: [0.5.0] Old Version: [0.4.2]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [weighted-kdtree]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [geowatch]: New version: [0.6.6] Old Version: [0.6.3]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [rapidpro-dash]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-05-10 20:13:37] INFO root fetch - processPackages [moddagudu]: Downloading https://files.pythonhosted.org/packages/db/85/b50a1aee80359ab7372cf8f1c7b397a2816d9bc20d78a88995048d19b5ad/moddagudu-1.7.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [PatryksAutoAI]: Downloading https://files.pythonhosted.org/packages/0c/00/8ff86eeda9078b4ab8e23af309697ce369aef60e6a5a4352b3243a8a8c27/PatryksAutoAI-0.1.4.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-plg-presidio]: Downloading https://files.pythonhosted.org/packages/a1/9e/8bd41821f1941a32bcd7d358c17292f9d8d38c8f29f63e3a5bd27f601004/pii-extract-plg-presidio-0.2.0.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [geowatch]: Downloading https://files.pythonhosted.org/packages/cd/e4/f84f19f8891597aeec0984ec6bcde0aaf5c03c33fac98ddb91e2ab552a2a/geowatch-0.6.3.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [moddagudu]: executing diffoscope
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-transform]: Downloading https://files.pythonhosted.org/packages/a6/2f/57fe0d5f3e344301612d50e5a555cf11f2cdae6f8c7e26ecdde4b8babf31/pii-transform-0.4.2.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [moddagudu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moddagudu-1.6.tar.gz tmp/moddagudu-1.7.tar.gz --markdown 20230510/m/moddagudu/1.6-1.7/diff.md --exclude *.pyd
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-plg-regex]: Downloading https://files.pythonhosted.org/packages/75/e6/9a6ae9cb638336cf2b20f35498f9ec5815b026afa0baf89b4a95c5b2fd8d/pii-extract-plg-regex-0.3.0.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/08/38/485fd7c63daba8cfaf1fb186f5bc1eccfa3c38a894f663de66808384b3f2/rapidpro-dash-1.9.2.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-base]: Downloading https://files.pythonhosted.org/packages/24/0d/b486daa238072d23ee614a0f9905267d0f424c65860fa142547fa8d831c5/pii-extract-base-0.3.1.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [weighted-kdtree]: Downloading https://files.pythonhosted.org/packages/e2/16/d832f7cb32f1539994beb1e278315b701734e84d4cb1d98deb2a2c8171c0/weighted_kdtree-0.1.0.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [PatryksAutoAI]: executing diffoscope
+[2023-05-10 20:13:37] INFO root fetch - processPackages [PatryksAutoAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PatryksAutoAI-0.1.3.tar.gz tmp/PatryksAutoAI-0.1.4.tar.gz --markdown 20230510/P/PatryksAutoAI/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-transform]: Downloading https://files.pythonhosted.org/packages/0c/bb/4ca8e58b6cab90956bd4a858216d131136ae985de781f6488a2e96b23612/pii-transform-0.5.0.tar.gz
+[2023-05-10 20:13:37] INFO root fetch - processPackages [pii-extract-base]: Downloading https://files.pythonhosted.org/packages/f6/73/09aab967e1cb42919d386793b68a71ac8399ca907da9b72921d49a988def/pii-extract-base-0.4.0.tar.gz
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-presidio]: Downloading https://files.pythonhosted.org/packages/64/c2/3a89592529b835cfe9ab0d269c4b9f5b2009669f3e15f3da9b8f9a3041c6/pii-extract-plg-presidio-0.3.0.tar.gz
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-regex]: Downloading https://files.pythonhosted.org/packages/dc/63/fd9c98fdab51b8ef46dcaab25c95c24a4e652b0440b929cfbcf5cf798d07/pii-extract-plg-regex-0.4.0.tar.gz
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-transform]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-transform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii-transform-0.4.2.tar.gz tmp/pii-transform-0.5.0.tar.gz --markdown 20230510/p/pii-transform/0.4.2-0.5.0/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [weighted-kdtree]: Downloading https://files.pythonhosted.org/packages/25/38/1e9ef05c2c64a598eb4e9d3d3347ab749d1c4f7401a9b973ed3b1cb713fb/weighted_kdtree-0.1.1-py3-none-any.whl
+[2023-05-10 20:13:38] INFO root fetch - processPackages [geowatch]: Downloading https://files.pythonhosted.org/packages/06/4b/42cee06c586627ebc79e3571991c2f9bca74e28e7a7d409dd95ba215f0c1/geowatch-0.6.6.tar.gz
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-base]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii-extract-base-0.3.1.tar.gz tmp/pii-extract-base-0.4.0.tar.gz --markdown 20230510/p/pii-extract-base/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-regex]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-regex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii-extract-plg-regex-0.3.0.tar.gz tmp/pii-extract-plg-regex-0.4.0.tar.gz --markdown 20230510/p/pii-extract-plg-regex/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [weighted-kdtree]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [weighted-kdtree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weighted_kdtree-0.1.0.tar.gz tmp/weighted_kdtree-0.1.1-py3-none-any.whl.zip --markdown 20230510/w/weighted-kdtree/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-presidio]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pii-extract-plg-presidio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pii-extract-plg-presidio-0.2.0.tar.gz tmp/pii-extract-plg-presidio-0.3.0.tar.gz --markdown 20230510/p/pii-extract-plg-presidio/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [rapidpro-dash]: Downloading https://files.pythonhosted.org/packages/fb/0e/24c9ff9aeb5de4bdba447f2be83c8b05beecbf976cf428913f5275904198/rapidpro-dash-1.9.3.tar.gz
+[2023-05-10 20:13:38] INFO root fetch - processPackages [geowatch]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [geowatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geowatch-0.6.3.tar.gz tmp/geowatch-0.6.6.tar.gz --markdown 20230510/g/geowatch/0.6.3-0.6.6/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [rapidpro-dash]: executing diffoscope
+[2023-05-10 20:13:38] INFO root fetch - processPackages [rapidpro-dash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpro-dash-1.9.2.tar.gz tmp/rapidpro-dash-1.9.3.tar.gz --markdown 20230510/r/rapidpro-dash/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-05-10 20:13:38] INFO root fetch - processPackages [moddagudu]: Start processing: pyspaceaware
+[2023-05-10 20:13:38] INFO root fetch - main [MainThread]: End processing [moddagudu]: success
+[2023-05-10 20:13:38] WARNING root fetch - processPackages [pyspaceaware]: Skipping, unable to determine old version
+[2023-05-10 20:13:38] INFO root fetch - processPackages [pyspaceaware]: Start processing: bionty
+[2023-05-10 20:13:38] INFO root fetch - main [MainThread]: End processing [pyspaceaware] error
+[2023-05-10 20:13:39] INFO root fetch - processPackages [bionty]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-05-10 20:13:39] INFO root fetch - processPackages [bionty]: executing diffoscope
+[2023-05-10 20:13:39] INFO root fetch - processPackages [bionty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bionty-0.9.0.tar.gz tmp/bionty-0.9.0rc1.tar.gz --markdown 20230510/b/bionty/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-05-10 20:13:39] INFO root fetch - processPackages [pii-transform]: Start processing: easytorch
+[2023-05-10 20:13:39] INFO root fetch - main [MainThread]: End processing [pii-transform]: success
+[2023-05-10 20:13:39] INFO root fetch - processPackages [easytorch]: New version: [3.7.7] Old Version: [3.7.6]
+[2023-05-10 20:13:39] INFO root fetch - processPackages [PatryksAutoAI]: Start processing: dask-bigquery
+[2023-05-10 20:13:39] INFO root fetch - main [MainThread]: End processing [PatryksAutoAI]: success
+[2023-05-10 20:13:39] INFO root fetch - processPackages [dask-bigquery]: New version: [2023.5.0] Old Version: [2022.5.0]
+[2023-05-10 20:13:39] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/89/21/59c36fb7e47db93bfd3966aa40c887a013e6f052a57f180006108a41ff9b/easytorch-3.7.6.tar.gz
+[2023-05-10 20:13:39] INFO root fetch - processPackages [domolibrary]: Start processing: proteus-cli
+[2023-05-10 20:13:39] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-05-10 20:13:40] INFO root fetch - processPackages [pii-extract-plg-presidio]: Start processing: mutyper
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [pii-extract-plg-presidio]: success
+[2023-05-10 20:13:40] INFO root fetch - processPackages [proteus-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-05-10 20:13:40] INFO root fetch - processPackages [dask-bigquery]: Downloading https://files.pythonhosted.org/packages/16/58/a0c160fd2fad894cd780e7338f425ca81ec69b9f111f85747a519fb1a24f/dask-bigquery-2022.5.0.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [mutyper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-05-10 20:13:40] INFO root fetch - processPackages [easytorch]: Downloading https://files.pythonhosted.org/packages/9c/e5/ace0a3401a69305c8a3f099fabee4a548c65fc4c22aef3f8fcc9df20e8c0/easytorch-3.7.7.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [weighted-kdtree]: Start processing: aiomisc-dependency
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [weighted-kdtree]: success
+[2023-05-10 20:13:40] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/b6/b5/814a4d92a52e9199f4f4470cae1b02a19c57866e12bb8eeb01550f8b8b55/proteus_cli-0.3.0.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [aiomisc-dependency]: New version: [0.1.7] Old Version: [0.1.4]
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [pii-extract-base]: success
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [pii-extract-plg-regex]: success
+[2023-05-10 20:13:40] INFO root fetch - processPackages [mutyper]: Downloading https://files.pythonhosted.org/packages/0e/d9/45a29b31f917d2c9899b5a51bb3b1d62f4926df74ab7e4c601620765d97f/mutyper-1.0.1.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [dask-bigquery]: Downloading https://files.pythonhosted.org/packages/d6/14/c7ebce5e77f4f7beca35d3d76df96977144d0cdb1bc5ab32fba529d1642f/dask-bigquery-2023.5.0.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [easytorch]: executing diffoscope
+[2023-05-10 20:13:40] INFO root fetch - processPackages [easytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easytorch-3.7.6.tar.gz tmp/easytorch-3.7.7.tar.gz --markdown 20230510/e/easytorch/3.7.6-3.7.7/diff.md --exclude *.pyd
+[2023-05-10 20:13:40] INFO root fetch - processPackages [aiomisc-dependency]: Downloading https://files.pythonhosted.org/packages/f2/f2/e4eb0c3a0fbc441b524a6d0ffce57b34d2f68c08b31a65aa8b7b1830d4b6/aiomisc_dependency-0.1.4.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [proteus-cli]: Downloading https://files.pythonhosted.org/packages/c9/1e/63756e2bd0d2961bff33c5e1cc34dbbc9727739fe8c21477dc7a00a99fea/proteus_cli-0.3.1.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - processPackages [dask-bigquery]: executing diffoscope
+[2023-05-10 20:13:40] INFO root fetch - processPackages [dask-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-bigquery-2022.5.0.tar.gz tmp/dask-bigquery-2023.5.0.tar.gz --markdown 20230510/d/dask-bigquery/2022.5.0-2023.5.0/diff.md --exclude *.pyd
+[2023-05-10 20:13:40] INFO root fetch - processPackages [proteus-cli]: executing diffoscope
+[2023-05-10 20:13:40] INFO root fetch - processPackages [proteus-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proteus_cli-0.3.0.tar.gz tmp/proteus_cli-0.3.1.tar.gz --markdown 20230510/p/proteus-cli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-05-10 20:13:40] INFO root fetch - processPackages [mutyper]: Downloading https://files.pythonhosted.org/packages/a1/de/3f4b06387950e2dee7ba2259ebe8ca68f29aa0cd8452c89ee8570bce3096/mutyper-1.0.2.tar.gz
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [rapidpro-dash]: success
+[2023-05-10 20:13:40] INFO root fetch - main [MainThread]: End processing [bionty]: success
+[2023-05-10 20:13:40] INFO root fetch - processPackages [aiomisc-dependency]: Downloading https://files.pythonhosted.org/packages/24/9c/0d25ca081d6f1487634af2557af7816d869d4359d4e584e48065a5e23d99/aiomisc_dependency-0.1.7.tar.gz
+[2023-05-10 20:13:41] INFO root fetch - processPackages [mutyper]: executing diffoscope
+[2023-05-10 20:13:41] INFO root fetch - processPackages [mutyper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mutyper-1.0.1.tar.gz tmp/mutyper-1.0.2.tar.gz --markdown 20230510/m/mutyper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-05-10 20:13:41] INFO root fetch - processPackages [aiomisc-dependency]: executing diffoscope
+[2023-05-10 20:13:41] INFO root fetch - processPackages [aiomisc-dependency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230510:/home/abi/fetcher/20230510:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomisc_dependency-0.1.4.tar.gz tmp/aiomisc_dependency-0.1.7.tar.gz --markdown 20230510/a/aiomisc-dependency/0.1.4-0.1.7/diff.md --exclude *.pyd
+[2023-05-10 20:13:41] ERROR root fetch - processPackages [aiomisc-dependency]: Diffoscope failed: Error: error creating container storage: the container name "stoic_grothendieck" is already in use by "8a68d251e8d621db5043b66b73152664cbadaadd500bbd17002b8bde614b6dae". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-05-10 20:13:41] INFO root fetch - main [MainThread]: End processing [aiomisc-dependency] error
+[2023-05-10 20:13:41] INFO root fetch - main [MainThread]: End processing [easytorch]: success
+[2023-05-10 20:13:41] INFO root fetch - main [MainThread]: End processing [dask-bigquery]: success
+[2023-05-10 20:13:42] INFO root fetch - main [MainThread]: End processing [proteus-cli]: success
+[2023-05-10 20:13:42] INFO root fetch - main [MainThread]: End processing [mutyper]: success
+[2023-05-10 20:13:54] INFO root fetch - main [MainThread]: End processing [geowatch]: success
+[2023-05-10 20:13:54] INFO root fetch - main [MainThread]: Store serial: [18051161]
